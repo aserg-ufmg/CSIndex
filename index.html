@@ -1,0 +1,111 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <title>CoreBR Project</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="dashboard.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">CoreBR</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faq.html">FAQ</a>
+            </li>
+          </ul>
+          
+        </div>
+      </nav>
+    </header>
+
+   
+<div class="container">
+
+<h2>CoreBR: <small>Crawling Brazilian Papers in Core CS Conferences (alpha version)</small></h2>
+
+<p>
+CoreBR collects (from <a href="http://dblp.uni-trier.de">DBLP</a>) papers published by Brazilian authors in major Computer Science conferences. 
+It is inspired in the <a href="http://csrankings.org/">CSRankings</a> site, but considering more conferences.
+In this version, CoreBR covers only Software Engineering papers. 
+But we are actively working to cover other areas.
+
+<div class="row">
+
+<div class="col-sm-3" style="background-color:WhiteSmoke;">
+
+<ul style="list-style-type:none">
+<li> <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vS6VF8Za3uzqtnRnVOvj8VFEhNCeFduYZZ2baHQDkq3RID15Dr0V4kWr7-EodFNTmcCIwTHHfC2d59d/pubhtml?widget=true&amp;headers=false" target="frame-results">Software Engineering</a>
+<li> <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSnQCTA1VLx9rJWdA392FVYYV_OpPfFhjDA6ptY5SyDecTofOWY6Kh61o082F4Dyz0hhElpH6ZW6jo6/pubhtml?widget=true&amp;headers=false" target="frame-results">Programming Languages</a>
+
+</ul>
+
+</div>
+    
+<div class="col-sm-9">
+<iframe name="frame-results" id="name-results" height=500 width=800 src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS6VF8Za3uzqtnRnVOvj8VFEhNCeFduYZZ2baHQDkq3RID15Dr0V4kWr7-EodFNTmcCIwTHHfC2d59d/pubhtml?widget=true&amp;headers=false"></iframe>
+</div>
+
+</div>
+
+<p class="text-center">
+
+<small>CoreBR is provided by <a href="http://aserg.labsoft.dcc.ufmg.br/">ASERG/UFMG</a>, under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0
+ </a>license</small>
+</p>
+
+</div>
+
+<script>
+
+function loadIframe(iframeName, url) {
+    var $iframe = $('#' + iframeName);
+    if ( $iframe.length ) {
+        $iframe.attr('src',url);   
+        return false;
+    }
+    return true;
+}
+
+$('input[type=radio][name=area]').on('change', function() {
+     switch($(this).val()) {
+         case 'se':
+             alert("SE");
+             break;
+         case 'pl':
+             return loadIframe('#frame-results', "http://www.google.com");
+             break;
+     }
+});
+</script>       
+       
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../../../dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
