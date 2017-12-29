@@ -19,12 +19,8 @@
     
     <title>CoreBR Project</title>
 
-    <!-- Bootstrap core CSS -->
     <link href="bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
     <link href="dashboard.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     
   </head>
 
@@ -80,42 +76,14 @@ But we are actively working to cover other areas.
 </div>
 
 <p class="text-center">
-
 <small>CoreBR is provided by <a href="http://aserg.labsoft.dcc.ufmg.br/">ASERG/UFMG</a>, under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0
- </a>license</small>
-</p>
+ </a>license</small> </p>
 
 </div>
 
-<script>
-
-function loadIframe(iframeName, url) {
-    var $iframe = $('#' + iframeName);
-    if ( $iframe.length ) {
-        $iframe.attr('src',url);   
-        return false;
-    }
-    return true;
-}
-
-$('input[type=radio][name=area]').on('change', function() {
-     switch($(this).val()) {
-         case 'se':
-             alert("SE");
-             break;
-         case 'pl':
-             return loadIframe('#frame-results', "http://www.google.com");
-             break;
-     }
-});
-</script>       
-       
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../../../../assets/js/vendor/popper.min.js"></script>
-    <script src="../../../../dist/js/bootstrap.min.js"></script>
-  </body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    
+</body>
 </html>
