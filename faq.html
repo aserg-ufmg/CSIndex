@@ -20,8 +20,8 @@
     
    <title>CoreBR Project</title>
 
-   <link href="bootstrap.min.css" rel="stylesheet">
-   <link href="dashboard.css" rel="stylesheet">
+   <link href="./css/bootstrap.min.css" rel="stylesheet">
+   <link href="./css/dashboard.css" rel="stylesheet">
  </head>
 
  <body>
@@ -48,7 +48,7 @@
 
 <div class="container">
    
-<h2>Frequently Asked Questions</h2>
+<h2 class="text-center">Frequently Asked Questions</h2>
 
 
 <h6> Who maintain CoreBR? </h6>
@@ -74,53 +74,72 @@ conferences tracked by CoreBR during the period 2013-2017
 </ul>
 </p>
 
-<h6>What conferences are tracked?</h6>
-
-<p> First, it is important to mention that there is no predefined limit on the number of conferences 
-in each research area. But we do not intend to cover a large number of conferences. The number we 
-have in mind is at most 15 conferences per research area. For each area, it is mandatory to cover the
-top conferences and the below-the-fold conferences, as considered 
-by <a href="http://csrankings.org/">CSRankings</a>.</p>
-
 <h6>Why my paper is not listed?</h6>
 
 <p>
-Please, first check if it is a full paper, published in the conferences tracked by CoreBR (listed in
-the Confs sheet), in the last five years (2013-2017). If this is the case, also check if your 
-name is listed in the Profs sheet (which is a list of the Brazilian researchers tracked by CoreBR).
-If not, please open an <a href="https://github.com/aserg-ufmg/CoreBR/issues">issue</a> at GitHub, informing your name and 
-<a href="http://dblp.uni-trier.de/faq/How+can+I+fetch+all+publications+of+one+specific+author.html">PID</a> 
+Please, first check if it is a full paper, published in the 
+conferences tracked by CoreBR (listed in the Confs sheet), in the 
+last five years (2013-2017). If this is the case, also check if your 
+name is listed in the Profs sheet (which is a list of the Brazilian 
+researchers tracked by CoreBR).If not, please open an 
+<a href="https://github.com/aserg-ufmg/CoreBR/issues">issue</a> on 
+GitHub, informing your name, department, 
+and <a href="http://dblp.uni-trier.de/faq/How+can+I+fetch+all+publications+of+one+specific+author.html">PID</a> 
 at DBLP.</p>
+
+<h6>Which conferences are tracked?</h6>
+
+<p> First, there is no predefined limit on the number of conferences 
+in each research area. But we do not intend to cover a large number 
+of conferences. The number we have in mind is at most 15 conferences 
+per research area. For each area, it is mandatory to cover the
+top conferences and the below-the-fold conferences, as considered 
+by <a href="http://csrankings.org/">CSRankings</a>. </p>
+
 
 <h6>Why conference [Conf] is not covered?</h6>
 
-<p> We accept suggestions to track other conferences. However, as the name of the project suggests, 
-our main interest is on high-quality conferences, with good metrics (number of submitted/accepted papers,
-h5-index, etc) and also well-known sponsors (ACM SIGs, IEEE CS, etc). If you think this is the case of [Conf],
-please open an <a href="https://github.com/aserg-ufmg/CoreBR/issues">issue</a> at GitHub, informing 
-the statistics abut this conference in 2017 (see the 
-required statistics in the Confs sheet, in the spreadsheet with the results provided by CoreBR). </p>
+<p> We accept suggestions to track other conferences. However, 
+our main interest is on high-quality 
+conferences, with good metrics (number of submitted/accepted papers,
+h5-index, etc) and also well-known sponsors (ACM SIGs, IEEE CS, etc). 
+If you think this is the case of [Conf], please open an 
+<a href="https://github.com/aserg-ufmg/CoreBR/issues">issue</a> on 
+GitHub, informing the statistics abut this conference in 2017 (see the 
+required statistics in the Confs sheet, in the spreadsheet 
+with the results provided by CoreBR). Finally, we do not plan to 
+cover workshops or Brazilian conferences.</p>
 
+<!--
 <h6>How can I help so that CoreBR covers an research area X?</h6>
 
-<p> First, enter in contact providing basic statistics about the core conferences in X, in our opinion (see the
-required statistics in the Confs sheet, in the spreadsheet with the results provided by CoreBR).
-If we approve your list of conferences, you will also need to provide a list of Brazilian researchers
-in area X, including their 
+<p> First, enter in contact providing basic statistics about 
+the core conferences in X, in our opinion (see the required statistics 
+in the Confs sheet, in the spreadsheet with the results provided by CoreBR).
+If we approve your list of conferences, you will also need to provide 
+a list of Brazilian researchers in area X, including their 
 <a href="http://dblp.uni-trier.de/faq/How+can+I+fetch+all+publications+of+one+specific+author.html">DBLP PIDs</a>,
 (see Profs sheet).</p>
+
+
 
 <h6>What is your definition of research area?</h6>
 
 <p> A research area must have a Special Interest Group (Comissao Especial) at SBC or ACM.</p>
 
+--!>
+
 <h6>Do you plan to cover journals?</h6>
 
 <p> Yes, but only after covering conferences in a representative number of CS research areas.</p>
 
+<!---
 <h6>Do you plan to track papers from other countries?</h6>
 
-<p> Yes, by creating CoreXX forks; but not in the near future.</p>
+<p> Yes, we plan to encourage and help other groups to create CoreXX
+projects, covering papers in countries XX. Our code is public on GitHub,
+under MIT and CC licences.</p>
+--!>
 
 </div>
 
