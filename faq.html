@@ -54,33 +54,18 @@
 <h6> Who maintain CoreBR? </h6>
 
 <p>CoreBR is maintained by the <a href="http://aserg.labsoft.dcc.ufmg.br/">Applied Software Engineering Research Group</a>, 
- from Federal University of Minas Gerais, Brazil. However, the project is not endorsed by UFMG or any Brazilian research agency.</p>
+ from Federal University of Minas Gerais, Brazil. The project is not endorsed by UFMG or any Brazilian research agency.</p>
     
 <h6>How CoreBR works?</h6>
 
 <p> Papers are collected, using scripts, from <a href="http://dblp.uni-trier.de/">DBLP</a>. 
 We only collect full papers, accepted in the main research track of the considered conferences.</p>
 
-<h6>How are the results presented?</h6>
-
-<p> The data collected by CoreBR is presented using Google spreadsheets, in four sheets:
-
-<ul>
-<li> Summary: number of full papers with at least one Brazilian author published in the
-conferences tracked by CoreBR during 2013-2017
-<li> Departments: ranking of departments
-<li> Profs: Brazilian researchers tracked by CoreBR
-<li> Papers: data about the papers collected by CoreBR
-<li> Confs: sponsors and other statistics about the conferences covered by CoreBR
-</ul>
-</p>
-
 <h6>What is your definition of full paper?</h6>
 
-It is a paper presented in the main track of a conference. For PL and SE, we define
-a minimum size of 10 pages; for computer networks, the limit is 8 pages, which a usual size
+It is a paper presented in the main track of a conference. For example, for PL and SE, we define
+a minimum size of 10 pages; for computer networks, the limit is 8 pages, which is a usual size
 in the conferences of this area.<p>
-
 
 <h6>Why my paper is not listed?</h6>
 
@@ -116,7 +101,7 @@ GitHub, informing the statistics about this conference in 2017 (see the
 required statistics in the Confs sheet, in the spreadsheet 
 with the results provided by CoreBR).</p>
 
-<h6>How is the departments ranking computed?</h6>
+<h6>How is the departments score computed?</h6>
 
 Using this formula: score = A + (0.66 * B) + (0.33 * C), where A is the number 
 of papers in top conferences 
@@ -125,6 +110,8 @@ B is the number of papers in "below-the-fold" conferences (the ones only
 listed after clicking in the name of a research area in the CSRankings main menu); 
 and C is the number of papers
 in the remaining conferences tracked by CoreBR.
+It is important to mention that not all areas have "below-the-fold" conferences,
+according to the CSRankings classification.
 <p>
 
 <h6>How can I help so that CoreBR covers an research area X?</h6>
