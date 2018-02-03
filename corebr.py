@@ -5,24 +5,35 @@ import urllib2
 import re
 import sys
 import operator
+import os.path
 
-min_paper_size= int(sys.argv[3])
+#################################################
+
+# black-list are papers that must not be counted (e.g., in invalid tracks)
+# white-list are papers that must be counted (e.g. with missing page numbers)
+black_list= {}
+white_list= {}
+
+def init_black_white_lists():
+   global black_list, white_list
    
-reader1 = csv.reader(open(sys.argv[1], 'r'))
-confdata = {}
-for conf_row in reader1:
-  conf_dblp, conf_name, conf_weight = conf_row
-  confdata[conf_dblp]= conf_name, conf_weight
-  
-f = open('out.csv','w')
+   black_list_file= area_prefix + "-black-list.txt"
+   if os.path.exists(black_list_file):
+      with open(black_list_file) as blf:
+        black_list = blf.read().splitlines()
+   
+   white_list_file= area_prefix + "-white-list.txt"
+   if os.path.exists(white_list_file):
+      with open(white_list_file) as wlf:
+        white_list = wlf.read().splitlines()
+   print white_list
+   
+#################################################
 
-################################################################
-
-## The following two functions are reused from CSRankings code
+# The following two functions are reused from CSRankings code
 
 pageCounterNormal = re.compile('(\d+)-(\d+)')
 pageCounterColon = re.compile('[0-9]+:([1-9][0-9]*)-[0-9]+:([1-9][0-9]*)')
-
 
 def startpage(pageStr):
     global pageCounterNormal
@@ -60,6 +71,79 @@ def pagecount(pageStr):
             count = end - start + 1
     return count
 
+#################################################
+
+def output_papers():
+  global out;
+
+  sorted_papers = sorted(out.items(), key=lambda x: (x[1][1],x[1][0],x[1][2]))
+  f = open(area_prefix + '-out-papers.csv','w')
+  for i in range(0, len(sorted_papers)):
+    paper= sorted_papers[i][1]
+    f.write(str(i+1))
+    f.write(',')
+    f.write(str(paper[0]))
+    f.write(',')
+    f.write(str(paper[1]))
+    f.write(',')
+    f.write(str(paper[2].encode('utf-8')))
+    f.write(',')
+    f.write(str(paper[3]))
+    f.write(',')
+    for author in paper[4]:
+      f.write(str(author.encode('utf-8')))
+      f.write(',')
+    f.write('\n')
+  f.close()
+
+################################################################
+
+def output_scores():
+  global score
+  
+  final_score = {}
+  for dept in score:
+    s= score[dept]
+    if (s[0] > 0) or (s[1] > 0) or (s[2] > 0):
+       final_score[dept]= s[0] + (s[1] * 0.66) + (s[2] * 0.33)
+
+  sorted_scores_temp = sorted(final_score.items(), key=lambda x: x[0])
+  sorted_scores = sorted(sorted_scores_temp, key=lambda x: x[1], reverse=True)
+
+  f2 = open(area_prefix + '-out-scores.csv','w')
+  for i in range(0, len(sorted_scores)):
+    dept= sorted_scores[i][0]
+    f2.write(str(dept))
+    f2.write(',')
+    s= sorted_scores[i][1]
+    f2.write(str(s))
+    f2.write('\n')
+  f2.close()
+
+################################################################
+
+def output_profs():
+  global profs
+   
+  final_profs = {}
+  for dept in profs:
+    s= profs[dept]
+    if (s > 0):
+       final_profs[dept]= s
+
+  sorted_profs_temp = sorted(final_profs.items(), key=lambda x: x[0])
+  sorted_profs = sorted(sorted_profs_temp, key=lambda x: x[1], reverse=True)
+
+  f3 = open(area_prefix + '-out-profs.csv','w')
+  for i in range(0, len(sorted_profs)):
+    dept= sorted_profs[i][0]
+    f3.write(str(dept))
+    f3.write(',')
+    s= sorted_profs[i][1]
+    f3.write(str(s))
+    f3.write('\n')
+  f3.close()
+
 ################################################################
 
 processedArticles = {}
@@ -77,7 +161,7 @@ def inc_dept_score(weight, scores):
     return [s0,s1,s2]
         
 def handle_article(_, article):
-    global min_paper_size, department, found_paper
+    global min_paper_size, department, found_paper, black_list
     
     if 'journal' in article:
         if article['journal'] == "PACMPL":
@@ -94,20 +178,21 @@ def handle_article(_, article):
     if (int(year) >= 2013) and (int(year) <= 2017) and (conf_name_dblp in confdata):
            
         conf_name, conf_weight = confdata[conf_name_dblp] 
-  
+        url= article['url']
+               
         if 'pages' in article:
             pageCount = pagecount(article['pages'])
             startPage = startpage(article['pages'])
-        else:
+        elif url in white_list:
+            pageCount = 10
+            startPage = 1
+        else:    
             pageCount = -1
             startPage = -1         
             
         if (pageCount >= min_paper_size):
-
-            url= article['url']
-            
-            # this is a paper at ICSE Education Track, that must be discarded 
-            if url == "db/conf/icse/icse2013.html#NetoCLGM13":
+                
+            if url in black_list:
                return True
             
             found_paper= True;
@@ -137,11 +222,25 @@ def handle_article(_, article):
                          
     return True    
 
+min_paper_size= int(sys.argv[4])
+area_prefix= sys.argv[1]   
+   
+reader1 = csv.reader(open(sys.argv[2], 'r'))
+confdata = {}
+for conf_row in reader1:
+  conf_dblp, conf_name, conf_weight = conf_row
+  confdata[conf_dblp]= conf_name, conf_weight
+
 out = {}
 score = {}
 profs = {}
 
-reader2 = csv.reader(open(sys.argv[2], 'r'))
+  
+f = open(area_prefix + '-papers.csv','w')
+
+init_black_white_lists()
+    
+reader2 = csv.reader(open(sys.argv[3], 'r'))
 count = 1;
 for researcher in reader2:
   
@@ -166,62 +265,7 @@ for researcher in reader2:
      profs[department]= profs[department] + 1
   
   count= count + 1;
-  
-sorted_papers = sorted(out.items(), key=lambda x: (x[1][1],x[1][0],x[1][2]))
 
-f = open('out.csv','w')
-for i in range(0, len(sorted_papers)):
-  paper= sorted_papers[i][1]
-  f.write(str(i+1))
-  f.write(',')
-  f.write(str(paper[0]))
-  f.write(',')
-  f.write(str(paper[1]))
-  f.write(',')
-  f.write(str(paper[2].encode('utf-8')))
-  f.write(',')
-  f.write(str(paper[3]))
-  f.write(',')
-  for author in paper[4]:
-    f.write(str(author.encode('utf-8')))
-    f.write(',')
-  f.write('\n')
-f.close()
-
-final_score = {}
-for dept in score:
-  s= score[dept]
-  if (s[0] > 0) or (s[1] > 0) or (s[2] > 0):
-     final_score[dept]= s[0] + (s[1] * 0.66) + (s[2] * 0.33)
-
-sorted_scores_temp = sorted(final_score.items(), key=lambda x: x[0])
-sorted_scores = sorted(sorted_scores_temp, key=lambda x: x[1], reverse=True)
-
-f2 = open('score.csv','w')
-for i in range(0, len(sorted_scores)):
-  dept= sorted_scores[i][0]
-  f2.write(str(dept))
-  f2.write(',')
-  s= sorted_scores[i][1]
-  f2.write(str(s))
-  f2.write('\n')
-f2.close()
-
-final_profs = {}
-for dept in profs:
-  s= profs[dept]
-  if (s > 0):
-     final_profs[dept]= s
-
-sorted_profs_temp = sorted(final_profs.items(), key=lambda x: x[0])
-sorted_profs = sorted(sorted_profs_temp, key=lambda x: x[1], reverse=True)
-
-f3 = open('profs.csv','w')
-for i in range(0, len(sorted_profs)):
-  dept= sorted_profs[i][0]
-  f3.write(str(dept))
-  f3.write(',')
-  s= sorted_profs[i][1]
-  f3.write(str(s))
-  f3.write('\n')
-f3.close()
+output_papers()
+output_scores()
+output_profs()
