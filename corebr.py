@@ -26,7 +26,6 @@ def init_black_white_lists():
    if os.path.exists(white_list_file):
       with open(white_list_file) as wlf:
         white_list = wlf.read().splitlines()
-   print white_list
    
 #################################################
 
@@ -73,6 +72,24 @@ def pagecount(pageStr):
 
 #################################################
 
+def output_conferences():
+  global out, conflist;
+  
+  confs = []
+  f = open(area_prefix + '-out-confs.csv','w')
+  
+  for p in out.items():
+    confs.append(p[1][1]) 
+    
+  result = sorted([(c, confs.count(c)) for c in conflist], key=lambda x: x[1], reverse=True)
+  
+  for conf in result:
+    f.write(conf[0]);
+    f.write(',')
+    f.write(str(conf[1]));
+    f.write('\n')
+  f.close()
+    
 def output_papers():
   global out;
 
@@ -96,8 +113,6 @@ def output_papers():
     f.write('\n')
   f.close()
 
-################################################################
-
 def output_scores():
   global score
   
@@ -119,8 +134,6 @@ def output_scores():
     f2.write(str(s))
     f2.write('\n')
   f2.close()
-
-################################################################
 
 def output_profs():
   global profs
@@ -227,16 +240,18 @@ area_prefix= sys.argv[1]
    
 reader1 = csv.reader(open(sys.argv[2], 'r'))
 confdata = {}
+conflist = []
 for conf_row in reader1:
   conf_dblp, conf_name, conf_weight = conf_row
   confdata[conf_dblp]= conf_name, conf_weight
-
+  conflist.append(conf_name)
+conflist = list(set(conflist))  
+  
 out = {}
 score = {}
 profs = {}
-
   
-f = open(area_prefix + '-papers.csv','w')
+#f = open(area_prefix + '-papers.csv','w')
 
 init_black_white_lists()
     
@@ -269,3 +284,4 @@ for researcher in reader2:
 output_papers()
 output_scores()
 output_profs()
+output_conferences()

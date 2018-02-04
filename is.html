@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-8249107-7"></script>
+    <script>
+       window.dataLayer = window.dataLayer || [];
+       function gtag(){dataLayer.push(arguments);}
+       gtag('js', new Date());
+
+       gtag('config', 'UA-8249107-7');
+    </script>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+     
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.8.8/jquery.csv.js"></script>
+    
+    <script type="text/javascript">
+       var corebr_area_prefix= "is";
+    </script>
+
+    <script src="corebr-charts.js" defer> </script>
+
+  </head>
+
+<body>
+
+<ul class="nav nav-pills">
+  <li class="active small"><a data-toggle="pill" href="#confs">Conferences</a></li>
+  <li class="small"><a data-toggle="pill" href="#depts">Departments</a></li>
+  <li class="small"><a data-toggle="pill" href="#profs">Professors</a></li>
+</ul>
+
+<div class="tab-content">
+  <div id="confs" class="tab-pane fade in active">
+    <div id="chart_confs"></div>
+  </div>
+  <div id="depts" class="tab-pane fade">
+    <div id="chart_depts"></div>
+  </div>
+  <div id="profs" class="tab-pane fade">
+    <div id="chart_profs"></div>
+  </div>
+</div>    
+</body>    
+
+</html>
