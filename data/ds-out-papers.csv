@@ -1,0 +1,15 @@
+1,2016,CCGrid,"Faster: A Low Overhead Framework for Massive Data Analysis.",UFMG,Matheus Santos; Wagner Meira Jr.; Dorgival O. Guedes; Virgílio A. F. Almeida
+2,2016,CCGrid,"Leveraging High Performance Computing for Bioinformatics: A Methodology that Enables a Reliable Decision-Making.",LNCC,Mariza Ferro; Marisa F. Nicolas; Quadalupe Del Rosario Q. Saji; Antonio Roberto Mury; Bruno Schulze
+3,2017,CCGrid,"Multi-dimensional admission control and capacity planning for IaaS clouds with multiple service classes.",UFCG,Marcus Carvalho; Francisco Vilar Brasileiro; Raquel Vigolvino Lopes; Giovanni Farias; Alessandro Fook; João Mafra; Daniel Turull
+4,2017,CCGrid,"PRIVAaaS: privacy approach for a distributed cloud-based data analytics platforms.",UFMG,Tânia Basso; Regina Moraes; Nuno Antunes; Marco Vieira; Walter Santos; Wagner Meira Jr.
+5,2015,CLOUD,"Cloud Query Manager: Using Semantic Web Concepts to Avoid IaaS Cloud Lock-In.",UFRN,Arthur Souza; Nélio Cacho; Thaís Batista; Frederico Lopes
+6,2015,CLOUD,"Performance Inference: A Novel Approach for Planning the Capacity of IaaS Cloud Applications.",UNIFOR,Marcelo Gonçalves; Matheus Cunha; Nabor C. Mendonça; Américo Sampaio
+7,2016,CLOUD,"An Approach for Evaluating Cloud Application Topologies Based on TOSCA.",UNIFOR,Américo Sampaio; Tiago Rolim; Nabor C. Mendonça; Matheus Cunha
+8,2017,CLOUD,"A Robust Scheduler for Workflow Ensembles under Uncertainties of Available Bandwidth.",UNICAMP,Thiago Augusto Lopes Genez; Luiz Fernando Bittencourt; Rizos Sakellariou; Edmundo Roberto Mauro Madeira
+9,2015,DSN,"User-Constraint and Self-Adaptive Fault Tolerance for Event Stream Processing Systems.",UFCG,André Martin; Tiaraju Smaneoto; Tobias Dietze; Andrey Brito; Christof Fetzer
+10,2017,ICDCS,"High Performance Recovery for Parallel State Machine Replication.",PUC-RS,Odorico Machado Mendizabal; Fernando Luís Dotti; Fernando Pedone
+11,2017,ICDCS,"Model-Driven Domain-Specific Middleware.",IME/USP+UFG,Fábio M. Costa; Karl A. Morris; Fabio Kon; Peter J. Clarke
+12,2017,IPDPS,"Efficient and Deterministic Scheduling for Parallel State Machine Replication.",PUC-RS,Odorico Machado Mendizabal; Ruda S. T. De Moura; Fernando Luís Dotti; Fernando Pedone
+13,2015,IPSN,"SIoT: securing the internet of things through distributed system analysis.",UFMG,Fernando Augusto Teixeira; Gustavo V. Machado; Fernando Magno Quintão Pereira; Hao Chi Wong; José Marcos S. Nogueira; Leonardo B. Oliveira
+14,2013,SenSys,"Safe system-level concurrency on resource-constrained nodes.",PUC-Rio,Francisco Sant'Anna; Noemi de La Rocque Rodriguez; Roberto Ierusalimschy; Olaf Landsiedel; Philippas Tsigas
+15,2016,SenSys,"AoT: Authentication and Access Control for the Entire IoT Device Life-Cycle.",UFMG+UFPR,Antonio L. Maia Neto; Artur L. F. Souza; Ítalo S. Cunha; Michele Nogueira; Ivan Oliveira Nunes; Leonardo Cotta; Nicolas Gentille; Antonio A. F. Loureiro; Diego F. Aranha; Harsh Kupwade Patil; Leonardo B. Oliveira

@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-8249107-7"></script>
+    <script>
+       window.dataLayer = window.dataLayer || [];
+       function gtag(){dataLayer.push(arguments);}
+       gtag('js', new Date());
+
+       gtag('config', 'UA-8249107-7');
+    </script>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+     
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.8.8/jquery.csv.js"></script>
+    
+    
+    <script type="text/javascript">   
+		google.charts.load('current', {'packages':['corechart']});
+		google.charts.load('current', {'packages':['table']});
+
+		google.charts.setOnLoadCallback(drawChartConfs);
+		google.charts.setOnLoadCallback(drawChartDepts);
+		google.charts.setOnLoadCallback(drawChartProfs);
+        google.charts.setOnLoadCallback(drawTablePapers);
+
+		corebr_area_prefix= sessionStorage.getItem('corebr_area_prefix');
+
+		var corebr_confs_file  = "data/" + corebr_area_prefix + "-out-confs.csv";
+		var corebr_depts_file  = "data/" + corebr_area_prefix + "-out-scores.csv";
+		var corebr_profs_file  = "data/" + corebr_area_prefix + "-out-profs.csv";
+	    var corebr_papers_file = "data/" + corebr_area_prefix + "-out-papers.csv";
+	
+		function drawChartConfs() {
+		  $.get(corebr_confs_file, function(csvString) {
+		  var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
+		  var data= new google.visualization.DataTable();
+		  data.addColumn('string', 'Conferences');
+		  data.addColumn('number', 'Papers');
+		  data.addRows(arrayData);
+	  
+		  var view = new google.visualization.DataView(data);
+		  view.setColumns([0, 1,  
+						   { calc: "stringify",
+							 sourceColumn: 1,
+							 type: "string",
+							 role: "annotation" },
+						  ]);
+
+		  var options = { 'width': 800,
+						  'height': 500,
+						  'fontSize': 12,
+						  'legend': { position: "none" },
+						  'chartArea': {left:40, top:40, right:30,  width:'80%',height:'65%'},
+						  'hAxis': { slantedText:true, slantedTextAngle:45 }, 
+						  'vAxis': { gridlines: { counts: -1} },
+						  'annotations': { alwaysOutside:true },
+						  'titleTextStyle': { bold: false },
+						  'title': 'Number of papers with Brazilian authors'
+
+						};
+					   			
+		  var chart = new google.visualization.ColumnChart(document.getElementById('chart_confs'));
+		  chart.draw(view, options);
+		  });
+		}
+  
+		function drawChartDepts() {
+		  $.get(corebr_depts_file, function(csvString) {
+		  var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
+		  var data= new google.visualization.DataTable();
+		  data.addColumn('string', 'Departments');
+		  data.addColumn('number', 'Score');
+		  data.addRows(arrayData);
+	  
+		  var view = new google.visualization.DataView(data);
+		  view.setColumns([0, 1,  
+						   { calc: "stringify",
+							 sourceColumn: 1,
+							 type: "string",
+							 role: "annotation" },
+						  ]);
+
+		  var options = { 'width': 800,
+						  'height': 500,
+						  'fontSize': 12,
+						  'legend': { position: "none" },
+						  'chartArea': {left:40, top:40, right:30,  width:'80%',height:'65%'},
+						  'hAxis': { slantedText:true, slantedTextAngle:45 }, 
+						  'annotations': { alwaysOutside:true },
+						  'titleTextStyle': { bold: false },
+						  'title': 'Score= A + (0.66 * B) + (0.33 * C), A= papers in top confs; B= papers in "below-the-fold" confs; C= papers in other confs'
+					     };
+					   
+		  var chart = new google.visualization.ColumnChart(document.getElementById('chart_depts'));
+		  chart.draw(view, options);
+		  });
+		}
+
+		function drawChartProfs() {
+		  $.get(corebr_profs_file, function(csvString) {
+		  var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
+		  var data= new google.visualization.DataTable();
+		  data.addColumn('string', 'Departments');
+		  data.addColumn('number', 'Profs');
+		  data.addRows(arrayData);
+	  
+		  var view = new google.visualization.DataView(data);
+		  view.setColumns([0, 1,  
+						   { calc: "stringify",
+							 sourceColumn: 1,
+							 type: "string",
+							 role: "annotation" },
+						  ]);
+
+		  var options = { 'width': 800,
+						  'height': 500,
+						  'fontSize': 12,
+						  'legend': { position: "none" },
+						  'chartArea': {left:40, top:30, right:30,  width:'80%',height:'65%'},
+						  'hAxis': { slantedText:true, slantedTextAngle:45 }, 
+						  'annotations': { alwaysOutside:true },
+						  'titleTextStyle': { bold: false },
+						  'title': 'Number of professors with papers in tracked conferences'
+						};
+					   
+		  //options ['title']= 'Score= A + (0.66 * B) + (0.33 * C), A= papers in top confs; B= papers in "below-the-fold" confs; C= papers in other confs',
+					
+		  var chart = new google.visualization.ColumnChart(document.getElementById('chart_profs'));
+		  chart.draw(view, options);
+		  });
+		}
+		
+		function drawTablePapers() {
+		  $.get(corebr_papers_file, function(csvString) {
+		  var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
+		  var data= new google.visualization.DataTable();
+		  data.addColumn('number', 'ID');
+		  data.addColumn('number', 'Year');
+		  data.addColumn('string', 'Conf');
+		  data.addColumn('string', 'Title');
+		  data.addColumn('string', 'Depts');
+		  data.addColumn('string', 'Authors');
+		  
+		  data.addRows(arrayData);
+	  			
+		  var table = new google.visualization.Table(document.getElementById('chart_papers'));
+		  
+		  var formatter = new google.visualization.NumberFormat( {pattern: '####'} );
+          formatter.format(data, 1); // format year
+
+		  table.draw(data, {showRowNumber: false, width: '100%', height: '100%'});
+		  });
+		}
+    </script>
+
+  </head>
+
+<body>
+
+<ul class="nav nav-pills">
+  <li class="active small"><a data-toggle="pill" href="#confs">Conferences</a></li>
+  <li class="small"><a data-toggle="pill" href="#depts">Departments</a></li>
+  <li class="small"><a data-toggle="pill" href="#profs">Professors</a></li>
+  <li class="small"><a data-toggle="pill" href="#papers">Papers</a></li>
+
+</ul>
+
+<div class="tab-content">
+  <div id="confs" class="tab-pane fade in active">
+    <div id="chart_confs"></div>
+  </div>
+  <div id="depts" class="tab-pane fade">
+    <div id="chart_depts"></div>
+  </div>
+  <div id="profs" class="tab-pane fade">
+    <div id="chart_profs"></div>
+  </div>
+  <div id="papers" class="tab-pane fade">
+    <div id="chart_papers"></div>
+  </div>
+</div>
+
+
+</body>    
+
+</html>

@@ -29,7 +29,21 @@
         
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.8.8/jquery.csv.js"></script>
-    
+  
+    <script type="text/javascript">
+       sessionStorage.setItem('corebr_area_prefix', "se");
+    </script>
+      
+    <script type="text/javascript">
+       $(document).ready(function(){
+          $("input[type=radio][name=research_area_btn]").click(function() {
+             var corebr_area_prefix = $("input[type=radio][name=research_area_btn]:checked").val();    
+             sessionStorage.setItem('corebr_area_prefix', corebr_area_prefix);
+             document.getElementById('charts-frame').contentWindow.location.reload(true);           
+          });
+        });
+    </script>
+ 
 </head>
 
   <body>
@@ -70,22 +84,38 @@ or open an <a href="https://github.com/aserg-ufmg/CoreBR/issues">issue</a>.
 
 <div class="col-sm-3" style="background-color:WhiteSmoke;">
 
-<ul style="list-style-type:none">
-<li> <a href= "se.html" target="frame-results">Software Engineering</a>
-<li> <a href= "is.html" target="frame-results">Information Systems</a>
-<li> <a href= "https://docs.google.com/spreadsheets/d/e/2PACX-1vSnQCTA1VLx9rJWdA392FVYYV_OpPfFhjDA6ptY5SyDecTofOWY6Kh61o082F4Dyz0hhElpH6ZW6jo6/pubhtml?widget=true&amp;headers=false" target="frame-results">Programming Languages</a>
-<li> <a href= "https://docs.google.com/spreadsheets/d/e/2PACX-1vTiFc4DPK0ft0nMzmGAFiRYFvasxSnjooT7jXClNCO30k2eylIHpkyYK_lhYorNNTXGASYuAsGhpyBa/pubhtml?widget=true&amp;headers=false" target="frame-results">Computer Networks</a>
-<li> <a href= "https://docs.google.com/spreadsheets/d/e/2PACX-1vQu5DxMGdqKuZKux3Bdo59XXhR84bIFJBaSUHwDGhOBL3rrT1ERr2_a72OGg_AiNsJ1xHeSjzl_0gYK/pubhtml?widget=true&amp;headers=false" target="frame-results">Distributed Systems</a>
-<li> <a href= "https://docs.google.com/spreadsheets/d/e/2PACX-1vSXB4Ow9MYnJ3bYYs5G9o2a3xSfXnUBoYLVJBzQSTgokS4JZl66lSj-ZB-L1NubJITjdlOyvhvwGyfo/pubhtml?widget=true&amp;headers=false" target="frame-results">Web & Information Retrieval</a>
-<li> <a href= "https://docs.google.com/spreadsheets/d/e/2PACX-1vQxd27bTSZo-xzIvCtg_VzHZWOLKEiLHTz3MFE99JLXwZHbGH179P7V6qsJoNpzlv1U4maqjC4zeM7x/pubhtml?widget=true&amp;headers=false" target="frame-results">Databases</a>
-<li> Human-Computer Interaction (soon)
-</ul>
+<div class="radio ">
+<label><input type="radio" name="research_area_btn" value="se" checked> Software Engineering</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="research_area_btn" value="is"> Information Systems</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="research_area_btn" value="pl"> Programming Languages</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="research_area_btn" value="net"> Computer Networks</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="research_area_btn" value="ds"> Distributed Systems</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="research_area_btn" value="ir"> Web & Information Retrieval</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="research_area_btn" value="db"> Databases</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="research_area_btn" value="chi" disabled> Human-Computer Interaction</label>
+</div>
 
 
 </div>
     
 <div class="col-sm-9">
-<iframe name="frame-results" id="name-results" height=500 width=800 src="se.html"></iframe>
+<iframe name="frame-results" id="charts-frame" height=500 width=800 src="charts.html"></iframe>
+</div>
+
 </div>
 
 <p class="text-center">

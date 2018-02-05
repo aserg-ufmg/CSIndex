@@ -107,9 +107,11 @@ def output_papers():
     f.write(',')
     f.write(str(paper[3]))
     f.write(',')
-    for author in paper[4]:
+    authors= paper[4]
+    for author in authors[:-1]:
       f.write(str(author.encode('utf-8')))
-      f.write(',')
+      f.write('; ')
+    f.write(str(authors[-1].encode('utf-8')))  
     f.write('\n')
   f.close()
 

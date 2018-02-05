@@ -1,0 +1,82 @@
+1,2013,CNSM,"Characterizing the impact of network substrate topologies on virtual network embedding.",UFRGS,Marcelo Caggiani Luizelli; Leonardo Richter Bays; Luciana Salete Buriol; Marinho P. Barcellos; Luciano Paschoal Gaspary
+2,2014,CNSM,"HIPER: Heuristic-based infrastructure expansion through partition reconnection for efficient Virtual Network Embedding.",UFRGS,Marcelo Caggiani Luizelli; Leonardo Richter Bays; Marinho P. Barcellos; Luciano Paschoal Gaspary
+3,2014,CNSM,"Network-aware placement of virtual machine ensembles using effective bandwidth estimation.",UFRGS,Runxin Wang; Rafael Pereira Esteves; Lei Shi; Juliano Araujo Wickboldt; Brendan Jennings; Lisandro Zambenedetti Granville
+4,2016,CNSM,"Booter blacklist: Unveiling DDoS-for-hire websites.",UFRGS,José Jair Santanna; Ricardo de Oliveira Schmidt; Daphné Tuncer; Joey de Vries; Lisandro Zambenedetti Granville; Aiko Pras
+5,2017,CNSM,"An adaptive mechanism for LTE P-GW virtualization using SDN and NFV.",UNICAMP,Luciano Jerez Chaves; Islene Calciolari Garcia; Edmundo Roberto Mauro Madeira
+6,2017,CNSM,"Programmable residues defined networks for edge data centres.",UFES,Magnos Martinello; Alextian B. Liberato; Arash Farhadi Beldachi; Koteswararao Kondepu; Roberta L. Gomes; Rodolfo da Silva Villaça; Moisés R. N. Ribeiro; Yan Yan; Emilio Hugues-Salas; Dimitra Simeonidou
+7,2013,IM,"Identifying the root cause of failures in IT changes: Novel strategies and trade-offs.",UFRGS,Ricardo Luis dos Santos; Juliano Araujo Wickboldt; Bruno Lopes Dalmazo; Lisandro Zambenedetti Granville; Luciano Paschoal Gaspary; Roben Castagna Lunardi
+8,2013,IM,"Load-aware self-configuration in mobile peer-to-peer applications.",UFMG,Diego N. da Hora; Daniel F. Macedo; José Marcos S. Nogueira
+9,2013,IM,"Make it green and useful: Reshaping puzzles for identity management in large-scale distributed systems.",UFRGS,Weverton Luis da Costa Cordeiro; Flavio Roberto Santos; Marinho P. Barcellos; Luciano Paschoal Gaspary
+10,2013,IM,"On tackling virtual data center embedding problem.",UFRGS,Md. Golam Rabbani; Rafael Pereira Esteves; Maxim Podlesny; Gwendal Simon; Lisandro Zambenedetti Granville; Raouf Boutaba
+11,2013,IM,"PReSET: A toolset for the evaluation of network resilience strategies.",UFRGS,Alberto E. Schaeffer Filho; Andreas Mauthe; David Hutchison; Paul Smith; Yue Yu; Michael Fry
+12,2013,IM,"Paradigm-based adaptive provisioning in virtualized data centers.",UFRGS,Rafael Pereira Esteves; Lisandro Zambenedetti Granville; Hadi Bannazadeh; Raouf Boutaba
+13,2013,IM,"Quality improvement and quantitative modeling - Using mashups for human error prevention.",UFRGS,Carlos Raniery Paula dos Santos; Lisandro Zambenedetti Granville; Larisa Shwartz; Nikos Anerousis; David Loewenstern
+14,2013,IM,"Slowing down to speed up: Mitigating collusion attacks in Content Distribution Systems.",UFRGS,Flavio Santos; Weverton Luis da Costa Cordeiro; Marinho P. Barcellos; Luciano Paschoal Gaspary; Fabio Victora Hecht; Burkhard Stiller
+15,2015,IM,"Beacon-less video streaming management for VANETs based on QoE and link-quality.",UFPR+UFPA,Carlos Quadros; Eduardo Cerqueira; Aldri Luiz dos Santos; Jae-Han Lim; Mario Gerla
+16,2015,IM,"Booters - An analysis of DDoS-as-a-service attacks.",UFRGS,José Jair Santanna; Roland van Rijswijk-Deij; Rick Hofstede; Anna Sperotto; Mark Wierbosch; Lisandro Zambenedetti Granville; Aiko Pras
+17,2015,IM,"CCNrel: Leveraging relations among objects to improve the performance of CCN.",UNICAMP+UFRGS,Rodolfo Stoffel Antunes; Matheus B. Lehmann; Rodrigo B. Mansilha; Christian Esteve Rothenberg; Luciano Paschoal Gaspary; Marinho P. Barcellos
+18,2015,IM,"Capitalizing on SDN-based SCADA systems: An anti-eavesdropping case-study.",UFRGS,Eduardo Germano da Silva; Luis Augusto Dias Knob; Juliano Araujo Wickboldt; Luciano Paschoal Gaspary; Lisandro Zambenedetti Granville; Alberto E. Schaeffer Filho
+19,2015,IM,"Ethanol: Software defined networking for 802.11 Wireless Networks.",UFMG,Henrique Moura; Gabriel V. C. Bessa; Marcos Augusto M. Vieira; Daniel F. Macedo
+20,2015,IM,"Evaluating SNMP, NETCONF, and RESTful web services for router virtualization management.",UFRGS,Paulo Roberto da Paz Ferraz Santos; Rafael Pereira Esteves; Lisandro Zambenedetti Granville
+21,2015,IM,"Interactive monitoring, visualization, and configuration of OpenFlow-based SDN.",UFRGS,Pedro Heleno Isolani; Juliano Araujo Wickboldt; Cristiano Bonato Both; Juergen Rochol; Lisandro Zambenedetti Granville
+22,2015,IM,"Piecing together the NFV provisioning puzzle: Efficient placement and chaining of virtual network functions.",UFRGS,Marcelo Caggiani Luizelli; Leonardo Richter Bays; Luciana Salete Buriol; Marinho P. Barcellos; Luciano Paschoal Gaspary
+23,2015,IM,"Policy authoring for software-defined networking management.",UFRGS,Cristian Cleder Machado; Juliano Araujo Wickboldt; Lisandro Zambenedetti Granville; Alberto E. Schaeffer Filho
+24,2015,IM,"Predictor: Providing fine-grained management and predictability in multi-tenant datacenter networks.",UFRGS,Daniel S. Marcon; Marinho P. Barcellos
+25,2017,IM,"A distributed NFV orchestrator based on BDI reasoning.",UFRGS,Frederico Schardong; Ingrid Nunes; Alberto E. Schaeffer Filho
+26,2017,IM,"A scalable approach for managing access control in Information Centric Networks.",UFRGS,Rafael Hansen da Silva; Weverton Luis da Costa Cordeiro; Luciano Paschoal Gaspary
+27,2017,IM,"Affinity measurement for NFV-enabled networks: A criteria-based approach.",UFRGS,Arthur Selle Jacobs; Ricardo Luis dos Santos; Muriel Figueredo Franco; Eder John Scheid; Ricardo Jose Pfitscher; Lisandro Zambenedetti Granville
+28,2017,IM,"INSpIRE: Integrated NFV-based Intent Refinement Environment.",UFRGS,Eder J. Scheid; Cristian Cleder Machado; Muriel Figueredo Franco; Ricardo Luis dos Santos; Ricardo J. Pfitscher; Alberto E. Schaeffer Filho; Lisandro Zambenedetti Granville
+29,2013,INFOCOM,"On the steady-state of cache networks.",UFRJ,Elisha J. Rosensweig; Daniel Sadoc Menasché; Jim Kurose
+30,2016,INFOCOM,"A utility optimization approach to network cache design.",UFRJ,Mostafa Dehghan; Laurent Massoulié; Don Towsley; Daniel S. Menasché; Y. C. Tay
+31,2017,INFOCOM,"An experimental reality check on the scaling laws of swarming systems.",UFRJ,Diego Ximenes Mendes; Edmundo de Souza e Silva; Daniel Sadoc Menasché; Rosa Maria Meri Leão; Don Towsley
+32,2015,IPSN,"SIoT: securing the internet of things through distributed system analysis.",UFMG,Fernando Augusto Teixeira; Gustavo V. Machado; Fernando Magno Quintão Pereira; Hao Chi Wong; José Marcos S. Nogueira; Leonardo B. Oliveira
+33,2013,LCN,"SlickFlow: Resilient source routing in Data Center Networks unlocked by OpenFlow.",UNICAMP+UFES,Ramon Marques Ramos; Magnos Martinello; Christian Esteve Rothenberg
+34,2014,MASCOTS,"Local Maximum Routing Recovery in Underwater Sensor Networks: Performance and Trade-offs.",UFMG,Rodolfo W. L. Coutinho; Azzedine Boukerche; Luiz Filipe M. Vieira; Antonio Alfredo Ferreira Loureiro
+35,2017,MASCOTS,"Cost-Benefit Tradeoffs of Content Sharing in Personal Cloud Storage.",UFJF+UFMG,Glauber D. Gonçalves; Alex Borges Vieira; Idilio Drago; Ana Paula Couto da Silva; Jussara M. Almeida
+36,2016,MASS,"FlushMF: A Transport Protocol Using Multiple Frequencies for Wireless Sensor Network.",UFMG,Rodrigo C. Tavares; Marcos Augusto M. Vieira; Luiz Filipe M. Vieira
+37,2016,MASS,"Gamma Deployment: Designing the Communication Infrastructure in Vehicular Networks Assuring Guarantees on the V2I Inter-Contact Time.",UFSJ,Cristiano M. Silva; Daniel L. Guidoni; Fernanda S. H. Souza; Cristiano G. Pitangui; Joao F. M. Sarubbi; Andreas Pitsillides
+38,2013,MSWiM,"Movement assisted-topology control and geographic routing protocol for underwater sensor networks.",UFMG,Rodolfo W. L. Coutinho; Luiz Filipe M. Vieira; Antonio A. F. Loureiro
+39,2013,MSWiM,"RECAST: telling apart social and random relationships in dynamic networks.",UFMG,Pedro O. S. Vaz de Melo; Aline Carneiro Viana; Marco Fiore; Katia Jaffrès-Runser; Frederic Le Mouel; Antonio A. F. Loureiro
+40,2013,MSWiM,"Traffic aware video dissemination over vehicular ad hoc networks.",UFMG+UNICAMP,Guilherme Maia; Cristiano G. Rezende; Leandro A. Villas; Azzedine Boukerche; Aline Carneiro Viana; André L. L. de Aquino; Antonio Alfredo Ferreira Loureiro
+41,2014,MSWiM,"Transmission power control-based opportunistic routing for wireless sensor networks.",UFMG,Rodolfo W. L. Coutinho; Azzedine Boukerche; Luiz Filipe M. Vieira; Antonio Alfredo Ferreira Loureiro
+42,2015,MSWiM,"A Resilient Dynamic Gateway Selection Algorithm Based on Quality Aware Metrics for Smart Grids.",UFF,Vitor Hugo Okabayashi; Igor Cesar Gonzalez Ribeiro; Diego G. Passos; Célio Vinicius Neves de Albuquerque
+43,2015,MSWiM,"Filling the Gaps of Vehicular Mobility Traces.",UFMG+UEM,Fabrício A. Silva; Clayson Celes; Azzedine Boukerche; Linnyer Beatrys Ruiz; Antonio A. F. Loureiro
+44,2015,MSWiM,"Modeling and Analysis of Opportunistic Routing in Low Duty-Cycle Underwater Sensor Networks.",UFMG,Rodolfo W. L. Coutinho; Azzedine Boukerche; Luiz Filipe M. Vieira; Antonio A. F. Loureiro
+45,2016,MSWiM,"A Fully-distributed Traffic Management System to Improve the Overall Traffic Efficiency.",UNICAMP,Allan Mariano de Souza; Leandro Aparecido Villas
+46,2016,MSWiM,"A Novel Centrality Metric for Topology Control in Underwater Sensor Networks.",UFMG,Rodolfo W. L. Coutinho; Azzedine F. M. Boukerche; Luiz Filipe M. Vieira; Antonio Alfredo Ferreira Loureiro
+47,2016,MSWiM,"Matrix: Multihop Address Allocation and Dynamic Any-to-Any Routing for 6LoWPAN.",UFMG,Bruna Soares Peres; Otavio Augusto de Oliveira Souza; Bruno Pereira Santos; Edson Roteia Araujo Junior; Olga Goussevskaia; Marcos Augusto Menezes Vieira; Luiz Filipe Menezes Vieira; Antonio Alfredo Ferreira Loureiro
+48,2017,MSWiM,"Cost-Effective Processing in Fog-Integrated Internet of Things Ecosystems.",UFRJ,Wei Bao; Wei Li 0058; Flávia Coimbra Delicato; Paulo F. Pires; Dong Yuan; Bing Bing Zhou; Albert Y. Zomaya
+49,2017,MSWiM,"DADCA: An Efficient Distributed Algorithm for Aerial DataCollection from Wireless Sensors Networks by UAVs.",PUC-Rio,Bruno Olivieri; Markus Endler
+50,2017,MSWiM,"Multi-Channel Continuous Rendezvous in Cognitive Networks.",UFF,Cledson Oliveira de Sousa; Diego G. Passos; Ricardo Campanha Carrano; Célio Albuquerque
+51,2017,MSWiM,"SMAFramework: Urban Data Integration Framework for Mobility Analysis in Smart Cities.",UFMG+UNICAMP,Diego O. Rodrigues; Azzedine Boukerche; Thiago H. Silva; Antonio A. F. Loureiro; Leandro A. Villas
+52,2017,MSWiM,"Scheduling Nodes in Underwater Networks using Voronoi Diagram.",UFMG,Eduardo P. M. Câmara Júnior; Luiz F. M. Vieira; Marcos Augusto M. Vieira
+53,2013,MobiHoc,"Connectivity in obstructed wireless networks: from geometry to percolation.",UFMG,Marcelo G. Almiron; Olga Goussevskaia; Antonio A. F. Loureiro; José D. P. Rolim
+54,2014,NOMS,"A Policy-based storage model for sensor networks.",UFPR,Nuno M. F. Gonçalves; Aldri L. dos Santos; Carmem S. Hara
+55,2014,NOMS,"A heuristic-based algorithm for privacy-oriented virtual network embedding.",UFRGS,Leonardo Richter Bays; Rodrigo Ruas Oliveira; Luciana Salete Buriol; Marinho P. Barcellos; Luciano Paschoal Gaspary
+56,2014,NOMS,"Data similarity aware dynamic nodes clustering for supporting management operations.",UFPR,Fernando Gielow; Michele Nogueira; Aldri Luiz dos Santos
+57,2014,NOMS,"Design of roadside infrastructure for information dissemination in vehicular networks.",UFMG,Cristiano M. Silva; André L. L. de Aquino; Wagner Meira Jr.
+58,2014,NOMS,"Evaluating allocation paradigms for multi-objective adaptive provisioning in virtualized networks.",UFRGS,Rafael Pereira Esteves; Lisandro Zambenedetti Granville; Mohamed Faten Zhani; Raouf Boutaba
+59,2014,NOMS,"Kitsune: A management system for cognitive radio networks based on spectrum sensing.",UFRGS,Lucas Bondan; Marcelo Antonio Marotta; Maicon Kist; Leonardo Roveda Faganello; Cristiano Bonato Both; Juergen Rochol; Lisandro Zambenedetti Granville
+60,2014,NOMS,"Management patterns: SDN-enabled network resilience management.",UFRGS,Paul Smith; Alberto E. Schaeffer Filho; David Hutchison; Andreas Mauthe
+61,2014,NOMS,"Managing the decision-making process for opportunistic mobile data offloading.",UFMG,Vinicius F. S. Mota; Daniel F. Macedo; Yacine Ghamri-Doudane; José Marcos S. Nogueira
+62,2016,NOMS,"A scheme for DDoS attacks mitigation in IdM systems through reorganizations.",UFPR,Ricardo Macedo; Aldri Luiz dos Santos; Yacine Ghamri-Doudane; Michele Nogueira Lima
+63,2016,NOMS,"AR2C2: Actively replicated controllers for SDN resilient control plane.",UNICAMP+UFU+UFES,Eros S. Spalla; Diego R. Mafioletti; Alextian B. Liberato; Gilberto Ewald; Christian Esteve Rothenberg; Lásaro J. Camargos; Rodolfo da Silva Villaça; Magnos Martinello
+64,2016,NOMS,"ASTORIA: A framework for attack simulation and evaluation in smart grids.",UFRGS,Alexandre Gustavo Wermann; Marcelo Cardoso Bortolozzo; Eduardo Germano da Silva; Alberto E. Schaeffer Filho; Luciano Paschoal Gaspary; Marinho P. Barcellos
+65,2016,NOMS,"ATLANTIC: A framework for anomaly traffic detection, classification, and mitigation in SDN.",UFRGS,Anderson Santos da Silva; Juliano Araujo Wickboldt; Lisandro Zambenedetti Granville; Alberto E. Schaeffer Filho
+66,2016,NOMS,"An architecture integrating stationary and mobile roadside units for providing communication on intelligent transportation systems.",UFMG,Cristiano M. Silva; Wagner Meira Jr.
+67,2016,NOMS,"High-level modeling and application validation for SDN.",UFPE,Felipe A. Lopes; Leonidas Lima; Marcelo Santos; Robson Fidalgo; Stenio Fernandes
+68,2016,NOMS,"Providing producer mobility support in NDN through proactive data replication.",UFRGS,Matheus B. Lehmann; Marinho P. Barcellos; Andreas Mauthe
+69,2016,NOMS,"SDEFIX - Identifying elephant flows in SDN-based IXP networks.",UFRGS,Luis Augusto Dias Knob; Rafael Pereira Esteves; Lisandro Zambenedetti Granville; Liane Margarida Rockenbach Tarouco
+70,2016,NOMS,"Virtual network embedding in software-defined networks.",UFRGS,Leonardo Richter Bays; Luciano Paschoal Gaspary; Reaz Ahmed; Raouf Boutaba
+71,2016,NSDI,"Sibyl: A Practical Internet Route Oracle.",UFMG,Ítalo Cunha; Pietro Marchetta; Matt Calder; Yi-Ching Chiu; Brandon Schlinker; Bruno V. A. Machado; Antonio Pescapè; Vasileios Giotsas; Harsha V. Madhyastha; Ethan Katz-Bassett
+72,2013,Networking,"(Deployable) reduction of multicast state with in-packet bloom filters.",UNICAMP,Petri Jokela; Heikki Mahkonen; Christian Esteve Rothenberg; Jörg Ott
+73,2013,Networking,"Trust-based grouping for cloud datacenters: Improving security in shared infrastructures.",UFRGS,Daniel Stefani Marcon; Rodrigo Ruas Oliveira; Miguel Cardoso Neves; Luciana Salete Buriol; Luciano Paschoal Gaspary; Marinho P. Barcellos
+74,2015,Networking,"Impact of provider failures on the traffic at a university campus.",UFJF+UFMG,Rodrigo Duarte; Alex Borges Vieira; Ítalo S. Cunha; Jussara M. Almeida
+75,2016,Networking,"Efficient virtual network isolation in multi-tenant data centers on commodity ethernet switches.",UFMG,Heitor Moraes; Marcos Augusto M. Vieira; Ítalo Cunha; Dorgival O. Guedes
+76,2017,Networking,"Packer: Minimizing multi-resource fragmentation and performance interference in datacenters.",UFRGS,Daniel S. Marcon; Marinho P. Barcellos
+77,2013,PAM,"Estimating TCP Latency Approximately with Passive Measurements.",UFMG,Sriharsha Gangam; Jaideep Chandrashekar; Ítalo Cunha; Jim Kurose
+78,2016,PAM,"Dissecting the Largest National Ecosystem of Public Internet eXchange Points in Brazil.",UNICAMP,Samuel Henrique Bucke Brito; Mateus A. S. Santos; Ramon dos Reis Fontes; Danny Alex Lachos Perez; Christian Esteve Rothenberg
+79,2017,PAM,"A Characterization of Load Balancing on the IPv6 Internet.",UFMG,Rafael Almeida; Osvaldo L. H. M. Fonseca; Elverton C. Fazzion; Dorgival O. Guedes; Wagner Meira Jr.; Ítalo S. Cunha
+80,2013,SIGCOMM,"PoiRoot: investigating the root cause of interdomain path changes.",UFMG,Umar Javed; Ítalo Cunha; David R. Choffnes; Ethan Katz-Bassett; Thomas E. Anderson; Arvind Krishnamurthy
+81,2017,SIGCOMM,"Dynamic Service Chaining with Dysco.",UFMS,Pamela Zave; Ronaldo A. Ferreira; Xuan Kelvin Zou; Masaharu Morimoto; Jennifer Rexford
+82,2017,SIGCOMM,"Engineering Egress with Edge Fabric: Steering Oceans of Content to the World.",UFMG,Brandon Schlinker; Hyojeong Kim; Timothy Cui; Ethan Katz-Bassett; Harsha V. Madhyastha; Ítalo Cunha; James Quinn; Saif Hasan; Petr Lapukhov; Hongyi Zeng
