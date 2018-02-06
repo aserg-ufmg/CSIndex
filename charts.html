@@ -7,7 +7,6 @@
        window.dataLayer = window.dataLayer || [];
        function gtag(){dataLayer.push(arguments);}
        gtag('js', new Date());
-
        gtag('config', 'UA-8249107-7');
     </script>
     
@@ -27,14 +26,11 @@
     <script type="text/javascript">   
 		google.charts.load('current', {'packages':['corechart']});
 		google.charts.load('current', {'packages':['table']});
-
 		google.charts.setOnLoadCallback(drawChartConfs);
 		google.charts.setOnLoadCallback(drawChartDepts);
 		google.charts.setOnLoadCallback(drawChartProfs);
         google.charts.setOnLoadCallback(drawTablePapers);
-
 		corebr_area_prefix= sessionStorage.getItem('corebr_area_prefix');
-
 		var corebr_confs_file  = "data/" + corebr_area_prefix + "-out-confs.csv";
 		var corebr_depts_file  = "data/" + corebr_area_prefix + "-out-scores.csv";
 		var corebr_profs_file  = "data/" + corebr_area_prefix + "-out-profs.csv";
@@ -55,7 +51,6 @@
 							 type: "string",
 							 role: "annotation" },
 						  ]);
-
 		  var options = { 'width': 800,
 						  'height': 500,
 						  'fontSize': 12,
@@ -66,7 +61,6 @@
 						  'annotations': { alwaysOutside:true },
 						  'titleTextStyle': { bold: false },
 						  'title': 'Number of papers with Brazilian authors'
-
 						};
 					   			
 		  var chart = new google.visualization.ColumnChart(document.getElementById('chart_confs'));
@@ -89,7 +83,6 @@
 							 type: "string",
 							 role: "annotation" },
 						  ]);
-
 		  var options = { 'width': 800,
 						  'height': 500,
 						  'fontSize': 12,
@@ -105,7 +98,6 @@
 		  chart.draw(view, options);
 		  });
 		}
-
 		function drawChartProfs() {
 		  $.get(corebr_profs_file, function(csvString) {
 		  var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
@@ -121,7 +113,6 @@
 							 type: "string",
 							 role: "annotation" },
 						  ]);
-
 		  var options = { 'width': 800,
 						  'height': 500,
 						  'fontSize': 12,
@@ -157,7 +148,6 @@
 		  
 		  var formatter = new google.visualization.NumberFormat( {pattern: '####'} );
           formatter.format(data, 1); // format year
-
 		  table.draw(data, {showRowNumber: false, width: '100%', height: '100%'});
 		  });
 		}
