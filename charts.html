@@ -16,11 +16,12 @@
     <meta name="author" content="">
      
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="libs/jquery-3.3.1.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <script type="text/javascript" src="libs/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script src="libs/jquery.csv.js"></script>
+    <script type="text/javascript" src="libs/jquery.csv.js"></script>
     
     
     <script type="text/javascript">   
@@ -60,7 +61,7 @@
 						  'vAxis': { gridlines: { counts: -1} },
 						  'annotations': { alwaysOutside:true },
 						  'titleTextStyle': { bold: false },
-						  'title': 'Number of papers with Brazilian authors'
+						  'title': 'Number of full papers with Brazilian authors in tracked conferences'
 						};
 					   			
 		  var chart = new google.visualization.ColumnChart(document.getElementById('chart_confs'));
@@ -148,6 +149,7 @@
 		  
 		  var formatter = new google.visualization.NumberFormat( {pattern: '####'} );
           formatter.format(data, 1); // format year
+          
 		  table.draw(data, {showRowNumber: false, width: '100%', height: '100%'});
 		  });
 		}
@@ -162,7 +164,6 @@
   <li class="small"><a data-toggle="pill" href="#depts">Departments</a></li>
   <li class="small"><a data-toggle="pill" href="#profs">Professors</a></li>
   <li class="small"><a data-toggle="pill" href="#papers">Papers</a></li>
-
 </ul>
 
 <div class="tab-content">
