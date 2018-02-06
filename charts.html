@@ -84,7 +84,9 @@
 							 type: "string",
 							 role: "annotation" },
 						  ]);
-		  var options = { 'width': 800,
+						  
+		  if ((corebr_area_prefix == "se") || (corebr_area_prefix == "se")) {		  
+		     var options = { 'width': 800,
 						  'height': 500,
 						  'fontSize': 12,
 						  'legend': { position: "none" },
@@ -92,9 +94,20 @@
 						  'hAxis': { slantedText:true, slantedTextAngle:45 }, 
 						  'annotations': { alwaysOutside:true },
 						  'titleTextStyle': { bold: false },
-						  'title': 'Score= A + (0.66 * B) + (0.33 * C), A= papers in top confs; B= papers in "below-the-fold" confs; C= papers in other confs'
+						  'title': 'Dept score= A + (0.66 * B) + (0.33 * C), where A= papers in top confs; B= papers in "below-the-fold" confs; C= papers in other confs'
 					     };
-					   
+		  } else {
+		     var options = { 'width': 800,
+						  'height': 500,
+						  'fontSize': 12,
+						  'legend': { position: "none" },
+						  'chartArea': {left:40, top:40, right:30,  width:'80%',height:'65%'},
+						  'hAxis': { slantedText:true, slantedTextAngle:45 }, 
+						  'annotations': { alwaysOutside:true },
+						  'titleTextStyle': { bold: false },
+						  'title': 'Dept score= A + (0.33 * B), where A= papers in top confs; B= papers in other confs'
+					     };
+		  }			   
 		  var chart = new google.visualization.ColumnChart(document.getElementById('chart_depts'));
 		  chart.draw(view, options);
 		  });
