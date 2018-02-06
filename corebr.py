@@ -237,7 +237,6 @@ def handle_article(_, article):
                          
     return True    
 
-#min_paper_size= int(sys.argv[4])
 area_prefix= sys.argv[1]   
 
 confs_file_name = area_prefix + "-confs.csv"
@@ -246,12 +245,12 @@ reader3 = csv.reader(open("research-areas-config.csv", 'r'))
 for area_tuple in reader3:
   if (area_tuple[0] == area_prefix):
      researchers_file_name = area_tuple[1]  
-     min_paper_size = area_tuple[2]
+     min_paper_size = int(area_tuple[2])
      break
      
-print "Research Area " + area_prefix
+print "Research Area: " + area_prefix
 print "Researchers: " + researchers_file_name
-print "Minimun paper size " + min_paper_size
+print "Minimun paper size: " + str(min_paper_size)
    
 reader1 = csv.reader(open(confs_file_name, 'r'))
 confdata = {}
