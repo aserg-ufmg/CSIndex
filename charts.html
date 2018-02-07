@@ -27,15 +27,19 @@
     <script type="text/javascript">   
 		google.charts.load('current', {'packages':['corechart']});
 		google.charts.load('current', {'packages':['table']});
+		
 		google.charts.setOnLoadCallback(drawChartConfs);
 		google.charts.setOnLoadCallback(drawChartDepts);
 		google.charts.setOnLoadCallback(drawChartProfs);
         google.charts.setOnLoadCallback(drawTablePapers);
+        google.charts.setOnLoadCallback(drawTableStats);
+        
 		corebr_area_prefix= sessionStorage.getItem('corebr_area_prefix');
 		var corebr_confs_file  = "data/" + corebr_area_prefix + "-out-confs.csv";
 		var corebr_depts_file  = "data/" + corebr_area_prefix + "-out-scores.csv";
 		var corebr_profs_file  = "data/" + corebr_area_prefix + "-out-profs.csv";
 	    var corebr_papers_file = "data/" + corebr_area_prefix + "-out-papers.csv";
+	    var corebr_stats_file  = "data/" + corebr_area_prefix + "-out-stats.csv";
 	
 		function drawChartConfs() {
 		  $.get(corebr_confs_file, function(csvString) {
@@ -112,6 +116,7 @@
 		  chart.draw(view, options);
 		  });
 		}
+		
 		function drawChartProfs() {
 		  $.get(corebr_profs_file, function(csvString) {
 		  var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
@@ -135,11 +140,9 @@
 						  'hAxis': { slantedText:true, slantedTextAngle:45 }, 
 						  'annotations': { alwaysOutside:true },
 						  'titleTextStyle': { bold: false },
-						  'title': 'Number of professors with papers in tracked conferences'
+						  'title': 'Number of professors with full papers in tracked conferences'
 						};
-					   
-		  //options ['title']= 'Score= A + (0.66 * B) + (0.33 * C), A= papers in top confs; B= papers in "below-the-fold" confs; C= papers in other confs',
-					
+					   					
 		  var chart = new google.visualization.ColumnChart(document.getElementById('chart_profs'));
 		  chart.draw(view, options);
 		  });
@@ -166,6 +169,27 @@
 		  table.draw(data, {showRowNumber: false, width: '100%', height: '100%'});
 		  });
 		}
+		
+		function drawTableStats() {
+		  $.get(corebr_stats_file, function(csvString) {
+		  var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
+		  var data= new google.visualization.DataTable();
+		  data.addColumn('number', 'ID');
+		  data.addColumn('string', 'Conf');
+		  data.addColumn('string', 'Sponsor');
+		  data.addColumn('number', 'Submitted');
+		  data.addColumn('number', 'Accepted');
+		  data.addColumn('number', 'Rate');
+		  data.addColumn('number', 'h5');
+		  data.addColumn('string', 'CSRankings');
+		  data.addColumn('number', 'Pages');
+		  data.addRows(arrayData);
+	  			
+		  var table = new google.visualization.Table(document.getElementById('chart_stats'));
+		  
+		  table.draw(data, {showRowNumber: false, width: '100%', height: '100%'});
+		  });
+		}
     </script>
 
   </head>
@@ -177,6 +201,8 @@
   <li class="small"><a data-toggle="pill" href="#depts">Departments</a></li>
   <li class="small"><a data-toggle="pill" href="#profs">Professors</a></li>
   <li class="small"><a data-toggle="pill" href="#papers">Papers</a></li>
+  <li class="small"><a data-toggle="pill" href="#stats">Stats</a></li>
+
 </ul>
 
 <div class="tab-content">
@@ -191,6 +217,9 @@
   </div>
   <div id="papers" class="tab-pane fade">
     <div id="chart_papers"></div>
+  </div>
+  <div id="stats" class="tab-pane fade">
+    <div id="chart_stats"></div>
   </div>
 </div>
 
