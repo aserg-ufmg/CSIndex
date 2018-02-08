@@ -223,6 +223,9 @@ def handle_article(_, article):
             title = article['title']
             if type(title) is collections.OrderedDict:
                 title = title["#text"]
+            
+            title = title.replace("\"", "")    
+            
             print(title)
                
             authorList = article['author']
