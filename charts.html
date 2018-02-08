@@ -14,15 +14,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
+
+<!---------------
      
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     
     <script type="text/javascript" src="libs/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   
+------------------->
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+        
+    <script src="libs/jquery-3.3.1.min.js"></script>  
+    
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript" src="libs/jquery.csv.js"></script>
-    
     
     <script type="text/javascript">   
 		google.charts.load('current', {'packages':['corechart']});
@@ -179,7 +186,7 @@
 		  data.addColumn('string', 'Sponsor');
 		  data.addColumn('number', 'Submitted');
 		  data.addColumn('number', 'Accepted');
-		  data.addColumn('number', 'Rate');
+		  data.addColumn('number', 'Accept Rate');
 		  data.addColumn('number', 'h5');
 		  data.addColumn('string', 'CSRankings');
 		  data.addColumn('number', 'Pages');
@@ -196,12 +203,14 @@
 
 <body>
 
+<!---------------
+
 <ul class="nav nav-pills">
   <li class="active small"><a data-toggle="pill" href="#confs">Conferences</a></li>
   <li class="small"><a data-toggle="pill" href="#depts">Departments</a></li>
   <li class="small"><a data-toggle="pill" href="#profs">Professors</a></li>
   <li class="small"><a data-toggle="pill" href="#papers">Papers</a></li>
-  <li class="small"><a data-toggle="pill" href="#stats">Stats</a></li>
+  <li class="small"><a data-toggle="pill" href="#stats">Stats (2017)</a></li>
 
 </ul>
 
@@ -223,7 +232,52 @@
   </div>
 </div>
 
+------------------->
 
+
+<ul class="nav nav-tabs" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link small active" data-toggle="tab" href="#confs" role="tab">Conferences</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link small"  data-toggle="tab" href="#depts" role="tab">Departments</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link small"  data-toggle="tab" href="#profs" role="tab">Professors</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link small"  data-toggle="tab" href="#papers" role="tab">Papers</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link small"  data-toggle="tab" href="#stats" role="tab">Stats (2017)</a>
+  </li>
+</ul>
+
+<div class="tab-content">
+  <div class="tab-pane active" id="confs" role="tabpanel">
+       <div id="chart_confs"></div> 
+  </div>
+  <div class="tab-pane" id="depts" role="tabpanel">
+       <div id="chart_depts"></div>
+  </div>     
+  <div class="tab-pane" id="profs" role="tabpanel">
+       <div id="chart_profs"></div>
+  </div>
+  <div class="tab-pane" id="papers" role="tabpanel">
+       <div id="chart_papers"></div>
+  </div>
+  <div class="tab-pane" id="stats" role="tabpanel">
+       <div id="chart_stats"></div>
+  </div>
+</div>
+
+<!--------------- 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+------------------->
+
+<script src="libs/popper.min.js"> </script>  
+<script src="libs/bootstrap.min.js"> </script>  
+     
 </body>    
 
 </html>
