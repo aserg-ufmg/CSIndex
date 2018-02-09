@@ -195,15 +195,15 @@
 		  var table = new google.visualization.Table(document.getElementById('chart_stats'));
 		  
 		  var formatter1 = new google.visualization.ColorFormat();
-          formatter1.addRange(0, 90, 'black', 'orange');
+          formatter1.addRange(0, 90, 'black', 'LemonChiffon');
           formatter1.format(data, 3); // Apply formatter to submitted papers
 		  
           var formatter2 = new google.visualization.ColorFormat();
-          formatter2.addRange(31, 100, 'black', 'orange');
+          formatter2.addRange(31, 100, 'black', 'LemonChiffon');
           formatter2.format(data, 5); 
 		  
 		  var formatter3 = new google.visualization.ColorFormat();
-          formatter3.addRange(0, 19, 'black', 'orange');
+          formatter3.addRange(0, 19, 'black', 'LemonChiffon');
           formatter3.format(data, 6); 
 		  
 		  table.draw(data, {allowHtml: true, showRowNumber: false, width: '100%', height: '100%'});
