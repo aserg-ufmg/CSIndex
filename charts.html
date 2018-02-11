@@ -206,6 +206,10 @@
           formatter3.addRange(0, 19, 'black', 'LemonChiffon');
           formatter3.format(data, 6); 
 		  
+		  var formatter4 = new google.visualization.ColorFormat();
+          formatter4.addRange(0, 9, 'black', 'LemonChiffon');
+          formatter4.format(data, 8); 
+		  
 		  table.draw(data, {allowHtml: true, showRowNumber: false, width: '100%', height: '100%'});
 		  });
 		}
