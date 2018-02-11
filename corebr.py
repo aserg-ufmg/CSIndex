@@ -121,8 +121,8 @@ def output_scores():
   final_score = {}
   for dept in score:
     s= score[dept]
-    if (s[0] > 0) or (s[1] > 0) or (s[2] > 0):
-       final_score[dept]= s[0] + (s[1] * 0.66) + (s[2] * 0.33)
+    if (s > 0):
+       final_score[dept]= s
 
   sorted_scores_temp = sorted(final_score.items(), key=lambda x: x[0])
   sorted_scores = sorted(sorted_scores_temp, key=lambda x: x[1], reverse=True)
@@ -163,17 +163,17 @@ def output_profs():
 
 processedArticles = {}
 
-def inc_dept_score(weight, scores):
-    s0= scores[0]
-    s1= scores[1]
-    s2= scores[2]
+def inc_score(weight):
+    # s0= scores[0]   # current nb of papers in top conferences
+    # s1= scores[1]   # current nb of papers in below-the-fold conferences
+    # s2= scores[2]   # current nb of papers in other conferences
     if (weight == 1):
-       s0= s0 + 1
+       return 1.0
     elif (weight == 2):
-       s1= s1 + 1
+       return 0.66
     elif (weight == 3):
-       s2= s2 + 1    
-    return [s0,s1,s2]
+       return 0.33    
+    # return [s0,s1,s2]
         
 def handle_article(_, article):
     global min_paper_size, department, found_paper, black_list
@@ -212,12 +212,14 @@ def handle_article(_, article):
             
             found_paper= True;
                
-            if (url in out):
+            # this paper has been already processed   
+            if (url in out):      
                 paper= out[url]
-                if (paper[3].find(department) == -1):
+                if (paper[3].find(department) == -1): 
+                   # but this author is from another department  
                    paper2= (paper[0], paper[1], paper[2], paper[3] + "+" + department, paper[4]) 
                    out[url] = paper2 
-                   score[department] = inc_dept_score(int(conf_weight), score[department])
+                   score[department] += inc_score(conf_weight)
                 return True
                      
             title = article['title']
@@ -236,8 +238,8 @@ def handle_article(_, article):
                 authors.append(authorName) 
                 
             out[url]= (year, conf_name, '"' + title + '"', department, authors)     
-            score[department] = inc_dept_score(int(conf_weight), score[department])
-                         
+            score[department] += inc_score(conf_weight)
+                              
     return True    
 
 area_prefix= sys.argv[1]   
@@ -260,7 +262,7 @@ confdata = {}
 conflist = []
 for conf_row in reader1:
   conf_dblp, conf_name, conf_weight = conf_row
-  confdata[conf_dblp]= conf_name, conf_weight
+  confdata[conf_dblp]= conf_name, int(conf_weight)
   conflist.append(conf_name)
 conflist = list(set(conflist))  
   
@@ -274,13 +276,13 @@ reader2 = csv.reader(open(researchers_file_name, 'r'))
 count = 1;
 for researcher in reader2:
   
-  professor= researcher[0]
+  professor= researcher[0]     # global variables
   department= researcher[1]
      
   print str(count) + " >> " + professor
   
   if not department in score:
-     score[department]= [0, 0, 0]
+     score[department]= 0.0
   if not department in profs:
      profs[department]= 0
    
