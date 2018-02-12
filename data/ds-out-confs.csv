@@ -1,9 +1,9 @@
-CCGrid,4
-CLOUD,4
+CCGrid,6
+CLOUD,5
 ICDCS,2
+IPDPS,2
+DSN,2
 SenSys,2
-IPDPS,1
-DSN,1
 IPSN,1
 PerCom,0
 Middleware,0
