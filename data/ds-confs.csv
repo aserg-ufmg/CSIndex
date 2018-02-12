@@ -1,7 +1,6 @@
 MobiSys,MobiSys,1
 SenSys,SenSys,1
 ICDCS,ICDCS,3
-IPDPS,IPDPS,3
 PerCom,PerCom,3
 CCGrid,CCGrid,3
 CLOUD,CLOUD,3
@@ -10,3 +9,4 @@ Middleware,Middleware,3
 DSN,DSN,3
 PODC,PODC,3
 IPSN,IPSN,3
+SRDS,SRDS,3

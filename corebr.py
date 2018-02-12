@@ -161,7 +161,9 @@ def output_profs():
 
 ################################################################
 
-processedArticles = {}
+# main methods, where articles are processed
+
+#processedArticles = {}
 
 def inc_score(weight):
     # s0= scores[0]   # current nb of papers in top conferences
@@ -179,7 +181,7 @@ def handle_article(_, article):
     global min_paper_size, department, found_paper, black_list
     
     if 'journal' in article:
-        if article['journal'] == "PACMPL":
+        if (article['journal'] == "PACMPL") or (article['journal'] == "PACMHCI"):
            conf_name_dblp= article['number']
         else:
            return True   
@@ -264,7 +266,7 @@ for conf_row in reader1:
   conf_dblp, conf_name, conf_weight = conf_row
   confdata[conf_dblp]= conf_name, int(conf_weight)
   conflist.append(conf_name)
-conflist = list(set(conflist))  
+conflist = list(set(conflist))  # removing duplicates
   
 out = {}
 score = {}
@@ -294,7 +296,7 @@ for researcher in reader2:
   bibdata = xmltodict.parse(bibfile, item_depth=3, item_callback=handle_article)
   
   if found_paper:
-     profs[department]= profs[department] + 1
+     profs[department] += 1
   
   count= count + 1;
 

@@ -1,19 +1,21 @@
 1,2014,CHI,"Sample-oriented task-driven visualizations: allowing users to make better, more confident decisions.",UFPE,Nivan Ferreira; Danyel Fisher; Arnd Christian König
 2,2017,CHI,"Design and Evaluation of a Handheld-based 3D User Interface for Collaborative Object Manipulation.",UFRGS,Jerônimo Gustavo Grandi; Henrique Galvan Debarba; Luciana P. Nedel; Anderson Maciel
-3,2015,CSCW,"Social Barriers Faced by Newcomers Placing Their First Contribution in Open Source Software Projects.",UFAM+IME/USP+UTFPR,Igor Steinmacher; Tayana Conte; Marco Aurélio Gerosa; David F. Redmiles
-4,2013,INTERACT,"A Vocabulary to Access Users' Cultural Perspectives in Human-Computer Interaction.",PUC-Rio+UFF,Catia Maria Dias Ferreira; Luciana Cardoso de Castro Salgado; Clarisse Sieckenius de Souza
-5,2013,INTERACT,"Cross-Communicability: Evaluating the Meta-communication of Cross-Platform Applications.",PUC-Rio,Rodrigo de A. Maues; Simone Diniz Junqueira Barbosa
-6,2013,INTERACT,"Designing for Different Users and Multiple Devices: A Roadmap towards Inclusive Environments.",UNICAMP+UFPR,Ig Ibert Bittencourt; Maria Cecília Calani Baranauskas; Diego Dermeval; Juliana Braga; Roberto Pereira
-7,2013,INTERACT,"Disambiguation Canvas: A Precise Selection Technique for Virtual Environments.",UFRGS,Henrique Galvan Debarba; Jerônimo Grandi; Anderson Maciel; Luciana Porcher Nedel; Ronan Boulic
-8,2013,INTERACT,"Exploring Twitter Interactions through Visualization Techniques: Users Impressions and New Possibilities.",PUC-RS,Guilherme Coletto Rotta; Vinícius Silva de Lemos; Ana Luiza Moura da Cunha; Isabel Harb Manssour; Milene Selbach Silveira; André Fagundes Pase
-9,2013,INTERACT,"Gesture-Based Interaction in Domotic Environments: State of the Art and HCI Framework Inspired by the Diversity.",UFRN,Ana Carla de Carvalho Correia; Leonardo Cunha de Miranda; Heiko Horst Hornung
-10,2013,INTERACT,"Social Network Users' Religiosity and the Design of Post Mortem Aspects.",UFMT,Cristiano Maciel; Vinícius Carvalho Pereira
-11,2015,INTERACT,"Dico: A Conceptual Model to Support the Design and Evaluation of Advanced Search Features for Exploratory Search.",UFPR,Emanuel Felipe Duarte; Edson Oliveira Jr.; Filipe Roseiro Côgo; Roberto Pereira
-12,2015,INTERACT,"How Does HCI Research Affect Education Programs? A Study in the Brazilian Context.",UDESC+PUC-RS+UTFPR+PUC-Rio,Isabela Gasparini; Simone Diniz Junqueira Barbosa; Milene Selbach Silveira; Silvia Amélia Bim; Clodis Boscarioli
-13,2015,INTERACT,"Making Decisions About Digital Legacy with Google's Inactive Account Manager.",PUC-Rio+UFMG,Raquel O. Prates; Mary Beth Rosson; Clarisse S. de Souza
-14,2015,INTERACT,"Technology Acceptance Evaluation by Deaf Students Considering the Inclusive Education Context.",UFMT,Soraia Silva Prietch; Lucia Vilela Leite Filgueiras
-15,2015,INTERACT,"Usability Aspects of the Inside-in Approach for Ancillary Search Tasks on the Web.",UFRGS,Marco Winckler; Ricardo Andrade Cava; Eric Barboni; Philippe A. Palanque; Carla M. D. S. Freitas
-16,2017,INTERACT,"Towards Participatory Prototyping with Older Adults with and Without Cognitive Impairment: Challenges and Lessons Learned.",UNICAMP,Luã Marcelo Muriana; Heiko Hornung
-17,2017,ISS,"Creepy Tracker Toolkit for Context-aware Interfaces.",PUC-Rio,Maurício Sousa; Daniel Mendes; Rafael Kuffner dos Anjos; Daniel Medeiros; Alfredo Ferreira; Alberto Raposo; João Madeiras Pereira; Joaquim A. Jorge
-18,2015,IUI,"Hairware: The Conscious Use of Unconscious Auto-contact Behaviors.",PUC-Rio,Katia Vega; Marcio Cunha; Hugo Fuks
-19,2017,UMAP,"A Multi-Armed Bandit Model Selection for Cold-Start User Recommendation.",UFU,Crícia Z. Felício; Klérisson V. R. Paixão; Célia A. Zorzo Barcelos; Philippe Preux
+3,2017,CHI,"Typefaces and the Perception of Humanness in Natural Language Chatbots.",UFMG,Heloisa Candello; Claudio S. Pinhanez; Flavio de Figueiredo
+4,2015,CSCW,"Social Barriers Faced by Newcomers Placing Their First Contribution in Open Source Software Projects.",UFAM+IME/USP+UTFPR,Igor Steinmacher; Tayana Conte; Marco Aurélio Gerosa; David F. Redmiles
+5,2017,EICS,"HistoryViewer: Instrumenting a Visual Analytics Application to Support Revisiting a Session of Interactive Data Analysis.",PUC-Rio,Vinícius C. V. B. Segura; Simone D. J. Barbosa
+6,2013,INTERACT,"A Vocabulary to Access Users' Cultural Perspectives in Human-Computer Interaction.",PUC-Rio+UFF,Catia Maria Dias Ferreira; Luciana Cardoso de Castro Salgado; Clarisse Sieckenius de Souza
+7,2013,INTERACT,"Cross-Communicability: Evaluating the Meta-communication of Cross-Platform Applications.",PUC-Rio,Rodrigo de A. Maues; Simone Diniz Junqueira Barbosa
+8,2013,INTERACT,"Designing for Different Users and Multiple Devices: A Roadmap towards Inclusive Environments.",UNICAMP+UFPR,Ig Ibert Bittencourt; Maria Cecília Calani Baranauskas; Diego Dermeval; Juliana Braga; Roberto Pereira
+9,2013,INTERACT,"Disambiguation Canvas: A Precise Selection Technique for Virtual Environments.",UFRGS,Henrique Galvan Debarba; Jerônimo Grandi; Anderson Maciel; Luciana Porcher Nedel; Ronan Boulic
+10,2013,INTERACT,"Exploring Twitter Interactions through Visualization Techniques: Users Impressions and New Possibilities.",PUC-RS,Guilherme Coletto Rotta; Vinícius Silva de Lemos; Ana Luiza Moura da Cunha; Isabel Harb Manssour; Milene Selbach Silveira; André Fagundes Pase
+11,2013,INTERACT,"Gesture-Based Interaction in Domotic Environments: State of the Art and HCI Framework Inspired by the Diversity.",UFRN,Ana Carla de Carvalho Correia; Leonardo Cunha de Miranda; Heiko Horst Hornung
+12,2013,INTERACT,"Social Network Users' Religiosity and the Design of Post Mortem Aspects.",UFMT,Cristiano Maciel; Vinícius Carvalho Pereira
+13,2015,INTERACT,"Dico: A Conceptual Model to Support the Design and Evaluation of Advanced Search Features for Exploratory Search.",UFPR,Emanuel Felipe Duarte; Edson Oliveira Jr.; Filipe Roseiro Côgo; Roberto Pereira
+14,2015,INTERACT,"How Does HCI Research Affect Education Programs? A Study in the Brazilian Context.",UDESC+PUC-RS+UTFPR+PUC-Rio,Isabela Gasparini; Simone Diniz Junqueira Barbosa; Milene Selbach Silveira; Silvia Amélia Bim; Clodis Boscarioli
+15,2015,INTERACT,"Making Decisions About Digital Legacy with Google's Inactive Account Manager.",PUC-Rio+UFMG,Raquel O. Prates; Mary Beth Rosson; Clarisse S. de Souza
+16,2015,INTERACT,"Technology Acceptance Evaluation by Deaf Students Considering the Inclusive Education Context.",UFMT,Soraia Silva Prietch; Lucia Vilela Leite Filgueiras
+17,2015,INTERACT,"Usability Aspects of the Inside-in Approach for Ancillary Search Tasks on the Web.",UFRGS,Marco Winckler; Ricardo Andrade Cava; Eric Barboni; Philippe A. Palanque; Carla M. D. S. Freitas
+18,2017,INTERACT,"Towards Participatory Prototyping with Older Adults with and Without Cognitive Impairment: Challenges and Lessons Learned.",UNICAMP,Luã Marcelo Muriana; Heiko Hornung
+19,2017,ISS,"Creepy Tracker Toolkit for Context-aware Interfaces.",PUC-Rio,Maurício Sousa; Daniel Mendes; Rafael Kuffner dos Anjos; Daniel Medeiros; Alfredo Ferreira; Alberto Raposo; João Madeiras Pereira; Joaquim A. Jorge
+20,2015,IUI,"Hairware: The Conscious Use of Unconscious Auto-contact Behaviors.",PUC-Rio,Katia Vega; Marcio Cunha; Hugo Fuks
+21,2017,UMAP,"A Multi-Armed Bandit Model Selection for Cold-Start User Recommendation.",UFU,Crícia Z. Felício; Klérisson V. R. Paixão; Célia A. Zorzo Barcelos; Philippe Preux
