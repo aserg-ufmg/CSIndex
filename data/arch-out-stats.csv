@@ -6,7 +6,7 @@
 6,SC,ACM SIGHPC,,,,,top-conf,0
 7,Euro-par,,176,50,28.4,24,,0
 8,ASPLOS,,,,,,,0
-9,HPCA,IEEE,,,,,,0
+9,HPCA,IEEE,,,,,below-the-fold,0
 10,PDP,EUROMICRO,162,52,32.0,20,,0
 11,HiPC,IEEE,160,40,25.0,22,,0
 12,ICPP,IEEE CS,211,60,28.4,20,,0
