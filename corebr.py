@@ -1,3 +1,9 @@
+# CoreBR: Exploring Brazilian Scientific Production in Computer Science
+
+# @author: Marco Tulio Valente - ASERG/DCC/UFMG
+
+# http://aserg.labsoft.dcc.ufmg.br
+
 import xmltodict
 import csv
 import collections
