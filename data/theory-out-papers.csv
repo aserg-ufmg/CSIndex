@@ -12,15 +12,10 @@
 12,2014,LATIN,"The Online Connected Facility Location Problem.",UNICAMP,Mário César San Felice; David P. Williamson; Orlando Lee
 13,2016,LATIN,"Improved Approximation Algorithms for Capacitated Fault-Tolerant k-Center.",USP,Cristina G. Fernandes; Samuel P. de Paula; Lehilton L. C. Pedrosa
 14,2014,STACS,"Weighted Coloring in Trees.",UFC,Júlio Araújo; Nicolas Nisse; Stéphane Pérennes
-15,2013,WAOA,"Inapproximability Results for Graph Convexity Parameters.",UFRJ+UFC,Erika M. M. Coelho; Mitre Costa Dourado; Rudini M. Sampaio
-16,2014,WAOA,"Linear-Time Approximation Algorithms for Unit Disk Graphs.",UFRJ,Guilherme Dias da Fonseca; Vinícius Gusmão Pereira de Sá; Celina M. H. de Figueiredo
-17,2013,WG,"The Same Upper Bound for Both: The 2-Page and the Rectilinear Crossing Numbers of the n-Cube.",UFRJ,Luérbio Faria; Celina M. H. de Figueiredo; R. Bruce Richter; Imrich Vrto
-18,2013,WG,"Towards a Provably Resilient Scheme for Graph-Based Watermarking.",UFRJ,Lucila Maria Souza Bento; Davidson R. Boccardo; Raphael Carlos Santos Machado; Vinícius Gusmão Pereira de Sá; Jayme Luiz Szwarcfiter
-19,2014,WG,"Recognizing Threshold Tolerance Graphs in O(n) Time.",UFMG,Petr A. Golovach; Pinar Heggernes; Nathan Lindzey; Ross M. McConnell; Vinícius Fernandes dos Santos; Jeremy P. Spinrad
-20,2014,WG,"The Maximum Time of 2-Neighbour Bootstrap Percolation: Complexity Results.",UFC,Thiago Braga Marcilon; Samuel Nascimento; Rudini M. Sampaio
-21,2015,WG,"On the Complexity of Probe and Sandwich Problems for Generalized Threshold Graphs.",UFRJ+UFMG,Fernanda Couto; Luérbio Faria; Sylvain Gravier; Sulamita Klein; Vinícius Fernandes dos Santos
-22,2015,WG,"The Maximum Time of 2-neighbour Bootstrap Percolation in Grid Graphs and Parametrized Results.",UFC,Thiago Braga Marcilon; Rudini M. Sampaio
-23,2016,WG,"Geodetic Convexity Parameters for Graphs with Few Short Induced Paths.",UFRJ,Mitre Costa Dourado; Lucia Draque Penso; Dieter Rautenbach
-24,2013,WoLLIC,"Linear Time Proof Verification on N-Graphs: A Graph Theoretic Approach.",UFPE,Laís Andrade; Ruan Carvalho; Anjolina Grisi de Oliveira; Ruy J. G. B. de Queiroz
-25,2014,WoLLIC,"Sequentialization for N-Graphs via Sub-N-Graphs.",UFPE,Ruan Carvalho; Laís Andrade; Anjolina Grisi de Oliveira; Ruy J. G. B. de Queiroz
-26,2016,WoLLIC,"On the Formalization of Some Results of Context-Free Language Theory.",UFPE,Marcus Vinícius Midena Ramos; Ruy J. G. B. de Queiroz; Nelma Moreira; José Carlos Bacelar Almeida
+15,2013,WG,"The Same Upper Bound for Both: The 2-Page and the Rectilinear Crossing Numbers of the n-Cube.",UFRJ,Luérbio Faria; Celina M. H. de Figueiredo; R. Bruce Richter; Imrich Vrto
+16,2013,WG,"Towards a Provably Resilient Scheme for Graph-Based Watermarking.",UFRJ,Lucila Maria Souza Bento; Davidson R. Boccardo; Raphael Carlos Santos Machado; Vinícius Gusmão Pereira de Sá; Jayme Luiz Szwarcfiter
+17,2014,WG,"Recognizing Threshold Tolerance Graphs in O(n) Time.",UFMG,Petr A. Golovach; Pinar Heggernes; Nathan Lindzey; Ross M. McConnell; Vinícius Fernandes dos Santos; Jeremy P. Spinrad
+18,2014,WG,"The Maximum Time of 2-Neighbour Bootstrap Percolation: Complexity Results.",UFC,Thiago Braga Marcilon; Samuel Nascimento; Rudini M. Sampaio
+19,2015,WG,"On the Complexity of Probe and Sandwich Problems for Generalized Threshold Graphs.",UFRJ+UFMG,Fernanda Couto; Luérbio Faria; Sylvain Gravier; Sulamita Klein; Vinícius Fernandes dos Santos
+20,2015,WG,"The Maximum Time of 2-neighbour Bootstrap Percolation in Grid Graphs and Parametrized Results.",UFC,Thiago Braga Marcilon; Rudini M. Sampaio
+21,2016,WG,"Geodetic Convexity Parameters for Graphs with Few Short Induced Paths.",UFRJ,Mitre Costa Dourado; Lucia Draque Penso; Dieter Rautenbach
