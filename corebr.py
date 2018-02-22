@@ -35,47 +35,20 @@ def init_black_white_lists():
    
 #################################################
 
-# The following two functions are reused from CSRankings code
-
-pageCounterNormal = re.compile('(\d+)-(\d+)')
-pageCounterColon = re.compile('[0-9]+:([1-9][0-9]*)-[0-9]+:([1-9][0-9]*)')
-
-def startpage(pageStr):
-    global pageCounterNormal
-    global pageCounterColon
-    if pageStr is None:
-        return 0
-    pageCounterMatcher1 = pageCounterNormal.match(pageStr)
-    pageCounterMatcher2 = pageCounterColon.match(pageStr)
-    start = 0
-
-    if not pageCounterMatcher1 is None:
-        start = int(pageCounterMatcher1.group(1))
-    else:
-        if not pageCounterMatcher2 is None:
-            start = int(pageCounterMatcher2.group(1))
-    return start
-
-def pagecount(pageStr):
-    if pageStr is None:
-        return 0
-    pageCounterMatcher1 = pageCounterNormal.match(pageStr)
-    pageCounterMatcher2 = pageCounterColon.match(pageStr)
-    start = 0
-    end = 0
-    count = 0
-
-    if not pageCounterMatcher1 is None:
-        start = int(pageCounterMatcher1.group(1))
-        end = int(pageCounterMatcher1.group(2))
-        count = end - start + 1
-    else:
-        if not pageCounterMatcher2 is None:
-            start = int(pageCounterMatcher2.group(1))
-            end = int(pageCounterMatcher2.group(2))
-            count = end - start + 1
-    return count
-
+def paperSize(dblp_pages):
+  page= re.split(r"-|:", dblp_pages) 
+  print page
+  if len(page) == 2:
+     p1= page[0]
+     p2= page[1]
+     return int(p2) - int(p1) + 1
+  elif (len(page) == 4):   
+     p1= page[1]
+     p2= page[3]
+     return int(p2) - int(p1) + 1
+  else:
+     return 0
+         
 #################################################
 
 def output_conferences():
@@ -203,17 +176,16 @@ def handle_article(_, article):
         conf_name, conf_weight = confdata[conf_name_dblp] 
         url= article['url']
                
+        dblp_pages = "null"       
         if 'pages' in article:
-            pageCount = pagecount(article['pages'])
-            startPage = startpage(article['pages'])
+            dblp_pages = article ['pages']
+            size = paperSize(dblp_pages)
         elif url in white_list:
-            pageCount = 10
-            startPage = 1
+            size = 10
         else:    
-            pageCount = -1
-            startPage = -1         
-            
-        if (pageCount >= min_paper_size):
+            size = 0
+                        
+        if (size >= min_paper_size):
                 
             if url in black_list:
                return True
@@ -247,11 +219,16 @@ def handle_article(_, article):
                 
             out[url]= (year, conf_name, '"' + title + '"', department, authors)     
             score[department] += inc_score(conf_weight)
-                              
+            
+            print dblp_pages
+            print paperSize(dblp_pages)                 
+             
     return True    
 
-area_prefix= sys.argv[1]   
 
+# main program
+
+area_prefix= sys.argv[1]   
 confs_file_name = area_prefix + "-confs.csv"
 
 reader3 = csv.reader(open("research-areas-config.csv", 'r'))
