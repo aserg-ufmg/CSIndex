@@ -36,7 +36,7 @@
 		google.charts.load('current', {'packages':['table']});
 		
 		google.charts.setOnLoadCallback(drawChartConfs);
-		google.charts.setOnLoadCallback(drawChartDepts);
+		// google.charts.setOnLoadCallback(drawChartDepts);
 		google.charts.setOnLoadCallback(drawChartProfs);
         google.charts.setOnLoadCallback(drawTablePapers);
         google.charts.setOnLoadCallback(drawTableStats);
@@ -79,7 +79,7 @@
 		  chart.draw(view, options);
 		  });
 		}
-  
+		
 		function drawChartDepts() {
 		  $.get(corebr_depts_file, function(csvString) {
 		  var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
@@ -165,6 +165,7 @@
 		  data.addColumn('string', 'Conf');
 		  data.addColumn('string', 'Title');
 		  data.addColumn('string', 'Depts');
+		  //data.addColumn('string', 'Pages');
 		  data.addColumn('string', 'Authors');
 		  
 		  data.addRows(arrayData);
@@ -189,7 +190,7 @@
 		  data.addColumn('number', 'Accepted');
 		  data.addColumn('number', 'Acceptance Rate');
 		  data.addColumn('number', 'h5-index');
-		  data.addColumn('string', 'CSRankings');
+		  data.addColumn('string', 'Top Conference');
 		  data.addColumn('number', 'Pages');
 		  data.addRows(arrayData);
 	  			
@@ -256,9 +257,16 @@
   <li class="nav-item">
     <a class="nav-link small active" data-toggle="tab" href="#confs" role="tab">Conferences</a>
   </li>
+
+<!---------------
+
   <li class="nav-item">
+ 
     <a class="nav-link small"  data-toggle="tab" href="#depts" role="tab">Departments</a>
   </li>
+
+------------------->
+
   <li class="nav-item">
     <a class="nav-link small"  data-toggle="tab" href="#profs" role="tab">Faculty</a>
   </li>
@@ -274,9 +282,13 @@
   <div class="tab-pane active" id="confs" role="tabpanel">
        <div id="chart_confs"></div> 
   </div>
+
+<!---------------
+  
   <div class="tab-pane" id="depts" role="tabpanel">
        <div id="chart_depts"></div>
   </div>     
+------------------->  
   <div class="tab-pane" id="profs" role="tabpanel">
        <div id="chart_profs"></div>
   </div>
