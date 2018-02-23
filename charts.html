@@ -96,8 +96,6 @@
 							 role: "annotation" },
 						  ]);
 						  
-		  if ((corebr_area_prefix == "se") || (corebr_area_prefix == "pl") || 
-		      (corebr_area_prefix == "arch")) {		  
 		     var options = { 'width': 800,
 						  'height': 500,
 						  'fontSize': 12,
@@ -106,20 +104,9 @@
 						  'hAxis': { slantedText:true, slantedTextAngle:45 }, 
 						  'annotations': { alwaysOutside:true },
 						  'titleTextStyle': { bold: false },
-						  'title': 'Dept score= A + (0.66 * B) + (0.33 * C), where A= papers in top confs; B= papers in "below-the-fold" confs; C= papers in other confs'
+						  'title': 'Dept score= n1 + (0.66 * A) + (0.33 * B), where A= papers in top confs; B= papers in near-top confs; C= papers in other confs'
 					     };
-		  } else {
-		     var options = { 'width': 800,
-						  'height': 500,
-						  'fontSize': 12,
-						  'legend': { position: "none" },
-						  'chartArea': {left:40, top:40, right:30,  width:'80%',height:'65%'},
-						  'hAxis': { slantedText:true, slantedTextAngle:45 }, 
-						  'annotations': { alwaysOutside:true },
-						  'titleTextStyle': { bold: false },
-						  'title': 'Dept score= A + (0.33 * B), where A= papers in top confs; B= papers in other confs'
-					     };
-		  }			   
+		 
 		  var chart = new google.visualization.ColumnChart(document.getElementById('chart_depts'));
 		  chart.draw(view, options);
 		  });
@@ -190,7 +177,7 @@
 		  data.addColumn('number', 'Accepted');
 		  data.addColumn('number', 'Acceptance Rate');
 		  data.addColumn('number', 'h5-index');
-		  data.addColumn('string', 'Tier');
+		  data.addColumn('string', 'Rank');
 		  data.addColumn('number', 'Pages');
 		  data.addRows(arrayData);
 	  			
