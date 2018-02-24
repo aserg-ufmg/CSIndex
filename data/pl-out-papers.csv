@@ -15,5 +15,5 @@
 15,2017,OOPSLA,"Static placement of computation on heterogeneous devices.",UFMG,Gabriel Poesia; Breno Campos Ferreira Guimarães; Fabricio Ferracioli; Fernando Magno Quintão Pereira
 16,2013,PLDI,"SPL: statically analyzing software product lines in minutes instead of years.",UFAL+UFPE,Eric Bodden; Társis Tolêdo; Márcio Ribeiro; Claus Brabrand; Paulo Borba; Mira Mezini
 17,2014,PLDI,"Compositional solution space quantification for probabilistic software analysis.",UFPE,Mateus Borges; Antonio Filieri; Marcelo d'Amorim; Corina S. Pasareanu; Willem Visser
-18,2015,PPOPP,"Performance implications of dynamic memory allocators on transactional memory systems.",UNICAMP,Alexandro Baldassin; Edson Borin; Guido Araujo
-19,2017,PPOPP,"Function Call Re-Vectorization.",UFMG,Rubens E. A. Moreira; Sylvain Collange; Fernando Magno Quintão Pereira
+18,2015,PPoPP,"Performance implications of dynamic memory allocators on transactional memory systems.",UNICAMP,Alexandro Baldassin; Edson Borin; Guido Araujo
+19,2017,PPoPP,"Function Call Re-Vectorization.",UFMG,Rubens E. A. Moreira; Sylvain Collange; Fernando Magno Quintão Pereira

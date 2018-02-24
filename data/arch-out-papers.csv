@@ -1,44 +1,47 @@
-1,2014,Euro-Par,"Energy-Aware Multi-Organization Scheduling Problem.",USP,Johanne Cohen; Daniel Cordeiro; Pedro Luis F. Raphael
-2,2015,Euro-Par,"Locality and Balance for Communication-Aware Thread Mapping in Multicore Systems.",UFRGS,Matthias Diener; Eduardo Henrique Molina da Cruz; Marco Antonio Zanata Alves; Mohammad S. Alhakeem; Philippe Olivier Alexandre Navaux; Hans-Ulrich Heiß
-3,2016,Euro-Par,"A Sharing-Aware Memory Management Unit for Online Mapping in Multi-core Architectures.",UFSC+UFRGS,Eduardo H. M. Cruz; Matthias Diener; Laércio Lima Pilla; Philippe O. A. Navaux
-4,2016,Euro-Par,"ParallelME: A Parallel Mobile Engine to Explore Heterogeneity in Mobile Computing Architectures.",UFMG,Guilherme Andrade; Wilson de Carvalho; Renato Utsch; Pedro Caldeira; Alberto Alburquerque; Fabricio Ferracioli; Leonardo C. da Rocha; Michael Frank; Dorgival O. Guedes; Renato Ferreira
-5,2017,Euro-Par,"Leveraging Cloud Heterogeneity for Cost-Efficient Execution of Parallel Applications.",UFRGS,Eduardo Roloff; Matthias Diener; Emmanuell Diaz Carreño; Luciano Paschoal Gaspary; Philippe O. A. Navaux
-6,2017,Euro-Par,"Performance Evaluation of Thread-Level Speculation in Off-the-Shelf Hardware Transactional Memories.",UNICAMP,Juan Salamanca 0001; José Nelson Amaral; Guido Araujo
-7,2017,Euro-Par,"Using Simulation to Evaluate and Tune the Performance of Dynamic Load Balancing of an Over-Decomposed Geophysics Application.",UFRGS,Rafael Keller Tesser; Lucas Mello Schnorr; Arnaud Legrand; Fabrice Dupros; Philippe Olivier Alexandre Navaux
-8,2015,HPCA,"Understanding GPU errors on large-scale HPC systems and the implications for system design and operation.",UFRGS,Devesh Tiwari; Saurabh Gupta; James H. Rogers; Don Maxwell; Paolo Rech; Sudharshan S. Vazhkudai; Daniel A. G. de Oliveira; Dave Londo; Nathan DeBardeleben; Philippe Olivier Alexandre Navaux; Luigi Carro; Arthur S. Bland
-9,2017,HPCA,"Radiation-Induced Error Criticality in Modern HPC Parallel Accelerators.",UFSC+UFRGS,Daniel Alfonso Gonçalves de Oliveira; Laércio Lima Pilla; Mauricio Hanzich; Vinicius Fratin; Fernando Fernandes; Caio B. Lunardi; José María Cela; Philippe Olivier Alexandre Navaux; Luigi Carro; Paolo Rech
-10,2013,HiPC,"Cache-based cross-iteration coherence for speculative parallelization.",UNICAMP,Andre Baixo; João Paulo Porto; Guido Araujo
-11,2013,HiPC,"Performance and energy consumption analysis of a seismic application for three different architectures intended for oil and gas industry.",UFPEL,Lucas T. Melo; Gilliano Ginno Silva de Menezes; Abel G. Silva-Filho; Manoel Eusebio de Lima
-12,2013,HiPC,"Transaction scheduling using conflict avoidance and Contention Intensity.",UNESP+UNICAMP,Marcio Machado Pereira; Alexandro Baldassin; Guido Araujo; Luiz Eduardo Buzato
-13,2014,HiPC,"Saving energy by exploiting residual imbalances on iterative applications.",UFSC+UFRGS,Edson L. Padoin; Márcio Bastos Castro; Laércio Lima Pilla; Philippe Olivier Alexandre Navaux; Jean-François Méhaut
-14,2015,HiPC,"A Simple BSP-based Model to Predict Execution Time in GPU Applications.",USP+UFABC,Marcos Amaris; Daniel Cordeiro; Alfredo Goldman; Raphael Y. de Camargo
-15,2015,HiPC,"Parallel Megabase DNA Sequence Comparison with OpenCL.",UnB,Marco Antonio C. de Figueiredo; Edans F. de O. Sandes; Alba Cristina Magalhaes Alves de Melo
-16,2016,HiPC,"An Alternative Approach of the SPIKE Preconditioner for Finite Element Analysis.",UFES,Leonardo Muniz de Lima; Brenno Albino Lugon; Lucia Catabriga
-17,2016,HiPC,"MEC: The Memory Elasticity Controller.",UFF,Roberto Sawamura; Cristina Boeres; Vinod E. F. Rebello
-18,2013,ICPP,"A NUMA-Aware Runtime Environment for the Actor Model.",USP,Emilio Francesquini; Alfredo Goldman; Jean-François Méhaut
-19,2014,ICPP,"Measuring Effective Work to Reward Success in Dynamic Transaction Scheduling.",UNICAMP,Marcio Machado Pereira; José Nelson Amaral; Guido Araujo
-20,2017,ICPP,"The Cloud as an OpenMP Offloading Device.",UNICAMP,Hervé Yviquel; Guido Araujo
-21,2017,ICS,"Revisiting phased transactional memory.",UNESP+UNICAMP,Joao P. L. de Carvalho; Guido Araujo; Alexandro Baldassin
-22,2013,IPDPS,"Communication-Based Mapping Using Shared Pages.",UFRGS,Matthias Diener; Eduardo Henrique Molina da Cruz; Philippe Olivier Alexandre Navaux
-23,2013,IPDPS,"High-throughput Analysis of Large Microscopy Image Datasets on CPU-GPU Cluster Platforms.",UnB,George Teodoro; Tony Pan; Tahsin M. Kurç; Jun Kong; Lee A. D. Cooper; Norbert Podhorszki; Scott Klasky; Joel H. Saltz
-24,2014,IPDPS,"Comparative Performance Analysis of Intel (R) Xeon Phi (TM), GPU, and CPU: A Case Study from Microscopy Image Analysis.",UnB,George Teodoro; Tahsin M. Kurç; Jun Kong; Lee A. D. Cooper; Joel H. Saltz
-25,2014,IPDPS,"Pythia: Faster Big Data in Motion through Predictive Software-Defined Network Optimization at Runtime.",PUC-RS,Marcelo Veiga Neves; César A. F. De Rose; Kostas Katrinis; Hubertus Franke
-26,2016,IPDPS,"Evaluating and Improving Thread-Level Speculation in Hardware Transactional Memories.",UNICAMP,Juan Salamanca 0001; José Nelson Amaral; Guido Araujo
-27,2017,IPDPS,"Efficient and Deterministic Scheduling for Parallel State Machine Replication.",PUC-RS,Odorico Machado Mendizabal; Ruda S. T. De Moura; Fernando Luís Dotti; Fernando Pedone
-28,2013,ISCA,"Zombie memory: extending memory lifetime by reviving dead blocks.",UNICAMP,Rodolfo Azevedo; John D. Davis; Karin Strauss; Parikshit Gopalan; Mark S. Manasse; Sergey Yekhanin
-29,2015,ISCA,"SHRINK: reducing the ISA complexity via instruction recycling.",UNICAMP,Bruno Cardoso Lopes; Rafael Auler; Luiz Ramos; Edson Borin; Rodolfo Azevedo
-30,2014,PACT,"Compiler support for selective page migration in NUMA architectures.",UNICAMP+UFMG,Guilherme Piccoli; Henrique Nazaré Santos; Raphael Ernani Rodrigues; Christiane Pousa; Edson Borin; Fernando Magno Quintão Pereira
-31,2014,PACT,"kMAF: automatic kernel-level management of thread and data affinity.",UFRGS,Matthias Diener; Eduardo Henrique Molina da Cruz; Philippe Olivier Alexandre Navaux; Anselm Busse; Hans-Ulrich Heiß
-32,2013,PDP,"Performance Evaluation of Container-Based Virtualization for High Performance Computing Environments.",PUC-RS,Miguel G. Xavier; Marcelo Veiga Neves; Fabio D. Rossi; Tiago C. Ferreto; Timoteo Lange; César A. F. De Rose
-33,2014,PDP,"A Performance Comparison of Container-Based Virtualization Systems for MapReduce Clusters.",PUC-RS,Miguel Gomes Xavier; Marcelo Veiga Neves; César Augusto Fonticielha De Rose
-34,2014,PDP,"Improving the Performance of Seismic Wave Simulations with Dynamic Load Balancing.",UFSC+UFRGS,Rafael Keller Tesser; Laércio Lima Pilla; Fabrice Dupros; Philippe Olivier Alexandre Navaux; Jean-François Méhaut; Celso L. Mendes
-35,2015,PDP,"A Performance Isolation Analysis of Disk-Intensive Workloads on Container-Based Clouds.",PUC-RS,Miguel G. Xavier; Israel C. De Oliveira; Fabio D. Rossi; Robson D. Dos Passos; Kassiano J. Matteussi; César A. F. De Rose
-36,2015,PDP,"An Efficient Algorithm for Communication-Based Task Mapping.",UFSC+UFRGS,Eduardo Henrique Molina da Cruz; Matthias Diener; Laércio Lima Pilla; Philippe Olivier Alexandre Navaux
-37,2015,PDP,"Locality vs. Balance: Exploring Data Mapping Policies on NUMA Systems.",UFRGS,Matthias Diener; Eduardo Henrique Molina da Cruz; Philippe Olivier Alexandre Navaux
-38,2016,PDP,"Black-Box Optimization of Hadoop Parameters Using Derivative-Free Optimization.",UFSCar,Diego Desani; Veronica Gil Costa; Cesar A. C. Marcondes; Hermes Senger
-39,2016,PDP,"Communication in Shared Memory: Concepts, Definitions, and Efficient Detection.",UFRGS,Matthias Diener; Eduardo Henrique Molina da Cruz; Marco Antonio Zanata Alves; Philippe O. A. Navaux
-40,2017,PDP,"CUDA-Sankoff: Using GPU to Accelerate the Pairwise Structural RNA Alignment.",UnB,Daniel Sundfeld; Jakob Hull Havgaard; Jan Gorodkin; Alba Cristina Magalhaes Alves de Melo
-41,2017,PDP,"High Performance I/O for Seismic Wave Propagation Simulations.",UFSC+UFRGS,Francieli Zanon Boito; Jean Luca Bez; Fabrice Dupros; Mario A. R. Dantas; Philippe O. A. Navaux; Hideo Aochi
-42,2017,PDP,"TWINS: Server Access Coordination in the I/O Forwarding Layer.",UFRGS,Jean Luca Bez; Francieli Zanon Boito; Lucas Mello Schnorr; Philippe O. A. Navaux; Jean-François Méhaut
-43,2017,SC,"Experimental and analytical study of Xeon Phi reliability.",UFSC+UFRGS,Daniel A. G. de Oliveira; Laércio Lima Pilla; Nathan DeBardeleben; Sean Blanchard; Heather Quinn; Israel Koren; Philippe O. A. Navaux; Paolo Rech
-44,2017,SC,"Obtaining dynamic scheduling policies with simulation and machine learning.",UFABC,Danilo Carastan-Santos; Raphael Y. de Camargo
+1,2015,ASPLOS,"Sirius: An Open End-to-End Voice and Vision Personal Assistant and Its Implications for Future Warehouse Scale Computers.",UFBA,Johann Hauswald; Michael A. Laurenzano; Yunqi Zhang; Cheng Li; Austin Rovinski; Arjun Khurana; Ronald G. Dreslinski; Trevor N. Mudge; Vinicius Petrucci; Lingjia Tang; Jason Mars
+2,2014,Euro-Par,"Energy-Aware Multi-Organization Scheduling Problem.",USP,Johanne Cohen; Daniel Cordeiro; Pedro Luis F. Raphael
+3,2015,Euro-Par,"Locality and Balance for Communication-Aware Thread Mapping in Multicore Systems.",UFRGS,Matthias Diener; Eduardo Henrique Molina da Cruz; Marco Antonio Zanata Alves; Mohammad S. Alhakeem; Philippe Olivier Alexandre Navaux; Hans-Ulrich Heiß
+4,2016,Euro-Par,"A Sharing-Aware Memory Management Unit for Online Mapping in Multi-core Architectures.",UFSC+UFRGS,Eduardo H. M. Cruz; Matthias Diener; Laércio Lima Pilla; Philippe O. A. Navaux
+5,2016,Euro-Par,"ParallelME: A Parallel Mobile Engine to Explore Heterogeneity in Mobile Computing Architectures.",UFMG,Guilherme Andrade; Wilson de Carvalho; Renato Utsch; Pedro Caldeira; Alberto Alburquerque; Fabricio Ferracioli; Leonardo C. da Rocha; Michael Frank; Dorgival O. Guedes; Renato Ferreira
+6,2017,Euro-Par,"Leveraging Cloud Heterogeneity for Cost-Efficient Execution of Parallel Applications.",UFRGS,Eduardo Roloff; Matthias Diener; Emmanuell Diaz Carreño; Luciano Paschoal Gaspary; Philippe O. A. Navaux
+7,2017,Euro-Par,"Performance Evaluation of Thread-Level Speculation in Off-the-Shelf Hardware Transactional Memories.",UNICAMP,Juan Salamanca 0001; José Nelson Amaral; Guido Araujo
+8,2017,Euro-Par,"Using Simulation to Evaluate and Tune the Performance of Dynamic Load Balancing of an Over-Decomposed Geophysics Application.",UFRGS,Rafael Keller Tesser; Lucas Mello Schnorr; Arnaud Legrand; Fabrice Dupros; Philippe Olivier Alexandre Navaux
+9,2015,HPCA,"Octopus-Man: QoS-driven task management for heterogeneous multicores in warehouse-scale computers.",UFBA,Vinicius Petrucci; Michael A. Laurenzano; John Doherty; Yunqi Zhang; Daniel Mossé; Jason Mars; Lingjia Tang
+10,2015,HPCA,"Understanding GPU errors on large-scale HPC systems and the implications for system design and operation.",UFRGS,Devesh Tiwari; Saurabh Gupta; James H. Rogers; Don Maxwell; Paolo Rech; Sudharshan S. Vazhkudai; Daniel A. G. de Oliveira; Dave Londo; Nathan DeBardeleben; Philippe Olivier Alexandre Navaux; Luigi Carro; Arthur S. Bland
+11,2017,HPCA,"Hipster: Hybrid Task Manager for Latency-Critical Cloud Workloads.",UFBA,Rajiv Nishtala; Paul M. Carpenter; Vinicius Petrucci; Xavier Martorell
+12,2017,HPCA,"Radiation-Induced Error Criticality in Modern HPC Parallel Accelerators.",UFSC+UFRGS,Daniel Alfonso Gonçalves de Oliveira; Laércio Lima Pilla; Mauricio Hanzich; Vinicius Fratin; Fernando Fernandes; Caio B. Lunardi; José María Cela; Philippe Olivier Alexandre Navaux; Luigi Carro; Paolo Rech
+13,2013,HiPC,"Cache-based cross-iteration coherence for speculative parallelization.",UNICAMP,Andre Baixo; João Paulo Porto; Guido Araujo
+14,2013,HiPC,"Performance and energy consumption analysis of a seismic application for three different architectures intended for oil and gas industry.",UFPEL,Lucas T. Melo; Gilliano Ginno Silva de Menezes; Abel G. Silva-Filho; Manoel Eusebio de Lima
+15,2013,HiPC,"Transaction scheduling using conflict avoidance and Contention Intensity.",UNESP+UNICAMP,Marcio Machado Pereira; Alexandro Baldassin; Guido Araujo; Luiz Eduardo Buzato
+16,2014,HiPC,"Saving energy by exploiting residual imbalances on iterative applications.",UFSC+UFRGS,Edson L. Padoin; Márcio Bastos Castro; Laércio Lima Pilla; Philippe Olivier Alexandre Navaux; Jean-François Méhaut
+17,2015,HiPC,"A Simple BSP-based Model to Predict Execution Time in GPU Applications.",USP+UFABC,Marcos Amaris; Daniel Cordeiro; Alfredo Goldman; Raphael Y. de Camargo
+18,2015,HiPC,"Parallel Megabase DNA Sequence Comparison with OpenCL.",UnB,Marco Antonio C. de Figueiredo; Edans F. de O. Sandes; Alba Cristina Magalhaes Alves de Melo
+19,2016,HiPC,"An Alternative Approach of the SPIKE Preconditioner for Finite Element Analysis.",UFES,Leonardo Muniz de Lima; Brenno Albino Lugon; Lucia Catabriga
+20,2016,HiPC,"MEC: The Memory Elasticity Controller.",UFF,Roberto Sawamura; Cristina Boeres; Vinod E. F. Rebello
+21,2013,ICPP,"A NUMA-Aware Runtime Environment for the Actor Model.",USP,Emilio Francesquini; Alfredo Goldman; Jean-François Méhaut
+22,2014,ICPP,"Measuring Effective Work to Reward Success in Dynamic Transaction Scheduling.",UNICAMP,Marcio Machado Pereira; José Nelson Amaral; Guido Araujo
+23,2017,ICPP,"The Cloud as an OpenMP Offloading Device.",UNICAMP,Hervé Yviquel; Guido Araujo
+24,2017,ICS,"Revisiting phased transactional memory.",UNESP+UNICAMP,Joao P. L. de Carvalho; Guido Araujo; Alexandro Baldassin
+25,2013,IPDPS,"Communication-Based Mapping Using Shared Pages.",UFRGS,Matthias Diener; Eduardo Henrique Molina da Cruz; Philippe Olivier Alexandre Navaux
+26,2013,IPDPS,"High-throughput Analysis of Large Microscopy Image Datasets on CPU-GPU Cluster Platforms.",UnB,George Teodoro; Tony Pan; Tahsin M. Kurç; Jun Kong; Lee A. D. Cooper; Norbert Podhorszki; Scott Klasky; Joel H. Saltz
+27,2014,IPDPS,"Comparative Performance Analysis of Intel (R) Xeon Phi (TM), GPU, and CPU: A Case Study from Microscopy Image Analysis.",UnB,George Teodoro; Tahsin M. Kurç; Jun Kong; Lee A. D. Cooper; Joel H. Saltz
+28,2014,IPDPS,"Pythia: Faster Big Data in Motion through Predictive Software-Defined Network Optimization at Runtime.",PUC-RS,Marcelo Veiga Neves; César A. F. De Rose; Kostas Katrinis; Hubertus Franke
+29,2016,IPDPS,"Evaluating and Improving Thread-Level Speculation in Hardware Transactional Memories.",UNICAMP,Juan Salamanca 0001; José Nelson Amaral; Guido Araujo
+30,2017,IPDPS,"Efficient and Deterministic Scheduling for Parallel State Machine Replication.",PUC-RS,Odorico Machado Mendizabal; Ruda S. T. De Moura; Fernando Luís Dotti; Fernando Pedone
+31,2013,ISCA,"Zombie memory: extending memory lifetime by reviving dead blocks.",UNICAMP,Rodolfo Azevedo; John D. Davis; Karin Strauss; Parikshit Gopalan; Mark S. Manasse; Sergey Yekhanin
+32,2015,ISCA,"SHRINK: reducing the ISA complexity via instruction recycling.",UNICAMP,Bruno Cardoso Lopes; Rafael Auler; Luiz Ramos; Edson Borin; Rodolfo Azevedo
+33,2014,PACT,"Compiler support for selective page migration in NUMA architectures.",UNICAMP+UFMG,Guilherme Piccoli; Henrique Nazaré Santos; Raphael Ernani Rodrigues; Christiane Pousa; Edson Borin; Fernando Magno Quintão Pereira
+34,2014,PACT,"kMAF: automatic kernel-level management of thread and data affinity.",UFRGS,Matthias Diener; Eduardo Henrique Molina da Cruz; Philippe Olivier Alexandre Navaux; Anselm Busse; Hans-Ulrich Heiß
+35,2013,PDP,"Performance Evaluation of Container-Based Virtualization for High Performance Computing Environments.",PUC-RS,Miguel G. Xavier; Marcelo Veiga Neves; Fabio D. Rossi; Tiago C. Ferreto; Timoteo Lange; César A. F. De Rose
+36,2014,PDP,"A Performance Comparison of Container-Based Virtualization Systems for MapReduce Clusters.",PUC-RS,Miguel Gomes Xavier; Marcelo Veiga Neves; César Augusto Fonticielha De Rose
+37,2014,PDP,"Improving the Performance of Seismic Wave Simulations with Dynamic Load Balancing.",UFSC+UFRGS,Rafael Keller Tesser; Laércio Lima Pilla; Fabrice Dupros; Philippe Olivier Alexandre Navaux; Jean-François Méhaut; Celso L. Mendes
+38,2015,PDP,"A Performance Isolation Analysis of Disk-Intensive Workloads on Container-Based Clouds.",PUC-RS,Miguel G. Xavier; Israel C. De Oliveira; Fabio D. Rossi; Robson D. Dos Passos; Kassiano J. Matteussi; César A. F. De Rose
+39,2015,PDP,"An Efficient Algorithm for Communication-Based Task Mapping.",UFSC+UFRGS,Eduardo Henrique Molina da Cruz; Matthias Diener; Laércio Lima Pilla; Philippe Olivier Alexandre Navaux
+40,2015,PDP,"Locality vs. Balance: Exploring Data Mapping Policies on NUMA Systems.",UFRGS,Matthias Diener; Eduardo Henrique Molina da Cruz; Philippe Olivier Alexandre Navaux
+41,2016,PDP,"Black-Box Optimization of Hadoop Parameters Using Derivative-Free Optimization.",UFSCar,Diego Desani; Veronica Gil Costa; Cesar A. C. Marcondes; Hermes Senger
+42,2016,PDP,"Communication in Shared Memory: Concepts, Definitions, and Efficient Detection.",UFRGS,Matthias Diener; Eduardo Henrique Molina da Cruz; Marco Antonio Zanata Alves; Philippe O. A. Navaux
+43,2017,PDP,"CUDA-Sankoff: Using GPU to Accelerate the Pairwise Structural RNA Alignment.",UnB,Daniel Sundfeld; Jakob Hull Havgaard; Jan Gorodkin; Alba Cristina Magalhaes Alves de Melo
+44,2017,PDP,"High Performance I/O for Seismic Wave Propagation Simulations.",UFSC+UFRGS,Francieli Zanon Boito; Jean Luca Bez; Fabrice Dupros; Mario A. R. Dantas; Philippe O. A. Navaux; Hideo Aochi
+45,2017,PDP,"TWINS: Server Access Coordination in the I/O Forwarding Layer.",UFRGS,Jean Luca Bez; Francieli Zanon Boito; Lucas Mello Schnorr; Philippe O. A. Navaux; Jean-François Méhaut
+46,2017,SC,"Experimental and analytical study of Xeon Phi reliability.",UFSC+UFRGS,Daniel A. G. de Oliveira; Laércio Lima Pilla; Nathan DeBardeleben; Sean Blanchard; Heather Quinn; Israel Koren; Philippe O. A. Navaux; Paolo Rech
+47,2017,SC,"Obtaining dynamic scheduling policies with simulation and machine learning.",UFABC,Danilo Carastan-Santos; Raphael Y. de Camargo
