@@ -138,23 +138,41 @@ def output_profs():
     f3.write('\n')
   f3.close()
 
-################################################################
 
-# main methods, where articles are processed
-
-#processedArticles = {}
-
+def output_pid(prof_name):
+  global out, pid_papers
+   
+  prof_name = prof_name.replace(" ", "-")  
+  f = open("./profs/" + area_prefix + "-" + prof_name + '-papers.csv','w')
+  i = 0
+  for url in pid_papers:
+    paper= out[url]
+    f.write(str(i+1))
+    i += 1
+    f.write(',')
+    f.write(str(paper[0]))
+    f.write(',')
+    f.write(str(paper[1]))
+    f.write(',')
+    f.write(str(paper[2].encode('utf-8')))
+    f.write(',')
+    f.write(str(paper[3]))
+    f.write(',')
+    authors= paper[4]
+    for author in authors[:-1]:
+      f.write(str(author.encode('utf-8')))
+      f.write('; ')
+    f.write(str(authors[-1].encode('utf-8')))  
+    f.write('\n')
+  f.close()
+      
 def inc_score(weight):
-    # s0= scores[0]   # current nb of papers in top conferences
-    # s1= scores[1]   # current nb of papers in below-the-fold conferences
-    # s2= scores[2]   # current nb of papers in other conferences
     if (weight == 1):
        return 1.0
     elif (weight == 2):
        return 0.66
     elif (weight == 3):
        return 0.33    
-    # return [s0,s1,s2]
         
 def handle_article(_, article):
     global min_paper_size, department, found_paper, black_list
@@ -191,6 +209,12 @@ def handle_article(_, article):
                return True
             
             found_paper= True;
+            
+            pid_papers.append(url)
+            #if conf_name in pid_confs:
+            #   pid_confs[conf_name] += 1
+            # else:
+            #   pid_confs[conf_name] = 1  
                
             # this paper has been already processed   
             if (url in out):      
@@ -204,9 +228,8 @@ def handle_article(_, article):
                      
             title = article['title']
             if type(title) is collections.OrderedDict:
-                title = title["#text"]
-            
-            title = title.replace("\"", "")    
+               title = title["#text"]
+            title = title.replace("\"", "")  # remove quotes in titles 
             
             print(title)
                
@@ -219,12 +242,11 @@ def handle_article(_, article):
                 
             out[url]= (year, conf_name, '"' + title + '"', department, authors)     
             score[department] += inc_score(conf_weight)
-            
-            print dblp_pages
-            print paperSize(dblp_pages)                 
              
     return True    
 
+
+################################################################
 
 # main program
 
@@ -261,27 +283,30 @@ reader2 = csv.reader(open(researchers_file_name, 'r'))
 count = 1;
 for researcher in reader2:
   
-  professor= researcher[0]     # global variables
-  department= researcher[1]
+   prof_name= researcher[0]     # global variables
+   department= researcher[1]
+   pid= researcher[2]
      
-  print str(count) + " >> " + professor
+   print str(count) + " >> " + prof_name
   
-  if not department in score:
-     score[department]= 0.0
-  if not department in profs:
-     profs[department]= 0
+   if not department in score:
+      score[department]= 0.0
+   if not department in profs:
+      profs[department]= 0
    
-  pid= researcher[2]
-  found_paper= False
+   found_paper= False
   
-  url= "http://dblp.org/pid/" + pid + ".xml"
-  bibfile = urllib2.urlopen(url).read()
-  bibdata = xmltodict.parse(bibfile, item_depth=3, item_callback=handle_article)
+   url= "http://dblp.org/pid/" + pid + ".xml"
+   bibfile = urllib2.urlopen(url).read()
   
-  if found_paper:
-     profs[department] += 1
-  
-  count= count + 1;
+   # pid_confs= {}
+   pid_papers = []
+   bibdata = xmltodict.parse(bibfile, item_depth=3, item_callback=handle_article)  
+   if found_paper:
+      profs[department] += 1
+      # output_pid(prof_name)
+     
+   count= count + 1;
 
 output_papers()
 output_scores()
