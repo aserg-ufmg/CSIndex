@@ -91,6 +91,8 @@ def output_papers():
       f.write(str(author.encode('utf-8')))
       f.write('; ')
     f.write(str(authors[-1].encode('utf-8')))  
+    f.write(',')
+    f.write(str(paper[5]))
     f.write('\n')
   f.close()
 
@@ -221,7 +223,7 @@ def handle_article(_, article):
                 paper= out[url]
                 if (paper[3].find(department) == -1): 
                    # but this author is from another department  
-                   paper2= (paper[0], paper[1], paper[2], paper[3] + "+" + department, paper[4]) 
+                   paper2= (paper[0], paper[1], paper[2], paper[3] + "+" + department, paper[4], paper[5]) 
                    out[url] = paper2 
                    score[department] += inc_score(conf_weight)
                 return True
@@ -232,6 +234,11 @@ def handle_article(_, article):
             title = title.replace("\"", "")  # remove quotes in titles 
             
             print(title)
+            
+            if type(article['ee']) is list:
+               dblp_doi= article['ee'][0]
+            else: 
+               dblp_doi= article['ee']    
                
             authorList = article['author']
             authors= []
@@ -240,7 +247,7 @@ def handle_article(_, article):
                     authorName = authorName["#text"]
                 authors.append(authorName) 
                 
-            out[url]= (year, conf_name, '"' + title + '"', department, authors)     
+            out[url]= (year, conf_name, '"' + title + '"', department, authors, dblp_doi)     
             score[department] += inc_score(conf_weight)
              
     return True    

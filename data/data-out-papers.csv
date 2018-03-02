@@ -1,22 +1,22 @@
-1,2016,BigData,"Managing hot metadata for scientific workflows on multisite clouds.",UFRJ,Luis Pineda-Morales; Ji Liu 0003; Alexandru Costan; Esther Pacitti; Gabriel Antoniu; Patrick Valduriez; Marta Mattoso
-2,2013,ECML/PKDD,"Influence of Graph Construction on Semi-supervised Learning.",ICMC/USP,Celso André R. de Sousa; Solange O. Rezende; Gustavo E. A. P. A. Batista
-3,2013,ECML/PKDD,"Probabilistic Clustering for Hierarchical Multi-Label Classification of Protein Functions.",ICMC/USP+UFSCAR+PUCRS,Rodrigo C. Barros; Ricardo Cerri; Alex Alves Freitas; André Carlos Ponce de Leon Ferreira de Carvalho
-4,2014,ECML/PKDD,"A Lossless Data Reduction for Mining Constrained Patterns in n-ary Relations.",UFMG,Gabriel Poesia; Loïc Cerf
-5,2014,ECML/PKDD,"Distinct Chains for Different Instances: An Effective Strategy for Multi-label Classifier Chains.",UFF,Pablo Nascimento da Silva; Eduardo Corrêa Gonçalves; Alexandre Plastino; Alex Alves Freitas
-6,2014,ECML/PKDD,"Revisit Behavior in Social Media: The Phoenix-R Model and Discoveries.",UFMG,Flavio Figueiredo; Jussara M. Almeida; Yasuko Matsubara; Bruno Ribeiro 0001; Christos Faloutsos
-7,2015,ECML/PKDD,"Versatile Decision Trees for Learning Over Multiple Contexts.",UFPE,Reem Al-Otaibi; Ricardo B. C. Prudêncio; Meelis Kull; Peter A. Flach
-8,2016,ECML/PKDD,"Infection Hot Spot Mining from Social Media Trajectories.",UFMG,Roberto C. S. N. P. Souza; Renato M. Assunção; Derick M. de Oliveira; Denise E. F. de Brito; Wagner Meira Jr.
-9,2016,ECML/PKDD,"Selecting Collaborative Filtering Algorithms Using Metalearning.",ICMC/USP,Tiago Cunha 0001; Carlos Soares; André C. P. L. F. de Carvalho
-10,2016,ICDM,"Vote-and-Comment: Modeling the Coevolution of User Interactions in Social Voting Web Sites.",ICMC/USP,Alceu Ferraz Costa; Agma Juci Machado Traina; Caetano Traina Jr.; Christos Faloutsos
-11,2014,ICML,"Diagnosis determination: decision trees optimizing simultaneously worst and expected testing cost.",PUC-Rio,Ferdinando Cicalese; Eduardo Sany Laber; Aline Medeiros Saettler
-12,2015,KDD,"RSC: Mining and Modeling Temporal Activity in Social Media.",ICMC/USP,Alceu Ferraz Costa; Yuto Yamaguchi; Agma Juci Machado Traina; Caetano Traina Jr.; Christos Faloutsos
-13,2016,KDD,"Burstiness Scale: A Parsimonious Model for Characterizing Random Series of Events.",UFMG,Rodrigo Augusto da Silva Alves; Renato Martins Assunção; Pedro Olmo Stancioli Vaz de Melo
-14,2017,KDD,": Learning Node Representations from Structural Identity.",UFRJ,Leonardo Filipe Rodrigues Ribeiro; Pedro H. P. Saverese; Daniel R. Figueiredo
-15,2017,KDD,"Luck is Hard to Beat: The Difficulty of Sports Prediction.",UFMG,Raquel Y. S. Aoki; Renato Martins Assunção; Pedro O. S. Vaz de Melo
-16,2013,RecSys,"Exploiting non-content preference attributes through hybrid recommendation method.",UFSJ+UFMG,Fernando Mourão; Leonardo C. da Rocha; Joseph A. Konstan; Wagner Meira Jr.
-17,2013,RecSys,"Topic diversity in tag recommendation.",UFMG,Fabiano Belém; Rodrygo L. T. Santos; Jussara M. Almeida; Marcos André Gonçalves
-18,2015,RecSys,"Context-Aware Event Recommendation in Event-based Social Networks.",UFCG+UFMG,Augusto Q. de Macedo; Leandro Balby Marinho; Rodrygo L. T. Santos
-19,2016,RecSys,"Efficient Bayesian Methods for Graph-based Recommendation.",UFMG,Ramon Lopes; Renato Assunção; Rodrygo L. T. Santos
-20,2017,RecSys,"Exploiting Socio-Economic Models for Lodging Recommendation in the Sharing Economy.",UFMG,Raul Sanchez-Vazquez; Jordan Silva; Rodrygo L. T. Santos
-21,2017,RecSys,"Metalearning for Context-aware Filtering: Selection of Tensor Factorization Algorithms.",ICMC/USP,Tiago Cunha 0001; Carlos Soares; André C. P. L. F. Carvalho
-22,2017,SDM,"VolTime: Unsupervised Anomaly Detection on Users' Online Activity Volume.",ICMC/USP,Daniel Y. T. Chino; Alceu Ferraz Costa; Agma J. M. Traina; Christos Faloutsos
+1,2016,BigData,"Managing hot metadata for scientific workflows on multisite clouds.",UFRJ,Luis Pineda-Morales; Ji Liu 0003; Alexandru Costan; Esther Pacitti; Gabriel Antoniu; Patrick Valduriez; Marta Mattoso,https://doi.org/10.1109/BigData.2016.7840628
+2,2013,ECML/PKDD,"Influence of Graph Construction on Semi-supervised Learning.",ICMC/USP,Celso André R. de Sousa; Solange O. Rezende; Gustavo E. A. P. A. Batista,https://doi.org/10.1007/978-3-642-40994-3_11
+3,2013,ECML/PKDD,"Probabilistic Clustering for Hierarchical Multi-Label Classification of Protein Functions.",ICMC/USP+UFSCAR+PUCRS,Rodrigo C. Barros; Ricardo Cerri; Alex Alves Freitas; André Carlos Ponce de Leon Ferreira de Carvalho,https://doi.org/10.1007/978-3-642-40991-2_25
+4,2014,ECML/PKDD,"A Lossless Data Reduction for Mining Constrained Patterns in n-ary Relations.",UFMG,Gabriel Poesia; Loïc Cerf,https://doi.org/10.1007/978-3-662-44851-9_37
+5,2014,ECML/PKDD,"Distinct Chains for Different Instances: An Effective Strategy for Multi-label Classifier Chains.",UFF,Pablo Nascimento da Silva; Eduardo Corrêa Gonçalves; Alexandre Plastino; Alex Alves Freitas,https://doi.org/10.1007/978-3-662-44851-9_29
+6,2014,ECML/PKDD,"Revisit Behavior in Social Media: The Phoenix-R Model and Discoveries.",UFMG,Flavio Figueiredo; Jussara M. Almeida; Yasuko Matsubara; Bruno Ribeiro 0001; Christos Faloutsos,https://doi.org/10.1007/978-3-662-44848-9_25
+7,2015,ECML/PKDD,"Versatile Decision Trees for Learning Over Multiple Contexts.",UFPE,Reem Al-Otaibi; Ricardo B. C. Prudêncio; Meelis Kull; Peter A. Flach,https://doi.org/10.1007/978-3-319-23528-8_12
+8,2016,ECML/PKDD,"Infection Hot Spot Mining from Social Media Trajectories.",UFMG,Roberto C. S. N. P. Souza; Renato M. Assunção; Derick M. de Oliveira; Denise E. F. de Brito; Wagner Meira Jr.,https://doi.org/10.1007/978-3-319-46227-1_46
+9,2016,ECML/PKDD,"Selecting Collaborative Filtering Algorithms Using Metalearning.",ICMC/USP,Tiago Cunha 0001; Carlos Soares; André C. P. L. F. de Carvalho,https://doi.org/10.1007/978-3-319-46227-1_25
+10,2016,ICDM,"Vote-and-Comment: Modeling the Coevolution of User Interactions in Social Voting Web Sites.",ICMC/USP,Alceu Ferraz Costa; Agma Juci Machado Traina; Caetano Traina Jr.; Christos Faloutsos,https://doi.org/10.1109/ICDM.2016.0020
+11,2014,ICML,"Diagnosis determination: decision trees optimizing simultaneously worst and expected testing cost.",PUC-Rio,Ferdinando Cicalese; Eduardo Sany Laber; Aline Medeiros Saettler,http://jmlr.org/proceedings/papers/v32/cicalese14.html
+12,2015,KDD,"RSC: Mining and Modeling Temporal Activity in Social Media.",ICMC/USP,Alceu Ferraz Costa; Yuto Yamaguchi; Agma Juci Machado Traina; Caetano Traina Jr.; Christos Faloutsos,http://doi.acm.org/10.1145/2783258.2783294
+13,2016,KDD,"Burstiness Scale: A Parsimonious Model for Characterizing Random Series of Events.",UFMG,Rodrigo Augusto da Silva Alves; Renato Martins Assunção; Pedro Olmo Stancioli Vaz de Melo,http://doi.acm.org/10.1145/2939672.2939852
+14,2017,KDD,": Learning Node Representations from Structural Identity.",UFRJ,Leonardo Filipe Rodrigues Ribeiro; Pedro H. P. Saverese; Daniel R. Figueiredo,http://doi.acm.org/10.1145/3097983.3098061
+15,2017,KDD,"Luck is Hard to Beat: The Difficulty of Sports Prediction.",UFMG,Raquel Y. S. Aoki; Renato Martins Assunção; Pedro O. S. Vaz de Melo,http://doi.acm.org/10.1145/3097983.3098045
+16,2013,RecSys,"Exploiting non-content preference attributes through hybrid recommendation method.",UFSJ+UFMG,Fernando Mourão; Leonardo C. da Rocha; Joseph A. Konstan; Wagner Meira Jr.,http://doi.acm.org/10.1145/2507157.2507179
+17,2013,RecSys,"Topic diversity in tag recommendation.",UFMG,Fabiano Belém; Rodrygo L. T. Santos; Jussara M. Almeida; Marcos André Gonçalves,http://doi.acm.org/10.1145/2507157.2507184
+18,2015,RecSys,"Context-Aware Event Recommendation in Event-based Social Networks.",UFCG+UFMG,Augusto Q. de Macedo; Leandro Balby Marinho; Rodrygo L. T. Santos,http://doi.acm.org/10.1145/2792838.2800187
+19,2016,RecSys,"Efficient Bayesian Methods for Graph-based Recommendation.",UFMG,Ramon Lopes; Renato Assunção; Rodrygo L. T. Santos,http://doi.acm.org/10.1145/2959100.2959132
+20,2017,RecSys,"Exploiting Socio-Economic Models for Lodging Recommendation in the Sharing Economy.",UFMG,Raul Sanchez-Vazquez; Jordan Silva; Rodrygo L. T. Santos,http://doi.acm.org/10.1145/3109859.3109910
+21,2017,RecSys,"Metalearning for Context-aware Filtering: Selection of Tensor Factorization Algorithms.",ICMC/USP,Tiago Cunha 0001; Carlos Soares; André C. P. L. F. Carvalho,http://doi.acm.org/10.1145/3109859.3109899
+22,2017,SDM,"VolTime: Unsupervised Anomaly Detection on Users' Online Activity Volume.",ICMC/USP,Daniel Y. T. Chino; Alceu Ferraz Costa; Agma J. M. Traina; Christos Faloutsos,https://doi.org/10.1137/1.9781611974973.13
