@@ -12,7 +12,7 @@
 12,2014,DSN,"Impact of GPUs Parallelism Management on Safety-Critical and HPC Applications Reliability.",UFRGS,Paolo Rech; Laércio Lima Pilla; Philippe Olivier Alexandre Navaux; Luigi Carro,https://doi.org/10.1109/DSN.2014.49
 13,2015,DSN,"User-Constraint and Self-Adaptive Fault Tolerance for Event Stream Processing Systems.",UFCG,André Martin; Tiaraju Smaneoto; Tobias Dietze; Andrey Brito; Christof Fetzer,https://doi.org/10.1109/DSN.2015.56
 14,2017,ICDCS,"High Performance Recovery for Parallel State Machine Replication.",PUC-RS,Odorico Machado Mendizabal; Fernando Luís Dotti; Fernando Pedone,https://doi.org/10.1109/ICDCS.2017.193
-15,2017,ICDCS,"Model-Driven Domain-Specific Middleware.",IME/USP+UFG,Fábio M. Costa; Karl A. Morris; Fabio Kon; Peter J. Clarke,https://doi.org/10.1109/ICDCS.2017.197
+15,2017,ICDCS,"Model-Driven Domain-Specific Middleware.",IME/USP; UFG,Fábio M. Costa; Karl A. Morris; Fabio Kon; Peter J. Clarke,https://doi.org/10.1109/ICDCS.2017.197
 16,2015,IPSN,"SIoT: securing the internet of things through distributed system analysis.",UFMG,Fernando Augusto Teixeira; Gustavo V. Machado; Fernando Magno Quintão Pereira; Hao Chi Wong; José Marcos S. Nogueira; Leonardo B. Oliveira,http://doi.acm.org/10.1145/2737095.2737097
 17,2013,SRDS,"Consensus with Unknown Participants in Shared Memory.",UFBA,Catia Khouri; Fabíola Greve; Sébastien Tixeuil,https://doi.org/10.1109/SRDS.2013.14
 18,2015,SRDS,"Chasing the Tail of Atomic Broadcast Protocols.",UNICAMP,Daniel Cason; Parisa Jalili Marandi; Luiz Eduardo Buzato; Fernando Pedone,https://doi.org/10.1109/SRDS.2015.28
