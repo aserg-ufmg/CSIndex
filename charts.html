@@ -63,7 +63,7 @@
 						  'vAxis': { gridlines: { counts: -1} },
 						  'annotations': { alwaysOutside:true },
 						  'titleTextStyle': { bold: false },
-						  'title': 'Number of full papers with Brazilian authors in tracked conferences (2013-2017)'
+						  'title': 'Number of full papers by Brazilian professors in tracked conferences (2013-2017)'
 						};
 					   			
 		  var chart = new google.visualization.ColumnChart(document.getElementById('chart_confs'));
@@ -158,7 +158,7 @@
           formatter.format(data, [3, 6]);
 
           var view = new google.visualization.DataView(data);
-          view.setColumns([0,1,2,3,4,5]); // Create a view with the first column only.
+          view.setColumns([0,1,2,3,4,5]);
           
 		  table.draw(view, {allowHtml: true, showRowNumber: false, width: '100%', height: '100%'});
 		  });
