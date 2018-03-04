@@ -4,5 +4,5 @@
 4,2014,CSF,"Additive and Multiplicative Notions of Leakage, and Their Capacities.",UFMG,Mário S. Alvim; Konstantinos Chatzikokolakis 0001; Annabelle McIver; Carroll Morgan; Catuscia Palamidessi; Geoffrey Smith,https://doi.org/10.1109/CSF.2014.29
 5,2016,CSF,"Axioms for Information Leakage.",UFMG,Mário S. Alvim; Konstantinos Chatzikokolakis 0001; Annabelle McIver; Carroll Morgan; Catuscia Palamidessi; Geoffrey Smith,https://doi.org/10.1109/CSF.2016.13
 6,2014,IEEE S&P,"Quantifying Information Flow for Dynamic Secrets.",UFMG,Piotr Mardziel; Mário S. Alvim; Michael W. Hicks; Michael R. Clarkson,https://doi.org/10.1109/SP.2014.41
-7,2013,SAC,"An updated threat model for security ceremonies.",UFSC,Marcelo Carlomagno Carlos; Jean Everson Martina; Geraint Price; Ricardo Felipe Custódio,http://doi.acm.org/10.1145/2480362.2480705
-8,2013,SAC,"LOCCAM - loosely coupled context acquisition middleware.",UFC,Marcio E. F. Maia; Romulo Gadelha; André Sales Fonteles; Benedito J. A. Neto; Windson Viana; Rossana M. C. Andrade,http://doi.acm.org/10.1145/2480362.2480465
+7,2013,SACrypt,"An updated threat model for security ceremonies.",UFSC,Marcelo Carlomagno Carlos; Jean Everson Martina; Geraint Price; Ricardo Felipe Custódio,http://doi.acm.org/10.1145/2480362.2480705
+8,2013,SACrypt,"LOCCAM - loosely coupled context acquisition middleware.",UFC,Marcio E. F. Maia; Romulo Gadelha; André Sales Fonteles; Benedito J. A. Neto; Windson Viana; Rossana M. C. Andrade,http://doi.acm.org/10.1145/2480362.2480465
