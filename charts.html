@@ -172,7 +172,7 @@
 		  $.get(corebr_stats_file, function(csvString) {
 		  var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
 		  var data= new google.visualization.DataTable();
-		  data.addColumn('number', 'ID');
+		  //data.addColumn('number', 'ID');
 		  data.addColumn('string', 'Conference');
 		  data.addColumn('string', 'Sponsor');
 		  data.addColumn('number', 'Submitted');
@@ -187,21 +187,21 @@
 		  
 		  var formatter1 = new google.visualization.ColorFormat();
           formatter1.addRange(0, 90, 'black', 'LemonChiffon');
-          formatter1.format(data, 3); // Apply formatter to submitted papers
+          formatter1.format(data, 2); // Apply formatter to submitted papers
 		  
           var formatter2 = new google.visualization.ColorFormat();
           formatter2.addRange(31, 100, 'black', 'LemonChiffon');
-          formatter2.format(data, 5); 
+          formatter2.format(data, 4); 
 		  
 		  var formatter3 = new google.visualization.ColorFormat();
           formatter3.addRange(0, 19, 'black', 'LemonChiffon');
-          formatter3.format(data, 6); 
+          formatter3.format(data, 5); 
 		  
 		  var formatter4 = new google.visualization.ColorFormat();
           formatter4.addRange(0, 9, 'black', 'LemonChiffon');
-          formatter4.format(data, 8); 
+          formatter4.format(data, 7); 
 		  
-		  table.draw(data, {allowHtml: true, showRowNumber: false, width: '100%', height: '100%'});
+		  table.draw(data, {allowHtml: true, showRowNumber: true, width: '100%', height: '100%'});
 		  });
 		}
     </script>
