@@ -145,6 +145,7 @@
 		  data.addColumn('string', 'Depts');
 		  data.addColumn('string', 'Authors');
 		  data.addColumn('string', 'DOI');
+		  data.addColumn('string', 'top');
 		  
 		  data.addRows(arrayData);
 	  			
@@ -157,6 +158,9 @@
                '{0} <a href="{1}" target="_blank">[doi]</a>');
           formatter.format(data, [3, 6]);
 
+          var formatter2 = new google.visualization.PatternFormat('<img src="{1}.gif">{0}');
+          formatter2.format(data, [3, 7]);
+          
           var view = new google.visualization.DataView(data);
           view.setColumns([0,1,2,3,4,5]);
           

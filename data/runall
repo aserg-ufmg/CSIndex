@@ -1,0 +1,38 @@
+echo '################## SE ##################'
+python ../corebr.py se
+sleep 2m
+echo '################## IS ##################'
+python ../corebr.py is
+sleep 2m
+echo '################## PL ##################'
+python ../corebr.py pl
+sleep 2m
+echo '################## NET ##################'
+python ../corebr.py net
+sleep 2m
+echo '################## DS ##################'
+python ../corebr.py ds
+sleep 2m
+echo '################## MOBILE ##################'
+python ../corebr.py mobile
+sleep 2m
+echo '################## DB ##################'
+python ../corebr.py db
+sleep 2m
+echo '################## IR ##################'
+python ../corebr.py ir
+sleep 2m
+echo '################## CHI ##################'
+python ../corebr.py chi
+sleep 2m
+echo '################## ARCH ##################'
+python ../corebr.py arch
+sleep 2m
+echo '################## THEORY ##################'
+python ../corebr.py theory
+sleep 2m
+echo '################## DATA ##################
+python ../corebr.py data,db
+sleep 2m
+echo '################## SECURITY ##################
+python ../corebr.py security
