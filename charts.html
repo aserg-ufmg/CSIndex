@@ -10,6 +10,15 @@
        gtag('config', 'UA-8249107-7');
     </script>
     
+    <script>
+       var trackOutboundLink = function(url) {
+          ga('send', 'event', 'outbound', 'click', url, {
+             'transport': 'beacon',
+             'hitCallback': function(){document.location = url;}
+          });
+        }
+    </script>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -155,7 +164,7 @@
           formatter.format(data, 1); // format year
           
           var formatter = new google.visualization.PatternFormat(
-               '{0} <a href="{1}" target="_blank">[doi]</a>');
+               '{0} <a href="{1}" target="_blank" onclick="trackOutboundLink("{1}"); return false;">[doi]</a>');
           formatter.format(data, [3, 6]);
 
           var formatter2 = new google.visualization.PatternFormat('<img src="{1}.gif">{0}');
