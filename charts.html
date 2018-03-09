@@ -1,21 +1,24 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-8249107-7"></script>
+  
+  
     <script>
-       window.dataLayer = window.dataLayer || [];
-       function gtag(){dataLayer.push(arguments);}
-       gtag('js', new Date());
-       gtag('config', 'UA-8249107-7');
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-8249107-7', 'auto');
+        ga('send', 'pageview');
     </script>
     
     <script>
-       var trackOutboundLink = function(url) {
-          ga('send', 'event', 'outbound', 'click', url, {
-             'transport': 'beacon',
-             'hitCallback': function(){document.location = url;}
-          });
+        var trackOutboundLink = function(url) {
+            ga('send', 'event', 'outbound', 'click', url, {
+               'transport': 'beacon',
+               'hitCallback': function(){window.open(url);}
+            });
         }
     </script>
 
@@ -23,6 +26,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
+
+    <title>CoreBR: Exploring Brazilian Scientific Production in Computer Science</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
         
@@ -164,7 +169,7 @@
           formatter.format(data, 1); // format year
           
           var formatter = new google.visualization.PatternFormat(
-               '{0} <a href="{1}" target="_blank" onclick="trackOutboundLink("{1}"); return false;">[doi]</a>');
+               '{0} <a href="{1}" onclick="trackOutboundLink(this.href); return false;">[doi]</a>');
           formatter.format(data, [3, 6]);
 
           var formatter2 = new google.visualization.PatternFormat('<img src="{1}.gif">{0}');
