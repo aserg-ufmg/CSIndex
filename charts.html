@@ -186,7 +186,6 @@
 		  $.get(corebr_stats_file, function(csvString) {
 		  var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
 		  var data= new google.visualization.DataTable();
-		  //data.addColumn('number', 'ID');
 		  data.addColumn('string', 'Conference');
 		  data.addColumn('string', 'Sponsor');
 		  data.addColumn('number', 'Submitted');
