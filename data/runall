@@ -31,8 +31,8 @@ sleep 2m
 echo '################## THEORY ##################'
 python ../corebr.py theory
 sleep 2m
-echo '################## DATA ##################
+echo '################## DATA ##################'
 python ../corebr.py data,db
 sleep 2m
-echo '################## SECURITY ##################
+echo '################## SECURITY ##################'
 python ../corebr.py security

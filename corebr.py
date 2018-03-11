@@ -93,7 +93,9 @@ def output_papers():
     f.write(str(authors[-1].encode('utf-8')))  
     f.write(',')
     f.write(str(paper[5]))
-    f.write('\n')
+    f.write(',')
+    f.write(str(paper[6]))
+    f.write('\n')   
   f.close()
 
 def output_scores():
@@ -164,10 +166,30 @@ def output_pid(prof_name):
     for author in authors[:-1]:
       f.write(str(author.encode('utf-8')))
       f.write('; ')
-    f.write(str(authors[-1].encode('utf-8')))  
+    f.write(str(authors[-1].encode('utf-8'))) 
+    f.write(',')
+    f.write(str(paper[5]))
+    f.write(',')
+    f.write(str(paper[6]))   
     f.write('\n')
   f.close()
       
+      
+def output_pid_profs():
+  global pid_profs
+   
+  f = open(area_prefix + "-" + 'out-profs-name.csv','w')
+  # i = 1
+  # f.write('{ "results": [\n')
+  for prof in pid_profs:
+    # f.write('{ "id": ' + str(i) + ', "text": "' + prof + '" },\n')
+    # i = i + 1
+    f.write(prof)
+    f.write('\n')
+  #f.write('] }\n')  
+  f.close()
+        
+        
 def inc_score(weight):
     if (weight == 1):
        return 1.0
@@ -223,7 +245,8 @@ def handle_article(_, article):
                 paper= out[url]
                 if (paper[3].find(department) == -1): 
                    # but this author is from another department  
-                   paper2= (paper[0], paper[1], paper[2], paper[3] + "+" + department, paper[4], paper[5]) 
+                   paper2= (paper[0], paper[1], paper[2], paper[3] + "; " + department, 
+                            paper[4], paper[5], paper[6]) 
                    out[url] = paper2 
                    score[department] += inc_score(conf_weight)
                 return True
@@ -238,8 +261,15 @@ def handle_article(_, article):
             if type(article['ee']) is list:
                dblp_doi= article['ee'][0]
             else: 
-               dblp_doi= article['ee']    
-               
+               dblp_doi= article['ee']  
+                 
+            if (conf_weight == 1):  
+               conf_tag= "top"
+            else:
+               conf_tag= "null"
+            
+            print conf_tag
+                  
             authorList = article['author']
             authors= []
             for authorName in authorList:
@@ -247,7 +277,7 @@ def handle_article(_, article):
                     authorName = authorName["#text"]
                 authors.append(authorName) 
                 
-            out[url]= (year, conf_name, '"' + title + '"', department, authors, dblp_doi)     
+            out[url]= (year, conf_name, '"' + title + '"', department, authors, dblp_doi, conf_tag)     
             score[department] += inc_score(conf_weight)
              
     return True    
@@ -283,6 +313,7 @@ conflist = list(set(conflist))  # removing duplicates
 out = {}
 score = {}
 profs = {}
+pid_profs = []
   
 init_black_white_lists()
     
@@ -309,13 +340,16 @@ for researcher in reader2:
    # pid_confs= {}
    pid_papers = []
    bibdata = xmltodict.parse(bibfile, item_depth=3, item_callback=handle_article)  
+
    if found_paper:
       profs[department] += 1
-      # output_pid(prof_name)
-     
+      pid_profs.append(prof_name)
+      output_pid(prof_name)
+
    count= count + 1;
 
 output_papers()
 output_scores()
 output_profs()
 output_conferences()
+output_pid_profs()
