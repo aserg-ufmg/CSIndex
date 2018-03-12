@@ -1,3 +1,4 @@
 db/conf/icse/icse2013.html#NetoCLGM13
 db/conf/esem/esem2017.html#MelloOG17
 db/conf/esem/esem2017.html#SantosMCSCS17
+db/conf/esem/esem2017.html#TrinkenreichSBC17
