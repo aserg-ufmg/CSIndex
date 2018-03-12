@@ -62,9 +62,9 @@
           var list = data.split('\n').map(function(c){ return c.trim(); });
           new autoComplete({
             selector: '#app-input',
-            minChars: 2,
+            minChars: 4,
             source: function(term, suggest){
-              var suggestions = list.filter(function(city) { return (city.toLowerCase().indexOf(term.toLowerCase().trim()) == 0); });
+              var suggestions = list.filter(function(city) { return (city.toLowerCase().indexOf(term.toLowerCase().trim()) >= 0); });
               suggest(suggestions);
             },
             onSelect: function(event, term, item) {
@@ -131,7 +131,7 @@ CoreBR, during 2013-2017. <font color="red">Currently, only available for Softwa
 
 <div class="input-group h-20 border-primary justify-content-center">
   <input id="app-input" type="text" class="form-control" 
-  placeholder="Enter and select an author name (first, last name; only authors with papers are listed)" aria-label="Author" aria-describedby="basic-addon2">
+  placeholder="Enter author name (only authors with papers tracked by CoreBR are listed)" aria-label="Author" aria-describedby="basic-addon2">
 </div>
 
 <p></p>
