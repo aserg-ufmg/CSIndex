@@ -228,7 +228,7 @@ def handle_article(_, article):
             size = 0
                         
         if (size >= min_paper_size):
-                
+               
             if url in black_list:
                return True
             
