@@ -42,7 +42,7 @@
 		google.charts.setOnLoadCallback(drawTablePapers);
         
         var corebr_author= sessionStorage.getItem('corebr_author');
-		var corebr_papers_file = "data/profs/se-" + corebr_author + "-papers.csv";
+		var corebr_papers_file = "data/profs/search/" + corebr_author + ".csv";
 	    
 		function drawTablePapers() {
 		  $.get(corebr_papers_file, function(csvString) {

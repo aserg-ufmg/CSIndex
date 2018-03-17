@@ -11,7 +11,9 @@ import urllib2
 import re
 import sys
 import operator
-import os.path
+# import os.path
+import glob
+import os
 
 #################################################
 
@@ -143,7 +145,7 @@ def output_profs():
   f3.close()
 
 
-def output_pid(prof_name):
+def output_prof_papers(prof_name):
   global out, pid_papers
    
   prof_name = prof_name.replace(" ", "-")  
@@ -173,20 +175,43 @@ def output_pid(prof_name):
     f.write(str(paper[6]))   
     f.write('\n')
   f.close()
-      
-      
+
+def merge_output_prof_papers(profname):
+
+    os.chdir("./profs")
+    filenames = []
+    profname = profname.replace(" ", "-")  
+    for file in glob.glob("*" + profname + "-papers.csv"):
+      filenames.append(file)
+      print file
+    outfile= open("./search/" + profname + ".csv", 'w')
+    for fname in filenames:
+        with open(fname) as infile:
+           outfile.write(infile.read())
+    os.chdir("..")       
+            
+def generate_search_box_list():
+    os.chdir("./profs/search")
+    profs = []
+    for file in glob.glob("*.csv"):
+        file= file.replace(".csv", "")
+        file= file.replace("-", " ")
+        profs.append(file)
+        print "prof: " + file
+    profs.remove("empty")    
+    f = open("../all-authors.csv",'w')
+    for p in profs:
+      f.write(p)
+      f.write('\n')
+    f.close()
+             
 def output_pid_profs():
   global pid_profs
    
   f = open(area_prefix + "-" + 'out-profs-name.csv','w')
-  # i = 1
-  # f.write('{ "results": [\n')
   for prof in pid_profs:
-    # f.write('{ "id": ' + str(i) + ', "text": "' + prof + '" },\n')
-    # i = i + 1
     f.write(prof)
     f.write('\n')
-  #f.write('] }\n')  
   f.close()
         
         
@@ -267,8 +292,6 @@ def handle_article(_, article):
                conf_tag= "top"
             else:
                conf_tag= "null"
-            
-            print conf_tag
                   
             authorList = article['author']
             authors= []
@@ -290,6 +313,10 @@ def handle_article(_, article):
 area_prefix= sys.argv[1]   
 confs_file_name = area_prefix + "-confs.csv"
 
+for f in glob.glob("./profs/"+ area_prefix + "-*.csv"):
+    print "Removing file " + f
+    os.remove(f)
+    
 reader3 = csv.reader(open("research-areas-config.csv", 'r'))
 for area_tuple in reader3:
   if (area_tuple[0] == area_prefix):
@@ -313,7 +340,7 @@ conflist = list(set(conflist))  # removing duplicates
 out = {}
 score = {}
 profs = {}
-pid_profs = []
+#pid_profs = []
   
 init_black_white_lists()
     
@@ -343,8 +370,9 @@ for researcher in reader2:
 
    if found_paper:
       profs[department] += 1
-      pid_profs.append(prof_name)
-      output_pid(prof_name)
+      #pid_profs.append(prof_name)
+      output_prof_papers(prof_name)
+      merge_output_prof_papers(prof_name)
 
    count= count + 1;
 
@@ -352,4 +380,6 @@ output_papers()
 output_scores()
 output_profs()
 output_conferences()
-output_pid_profs()
+#output_pid_profs()
+
+generate_search_box_list()

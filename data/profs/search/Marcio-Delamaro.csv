@@ -1,0 +1,4 @@
+1,2016,FSE,"Analyzing the validity of selective mutation with dominator mutants.",ICMC/USP,Bob Kurtz; Paul Ammann; Jeff Offutt; Márcio Eduardo Delamaro; Mariet Kurtz; Nida Gökçe,http://doi.acm.org/10.1145/2950290.2950322,top
+2,2014,ICST,"Designing Deletion Mutation Operators.",ICMC/USP,Márcio Eduardo Delamaro; Jeff Offutt; Paul Ammann,https://doi.org/10.1109/ICST.2014.12,null
+3,2014,ICST,"Establishing Theoretical Minimal Sets of Mutants.",ICMC/USP,Paul Ammann; Márcio Eduardo Delamaro; Jeff Offutt,https://doi.org/10.1109/ICST.2014.13,null
+4,2014,ICST,"Experimental Evaluation of SDL and One-Op Mutation for C.",ICMC/USP,Márcio Eduardo Delamaro; Lin Deng; Vinicius Humberto Serapilha Durelli; Nan Li; Jeff Offutt,https://doi.org/10.1109/ICST.2014.33,null
