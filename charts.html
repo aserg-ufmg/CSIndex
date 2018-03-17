@@ -172,7 +172,7 @@
                '{0} <a href="{1}" onclick="trackOutboundLink(this.href); return false;">[doi]</a>');
           formatter.format(data, [3, 6]);
 
-          var formatter2 = new google.visualization.PatternFormat('<img src="{1}.gif">{0}');
+          var formatter2 = new google.visualization.PatternFormat('<img src="figs/{1}.gif">{0}');
           formatter2.format(data, [3, 7]);
           
           var view = new google.visualization.DataView(data);
