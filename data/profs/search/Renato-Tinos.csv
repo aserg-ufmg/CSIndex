@@ -1,0 +1,8 @@
+1,2017,GECCO,"Building a better heuristic for the traveling salesman problem: combining edge assembly crossover and partition crossover.",FFCLRP/USP,Danilo Sanches; Darrell Whitley; Renato Tinós,http://doi.acm.org/10.1145/3071178.3071305,null
+2,2017,GECCO,"Improving an exact solver for the traveling salesman problem using partition crossover.",FFCLRP/USP,Danilo Sanches; Darrell Whitley; Renato Tinós,http://doi.acm.org/10.1145/3071178.3071304,null
+3,2017,GECCO,"Optimizing one million variable NK landscapes by hybridizing deterministic recombination and local search.",FFCLRP/USP,Francisco Chicano; Darrell Whitley; Gabriela Ochoa; Renato Tinós,http://doi.acm.org/10.1145/3071178.3071285,null
+4,2016,GECCO,"Efficient Hill Climber for Constrained Pseudo-Boolean Optimization Problems.",FFCLRP/USP,Francisco Chicano; Darrell Whitley; Renato Tinós,http://doi.acm.org/10.1145/2908812.2908869,null
+5,2016,GECCO,"A New Evaluation Function for Clustering: The NK Internal Validation Criterion.",FFCLRP/USP,Renato Tinós; Zhao Liang; Francisco Chicano; Darrell Whitley,http://doi.acm.org/10.1145/2908812.2908831,null
+6,2015,GECCO,"Tunnelling Crossover Networks.",FFCLRP/USP,Gabriela Ochoa; Francisco Chicano; Renato Tinós; Darrell Whitley,http://doi.acm.org/10.1145/2739480.2754657,null
+7,2014,GECCO,"Generalized asymmetric partition crossover (GAPX) for the asymmetric TSP.",FFCLRP/USP,Renato Tinós; Darrell Whitley; Gabriela Ochoa,http://doi.acm.org/10.1145/2576768.2598245,null
+8,2014,GECCO,"Use of explicit memory in the dynamic traveling salesman problem.",FFCLRP/USP,Renato Tinós; Darrell Whitley; Adele E. Howe,http://doi.acm.org/10.1145/2576768.2598247,null
