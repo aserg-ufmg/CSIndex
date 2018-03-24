@@ -11,7 +11,6 @@ import urllib2
 import re
 import sys
 import operator
-# import os.path
 import glob
 import os
 
@@ -78,8 +77,8 @@ def output_papers():
   f = open(area_prefix + '-out-papers.csv','w')
   for i in range(0, len(sorted_papers)):
     paper= sorted_papers[i][1]
-    f.write(str(i+1))
-    f.write(',')
+    #f.write(str(i+1))
+    #f.write(',')
     f.write(str(paper[0]))
     f.write(',')
     f.write(str(paper[1]))
@@ -150,12 +149,12 @@ def output_prof_papers(prof_name):
    
   prof_name = prof_name.replace(" ", "-")  
   f = open("./profs/" + area_prefix + "-" + prof_name + '-papers.csv','w')
-  i = 0
+  #i = 0
   for url in pid_papers:
     paper= out[url]
-    f.write(str(i+1))
-    i += 1
-    f.write(',')
+    #f.write(str(i+1))
+    #f.write(',')
+    #i += 1
     f.write(str(paper[0]))
     f.write(',')
     f.write(str(paper[1]))

@@ -1,6 +1,0 @@
-1,2016,KDD,"Fast Unsupervised Online Drift Detection Using Incremental Kolmogorov-Smirnov Test.",ICMC/USP,Denis Moreira dos Reis; Peter A. Flach; Stan Matwin; Gustavo E. A. P. A. Batista,http://doi.acm.org/10.1145/2939672.2939836,top
-2,2016,SDM,"Speeding Up All-Pairwise Dynamic Time Warping Matrix Calculation.",ICMC/USP,Diego Furtado Silva; Gustavo E. A. P. A. Batista,https://doi.org/10.1137/1.9781611974348.94,null
-3,2015,SDM,"Data Stream Classification Guided by Clustering on Nonstationary Environments and Extreme Verification Latency.",ICMC/USP,Vinícius M. A. de Souza; Diego Furtado Silva; João Gama; Gustavo E. A. P. A. Batista,https://doi.org/10.1137/1.9781611974010.98,null
-4,2013,ICDM,"Time Series Classification Using Compression Distance of Recurrence Plots.",ICMC/USP,Diego Furtado Silva; Vinícius M. A. de Souza; Gustavo E. A. P. A. Batista,https://doi.org/10.1109/ICDM.2013.128,null
-5,2013,KDD,"DTW-D: time series semi-supervised learning from a single example.",ICMC/USP,Yanping Chen 0005; Bing Hu 0001; Eamonn J. Keogh; Gustavo E. A. P. A. Batista,http://doi.acm.org/10.1145/2487575.2487633,top
-6,2013,ECML/PKDD,"Influence of Graph Construction on Semi-supervised Learning.",ICMC/USP,Celso André R. de Sousa; Solange O. Rezende; Gustavo E. A. P. A. Batista,https://doi.org/10.1007/978-3-642-40994-3_11,null
