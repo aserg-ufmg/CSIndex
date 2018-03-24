@@ -58,6 +58,8 @@
 		  data.addColumn('string', 'top');
 		  
 		  data.addRows(arrayData);
+	  	  data.sort({column: 0, desc: true});
+		
 	  			
 		  var table = new google.visualization.Table(document.getElementById('author_chart_papers'));
 		  
