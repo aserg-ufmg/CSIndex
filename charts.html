@@ -109,7 +109,7 @@
 						  'hAxis': { slantedText:true, slantedTextAngle:45 }, 
 						  'annotations': { alwaysOutside:true },
 						  'titleTextStyle': { bold: false },
-						  'title': 'Dept score= A + (0.66 * B) + (0.33 * C), where A= papers in top confs; B= papers in "near-the-top" confs; C= papers in other confs'
+						  'title': 'Score= A + (0.66 * B) + (0.33 * C), where A= papers in top confs; B= papers in "near-the-top" confs; C= papers in other confs'
 					     };
 		 
 		  var chart = new google.visualization.ColumnChart(document.getElementById('chart_depts'));
@@ -225,40 +225,50 @@
 
 
 <ul class="nav nav-tabs" role="tablist">
-  <li class="nav-item">
-    <a class="nav-link small active" data-toggle="tab" href="#confs" role="tab">Conferences</a>
-  </li>
-  <li class="nav-item">
-     <a class="nav-link small"  data-toggle="tab" href="#depts" role="tab">Departments</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link small"  data-toggle="tab" href="#profs" role="tab">Faculty</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link small"  data-toggle="tab" href="#papers" role="tab">Papers (2013-2017)</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link small"  data-toggle="tab" href="#stats" role="tab">Stats (2017)</a>
-  </li>
+
+<li class="nav-item">
+<a class="nav-link small active"  data-toggle="tab" href="#depts" role="tab">Departments</a>
+</li>
+  
+<li class="nav-item">
+<a class="nav-link small" data-toggle="tab" href="#confs" role="tab">Conferences</a>
+</li>
+  
+<li class="nav-item">
+<a class="nav-link small"  data-toggle="tab" href="#profs" role="tab">Faculty</a>
+</li>
+  
+<li class="nav-item">
+<a class="nav-link small"  data-toggle="tab" href="#papers" role="tab">Papers (2013-2017)</a>
+</li>
+  
+<li class="nav-item">
+<a class="nav-link small"  data-toggle="tab" href="#stats" role="tab">Stats (2017)</a>
+</li>
 </ul>
 
 <div class="tab-content">
-  <div class="tab-pane active" id="confs" role="tabpanel">
-       <div id="chart_confs"></div> 
-  </div>
 
-  <div class="tab-pane" id="depts" role="tabpanel">
-       <div id="chart_depts"></div>
-  </div>     
-  <div class="tab-pane" id="profs" role="tabpanel">
-       <div id="chart_profs"></div>
-  </div>
-  <div class="tab-pane" id="papers" role="tabpanel">
-       <div id="chart_papers"></div>
-  </div>
-  <div class="tab-pane" id="stats" role="tabpanel">
-       <div id="chart_stats"></div>
-  </div>
+<div class="tab-pane active" id="depts" role="tabpanel">
+<div id="chart_depts"></div>
+</div>     
+
+<div class="tab-pane" id="confs" role="tabpanel">
+<div id="chart_confs"></div> 
+</div>
+  
+<div class="tab-pane" id="profs" role="tabpanel">
+<div id="chart_profs"></div>
+</div>
+
+<div class="tab-pane" id="papers" role="tabpanel">
+<div id="chart_papers"></div>
+</div>
+  
+<div class="tab-pane" id="stats" role="tabpanel">
+<div id="chart_stats"></div>
+</div>
+
 </div>
 
 
