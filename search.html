@@ -45,12 +45,20 @@
 
 
     <script type="text/javascript">
-       sessionStorage.setItem('corebr_author', 'empty');
+       sessionStorage.setItem('corebr_author', 'empty');        
     </script>
       
 
     <script type="text/javascript">
       $( document ).ready(function(){
+       var url = new URL(window.location.href);
+       var author = url.searchParams.get("author");
+       if (author != null) {
+          sessionStorage.setItem('corebr_author', author);
+          var author2= author.split("-").join(" ");
+          document.getElementById("app-input").value= author2; 
+        }
+           
         var file = 'data/profs/all-authors.csv';
         
         String.prototype.replaceAll = function(search, replacement) {
@@ -70,7 +78,8 @@
             onSelect: function(event, term, item) {
               term2= term.replaceAll(" ", "-");
               sessionStorage.setItem('corebr_author', term2);
-              document.getElementById('author-charts-frame').contentWindow.location.reload(true);
+              window.history.pushState('', '', '?author=' + term2);
+              document.getElementById('author-charts-frame').contentWindow.location.reload(true);   
             }
           });
         });
@@ -143,8 +152,9 @@ CSIndex, during 2013-2017. <b>Only authors with papers tracked by CSIndex are li
 
 <div class="input-group h-20 border-primary justify-content-center">
   <input id="app-input" type="text" class="form-control" 
-  placeholder="Enter author name" aria-label="Author" aria-describedby="basic-addon2">
+  placeholder="Enter author name" aria-label="Author" aria-describedby="basic-addon2">  
 </div>
+
 
 <p></p>
 
