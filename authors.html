@@ -46,7 +46,7 @@
     <script type="text/javascript">
       $( document ).ready(function(){
        var url = new URL(window.location.href);
-       var author = url.searchParams.get("author");
+       var author = url.searchParams.get("p");
        if (author != null) {
           sessionStorage.setItem('corebr_author', author);
           var author2= author.split("-").join(" ");
@@ -72,7 +72,7 @@
             onSelect: function(event, term, item) {
               term2= term.replaceAll(" ", "-");
               sessionStorage.setItem('corebr_author', term2);
-              window.history.pushState('', '', '?author=' + term2);
+              window.history.pushState('', '', '?p=' + term2);
               document.getElementById('author-charts-frame').contentWindow.location.reload(true);   
             }
           });
@@ -108,7 +108,7 @@
               <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="search.html">Authors Pages</a>
+              <a class="nav-link" href="authors.html">Authors Pages</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="faq.html">FAQ</a>
