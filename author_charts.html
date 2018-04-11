@@ -72,7 +72,7 @@
           formatter2.format(data, [2, 6]);
           
           var view = new google.visualization.DataView(data);
-          view.setColumns([0,1,2,3,4]);
+          view.setColumns([0,1,2,4]);
           
 		  table.draw(view, {allowHtml: true, showRowNumber: true, width: '100%', height: '100%'});
 		  });
