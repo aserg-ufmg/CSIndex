@@ -47,7 +47,6 @@
 		  $.get(corebr_papers_file, function(csvString) {
 		  var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
 		  var data= new google.visualization.DataTable();
-		  // data.addColumn('number', 'ID');
 		  data.addColumn('number', 'Year');
 		  data.addColumn('string', 'Conf');
 		  data.addColumn('string', 'Title');
