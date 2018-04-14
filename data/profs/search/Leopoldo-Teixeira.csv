@@ -1,5 +1,5 @@
 2016,GPCE,"A change-centric approach to compile configurable systems with #ifdefs.",UFPE,Larissa Braz; Rohit Gheyi; Melina Mongiovi; Márcio Ribeiro; Flávio Medeiros; Leopoldo Teixeira,http://doi.acm.org/10.1145/2993236.2993250,null
 2015,GPCE,"An empirical study on configuration-related issues: investigating undeclared and unused identifiers.",UFPE,Flávio Medeiros; Iran Rodrigues; Márcio Ribeiro; Leopoldo Teixeira; Rohit Gheyi,http://doi.acm.org/10.1145/2814204.2814206,null
-2016,SPLC,"Partially safe evolution of software product lines.",UFPE,Gabriela Sampaio; Paulo Borba; Leopoldo Teixeira,http://doi.acm.org/10.1145/2934466.2934482,null
-2015,SPLC,"A product line of theories for reasoning about safe evolution of product lines.",UFPE,Leopoldo Teixeira; Vander Alves; Paulo Borba; Rohit Gheyi,http://doi.acm.org/10.1145/2791060.2791105,null
-2013,SPLC,"Coevolution of variability models and related artifacts: a case study from the Linux kernel.",UFPE,Leonardo Teixeira Passos; Jianmei Guo; Leopoldo Teixeira; Krzysztof Czarnecki; Andrzej Wasowski; Paulo Borba,http://doi.acm.org/10.1145/2491627.2491628,null
+2016,SPLC,"Partially safe evolution of software product lines.",Gabriela Sampaio; Paulo Borba; Leopoldo Teixeira,http://doi.acm.org/10.1145/2934466.2934482,null
+2015,SPLC,"A product line of theories for reasoning about safe evolution of product lines.",Leopoldo Teixeira; Vander Alves; Paulo Borba; Rohit Gheyi,http://doi.acm.org/10.1145/2791060.2791105,null
+2013,SPLC,"Coevolution of variability models and related artifacts: a case study from the Linux kernel.",Leonardo Teixeira Passos; Jianmei Guo; Leopoldo Teixeira; Krzysztof Czarnecki; Andrzej Wasowski; Paulo Borba,http://doi.acm.org/10.1145/2491627.2491628,null

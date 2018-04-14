@@ -1,18 +1,19 @@
 2014,EDOC,"Object-Business Process Mapping Frameworks: Abstractions, Architecture, and Implementation.",UFMG,Rogel Garcia; Marco Tulio Valente,https://doi.org/10.1109/EDOC.2014.30,null
-2017,ICPC,"A comparison of three algorithms for computing truck factors.",CEFET/MG; UFMG,Mívian M. Ferreira; Marco Tulio Valente; Kecia Aline M. Ferreira,https://doi.org/10.1109/ICPC.2017.35,null
-2017,MSR,"RefDiff: detecting refactorings in version histories.",UFMG,Danilo Silva; Marco Tulio Valente,https://doi.org/10.1109/MSR.2017.14,null
-2017,FSE,"Why modern open source projects fail.",UFMG,Jailton Coelho; Marco Tulio Valente,http://doi.acm.org/10.1145/3106237.3106246,top
-2017,SANER,"Historical and impact analysis of API breaking changes: A large-scale study.",UFMS; UFMG,Laerte Xavier; Aline Brito; André C. Hora; Marco Tulio Valente,https://doi.org/10.1109/SANER.2017.7884616,null
-2016,ICSME,"Understanding the Factors That Impact the Popularity of GitHub Repositories.",UFMS; UFMG,Hudson Borges; André C. Hora; Marco Tulio Valente,https://doi.org/10.1109/ICSME.2016.31,null
-2016,ICPC,"A novel approach for estimating Truck Factors.",UFMS; UFMG,Guilherme Avelino; Leonardo Teixeira Passos; André C. Hora; Marco Tulio Valente,https://doi.org/10.1109/ICPC.2016.7503718,null
-2016,FSE,"When should internal interfaces be promoted to public?",UFMS; UFMG,André C. Hora; Marco Tulio Valente; Romain Robbes; Nicolas Anquetil,http://doi.acm.org/10.1145/2950290.2950306,top
-2016,FSE,"Why we refactor? confessions of GitHub contributors.",UFMG,Danilo Silva; Nikolaos Tsantalis; Marco Tulio Valente,http://doi.acm.org/10.1145/2950290.2950305,top
-2016,SANER,"An Empirical Study on Recommendations of Similar Bugs.",PUC Minas; UFMG,Henrique Rocha; Marco Tulio Valente; Humberto Marques-Neto; Gail C. Murphy,https://doi.org/10.1109/SANER.2016.87,null
-2016,SANER,"Do Developers Deprecate APIs with Replacement Messages? A Large-Scale Analysis on Java Systems.",UFMS; UFMG,Gleison Brito; André C. Hora; Marco Tulio Valente; Romain Robbes,https://doi.org/10.1109/SANER.2016.99,null
-2015,ICSME,"Developers' perception of co-change patterns: An empirical study.",UFU; UFMG,Luciana Lourdes Silva; Marco Tulio Valente; Marcelo de Almeida Maia; Nicolas Anquetil,https://doi.org/10.1109/ICSM.2015.7332448,null
-2015,ICSME,"System specific, source code transformations.",UFMG,Gustavo Santos; Nicolas Anquetil; Anne Etien; Stéphane Ducasse; Marco Tulio Valente,https://doi.org/10.1109/ICSM.2015.7332468,null
-2015,ICSME,"How do developers react to API evolution? The Pharo ecosystem case.",UFMS; UFMG,André C. Hora; Romain Robbes; Nicolas Anquetil; Anne Etien; Stéphane Ducasse; Marco Tulio Valente,https://doi.org/10.1109/ICSM.2015.7332471,null
-2015,SANER,"Does JavaScript software embrace classes?",UFMG,Leonardo Humberto Silva; Miguel Ramos; Marco Tulio Valente; Alexandre Bergel; Nicolas Anquetil,https://doi.org/10.1109/SANER.2015.7081817,null
-2014,SANER,"Remodularization analysis using semantic clustering.",UFMG,Gustavo Santos; Marco Tulio Valente; Nicolas Anquetil,https://doi.org/10.1109/CSMR-WCRE.2014.6747174,null
-2014,SANER,"Extracting relative thresholds for source code metrics.",UFMG,Paloma Oliveira; Marco Tulio Valente; Fernando Paim Lima,https://doi.org/10.1109/CSMR-WCRE.2014.6747177,null
-2014,ICPC,"Recommending automated extract method refactorings.",UFMG,Danilo Silva; Ricardo Terra; Marco Tulio Valente,http://doi.acm.org/10.1145/2597008.2597141,null
+2018,SANER,"Why and how Java developers break APIs.",Aline Brito; Laerte Xavier; André C. Hora; Marco Tulio Valente,http://doi.ieeecomputersociety.org/10.1109/SANER.2018.8330214,null
+2017,ICPC,"A comparison of three algorithms for computing truck factors.",Mívian M. Ferreira; Marco Tulio Valente; Kecia Aline M. Ferreira,https://doi.org/10.1109/ICPC.2017.35,null
+2017,MSR,"RefDiff: detecting refactorings in version histories.",Danilo Silva; Marco Tulio Valente,https://doi.org/10.1109/MSR.2017.14,null
+2017,FSE,"Why modern open source projects fail.",Jailton Coelho; Marco Tulio Valente,http://doi.acm.org/10.1145/3106237.3106246,top
+2017,SANER,"Historical and impact analysis of API breaking changes: A large-scale study.",Laerte Xavier; Aline Brito; André C. Hora; Marco Tulio Valente,https://doi.org/10.1109/SANER.2017.7884616,null
+2016,ICSME,"Understanding the Factors That Impact the Popularity of GitHub Repositories.",Hudson Borges; André C. Hora; Marco Tulio Valente,https://doi.org/10.1109/ICSME.2016.31,null
+2016,ICPC,"A novel approach for estimating Truck Factors.",Guilherme Avelino; Leonardo Teixeira Passos; André C. Hora; Marco Tulio Valente,https://doi.org/10.1109/ICPC.2016.7503718,null
+2016,FSE,"When should internal interfaces be promoted to public?",André C. Hora; Marco Tulio Valente; Romain Robbes; Nicolas Anquetil,http://doi.acm.org/10.1145/2950290.2950306,top
+2016,FSE,"Why we refactor? confessions of GitHub contributors.",Danilo Silva; Nikolaos Tsantalis; Marco Tulio Valente,http://doi.acm.org/10.1145/2950290.2950305,top
+2016,SANER,"An Empirical Study on Recommendations of Similar Bugs.",Henrique Rocha; Marco Tulio Valente; Humberto Marques-Neto; Gail C. Murphy,https://doi.org/10.1109/SANER.2016.87,null
+2016,SANER,"Do Developers Deprecate APIs with Replacement Messages? A Large-Scale Analysis on Java Systems.",Gleison Brito; André C. Hora; Marco Tulio Valente; Romain Robbes,https://doi.org/10.1109/SANER.2016.99,null
+2015,ICSME,"Developers' perception of co-change patterns: An empirical study.",Luciana Lourdes Silva; Marco Tulio Valente; Marcelo de Almeida Maia; Nicolas Anquetil,https://doi.org/10.1109/ICSM.2015.7332448,null
+2015,ICSME,"System specific, source code transformations.",Gustavo Santos; Nicolas Anquetil; Anne Etien; Stéphane Ducasse; Marco Tulio Valente,https://doi.org/10.1109/ICSM.2015.7332468,null
+2015,ICSME,"How do developers react to API evolution? The Pharo ecosystem case.",André C. Hora; Romain Robbes; Nicolas Anquetil; Anne Etien; Stéphane Ducasse; Marco Tulio Valente,https://doi.org/10.1109/ICSM.2015.7332471,null
+2015,SANER,"Does JavaScript software embrace classes?",Leonardo Humberto Silva; Miguel Ramos; Marco Tulio Valente; Alexandre Bergel; Nicolas Anquetil,https://doi.org/10.1109/SANER.2015.7081817,null
+2014,SANER,"Remodularization analysis using semantic clustering.",Gustavo Santos; Marco Tulio Valente; Nicolas Anquetil,https://doi.org/10.1109/CSMR-WCRE.2014.6747174,null
+2014,SANER,"Extracting relative thresholds for source code metrics.",Paloma Oliveira; Marco Tulio Valente; Fernando Paim Lima,https://doi.org/10.1109/CSMR-WCRE.2014.6747177,null
+2014,ICPC,"Recommending automated extract method refactorings.",Danilo Silva; Ricardo Terra; Marco Tulio Valente,http://doi.acm.org/10.1145/2597008.2597141,null
