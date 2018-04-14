@@ -1,38 +1,51 @@
 echo '################## SE ##################'
 python ../corebr.py se
-sleep 2m
+echo "SE finisged"
+read -p "Press enter to continue"
 echo '################## IS ##################'
 python ../corebr.py is
-sleep 2m
+echo "IS finished"
+read -p "Press enter to continue"
 echo '################## PL ##################'
 python ../corebr.py pl
-sleep 2m
+read -p "Press enter to continue"
+echo "PL finisged"
 echo '################## NET ##################'
 python ../corebr.py net
-sleep 2m
+echo "NET finisged"
+read -p "Press enter to continue"
 echo '################## DS ##################'
 python ../corebr.py ds
-sleep 2m
+echo "DS finisged"
+read -p "Press enter to continue"
 echo '################## MOBILE ##################'
 python ../corebr.py mobile
-sleep 2m
+echo "MOBILE finisged"
+read -p "Press enter to continue"
 echo '################## DB ##################'
 python ../corebr.py db
-sleep 2m
+echo "DB finisged"
+read -p "Press enter to continue"
 echo '################## IR ##################'
 python ../corebr.py ir
-sleep 2m
+echo "IR finisged"
+read -p "Press enter to continue"
 echo '################## CHI ##################'
 python ../corebr.py chi
-sleep 2m
+echo "CHI finisged"
+read -p "Press enter to continue"
 echo '################## ARCH ##################'
 python ../corebr.py arch
-sleep 2m
+echo "ARCH finisged"
+read -p "Press enter to continue"
 echo '################## THEORY ##################'
 python ../corebr.py theory
-sleep 2m
+echo "THEORY finisged"
+read -p "Press enter to continue"
 echo '################## DATA ##################'
 python ../corebr.py data,db
-sleep 2m
+echo "DATA finisged"
+read -p "Press enter to continue"
 echo '################## SECURITY ##################'
+echo "SECURITY finisged"
 python ../corebr.py security

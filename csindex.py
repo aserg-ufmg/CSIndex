@@ -14,6 +14,11 @@ import operator
 import glob
 import os
 
+## constants
+
+FIRST_YEAR= 2013
+LAST_YEAR= 2018
+
 #################################################
 
 # black-list are papers that must not be counted (e.g., in invalid tracks)
@@ -77,8 +82,6 @@ def output_papers():
   f = open(area_prefix + '-out-papers.csv','w')
   for i in range(0, len(sorted_papers)):
     paper= sorted_papers[i][1]
-    #f.write(str(i+1))
-    #f.write(',')
     f.write(str(paper[0]))
     f.write(',')
     f.write(str(paper[1]))
@@ -149,20 +152,16 @@ def output_prof_papers(prof_name):
    
   prof_name = prof_name.replace(" ", "-")  
   f = open("./profs/" + area_prefix + "-" + prof_name + '-papers.csv','w')
-  #i = 0
   for url in pid_papers:
     paper= out[url]
-    #f.write(str(i+1))
-    #f.write(',')
-    #i += 1
     f.write(str(paper[0]))
     f.write(',')
     f.write(str(paper[1]))
     f.write(',')
     f.write(str(paper[2].encode('utf-8')))
     f.write(',')
-    f.write(str(paper[3]))
-    f.write(',')
+    # f.write(str(paper[3]))  # author pages do not include depts
+    # f.write(',')
     authors= paper[4]
     for author in authors[:-1]:
       f.write(str(author.encode('utf-8')))
@@ -237,7 +236,7 @@ def handle_article(_, article):
          
     year= article['year']
               
-    if (int(year) >= 2013) and (int(year) <= 2017) and (conf_name_dblp in confdata):
+    if (int(year) >= FIRST_YEAR) and (int(year) <= LAST_YEAR) and (conf_name_dblp in confdata):
            
         conf_name, conf_weight = confdata[conf_name_dblp] 
         url= article['url']
