@@ -39,20 +39,22 @@
 
 
     <script type="text/javascript">
-       sessionStorage.setItem('corebr_author', 'empty');        
+       sessionStorage.setItem('corebr_author', 'empty');  
+       var url = new URL(window.location.href);
+        var author = url.searchParams.get("p");
+        if (author != null) {
+          sessionStorage.setItem('corebr_author', author);
+        }      
     </script>
       
 
     <script type="text/javascript">
-      $( document ).ready(function(){
-       var url = new URL(window.location.href);
-       var author = url.searchParams.get("p");
-       if (author != null) {
-          sessionStorage.setItem('corebr_author', author);
-          var author2= author.split("-").join(" ");
-          document.getElementById("app-input").value= author2; 
+      $(document).ready(function(){
+        var author= sessionStorage.getItem('corebr_author');
+        if (author !== "empty") {
+            document.getElementById("app-input").value= author.split("-").join(" "); 
         }
-           
+             
         var file = 'data/profs/all-authors.csv';
         
         String.prototype.replaceAll = function(search, replacement) {
