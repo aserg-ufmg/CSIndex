@@ -47,13 +47,13 @@
 		  $.get(corebr_papers_file, function(csvString) {
 		  var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
 		  var data= new google.visualization.DataTable();
-		  data.addColumn('number', 'Year');
-		  data.addColumn('string', 'Conf');
-		  data.addColumn('string', 'Title');
-		  data.addColumn('string', 'Depts');
-		  data.addColumn('string', 'Authors');
-		  data.addColumn('string', 'DOI');
-		  data.addColumn('string', 'top');
+		  data.addColumn('number', 'Year'); // 0
+		  data.addColumn('string', 'Conf'); // 1
+		  data.addColumn('string', 'Title'); // 2
+		  // data.addColumn('string', 'Depts');
+		  data.addColumn('string', 'Authors'); // 3
+		  data.addColumn('string', 'DOI');  // 4
+		  data.addColumn('string', 'top');  // 5
 		  
 		  data.addRows(arrayData);
 	  	  data.sort({column: 0, desc: true});
@@ -66,13 +66,13 @@
           
           var formatter = new google.visualization.PatternFormat(
                '{0} <a href="{1}" onclick="trackOutboundLink(this.href); return false;">[doi]</a>');
-          formatter.format(data, [2, 5]);
+          formatter.format(data, [2, 4]);
 
           var formatter2 = new google.visualization.PatternFormat('<img src="figs/{1}.gif">{0}');
-          formatter2.format(data, [2, 6]);
+          formatter2.format(data, [2, 5]);
           
           var view = new google.visualization.DataView(data);
-          view.setColumns([0,1,2,4]);
+          view.setColumns([0,1,2,3]);
           
 		  table.draw(view, {allowHtml: true, showRowNumber: true, width: '100%', height: '100%'});
 		  });
