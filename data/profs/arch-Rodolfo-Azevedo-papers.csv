@@ -1,2 +1,2 @@
-2015,ISCA,"SHRINK: reducing the ISA complexity via instruction recycling.",UNICAMP,Bruno Cardoso Lopes; Rafael Auler; Luiz Ramos; Edson Borin; Rodolfo Azevedo,http://doi.acm.org/10.1145/2749469.2750391,top
-2013,ISCA,"Zombie memory: extending memory lifetime by reviving dead blocks.",UNICAMP,Rodolfo Azevedo; John D. Davis; Karin Strauss; Parikshit Gopalan; Mark S. Manasse; Sergey Yekhanin,http://doi.acm.org/10.1145/2485922.2485961,top
+2015,ISCA,"SHRINK: reducing the ISA complexity via instruction recycling.",Bruno Cardoso Lopes; Rafael Auler; Luiz Ramos; Edson Borin; Rodolfo Azevedo,http://doi.acm.org/10.1145/2749469.2750391,top
+2013,ISCA,"Zombie memory: extending memory lifetime by reviving dead blocks.",Rodolfo Azevedo; John D. Davis; Karin Strauss; Parikshit Gopalan; Mark S. Manasse; Sergey Yekhanin,http://doi.acm.org/10.1145/2485922.2485961,top

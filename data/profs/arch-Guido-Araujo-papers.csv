@@ -1,7 +1,7 @@
-2017,Euro-Par,"Performance Evaluation of Thread-Level Speculation in Off-the-Shelf Hardware Transactional Memories.",UNICAMP,Juan Salamanca 0001; José Nelson Amaral; Guido Araujo,https://doi.org/10.1007/978-3-319-64203-1_44,null
-2017,ICPP,"The Cloud as an OpenMP Offloading Device.",UNICAMP,Hervé Yviquel; Guido Araujo,https://doi.org/10.1109/ICPP.2017.44,null
-2017,ICS,"Revisiting phased transactional memory.",UNESP; UNICAMP,Joao P. L. de Carvalho; Guido Araujo; Alexandro Baldassin,http://doi.acm.org/10.1145/3079079.3079094,null
-2016,IPDPS,"Evaluating and Improving Thread-Level Speculation in Hardware Transactional Memories.",UNICAMP,Juan Salamanca 0001; José Nelson Amaral; Guido Araujo,https://doi.org/10.1109/IPDPS.2016.84,null
-2014,ICPP,"Measuring Effective Work to Reward Success in Dynamic Transaction Scheduling.",UNICAMP,Marcio Machado Pereira; José Nelson Amaral; Guido Araujo,https://doi.org/10.1109/ICPP.2014.23,null
-2013,HiPC,"Cache-based cross-iteration coherence for speculative parallelization.",UNICAMP,Andre Baixo; João Paulo Porto; Guido Araujo,https://doi.org/10.1109/HiPC.2013.6799113,null
-2013,HiPC,"Transaction scheduling using conflict avoidance and Contention Intensity.",UNESP; UNICAMP,Marcio Machado Pereira; Alexandro Baldassin; Guido Araujo; Luiz Eduardo Buzato,https://doi.org/10.1109/HiPC.2013.6799126,null
+2017,Euro-Par,"Performance Evaluation of Thread-Level Speculation in Off-the-Shelf Hardware Transactional Memories.",Juan Salamanca 0001; José Nelson Amaral; Guido Araujo,https://doi.org/10.1007/978-3-319-64203-1_44,null
+2017,ICPP,"The Cloud as an OpenMP Offloading Device.",Hervé Yviquel; Guido Araujo,https://doi.org/10.1109/ICPP.2017.44,null
+2017,ICS,"Revisiting phased transactional memory.",Joao P. L. de Carvalho; Guido Araujo; Alexandro Baldassin,http://doi.acm.org/10.1145/3079079.3079094,null
+2016,IPDPS,"Evaluating and Improving Thread-Level Speculation in Hardware Transactional Memories.",Juan Salamanca 0001; José Nelson Amaral; Guido Araujo,https://doi.org/10.1109/IPDPS.2016.84,null
+2014,ICPP,"Measuring Effective Work to Reward Success in Dynamic Transaction Scheduling.",Marcio Machado Pereira; José Nelson Amaral; Guido Araujo,https://doi.org/10.1109/ICPP.2014.23,null
+2013,HiPC,"Cache-based cross-iteration coherence for speculative parallelization.",Andre Baixo; João Paulo Porto; Guido Araujo,https://doi.org/10.1109/HiPC.2013.6799113,null
+2013,HiPC,"Transaction scheduling using conflict avoidance and Contention Intensity.",Marcio Machado Pereira; Alexandro Baldassin; Guido Araujo; Luiz Eduardo Buzato,https://doi.org/10.1109/HiPC.2013.6799126,null
