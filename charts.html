@@ -47,6 +47,7 @@
         google.charts.setOnLoadCallback(drawTableStats);
         
 		corebr_area_prefix= sessionStorage.getItem('corebr_area_prefix');
+		ga('send', 'event', 'Research Area Click', corebr_area_prefix);
 		var corebr_confs_file  = "data/" + corebr_area_prefix + "-out-confs.csv";
 		var corebr_depts_file  = "data/" + corebr_area_prefix + "-out-scores.csv";
 		var corebr_profs_file  = "data/" + corebr_area_prefix + "-out-profs.csv";

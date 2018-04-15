@@ -38,7 +38,6 @@
           $("input[type=radio][name=research_area_btn]").click(function() {
              var corebr_area_prefix = $("input[type=radio][name=research_area_btn]:checked").val();    
              sessionStorage.setItem('corebr_area_prefix', corebr_area_prefix);
-             ga('send', 'event', 'Research Area Click', corebr_area_prefix);
              document.getElementById('charts-frame').contentWindow.location.reload(true);           
           });
         });
