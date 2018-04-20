@@ -13,3 +13,4 @@ data,db-ir-researchers.csv,8
 security,security-researchers.csv,8
 ai,db-ir-researchers.csv,7
 vision,vision-researchers.csv,6
+formal,formal-researchers.csv,10
