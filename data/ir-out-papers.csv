@@ -24,8 +24,10 @@
 2014,JCDL,"Characterizing scholar popularity: A case study in the Computer Science research community.",UFMG,Glauber D. Gonçalves; Flavio Figueiredo; Jussara M. Almeida; Marcos André Gonçalves,https://doi.org/10.1109/JCDL.2014.6970151,null
 2014,JCDL,"Combining domain-specific heuristics for author name disambiguation.",UFMG,Alan Filipe Santana; Marcos André Gonçalves; Alberto H. F. Laender; Anderson A. Ferreira,https://doi.org/10.1109/JCDL.2014.6970165,null
 2014,JCDL,"Community-based endogamy as an influence indicator.",UFMG,Thiago H. P. Silva; Mirella M. Moro; Ana Paula Couto da Silva; Wagner Meira Jr.; Alberto H. F. Laender,https://doi.org/10.1109/JCDL.2014.6970152,null
+2014,JCDL,"Disambiguating publication venue titles using association rules.",UFLA,Denilson Alves Pereira; Eduardo Emanuel Braga da Silva; Ahmed A. A. Esmin,https://doi.org/10.1109/JCDL.2014.6970153,null
 2014,JCDL,"Quality assessment of collaborative content with minimal information.",UFMG,Daniel Hasan Dalip; Harlley Lima; Marcos André Gonçalves; Marco Cristo; Pável Calado,https://doi.org/10.1109/JCDL.2014.6970169,null
 2016,JCDL,"Early Prediction of Scholar Popularity.",UFMG,Masoumeh Nezhadbiglari; Marcos André Gonçalves; Jussara M. Almeida,http://doi.acm.org/10.1145/2910896.2910905,null
+2017,JCDL,"Classifying Short Unstructured Data Using the Apache Spark Platform.",UFLA,Eduardo P. S. Castro; Saurabh Chakravarty; Eric Williamson; Denilson Alves Pereira; Edward A. Fox,https://doi.org/10.1109/JCDL.2017.7991567,null
 2013,SIGIR,"Exploiting user feedback to learn to rank answers in q&a forums: a case study with stack overflow.",UFMG,Daniel Hasan Dalip; Marcos André Gonçalves; Marco Cristo; Pável Calado,http://doi.acm.org/10.1145/2484028.2484072,top
 2013,SIGIR,"Fast document-at-a-time query processing using two-tier indexes.",UFAM,Cristian Rossi; Edleno Silva de Moura; André Luiz da Costa Carvalho; Altigran Soares da Silva,http://doi.acm.org/10.1145/2484028.2484085,top
 2014,SIGIR,"Economically-efficient sentiment stream analysis.",UFMG,Roberto Lourenço de Oliveira Jr.; Adriano Veloso; Adriano C. M. Pereira; Wagner Meira Jr.; Renato Ferreira; Srinivasan Parthasarathy 0001,http://doi.acm.org/10.1145/2600428.2609612,top
@@ -41,3 +43,4 @@
 2013,WWW,"Psychological maps 2.0: a web engagement enterprise starting in London.",UFMG,Daniele Quercia; João Paulo Pesce; Virgílio A. F. Almeida; Jon Crowcroft,http://dl.acm.org/citation.cfm?id=2488481,top
 2013,WWW,"The self-feeding process: a unifying model for communication dynamics in the web.",UFMG,Pedro Olmo Stancioli Vaz de Melo; Christos Faloutsos; Renato Assunção; Antonio Alfredo Ferreira Loureiro,http://dl.acm.org/citation.cfm?id=2488503,top
 2016,WWW,"TribeFlow: Mining & Predicting User Trajectories.",UFMG,Flavio Figueiredo; Bruno Ribeiro 0001; Jussara M. Almeida; Christos Faloutsos,http://doi.acm.org/10.1145/2872427.2883059,top
+2018,WWW,"A Feature-Oriented Sentiment Rating for Mobile App Reviews.",UFSJ; UFMG,Washington Luiz; Felipe Viegas; Rafael Odon de Alencar; Fernando Mourão; Thiago Salles; Dárlinton Carvalho; Marcos André Gonçalves; Leonardo C. da Rocha,http://doi.acm.org/10.1145/3178876.3186168,top
