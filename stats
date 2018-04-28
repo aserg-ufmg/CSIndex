@@ -1,0 +1,23 @@
+confs=$(wc -l  *-out-confs.csv | awk '/total$/{print $1}')
+confs2=$(cat *-out-confs.csv | awk -F, '$2 > 0 {print $1}' | wc -l)
+papers=$(wc -l  *-out-papers.csv | awk '/total$/{print $1}')
+paperstop=$(cat *-out-papers.csv | awk -F, ' /top$/ {print $7}' | wc -l)
+
+allauthors=$(cat *-researchers.csv | awk -F, '{print $3}' | sort | uniq -c | wc -l)
+authors=$(wc -l profs/all-authors.csv | awk '{print $1}')
+
+papers13=$(cat *-out-papers.csv | awk -F, '/^2013/ {print $1}' | wc -l)
+papers14=$(cat *-out-papers.csv | awk -F, '/^2014/ {print $1}' | wc -l)
+papers15=$(cat *-out-papers.csv | awk -F, '/^2015/ {print $1}' | wc -l)
+papers16=$(cat *-out-papers.csv | awk -F, '/^2016/ {print $1}' | wc -l)
+papers17=$(cat *-out-papers.csv | awk -F, '/^2017/ {print $1}' | wc -l)
+papers18=$(cat *-out-papers.csv | awk -F, '/^2018/ {print $1}' | wc -l)
+
+top13=$(cat *-out-papers.csv | awk -F, ' /^2013/ && /top$/ {print $7}' | wc -l)
+top13=$(cat *-out-papers.csv | awk -F, ' /^2014/ && /top$/ {print $7}' | wc -l)
+top13=$(cat *-out-papers.csv | awk -F, ' /^2015/ && /top$/ {print $7}' | wc -l)
+top13=$(cat *-out-papers.csv | awk -F, ' /^2016/ && /top$/ {print $7}' | wc -l)
+top13=$(cat *-out-papers.csv | awk -F, ' /^2017/ && /top$/ {print $7}' | wc -l)
+top13=$(cat *-out-papers.csv | awk -F, ' /^2018/ && /top$/ {print $7}' | wc -l)
+
+
