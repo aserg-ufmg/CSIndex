@@ -38,7 +38,12 @@
           $("input[type=radio][name=research_area_btn]").click(function() {
              var corebr_area_prefix = $("input[type=radio][name=research_area_btn]:checked").val();    
              sessionStorage.setItem('corebr_area_prefix', corebr_area_prefix);
-             document.getElementById('charts-frame').contentWindow.location.reload(true);           
+             document.getElementById('charts-frame').contentWindow.location.reload(true);     
+             //if (corebr_area_prefix === "se") {
+             //   document.getElementById('charts-frame').contentWindow.location.replace("charts2.html"); 
+             //} else {
+             //   document.getElementById('charts-frame').contentWindow.location.replace("charts.html");   
+             //}      
           });
         });
     </script>

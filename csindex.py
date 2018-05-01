@@ -141,12 +141,19 @@ def output_profs():
     dept= sorted_profs[i][0]
     f3.write(str(dept))
     f3.write(',')
-    s= sorted_profs[i][1]
+    s = sorted_profs[i][1]
     f3.write(str(s))
     f3.write('\n')
   f3.close()
 
 
+def remove_prof_papers_file(area_prefix, prof_name):
+    prof_name = prof_name.replace(" ", "-")
+    file_name = "./profs/" + area_prefix + "-" + prof_name + '-papers.csv'
+    if (os.path.exists(file_name)):
+       print "Removing "+ file_name
+       os.remove(file_name)
+    
 def output_prof_papers(prof_name):
   global out, pid_papers
    
@@ -160,8 +167,6 @@ def output_prof_papers(prof_name):
     f.write(',')
     f.write(str(paper[2].encode('utf-8')))
     f.write(',')
-    # f.write(str(paper[3]))  # author pages do not include depts
-    # f.write(',')
     authors= paper[4]
     for author in authors[:-1]:
       f.write(str(author.encode('utf-8')))
@@ -220,6 +225,7 @@ def inc_score(weight):
        return 0.66
     elif (weight == 3):
        return 0.33    
+        
         
 def handle_article(_, article):
     global min_paper_size, department, found_paper, black_list
@@ -341,31 +347,33 @@ reader2 = csv.reader(open(researchers_file_name, 'r'))
 count = 1;
 for researcher in reader2:
   
-   prof_name= researcher[0]     # global variables
-   department= researcher[1]
-   pid= researcher[2]
+    prof_name= researcher[0]     # global variables
+    department= researcher[1]
+    pid= researcher[2]
      
-   print str(count) + " >> " + prof_name
+    print str(count) + " >> " + prof_name
   
-   if not department in score:
-      score[department]= 0.0
-   if not department in profs:
-      profs[department]= 0
+    # remove_prof_papers_file(area_prefix, prof_name)
    
-   found_paper= False
+    if not department in score:
+       score[department]= 0.0
+    if not department in profs:
+       profs[department]= 0
+   
+    found_paper= False
   
-   url= "http://dblp.org/pid/" + pid + ".xml"
-   bibfile = urllib2.urlopen(url).read()
+    url= "http://dblp.org/pid/" + pid + ".xml"
+    bibfile = urllib2.urlopen(url).read()
   
-   pid_papers = []
-   bibdata = xmltodict.parse(bibfile, item_depth=3, item_callback=handle_article)  
+    pid_papers = []
+    bibdata = xmltodict.parse(bibfile, item_depth=3, item_callback=handle_article)  
 
-   if found_paper:
-      profs[department] += 1
-      output_prof_papers(prof_name)
-      merge_output_prof_papers(prof_name)
+    if found_paper:
+       profs[department] += 1
+       output_prof_papers(prof_name)
+       merge_output_prof_papers(prof_name)
 
-   count= count + 1;
+    count= count + 1;
 
 output_papers()
 output_scores()

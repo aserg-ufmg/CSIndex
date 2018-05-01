@@ -1,3 +1,5 @@
+areas=$(wc -l research-areas-config.csv | awk '{print $1}')
+
 confs=$(wc -l  *-out-confs.csv | awk '/total$/{print $1}')
 confs2=$(cat *-out-confs.csv | awk -F, '$2 > 0 {print $1}' | wc -l)
 papers=$(wc -l  *-out-papers.csv | awk '/total$/{print $1}')
@@ -16,10 +18,30 @@ papers17=$(cat *-out-papers.csv | awk -F, '/^2017/ {print $1}' | wc -l)
 papers18=$(cat *-out-papers.csv | awk -F, '/^2018/ {print $1}' | wc -l)
 
 top13=$(cat *-out-papers.csv | awk -F, ' /^2013/ && /top$/ {print $7}' | wc -l)
-top13=$(cat *-out-papers.csv | awk -F, ' /^2014/ && /top$/ {print $7}' | wc -l)
-top13=$(cat *-out-papers.csv | awk -F, ' /^2015/ && /top$/ {print $7}' | wc -l)
-top13=$(cat *-out-papers.csv | awk -F, ' /^2016/ && /top$/ {print $7}' | wc -l)
-top13=$(cat *-out-papers.csv | awk -F, ' /^2017/ && /top$/ {print $7}' | wc -l)
-top13=$(cat *-out-papers.csv | awk -F, ' /^2018/ && /top$/ {print $7}' | wc -l)
+top14=$(cat *-out-papers.csv | awk -F, ' /^2014/ && /top$/ {print $7}' | wc -l)
+top15=$(cat *-out-papers.csv | awk -F, ' /^2015/ && /top$/ {print $7}' | wc -l)
+top16=$(cat *-out-papers.csv | awk -F, ' /^2016/ && /top$/ {print $7}' | wc -l)
+top17=$(cat *-out-papers.csv | awk -F, ' /^2017/ && /top$/ {print $7}' | wc -l)
+top18=$(cat *-out-papers.csv | awk -F, ' /^2018/ && /top$/ {print $7}' | wc -l)
 
+today=$(date)
 
+echo '<ul>'
+echo '<li> Research areas:' $areas
+echo '<li> Conferences:' $confs
+echo '<li> Conferences with papers by Brazilian faculty members:' $confs2
+echo '<li> Brazilian faculty members:' $allauthors
+echo '<li> Brazilian faculty members with papers:' $authors 
+echo '<li> Papers:' $papers
+echo '<li> Papers in top-conferences:' $paperstop
+echo '<li> Papers per year (all papers / papers in top-conferences):'
+echo '<ul>'
+echo '<li>2013:' $papers13 '/' $top13
+echo '<li>2014:' $papers14 '/' $top14
+echo '<li>2015:' $papers15 '/' $top15
+echo '<li>2016:' $papers16 '/' $top16
+echo '<li>2017:' $papers17 '/' $top17
+echo '<li>2018:' $papers18 '/' $top18
+echo '</ul>'
+echo '</ul>'
+echo '<p><small>(last updated on' $today')</small></p>'
