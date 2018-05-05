@@ -5,7 +5,7 @@ confs2=$(cat *-out-confs.csv | awk -F, '$2 > 0 {print $1}' | wc -l)
 papers=$(wc -l  *-out-papers.csv | awk '/total$/{print $1}')
 paperstop=$(cat *-out-papers.csv | awk -F, ' /top$/ {print $7}' | wc -l)
 
-allauthors=$(cat *-researchers.csv | awk -F, '{print $3}' | sort | uniq -c | wc -l)
+allauthors=$(cat *-researchers.csv | awk -F, '{print $3}' | sort | uniq | wc -l)
 authors=$(wc -l profs/all-authors.csv | awk '{print $1}')
 
 highestconf=$(cat *-out-confs.csv | awk -F, -v max=0 '{if($2>max){conf=$1; max=$2}}END{print conf, max}')
