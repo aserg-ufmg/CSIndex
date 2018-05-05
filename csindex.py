@@ -43,7 +43,7 @@ def init_black_white_lists():
 
 def paperSize(dblp_pages):
   page= re.split(r"-|:", dblp_pages) 
-  # print page
+  print page
   if len(page) == 2:
      p1= page[0]
      p2= page[1]
