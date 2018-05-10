@@ -28,53 +28,53 @@ white_list= {}
 
 def init_black_white_lists():
    global black_list, white_list
-   
+
    black_list_file= area_prefix + "-black-list.txt"
    if os.path.exists(black_list_file):
       with open(black_list_file) as blf:
         black_list = blf.read().splitlines()
-   
+
    white_list_file= area_prefix + "-white-list.txt"
    if os.path.exists(white_list_file):
       with open(white_list_file) as wlf:
         white_list = wlf.read().splitlines()
-   
+
 #################################################
 
 def paperSize(dblp_pages):
-  page= re.split(r"-|:", dblp_pages) 
+  page= re.split(r"-|:", dblp_pages)
   print page
   if len(page) == 2:
      p1= page[0]
      p2= page[1]
      return int(p2) - int(p1) + 1
-  elif (len(page) == 4):   
+  elif (len(page) == 4):
      p1= page[1]
      p2= page[3]
      return int(p2) - int(p1) + 1
   else:
      return 0
-         
+
 #################################################
 
 def output_conferences():
   global out, conflist;
-  
+
   confs = []
   f = open(area_prefix + '-out-confs.csv','w')
-  
+
   for p in out.items():
-    confs.append(p[1][1]) 
-    
+    confs.append(p[1][1])
+
   result = sorted([(c, confs.count(c)) for c in conflist], key=lambda x: x[1], reverse=True)
-  
+
   for conf in result:
     f.write(conf[0]);
     f.write(',')
     f.write(str(conf[1]));
     f.write('\n')
   f.close()
-    
+
 def output_papers():
   global out;
 
@@ -94,17 +94,17 @@ def output_papers():
     for author in authors[:-1]:
       f.write(str(author.encode('utf-8')))
       f.write('; ')
-    f.write(str(authors[-1].encode('utf-8')))  
+    f.write(str(authors[-1].encode('utf-8')))
     f.write(',')
     f.write(str(paper[5]))
     f.write(',')
     f.write(str(paper[6]))
-    f.write('\n')   
+    f.write('\n')
   f.close()
 
 def output_scores():
   global score
-  
+
   final_score = {}
   for dept in score:
     s= score[dept]
@@ -126,7 +126,7 @@ def output_scores():
 
 def output_profs():
   global profs
-   
+
   final_profs = {}
   for dept in profs:
     s= profs[dept]
@@ -153,11 +153,11 @@ def remove_prof_papers_file(area_prefix, prof_name):
     if (os.path.exists(file_name)):
        print "Removing "+ file_name
        os.remove(file_name)
-    
+
 def output_prof_papers(prof_name):
   global out, pid_papers
-   
-  prof_name = prof_name.replace(" ", "-")  
+
+  prof_name = prof_name.replace(" ", "-")
   f = open("./profs/" + area_prefix + "-" + prof_name + '-papers.csv','w')
   for url in pid_papers:
     paper= out[url]
@@ -171,11 +171,11 @@ def output_prof_papers(prof_name):
     for author in authors[:-1]:
       f.write(str(author.encode('utf-8')))
       f.write('; ')
-    f.write(str(authors[-1].encode('utf-8'))) 
+    f.write(str(authors[-1].encode('utf-8')))
     f.write(',')
     f.write(str(paper[5]))
     f.write(',')
-    f.write(str(paper[6]))   
+    f.write(str(paper[6]))
     f.write('\n')
   f.close()
 
@@ -183,7 +183,7 @@ def merge_output_prof_papers(profname):
 
     os.chdir("./profs")
     filenames = []
-    profname = profname.replace(" ", "-")  
+    profname = profname.replace(" ", "-")
     for file in glob.glob("*" + profname + "-papers.csv"):
       filenames.append(file)
       print file
@@ -191,8 +191,8 @@ def merge_output_prof_papers(profname):
     for fname in filenames:
         with open(fname) as infile:
            outfile.write(infile.read())
-    os.chdir("..")       
-            
+    os.chdir("..")
+
 def generate_search_box_list():
     os.chdir("./profs/search")
     profs = []
@@ -201,133 +201,137 @@ def generate_search_box_list():
         file= file.replace("-", " ")
         profs.append(file)
         print "prof: " + file
-    profs.remove("empty")    
+    profs.remove("empty")
     f = open("../all-authors.csv",'w')
     for p in profs:
       f.write(p)
       f.write('\n')
     f.close()
-             
+
 def output_pid_profs():
   global pid_profs
-   
+
   f = open(area_prefix + "-" + 'out-profs-name.csv','w')
   for prof in pid_profs:
     f.write(prof)
     f.write('\n')
   f.close()
-        
-        
+
+
 def inc_score(weight):
     if (weight == 1):
        return 1.0
     elif (weight == 2):
        return 0.66
     elif (weight == 3):
-       return 0.33    
-        
-        
+       return 0.33
+
+
 def handle_article(_, article):
     global min_paper_size, department, found_paper, black_list
-    
+
     if 'journal' in article:
         if (article['journal'] == "PACMPL") or (article['journal'] == "PACMHCI"):
            conf_name_dblp= article['number']
         else:
-           return True   
+           return True
     elif 'booktitle' in article:
            conf_name_dblp= article['booktitle']
     else:
         return True
-         
+
     year= article['year']
-              
+
     if (int(year) >= FIRST_YEAR) and (int(year) <= LAST_YEAR) and (conf_name_dblp in confdata):
-           
-        conf_name, conf_weight = confdata[conf_name_dblp] 
-        url= article['url']
-               
-        dblp_pages = "null"       
+
+        conf_name, conf_weight = confdata[conf_name_dblp]
+        url = article['url']
+
+        print conf_name + ' ' + year
+        if (year == 2018):
+           print '********'
+
+        dblp_pages = "null"
         if 'pages' in article:
             dblp_pages = article ['pages']
             size = paperSize(dblp_pages)
         elif url in white_list:
             size = 10
-        else:    
+        else:
             size = 0
-                        
+
         if (size >= min_paper_size):
-               
+
             if url in black_list:
                return True
-            
+
             found_paper= True;
-            
+
             pid_papers.append(url)
-               
-            # this paper has been already processed   
-            if (url in out):      
+
+            # this paper has been already processed
+            if (url in out):
                 paper= out[url]
-                if (paper[3].find(department) == -1): 
-                   # but this author is from another department  
-                   paper2= (paper[0], paper[1], paper[2], paper[3] + "; " + department, 
-                            paper[4], paper[5], paper[6]) 
-                   out[url] = paper2 
+                if (paper[3].find(department) == -1):
+                   # but this author is from another department
+                   paper2= (paper[0], paper[1], paper[2], paper[3] + "; " + department,
+                            paper[4], paper[5], paper[6])
+                   out[url] = paper2
                    score[department] += inc_score(conf_weight)
                 return True
-                     
+
             title = article['title']
             if type(title) is collections.OrderedDict:
                title = title["#text"]
-            title = title.replace("\"", "")  # remove quotes in titles 
-            
+            title = title.replace("\"", "")  # remove quotes in titles
+
             print(title)
-            
+
             if type(article['ee']) is list:
-               dblp_doi= article['ee'][0]
-            else: 
-               dblp_doi= article['ee']  
-                 
-            if (conf_weight == 1):  
-               conf_tag= "top"
+               dblp_doi = article['ee'][0]
             else:
-               conf_tag= "null"
-                  
+               dblp_doi = article['ee']
+
+            if (conf_weight == 1):
+               conf_tag = "top"
+            else:
+               conf_tag = "null"
+
             authorList = article['author']
-            authors= []
+            authors = []
             for authorName in authorList:
                 if (type(authorName) is collections.OrderedDict):
                     authorName = authorName["#text"]
-                authors.append(authorName) 
-                
-            out[url]= (year, conf_name, '"' + title + '"', department, authors, dblp_doi, conf_tag)     
+                authors.append(authorName)
+
+            out[url] = (year, conf_name, '"' + title + '"', department, authors, dblp_doi, conf_tag)
             score[department] += inc_score(conf_weight)
-             
-    return True    
+
+    return True
 
 
 ################################################################
 
 # main program
 
-area_prefix= sys.argv[1]   
+area_prefix= sys.argv[1]
 confs_file_name = area_prefix + "-confs.csv"
 
 for f in glob.glob("./profs/"+ area_prefix + "-*.csv"):
     print "Removing file " + f
     os.remove(f)
-    
+
 reader3 = csv.reader(open("research-areas-config.csv", 'r'))
 for area_tuple in reader3:
   if (area_tuple[0] == area_prefix):
-     researchers_file_name = area_tuple[1]  
+     researchers_file_name = area_tuple[1]
      min_paper_size = int(area_tuple[2])
      break
-     
+
 print "Research Area: " + area_prefix
 print "Researchers: " + researchers_file_name
 print "Minimun paper size: " + str(min_paper_size)
-   
+
 reader1 = csv.reader(open(confs_file_name, 'r'))
 confdata = {}
 conflist = []
@@ -336,37 +340,37 @@ for conf_row in reader1:
   confdata[conf_dblp]= conf_name, int(conf_weight)
   conflist.append(conf_name)
 conflist = list(set(conflist))  # removing duplicates
-  
+
 out = {}
 score = {}
 profs = {}
-  
+
 init_black_white_lists()
-    
+
 reader2 = csv.reader(open(researchers_file_name, 'r'))
 count = 1;
 for researcher in reader2:
-  
+
     prof_name= researcher[0]     # global variables
     department= researcher[1]
     pid= researcher[2]
-     
+
     print str(count) + " >> " + prof_name
-  
+
     # remove_prof_papers_file(area_prefix, prof_name)
-   
+
     if not department in score:
        score[department]= 0.0
     if not department in profs:
        profs[department]= 0
-   
+
     found_paper= False
-  
+
     url= "http://dblp.org/pid/" + pid + ".xml"
     bibfile = urllib2.urlopen(url).read()
-  
+
     pid_papers = []
-    bibdata = xmltodict.parse(bibfile, item_depth=3, item_callback=handle_article)  
+    bibdata = xmltodict.parse(bibfile, item_depth=3, item_callback=handle_article)
 
     if found_paper:
        profs[department] += 1
