@@ -1,5 +1,12 @@
 2017,CVPR,"The Surfacing of Multiview 3D Drawings via Lofting and Occlusion Reasoning.",UERJ,Anil Usumezbas; Ricardo Fabbri; Benjamin B. Kimia,https://doi.org/10.1109/CVPR.2017.485,top
 2016,ECCV,"From Multiview Image Curves to 3D Drawings.",UERJ,Anil Usumezbas; Ricardo Fabbri; Benjamin B. Kimia,https://doi.org/10.1007/978-3-319-46493-0_5,top
+2016,ICPR,"A late fusion approach to combine multiple pedestrian detectors.",UFMG,Artur Jordao; Jessica Sena de Souza; William Robson Schwartz,https://doi.org/10.1109/ICPR.2016.7900301,null
+2016,ICPR,"Information fusion for cocaine dependence recognition using fMRI.",UNIFESP,Fábio Augusto Faria; Fabio A. M. Cappabianco; Chiang-shan R. Li; Jaime S. Ide,https://doi.org/10.1109/ICPR.2016.7899784,null
+2016,ICPR,"Kernel Hierarchical PCA for person re-identification.",UFMG,Raphael Felipe de Carvalho Prates; William Robson Schwartz,https://doi.org/10.1109/ICPR.2016.7899944,null
+2016,ICPR,"Learning to semantically segment high-resolution remote sensing images.",UFMG,Keiller Nogueira; Mauro Dalla Mura; Jocelyn Chanussot; William Robson Schwartz; Jefersson A. dos Santos,https://doi.org/10.1109/ICPR.2016.7900187,null
+2016,ICPR,"Optical Flow Co-occurrence Matrices: A novel spatiotemporal feature descriptor.",UFMG,Carlos Caetano; Jefersson A. dos Santos; William Robson Schwartz,https://doi.org/10.1109/ICPR.2016.7899921,null
+2016,ICPR,"Subexpression and dominant symbol histograms for spatial relation classification in mathematical expressions.",IME-USP,Frank D. Julca-Aguilar; Nina S. T. Hirata; Harold Mouchère; Christian Viard-Gaudin,https://doi.org/10.1109/ICPR.2016.7900167,null
+2016,ICPR,"Using a MRF-BP model with color adaptive training for underwater color restoration.",UFRG,A.-N. Ponce-Hinestroza; Luz Abril Torres-Méndez; Paulo Drews Jr.,https://doi.org/10.1109/ICPR.2016.7899731,null
 2014,ICPR,"A Binary Krill Herd Approach for Feature Selection.",UFSCAR; UNESP,Douglas Rodrigues; Luis A. M. Pereira; João Paulo Papa; Silke A. T. Weber,https://doi.org/10.1109/ICPR.2014.251,null
 2014,ICPR,"A Machine Learning Based Method for Staff Removal.",IME-USP,Igor dos Santos Montagner; Roberto Hirata Jr.; Nina S. T. Hirata,https://doi.org/10.1109/ICPR.2014.545,null
 2014,ICPR,"Active Semi-supervised Learning Using Optimum-Path Forest.",UNICAMP; UFGD,Priscila T. M. Saito; Willian Paraguassu Amorim; Alexandre X. Falcão; Pedro Jussieu de Rezende; Celso T. N. Suzuki; Jancarlo F. Gomes; Marcelo Henriques de Carvalho,https://doi.org/10.1109/ICPR.2014.652,null
@@ -11,10 +18,3 @@
 2014,ICPR,"Generalized Optical Flow Model for Scattering Media.",UFMG; UFRG,Paulo Drews Jr.; Erickson R. Nascimento; Arthur Xavier; Mario Fernando Montenegro Campos,https://doi.org/10.1109/ICPR.2014.685,null
 2014,ICPR,"Maximal Max-Tree Simplification.",UNICAMP,Roberto Souza; Letícia Rittner; Rubens Campos Machado; Roberto de Alencar Lotufo,https://doi.org/10.1109/ICPR.2014.540,null
 2014,ICPR,"On the Training of Artificial Neural Networks with Radial Basis Function Using Optimum-Path Forest Clustering.",UNICAMP; UNESP,Gustavo H. Rosa; Kelton A. P. Costa; Leandro A. Passos Junior; João Paulo Papa; Alexandre X. Falcão; João Manuel R. S. Tavares,https://doi.org/10.1109/ICPR.2014.262,null
-2016,ICPR,"A late fusion approach to combine multiple pedestrian detectors.",UFMG,Artur Jordao; Jessica Sena de Souza; William Robson Schwartz,https://doi.org/10.1109/ICPR.2016.7900301,null
-2016,ICPR,"Information fusion for cocaine dependence recognition using fMRI.",UNIFESP,Fábio Augusto Faria; Fabio A. M. Cappabianco; Chiang-shan R. Li; Jaime S. Ide,https://doi.org/10.1109/ICPR.2016.7899784,null
-2016,ICPR,"Kernel Hierarchical PCA for person re-identification.",UFMG,Raphael Felipe de Carvalho Prates; William Robson Schwartz,https://doi.org/10.1109/ICPR.2016.7899944,null
-2016,ICPR,"Learning to semantically segment high-resolution remote sensing images.",UFMG,Keiller Nogueira; Mauro Dalla Mura; Jocelyn Chanussot; William Robson Schwartz; Jefersson A. dos Santos,https://doi.org/10.1109/ICPR.2016.7900187,null
-2016,ICPR,"Optical Flow Co-occurrence Matrices: A novel spatiotemporal feature descriptor.",UFMG,Carlos Caetano; Jefersson A. dos Santos; William Robson Schwartz,https://doi.org/10.1109/ICPR.2016.7899921,null
-2016,ICPR,"Subexpression and dominant symbol histograms for spatial relation classification in mathematical expressions.",IME-USP,Frank D. Julca-Aguilar; Nina S. T. Hirata; Harold Mouchère; Christian Viard-Gaudin,https://doi.org/10.1109/ICPR.2016.7900167,null
-2016,ICPR,"Using a MRF-BP model with color adaptive training for underwater color restoration.",UFRG,A.-N. Ponce-Hinestroza; Luz Abril Torres-Méndez; Paulo Drews Jr.,https://doi.org/10.1109/ICPR.2016.7899731,null
