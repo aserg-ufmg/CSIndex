@@ -43,7 +43,7 @@ def init_black_white_lists():
 
 def paperSize(dblp_pages):
   page= re.split(r"-|:", dblp_pages)
-  print page
+  # print page
   if len(page) == 2:
      p1= page[0]
      p2= page[1]
@@ -78,7 +78,11 @@ def output_conferences():
 def output_papers():
   global out;
 
-  sorted_papers = sorted(out.items(), key=lambda x: (x[1][1],x[1][0],x[1][2]))
+  # original code
+  # sorted_papers = sorted(out.items(), key=lambda x: (x[1][1],x[1][0],x[1][2]))
+  out2 = sorted(out.items(), key=lambda x: (x[1][1],x[1][2]))
+  sorted_papers = sorted(out2, key=lambda x: x[1][0], reverse=True)
+  
   f = open(area_prefix + '-out-papers.csv','w')
   for i in range(0, len(sorted_papers)):
     paper= sorted_papers[i][1]
@@ -247,25 +251,33 @@ def handle_article(_, article):
         conf_name, conf_weight = confdata[conf_name_dblp]
         url = article['url']
 
-        print conf_name + ' ' + year
-        if (year == 2018):
-           print '********'
+        if (int(year) == 2018):
+           print '*** 2018 *** ' + url
 
         dblp_pages = "null"
-        if 'pages' in article:
+        
+        if url in white_list:
+            size = 10
+        elif 'pages' in article:
             dblp_pages = article ['pages']
             size = paperSize(dblp_pages)
-        elif url in white_list:
-            size = 10
         else:
             size = 0
+
+        #if 'pages' in article:
+        #    dblp_pages = article ['pages']
+        #    size = paperSize(dblp_pages)
+        #elif url in white_list:
+        #    size = 10
+        #else:
+        #    size = 0
 
         if (size >= min_paper_size):
 
             if url in black_list:
                return True
 
-            found_paper= True;
+            found_paper = True;
 
             pid_papers.append(url)
 
@@ -285,8 +297,8 @@ def handle_article(_, article):
                title = title["#text"]
             title = title.replace("\"", "")  # remove quotes in titles
 
-            print(title)
-
+            print conf_name + ' ' + year + ': '+ title
+        
             if type(article['ee']) is list:
                dblp_doi = article['ee'][0]
             else:
