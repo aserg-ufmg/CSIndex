@@ -18,28 +18,29 @@ def serveResponse(df, filename):
 @app.route('/numeroPublicacoesConferenciaArea/<area>/<conferencia>')
 def numeroPublicacoesConferenciaArea(area, conferencia):
     file = area + '-out-confs.csv'
-
     try:
         data = pd.read_csv('../data/' + file, sep = ',', names = ['Conferencia', 'Numero_Publicacoes'])
-    except:
+    except IOError:
         return "Área ou conferência inválidos"
 
     response = data[data.Conferencia == conferencia].Numero_Publicacoes
     return serveResponse(response, 'numeroPublicacoesConferenciaArea')
 
 
-#TODO transformar response em Dataframe
 # 2: Número de publicações no conjunto de conferências de uma área
 @app.route('/numeroPublicacoesArea/<area>')
 def numeroPublicacoesArea(area):
     file = area + '-out-confs.csv'
     try:
         data = pd.read_csv('../data/' + file, sep = ',', names = ['Conferencia', 'Numero_Publicacoes'])
-    except:
+    except IOError:
         return "Área inválida"
 
     response = sum(data.Numero_Publicacoes)
-    return serveResponse(response, 'numeroPublicacoesArea')
+    response = make_response(str(response))
+    response.headers["Content-Disposition"] = "attachment; filename = numeroPublicacoesArea.csv"
+    response.headers["Content-Type"] = "text/csv"
+    return response
     
 
 # 3: Scores de todos os departamentos em uma área
@@ -48,7 +49,7 @@ def scoreTodosDepartamentosArea(area):
     file = area + '-out-scores.csv'
     try:
         data = pd.read_csv('../data/' + file, sep = ',', names = ['Departamento', 'Score'])
-    except:
+    except IOError:
         return "Área inválida"
 
     return serveResponse(data, 'scoreTodosDepartamentosAreaArea')
@@ -60,7 +61,7 @@ def scoreDepartamentoArea(area, departamento):
     file = area + '-out-scores.csv'
     try:
         data = pd.read_csv('../data/' + file, sep = ',', names = ['Departamento', 'Score'])
-    except:
+    except IOError:
         return "Área inválida"
 
     response = data[data.Departamento == departamento].Score
@@ -73,7 +74,7 @@ def numeroProfessoresAreaAgrupadoDepartamento(area):
     file = area + '-out-profs.csv'
     try:
         data = pd.read_csv('../data/' + file, sep = ',', names = ['Departamento', 'Numero_Professores'])
-    except:
+    except IOError:
         return "Área inválida"
 
     return serveResponse(data, 'numeroProfessoresAreaAgrupadoDepartamento')
@@ -85,7 +86,7 @@ def numeroProfessoresDepartamentoArea(area, departamento):
     file = area + '-out-profs.csv'
     try:
         data = pd.read_csv('../data/' + file, sep = ',', names = ['Departamento', 'Numero_Professores'])
-    except:
+    except IOError:
         return "Área ou departamento inválidos"
 
     response = data[data.Departamento == departamento].Numero_Professores
@@ -99,7 +100,7 @@ def papersArea(area):
     header = ['Ano', 'Conferencia', 'Titulo', 'Departamento', 'Autores', 'Link', 'Top']
     try:
         data = pd.read_csv('../data/' + file, sep = ',', names = header)
-    except:
+    except IOError:
         return "Área invalida"
 
     response = data[['Ano', 'Titulo', 'Departamento', 'Autores']]
@@ -113,7 +114,7 @@ def papersAreaAno(area, ano):
     header = ['Ano', 'Conferencia', 'Titulo', 'Departamento', 'Autores', 'Link', 'Top']
     try:
         data = pd.read_csv('../data/' + file, sep = ',', names = header)
-    except:
+    except IOError:
         return "Área ou ano inválidos"
 
     response = data[data.Ano == int(ano)]
@@ -127,13 +128,14 @@ def papersAreaDepartamento(area, departamento):
     header = ['Ano', 'Conferencia', 'Titulo', 'Departamento', 'Autores', 'Link', 'Top']
     try:
         data = pd.read_csv('../data/' + file, sep = ',', names = header)
-    except:
+    except IOError:
         return "Área departamento inválidos"
 
     response = data[data.Departamento == departamento]
     return serveResponse(response, 'papersAreaDepartamento')
 
 
+#TODO
 # 10: Todos os papers de um professor (dado o seu nome)
 @app.route('/papersProfessor/<professor>')
 def papersProfessor(professor):
