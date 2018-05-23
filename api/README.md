@@ -3,8 +3,7 @@ API desenvolvida para a disciplina de Engenharia de Software 2.
 
 ## Desenvolvedores
 
-André Correia Lacerda Mafra
-Felipe Giori
+André Correia Lacerda Mafra & Felipe Giori
 
 ## Requisitos
 Linguagem: python 2.7
