@@ -8,7 +8,7 @@ André Correia Lacerda Mafra & Felipe Giori
 ## Objetivo
 
 Esta API desenvolvida como trabalho para a disciplina de Engenharia de Software II tem como intuito facilitar a consulta
-aos dados do CSIndex (Indexação da produção ciêntífica em Ciência da Computação no Brasil). Portanto a API possui somente
+aos dados do CSIndex (Indexação da produção ciêntífica em Ciência da Computação no Brasil) http://csindexbr.org/. Portanto a API possui somente
 o método GET, ou seja apenas retorna dados do CSIndex.
 Os dados são compostos de Áreas do conhecimento, Conferências, Professores, Artigos e Departamentos.
 
