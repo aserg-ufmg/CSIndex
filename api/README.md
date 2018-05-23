@@ -44,7 +44,7 @@ A API já está configurada para funcionar com clientes que estejam hospedados e
 ## Funções
 Os valores em negrito devem as ser entradas de uma chamada.
 
-| Paramethers       | Method          | Path  | Format |
+| Parameters       | Method          | Path  | Format |
 | ------------- |:-------------:|:-----:|:-----:|
 | area, conferencia | GET | /numeroPublicacoesConferenciaArea/**area**/**conferencia** | CSV |
 | area | GET | /numeroPublicacoesArea/**area** | CSV |
