@@ -96,4 +96,4 @@ Para executar o cliente, basta abrir o terminal e digitar :
 chmod +x client.sh
 ./client.sh
 ```
-![Screenshot](doc/img/es2.png)
+![Screenshot](es2.png)
