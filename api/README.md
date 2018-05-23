@@ -1,6 +1,11 @@
 # API REST
 API desenvolvida para a disciplina de Engenharia de Software 2.
 
+## Desenvolvedores
+
+André Correia Lacerda Mafra
+Felipe Giori
+
 ## Requisitos
 Linguagem: python 2.7
 As bibliotecas pandas e flask foram usadas na API. Para instalar as bibliotecas use of comandos em seu terminal: 
