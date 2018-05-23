@@ -50,8 +50,9 @@ Exemplo de endereço que retorna o score de todos os departamentos da área de D
 http://localhost:5000/scoreTodosDepartamentosArea/data
 ```
 O resultado é um arquivo .csv com o seguinte conteúdo:
+
 | Departamento | Score |
-| ----------|:-------:|
+|----------|:-------:|
 |ICMC/USP|7.29|
 |UFMG|4.64|
 |UFRJ|1.33|
