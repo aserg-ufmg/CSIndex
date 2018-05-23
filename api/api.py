@@ -15,7 +15,7 @@ def serveResponse(df, filename):
 
 
 # 1: Número de publicações em uma determinada conferência de uma área
-@app.route('/numeroPublicacoesConferenciaArea/<area>/<conferencia>')
+@app.route('/numeroPublicacoesConferenciaArea/<area>/<path:conferencia>')
 def numeroPublicacoesConferenciaArea(area, conferencia):
     file = area + '-out-confs.csv'
     try:
@@ -56,7 +56,7 @@ def scoreTodosDepartamentosArea(area):
 
 
 # 4: Score de um determinado departamento em uma área.
-@app.route('/scoreDepartamentoArea/<area>/<departamento>')
+@app.route('/scoreDepartamentoArea/<area>/<path:departamento>')
 def scoreDepartamentoArea(area, departamento):
     file = area + '-out-scores.csv'
     try:
@@ -81,7 +81,7 @@ def numeroProfessoresAreaAgrupadoDepartamento(area):
 
 
 # 6: Número de professores de um determinado departamento que publicam em uma área
-@app.route('/numeroProfessoresDepartamentoArea/<area>/<departamento>')
+@app.route('/numeroProfessoresDepartamentoArea/<area>/<path:departamento>')
 def numeroProfessoresDepartamentoArea(area, departamento):
     file = area + '-out-profs.csv'
     try:
@@ -122,7 +122,7 @@ def papersAreaAno(area, ano):
 
 
 # 9: Todos os papers de um departamento em uma área
-@app.route('/papersAreaDepartamento/<area>/<departamento>')
+@app.route('/papersAreaDepartamento/<area>/<path:departamento>')
 def papersAreaDepartamento(area, departamento):
     file = area + '-out-papers.csv'
     header = ['Ano', 'Conferencia', 'Titulo', 'Departamento', 'Autores', 'Link', 'Top']
@@ -139,7 +139,16 @@ def papersAreaDepartamento(area, departamento):
 # 10: Todos os papers de um professor (dado o seu nome)
 @app.route('/papersProfessor/<professor>')
 def papersProfessor(professor):
-    print(professor)
+    file = professor + '.csv'
+    header = ['Ano', 'Conferencia', 'Titulo', 'Autores', 'Link', 'Top']
+    try:
+        data = pd.read_csv('../data/profs/search/' + file, sep = ',', names = header)
+    except IOError:
+        return "Nome de professor inválido"
+
+    return serveResponse(data, 'papersProfessor')
+	
+
 
 
 def main():
