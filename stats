@@ -24,6 +24,41 @@ top16=$(cat *-out-papers.csv | awk -F, ' /^2016/ && /top$/ {print $7}' | wc -l)
 top17=$(cat *-out-papers.csv | awk -F, ' /^2017/ && /top$/ {print $7}' | wc -l)
 top18=$(cat *-out-papers.csv | awk -F, ' /^2018/ && /top$/ {print $7}' | wc -l)
 
+papers_se=$(wc -l se-out-papers.csv | awk '{print $1}')
+papers_is=$(wc -l is-out-papers.csv | awk '{print $1}')
+papers_pl=$(wc -l pl-out-papers.csv | awk '{print $1}')
+papers_chi=$(wc -l chi-out-papers.csv | awk '{print $1}')
+papers_net=$(wc -l net-out-papers.csv | awk '{print $1}')
+papers_mobile=$(wc -l mobile-out-papers.csv | awk '{print $1}')
+papers_ds=$(wc -l ds-out-papers.csv | awk '{print $1}')
+papers_ir=$(wc -l ir-out-papers.csv | awk '{print $1}')
+papers_data=$(wc -l data-out-papers.csv | awk '{print $1}')
+papers_ai=$(wc -l ai-out-papers.csv | awk '{print $1}')
+papers_db=$(wc -l db-out-papers.csv | awk '{print $1}')
+papers_arch=$(wc -l arch-out-papers.csv | awk '{print $1}')
+papers_theory=$(wc -l theory-out-papers.csv | awk '{print $1}')
+papers_formal=$(wc -l formal-out-papers.csv | awk '{print $1}')
+papers_security=$(wc -l security-out-papers.csv | awk '{print $1}')
+papers_vision=$(wc -l vision-out-papers.csv | awk '{print $1}')
+
+papers_top_se=$(cat se-out-papers.csv | awk -F, ' /top$/ {print $7}' | wc -l)
+papers_top_is=$(cat is-out-papers.csv | awk -F, ' /top$/ {print $7}' | wc -l)
+papers_top_pl=$(cat pl-out-papers.csv | awk -F, ' /top$/ {print $7}' | wc -l)
+papers_top_chi=$(cat chi-out-papers.csv | awk -F, ' /top$/ {print $7}' | wc -l)
+papers_top_net=$(cat net-out-papers.csv | awk -F, ' /top$/ {print $7}' | wc -l)
+papers_top_mobile=$(cat mobile-out-papers.csv | awk -F, ' /top$/ {print $7}' | wc -l)
+papers_top_ds=$(cat ds-out-papers.csv | awk -F, ' /top$/ {print $7}' | wc -l)
+papers_top_ir=$(cat ir-out-papers.csv | awk -F, ' /top$/ {print $7}' | wc -l)
+papers_top_data=$(cat data-out-papers.csv | awk -F, ' /top$/ {print $7}' | wc -l)
+papers_top_ai=$(cat ai-out-papers.csv | awk -F, ' /top$/ {print $7}' | wc -l)
+papers_top_db=$(cat db-out-papers.csv | awk -F, ' /top$/ {print $7}' | wc -l)
+papers_top_arch=$(cat arch-out-papers.csv | awk -F, ' /top$/ {print $7}' | wc -l)
+papers_top_theory=$(cat theory-out-papers.csv | awk -F, ' /top$/ {print $7}' | wc -l)
+papers_top_formal=$(cat formal-out-papers.csv | awk -F, ' /top$/ {print $7}' | wc -l)
+papers_top_security=$(cat security-out-papers.csv | awk -F, ' /top$/ {print $7}' | wc -l)
+papers_top_vision=$(cat vision-out-papers.csv | awk -F, ' /top$/ {print $7}' | wc -l)
+
+
 today=$(date)
 
 echo '<ul>'
@@ -42,6 +77,25 @@ echo '<li>2015:' $papers15 '/' $top15
 echo '<li>2016:' $papers16 '/' $top16
 echo '<li>2017:' $papers17 '/' $top17
 echo '<li>2018:' $papers18 '/' $top18
+echo '</ul>'
+echo '<li> Papers per research area (all papers / papers in top-conferences):'
+echo '<ul>'
+echo '<li>Software Engineering:' $papers_se '/' $papers_top_se
+echo '<li>Programming Languages:' $papers_pl '/' $papers_top_pl
+echo '<li>Information Systems:' $papers_is '/' $papers_top_is
+echo '<li>Human-Computer Interaction:' $papers_chi '/' $papers_top_chi
+echo '<li>Computer Networks:' $papers_net '/' $papers_top_net
+echo '<li>Mobile Computing:' $papers_mobile '/' $papers_top_mobile
+echo '<li>Distributed Systems:' $papers_ds  '/' $papers_top_ds
+echo '<li>Computer Architecture & HPC:' $papers_arch '/' $papers_top_arch
+echo '<li>Databases:' $papers_db '/' $papers_top_db
+echo '<li>Web & Information Retrieval:' $papers_ir '/' $papers_top_ir
+echo '<li>Data Mining & Machine Learning:' $papers_data '/' $papers_top_data
+echo '<li>Artificial Intelligence:' $papers_ai '/' $papers_top_ai
+echo '<li>Algorithms & Complexity:' $papers_theory '/' $papers_top_theory
+echo '<li>Security & Cryptography:' $papers_security '/' $papers_top_security
+echo '<li>Computer Vision:' $papers_vision '/' $papers_top_vision
+echo '<li>Formal Methods & Logic:' $papers_formal '/' $papers_top_formal
 echo '</ul>'
 echo '</ul>'
 echo '<p><small>(last updated on' $today')</small></p>'
