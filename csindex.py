@@ -204,7 +204,7 @@ def generate_search_box_list():
         file= file.replace(".csv", "")
         file= file.replace("-", " ")
         profs.append(file)
-        print "prof: " + file
+        # print "prof: " + file
     profs.remove("empty")
     f = open("../all-authors.csv",'w')
     for p in profs:
@@ -244,14 +244,14 @@ def handle_article(_, article):
     else:
         return True
 
-    year= article['year']
+    year = int(article['year'])
 
-    if (int(year) >= FIRST_YEAR) and (int(year) <= LAST_YEAR) and (conf_name_dblp in confdata):
+    if ((year >= FIRST_YEAR) and (year <= LAST_YEAR)) and (conf_name_dblp in confdata):
 
         conf_name, conf_weight = confdata[conf_name_dblp]
         url = article['url']
 
-        if (int(year) == 2018):
+        if (year == 2018):
            print '*** 2018 *** ' + url
 
         dblp_pages = "null"
@@ -297,7 +297,7 @@ def handle_article(_, article):
                title = title["#text"]
             title = title.replace("\"", "")  # remove quotes in titles
 
-            print conf_name + ' ' + year + ': '+ title
+            print conf_name + ' ' + str(year) + ': '+ title
         
             if type(article['ee']) is list:
                dblp_doi = article['ee'][0]
