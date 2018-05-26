@@ -231,25 +231,25 @@ def inc_score(weight):
        return 0.33
 
 
-def handle_article(_, article):
+def handle_dblp_xml(_, dblp_xml):
     global min_paper_size, department, found_paper, black_list
 
-    if 'journal' in article:
-        if (article['journal'] == "PACMPL") or (article['journal'] == "PACMHCI"):
-           conf_name_dblp= article['number']
+    if 'journal' in dblp_xml:
+        if (dblp_xml['journal'] == "PACMPL") or (dblp_xml['journal'] == "PACMHCI"):
+           conf_name_dblp= dblp_xml['number']
         else:
            return True
-    elif 'booktitle' in article:
-           conf_name_dblp= article['booktitle']
+    elif 'booktitle' in dblp_xml:
+           conf_name_dblp= dblp_xml['booktitle']
     else:
         return True
 
-    year = int(article['year'])
+    year = int(dblp_xml['year'])
 
     if ((year >= FIRST_YEAR) and (year <= LAST_YEAR)) and (conf_name_dblp in confdata):
 
         conf_name, conf_weight = confdata[conf_name_dblp]
-        url = article['url']
+        url = dblp_xml['url']
 
         if (year == 2018):
            print '*** 2018 *** ' + url
@@ -258,8 +258,8 @@ def handle_article(_, article):
         
         if url in white_list:
             size = 10
-        elif 'pages' in article:
-            dblp_pages = article ['pages']
+        elif 'pages' in dblp_xml:
+            dblp_pages = dblp_xml['pages']
             size = paperSize(dblp_pages)
         else:
             size = 0
@@ -283,7 +283,7 @@ def handle_article(_, article):
 
             # this paper has been already processed
             if (url in out):
-                paper= out[url]
+                paper = out[url]
                 if (paper[3].find(department) == -1):
                    # but this author is from another department
                    paper2= (paper[0], paper[1], paper[2], paper[3] + "; " + department,
@@ -292,31 +292,31 @@ def handle_article(_, article):
                    score[department] += inc_score(conf_weight)
                 return True
 
-            title = article['title']
+            title = dblp_xml['title']
             if type(title) is collections.OrderedDict:
                title = title["#text"]
             title = title.replace("\"", "")  # remove quotes in titles
 
             print conf_name + ' ' + str(year) + ': '+ title
         
-            if type(article['ee']) is list:
-               dblp_doi = article['ee'][0]
+            if type(dblp_xml['ee']) is list:
+               doi = dblp_xml['ee'][0]
             else:
-               dblp_doi = article['ee']
+               doi = dblp_xml['ee']
 
             if (conf_weight == 1):
                conf_tag = "top"
             else:
                conf_tag = "null"
 
-            authorList = article['author']
+            authorList = dblp_xml['author']
             authors = []
             for authorName in authorList:
                 if (type(authorName) is collections.OrderedDict):
                     authorName = authorName["#text"]
                 authors.append(authorName)
 
-            out[url] = (year, conf_name, '"' + title + '"', department, authors, dblp_doi, conf_tag)
+            out[url] = (year, conf_name, '"' + title + '"', department, authors, doi, conf_tag)
             score[department] += inc_score(conf_weight)
 
     return True
@@ -382,7 +382,7 @@ for researcher in reader2:
     bibfile = urllib2.urlopen(url).read()
 
     pid_papers = []
-    bibdata = xmltodict.parse(bibfile, item_depth=3, item_callback=handle_article)
+    bibdata = xmltodict.parse(bibfile, item_depth=3, item_callback=handle_dblp_xml)
 
     if found_paper:
        profs[department] += 1
