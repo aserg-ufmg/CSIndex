@@ -42,5 +42,5 @@
 2013,SIGIR,"Exploiting user feedback to learn to rank answers in q&a forums: a case study with stack overflow.",UFMG,Daniel Hasan Dalip; Marcos André Gonçalves; Marco Cristo; Pável Calado,http://doi.acm.org/10.1145/2484028.2484072,top
 2013,SIGIR,"Fast document-at-a-time query processing using two-tier indexes.",UFAM,Cristian Rossi; Edleno Silva de Moura; André Luiz da Costa Carvalho; Altigran Soares da Silva,http://doi.acm.org/10.1145/2484028.2484085,top
 2013,WSDM,"Using early view patterns to predict the popularity of youtube videos.",UFMG,Henrique Pinto; Jussara M. Almeida; Marcos André Gonçalves,http://doi.acm.org/10.1145/2433396.2433443,null
-2013,WWW,"Psychological maps 2.0: a web engagement enterprise starting in London.",UFMG,Daniele Quercia; João Paulo Pesce; Virgílio A. F. Almeida; Jon Crowcroft,http://dl.acm.org/citation.cfm?id=2488481,top
-2013,WWW,"The self-feeding process: a unifying model for communication dynamics in the web.",UFMG,Pedro Olmo Stancioli Vaz de Melo; Christos Faloutsos; Renato Assunção; Antonio Alfredo Ferreira Loureiro,http://dl.acm.org/citation.cfm?id=2488503,top
+2013,WWW,"Psychological maps 2.0: a web engagement enterprise starting in London.",UFMG,Daniele Quercia; João Paulo Pesce; Virgílio A. F. Almeida; Jon Crowcroft,http://doi.acm.org/10.1145/2488388.2488481,top
+2013,WWW,"The self-feeding process: a unifying model for communication dynamics in the web.",UFMG,Pedro Olmo Stancioli Vaz de Melo; Christos Faloutsos; Renato Assunção; Antonio Alfredo Ferreira Loureiro,http://doi.acm.org/10.1145/2488388.2488503,top
