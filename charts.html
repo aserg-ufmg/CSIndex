@@ -200,15 +200,19 @@
 		  var table = new google.visualization.Table(document.getElementById('chart_stats'));
 		  
 		  var formatter1 = new google.visualization.ColorFormat();
-          formatter1.addRange(0, 90, 'black', 'LemonChiffon');
+          formatter1.addRange(50, 90, 'black', 'LemonChiffon');
+          formatter1.addRange(0, 50, 'black', 'Khaki');
           formatter1.format(data, 2); // Apply formatter to submitted papers
 		  
+		  
           var formatter2 = new google.visualization.ColorFormat();
-          formatter2.addRange(31, 100, 'black', 'LemonChiffon');
+          formatter2.addRange(31, 40, 'black', 'LemonChiffon');
+          formatter2.addRange(40, 100, 'black', 'Khaki');
           formatter2.format(data, 4); 
 		  
 		  var formatter3 = new google.visualization.ColorFormat();
-          formatter3.addRange(0, 19, 'black', 'LemonChiffon');
+          formatter3.addRange(15, 19, 'black', 'LemonChiffon');
+          formatter3.addRange(0, 15, 'black', 'Khaki');
           formatter3.format(data, 5); 
 		  
 		  var formatter4 = new google.visualization.ColorFormat();
