@@ -1,4 +1,5 @@
 2017,AAAI,"Algorithms for Deciding Counting Quantifiers over Unary Predicates.",IME/USP,Marcelo Finger; Glauber De Bona,http://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14515,top
+2017,AAAI,"Landmark-Based Heuristics for Goal Recognition.",PUC-RS,Ramon Fraga Pereira; Nir Oren; Felipe Meneguzzi,http://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14666,top
 2017,AAAI,"Spatial Projection of Multiple Climate Variables Using Hierarchical Multitask Learning.",UNICAMP,André Ricardo Gonçalves; Arindam Banerjee; Fernando J. Von Zuben,http://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/15018,top
 2017,AAMAS,"GUBS: a Utility-Based Semantic for Goal-Directed Markov Decision Processes.",IME/USP; EACH/USP,Valdinei Freire; Karina Valdivia Delgado,http://dl.acm.org/citation.cfm?id=3091231,null
 2017,AAMAS,"Learning to Minimise Regret in Route Choice.",UFRGS,Gabriel de Oliveira Ramos; Bruno Castro da Silva; Ana L. C. Bazzan,http://dl.acm.org/citation.cfm?id=3091244,null
@@ -44,6 +45,7 @@
 2014,GECCO,"Multimodality and the linkage-learning difficulty of additively separable functions.",ICMC/USP,Jean Paulo Martins; Alexandre C. B. Delbem,http://doi.acm.org/10.1145/2576768.2598281,null
 2014,GECCO,"Use of explicit memory in the dynamic traveling salesman problem.",FFCLRP/USP,Renato Tinós; Darrell Whitley; Adele E. Howe,http://doi.acm.org/10.1145/2576768.2598247,null
 2014,NIPS,"Advances in Learning Bayesian Networks of Bounded Treewidth.",IME/USP,Siqi Nie; Denis Deratani Mauá; Cassio Polpo de Campos; Qiang Ji,http://papers.nips.cc/paper/5530-advances-in-learning-bayesian-networks-of-bounded-treewidth,top
+2013,AAMAS,"Hierarchical planning about goals and commitments.",PUC-RS,Pankaj R. Telang; Felipe Meneguzzi; Munindar P. Singh,http://dl.acm.org/citation.cfm?id=2485059,null
 2013,AAMAS,"Speeding-up reinforcement learning through abstraction and transfer learning.",Poli/USP; EACH/USP,Marcelo Li Koga; Valdinei Freire da Silva; Fábio Gagliardi Cozman; Anna Helena Reali Costa,http://dl.acm.org/citation.cfm?id=2484942,null
 2013,AAMAS,"Taxation search in boolean games.",UFRGS,Vadim Levit; Tal Grinshpoun; Amnon Meisels; Ana L. C. Bazzan,http://dl.acm.org/citation.cfm?id=2484952,null
 2013,ACL,"Language Acquisition and Probabilistic Models: keeping it simple.",UFRGS,Aline Villavicencio; Marco Idiart; Robert C. Berwick; Igor Malioutov,http://aclweb.org/anthology/P/P13/P13-1130.pdf,null
