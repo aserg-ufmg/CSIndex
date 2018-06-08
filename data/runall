@@ -1,51 +1,18 @@
-echo '################## SE ##################'
-python ../corebr.py se
-echo "SE finished"
-read -p "Press enter to continue"
-echo '################## IS ##################'
-python ../corebr.py is
-echo "IS finished"
-read -p "Press enter to continue"
-echo '################## PL ##################'
-python ../corebr.py pl
-read -p "Press enter to continue"
-echo "PL finished"
-echo '################## NET ##################'
-python ../corebr.py net
-echo "NET finished"
-read -p "Press enter to continue"
-echo '################## DS ##################'
-python ../corebr.py ds
-echo "DS finished"
-read -p "Press enter to continue"
-echo '################## MOBILE ##################'
-python ../corebr.py mobile
-echo "MOBILE finished"
-read -p "Press enter to continue"
-echo '################## DB ##################'
-python ../corebr.py db
-echo "DB finished"
-read -p "Press enter to continue"
-echo '################## IR ##################'
-python ../corebr.py ir
-echo "IR finished"
-read -p "Press enter to continue"
-echo '################## CHI ##################'
-python ../corebr.py chi
-echo "CHI finished"
-read -p "Press enter to continue"
-echo '################## ARCH ##################'
-python ../corebr.py arch
-echo "ARCH finished"
-read -p "Press enter to continue"
-echo '################## THEORY ##################'
-python ../corebr.py theory
-echo "THEORY finished"
-read -p "Press enter to continue"
-echo '################## DATA ##################'
-python ../corebr.py data,db
-echo "DATA finished"
-read -p "Press enter to continue"
-echo '################## SECURITY ##################'
-echo "SECURITY finished"
-python ../corebr.py security
+start0=`date +%s`
+for area in "$@"
+do
+  echo '##################' $area '##################'
+  start=`date +%s`
+  python ../csindex.py $area
+  end=`date +%s`
+  echo '##################' $area "finished" '##################'
+  runtime1=$(($end-$start))
+  runtime1=$(echo "scale=2; " $runtime1 "/ 60.0" | bc -l)
+  echo 'Runtime: ' $runtime1 'min'
+  sleep 180
+done
+echo '####################################'
+end0=`date +%s`
+runtime0=$(($end0-$start0))
+runtime0=$(echo "scale=2; " $runtime0 "/ 60.0" | bc -l)
+echo 'Overall runtime: ' $runtime0 'min'
