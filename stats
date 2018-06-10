@@ -40,6 +40,7 @@ papers_theory=$(wc -l theory-out-papers.csv | awk '{print $1}')
 papers_formal=$(wc -l formal-out-papers.csv | awk '{print $1}')
 papers_security=$(wc -l security-out-papers.csv | awk '{print $1}')
 papers_vision=$(wc -l vision-out-papers.csv | awk '{print $1}')
+papers_robotics=$(wc -l robotics-out-papers.csv | awk '{print $1}')
 
 papers_top_se=$(cat se-out-papers.csv | awk -F, ' /top$/ {print $7}' | wc -l)
 papers_top_is=$(cat is-out-papers.csv | awk -F, ' /top$/ {print $7}' | wc -l)
@@ -57,7 +58,7 @@ papers_top_theory=$(cat theory-out-papers.csv | awk -F, ' /top$/ {print $7}' | w
 papers_top_formal=$(cat formal-out-papers.csv | awk -F, ' /top$/ {print $7}' | wc -l)
 papers_top_security=$(cat security-out-papers.csv | awk -F, ' /top$/ {print $7}' | wc -l)
 papers_top_vision=$(cat vision-out-papers.csv | awk -F, ' /top$/ {print $7}' | wc -l)
-
+papers_top_robotics=$(cat robotics-out-papers.csv | awk -F, ' /top$/ {print $7}' | wc -l)
 
 today=$(date)
 
@@ -96,6 +97,8 @@ echo '<li>Algorithms & Complexity:' $papers_theory '/' $papers_top_theory
 echo '<li>Security & Cryptography:' $papers_security '/' $papers_top_security
 echo '<li>Computer Vision:' $papers_vision '/' $papers_top_vision
 echo '<li>Formal Methods & Logic:' $papers_formal '/' $papers_top_formal
+echo '<li>Robotics:' $papers_robotics '/' $papers_top_robotics
+
 echo '</ul>'
 echo '</ul>'
 echo '<p><small>(last updated on' $today')</small></p>'
