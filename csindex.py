@@ -252,7 +252,7 @@ def handle_dblp_xml(_, dblp_xml):
         url = dblp_xml['url']
 
         if (year == 2018):
-           print '*** 2018 *** ' + url
+           print '\033[94m' + '*** 2018 *** '+ '\033[0m' + url
 
         dblp_pages = "null"
         
