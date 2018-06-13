@@ -367,7 +367,7 @@ for researcher in reader2:
     department= researcher[1]
     pid= researcher[2]
 
-    print str(count) + " >> " + prof_name
+    print str(count) + " >> " + prof_name + "," + department
 
     # remove_prof_papers_file(area_prefix, prof_name)
 
