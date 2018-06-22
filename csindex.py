@@ -213,13 +213,13 @@ def generate_search_box_list():
     f.close()
 
 def output_pid_profs():
-  global pid_profs
+    global pid_profs
 
-  f = open(area_prefix + "-" + 'out-profs-name.csv','w')
-  for prof in pid_profs:
-    f.write(prof)
-    f.write('\n')
-  f.close()
+    f = open(area_prefix + "-" + 'out-profs-name.csv','w')
+    for prof in pid_profs:
+      f.write(prof)
+      f.write('\n')
+    f.close()
 
 
 def inc_score(weight):
@@ -231,7 +231,7 @@ def inc_score(weight):
        return 0.33
 
 
-def handle_dblp_xml(_, dblp_xml):
+def parse_dblp_xml(_, dblp_xml):
     global min_paper_size, department, found_paper, black_list
 
     if 'journal' in dblp_xml:
@@ -263,14 +263,6 @@ def handle_dblp_xml(_, dblp_xml):
             size = paperSize(dblp_pages)
         else:
             size = 0
-
-        #if 'pages' in article:
-        #    dblp_pages = article ['pages']
-        #    size = paperSize(dblp_pages)
-        #elif url in white_list:
-        #    size = 10
-        #else:
-        #    size = 0
 
         if (size >= min_paper_size):
 
@@ -367,7 +359,7 @@ for researcher in reader2:
     department= researcher[1]
     pid= researcher[2]
 
-    print str(count) + " >> " + prof_name + "," + department
+    print str(count) + " >> " + prof_name + ", " + department
 
     # remove_prof_papers_file(area_prefix, prof_name)
 
@@ -382,7 +374,7 @@ for researcher in reader2:
     bibfile = urllib2.urlopen(url).read()
 
     pid_papers = []
-    bibdata = xmltodict.parse(bibfile, item_depth=3, item_callback=handle_dblp_xml)
+    bibdata = xmltodict.parse(bibfile, item_depth=3, item_callback=parse_dblp_xml)
 
     if found_paper:
        profs[department] += 1
