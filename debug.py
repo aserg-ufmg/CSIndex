@@ -1,9 +1,10 @@
 import xmltodict
 import urllib2
 import re
+import collections
 
-FIRST_YEAR= 2013
-LAST_YEAR= 2018
+FIRST_YEAR= 2017
+LAST_YEAR= 2017
 
 def paperSize(dblp_pages):
   page= re.split(r"-|:", dblp_pages) 
@@ -28,30 +29,30 @@ def handle_article(_, article):
                  
     if (int(year) >= FIRST_YEAR) and (int(year) <= LAST_YEAR):
        print article['title']
-       print '>' + article['booktitle'] + '<'
+       print article['booktitle']
        print year
        if ('pages' in article):
            dblp_pages = article ['pages']
            size = paperSize(dblp_pages)
            print dblp_pages
            print size
-       if (article['booktitle'] in confdata):
-          print "Found CCGRID"
-       else:    
-          print "NOT Found CCGRID"
-       print '=============='
+       authorList = article['author']
+       print len(authorList)
+       authors = []
+       for authorName in authorList:
+           if (type(authorName) is collections.OrderedDict):
+               authorName = authorName["#text"]
+               authors.append(authorName)
+               print authorName
+           else:
+             print authorName    
     return True
     
     
 print '###########################################################'
-print '###########################################################'
-print '###########################################################'
-print '###########################################################'
     
-url= "http://dblp.org/pid/" + "b/FranciscoVilarBrasileiro" + ".xml"
+url= "http://dblp.org/pid/" + "88/4732" + ".xml"
 
-confdata = {}
-confdata["CCGRID"] = "CCGRID"
 
 bibfile = urllib2.urlopen(url).read()
 bibdata = xmltodict.parse(bibfile, item_depth=3, item_callback=handle_article)  
