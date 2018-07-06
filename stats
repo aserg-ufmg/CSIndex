@@ -103,9 +103,7 @@ echo '<li>Formal Methods & Logic:' $papers_formal '/' $papers_top_formal
 echo '<li>Robotics:' $papers_robotics '/' $papers_top_robotics
 echo '<li>Computer Science Education:' $papers_cse '/' $papers_top_cse
 echo '</ul>'
-echo '</ul>'
 
-echo '<ul>'
 echo '<li> Papers per department:'
 echo '<ul>'
 
@@ -116,5 +114,17 @@ rm allpapers.csv
 
 echo '</ul>'
 echo '</ul>'
+
+echo '<li> Papers in top-conferences per department:'
+echo '<ul>'
+
+cat *-out-papers.csv | awk -F, ' /top$/ {print $0}'  > allpapers.csv
+python ../getcol.py allpapers.csv 3 | awk '{for(i=1;i<=NF;i++) print $i}' | \
+     sed 's/;//' | sort | uniq -c | sort -r | head -n 15 | awk ' { print "<li>" $2 ": " $1 }'
+rm allpapers.csv
+
+echo '</ul>'
+echo '</ul>'
+
 
 echo '<p><small>(last updated on' $today')</small></p>'

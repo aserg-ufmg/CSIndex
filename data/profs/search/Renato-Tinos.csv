@@ -1,3 +1,5 @@
+2018,GECCO,"Enhancing partition crossover with articulation points analysis.",Francisco Chicano; Gabriela Ochoa; Darrell Whitley; Renato Tinós,http://doi.acm.org/10.1145/3205455.3205561,null
+2018,GECCO,"Tunneling between plateaus: improving on a state-of-the-art MAXSAT solver using partition crossover.",Wenxiang Chen; Darrell Whitley; Renato Tinós; Francisco Chicano,http://doi.acm.org/10.1145/3205455.3205482,null
 2017,GECCO,"Building a better heuristic for the traveling salesman problem: combining edge assembly crossover and partition crossover.",Danilo Sanches; Darrell Whitley; Renato Tinós,http://doi.acm.org/10.1145/3071178.3071305,null
 2017,GECCO,"Improving an exact solver for the traveling salesman problem using partition crossover.",Danilo Sanches; Darrell Whitley; Renato Tinós,http://doi.acm.org/10.1145/3071178.3071304,null
 2017,GECCO,"Optimizing one million variable NK landscapes by hybridizing deterministic recombination and local search.",Francisco Chicano; Darrell Whitley; Gabriela Ochoa; Renato Tinós,http://doi.acm.org/10.1145/3071178.3071285,null
