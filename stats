@@ -113,7 +113,6 @@ python ../getcol.py allpapers.csv 3 | awk '{for(i=1;i<=NF;i++) print $i}' | \
 rm allpapers.csv
 
 echo '</ul>'
-echo '</ul>'
 
 echo '<li> Papers in top-conferences per department:'
 echo '<ul>'
@@ -124,7 +123,7 @@ python ../getcol.py allpapers.csv 3 | awk '{for(i=1;i<=NF;i++) print $i}' | \
 rm allpapers.csv
 
 echo '</ul>'
-echo '</ul>'
 
+echo '</ul>'
 
 echo '<p><small>(last updated on' $today')</small></p>'
