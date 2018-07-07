@@ -1,4 +1,5 @@
 2014,PLDI,"Compositional solution space quantification for probabilistic software analysis.",Mateus Borges; Antonio Filieri; Marcelo d'Amorim; Corina S. Pasareanu; Willem Visser,http://doi.acm.org/10.1145/2594291.2594329,top
+2018,ICSE,"Enlightened debugging.",Xiangyu Li; Shaowei Zhu; Marcelo d'Amorim; Alessandro Orso,http://doi.acm.org/10.1145/3180155.3180242,top
 2017,ICSE,"Balancing soundness and efficiency for practical testing of configurable systems.",Sabrina Souto; Marcelo d'Amorim; Rohit Gheyi,https://doi.org/10.1109/ICSE.2017.64,top
 2017,ICST,"Prevalence of Single-Fault Fixes and Its Impact on Fault Localization.",Alexandre Perez; Rui Abreu; Marcelo d'Amorim,https://doi.org/10.1109/ICST.2017.9,null
 2017,ASE,"Test suite parallelization in open-source projects: a study on its usage and impact.",Jeanderson Candido; Luis Melo; Marcelo d'Amorim,https://doi.org/10.1109/ASE.2017.8115695,null
