@@ -291,11 +291,12 @@ def parse_dblp_xml(_, dblp_xml):
 
             print conf_name + ' ' + str(year) + ': '+ title
         
-            if type(dblp_xml['ee']) is list:
-               doi = dblp_xml['ee'][0]
-            else:
-               doi = dblp_xml['ee']
-
+            doi = dblp_xml['ee']
+            if type(doi) is list:
+               doi = doi[0]
+            elif type(doi) is collections.OrderedDict:
+               doi = doi["#text"]
+            
             if (conf_weight == 1):
                conf_tag = "top"
             else:
@@ -304,7 +305,7 @@ def parse_dblp_xml(_, dblp_xml):
             authorList = dblp_xml['author']
             authors = []
             for authorName in authorList:
-                if (type(authorName) is collections.OrderedDict):
+                if type(authorName) is collections.OrderedDict:
                     authorName = authorName["#text"]
                 authors.append(authorName)
 
