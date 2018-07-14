@@ -93,7 +93,7 @@
 		  data.addColumn('string', 'Departments');
 		  data.addColumn('number', 'Score');
 		  data.addRows(arrayData);
-	  
+		  	  
 		  var view = new google.visualization.DataView(data);
 		  view.setColumns([0, 1,  
 						   { calc: "stringify",
@@ -187,14 +187,14 @@
 		  $.get(corebr_stats_file, function(csvString) {
 		  var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
 		  var data= new google.visualization.DataTable();
-		  data.addColumn('string', 'Conference');
-		  data.addColumn('string', 'Sponsor');
-		  data.addColumn('number', 'Submitted');
-		  data.addColumn('number', 'Accepted');
-		  data.addColumn('number', 'Accept. Rate');
-		  data.addColumn('number', 'h5-index');
-		  data.addColumn('string', 'Rank');
-		  data.addColumn('number', 'Pages');
+		  data.addColumn('string', 'Conference'); // 0
+		  data.addColumn('string', 'Sponsor');  // 1
+		  data.addColumn('number', 'Submitted'); // 2
+		  data.addColumn('number', 'Accepted'); // 3
+		  data.addColumn('number', 'Rate'); // 4
+		  data.addColumn('number', 'h5-index'); // 5
+		  data.addColumn('string', 'Rank'); // 6
+		  data.addColumn('number', 'Pages'); //7
 		  data.addRows(arrayData);
 	  			
 		  var table = new google.visualization.Table(document.getElementById('chart_stats'));
@@ -219,7 +219,19 @@
           formatter4.addRange(0, 9, 'black', 'LemonChiffon');
           formatter4.format(data, 7); 
 		  
-		  table.draw(data, {allowHtml: true, showRowNumber: true, width: '100%', height: '100%'});
+		  var view = new google.visualization.DataView(data); 
+          view.setColumns([ 
+               0,1,2,3,4,5, 
+               { type: 'number', 
+                 label: 'Norm h5', 
+                 calc: function(dataTable, rowNum){ 
+                          r = dataTable.getValue(rowNum, 5) / dataTable.getValue(rowNum, 3);
+                          return Math.round(r * 100) / 100;
+                       } 
+               },6,7]); 
+             
+		  table.draw(view, {allowHtml: true, showRowNumber: true, width: '100%', height: '100%'});
+		  
 		  });
 		}
     </script>
