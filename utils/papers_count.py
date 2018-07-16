@@ -24,9 +24,13 @@ def paperSize(dblp_pages):
      p1= page[0]
      p2= page[1]
      return int(p2) - int(p1) + 1
-  elif (len(page) == 4):
+  elif len(page) == 4:
      p1= page[1]
      p2= page[3]
+     return int(p2) - int(p1) + 1
+  elif len(page) == 3:   
+     p1= page[1]
+     p2= page[2]
      return int(p2) - int(p1) + 1
   else:
      return 0
@@ -72,7 +76,6 @@ f = open("out.csv",'w')
 for journal in journals:
     f.write(journal)
     f.write(',')
-    
     f.write(str(papers[journal][0]))
     f.write(',')
     f.write(str(papers[journal][1]))
@@ -87,4 +90,7 @@ for journal in journals:
     f.write('\n')    
 f.close()
 
-print("Runtime (minutes): " % (time.time() - start_time) / 60)
+end_time = time.time()
+elapsed_time = (end_time - start_time) / 60
+
+print "Runtime (minutes): " + str(elapsed_time)
