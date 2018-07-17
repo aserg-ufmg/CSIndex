@@ -1,10 +1,10 @@
-2018,GECCO,"Enhancing partition crossover with articulation points analysis.",Francisco Chicano; Gabriela Ochoa; Darrell Whitley; Renato Tinós,http://doi.acm.org/10.1145/3205455.3205561,null
-2018,GECCO,"Tunneling between plateaus: improving on a state-of-the-art MAXSAT solver using partition crossover.",Wenxiang Chen; Darrell Whitley; Renato Tinós; Francisco Chicano,http://doi.acm.org/10.1145/3205455.3205482,null
-2017,GECCO,"Building a better heuristic for the traveling salesman problem: combining edge assembly crossover and partition crossover.",Danilo Sanches; Darrell Whitley; Renato Tinós,http://doi.acm.org/10.1145/3071178.3071305,null
-2017,GECCO,"Improving an exact solver for the traveling salesman problem using partition crossover.",Danilo Sanches; Darrell Whitley; Renato Tinós,http://doi.acm.org/10.1145/3071178.3071304,null
-2017,GECCO,"Optimizing one million variable NK landscapes by hybridizing deterministic recombination and local search.",Francisco Chicano; Darrell Whitley; Gabriela Ochoa; Renato Tinós,http://doi.acm.org/10.1145/3071178.3071285,null
-2016,GECCO,"Efficient Hill Climber for Constrained Pseudo-Boolean Optimization Problems.",Francisco Chicano; Darrell Whitley; Renato Tinós,http://doi.acm.org/10.1145/2908812.2908869,null
-2016,GECCO,"A New Evaluation Function for Clustering: The NK Internal Validation Criterion.",Renato Tinós; Zhao Liang; Francisco Chicano; Darrell Whitley,http://doi.acm.org/10.1145/2908812.2908831,null
-2015,GECCO,"Tunnelling Crossover Networks.",Gabriela Ochoa; Francisco Chicano; Renato Tinós; Darrell Whitley,http://doi.acm.org/10.1145/2739480.2754657,null
-2014,GECCO,"Generalized asymmetric partition crossover (GAPX) for the asymmetric TSP.",Renato Tinós; Darrell Whitley; Gabriela Ochoa,http://doi.acm.org/10.1145/2576768.2598245,null
-2014,GECCO,"Use of explicit memory in the dynamic traveling salesman problem.",Renato Tinós; Darrell Whitley; Adele E. Howe,http://doi.acm.org/10.1145/2576768.2598247,null
+2018,GECCO,"Enhancing partition crossover with articulation points analysis.",Francisco Chicano; Gabriela Ochoa; Darrell Whitley; Renato Tinós,http://doi.acm.org/10.1145/3205455.3205561,null,C
+2018,GECCO,"Tunneling between plateaus: improving on a state-of-the-art MAXSAT solver using partition crossover.",Wenxiang Chen; Darrell Whitley; Renato Tinós; Francisco Chicano,http://doi.acm.org/10.1145/3205455.3205482,null,C
+2017,GECCO,"Building a better heuristic for the traveling salesman problem: combining edge assembly crossover and partition crossover.",Danilo Sanches; Darrell Whitley; Renato Tinós,http://doi.acm.org/10.1145/3071178.3071305,null,C
+2017,GECCO,"Improving an exact solver for the traveling salesman problem using partition crossover.",Danilo Sanches; Darrell Whitley; Renato Tinós,http://doi.acm.org/10.1145/3071178.3071304,null,C
+2017,GECCO,"Optimizing one million variable NK landscapes by hybridizing deterministic recombination and local search.",Francisco Chicano; Darrell Whitley; Gabriela Ochoa; Renato Tinós,http://doi.acm.org/10.1145/3071178.3071285,null,C
+2016,GECCO,"Efficient Hill Climber for Constrained Pseudo-Boolean Optimization Problems.",Francisco Chicano; Darrell Whitley; Renato Tinós,http://doi.acm.org/10.1145/2908812.2908869,null,C
+2016,GECCO,"A New Evaluation Function for Clustering: The NK Internal Validation Criterion.",Renato Tinós; Zhao Liang; Francisco Chicano; Darrell Whitley,http://doi.acm.org/10.1145/2908812.2908831,null,C
+2015,GECCO,"Tunnelling Crossover Networks.",Gabriela Ochoa; Francisco Chicano; Renato Tinós; Darrell Whitley,http://doi.acm.org/10.1145/2739480.2754657,null,C
+2014,GECCO,"Generalized asymmetric partition crossover (GAPX) for the asymmetric TSP.",Renato Tinós; Darrell Whitley; Gabriela Ochoa,http://doi.acm.org/10.1145/2576768.2598245,null,C
+2014,GECCO,"Use of explicit memory in the dynamic traveling salesman problem.",Renato Tinós; Darrell Whitley; Adele E. Howe,http://doi.acm.org/10.1145/2576768.2598247,null,C
