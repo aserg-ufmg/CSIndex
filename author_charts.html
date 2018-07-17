@@ -54,7 +54,8 @@
 		  data.addColumn('string', 'Authors'); // 3
 		  data.addColumn('string', 'DOI');  // 4
 		  data.addColumn('string', 'top');  // 5
-		  
+		  data.addColumn('string', 'Type'); // 6
+
 		  data.addRows(arrayData);
 	  	  data.sort({column: 0, desc: true});
 			
@@ -71,7 +72,7 @@
           formatter2.format(data, [2, 5]);
           
           var view = new google.visualization.DataView(data);
-          view.setColumns([0,1,2,3]);
+          view.setColumns([0,1,2,3,6]);
           
 		  table.draw(view, {allowHtml: true, showRowNumber: true, width: '100%', height: '100%'});
 		  });
