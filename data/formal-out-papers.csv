@@ -1,14 +1,14 @@
-2018,FM,"An Algebraic Approach for Reasoning About Information Flow.",UFMG,Arthur Américo; Mário S. Alvim; Annabelle McIver,https://doi.org/10.1007/978-3-319-95582-7_4,null
-2018,WoLLIC,"A Semantical View of Proof Systems.",UFRN,E; l; a; i; n; e;  ; P; i; m; e; n; t; e; l,https://doi.org/10.1007/978-3-662-57669-4_3,null
-2018,WoLLIC,"Algebraic Semantics for Nelson's Logic  S.",UFRN,Thiago Nascimento; Umberto Rivieccio; João Marcos 0001; Matthew Spinks,https://doi.org/10.1007/978-3-662-57669-4_16,null
-2018,WoLLIC,"Formalization of the Undecidability of the Halting Problem for a Functional Language.",UnB,Thiago Mendonça Ferreira Ramos; César A. Muñoz; Mauricio Ayala-Rincón; Mariano M. Moscato; Aaron Dutle; Anthony Narkawicz,https://doi.org/10.1007/978-3-662-57669-4_11,null
-2018,WoLLIC,"Parameterized Complexity of Some Prefix-Vocabulary Fragments of First-Order Logic.",UFC,Luis Henrique Bustamante; Ana Teresa C. Martins; Francicleber Ferreira Martins,https://doi.org/10.1007/978-3-662-57669-4_9,null
-2016,WoLLIC,"On the Formalization of Some Results of Context-Free Language Theory.",UFPE,Marcus Vinícius Midena Ramos; Ruy J. G. B. de Queiroz; Nelma Moreira; José Carlos Bacelar Almeida,https://doi.org/10.1007/978-3-662-52921-8_21,null
-2014,FM,"A Modular Theory of Object Orientation in Higher-Order UTP.",UFPE,Frank Zeyda; Thiago L. V. L. Santos; Ana Cavalcanti; Augusto Sampaio,https://doi.org/10.1007/978-3-319-06410-9_42,null
-2014,FM,"A Refinement Based Strategy for Local Deadlock Analysis of Networks of CSP Processes.",UFPE,Pedro R. G. Antonino; Augusto Sampaio; Jim Woodcock,https://doi.org/10.1007/978-3-319-06410-9_5,null
-2014,SEFM,"Rapid Prototyping of a Semantically Well Founded Circus Model Checker.",UFPE,Alexandre Mota; Adalberto Farias; André Didier; Jim Woodcock,https://doi.org/10.1007/978-3-319-10431-7_17,null
-2014,SEFM,"Test Suite Completeness and Partial Models.",UNICAMP,Adilson Luiz Bonifácio; Arnaldo Vieira Moura,https://doi.org/10.1007/978-3-319-10431-7_8,null
-2014,WoLLIC,"Sequentialization for N-Graphs via Sub-N-Graphs.",UFPE,Ruan Carvalho; Laís Andrade; Anjolina Grisi de Oliveira; Ruy J. G. B. de Queiroz,https://doi.org/10.1007/978-3-662-44145-9_7,null
-2013,LICS,"Kripke Semantics for Modal Bilattice Logic.",UFRN,Achim Jung; Umberto Rivieccio,https://doi.org/10.1109/LICS.2013.50,null
-2013,SEFM,"A Verified Protocol to Implement Multi-way Synchronisation and Interleaving in CSP.",UFRN,Marcel Vinícius Medeiros Oliveira; Ivan Soares de Medeiros Júnior; Jim Woodcock,https://doi.org/10.1007/978-3-642-40561-7_4,null
-2013,WoLLIC,"Linear Time Proof Verification on N-Graphs: A Graph Theoretic Approach.",UFPE,Laís Andrade; Ruan Carvalho; Anjolina Grisi de Oliveira; Ruy J. G. B. de Queiroz,https://doi.org/10.1007/978-3-642-39992-3_7,null
+2018,FM,"An Algebraic Approach for Reasoning About Information Flow.",UFMG,Arthur Américo; Mário S. Alvim; Annabelle McIver,https://doi.org/10.1007/978-3-319-95582-7_4,null,C
+2018,WoLLIC,"A Semantical View of Proof Systems.",UFRN,E; l; a; i; n; e;  ; P; i; m; e; n; t; e; l,https://doi.org/10.1007/978-3-662-57669-4_3,null,C
+2018,WoLLIC,"Algebraic Semantics for Nelson's Logic  S.",UFRN,Thiago Nascimento; Umberto Rivieccio; João Marcos 0001; Matthew Spinks,https://doi.org/10.1007/978-3-662-57669-4_16,null,C
+2018,WoLLIC,"Formalization of the Undecidability of the Halting Problem for a Functional Language.",UnB,Thiago Mendonça Ferreira Ramos; César A. Muñoz; Mauricio Ayala-Rincón; Mariano M. Moscato; Aaron Dutle; Anthony Narkawicz,https://doi.org/10.1007/978-3-662-57669-4_11,null,C
+2018,WoLLIC,"Parameterized Complexity of Some Prefix-Vocabulary Fragments of First-Order Logic.",UFC,Luis Henrique Bustamante; Ana Teresa C. Martins; Francicleber Martins Ferreira,https://doi.org/10.1007/978-3-662-57669-4_9,null,C
+2016,WoLLIC,"On the Formalization of Some Results of Context-Free Language Theory.",UFPE,Marcus Vinícius Midena Ramos; Ruy J. G. B. de Queiroz; Nelma Moreira; José Carlos Bacelar Almeida,https://doi.org/10.1007/978-3-662-52921-8_21,null,C
+2014,FM,"A Modular Theory of Object Orientation in Higher-Order UTP.",UFPE,Frank Zeyda; Thiago L. V. L. Santos; Ana Cavalcanti; Augusto Sampaio,https://doi.org/10.1007/978-3-319-06410-9_42,null,C
+2014,FM,"A Refinement Based Strategy for Local Deadlock Analysis of Networks of CSP Processes.",UFPE,Pedro R. G. Antonino; Augusto Sampaio; Jim Woodcock,https://doi.org/10.1007/978-3-319-06410-9_5,null,C
+2014,SEFM,"Rapid Prototyping of a Semantically Well Founded Circus Model Checker.",UFPE,Alexandre Mota; Adalberto Farias; André Didier; Jim Woodcock,https://doi.org/10.1007/978-3-319-10431-7_17,null,C
+2014,SEFM,"Test Suite Completeness and Partial Models.",UNICAMP,Adilson Luiz Bonifácio; Arnaldo Vieira Moura,https://doi.org/10.1007/978-3-319-10431-7_8,null,C
+2014,WoLLIC,"Sequentialization for N-Graphs via Sub-N-Graphs.",UFPE,Ruan Carvalho; Laís Andrade; Anjolina Grisi de Oliveira; Ruy J. G. B. de Queiroz,https://doi.org/10.1007/978-3-662-44145-9_7,null,C
+2013,LICS,"Kripke Semantics for Modal Bilattice Logic.",UFRN,Achim Jung; Umberto Rivieccio,https://doi.org/10.1109/LICS.2013.50,null,C
+2013,SEFM,"A Verified Protocol to Implement Multi-way Synchronisation and Interleaving in CSP.",UFRN,Marcel Vinícius Medeiros Oliveira; Ivan Soares de Medeiros Júnior; Jim Woodcock,https://doi.org/10.1007/978-3-642-40561-7_4,null,C
+2013,WoLLIC,"Linear Time Proof Verification on N-Graphs: A Graph Theoretic Approach.",UFPE,Laís Andrade; Ruan Carvalho; Anjolina Grisi de Oliveira; Ruy J. G. B. de Queiroz,https://doi.org/10.1007/978-3-642-39992-3_7,null,C
