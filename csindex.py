@@ -103,6 +103,8 @@ def output_papers():
     f.write(str(paper[5]))
     f.write(',')
     f.write(str(paper[6]))
+    f.write(',')
+    f.write(str(paper[7]))
     f.write('\n')
   f.close()
 
@@ -158,6 +160,25 @@ def remove_prof_papers_file(area_prefix, prof_name):
        print "Removing "+ file_name
        os.remove(file_name)
 
+
+def file_len(fname):
+    with open(fname) as f:
+       for i, l in enumerate(f):
+           pass
+    return i + 1
+
+    
+def flush_prof_papers(area_prefix, prof_name):
+    num_lines = 0
+    prof_name = prof_name.replace(" ", "-")
+    file_name = "./profs/" + area_prefix + "-" + prof_name + '-papers.csv'
+    if (os.path.exists(file_name)):
+       num_lines = file_len(file_name)
+       # print "Removing file " + file_name
+       os.remove(file_name)   
+    return num_lines
+
+
 def output_prof_papers(prof_name):
   global out, pid_papers
 
@@ -180,6 +201,8 @@ def output_prof_papers(prof_name):
     f.write(str(paper[5]))
     f.write(',')
     f.write(str(paper[6]))
+    f.write(',')
+    f.write(str(paper[7]))
     f.write('\n')
   f.close()
 
@@ -279,7 +302,7 @@ def parse_dblp_xml(_, dblp_xml):
                 if (paper[3].find(department) == -1):
                    # but this author is from another department
                    paper2= (paper[0], paper[1], paper[2], paper[3] + "; " + department,
-                            paper[4], paper[5], paper[6])
+                            paper[4], paper[5], paper[6], paper[7])
                    out[url] = paper2
                    score[department] += inc_score(conf_weight)
                 return True
@@ -309,22 +332,19 @@ def parse_dblp_xml(_, dblp_xml):
                     authorName = authorName["#text"]
                 authors.append(authorName)
 
-            out[url] = (year, conf_name, '"' + title + '"', department, authors, doi, conf_tag)
+            out[url] = (year, conf_name, '"' + title + '"', department, authors, doi, conf_tag, "C")
             score[department] += inc_score(conf_weight)
 
     return True
-
-
-################################################################
 
 # main program
 
 area_prefix= sys.argv[1]
 confs_file_name = area_prefix + "-confs.csv"
 
-for f in glob.glob("./profs/"+ area_prefix + "-*.csv"):
-    print "Removing file " + f
-    os.remove(f)
+#for f in glob.glob("./profs/"+ area_prefix + "-*.csv"):
+#    print "Removing file " + f
+#    os.remove(f)
 
 reader3 = csv.reader(open("research-areas-config.csv", 'r'))
 for area_tuple in reader3:
@@ -356,13 +376,13 @@ reader2 = csv.reader(open(researchers_file_name, 'r'))
 count = 1;
 for researcher in reader2:
 
-    prof_name= researcher[0]     # global variables
-    department= researcher[1]
-    pid= researcher[2]
+    prof_name = researcher[0]     # global variables
+    department = researcher[1]
+    pid = researcher[2]
 
-    print str(count) + " >> " + prof_name + ", " + department
-
-    # remove_prof_papers_file(area_prefix, prof_name)
+    n0 = flush_prof_papers(area_prefix, prof_name)
+    
+    print str(count) + " >> " + prof_name + ", " + department + ", "+ str(n0)
 
     if not department in score:
        score[department]= 0.0
@@ -381,7 +401,10 @@ for researcher in reader2:
        profs[department] += 1
        output_prof_papers(prof_name)
        merge_output_prof_papers(prof_name)
-
+    elif (n0 > 0):
+       print "*** has NO papers now **"
+       merge_output_prof_papers(prof_name)
+       
     count= count + 1;
 
 output_papers()
