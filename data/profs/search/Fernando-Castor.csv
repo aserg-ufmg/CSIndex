@@ -1,7 +1,7 @@
 2014,OOPSLA,"Understanding energy behaviors of thread management constructs.",Gustavo Pinto 0001; Fernando Castor; Yu David Liu,http://doi.acm.org/10.1145/2660193.2660235,null,C
-2017,ASE,"Understanding and overcoming parallelism bottlenecks in ForkJoin applications.",Gustavo Pinto 0001; Anthony Canino; Fernando Castor; Guoqing (Harry) Xu; Yu David Liu,https://doi.org/10.1109/ASE.2017.8115687,null
-2017,MSR,"A study on the energy consumption of Android app development approaches.",Wellington Oliveira; Renato Oliveira; Fernando Castor,https://doi.org/10.1109/MSR.2017.66,null
-2016,ICSME,"A Comprehensive Study on the Energy Efficiency of Java's Thread-Safe Collections.",Gustavo Pinto 0001; Kenan Liu; Fernando Castor; Yu David Liu,https://doi.org/10.1109/ICSME.2016.34,null
-2016,SANER,"Haskell in Green Land: Analyzing the Energy Behavior of a Purely Functional Language.",Luis Gabriel Lima; Francisco Soares-Neto; Paulo Lieuthier; Fernando Castor; Gilberto Melfe; João Paulo Fernandes,https://doi.org/10.1109/SANER.2016.85,null
-2015,MSR,"Mining Energy-Aware Commits.",Irineu Moura; Gustavo Pinto 0001; Felipe Ebert; Fernando Castor,https://doi.org/10.1109/MSR.2015.13,null
-2014,MSR,"Mining questions about software energy consumption.",Gustavo Pinto 0001; Fernando Castor; Yu David Liu,http://doi.acm.org/10.1145/2597073.2597110,null
+2017,ASE,"Understanding and overcoming parallelism bottlenecks in ForkJoin applications.",Gustavo Pinto 0001; Anthony Canino; Fernando Castor; Guoqing (Harry) Xu; Yu David Liu,https://doi.org/10.1109/ASE.2017.8115687,null,C
+2017,MSR,"A study on the energy consumption of Android app development approaches.",Wellington Oliveira; Renato Oliveira; Fernando Castor,https://doi.org/10.1109/MSR.2017.66,null,C
+2016,ICSME,"A Comprehensive Study on the Energy Efficiency of Java's Thread-Safe Collections.",Gustavo Pinto 0001; Kenan Liu; Fernando Castor; Yu David Liu,https://doi.org/10.1109/ICSME.2016.34,null,C
+2016,SANER,"Haskell in Green Land: Analyzing the Energy Behavior of a Purely Functional Language.",Luis Gabriel Lima; Francisco Soares-Neto; Paulo Lieuthier; Fernando Castor; Gilberto Melfe; João Paulo Fernandes,https://doi.org/10.1109/SANER.2016.85,null,C
+2015,MSR,"Mining Energy-Aware Commits.",Irineu Moura; Gustavo Pinto 0001; Felipe Ebert; Fernando Castor,https://doi.org/10.1109/MSR.2015.13,null,C
+2014,MSR,"Mining questions about software energy consumption.",Gustavo Pinto 0001; Fernando Castor; Yu David Liu,http://doi.acm.org/10.1145/2597073.2597110,null,C
