@@ -8,6 +8,7 @@
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
         })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
         ga('create', 'UA-8249107-7', 'auto');
         ga('send', 'pageview');
     </script>
@@ -40,14 +41,17 @@
 		google.charts.load('current', {'packages':['table']});
 		
 		google.charts.setOnLoadCallback(drawChartConfs);
+		google.charts.setOnLoadCallback(drawChartJournals);
 		google.charts.setOnLoadCallback(drawChartDepts);
 		google.charts.setOnLoadCallback(drawChartProfs);
-        google.charts.setOnLoadCallback(drawTablePapers);
+        google.charts.setOnLoadCallback(drawTablePapersConf);
+        google.charts.setOnLoadCallback(drawTablePapersJournal);
         google.charts.setOnLoadCallback(drawTableStats);
         
 		corebr_area_prefix= sessionStorage.getItem('corebr_area_prefix');
 		ga('send', 'event', 'Research Area Click', corebr_area_prefix);
 		var corebr_confs_file  = "data/" + corebr_area_prefix + "-out-confs.csv";
+		var corebr_journals_file  = "data/" + corebr_area_prefix + "-out-journals.csv";
 		var corebr_depts_file  = "data/" + corebr_area_prefix + "-out-scores.csv";
 		var corebr_profs_file  = "data/" + corebr_area_prefix + "-out-profs.csv";
 	    var corebr_papers_file = "data/" + corebr_area_prefix + "-out-papers.csv";
@@ -81,6 +85,38 @@
 						};
 					   			
 		  var chart = new google.visualization.ColumnChart(document.getElementById('chart_confs'));
+		  chart.draw(view, options);
+		  });
+		}
+		
+		function drawChartJournals() {
+		  $.get(corebr_journals_file, function(csvString) {
+		  var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
+		  var data= new google.visualization.DataTable();
+		  data.addColumn('string', 'Journals');
+		  data.addColumn('number', 'Papers');
+		  data.addRows(arrayData);
+	  
+		  var view = new google.visualization.DataView(data);
+		  view.setColumns([0, 1,  
+						   { calc: "stringify",
+							 sourceColumn: 1,
+							 type: "string",
+							 role: "annotation" },
+						  ]);
+		  var options = { 'width': 800,
+						  'height': 500,
+						  'fontSize': 12,
+						  'legend': { position: "none" },
+						  'chartArea': {left:40, top:40, right:30,  width:'80%',height:'65%'},
+						  'hAxis': { slantedText:true, slantedTextAngle:45 }, 
+						  'vAxis': { gridlines: { counts: -1} },
+						  'annotations': { alwaysOutside:true },
+						  'titleTextStyle': { bold: false },
+						  'title': 'Number of papers by Brazilian professors in tracked journals (2013-2018)'
+						};
+					   			
+		  var chart = new google.visualization.ColumnChart(document.getElementById('chart_journals'));
 		  chart.draw(view, options);
 		  });
 		}
@@ -148,11 +184,16 @@
 		  });
 		}
 		
-		function drawTablePapers() {
+		function drawTablePapers(type) {
 		  $.get(corebr_papers_file, function(csvString) {
 		  var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
+		  arrayData2 = [];
+		  for (var i = 0; i < arrayData.length; i++) {
+		      if (arrayData[i][7] == type) {
+		         arrayData2.push(arrayData[i]); 
+		      }   
+		  }
 		  var data= new google.visualization.DataTable();
-		  // data.addColumn('number', 'ID');
 		  data.addColumn('number', 'Year');  // 0
 		  data.addColumn('string', 'Venue');  // 1
 		  data.addColumn('string', 'Title');  // 2
@@ -160,18 +201,23 @@
 		  data.addColumn('string', 'Authors');  // 4
 		  data.addColumn('string', 'DOI'); // 5
 		  data.addColumn('string', 'top'); // 6
-		  data.addColumn('string', 'Type'); // 7
+		  data.addColumn('string', ''); // 7
 		  
-		  data.addRows(arrayData);
+		  data.addRows(arrayData2);
 	  			
-		  var table = new google.visualization.Table(document.getElementById('chart_papers'));
-		  
+		  if (type == "C") {
+		     var table = new google.visualization.Table(document.getElementById('chart_papers_conf'));
+		  } else {
+		    var table = new google.visualization.Table(document.getElementById('chart_papers_journal'));
+          }		  
+          
 		  var formatter = new google.visualization.NumberFormat( {pattern: '####'} );
           formatter.format(data, 0); // format year
           
           var formatter = new google.visualization.PatternFormat(
                '{0} <a href="{1}" onclick="trackOutboundLink(this.href); return false;">[doi]</a>');
           formatter.format(data, [2, 5]);
+
           var formatter2 = new google.visualization.PatternFormat('<img src="figs/{1}.gif">{0}');
           formatter2.format(data, [2, 6]);
           
@@ -180,6 +226,14 @@
           
 		  table.draw(view, {allowHtml: true, showRowNumber: true, width: '100%', height: '100%'});
 		  });
+		}
+		
+		function drawTablePapersConf() {
+		   drawTablePapers("C");
+		}
+		
+		function drawTablePapersJournal() {
+		   drawTablePapers("J");
 		}
 		
 		function drawTableStats() {
@@ -253,6 +307,10 @@
 </li>
 
 <li class="nav-item">
+<a class="nav-link small" data-toggle="tab" href="#journals" role="tab">Journals</a>
+</li>
+
+<li class="nav-item">
 <a class="nav-link small"  data-toggle="tab" href="#depts" role="tab">Departments</a>
 </li>
     
@@ -261,18 +319,28 @@
 </li>
   
 <li class="nav-item">
-<a class="nav-link small"  data-toggle="tab" href="#papers" role="tab">Papers (2013-2018)</a>
+<a class="nav-link small"  data-toggle="tab" href="#papers" role="tab">Papers (C)</a>
 </li>
-  
+
+<li class="nav-item">
+<a class="nav-link small"  data-toggle="tab" href="#papersjournal" role="tab">Papers (J)</a>
+</li>
+
 <li class="nav-item">
 <a class="nav-link small"  data-toggle="tab" href="#stats" role="tab">Stats (2017)</a>
 </li>
+
+
 </ul>
 
 <div class="tab-content">
 
 <div class="tab-pane active" id="confs" role="tabpanel">
 <div id="chart_confs"></div> 
+</div>
+
+<div class="tab-pane" id="journals" role="tabpanel">
+<div id="chart_journals"></div> 
 </div>
 
 <div class="tab-pane" id="depts" role="tabpanel">
@@ -284,7 +352,11 @@
 </div>
 
 <div class="tab-pane" id="papers" role="tabpanel">
-<div id="chart_papers"></div>
+<div id="chart_papers_conf"></div>
+</div>
+
+<div class="tab-pane" id="papersjournal" role="tabpanel">
+<div id="chart_papers_journal"></div>
 </div>
   
 <div class="tab-pane" id="stats" role="tabpanel">
