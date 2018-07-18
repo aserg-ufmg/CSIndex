@@ -10,3 +10,4 @@ db/journals/scp/scp96.html#GuizzardiZ14
 db/journals/scp/scp135.html#FonsecaBF17
 db/journals/sosym/sosym14.html#FrancaNCSBP15
 db/journals/sosym/sosym17.html#CarvalhoA18
+db/journals/jss/jss86.html#KuleszaSCCBLMSFACFPDPSCBLLMBBCSSSVACRPR13

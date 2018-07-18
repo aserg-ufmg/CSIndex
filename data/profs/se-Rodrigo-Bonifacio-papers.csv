@@ -1,3 +1,4 @@
 2017,SoSyM,"Empirical assessment of two approaches for specifying software product line use case scenarios.",Rodrigo Bonifácio; Paulo Borba; Cristiano Ferraz; Paola R. G. Accioly,https://doi.org/10.1007/s10270-015-0471-3,null,J
 2017,ICPC,"The discipline of preprocessor-based annotations does #ifdef TAG n't #endif matter.",Romero Malaquias; Márcio Ribeiro; Rodrigo Bonifácio; Eduardo Monteiro; Flávio Medeiros; Alessandro Garcia; Rohit Gheyi,https://doi.org/10.1109/ICPC.2017.41,null,C
 2016,MSR,"Understanding the exception handling strategies of Java libraries: an empirical study.",Demóstenes Sena; Roberta Coelho; Uirá Kulesza; Rodrigo Bonifácio,http://doi.acm.org/10.1145/2901739.2901757,null,C
+2013,JSS,"A design rule language for aspect-oriented programming.",Alberto Costa Neto; Rodrigo Bonifácio; Márcio Ribeiro; Carlos Eduardo Pontual; Paulo Borba; Fernando Castor,https://doi.org/10.1016/j.jss.2013.03.104,null,J

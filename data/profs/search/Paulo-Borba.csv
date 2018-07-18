@@ -6,8 +6,11 @@
 2016,EMSE,"Coevolution of variability models and related software artifacts - A fresh look at evolution patterns in the Linux kernel.",Leonardo Teixeira Passos; Leopoldo Teixeira; Nicolas Dintzner; Sven Apel; Andrzej Wasowski; Krzysztof Czarnecki; Paulo Borba; Jianmei Guo,https://doi.org/10.1007/s10664-015-9364-x,null,J
 2016,IST,"Assessing fine-grained feature dependencies.",Iran Rodrigues; Márcio Ribeiro; Flávio Medeiros; Paulo Borba; Baldoino Fonseca; Rohit Gheyi,https://doi.org/10.1016/j.infsof.2016.05.006,null,J
 2016,SPLC,"Partially safe evolution of software product lines.",Gabriela Sampaio; Paulo Borba; Leopoldo Teixeira,http://doi.acm.org/10.1145/2934466.2934482,null,C
+2015,JSS,"Safe evolution templates for software product lines.",Laís Neves; Paulo Borba; Vander Alves; Lucinéia Turnes; Leopoldo Teixeira; Demóstenes Sena; Uirá Kulesza,https://doi.org/10.1016/j.jss.2015.04.024,null,J
 2015,ESEM,"Assessing Semistructured Merge in Version Control Systems: A Replicated Experiment.",Guilherme Cavalcanti; Paola R. G. Accioly; Paulo Borba,https://doi.org/10.1109/ESEM.2015.7321191,null,C
 2015,SPLC,"A product line of theories for reasoning about safe evolution of product lines.",Leopoldo Teixeira; Vander Alves; Paulo Borba; Rohit Gheyi,http://doi.acm.org/10.1145/2791060.2791105,null,C
 2014,SCP,"Making refactoring safer through impact analysis.",Melina Mongiovi; Rohit Gheyi; Gustavo Soares; Leopoldo Teixeira; Paulo Borba,https://doi.org/10.1016/j.scico.2013.11.001,null,J
 2014,ICSE,"Feature maintenance with emergent interfaces.",Márcio Ribeiro; Paulo Borba; Christian Kästner,http://doi.acm.org/10.1145/2568225.2568289,top,C
+2013,JSS,"Safe composition of configuration knowledge-based software product lines.",Leopoldo Teixeira; Paulo Borba; Rohit Gheyi,https://doi.org/10.1016/j.jss.2012.11.006,null,J
+2013,JSS,"A design rule language for aspect-oriented programming.",Alberto Costa Neto; Rodrigo Bonifácio; Márcio Ribeiro; Carlos Eduardo Pontual; Paulo Borba; Fernando Castor,https://doi.org/10.1016/j.jss.2013.03.104,null,J
 2013,SPLC,"Coevolution of variability models and related artifacts: a case study from the Linux kernel.",Leonardo Teixeira Passos; Jianmei Guo; Leopoldo Teixeira; Krzysztof Czarnecki; Andrzej Wasowski; Paulo Borba,http://doi.acm.org/10.1145/2491627.2491628,null,C
