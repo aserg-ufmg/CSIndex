@@ -7,5 +7,6 @@
 2016,IST,"Assessing fine-grained feature dependencies.",Iran Rodrigues; Márcio Ribeiro; Flávio Medeiros; Paulo Borba; Baldoino Fonseca; Rohit Gheyi,https://doi.org/10.1016/j.infsof.2016.05.006,null,J
 2016,ICSE,"A comparison of 10 sampling algorithms for configurable systems.",Flávio Medeiros; Christian Kästner; Márcio Ribeiro; Rohit Gheyi; Sven Apel,http://doi.acm.org/10.1145/2884781.2884793,top,C
 2015,SPLC,"A product line of theories for reasoning about safe evolution of product lines.",Leopoldo Teixeira; Vander Alves; Paulo Borba; Rohit Gheyi,http://doi.acm.org/10.1145/2791060.2791105,null,C
+2014,SCP,"Making refactoring safer through impact analysis.",Melina Mongiovi; Rohit Gheyi; Gustavo Soares; Leopoldo Teixeira; Paulo Borba,https://doi.org/10.1016/j.scico.2013.11.001,null,J
 2014,ICSME,"Scaling Testing of Refactoring Engines.",Melina Mongiovi; Gustavo Mendes; Rohit Gheyi; Gustavo Soares; Márcio Ribeiro,https://doi.org/10.1109/ICSME.2014.59,null,C
 2013,TSE,"Automated Behavioral Testing of Refactoring Engines.",Gustavo Soares; Rohit Gheyi; Tiago Massoni,https://doi.org/10.1109/TSE.2012.19,top,J

@@ -1,5 +1,7 @@
+2018,SCP,"An experimental comparison of edge, edge-pair, and prime path criteria.",Vinicius H. S. Durelli; Márcio Eduardo Delamaro; Jeff Offutt,https://doi.org/10.1016/j.scico.2017.10.003,null,J
 2017,ASEJ,"Test oracles for simulink-like models.",Luciano Baresi; Márcio Eduardo Delamaro; Paulo Augusto Nardi,https://doi.org/10.1007/s10515-016-0207-9,null,J
 2016,FSE,"Analyzing the validity of selective mutation with dominator mutants.",Bob Kurtz; Paul Ammann; Jeff Offutt; Márcio Eduardo Delamaro; Mariet Kurtz; Nida Gökçe,http://doi.acm.org/10.1145/2950290.2950322,top,C
+2014,SCP,"Mitigating the effects of equivalent mutants with mutant classification strategies.",Mike Papadakis; Márcio Eduardo Delamaro; Yves Le Traon,https://doi.org/10.1016/j.scico.2014.05.012,null,J
 2014,ICST,"Designing Deletion Mutation Operators.",Márcio Eduardo Delamaro; Jeff Offutt; Paul Ammann,https://doi.org/10.1109/ICST.2014.12,null,C
 2014,ICST,"Establishing Theoretical Minimal Sets of Mutants.",Paul Ammann; Márcio Eduardo Delamaro; Jeff Offutt,https://doi.org/10.1109/ICST.2014.13,null,C
 2014,ICST,"Experimental Evaluation of SDL and One-Op Mutation for C.",Márcio Eduardo Delamaro; Lin Deng; Vinicius Humberto Serapilha Durelli; Nan Li 0008; Jeff Offutt,https://doi.org/10.1109/ICST.2014.33,null,C
