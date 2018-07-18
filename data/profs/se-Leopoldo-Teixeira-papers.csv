@@ -1,4 +1,5 @@
 2018,TSE,"Detecting Overly Strong Preconditions in Refactoring Engines.",Melina Mongiovi; Rohit Gheyi; Gustavo Soares; Márcio Ribeiro; Paulo Borba; Leopoldo Teixeira,https://doi.org/10.1109/TSE.2017.2693982,top,J
+2016,EMSE,"Coevolution of variability models and related software artifacts - A fresh look at evolution patterns in the Linux kernel.",Leonardo Teixeira Passos; Leopoldo Teixeira; Nicolas Dintzner; Sven Apel; Andrzej Wasowski; Krzysztof Czarnecki; Paulo Borba; Jianmei Guo,https://doi.org/10.1007/s10664-015-9364-x,null,J
 2016,SPLC,"Partially safe evolution of software product lines.",Gabriela Sampaio; Paulo Borba; Leopoldo Teixeira,http://doi.acm.org/10.1145/2934466.2934482,null,C
 2015,SPLC,"A product line of theories for reasoning about safe evolution of product lines.",Leopoldo Teixeira; Vander Alves; Paulo Borba; Rohit Gheyi,http://doi.acm.org/10.1145/2791060.2791105,null,C
 2013,SPLC,"Coevolution of variability models and related artifacts: a case study from the Linux kernel.",Leonardo Teixeira Passos; Jianmei Guo; Leopoldo Teixeira; Krzysztof Czarnecki; Andrzej Wasowski; Paulo Borba,http://doi.acm.org/10.1145/2491627.2491628,null,C
