@@ -1,3 +1,4 @@
+2018,SQJ,"How do developers react to API evolution? A large-scale empirical study.",André C. Hora; Romain Robbes; Marco Tulio Valente; Nicolas Anquetil; Anne Etien; Stéphane Ducasse,https://doi.org/10.1007/s11219-016-9344-4,null,J
 2018,ICSE,"Assessing the threat of untracked changes in software evolution.",André C. Hora; Danilo Silva; Marco Tulio Valente; Romain Robbes,http://doi.acm.org/10.1145/3180155.3180212,top,C
 2018,SANER,"Why and how Java developers break APIs.",Aline Brito; Laerte Xavier; André C. Hora; Marco Tulio Valente,https://doi.org/10.1109/SANER.2018.8330214,null,C
 2017,ICPC,"A comparison of three algorithms for computing truck factors.",Mívian M. Ferreira; Marco Tulio Valente; Kecia Aline M. Ferreira,https://doi.org/10.1109/ICPC.2017.35,null,C
@@ -18,3 +19,5 @@
 2014,SANER,"Remodularization analysis using semantic clustering.",Gustavo Santos; Marco Tulio Valente; Nicolas Anquetil,https://doi.org/10.1109/CSMR-WCRE.2014.6747174,null,C
 2014,SANER,"Extracting relative thresholds for source code metrics.",Paloma Oliveira; Marco Tulio Valente; Fernando Paim Lima,https://doi.org/10.1109/CSMR-WCRE.2014.6747177,null,C
 2014,ICPC,"Recommending automated extract method refactorings.",Danilo Silva; Ricardo Terra; Marco Tulio Valente,http://doi.acm.org/10.1145/2597008.2597141,null,C
+2013,SQJ,"Static correspondence and correlation between field defects and warnings reported by a bug finding tool.",Cesar Couto; João Eduardo Montandon; Christofer Silva; Marco Tulio Valente,https://doi.org/10.1007/s11219-011-9172-5,null,J
+2013,SQJ,"Mining the impact of evolution categories on object-oriented metrics.",Henrique Rocha; Cesar Couto; Cristiano Amaral Maffort; Rogel Garcia; Clarisse Simoes; Leonardo Teixeira Passos; Marco Tulio Valente,https://doi.org/10.1007/s11219-012-9186-7,null,J
