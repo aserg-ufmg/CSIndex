@@ -121,6 +121,7 @@
 2016,ISSRE,"SCOUT: A Multi-objective Method to Select Components in Designing Unit Testing.",UFSCAR,Eduardo Noronha de Andrade Freitas; Celso Gonçalves Camilo-Junior; Auri Marcelo Rizzo Vincenzi,https://doi.org/10.1109/ISSRE.2016.52,null,C
 2016,IST,"Assessing fine-grained feature dependencies.",UFAL; UFPE; UFCG,Iran Rodrigues; Márcio Ribeiro; Flávio Medeiros; Paulo Borba; Baldoino Fonseca; Rohit Gheyi,https://doi.org/10.1016/j.infsof.2016.05.006,null,J
 2016,IST,"Feature dependencies as change propagators: An exploratory study of software product lines.",PUC-Rio; UFMS; UFSJ,Bruno Barbieri Pontes Cafeo; Elder Cirilo; Alessandro Garcia; Francisco Dantas; Jaejoon Lee,https://doi.org/10.1016/j.infsof.2015.08.009,null,J
+2016,IST,"Full modification coverage through automatic similarity-based test case selection.",UFCG,Francisco Gomes de Oliveira Neto; Richard Torkar; Patrícia D. L. Machado,https://doi.org/10.1016/j.infsof.2016.08.008,null,J
 2016,IST,"GODA: A goal-oriented requirements engineering framework for runtime dependability analysis.",UNB,Danilo Filgueira Mendonça; Genaína Nunes Rodrigues; Raian Ali; Vander Alves; Luciano Baresi,https://doi.org/10.1016/j.infsof.2016.09.005,null,J
 2016,IST,"The effect of automatic concern mapping strategies on conceptual cohesion measurement.",UFBA,Bruno Carreiro da Silva; Cláudio Sant'Anna; Neylor Rocha; Christina Chavez,https://doi.org/10.1016/j.infsof.2016.03.006,null,J
 2016,IST,"Towards pragmatic interoperability to support collaboration: A systematic review and mapping of the literature.",UFJF,Frâncila Weidt Neiva; José Maria N. David; Regina M. M. Braga; Fernanda Campos,https://doi.org/10.1016/j.infsof.2015.12.013,null,J
@@ -140,11 +141,13 @@
 2016,SANER,"Do Developers Deprecate APIs with Replacement Messages? A Large-Scale Analysis on Java Systems.",UFMS; UFMG,Gleison Brito; André C. Hora; Marco Tulio Valente; Romain Robbes,https://doi.org/10.1109/SANER.2016.99,null,C
 2016,SANER,"Haskell in Green Land: Analyzing the Energy Behavior of a Purely Functional Language.",UFPE,Luis Gabriel Lima; Francisco Soares-Neto; Paulo Lieuthier; Fernando Castor; Gilberto Melfe; João Paulo Fernandes,https://doi.org/10.1109/SANER.2016.85,null,C
 2016,SANER,"More Common Than You Think: An In-depth Study of Casual Contributors.",UFPA; UTFPR,Gustavo Pinto 0001; Igor Steinmacher; Marco Aurélio Gerosa,https://doi.org/10.1109/SANER.2016.68,null,C
+2016,SCP,"A family of test selection criteria for Timed Input-Output Symbolic Transition System models.",UFCG,Alan Moraes; Wilkerson de L. Andrade; Patrícia D. L. Machado,https://doi.org/10.1016/j.scico.2016.05.004,null,J
 2016,SCP,"Avoiding code pitfalls in Aspect-Oriented Programming.",UFMG; UFSCAR,Adriano Lages dos Santos; Péricles Alves; Eduardo Figueiredo; Fabiano Cutigi Ferrari,https://doi.org/10.1016/j.scico.2015.12.003,null,J
 2016,SPE,"Efficient image-aware version control systems using GPU.",UFF,José Ricardo da S. Junior; Esteban Clua; Leonardo Murta,https://doi.org/10.1002/spe.2340,null,J
 2016,SPLC,"Partially safe evolution of software product lines.",UFPE,Gabriela Sampaio; Paulo Borba; Leopoldo Teixeira,http://doi.acm.org/10.1145/2934466.2934482,null,C
 2016,SPLC,"Product-line maintenance with emergent contract interfaces.",UFAL,Thomas Thüm; Márcio Ribeiro; Reimar Schröter; Janet Siegmund; Francisco Dalton,http://doi.acm.org/10.1145/2934466.2934471,null,C
 2016,SPLC,"RiPLE-HC: javascript systems meets spl composition.",UFBA,Alcemir Rodrigues Santos; Ivan do Carmo Machado; Eduardo Santana de Almeida,http://doi.acm.org/10.1145/2934466.2934486,null,C
+2016,SQJ,"Analysis of distance functions for similarity-based test suite reduction in the context of model-based testing.",UFCG,Ana Emília Victor Barbosa Coutinho; Emanuela Gadelha Cartaxo; Patrícia Duarte de Lima Machado,https://doi.org/10.1007/s11219-014-9265-z,null,J
 2016,TSE,"Enforcing Exception Handling Policies with a Domain-Specific Language.",PUC-Rio,Eiji Adachi Barbosa; Alessandro F. Garcia; Martin P. Robillard; Benjamin Jakobus,https://doi.org/10.1109/TSE.2015.2506164,top,J
 2016,TSE,"The Role of Ethnographic Studies in Empirical Software Engineering.",UFPA,Helen Sharp; Yvonne Dittrich; Cleidson R. B. de Souza,https://doi.org/10.1109/TSE.2016.2519887,top,J
 2015,ASE,"Static Analysis of Implicit Control Flow: Resolving Java Reflection and Android Intents (T).",UFPE,Paulo Barros; René Just; Suzanne Millstein; Paul Vines; Werner Dietl; Marcelo d'Amorim; Michael D. Ernst,https://doi.org/10.1109/ASE.2015.69,null,C
@@ -191,6 +194,7 @@
 2015,SPLC,"A product line of theories for reasoning about safe evolution of product lines.",UFPE; UFCG; UNB,Leopoldo Teixeira; Vander Alves; Paulo Borba; Rohit Gheyi,http://doi.acm.org/10.1145/2791060.2791105,null,C
 2015,SPLC,"Defining metric thresholds for software product lines: a comparative study.",PUC-Rio; UFMG,Gustavo Vale; Danyllo Albuquerque; Eduardo Figueiredo; Alessandro F. Garcia,http://doi.acm.org/10.1145/2791060.2791078,null,C
 2015,SPLC,"Faster bug detection for software product lines with incomplete feature models.",UFPE,Sabrina Souto; Divya Gopinath; Marcelo d'Amorim; Darko Marinov; Sarfraz Khurshid; Don S. Batory,http://doi.acm.org/10.1145/2791060.2791093,null,C
+2015,SQJ,"Automating test-based inspection of design models.",UFCG,Anne Caroline O. Rocha; Franklin Ramalho; Patrícia D. L. Machado,https://doi.org/10.1007/s11219-013-9219-x,null,J
 2015,SQJ,"Fault domain-based testing in imperfect situations: a heuristic approach and case studies.",ICMC/USP,Fevzi Belli; Mutlu Beyazit; André Takeshi Endo; Aditya P. Mathur; Adenilso da Silva Simão,https://doi.org/10.1007/s11219-014-9242-6,null,J
 2015,SoSyM,"Evaluating the effort of composing design models: a controlled experiment.",PUC-Rio; UFBA,Kleinner Farias; Alessandro F. Garcia; Jon Whittle; Christina von Flach Garcia Chavez; Carlos Lucena,https://doi.org/10.1007/s10270-014-0408-2,null,J
 2014,EMSE,"An empirically based terminology and taxonomy for global software engineering.",PUCRS,Darja Smite; Claes Wohlin; Zane Galvina; Rafael Prikladnicki,https://doi.org/10.1007/s10664-012-9217-9,null,J
@@ -234,6 +238,7 @@
 2014,SPE,"Heuristic expansion of feature mappings in evolving program families.",PUC-Rio,Camila Nunes; Alessandro F. Garcia; Carlos José Pereira de Lucena; Jaejoon Lee,https://doi.org/10.1002/spe.2200,null,J
 2014,SPLC,"A survey on software variability management approaches.",UFBA,Karina Villela; Adeline Silva; Tassio Vale; Eduardo Santana de Almeida,http://doi.acm.org/10.1145/2648511.2648527,null,C
 2014,SPLC,"Preference-based feature model configuration with multiple stakeholders.",UFSJ; UFRGS,Jacob Stein; Ingrid Nunes; Elder Cirilo,http://doi.acm.org/10.1145/2648511.2648525,null,C
+2014,SoSyM,"Automatic generation of built-in contract test drivers.",UFCG,Everton L. G. Alves; Patrícia D. L. Machado; Franklin Ramalho,https://doi.org/10.1007/s10270-012-0282-8,null,J
 2014,SoSyM,"Effects of stability on model composition effort: an exploratory study.",PUC-Rio,Kleinner Farias; Alessandro F. Garcia; Carlos José Pereira de Lucena,https://doi.org/10.1007/s10270-012-0308-2,null,J
 2014,TSE,"Supporting the Combined Selection of Model-Based Testing Techniques.",UFAM; COPPE/UFRJ,Arilo Claudio Dias-Neto; Guilherme Horta Travassos,https://doi.org/10.1109/TSE.2014.2312915,top,J
 2013,ASE,"Entropy-based test generation for improved fault localization.",UFPE,José Campos; Rui Abreu; Gordon Fraser; Marcelo d'Amorim,https://doi.org/10.1109/ASE.2013.6693085,null,C
@@ -268,3 +273,4 @@
 2013,SQJ,"Static correspondence and correlation between field defects and warnings reported by a bug finding tool.",UFMG,Cesar Couto; João Eduardo Montandon; Christofer Silva; Marco Tulio Valente,https://doi.org/10.1007/s11219-011-9172-5,null,J
 2013,SQJ,"The bug report duplication problem: an exploratory study.",UFBA,Yguaratã Cerqueira Cavalcanti; Paulo Anselmo da Mota Silveira Neto; Daniel Lucrédio; Tassio Vale; Eduardo Santana de Almeida; Silvio Romero de Lemos Meira,https://doi.org/10.1007/s11219-011-9164-5,null,J
 2013,TSE,"Automated Behavioral Testing of Refactoring Engines.",UFCG,Gustavo Soares; Rohit Gheyi; Tiago Massoni,https://doi.org/10.1109/TSE.2012.19,top,J
+2013,TSE,"Generating Test Cases for Real-Time Systems Based on Symbolic Models.",UFCG,Wilkerson de L. Andrade; Patrícia D. L. Machado,https://doi.org/10.1109/TSE.2013.13,top,J
