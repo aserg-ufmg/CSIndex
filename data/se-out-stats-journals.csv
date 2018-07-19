@@ -1,11 +1,11 @@
-IEEE TSE,IEEE CS,57,52,top
-ACM TOSEM,ACM,12,28,top
-EMSE,Springer,84,37,
-IST,Elsevier,102,30,
-SQJ,Springer,38,26,
-JSEP,Wiley,0,23,
-ASEJ,Springer,24,0,
-SoSyM,Springer,47,31,
-SPE,Wiley,88,26,
-JSS,Elsevier,200,51,
-IEEE Software,IEEE CS,0,38,magazine
+IEEE TSE,IEEE CS,57,52,top,10
+ACM TOSEM,ACM,12,28,top,10
+EMSE,Springer,84,37,,10
+IST,Elsevier,102,30,,10
+SQJ,Springer,38,26,,10
+JSEP,Wiley,0,23,,10
+ASEJ,Springer,24,0,,10
+SoSyM,Springer,47,31,,10
+SPE,Wiley,88,26,,10
+JSS,Elsevier,200,51,,10
+IEEE Software,IEEE CS,0,38,magazine,6
