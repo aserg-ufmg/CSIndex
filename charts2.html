@@ -296,8 +296,6 @@
 		  });
 		}
 		
-		
-		
 		function drawTableStatsJournals() {
 		  $.get(corebr_stats_journals_file, function(csvString) {
 		  var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
@@ -324,6 +322,7 @@
                },4,5]); 
           
           var table2= view.toDataTable(); 
+          table2.sort({column: 0, desc: false});
           
           var formatter5 = new google.visualization.ColorFormat();
           formatter5.addRange(0, 0.25, 'black', 'LemonChiffon');
