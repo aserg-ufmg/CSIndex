@@ -16,15 +16,15 @@ import os
 
 ## constants
 
-FIRST_YEAR= 2013
-LAST_YEAR= 2018
+FIRST_YEAR = 2013
+LAST_YEAR = 2018
 
 #################################################
 
 # black-list are papers that must not be counted (e.g., in invalid tracks)
 # white-list are papers that must be counted (e.g. with missing page numbers)
-black_list= {}
-white_list= {}
+black_list = {}
+white_list = {}
 
 def init_black_white_lists():
    global black_list, white_list
@@ -44,12 +44,12 @@ def init_black_white_lists():
 def paperSize(dblp_pages):
   page= re.split(r"-|:", dblp_pages)
   if len(page) == 2:
-     p1= page[0]
-     p2= page[1]
+     p1 = page[0]
+     p2 = page[1]
      return int(p2) - int(p1) + 1
   elif (len(page) == 4):
-     p1= page[1]
-     p2= page[3]
+     p1 = page[1]
+     p2 = page[3]
      return int(p2) - int(p1) + 1
   else:
      return 0
@@ -74,17 +74,17 @@ def output_venues():
   result2 = sorted([(c, journals.count(c)) for c in journallist], key=lambda x: x[1], reverse=True)
 
   for c in result1:
-    f1.write(c[0]);
-    f1.write(',')
-    f1.write(str(c[1]));
-    f1.write('\n')
+      f1.write(c[0]);
+      f1.write(',')
+      f1.write(str(c[1]));
+      f1.write('\n')
   f1.close()
   
   for j in result2:
-    f2.write(j[0]);
-    f2.write(',')
-    f2.write(str(j[1]));
-    f2.write('\n')
+      f2.write(j[0]);
+      f2.write(',')
+      f2.write(str(j[1]));
+      f2.write('\n')
   f2.close()
 
 def output_papers():
@@ -97,27 +97,27 @@ def output_papers():
   
   f = open(area_prefix + '-out-papers.csv','w')
   for i in range(0, len(sorted_papers)):
-    paper= sorted_papers[i][1]
-    f.write(str(paper[0]))
-    f.write(',')
-    f.write(str(paper[1]))
-    f.write(',')
-    f.write(str(paper[2].encode('utf-8')))
-    f.write(',')
-    f.write(str(paper[3]))
-    f.write(',')
-    authors= paper[4]
-    for author in authors[:-1]:
-      f.write(str(author.encode('utf-8')))
-      f.write('; ')
-    f.write(str(authors[-1].encode('utf-8')))
-    f.write(',')
-    f.write(str(paper[5]))
-    f.write(',')
-    f.write(str(paper[6]))
-    f.write(',')
-    f.write(str(paper[7]))
-    f.write('\n')
+      paper = sorted_papers[i][1]
+      f.write(str(paper[0]))
+      f.write(',')
+      f.write(str(paper[1]))
+      f.write(',')
+      f.write(str(paper[2].encode('utf-8')))
+      f.write(',')
+      f.write(str(paper[3]))
+      f.write(',')
+      authors= paper[4]
+      for author in authors[:-1]:
+          f.write(str(author.encode('utf-8')))
+          f.write('; ')
+      f.write(str(authors[-1].encode('utf-8')))
+      f.write(',')
+      f.write(str(paper[5]))
+      f.write(',')
+      f.write(str(paper[6]))
+      f.write(',')
+      f.write(str(paper[7]))
+      f.write('\n')
   f.close()
 
 def output_scores():
@@ -125,9 +125,9 @@ def output_scores():
 
   final_score = {}
   for dept in score:
-    s= score[dept]
-    if (s > 0):
-       final_score[dept]= s
+      s = score[dept]
+      if (s > 0):
+         final_score[dept]= s
 
   sorted_scores_temp = sorted(final_score.items(), key=lambda x: x[0])
   sorted_scores = sorted(sorted_scores_temp, key=lambda x: x[1], reverse=True)
@@ -151,9 +151,9 @@ def output_profs():
 
   final_profs = {}
   for dept in profs:
-    s = profs[dept]
-    if (s > 0):
-       final_profs[dept]= s
+      s = profs[dept]
+      if (s > 0):
+         final_profs[dept] = s
 
   sorted_profs_temp = sorted(final_profs.items(), key=lambda x: x[0])
   sorted_profs = sorted(sorted_profs_temp, key=lambda x: x[1], reverse=True)
@@ -205,25 +205,25 @@ def output_prof_papers(prof_name):
   prof_name = prof_name.replace(" ", "-")
   f = open("./profs/" + area_prefix + "-" + prof_name + '-papers.csv','w')
   for url in pid_papers:
-    paper= out[url]
-    f.write(str(paper[0]))
-    f.write(',')
-    f.write(str(paper[1]))
-    f.write(',')
-    f.write(str(paper[2].encode('utf-8')))
-    f.write(',')
-    authors= paper[4]
-    for author in authors[:-1]:
-      f.write(str(author.encode('utf-8')))
-      f.write('; ')
-    f.write(str(authors[-1].encode('utf-8')))
-    f.write(',')
-    f.write(str(paper[5]))
-    f.write(',')
-    f.write(str(paper[6]))
-    f.write(',')
-    f.write(str(paper[7]))
-    f.write('\n')
+      paper= out[url]
+      f.write(str(paper[0]))
+      f.write(',')
+      f.write(str(paper[1]))
+      f.write(',')
+      f.write(str(paper[2].encode('utf-8')))
+      f.write(',')
+      authors= paper[4]
+      for author in authors[:-1]:
+          f.write(str(author.encode('utf-8')))
+          f.write('; ')
+      f.write(str(authors[-1].encode('utf-8')))
+      f.write(',')
+      f.write(str(paper[5]))
+      f.write(',')
+      f.write(str(paper[6]))
+      f.write(',')
+      f.write(str(paper[7]))
+      f.write('\n')
   f.close()
 
 def merge_output_prof_papers(profname):
@@ -232,12 +232,12 @@ def merge_output_prof_papers(profname):
     filenames = []
     profname = profname.replace(" ", "-")
     for file in glob.glob("*" + profname + "-papers.csv"):
-      filenames.append(file)
-      # print file
+        filenames.append(file)
+        # print file
     outfile= open("./search/" + profname + ".csv", 'w')
     for fname in filenames:
         with open(fname) as infile:
-           outfile.write(infile.read())
+             outfile.write(infile.read())
     os.chdir("..")
 
 def generate_search_box_list():
@@ -250,8 +250,8 @@ def generate_search_box_list():
     profs.remove("empty")
     f = open("../all-authors.csv",'w')
     for p in profs:
-      f.write(p)
-      f.write('\n')
+        f.write(p)
+        f.write('\n')
     f.close()
 
 def output_pid_profs():
@@ -259,8 +259,8 @@ def output_pid_profs():
 
     f = open(area_prefix + "-" + 'out-profs-name.csv','w')
     for prof in pid_profs:
-      f.write(prof)
-      f.write('\n')
+        f.write(prof)
+        f.write('\n')
     f.close()
 
 
