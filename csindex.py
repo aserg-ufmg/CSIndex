@@ -43,7 +43,6 @@ def init_black_white_lists():
 
 def paperSize(dblp_pages):
   page= re.split(r"-|:", dblp_pages)
-  # print page
   if len(page) == 2:
      p1= page[0]
      p2= page[1]
@@ -57,23 +56,36 @@ def paperSize(dblp_pages):
 
 #################################################
 
-def output_conferences():
-  global out, conflist;
+def output_venues():
+  global out, conflist, journallist;
 
   confs = []
-  f = open(area_prefix + '-out-confs.csv','w')
+  journals = []
+  f1 = open(area_prefix + '-out-confs.csv','w')
+  f2 = open(area_prefix + '-out-journals.csv','w')
 
   for p in out.items():
-    confs.append(p[1][1])
+    if (p[1][7] == "C"):
+       confs.append(p[1][1])
+    else:
+       journals.append(p[1][1])
+       
+  result1 = sorted([(c, confs.count(c)) for c in conflist], key=lambda x: x[1], reverse=True)
+  result2 = sorted([(c, journals.count(c)) for c in journallist], key=lambda x: x[1], reverse=True)
 
-  result = sorted([(c, confs.count(c)) for c in conflist], key=lambda x: x[1], reverse=True)
-
-  for conf in result:
-    f.write(conf[0]);
-    f.write(',')
-    f.write(str(conf[1]));
-    f.write('\n')
-  f.close()
+  for c in result1:
+    f1.write(c[0]);
+    f1.write(',')
+    f1.write(str(c[1]));
+    f1.write('\n')
+  f1.close()
+  
+  for j in result2:
+    f2.write(j[0]);
+    f2.write(',')
+    f2.write(str(j[1]));
+    f2.write('\n')
+  f2.close()
 
 def output_papers():
   global out;
@@ -121,13 +133,17 @@ def output_scores():
   sorted_scores = sorted(sorted_scores_temp, key=lambda x: x[1], reverse=True)
 
   f2 = open(area_prefix + '-out-scores.csv','w')
+  
+  if (len(sorted_scores) >= 20):
+     sorted_scores = filter(lambda dept: dept[1] >= 1.2, sorted_scores)
+  
   for i in range(0, len(sorted_scores)):
-    dept= sorted_scores[i][0]
-    f2.write(str(dept))
-    f2.write(',')
-    s= sorted_scores[i][1]
-    f2.write(str(s))
-    f2.write('\n')
+      dept = sorted_scores[i][0]
+      f2.write(str(dept))
+      f2.write(',')
+      s = sorted_scores[i][1]
+      f2.write(str(s))
+      f2.write('\n')
   f2.close()
 
 def output_profs():
@@ -135,7 +151,7 @@ def output_profs():
 
   final_profs = {}
   for dept in profs:
-    s= profs[dept]
+    s = profs[dept]
     if (s > 0):
        final_profs[dept]= s
 
@@ -143,13 +159,17 @@ def output_profs():
   sorted_profs = sorted(sorted_profs_temp, key=lambda x: x[1], reverse=True)
 
   f3 = open(area_prefix + '-out-profs.csv','w')
+  
+  if (len(sorted_profs) >= 20):
+     sorted_profs = filter(lambda dept: dept[1] >= 2, sorted_profs)
+     
   for i in range(0, len(sorted_profs)):
-    dept= sorted_profs[i][0]
-    f3.write(str(dept))
-    f3.write(',')
-    s = sorted_profs[i][1]
-    f3.write(str(s))
-    f3.write('\n')
+      dept = sorted_profs[i][0]
+      f3.write(str(dept))
+      f3.write(',')
+      s = sorted_profs[i][1]
+      f3.write(str(s))
+      f3.write('\n')
   f3.close()
 
 
@@ -213,7 +233,7 @@ def merge_output_prof_papers(profname):
     profname = profname.replace(" ", "-")
     for file in glob.glob("*" + profname + "-papers.csv"):
       filenames.append(file)
-      print file
+      # print file
     outfile= open("./search/" + profname + ".csv", 'w')
     for fname in filenames:
         with open(fname) as infile:
@@ -227,7 +247,6 @@ def generate_search_box_list():
         file= file.replace(".csv", "")
         file= file.replace("-", " ")
         profs.append(file)
-        # print "prof: " + file
     profs.remove("empty")
     f = open("../all-authors.csv",'w')
     for p in profs:
@@ -246,44 +265,48 @@ def output_pid_profs():
 
 
 def inc_score(weight):
-    if (weight == 1):
+    if (weight == 1) or (weight == 4):
        return 1.0
     elif (weight == 2):
        return 0.66
     elif (weight == 3):
        return 0.33
+    elif (weight == 5):
+       return 0.4   
+    else: 
+       return 0.0   
 
 
-def parse_dblp_xml(_, dblp_xml):
+def parse_dblp(_, dblp):
     global min_paper_size, department, found_paper, black_list
 
-    if 'journal' in dblp_xml:
-        if (dblp_xml['journal'] == "PACMPL") or (dblp_xml['journal'] == "PACMHCI"):
-           conf_name_dblp= dblp_xml['number']
+    if 'journal' in dblp:
+        if (dblp['journal'] == "PACMPL") or (dblp['journal'] == "PACMHCI"):
+           dblp_venue = dblp['number']
         else:
-           return True
-    elif 'booktitle' in dblp_xml:
-           conf_name_dblp= dblp_xml['booktitle']
+           dblp_venue = dblp['journal']
+    elif 'booktitle' in dblp:
+           dblp_venue = dblp['booktitle']
     else:
         return True
 
-    year = int(dblp_xml['year'])
+    year = int(dblp['year'])
 
-    if ((year >= FIRST_YEAR) and (year <= LAST_YEAR)) and (conf_name_dblp in confdata):
+    if ((year >= FIRST_YEAR) and (year <= LAST_YEAR)) and (dblp_venue in confdata):
 
-        conf_name, conf_weight = confdata[conf_name_dblp]
-        url = dblp_xml['url']
+        venue, weight = confdata[dblp_venue]
+        url = dblp['url']
 
         if (year == 2018):
            print '\033[94m' + '*** 2018 *** '+ '\033[0m' + url
 
-        dblp_pages = "null"
+        pages = "null"
         
         if url in white_list:
             size = 10
-        elif 'pages' in dblp_xml:
-            dblp_pages = dblp_xml['pages']
-            size = paperSize(dblp_pages)
+        elif 'pages' in dblp:
+            pages = dblp['pages']
+            size = paperSize(pages)
         else:
             size = 0
 
@@ -304,36 +327,42 @@ def parse_dblp_xml(_, dblp_xml):
                    paper2= (paper[0], paper[1], paper[2], paper[3] + "; " + department,
                             paper[4], paper[5], paper[6], paper[7])
                    out[url] = paper2
-                   score[department] += inc_score(conf_weight)
+                   score[department] += inc_score(weight)
                 return True
 
-            title = dblp_xml['title']
+            title = dblp['title']
             if type(title) is collections.OrderedDict:
                title = title["#text"]
             title = title.replace("\"", "")  # remove quotes in titles
 
-            print conf_name + ' ' + str(year) + ': '+ title
+            # print '     ' + venue + ' ' + str(year) + ': '+ title
+            print '      ' + venue + ' ' + str(year)
         
-            doi = dblp_xml['ee']
+            doi = dblp['ee']
             if type(doi) is list:
                doi = doi[0]
             elif type(doi) is collections.OrderedDict:
                doi = doi["#text"]
             
-            if (conf_weight == 1):
-               conf_tag = "top"
+            if (weight == 1) or (weight == 4):
+               tier = "top"
             else:
-               conf_tag = "null"
+               tier = "null"
 
-            authorList = dblp_xml['author']
+            if (weight <= 3):
+               vtype = "C"
+            else:
+               vtype = "J"
+
+            authorList = dblp['author']
             authors = []
             for authorName in authorList:
                 if type(authorName) is collections.OrderedDict:
                     authorName = authorName["#text"]
                 authors.append(authorName)
 
-            out[url] = (year, conf_name, '"' + title + '"', department, authors, doi, conf_tag, "C")
-            score[department] += inc_score(conf_weight)
+            out[url] = (year, venue, '"' + title + '"', department, authors, doi, tier, vtype)
+            score[department] += inc_score(weight)
 
     return True
 
@@ -360,11 +389,16 @@ print "Minimun paper size: " + str(min_paper_size)
 reader1 = csv.reader(open(confs_file_name, 'r'))
 confdata = {}
 conflist = []
+journallist = []
 for conf_row in reader1:
   conf_dblp, conf_name, conf_weight = conf_row
   confdata[conf_dblp]= conf_name, int(conf_weight)
-  conflist.append(conf_name)
+  if (int(conf_weight) <= 3):
+     conflist.append(conf_name)
+  else:
+     journallist.append(conf_name)
 conflist = list(set(conflist))  # removing duplicates
+journallist = list(set(journallist))  # removing duplicates
 
 out = {}
 score = {}
@@ -395,7 +429,7 @@ for researcher in reader2:
     bibfile = urllib2.urlopen(url).read()
 
     pid_papers = []
-    bibdata = xmltodict.parse(bibfile, item_depth=3, item_callback=parse_dblp_xml)
+    bibdata = xmltodict.parse(bibfile, item_depth=3, item_callback=parse_dblp)
 
     if found_paper:
        profs[department] += 1
@@ -410,6 +444,6 @@ for researcher in reader2:
 output_papers()
 output_scores()
 output_profs()
-output_conferences()
+output_venues()
 
 generate_search_box_list()
