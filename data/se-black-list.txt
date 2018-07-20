@@ -6,8 +6,5 @@ db/conf/wcre/saner2018.html#SilvaPM18
 db/conf/wcre/saner2018.html#0001WD18
 db/journals/scp/scp92.html#BragaSS14
 db/journals/scp/scp80.html#RimsadPB14
-db/journals/scp/scp96.html#GuizzardiZ14
 db/journals/scp/scp135.html#FonsecaBF17
-db/journals/sosym/sosym14.html#FrancaNCSBP15
-db/journals/sosym/sosym17.html#CarvalhoA18
 db/journals/jss/jss86.html#KuleszaSCCBLMSFACFPDPSCBLLMBBCSSSVACRPR13
