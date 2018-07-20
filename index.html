@@ -39,7 +39,7 @@
              var corebr_area_prefix = $("input[type=radio][name=research_area_btn]:checked").val();
              sessionStorage.setItem('corebr_area_prefix', corebr_area_prefix);
              document.getElementById('charts-frame').contentWindow.location.reload(true);
-             if (corebr_area_prefix === "se") {
+             if ((corebr_area_prefix === "se") || (corebr_area_prefix === "pl")) {
                 document.getElementById('charts-frame').contentWindow.location.replace("charts2.html");
              } else {
                 document.getElementById('charts-frame').contentWindow.location.replace("charts.html");
@@ -127,7 +127,7 @@ You can also follow us on <a href="https://twitter.com/csindexbr">Twitter</a> or
 </div>
 
 <div class="radio">
-<label><input type="radio" name="research_area_btn" value="pl"> Programming Languages</label>
+<label><input type="radio" name="research_area_btn" value="pl"> Programming Languages <small>(*)</small></label>
 </div>
 
 <div class="radio">

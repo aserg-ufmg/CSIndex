@@ -6,3 +6,4 @@
 2013,HiPC,"Cache-based cross-iteration coherence for speculative parallelization.",Andre Baixo; João Paulo Porto; Guido Araujo,https://doi.org/10.1109/HiPC.2013.6799113,null,C
 2013,HiPC,"Transaction scheduling using conflict avoidance and Contention Intensity.",Marcio Machado Pereira; Alexandro Baldassin; Guido Araujo; Luiz Eduardo Buzato,https://doi.org/10.1109/HiPC.2013.6799126,null,C
 2015,PPoPP,"Performance implications of dynamic memory allocators on transactional memory systems.",Alexandro Baldassin; Edson Borin; Guido Araujo,http://doi.acm.org/10.1145/2688500.2688504,null,C
+2013,SPE,"Extending decoupled software pipeline to parallelize Java programs.",André Loureiro; João Paulo Porto; Guido Araujo,https://doi.org/10.1002/spe.2120,null,J
