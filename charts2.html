@@ -307,7 +307,7 @@
 		  data.addColumn('string', 'Rank'); // 4
 		  data.addColumn('number', 'Pages'); // 5
 		  data.addRows(arrayData);
-		 		
+		  		
 		  var table = new google.visualization.Table(document.getElementById('chart_stats_journals'));
 		  
 		  var view = new google.visualization.DataView(data); 
@@ -322,7 +322,7 @@
                },4,5]); 
           
           var table2= view.toDataTable(); 
-          table2.sort({column: 0, desc: false});
+          table2.sort({column: 3, desc: true});
           
           var formatter5 = new google.visualization.ColorFormat();
           formatter5.addRange(0, 0.25, 'black', 'LemonChiffon');
