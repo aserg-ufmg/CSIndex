@@ -21,7 +21,7 @@ def paperSize(dblp_pages):
      return 0
      
 def handle_article(_, article):
-    
+       
     if ('booktitle' in article):
        year= article['year']
     else:
@@ -36,17 +36,22 @@ def handle_article(_, article):
            size = paperSize(dblp_pages)
            print dblp_pages
            print size
+           
        authorList = article['author']
-       print len(authorList)
+       
+       #s = article['author']
+       #if isinstance(s, basestring):
+       #   print s
+       
        authors = []
        for authorName in authorList:
            if (type(authorName) is collections.OrderedDict):
-               authorName = authorName["#text"]
-               authors.append(authorName)
-               print authorName
+              authorName = authorName["#text"]
+              authors.append(authorName)
+              print authorName
            else:
-             print authorName    
-    return True
+              print authorName    
+       return True
     
     
 print '###########################################################'
