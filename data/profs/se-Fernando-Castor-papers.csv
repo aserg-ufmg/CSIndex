@@ -1,4 +1,5 @@
 2018,JSS,"Do android developers neglect error handling? a maintenance-Centric study on the relationship between android abstractions and uncaught exceptions.",Juliana Oliveira; Deise Borges; Thaisa Silva; Nélio Cacho; Fernando Castor,https://doi.org/10.1016/j.jss.2017.10.032,null,J
+2018,MSR,"How swift developers handle errors.",Nathan Cassee; Gustavo Pinto 0001; Fernando Castor; Alexander Serebrenik,http://doi.acm.org/10.1145/3196398.3196428,null,C
 2017,ASE,"Understanding and overcoming parallelism bottlenecks in ForkJoin applications.",Gustavo Pinto 0001; Anthony Canino; Fernando Castor; Guoqing (Harry) Xu; Yu David Liu,https://doi.org/10.1109/ASE.2017.8115687,null,C
 2017,MSR,"A study on the energy consumption of Android app development approaches.",Wellington Oliveira; Renato Oliveira; Fernando Castor,https://doi.org/10.1109/MSR.2017.66,null,C
 2016,ICSME,"A Comprehensive Study on the Energy Efficiency of Java's Thread-Safe Collections.",Gustavo Pinto 0001; Kenan Liu; Fernando Castor; Yu David Liu,https://doi.org/10.1109/ICSME.2016.34,null,C
