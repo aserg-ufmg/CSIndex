@@ -1,8 +1,11 @@
-# CSIndex Brasil: Exploring Brazilian Scientific Production in Computer Science
+# CSIndexbr: Exploring Brazilian Scientific Production in Computer Science
 
 # @author: Marco Tulio Valente - ASERG/DCC/UFMG
 
 # http://aserg.labsoft.dcc.ufmg.br
+
+# external dependencies:
+# xlmtodict: xml parser
 
 import xmltodict
 import csv
@@ -13,6 +16,8 @@ import sys
 import operator
 import glob
 import os
+
+from difflib import SequenceMatcher
 
 ## constants
 
@@ -38,7 +43,41 @@ def init_black_white_lists():
    if os.path.exists(white_list_file):
       with open(white_list_file) as wlf:
         white_list = wlf.read().splitlines()
+        
+#################################################
 
+def get_arxiv_url(title):
+   
+    try:
+      title = title[:-1]
+      ti = urllib2.quote('"' + title + '"')
+      url = "http://export.arxiv.org/api/query?search_query=ti:" + ti + "&start=0&max_results=1"
+    
+      arxiv_xml = urllib2.urlopen(url).read()
+    
+      arxiv = xmltodict.parse(arxiv_xml)    
+      arxiv = arxiv["feed"]
+    
+      nb_results = int(arxiv["opensearch:totalResults"]["#text"])
+    
+      if nb_results == 1:
+         arxiv = arxiv["entry"]
+         arxiv_title = arxiv["title"]
+        
+        # if arxiv_title.lower() == title.lower():
+
+         # score = fuzz.token_sort_ratio(arxiv_title.lower(), title.lower())
+         t1 = arxiv_title.lower()
+         t2 = title.lower()
+         score = SequenceMatcher(None, t1, t2).ratio()
+         if score >= 0.9:
+            arxiv_url = arxiv["id"] 
+            return arxiv_url
+    except:
+       print "arxiv fail"
+               
+    return "no_arxiv"       
+       
 #################################################
 
 def paperSize(dblp_pages):
@@ -62,8 +101,7 @@ def output_venues():
   confs = []
   journals = []
   f1 = open(area_prefix + '-out-confs.csv','w')
-  f2 = open(area_prefix + '-out-journals.csv','w')
-
+ 
   for p in out.items():
     if p[1][7] == "C":
        confs.append(p[1][1])
@@ -79,13 +117,16 @@ def output_venues():
       f1.write(str(c[1]));
       f1.write('\n')
   f1.close()
-  
-  for j in result2:
-      f2.write(j[0]);
-      f2.write(',')
-      f2.write(str(j[1]));
-      f2.write('\n')
-  f2.close()
+ 
+  if len(result2) > 0:
+     f2 = open(area_prefix + '-out-journals.csv','w') 
+     for j in result2:
+         f2.write(j[0]);
+         f2.write(',')
+         f2.write(str(j[1]));
+         f2.write('\n')
+     f2.close()
+
 
 def output_papers():
   global out;
@@ -117,8 +158,11 @@ def output_papers():
       f.write(str(paper[6]))
       f.write(',')
       f.write(str(paper[7]))
+      f.write(',')
+      f.write(str(paper[8]))
       f.write('\n')
   f.close()
+
 
 def output_scores():
   global score
@@ -145,6 +189,7 @@ def output_scores():
       f2.write(str(s))
       f2.write('\n')
   f2.close()
+
 
 def output_profs():
   global profs
@@ -224,6 +269,8 @@ def output_prof_papers(prof_name):
       f.write(',')
       f.write(str(paper[7]))
       f.write('\n')
+      #f.write(str(paper[8]))
+      #f.write('\n')
   f.close()
 
 
@@ -335,7 +382,7 @@ def parse_dblp(_, dblp):
                 if (paper[3].find(department) == -1):
                    # but this author is from another department
                    paper2= (paper[0], paper[1], paper[2], paper[3] + "; " + department,
-                            paper[4], paper[5], paper[6], paper[7])
+                            paper[4], paper[5], paper[6], paper[7], paper[8])
                    out[url] = paper2
                    score[department] += inc_score(weight)
                 return True
@@ -345,8 +392,8 @@ def parse_dblp(_, dblp):
                title = title["#text"]
             title = title.replace("\"", "")  # remove quotes in titles
 
-            # print '     ' + venue + ' ' + str(year) + ': '+ title
-            print '      ' + venue + ' ' + str(year)
+            print '     ' + venue + ' ' + str(year) + ': '+ title
+            #print '      ' + venue + ' ' + str(year) + ' ' + url
         
             doi = dblp['ee']
             if type(doi) is list:
@@ -364,14 +411,21 @@ def parse_dblp(_, dblp):
             else:
                venue_type = "J"
 
+            #new_a = dblp['author']
+            
             authorList = dblp['author']
             authors = []
-            for authorName in authorList:
-                if type(authorName) is collections.OrderedDict:
-                    authorName = authorName["#text"]
-                authors.append(authorName)
+            if isinstance(authorList, basestring):   # single author paper
+               authors.append(authorList)
+            else:               
+               for authorName in authorList:
+                   if type(authorName) is collections.OrderedDict:
+                      authorName = authorName["#text"]
+                   authors.append(authorName)
 
-            out[url] = (year, venue, '"' + title + '"', department, authors, doi, tier, venue_type)
+            arxiv = get_arxiv_url(title)
+            out[url] = (year, venue, '"' + title + '"', department, authors, doi, 
+                        tier, venue_type, arxiv)
             score[department] += inc_score(weight)
 
     return True
