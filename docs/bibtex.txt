@@ -1,0 +1,7 @@
+@article{csindexbr,
+  author    = {Marco Tulio Valente and Klerisson Paixao},
+  title     = {{CSIndexbr}:  Exploring the {Brazilian} Scientific Production in {Computer Science}},
+  journal   = {arXiv},
+  volume    = {abs/1807.09266},
+  year      = {2018}
+}
