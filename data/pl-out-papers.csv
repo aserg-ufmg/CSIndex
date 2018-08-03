@@ -7,6 +7,7 @@
 2017,OOPSLA,"Evaluating and improving semistructured merge.",UFPE,Guilherme Cavalcanti; Paulo Borba; Paola R. G. Accioly,http://doi.acm.org/10.1145/3133883,null,C,no_arxiv
 2017,OOPSLA,"Static placement of computation on heterogeneous devices.",UFMG,Gabriel Poesia; Breno Campos Ferreira Guimarães; Fabricio Ferracioli; Fernando Magno Quintão Pereira,http://doi.acm.org/10.1145/3133874,null,C,no_arxiv
 2017,PPoPP,"Function Call Re-Vectorization.",UFMG,Rubens E. A. Moreira; Sylvain Collange; Fernando Magno Quintão Pereira,http://dl.acm.org/citation.cfm?id=3018751,null,C,no_arxiv
+2017,TACO,"DawnCC: Automatic Annotation for Data Parallelism and Offloading.",UFMG; UNICAMP,Gleison Souza Diniz Mendonca; Breno Campos Ferreira Guimarães; Péricles Alves; Marcio Machado Pereira; Guido Araujo; Fernando Magno Quintão Pereira,http://doi.acm.org/10.1145/3084540,null,J,no_arxiv
 2016,CGO,"Inference of peak density of indirect branches to detect ROP attacks.",UFMG,Mateus Tymburibá; Rubens E. A. Moreira; Fernando Magno Quintão Pereira,http://doi.acm.org/10.1145/2854038.2854049,null,C,no_arxiv
 2016,CGO,"Symbolic range analysis of pointers.",UFMG,Vitor Paisante; Maroua Maalej; Leonardo Barbosa; Laure Gonnord; Fernando Magno Quintão Pereira,http://doi.acm.org/10.1145/2854038.2854050,null,C,no_arxiv
 2016,GPCE,"A change-centric approach to compile configurable systems with #ifdefs.",UFPE; UFAL; UFCG,Larissa Braz; Rohit Gheyi; Melina Mongiovi; Márcio Ribeiro; Flávio Medeiros; Leopoldo Teixeira,http://doi.acm.org/10.1145/2993236.2993250,null,C,no_arxiv
