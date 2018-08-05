@@ -1,30 +1,59 @@
 areas=$(wc -l research-areas-config.csv | awk '{print $1}')
 
 confs=$(wc -l  *-out-confs.csv | awk '/total$/{print $1}')
+journals=$(cat *-out-journals.csv | awk -F, '{print $1}' | sort | uniq -c | awk '{print $2}' | wc -l)
+
 confs2=$(cat *-out-confs.csv | awk -F, '$2 > 0 {print $1}' | wc -l)
+journals2=$(cat *-out-journals.csv | awk -F, ' $2 > 0 {print $1}' | sort | uniq -c | awk '{print $2}' | wc -l)
+
 papers=$(wc -l  *-out-papers.csv | awk '/total$/{print $1}')
-paperstop=$(cat *-out-papers.csv | awk -F, ' /top$/ {print $7}' | wc -l)
+
+cat *-out-papers.csv > allpapers.csv
+papersConf=$(python ../getcol.py allpapers.csv 7 | awk '/C/ { print $1 }' | wc -l)
+papersJournal=$(python ../getcol.py allpapers.csv 7 | awk '/J/ { print $1 }' | wc -l)
+paperstop=$(python ../getcol.py allpapers.csv 6 | awk '/top/ { print $1 }' | wc -l)
+papers_arxiv=$(python ../getcol.py allpapers.csv 8 | awk '/arxiv.org/ { print $1 }' | wc -l)
+
 
 allauthors=$(cat *-researchers.csv | awk -F, '{print $3}' | sort | uniq | wc -l)
 authors=$(wc -l profs/all-authors.csv | awk '{print $1}')
 
-highestconf=$(cat *-out-confs.csv | awk -F, -v max=0 '{if($2>max){conf=$1; max=$2}}END{print conf, max}')
+papers13=$(cat allpapers.csv | awk -F, '/^2013/ {print $1}' | wc -l)
+papers14=$(cat allpapers.csv | awk -F, '/^2014/ {print $1}' | wc -l)
+papers15=$(cat allpapers.csv | awk -F, '/^2015/ {print $1}' | wc -l)
+papers16=$(cat allpapers.csv | awk -F, '/^2016/ {print $1}' | wc -l)
+papers17=$(cat allpapers.csv | awk -F, '/^2017/ {print $1}' | wc -l)
+papers18=$(cat allpapers.csv | awk -F, '/^2018/ {print $1}' | wc -l)
 
-papers13=$(cat *-out-papers.csv | awk -F, '/^2013/ {print $1}' | wc -l)
-papers14=$(cat *-out-papers.csv | awk -F, '/^2014/ {print $1}' | wc -l)
-papers15=$(cat *-out-papers.csv | awk -F, '/^2015/ {print $1}' | wc -l)
-papers16=$(cat *-out-papers.csv | awk -F, '/^2016/ {print $1}' | wc -l)
-papers17=$(cat *-out-papers.csv | awk -F, '/^2017/ {print $1}' | wc -l)
-papers18=$(cat *-out-papers.csv | awk -F, '/^2018/ {print $1}' | wc -l)
+top13=$(python ../get2col.py allpapers.csv 0 6 | awk '/^2013/ && /top$/ {print $2}' | wc -l)
+top14=$(python ../get2col.py allpapers.csv 0 6 | awk '/^2014/ && /top$/ {print $2}' | wc -l)
+top15=$(python ../get2col.py allpapers.csv 0 6 | awk '/^2015/ && /top$/ {print $2}' | wc -l)
+top16=$(python ../get2col.py allpapers.csv 0 6 | awk '/^2016/ && /top$/ {print $2}' | wc -l)
+top17=$(python ../get2col.py allpapers.csv 0 6 | awk '/^2017/ && /top$/ {print $2}' | wc -l)
+top18=$(python ../get2col.py allpapers.csv 0 6 | awk '/^2018/ && /top$/ {print $2}' | wc -l)
 
-top13=$(cat *-out-papers.csv | awk -F, ' /^2013/ && /top$/ {print $7}' | wc -l)
-top14=$(cat *-out-papers.csv | awk -F, ' /^2014/ && /top$/ {print $7}' | wc -l)
-top15=$(cat *-out-papers.csv | awk -F, ' /^2015/ && /top$/ {print $7}' | wc -l)
-top16=$(cat *-out-papers.csv | awk -F, ' /^2016/ && /top$/ {print $7}' | wc -l)
-top17=$(cat *-out-papers.csv | awk -F, ' /^2017/ && /top$/ {print $7}' | wc -l)
-top18=$(cat *-out-papers.csv | awk -F, ' /^2018/ && /top$/ {print $7}' | wc -l)
+python ../get2col.py se-out-papers.csv 6 7 > temp.csv
+papers_se=$(wc -l temp.csv | awk '{print $1}')
+papers_se_confs=$(cat temp.csv | awk '/C$/ { print $2 }' | wc -l)
+papers_se_journals=$(cat temp.csv | awk '/J$/ { print $2 }' | wc -l)
+papers_top_se=$(cat temp.csv | awk '/^top/ { print $1 }' | wc -l)
+rm temp.csv
 
-papers_se=$(wc -l se-out-papers.csv | awk '{print $1}')
+python ../get2col.py pl-out-papers.csv 6 7 > temp.csv
+papers_pl=$(wc -l temp.csv | awk '{print $1}')
+papers_pl_confs=$(cat temp.csv | awk '/C$/ { print $2 }' | wc -l)
+papers_pl_journals=$(cat temp.csv | awk '/J$/ { print $2 }' | wc -l)
+papers_top_pl=$(cat temp.csv | awk '/^top/ { print $1 }' | wc -l)
+rm temp.csv
+
+
+python ../get2col.py is-out-papers.csv 6 7 > temp.csv
+papers_is=$(wc -l temp.csv | awk '{print $1}')
+papers_is_confs=$(cat temp.csv | awk '/C$/ { print $2 }' | wc -l)
+papers_is_journals=$(cat temp.csv | awk '/J$/ { print $2 }' | wc -l)
+papers_top_is=$(cat temp.csv | awk '/^top/ { print $1 }' | wc -l)
+rm temp.csv
+
 papers_is=$(wc -l is-out-papers.csv | awk '{print $1}')
 papers_pl=$(wc -l pl-out-papers.csv | awk '{print $1}')
 papers_chi=$(wc -l chi-out-papers.csv | awk '{print $1}')
@@ -43,37 +72,47 @@ papers_vision=$(wc -l vision-out-papers.csv | awk '{print $1}')
 papers_robotics=$(wc -l robotics-out-papers.csv | awk '{print $1}')
 papers_cse=$(wc -l cse-out-papers.csv | awk '{print $1}')
 
-papers_top_se=$(cat se-out-papers.csv | awk -F, ' /top$/ {print $7}' | wc -l)
-papers_top_is=$(cat is-out-papers.csv | awk -F, ' /top$/ {print $7}' | wc -l)
-papers_top_pl=$(cat pl-out-papers.csv | awk -F, ' /top$/ {print $7}' | wc -l)
-papers_top_chi=$(cat chi-out-papers.csv | awk -F, ' /top$/ {print $7}' | wc -l)
-papers_top_net=$(cat net-out-papers.csv | awk -F, ' /top$/ {print $7}' | wc -l)
-papers_top_mobile=$(cat mobile-out-papers.csv | awk -F, ' /top$/ {print $7}' | wc -l)
-papers_top_ds=$(cat ds-out-papers.csv | awk -F, ' /top$/ {print $7}' | wc -l)
-papers_top_ir=$(cat ir-out-papers.csv | awk -F, ' /top$/ {print $7}' | wc -l)
-papers_top_data=$(cat data-out-papers.csv | awk -F, ' /top$/ {print $7}' | wc -l)
-papers_top_ai=$(cat ai-out-papers.csv | awk -F, ' /top$/ {print $7}' | wc -l)
-papers_top_db=$(cat db-out-papers.csv | awk -F, ' /top$/ {print $7}' | wc -l)
-papers_top_arch=$(cat arch-out-papers.csv | awk -F, ' /top$/ {print $7}' | wc -l)
-papers_top_theory=$(cat theory-out-papers.csv | awk -F, ' /top$/ {print $7}' | wc -l)
-papers_top_formal=$(cat formal-out-papers.csv | awk -F, ' /top$/ {print $7}' | wc -l)
-papers_top_security=$(cat security-out-papers.csv | awk -F, ' /top$/ {print $7}' | wc -l)
-papers_top_vision=$(cat vision-out-papers.csv | awk -F, ' /top$/ {print $7}' | wc -l)
-papers_top_robotics=$(cat robotics-out-papers.csv | awk -F, ' /top$/ {print $7}' | wc -l)
-papers_top_cse=$(cat cse-out-papers.csv | awk -F, ' /top$/ {print $7}' | wc -l)
+#papers_top_se=$(python ../getcol.py se-out-papers.csv 6 | awk ' /top$/ {print $1}' | wc -l)
+papers_top_is=$(python ../getcol.py is-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
+papers_top_pl=$(python ../getcol.py pl-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
+papers_top_chi=$(python ../getcol.py chi-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
+papers_top_net=$(python ../getcol.py net-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
+papers_top_mobile=$(python ../getcol.py mobile-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
+papers_top_ds=$(python ../getcol.py ds-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
+papers_top_ir=$(python ../getcol.py ir-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
+papers_top_data=$(python ../getcol.py data-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
+papers_top_ai=$(python ../getcol.py ai-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
+papers_top_db=$(python ../getcol.py db-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
+papers_top_arch=$(python ../getcol.py arch-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
+papers_top_theory=$(python ../getcol.py theory-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
+papers_top_formal=$(python ../getcol.py formal-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
+papers_top_security=$(python ../getcol.py security-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
+papers_top_vision=$(python ../getcol.py vision-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
+papers_top_robotics=$(python ../getcol.py robotics-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
+papers_top_cse=$(python ../getcol.py cse-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
 
+
+rm allpapers.csv
 
 today=$(date)
 
 echo '<ul>'
 echo '<li> Research areas:' $areas
 echo '<li> Conferences:' $confs
-echo '<li> Conferences with papers by Brazilian faculty members:' $confs2
-echo '<li> Brazilian faculty members:' $allauthors
-echo '<li> Brazilian faculty members with papers:' $authors 
+echo '<li> Conferences with papers by Brazilian professors:' $confs2
+echo '<li> Journals:' $journals
+echo '<li> Journals with papers by Brazilian professors:' $journals2
+
+echo '<li> Brazilian professors:' $allauthors
+echo '<li> Brazilian professors with papers:' $authors 
+
 echo '<li> Papers:' $papers
-echo '<li> Papers in top-conferences:' $paperstop
-echo '<li> Papers per year (all papers / papers in top-conferences):'
+echo '<li> Papers in conferences:' $papersConf
+echo '<li> Papers in journals:' $papersJournal
+echo '<li> Papers in top venues:' $paperstop
+echo '<li> Papers with <a href="https://arxiv.org/">arXiv</a> preprints:' $papers_arxiv
+
+echo '<li> Papers per year (all papers / papers in top-venues):'
 echo '<ul>'
 echo '<li>2013:' $papers13 '/' $top13
 echo '<li>2014:' $papers14 '/' $top14
@@ -82,11 +121,16 @@ echo '<li>2016:' $papers16 '/' $top16
 echo '<li>2017:' $papers17 '/' $top17
 echo '<li>2018:' $papers18 '/' $top18
 echo '</ul>'
-echo '<li> Papers per research area (all papers / papers in top-conferences):'
+
+echo '<li> Papers per research area (all papers / papers in confs / papers in journals / papers in top-venues):'
 echo '<ul>'
-echo '<li>Software Engineering:' $papers_se '/' $papers_top_se
-echo '<li>Programming Languages:' $papers_pl '/' $papers_top_pl
-echo '<li>Information Systems:' $papers_is '/' $papers_top_is
+echo '<li>Software Engineering:' $papers_se '/' $papers_se_confs '/' $papers_se_journals '/' $papers_top_se
+echo '<li>Programming Languages:' $papers_pl '/' $papers_pl_confs '/' $papers_pl_journals '/' $papers_top_pl
+echo '<li>Information Systems:' $papers_is '/' $papers_is_confs '/' $papers_is_journals '/' $papers_top_is
+echo '</ul>'
+
+echo '<li> Papers per research area (all papers / papers in confs / papers in journals / papers in top-venues):'
+echo '<ul>'
 echo '<li>Human-Computer Interaction:' $papers_chi '/' $papers_top_chi
 echo '<li>Computer Networks:' $papers_net '/' $papers_top_net
 echo '<li>Mobile Computing:' $papers_mobile '/' $papers_top_mobile
@@ -104,26 +148,28 @@ echo '<li>Robotics:' $papers_robotics '/' $papers_top_robotics
 echo '<li>Computer Science Education:' $papers_cse '/' $papers_top_cse
 echo '</ul>'
 
-echo '<li> Papers per department:'
-echo '<ul>'
-
-cat *-out-papers.csv > allpapers.csv
-python ../getcol.py allpapers.csv 3 | awk '{for(i=1;i<=NF;i++) print $i}' | \
-     sed 's/;//' | sort | uniq -c | sort -r | head -n 15 | awk ' { print "<li>" $2 ": " $1 }'
-rm allpapers.csv
-
 echo '</ul>'
 
-echo '<li> Papers in top-conferences per department:'
-echo '<ul>'
+# echo '<li> Papers per department:'
+# echo '<ul>'
 
-cat *-out-papers.csv | awk -F, ' /top$/ {print $0}'  > allpapers.csv
-python ../getcol.py allpapers.csv 3 | awk '{for(i=1;i<=NF;i++) print $i}' | \
-     sed 's/;//' | sort | uniq -c | sort -r | head -n 15 | awk ' { print "<li>" $2 ": " $1 }'
-rm allpapers.csv
+# cat *-out-papers.csv > allpapers.csv
+# python ../getcol.py allpapers.csv 3 | awk '{for(i=1;i<=NF;i++) print $i}' | \
+#     sed 's/;//' | sort | uniq -c | sort -r | head -n 15 | awk ' { print "<li>" $2 ": " $1 }'
+# rm allpapers.csv
 
-echo '</ul>'
+# echo '</ul>'
 
-echo '</ul>'
+# echo '<li> Papers in top-conferences per department:'
+# echo '<ul>'
+
+# python ../get2col.py allpapers.csv 3 6 | awk ' /top$/ {print $1}'  > allpapers2.csv
+# cat allpapers2.csv | awk '{for(i=1;i<=NF;i++) print $i}' | \
+#     sed 's/;//' | sort | uniq -c | sort -r | head -n 15 | awk ' { print "<li>" $2 ": " $1 }'
+# rm allpapers.csv
+
+# echo '</ul>'
+
+# echo '</ul>'
 
 echo '<p><small>(last updated on' $today')</small></p>'
