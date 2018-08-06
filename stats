@@ -129,7 +129,7 @@ echo '<li>Programming Languages:' $papers_pl '/' $papers_pl_confs '/' $papers_pl
 echo '<li>Information Systems:' $papers_is '/' $papers_is_confs '/' $papers_is_journals '/' $papers_top_is
 echo '</ul>'
 
-echo '<li> Papers per research area (all papers / papers in confs / papers in journals / papers in top-venues):'
+echo '<li> Papers per research area (all papers / papers in top-conferences):'
 echo '<ul>'
 echo '<li>Human-Computer Interaction:' $papers_chi '/' $papers_top_chi
 echo '<li>Computer Networks:' $papers_net '/' $papers_top_net
