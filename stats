@@ -145,7 +145,7 @@ echo '<li>Security & Cryptography:' $papers_security '/' $papers_top_security
 echo '<li>Computer Vision:' $papers_vision '/' $papers_top_vision
 echo '<li>Formal Methods & Logic:' $papers_formal '/' $papers_top_formal
 echo '<li>Robotics:' $papers_robotics '/' $papers_top_robotics
-echo '<li>Computer Science Education:' $papers_cse '/' $papers_top_cse
+echo '<li>Computing Education:' $papers_cse '/' $papers_top_cse
 echo '</ul>'
 
 echo '</ul>'
