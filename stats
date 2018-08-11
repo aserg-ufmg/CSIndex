@@ -54,6 +54,13 @@ papers_is_journals=$(cat temp.csv | awk '/J$/ { print $2 }' | wc -l)
 papers_top_is=$(cat temp.csv | awk '/^top/ { print $1 }' | wc -l)
 rm temp.csv
 
+python ../get2col.py cse-out-papers.csv 6 7 > temp.csv
+papers_cse=$(wc -l temp.csv | awk '{print $1}')
+papers_cse_confs=$(cat temp.csv | awk '/C$/ { print $2 }' | wc -l)
+papers_cse_journals=$(cat temp.csv | awk '/J$/ { print $2 }' | wc -l)
+papers_top_cse=$(cat temp.csv | awk '/^top/ { print $1 }' | wc -l)
+rm temp.csv
+
 papers_is=$(wc -l is-out-papers.csv | awk '{print $1}')
 papers_pl=$(wc -l pl-out-papers.csv | awk '{print $1}')
 papers_chi=$(wc -l chi-out-papers.csv | awk '{print $1}')
@@ -110,7 +117,7 @@ echo '<li> Papers:' $papers
 echo '<li> Papers in conferences:' $papersConf
 echo '<li> Papers in journals:' $papersJournal
 echo '<li> Papers in top venues:' $paperstop
-echo '<li> Papers with <a href="https://arxiv.org/">arXiv</a> preprints:' $papers_arxiv
+echo '<li> Papers with arXiv preprints:' $papers_arxiv
 
 echo '<li> Papers per year (all papers / papers in top-venues):'
 echo '<ul>'
@@ -127,6 +134,7 @@ echo '<ul>'
 echo '<li>Software Engineering:' $papers_se '/' $papers_se_confs '/' $papers_se_journals '/' $papers_top_se
 echo '<li>Programming Languages:' $papers_pl '/' $papers_pl_confs '/' $papers_pl_journals '/' $papers_top_pl
 echo '<li>Information Systems:' $papers_is '/' $papers_is_confs '/' $papers_is_journals '/' $papers_top_is
+echo '<li>Computing Education:' $papers_cse '/' $papers_cse_confs '/' $papers_cse_journals '/' $papers_top_cse
 echo '</ul>'
 
 echo '<li> Papers per research area (all papers / papers in top-conferences):'
@@ -145,7 +153,6 @@ echo '<li>Security & Cryptography:' $papers_security '/' $papers_top_security
 echo '<li>Computer Vision:' $papers_vision '/' $papers_top_vision
 echo '<li>Formal Methods & Logic:' $papers_formal '/' $papers_top_formal
 echo '<li>Robotics:' $papers_robotics '/' $papers_top_robotics
-echo '<li>Computing Education:' $papers_cse '/' $papers_top_cse
 echo '</ul>'
 
 echo '</ul>'
