@@ -1,4 +1,3 @@
-2014,OOPSLA,"Understanding energy behaviors of thread management constructs.",Gustavo Pinto 0001; Fernando Castor; Yu David Liu,http://doi.acm.org/10.1145/2660193.2660235,null,C
 2018,ICSE,"Almost there: a study on quasi-contributors in open source software projects.",Igor Steinmacher; Gustavo Pinto 0001; Igor Scaliante Wiese; Marco Aurélio Gerosa,http://doi.acm.org/10.1145/3180155.3180208,top,C
 2018,ICSE,"How modern news aggregators help development communities shape and share knowledge.",Maurício Finavaro Aniche; Christoph Treude; Igor Steinmacher; Igor Wiese; Gustavo Pinto 0001; Margaret-Anne D. Storey; Marco Aurélio Gerosa,http://doi.acm.org/10.1145/3180155.3180180,top,C
 2018,MSR,"Understanding the usage, impact, and adoption of non-OSI approved licenses.",Rômulo Manciola Meloca; Gustavo Pinto 0001; Leonardo Baiser; Marco Mattos; Ivanilton Polato; Igor Scaliante Wiese; Daniel M. Germán,http://doi.acm.org/10.1145/3196398.3196427,null,C
@@ -11,3 +10,4 @@
 2015,FASE,"Data-Oriented Characterization of Application-Level Energy Optimization.",Kenan Liu; Gustavo Pinto 0001; Yu David Liu,https://doi.org/10.1007/978-3-662-46675-9_21,null,C
 2015,MSR,"Mining Energy-Aware Commits.",Irineu Moura; Gustavo Pinto 0001; Felipe Ebert; Fernando Castor,https://doi.org/10.1109/MSR.2015.13,null,C
 2014,MSR,"Mining questions about software energy consumption.",Gustavo Pinto 0001; Fernando Castor; Yu David Liu,http://doi.acm.org/10.1145/2597073.2597110,null,C
+2014,OOPSLA,"Understanding energy behaviors of thread management constructs.",Gustavo Pinto 0001; Fernando Castor; Yu David Liu,http://doi.acm.org/10.1145/2660193.2660235,null,C

@@ -1,5 +1,3 @@
-2017,OOPSLA,"Evaluating and improving semistructured merge.",Guilherme Cavalcanti; Paulo Borba; Paola R. G. Accioly,http://doi.acm.org/10.1145/3133883,null,C
-2013,PLDI,"SPL: statically analyzing software product lines in minutes instead of years.",Eric Bodden; Társis Tolêdo; Márcio Ribeiro; Claus Brabrand; Paulo Borba; Mira Mezini,http://doi.acm.org/10.1145/2491956.2491976,top,C
 2018,EMSE,"Understanding semi-structured merge conflict characteristics in open-source Java projects.",Paola R. G. Accioly; Paulo Borba; Guilherme Cavalcanti,https://doi.org/10.1007/s10664-017-9586-1,null,J
 2018,TSE,"Detecting Overly Strong Preconditions in Refactoring Engines.",Melina Mongiovi; Rohit Gheyi; Gustavo Soares; Márcio Ribeiro; Paulo Borba; Leopoldo Teixeira,https://doi.org/10.1109/TSE.2017.2693982,top,J
 2018,MSR,"Analyzing conflict predictors in open-source Java projects.",Paola R. G. Accioly; Paulo Borba; Léuson Silva; Guilherme Cavalcanti,http://doi.acm.org/10.1145/3196398.3196437,null,C
@@ -16,3 +14,5 @@
 2013,JSS,"Safe composition of configuration knowledge-based software product lines.",Leopoldo Teixeira; Paulo Borba; Rohit Gheyi,https://doi.org/10.1016/j.jss.2012.11.006,null,J
 2013,JSS,"A design rule language for aspect-oriented programming.",Alberto Costa Neto; Rodrigo Bonifácio; Márcio Ribeiro; Carlos Eduardo Pontual; Paulo Borba; Fernando Castor,https://doi.org/10.1016/j.jss.2013.03.104,null,J
 2013,SPLC,"Coevolution of variability models and related artifacts: a case study from the Linux kernel.",Leonardo Teixeira Passos; Jianmei Guo; Leopoldo Teixeira; Krzysztof Czarnecki; Andrzej Wasowski; Paulo Borba,http://doi.acm.org/10.1145/2491627.2491628,null,C
+2017,OOPSLA,"Evaluating and improving semistructured merge.",Guilherme Cavalcanti; Paulo Borba; Paola R. G. Accioly,http://doi.acm.org/10.1145/3133883,null,C
+2013,PLDI,"SPL: statically analyzing software product lines in minutes instead of years.",Eric Bodden; Társis Tolêdo; Márcio Ribeiro; Claus Brabrand; Paulo Borba; Mira Mezini,http://doi.acm.org/10.1145/2491956.2491976,top,C
