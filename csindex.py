@@ -63,10 +63,6 @@ def get_arxiv_url(title):
       if nb_results == 1:
          arxiv = arxiv["entry"]
          arxiv_title = arxiv["title"]
-        
-        # if arxiv_title.lower() == title.lower():
-
-         # score = fuzz.token_sort_ratio(arxiv_title.lower(), title.lower())
          t1 = arxiv_title.lower()
          t2 = title.lower()
          score = SequenceMatcher(None, t1, t2).ratio()
@@ -281,7 +277,7 @@ def merge_output_prof_papers(profname):
     profname = profname.replace(" ", "-")
     for file in glob.glob("*" + profname + "-papers.csv"):
         filenames.append(file)
-        # print file
+    filenames.sort()    
     outfile= open("./search/" + profname + ".csv", 'w')
     for fname in filenames:
         with open(fname) as infile:
@@ -297,6 +293,7 @@ def generate_search_box_list():
         file= file.replace("-", " ")
         profs.append(file)
     profs.remove("empty")
+    profs.sort()
     f = open("../all-authors.csv",'w')
     for p in profs:
         f.write(p)
@@ -327,8 +324,79 @@ def inc_score(weight):
        return 0.0   
 
 
-def parse_dblp(_, dblp):
-    global MIN_PAPER_SIZE, department, found_paper, black_list
+def getMininumPaperSize(weight):
+    global MIN_PAPER_SIZE
+    
+    if (weight == 6):  # magazine
+       minimum_size = 6
+    elif (weight == 4) or (weight == 5): # journals
+       minimum_size = 10
+    else:
+       minimum_size = MIN_PAPER_SIZE   # conferences
+    return minimum_size          
+    
+
+def getDOI(doi): 
+
+    if type(doi) is list:
+       doi = doi[0]
+    elif type(doi) is collections.OrderedDict:
+       doi = doi["#text"]
+    return doi
+    
+
+def getVenueTier(weight):
+
+    if (weight == 1) or (weight == 4):
+       tier = "top"
+    else:
+       tier = "null"
+    return tier
+
+def getVenueType(weight):
+    
+    if weight <= 3:
+       venue_type = "C"
+    else:
+       venue_type = "J"
+    return venue_type
+    
+
+def getAuthors(authorList):
+
+    authors = []
+    if isinstance(authorList, basestring):  # single author paper
+       authors.append(authorList)
+    else:               
+       for authorName in authorList:
+           if type(authorName) is collections.OrderedDict:
+              authorName = authorName["#text"]
+           authors.append(authorName)
+    return authors
+           
+
+def getTitle(title):
+    
+    if type(title) is collections.OrderedDict:
+       title = title["#text"]
+    title = title.replace("\"", "")  # remove quotes in titles 
+    return title
+    
+
+def getPaperSize(url,dblp):
+    global white_list
+    
+    if url in white_list:
+       size = 10
+    elif 'pages' in dblp:
+       pages = dblp['pages']
+       size = paperSize(pages)
+    else:
+       size = 0
+    return size
+            
+            
+def getDBLPVenue(dblp):
 
     if 'journal' in dblp:
         if (dblp['journal'] == "PACMPL") or (dblp['journal'] == "PACMHCI"):
@@ -337,96 +405,60 @@ def parse_dblp(_, dblp):
            dblp_venue = dblp['journal']
     elif 'booktitle' in dblp:
            dblp_venue = dblp['booktitle']
+    return dblp_venue
+    
+                       
+def parse_dblp(_, dblp):
+    global department, found_paper, black_list
+
+    if ('journal' in dblp) or ('booktitle' in dblp):
+       dblp_venue = getDBLPVenue(dblp)
     else:
-        return True
+       return True
 
     year = int(dblp['year'])
 
-    if ((year >= FIRST_YEAR) and (year <= LAST_YEAR)) and (dblp_venue in confdata):
+    if (year >= FIRST_YEAR) and (year <= LAST_YEAR) and (dblp_venue in confdata):
 
         venue, weight = confdata[dblp_venue]
         url = dblp['url']
 
         if (year == 2018):
            print '\033[94m' + '*** 2018 *** '+ '\033[0m' + url
-
-        pages = "null"
         
-        if url in white_list:
-            size = 10
-        elif 'pages' in dblp:
-            pages = dblp['pages']
-            size = paperSize(pages)
-        else:
-            size = 0
-
-        if (weight == 6):  # magazine
-           minimum_size = 6
-        elif (weight == 4) or (weight == 5): # journals
-           minimum_size = 10
-        else:
-           minimum_size = MIN_PAPER_SIZE
+        size = getPaperSize(url,dblp)
+        minimum_size = getMininumPaperSize(weight)
               
         if size >= minimum_size:
 
-            if url in black_list:
+           if url in black_list:
                return True
+           found_paper = True;
+           pid_papers.append(url)
 
-            found_paper = True;
+           # this paper has been already processed
+           if (url in out):
+              paper = out[url]
+              if (paper[3].find(department) == -1):
+                  # but this author is from another department
+                  paper2= (paper[0], paper[1], paper[2], paper[3] + "; " + department,
+                           paper[4], paper[5], paper[6], paper[7], paper[8])
+                  out[url] = paper2
+                  score[department] += inc_score(weight)
+              return True
 
-            pid_papers.append(url)
-
-            # this paper has been already processed
-            if (url in out):
-                paper = out[url]
-                if (paper[3].find(department) == -1):
-                   # but this author is from another department
-                   paper2= (paper[0], paper[1], paper[2], paper[3] + "; " + department,
-                            paper[4], paper[5], paper[6], paper[7], paper[8])
-                   out[url] = paper2
-                   score[department] += inc_score(weight)
-                return True
-
-            title = dblp['title']
-            if type(title) is collections.OrderedDict:
-               title = title["#text"]
-            title = title.replace("\"", "")  # remove quotes in titles
-
-            print '     ' + venue + ' ' + str(year) + ': '+ title
-            #print '      ' + venue + ' ' + str(year) + ' ' + url
+           title = getTitle(dblp['title'])
+           doi = getDOI(dblp['ee'])
+           tier = getVenueTier(weight)
+           venue_type = getVenueType(weight)
+           arxiv = get_arxiv_url(title)
+           authors = getAuthors(dblp['author'])
+           
+           print '     ' + venue + ' ' + str(year) + ': '+ title
         
-            doi = dblp['ee']
-            if type(doi) is list:
-               doi = doi[0]
-            elif type(doi) is collections.OrderedDict:
-               doi = doi["#text"]
-            
-            if (weight == 1) or (weight == 4):
-               tier = "top"
-            else:
-               tier = "null"
-
-            if weight <= 3:
-               venue_type = "C"
-            else:
-               venue_type = "J"
-
-            #new_a = dblp['author']
-            
-            authorList = dblp['author']
-            authors = []
-            if isinstance(authorList, basestring):   # single author paper
-               authors.append(authorList)
-            else:               
-               for authorName in authorList:
-                   if type(authorName) is collections.OrderedDict:
-                      authorName = authorName["#text"]
-                   authors.append(authorName)
-
-            arxiv = get_arxiv_url(title)
-            out[url] = (year, venue, '"' + title + '"', department, authors, doi, 
+           out[url] = (year, venue, '"' + title + '"', department, authors, doi, 
                         tier, venue_type, arxiv)
-            score[department] += inc_score(weight)
+           score[department] += inc_score(weight)
 
     return True
 
