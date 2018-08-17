@@ -156,7 +156,8 @@
 		      if (arrayData[i][8] == "no_arxiv") {
 		          arrayData[i][8] = "";
 		      } else {
-		          arrayData[i][8] = "<a href=\"" + arrayData[i][8] + "\" target=\"_blank\">[arxiv]</a>";
+		          arrayData[i][8] = "<a href=\"" + arrayData[i][8] + "\" target=\"_blank\" onclick=\"trackOutboundLink(this.href); return false;\">[arxiv]</a>";
+		          // "<a href=\"" + arrayData[i][8] + "\" target=\"_blank\">[arxiv]</a>";
 		      }   
 		      arrayData2.push(arrayData[i]);  
 		  }
