@@ -39,7 +39,7 @@
              var corebr_area_prefix = $("input[type=radio][name=research_area_btn]:checked").val();
              sessionStorage.setItem('corebr_area_prefix', corebr_area_prefix);
              document.getElementById('charts-frame').contentWindow.location.reload(true);
-             if ( (corebr_area_prefix === "se") || (corebr_area_prefix === "pl") || 
+             if ( (corebr_area_prefix === "se") || (corebr_area_prefix === "pl") ||
                   (corebr_area_prefix === "is") || (corebr_area_prefix === "cse")) {
                 document.getElementById('charts-frame').contentWindow.location.replace("charts2.html");
              } else {
@@ -93,28 +93,29 @@
 CSIndexbr provides comprehensible and transparent data about Brazilian
 scientific production in Computer Science.
 Currently, we focus on full research papers published in selected
-conferences (and journals). 
+conferences (and journals).
 The papers are retrieved from <a href="https://dblp.org">DBLP</a>.
-See our <a href="faq.html">FAQ</a> for details or 
-this short 
+See our <a href="faq.html">FAQ</a> for details or
+this short
 <a href="https://docs.google.com/presentation/d/1rzjkRezbbcua4zYIWM9bWCLunbit58DS-6f0lzJckuE/edit#slide=id.p">
-talk</a> (in Portuguese). 
-<b>To report missing papers or other questions, 
+talk</a> (in Portuguese).
+<b>To report missing papers or other questions,
 use this <a href="https://goo.gl/forms/kz3F1fZIKtubWYiu1">form</a>.</b>
 You can also follow us on <a href="https://twitter.com/csindexbr">Twitter</a> or <a href="https://medium.com/@csindexbr">Medium</a>.
 </p>
 
 <p>
 
-<font color="red">New feature:</font> we are starting to index journals (see areas with a <small>J</small> label) * 
-Tip: on Papers and Stats tabs, click on column headers to sort. <br>
+<font color="red">New features:</font> journals and citations (for info about citations see this
+<a href="https://medium.com/@csindexbr/top-10-most-cited-software-engineering-papers-by-brazilian-professors-2598a2d1954e">post</a>) *
+Tip: on Papers and Stats tabs, <b>click on column headers to sort</b> <br>
 Media coverage:
+<!--
 <a href="http://informatica.ufes.br/pt-br/conteudo/ppgiufes-lidera-ranking-de-publica%C3%A7%C3%B5es-em-confer%C3%AAncias-na-%C3%A1rea-de-sistemas-de-informa%C3%A7%C3%A3o">UFES</a>,
-<!-- 
 <a href="http://www.dcc.ufmg.br/dcc/?q=pt-br/node/3124">DCC/UFMG</a>,
 -->
-<a href="https://ufmg.br/comunicacao/publicacoes/boletim/edicao/resistencia-cotidiana/um-index-para-chamar-de-seu">UFMG</a>,
-<a href="http://revistapesquisa.fapesp.br/2018/06/18/promessa-de-boicote/">Pesquisa FAPESP</a>, 
+<a href="https://ufmg.br/comunicacao/publicacoes/boletim/edicao/resistencia-cotidiana/um-index-para-chamar-de-seu">Boletim UFMG</a>,
+<a href="http://revistapesquisa.fapesp.br/2018/06/18/promessa-de-boicote/">Pesquisa FAPESP</a>,
 <a href="https://blog.scielo.org/blog/2018/08/24/csindexbr-index-de-publicacoes-brasileiras-em-computacao/">Scielo</a>
 
 * In our blog: <a href="https://medium.com/@csindexbr/top-10-most-cited-software-engineering-papers-by-brazilian-professors-2598a2d1954e">
