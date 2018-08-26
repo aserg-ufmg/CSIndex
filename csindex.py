@@ -9,13 +9,13 @@
 import xmltodict
 import csv
 import collections
-import urllib2
 import re
 import sys
 import operator
 import glob
 import os
 import requests
+import json
 
 from difflib import SequenceMatcher
 
@@ -49,21 +49,108 @@ def init_black_white_lists():
 
 #################################################
 
-def get_arxiv_url(title):
+
+mailto = "&mailto=mtvalente@gmail.com"
+headers = {
+    'User-Agent': 'csindexbr.org; mtvalente@gmail.com',
+}
+
+def open_citations_cache(area):
+    global citations_cache
+
+    citations_cache = {}
+    fname = '../cache2/' + area + '-citations.csv'
+    if os.path.exists(fname):
+       reader = csv.reader(open(fname, 'r'))
+       for line in reader:
+           citations_cache[line[0]] = line[1]
+
+
+def output_citations_cache(area):
+    global citations_cache
+
+    if citations_cache:
+       f = open('../cache2/' + area + '-citations.csv','w')
+       for doi in citations_cache:
+           f.write(doi)
+           f.write(',')
+           f.write(str(citations_cache[doi]))
+           f.write('\n')
+       f.close()
+
+
+def get_citations(doi):
+
+    if doi in citations_cache:
+       return citations_cache[doi]
+
+    doi_full = doi
+    i = doi_full.find("10.")
+    if i == -1:
+       return 0
+    doi = doi_full[i:]
+    url = "https://api.crossref.org/works/" + doi
+    try:
+      r = requests.get(url, headers=headers)
+      doi_json = json.loads(r.text)
+      citations = doi_json["message"]["is-referenced-by-count"]
+      citations_cache[doi_full] = citations
+      return citations
+    except:
+      print (doi_full, ',', 'FAIL')
+      return 0
+
+
+#################################################
+
+def open_arxiv_cache(area):
+    global arxiv_cache
+
+    arxiv_cache = {}
+    fname = '../cache2/' + area + '-arxiv-cache.csv'
+    if os.path.exists(fname):
+       reader = csv.reader(open(fname, 'r'))
+       for line in reader:
+           arxiv_cache[line[0]] = line[1]
+
+
+def output_arxiv_cache(area):
+    global arxiv_cache
+
+    if arxiv_cache:
+       f = open('../cache2/' + area + '-arxiv-cache.csv','w')
+       for doi in arxiv_cache:
+           f.write(doi)
+           f.write(',')
+           f.write(arxiv_cache[doi]);
+           f.write('\n')
+       f.close()
+
+
+def get_arxiv_url(doi, title):
+    global arxiv_cache
+
+    if doi in arxiv_cache:
+       return arxiv_cache[doi]
 
     try:
       title = title[:-1]
       # ti = urllib2.quote('"' + title + '"')
 
       ti = '"' + title + '"'
-      url = "http://export.arxiv.org/api/query?search_query=ti:" + ti + "&start=0&max_results=1"
 
-      # arxiv_xml = urllib2.urlopen(url).read()
-      arxiv_xml = requests.get(url).text
+      #url = "http://export.arxiv.org/api/query?search_query=ti:" + ti + "&start=0&max_results=1"
+
+      url = "http://export.arxiv.org/api/query"
+      payload = {'search_query': ti, 'start': 0, 'max_results': 1}
+      arxiv_xml = requests.get(url, params=payload).text
+
+      #arxiv_xml = requests.get(url).text
 
       arxiv = xmltodict.parse(arxiv_xml)
       arxiv = arxiv["feed"]
 
+      arxiv_url = "no_arxiv"
       nb_results = int(arxiv["opensearch:totalResults"]["#text"])
 
       if nb_results == 1:
@@ -74,11 +161,11 @@ def get_arxiv_url(title):
          score = SequenceMatcher(None, t1, t2).ratio()
          if score >= 0.9:
             arxiv_url = arxiv["id"]
-            return arxiv_url
     except:
-       print "arxiv fail"
+       print "arxiv failure"
 
-    return "no_arxiv"
+    arxiv_cache[doi] = arxiv_url
+    return arxiv_url
 
 #################################################
 
@@ -155,6 +242,8 @@ def write_paper(f, is_prof_tab, paper):
     if is_prof_tab:
        f.write(',')
        f.write(str(paper[8]))  # arxiv
+       f.write(',')
+       f.write(str(paper[9]))  # citations
     f.write('\n')
 
 
@@ -342,7 +431,7 @@ def getDOI(doi):
 
     if type(doi) is list:
        doi = doi[0]
-    elif type(doi) is collections.OrderedDict:
+    if type(doi) is collections.OrderedDict:
        doi = doi["#text"]
     return doi
 
@@ -451,7 +540,8 @@ def parse_dblp(_, dblp):
               if (paper[3].find(department) == -1):
                   # but this author is from another department
                   paper2= (paper[0], paper[1], paper[2], paper[3] + "; " + department,
-                           paper[4], paper[5], paper[6], paper[7], paper[8])
+                           paper[4], paper[5], paper[6], paper[7], paper[8],
+                           paper[9])
                   out[url] = paper2
                   score[department] += inc_score(weight)
               return True
@@ -460,13 +550,14 @@ def parse_dblp(_, dblp):
            doi = getDOI(dblp['ee'])
            tier = getVenueTier(weight)
            venue_type = getVenueType(weight)
-           arxiv = get_arxiv_url(title)
+           arxiv = get_arxiv_url(doi,title)
+           citations = get_citations(doi)
            authors = getAuthors(dblp['author'])
 
            console_msg(venue,year,title)
 
            out[url] = (year, venue, '"' + title + '"', department, authors, doi,
-                        tier, venue_type, arxiv)
+                        tier, venue_type, arxiv, citations)
            score[department] += inc_score(weight)
 
     return True
@@ -480,8 +571,9 @@ def get_dblp_file(pid,prof):
        with open(file) as f:
           bibfile = f.read()
     else:
+       #bibfile = urllib2.urlopen(url).read()
        url = "http://dblp.org/pid/" + pid + ".xml"
-       bibfile = urllib2.urlopen(url).read()
+       bibfile = requests.get(url).text
        with open(file, 'w') as f:
           f.write(bibfile)
     return bibfile
@@ -526,6 +618,8 @@ score = {}
 profs = {}
 
 init_black_white_lists()
+open_arxiv_cache(area_prefix)
+open_citations_cache(area_prefix)
 
 reader2 = csv.reader(open(researchers_file_name, 'r'))
 count = 1;
@@ -546,9 +640,6 @@ for researcher in reader2:
 
     found_paper = False
 
-    #url = "http://dblp.org/pid/" + pid + ".xml"
-    # bibfile = urllib2.urlopen(url).read()
-
     bibfile = get_dblp_file(pid,prof_name)
 
     pid_papers = []
@@ -568,5 +659,7 @@ output_papers()
 output_scores()
 output_profs()
 output_venues()
+output_arxiv_cache(area_prefix)
+output_citations_cache(area_prefix)
 
 generate_search_box_list()
