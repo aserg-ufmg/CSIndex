@@ -39,8 +39,9 @@
              var corebr_area_prefix = $("input[type=radio][name=research_area_btn]:checked").val();
              sessionStorage.setItem('corebr_area_prefix', corebr_area_prefix);
              document.getElementById('charts-frame').contentWindow.location.reload(true);
-             if ( (corebr_area_prefix === "se") || (corebr_area_prefix === "pl") ||
-                  (corebr_area_prefix === "is") || (corebr_area_prefix === "cse")) {
+             if ( (corebr_area_prefix === "se") || (corebr_area_prefix === "pl")  ||
+                  (corebr_area_prefix === "is") || (corebr_area_prefix === "cse") ||
+                  (corebr_area_prefix === "vision") ) {
                 document.getElementById('charts-frame').contentWindow.location.replace("charts2.html");
              } else {
                 document.getElementById('charts-frame').contentWindow.location.replace("charts.html");
@@ -101,7 +102,8 @@ this short
 talk</a> (in Portuguese).
 <b>To report missing papers or other questions,
 use this <a href="https://goo.gl/forms/kz3F1fZIKtubWYiu1">form</a>.</b>
-You can also follow us on <a href="https://twitter.com/csindexbr">Twitter</a> or <a href="https://medium.com/@csindexbr">Medium</a>.
+You can also follow us on <a href="https://twitter.com/csindexbr">Twitter</a>
+or <a href="https://medium.com/@csindexbr">Medium</a>.
 </p>
 
 <p>
@@ -188,7 +190,7 @@ Most cited software engineering papers authored by Brazilian professors</a>.
 </div>
 
 <div class="radio">
-<label><input type="radio" name="research_area_btn" value="vision"> Computer Vision</label>
+<label><input type="radio" name="research_area_btn" value="vision"> Computer Vision <small>(J)</small></label>
 </div>
 
 <div class="radio">
