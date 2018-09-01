@@ -10,17 +10,17 @@
        ga('create', 'UA-8249107-7', 'auto');
        ga('send', 'pageview');
    </script>
- 
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    
+
     <title>CSIndexbr: Exploring Brazilian Scientific Production in Computer Science</title>
 
     <link href="./css/bootstrap.min.css" rel="stylesheet">
     <link href="./css/dashboard.css" rel="stylesheet">
-      
+
     <style media="screen">
       body,html { height: 80%; }
       .icon { margin-right: 5px; }
@@ -32,36 +32,36 @@
       .autocomplete-suggestion b { font-weight: normal; color: #1f8dd6; }
       .autocomplete-suggestion.selected { background: #f0f0f0; }
     </style>
-  
+
     <script src="libs/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="libs/jquery.csv.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/JavaScript-autoComplete/1.0.4/auto-complete.min.js"></script>
 
 
     <script type="text/javascript">
-       sessionStorage.setItem('corebr_author', 'empty');  
+       sessionStorage.setItem('corebr_author', 'empty');
        var url = new URL(window.location.href);
         var author = url.searchParams.get("p");
         if (author != null) {
           sessionStorage.setItem('corebr_author', author);
-        }      
+        }
     </script>
-      
+
 
     <script type="text/javascript">
       $(document).ready(function(){
         var author= sessionStorage.getItem('corebr_author');
         if (author !== "empty") {
-            document.getElementById("app-input").value= author.split("-").join(" "); 
+            document.getElementById("app-input").value= author.split("-").join(" ");
         }
-             
+
         var file = 'data/profs/all-authors.csv';
-        
+
         String.prototype.replaceAll = function(search, replacement) {
           var target = this;
           return target.split(search).join(replacement);
         };
-        
+
         $.get(file, function(data) {
           var list = data.split('\n').map(function(c){ return c.trim(); });
           new autoComplete({
@@ -76,14 +76,14 @@
               term2= term.replaceAll(" ", "-");
               sessionStorage.setItem('corebr_author', term2);
               window.history.pushState('', '', '?p=' + term2);
-              document.getElementById('author-charts-frame').contentWindow.location.reload(true);   
+              document.getElementById('author-charts-frame').contentWindow.location.reload(true);
             }
           });
         });
 
         //$('#search-btn').click(function() {
           //var author = $('#app-input').val();
-          //document.getElementById('author-charts-frame').contentWindow.location.reload(true);           
+          //document.getElementById('author-charts-frame').contentWindow.location.reload(true);
           // author.replace(" ", "-");
           // sessionStorage.setItem('corebr_author', author);
           // alert('Search: ' + value);
@@ -91,20 +91,20 @@
       });
     </script>
 
-    
+
  </head>
 
   <body>
-  
+
     <header>
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        
+
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
         <a class="navbar-brand" href="index.html">CSIndexbr</a>
-                
+
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
@@ -119,14 +119,14 @@
             <li class="nav-item">
               <a class="nav-link" href="faq.html">FAQ</a>
             </li>
-            
+
           </ul>
-          
+
         </div>
       </nav>
     </header>
 
-   
+
 <div class="container">
 
 <div class="row">
@@ -135,9 +135,10 @@
 <p></p>
 
 <p>
-<b>Only Brazilian professors with papers in the conferences tracked by CSIndexbr have pages.</b> Author pages
-have a permanent URL; so you can link to them (copy the URL in the address bar of the browser).
-</p>    
+<b>Only Brazilian professors with papers in conferences and journals
+indexed by CSIndexbr have pages.</b> Author pages have a permanent URL; so
+you can link to them (copy the URL in the address bar of the browser).
+</p>
 
 </div>
 </div>
@@ -146,8 +147,8 @@ have a permanent URL; so you can link to them (copy the URL in the address bar o
 <div class="col-sm-8">
 
 <div class="input-group h-20 border-primary justify-content-center">
-  <input id="app-input" type="text" class="form-control" 
-  placeholder="Enter the name of a Brazilian faculty" aria-label="Author" aria-describedby="basic-addon2">  
+  <input id="app-input" type="text" class="form-control"
+  placeholder="Enter the name of a Brazilian faculty" aria-label="Author" aria-describedby="basic-addon2">
 </div>
 
 
@@ -162,9 +163,9 @@ have a permanent URL; so you can link to them (copy the URL in the address bar o
 <iframe name="frame-results" id="author-charts-frame" height=600 width=1080 src="author_charts.html"></iframe>
 
 <p class="text-center">
-<small>CSIndexbr is maintained by <a href="http://aserg.labsoft.dcc.ufmg.br/">ASERG/DCC/UFMG</a>, 
+<small>CSIndexbr is maintained by <a href="http://aserg.labsoft.dcc.ufmg.br/">ASERG/DCC/UFMG</a>,
 under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0.
-</a>license. 
+</a>license.
 See <a href="faq.html">FAQ</a> for details.
 </small> </p>
 
@@ -174,8 +175,8 @@ See <a href="faq.html">FAQ</a> for details.
 </div>
 
 
-<script src="libs/popper.min.js"> </script>  
-<script src="libs/bootstrap.min.js"></script>      
+<script src="libs/popper.min.js"> </script>
+<script src="libs/bootstrap.min.js"></script>
 
 </body>
 </html>
