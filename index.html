@@ -43,7 +43,10 @@
                   (corebr_area_prefix === "is") || (corebr_area_prefix === "cse") ||
                   (corebr_area_prefix === "vision") ) {
                 document.getElementById('charts-frame').contentWindow.location.replace("charts2.html");
-             } else {
+             } else if (corebr_area_prefix === "or") {
+                document.getElementById('charts-frame').contentWindow.location.replace("charts3.html");
+             }
+             else {
                 document.getElementById('charts-frame').contentWindow.location.replace("charts.html");
              }
           });
@@ -186,6 +189,14 @@ Most cited software engineering papers authored by Brazilian professors</a>.
 </div>
 
 <div class="radio">
+<label><input type="radio" name="research_area_btn" value="formal"> Formal Methods & Logic</label>
+</div>
+
+<div class="radio">
+<label><input type="radio" name="research_area_btn" value="or"> Operational Research <small>(J)</small></label>
+</div>
+
+<div class="radio">
 <label><input type="radio" name="research_area_btn" value="security"> Security & Cryptography</label>
 </div>
 
@@ -193,9 +204,6 @@ Most cited software engineering papers authored by Brazilian professors</a>.
 <label><input type="radio" name="research_area_btn" value="vision"> Computer Vision <small>(J)</small></label>
 </div>
 
-<div class="radio">
-<label><input type="radio" name="research_area_btn" value="formal"> Formal Methods & Logic</label>
-</div>
 
 <div class="radio">
 <label><input type="radio" name="research_area_btn" value="robotics"> Robotics</label>
@@ -204,6 +212,7 @@ Most cited software engineering papers authored by Brazilian professors</a>.
 <div class="radio">
 <label><input type="radio" name="research_area_btn" value="cse"> Computing Education <small>(J)</small></label>
 </div>
+
 
 </div>
 
