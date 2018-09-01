@@ -1,2 +1,4 @@
 cache/*
-cache2/*
+utils/*.csv
+utils/*.txt
+utils/*.gz
