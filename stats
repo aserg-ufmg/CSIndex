@@ -61,6 +61,13 @@ papers_cse_journals=$(cat temp.csv | awk '/J$/ { print $2 }' | wc -l)
 papers_top_cse=$(cat temp.csv | awk '/^top/ { print $1 }' | wc -l)
 rm temp.csv
 
+python ../get2col.py vision-out-papers.csv 6 7 > temp.csv
+papers_vision=$(wc -l temp.csv | awk '{print $1}')
+papers_vision_confs=$(cat temp.csv | awk '/C$/ { print $2 }' | wc -l)
+papers_vision_journals=$(cat temp.csv | awk '/J$/ { print $2 }' | wc -l)
+papers_top_vision=$(cat temp.csv | awk '/^top/ { print $1 }' | wc -l)
+rm temp.csv
+
 papers_is=$(wc -l is-out-papers.csv | awk '{print $1}')
 papers_pl=$(wc -l pl-out-papers.csv | awk '{print $1}')
 papers_chi=$(wc -l chi-out-papers.csv | awk '{print $1}')
@@ -111,7 +118,7 @@ echo '<li> Journals:' $journals
 echo '<li> Journals with papers by Brazilian professors:' $journals2
 
 echo '<li> Brazilian professors:' $allauthors
-echo '<li> Brazilian professors with papers:' $authors 
+echo '<li> Brazilian professors with papers:' $authors
 
 echo '<li> Papers:' $papers
 echo '<li> Papers in conferences:' $papersConf
@@ -135,6 +142,8 @@ echo '<li>Software Engineering:' $papers_se '/' $papers_se_confs '/' $papers_se_
 echo '<li>Programming Languages:' $papers_pl '/' $papers_pl_confs '/' $papers_pl_journals '/' $papers_top_pl
 echo '<li>Information Systems:' $papers_is '/' $papers_is_confs '/' $papers_is_journals '/' $papers_top_is
 echo '<li>Computing Education:' $papers_cse '/' $papers_cse_confs '/' $papers_cse_journals '/' $papers_top_cse
+echo '<li>Computer Vision:' $papers_vision '/' $papers_vision_confs '/' $papers_vision_journals '/' $papers_top_vision
+
 echo '</ul>'
 
 echo '<li> Papers per research area (all papers / papers in top-conferences):'
@@ -150,7 +159,6 @@ echo '<li>Data Mining & Machine Learning:' $papers_data '/' $papers_top_data
 echo '<li>Artificial Intelligence:' $papers_ai '/' $papers_top_ai
 echo '<li>Algorithms & Complexity:' $papers_theory '/' $papers_top_theory
 echo '<li>Security & Cryptography:' $papers_security '/' $papers_top_security
-echo '<li>Computer Vision:' $papers_vision '/' $papers_top_vision
 echo '<li>Formal Methods & Logic:' $papers_formal '/' $papers_top_formal
 echo '<li>Robotics:' $papers_robotics '/' $papers_top_robotics
 echo '</ul>'
