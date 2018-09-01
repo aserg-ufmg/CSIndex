@@ -46,7 +46,6 @@ papers_pl_journals=$(cat temp.csv | awk '/J$/ { print $2 }' | wc -l)
 papers_top_pl=$(cat temp.csv | awk '/^top/ { print $1 }' | wc -l)
 rm temp.csv
 
-
 python ../get2col.py is-out-papers.csv 6 7 > temp.csv
 papers_is=$(wc -l temp.csv | awk '{print $1}')
 papers_is_confs=$(cat temp.csv | awk '/C$/ { print $2 }' | wc -l)
@@ -66,6 +65,13 @@ papers_vision=$(wc -l temp.csv | awk '{print $1}')
 papers_vision_confs=$(cat temp.csv | awk '/C$/ { print $2 }' | wc -l)
 papers_vision_journals=$(cat temp.csv | awk '/J$/ { print $2 }' | wc -l)
 papers_top_vision=$(cat temp.csv | awk '/^top/ { print $1 }' | wc -l)
+rm temp.csv
+
+python ../get2col.py or-out-papers.csv 6 7 > temp.csv
+papers_or=$(wc -l temp.csv | awk '{print $1}')
+papers_or_confs=$(cat temp.csv | awk '/C$/ { print $2 }' | wc -l)
+papers_or_journals=$(cat temp.csv | awk '/J$/ { print $2 }' | wc -l)
+papers_top_or=$(cat temp.csv | awk '/^top/ { print $1 }' | wc -l)
 rm temp.csv
 
 papers_is=$(wc -l is-out-papers.csv | awk '{print $1}')
@@ -143,7 +149,7 @@ echo '<li>Programming Languages:' $papers_pl '/' $papers_pl_confs '/' $papers_pl
 echo '<li>Information Systems:' $papers_is '/' $papers_is_confs '/' $papers_is_journals '/' $papers_top_is
 echo '<li>Computing Education:' $papers_cse '/' $papers_cse_confs '/' $papers_cse_journals '/' $papers_top_cse
 echo '<li>Computer Vision:' $papers_vision '/' $papers_vision_confs '/' $papers_vision_journals '/' $papers_top_vision
-
+echo '<li>Operational Research:' $papers_or '/' $papers_or_confs '/' $papers_or_journals '/' $papers_top_or
 echo '</ul>'
 
 echo '<li> Papers per research area (all papers / papers in top-conferences):'
