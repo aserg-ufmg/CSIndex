@@ -6,10 +6,10 @@
 2017,CGO,"Pointer disambiguation via strict inequalities.",Maroua Maalej; Vitor Paisante; Pedro Ramos; Laure Gonnord; Fernando Magno Quintão Pereira,http://dl.acm.org/citation.cfm?id=3049848,null,C
 2017,PPoPP,"Function Call Re-Vectorization.",Rubens E. A. Moreira; Sylvain Collange; Fernando Magno Quintão Pereira,http://dl.acm.org/citation.cfm?id=3018751,null,C
 2016,CGO,"Inference of peak density of indirect branches to detect ROP attacks.",Mateus Tymburibá; Rubens E. A. Moreira; Fernando Magno Quintão Pereira,http://doi.acm.org/10.1145/2854038.2854049,null,C
-2016,CGO,"Symbolic range analysis of pointers.",Vitor Paisante; Maroua Maalej; Leonardo Barbosa; Laure Gonnord; Fernando Magno Quintão Pereira,http://doi.acm.org/10.1145/2854038.2854050,null,C
+2016,CGO,"Symbolic range analysis of pointers.",Vitor Paisante; Maroua Maalej; Leonardo Barbosa e Oliveira; Laure Gonnord; Fernando Magno Quintão Pereira,http://doi.acm.org/10.1145/2854038.2854050,null,C
 2015,OOPSLA,"Runtime pointer disambiguation.",Péricles Alves; Fabian Gruber; Johannes Doerfert; Alexandros Lamprineas; Tobias Grosser; Fabrice Rastello; Fernando Magno Quintão Pereira,http://doi.acm.org/10.1145/2814270.2814285,null,C
 2014,SCP,"Efficient static checker for tainted variable attacks.",Andrei Rimsa; Marcelo d'Amorim; Fernando Magno Quintão Pereira; Roberto da Silva Bigonha,https://doi.org/10.1016/j.scico.2013.03.012,null,J
-2014,OOPSLA,"Validation of memory accesses through symbolic analyses.",Henrique Nazaré; Izabela Maffra; Willer Santos; Leonardo Barbosa; Laure Gonnord; Fernando Magno Quintão Pereira,http://doi.acm.org/10.1145/2660193.2660205,null,C
+2014,OOPSLA,"Validation of memory accesses through symbolic analyses.",Henrique Nazaré; Izabela Maffra; Willer Santos; Leonardo Barbosa e Oliveira; Laure Gonnord; Fernando Magno Quintão Pereira,http://doi.acm.org/10.1145/2660193.2660205,null,C
 2013,SCP,"Automatic parallelization of canonical loops.",Leonardo Luiz Padovani da Mata; Fernando Magno Quintão Pereira; Renato Ferreira,https://doi.org/10.1016/j.scico.2012.09.006,null,J
 2013,TOPLAS,"Divergence analysis.",Diogo Sampaio; Rafael Martins de Souza; Sylvain Collange; Fernando Magno Quintão Pereira,http://doi.acm.org/10.1145/2523815,top,J
 2013,CGO,"Just-in-time value specialization.",Igor Rafael de Assis Costa; Péricles Rafael Oliveira Alves; Henrique Nazaré Santos; Fernando Magno Quintão Pereira,https://doi.org/10.1109/CGO.2013.6495006,null,C
