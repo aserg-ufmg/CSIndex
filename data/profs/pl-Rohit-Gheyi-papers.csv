@@ -1,5 +1,0 @@
-2017,GPCE,"Avoiding useless mutants.",Leonardo Fernandes; Márcio Ribeiro; Luiz Carvalho; Rohit Gheyi; Melina Mongiovi; André Santos; Ana Cavalcanti; Fabiano Cutigi Ferrari; José Carlos Maldonado,http://doi.acm.org/10.1145/3136040.3136053,null,C
-2016,GPCE,"A change-centric approach to compile configurable systems with #ifdefs.",Larissa Braz; Rohit Gheyi; Melina Mongiovi; Márcio Ribeiro; Flávio Medeiros; Leopoldo Teixeira,http://doi.acm.org/10.1145/2993236.2993250,null,C
-2015,ECOOP,"The Love/Hate Relationship with the C Preprocessor: An Interview Study.",Flávio Medeiros; Christian Kästner; Márcio Ribeiro; Sarah Nadi; Rohit Gheyi,https://doi.org/10.4230/LIPIcs.ECOOP.2015.495,null,C
-2015,GPCE,"An empirical study on configuration-related issues: investigating undeclared and unused identifiers.",Flávio Medeiros; Iran Rodrigues; Márcio Ribeiro; Leopoldo Teixeira; Rohit Gheyi,http://doi.acm.org/10.1145/2814204.2814206,null,C
-2013,GPCE,"Investigating preprocessor-based syntax errors.",Flávio Medeiros; Márcio Ribeiro; Rohit Gheyi,http://doi.acm.org/10.1145/2517208.2517221,null,C

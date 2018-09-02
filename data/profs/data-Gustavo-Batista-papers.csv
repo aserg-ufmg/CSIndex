@@ -1,7 +1,0 @@
-2018,KDD,"Classifying and Counting with Recurrent Contexts.",Denis Moreira dos Reis; André Gustavo Maletzke; Diego Furtado Silva; Gustavo E. A. P. A. Batista,http://doi.acm.org/10.1145/3219819.3220059,top,C
-2016,KDD,"Fast Unsupervised Online Drift Detection Using Incremental Kolmogorov-Smirnov Test.",Denis Moreira dos Reis; Peter A. Flach; Stan Matwin; Gustavo E. A. P. A. Batista,http://doi.acm.org/10.1145/2939672.2939836,top,C
-2016,SDM,"Speeding Up All-Pairwise Dynamic Time Warping Matrix Calculation.",Diego Furtado Silva; Gustavo E. A. P. A. Batista,https://doi.org/10.1137/1.9781611974348.94,null,C
-2015,SDM,"Data Stream Classification Guided by Clustering on Nonstationary Environments and Extreme Verification Latency.",Vinícius M. A. de Souza; Diego Furtado Silva; João Gama; Gustavo E. A. P. A. Batista,https://doi.org/10.1137/1.9781611974010.98,null,C
-2013,ICDM,"Time Series Classification Using Compression Distance of Recurrence Plots.",Diego Furtado Silva; Vinícius M. A. de Souza; Gustavo E. A. P. A. Batista,https://doi.org/10.1109/ICDM.2013.128,null,C
-2013,KDD,"DTW-D: time series semi-supervised learning from a single example.",Yanping Chen 0005; Bing Hu 0001; Eamonn J. Keogh; Gustavo E. A. P. A. Batista,http://doi.acm.org/10.1145/2487575.2487633,top,C
-2013,ECML/PKDD,"Influence of Graph Construction on Semi-supervised Learning.",Celso André R. de Sousa; Solange O. Rezende; Gustavo E. A. P. A. Batista,https://doi.org/10.1007/978-3-642-40994-3_11,null,C

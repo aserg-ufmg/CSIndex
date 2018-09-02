@@ -1,3 +1,0 @@
-2018,IPDPS,"Evaluating the Performance and Cost of Accelerating Seismic Processing with CUDA, OpenCL, OpenACC, and OpenMP.",Tiago Lobato Gimenes; Flavia Pisani; Edson Borin,https://doi.org/10.1109/IPDPS.2018.00050,null,C
-2015,ISCA,"SHRINK: reducing the ISA complexity via instruction recycling.",Bruno Cardoso Lopes; Rafael Auler; Luiz Ramos; Edson Borin; Rodolfo Azevedo,http://doi.acm.org/10.1145/2749469.2750391,top,C
-2014,PACT,"Compiler support for selective page migration in NUMA architectures.",Guilherme Piccoli; Henrique Nazaré Santos; Raphael Ernani Rodrigues; Christiane Pousa; Edson Borin; Fernando Magno Quintão Pereira,http://doi.acm.org/10.1145/2628071.2628077,null,C
