@@ -3,9 +3,6 @@
 # By Marco Tulio Valente - ASERG/DCC/UFMG
 # http://aserg.labsoft.dcc.ufmg.br
 
-# external dependencies:
-# xlmtodict: xml parser
-
 import xmltodict
 import csv
 import collections
@@ -18,8 +15,6 @@ import requests
 import json
 
 from difflib import SequenceMatcher
-
-## constants
 
 FIRST_YEAR = 2013
 LAST_YEAR = 2018
@@ -35,20 +30,19 @@ black_list = {}
 white_list = {}
 
 def init_black_white_lists():
-   global black_list, white_list
+    global black_list, white_list
 
-   black_list_file= area_prefix + "-black-list.txt"
-   if os.path.exists(black_list_file):
-      with open(black_list_file) as blf:
-        black_list = blf.read().splitlines()
+    black_list_file= area_prefix + "-black-list.txt"
+    if os.path.exists(black_list_file):
+       with open(black_list_file) as blf:
+         black_list = blf.read().splitlines()
 
-   white_list_file= area_prefix + "-white-list.txt"
-   if os.path.exists(white_list_file):
-      with open(white_list_file) as wlf:
-        white_list = wlf.read().splitlines()
+    white_list_file= area_prefix + "-white-list.txt"
+    if os.path.exists(white_list_file):
+       with open(white_list_file) as wlf:
+         white_list = wlf.read().splitlines()
 
 #################################################
-
 
 mailto = "&mailto=mtvalente@gmail.com"
 headers = {
@@ -57,20 +51,17 @@ headers = {
 
 def open_citations_cache(area):
     global citations_cache
-
     citations_cache = {}
-    fname = '../cache2/' + area + '-citations.csv'
+    fname = '../cache/citations/' + area + '-citations.csv'
     if os.path.exists(fname):
        reader = csv.reader(open(fname, 'r'))
        for line in reader:
            citations_cache[line[0]] = line[1]
 
-
 def output_citations_cache(area):
-    global citations_cache
-
+    #global citations_cache
     if citations_cache:
-       f = open('../cache2/' + area + '-citations.csv','w')
+       f = open('../cache/citations/' + area + '-citations.csv','w')
        for doi in citations_cache:
            f.write(doi)
            f.write(',')
@@ -78,12 +69,9 @@ def output_citations_cache(area):
            f.write('\n')
        f.close()
 
-
 def get_citations(doi):
-
     if doi in citations_cache:
        return citations_cache[doi]
-
     doi_full = doi
     i = doi_full.find("10.")
     if i == -1:
@@ -97,28 +85,24 @@ def get_citations(doi):
       citations_cache[doi_full] = citations
       return citations
     except:
-      print (doi_full, ',', 'FAIL')
+      print (doi_full, ',', 'FAILED')
       return 0
-
 
 #################################################
 
 def open_arxiv_cache(area):
     global arxiv_cache
-
     arxiv_cache = {}
-    fname = '../cache2/' + area + '-arxiv-cache.csv'
+    fname = '../cache/arxiv/' + area + '-arxiv-cache.csv'
     if os.path.exists(fname):
        reader = csv.reader(open(fname, 'r'))
        for line in reader:
            arxiv_cache[line[0]] = line[1]
 
-
 def output_arxiv_cache(area):
-    global arxiv_cache
-
+    #global arxiv_cache
     if arxiv_cache:
-       f = open('../cache2/' + area + '-arxiv-cache.csv','w')
+       f = open('../cache/arxiv/' + area + '-arxiv-cache.csv','w')
        for doi in arxiv_cache:
            f.write(doi)
            f.write(',')
@@ -126,26 +110,18 @@ def output_arxiv_cache(area):
            f.write('\n')
        f.close()
 
-
 def get_arxiv_url(doi, title):
-    global arxiv_cache
+#    global arxiv_cache
 
     if doi in arxiv_cache:
        return arxiv_cache[doi]
 
     try:
       title = title[:-1]
-      # ti = urllib2.quote('"' + title + '"')
-
       ti = '"' + title + '"'
-
-      #url = "http://export.arxiv.org/api/query?search_query=ti:" + ti + "&start=0&max_results=1"
-
       url = "http://export.arxiv.org/api/query"
       payload = {'search_query': ti, 'start': 0, 'max_results': 1}
       arxiv_xml = requests.get(url, params=payload).text
-
-      #arxiv_xml = requests.get(url).text
 
       arxiv = xmltodict.parse(arxiv_xml)
       arxiv = arxiv["feed"]
@@ -170,55 +146,51 @@ def get_arxiv_url(doi, title):
 #################################################
 
 def paperSize(dblp_pages):
-  page= re.split(r"-|:", dblp_pages)
-  if len(page) == 2:
-     p1 = page[0]
-     p2 = page[1]
-     return int(p2) - int(p1) + 1
-  elif len(page) == 4:
-     p1 = page[1]
-     p2 = page[3]
-     return int(p2) - int(p1) + 1
-  else:
-     return 0
+    page= re.split(r"-|:", dblp_pages)
+    if len(page) == 2:
+       p1 = page[0]
+       p2 = page[1]
+       return int(p2) - int(p1) + 1
+    elif len(page) == 4:
+       p1 = page[1]
+       p2 = page[3]
+       return int(p2) - int(p1) + 1
+    else:
+       return 0
 
 #################################################
 
 def output_venues():
-  global out, conflist, journallist;
+    global out, conflist, journallist;
 
-  confs = []
-  journals = []
-  f1 = open(area_prefix + '-out-confs.csv','w')
-
-  for p in out.items():
-    if p[1][7] == "C":
-       confs.append(p[1][1])
-    else:
-       journals.append(p[1][1])
-
-  result1 = sorted([(c, confs.count(c)) for c in conflist], key=lambda x: x[1], reverse=True)
-  result2 = sorted([(c, journals.count(c)) for c in journallist], key=lambda x: x[1], reverse=True)
-
-  for c in result1:
-      f1.write(c[0]);
-      f1.write(',')
-      f1.write(str(c[1]));
-      f1.write('\n')
-  f1.close()
-
-  if len(result2) > 0:
-     f2 = open(area_prefix + '-out-journals.csv','w')
-     for j in result2:
-         f2.write(j[0]);
-         f2.write(',')
-         f2.write(str(j[1]));
-         f2.write('\n')
-     f2.close()
+    confs = []
+    journals = []
+    for p in out.items():
+        if p[1][7] == "C":
+           confs.append(p[1][1])
+        else:
+           journals.append(p[1][1])
+    result1 = sorted([(c, confs.count(c)) for c in conflist], key=lambda x: x[1], reverse=True)
+    result2 = sorted([(c, journals.count(c)) for c in journallist], key=lambda x: x[1], reverse=True)
+    if len(result1) > 0:
+       f1 = open(area_prefix + '-out-confs.csv','w')
+       for c in result1:
+           f1.write(c[0]);
+           f1.write(',')
+           f1.write(str(c[1]));
+           f1.write('\n')
+       f1.close()
+    if len(result2) > 0:
+       f2 = open(area_prefix + '-out-journals.csv','w')
+       for j in result2:
+           f2.write(j[0]);
+           f2.write(',')
+           f2.write(str(j[1]));
+           f2.write('\n')
+       f2.close()
 
 
 def write_paper(f, is_prof_tab, paper):
-
     f.write(str(paper[0]))
     f.write(',')
     f.write(str(paper[1]))
@@ -248,31 +220,24 @@ def write_paper(f, is_prof_tab, paper):
 
 
 def output_papers():
-  global out;
-
-  # original code
-  # sorted_papers = sorted(out.items(), key=lambda x: (x[1][1],x[1][0],x[1][2]))
-  out2 = sorted(out.items(), key=lambda x: (x[1][1],x[1][2]))
-  sorted_papers = sorted(out2, key=lambda x: x[1][0], reverse=True)
-
-  f = open(area_prefix + '-out-papers.csv','w')
-  for i in range(0, len(sorted_papers)):
-      paper = sorted_papers[i][1]
-      write_paper(f, True, paper)
-  f.close()
+    #global out;
+    out2 = sorted(out.items(), key=lambda x: (x[1][1],x[1][2]))
+    sorted_papers = sorted(out2, key=lambda x: x[1][0], reverse=True)
+    f = open(area_prefix + '-out-papers.csv','w')
+    for i in range(0, len(sorted_papers)):
+        paper = sorted_papers[i][1]
+        write_paper(f, True, paper)
+    f.close()
 
 
 def output_prof_papers(prof_name):
-  global out, pid_papers
-
-  prof_name = prof_name.replace(" ", "-")
-  f = open("./profs/" + area_prefix + "-" + prof_name + '-papers.csv','w')
-  for url in pid_papers:
-      paper= out[url]
-      write_paper(f, False, paper)
-      #f.write(str(paper[8]))
-      #f.write('\n')
-  f.close()
+    #global out, pid_papers
+    prof_name = prof_name.replace(" ", "-")
+    f = open("./profs/" + area_prefix + "-" + prof_name + '-papers.csv','w')
+    for url in pid_papers:
+        paper= out[url]
+        write_paper(f, False, paper)
+    f.close()
 
 
 def output_scores():
@@ -329,38 +294,29 @@ def output_profs():
       f3.write('\n')
   f3.close()
 
-
 def remove_prof_papers_file(area_prefix, prof_name):
-
     prof_name = prof_name.replace(" ", "-")
     file_name = "./profs/" + area_prefix + "-" + prof_name + '-papers.csv'
     if os.path.exists(file_name):
        print "Removing "+ file_name
        os.remove(file_name)
 
-
 def file_len(fname):
-
     with open(fname) as f:
        for i, l in enumerate(f):
            pass
     return i + 1
 
-
 def flush_prof_papers(area_prefix, prof_name):
-
     num_lines = 0
     prof_name = prof_name.replace(" ", "-")
     file_name = "./profs/" + area_prefix + "-" + prof_name + '-papers.csv'
     if os.path.exists(file_name):
        num_lines = file_len(file_name)
-       # print "Removing file " + file_name
        os.remove(file_name)
     return num_lines
 
-
 def merge_output_prof_papers(profname):
-
     os.chdir("./profs")
     filenames = []
     profname = profname.replace(" ", "-")
@@ -373,14 +329,12 @@ def merge_output_prof_papers(profname):
              outfile.write(infile.read())
     os.chdir("..")
 
-
 def generate_search_box_list():
-
     os.chdir("./profs/search")
     profs = []
     for file in glob.glob("*.csv"):
-        file= file.replace(".csv", "")
-        file= file.replace("-", " ")
+        file = file.replace(".csv", "")
+        file = file.replace("-", " ")
         profs.append(file)
     profs.remove("empty")
     profs.sort()
@@ -390,19 +344,15 @@ def generate_search_box_list():
         f.write('\n')
     f.close()
 
-
-def output_pid_profs():
-    global pid_profs
-
-    f = open(area_prefix + "-" + 'out-profs-name.csv','w')
-    for prof in pid_profs:
-        f.write(prof)
-        f.write('\n')
-    f.close()
-
+#def output_pid_profs():
+#    # global pid_profs
+#    f = open(area_prefix + "-" + 'out-profs-name.csv','w')
+#    for prof in pid_profs:
+#        f.write(prof)
+#        f.write('\n')
+#    f.close()
 
 def inc_score(weight):
-
     if (weight == 1) or (weight == 4):
        return 1.0
     elif weight == 2:
@@ -414,10 +364,7 @@ def inc_score(weight):
     else:
        return 0.0
 
-
 def getMininumPaperSize(weight):
-    global MIN_PAPER_SIZE
-
     if (weight == 6):  # magazine
        minimum_size = 6
     elif (weight == 4) or (weight == 5): # journals
@@ -426,36 +373,28 @@ def getMininumPaperSize(weight):
        minimum_size = MIN_PAPER_SIZE   # conferences
     return minimum_size
 
-
 def getDOI(doi):
-
     if type(doi) is list:
        doi = doi[0]
     if type(doi) is collections.OrderedDict:
        doi = doi["#text"]
     return doi
 
-
 def getVenueTier(weight):
-
     if (weight == 1) or (weight == 4):
        tier = "top"
     else:
        tier = "null"
     return tier
 
-
 def getVenueType(weight):
-
     if weight <= 3:
        venue_type = "C"
     else:
        venue_type = "J"
     return venue_type
 
-
 def getAuthors(authorList):
-
     authors = []
     if isinstance(authorList, basestring):  # single author paper
        authors.append(authorList)
@@ -466,18 +405,14 @@ def getAuthors(authorList):
            authors.append(authorName)
     return authors
 
-
 def getTitle(title):
-
     if type(title) is collections.OrderedDict:
        title = title["#text"]
     title = title.replace("\"", "")  # remove quotes in titles
     return title
 
-
 def getPaperSize(url,dblp):
-    global white_list
-
+    # global white_list
     if url in white_list:
        size = 10
     elif 'pages' in dblp:
@@ -487,9 +422,7 @@ def getPaperSize(url,dblp):
        size = 0
     return size
 
-
 def getDBLPVenue(dblp):
-
     if 'journal' in dblp:
         if (dblp['journal'] == "PACMPL") or (dblp['journal'] == "PACMHCI"):
            dblp_venue = dblp['number']
@@ -499,15 +432,12 @@ def getDBLPVenue(dblp):
            dblp_venue = dblp['booktitle']
     return dblp_venue
 
-
 def console_msg(venue,year,title):
-
     msg = '     ' + venue + ' ' + str(year) + ': '+ title
     if (year == 2018):
        print ALERT_ON + msg + ALERT_OFF
     else:
        print msg
-
 
 def parse_dblp(_, dblp):
     global department, found_paper, black_list
@@ -559,34 +489,35 @@ def parse_dblp(_, dblp):
            out[url] = (year, venue, '"' + title + '"', department, authors, doi,
                         tier, venue_type, arxiv, citations)
            score[department] += inc_score(weight)
-
     return True
 
-
 def get_dblp_file(pid,prof):
-
     prof = prof.replace(" ", "-")
-    file = '../cache/' + prof + '.xml'
+    file = '../cache/dblp/' + prof + '.xml'
     if os.path.exists(file):
        with open(file) as f:
           bibfile = f.read()
     else:
-       #bibfile = urllib2.urlopen(url).read()
        url = "http://dblp.org/pid/" + pid + ".xml"
        bibfile = requests.get(url).text
        with open(file, 'w') as f:
           f.write(bibfile)
     return bibfile
 
+def outuput_everything():
+    output_papers()
+    output_scores()
+    output_profs()
+    output_venues()
+    output_arxiv_cache(area_prefix)
+    output_citations_cache(area_prefix)
+    generate_search_box_list()
+
 
 # main program
 
 area_prefix= sys.argv[1]
 confs_file_name = area_prefix + "-confs.csv"
-
-#for f in glob.glob("./profs/"+ area_prefix + "-*.csv"):
-#    print "Removing file " + f
-#    os.remove(f)
 
 reader3 = csv.reader(open("research-areas-config.csv", 'r'))
 for area_tuple in reader3:
@@ -639,11 +570,9 @@ for researcher in reader2:
        profs[department] = 0
 
     found_paper = False
-
     bibfile = get_dblp_file(pid,prof_name)
-
     pid_papers = []
-    bibdata = xmltodict.parse(bibfile, item_depth=3, item_callback=parse_dblp)
+    xmltodict.parse(bibfile, item_depth=3, item_callback=parse_dblp)
 
     if found_paper:
        profs[department] += 1
@@ -655,11 +584,4 @@ for researcher in reader2:
 
     count = count + 1;
 
-output_papers()
-output_scores()
-output_profs()
-output_venues()
-output_arxiv_cache(area_prefix)
-output_citations_cache(area_prefix)
-
-generate_search_box_list()
+outuput_everything()
