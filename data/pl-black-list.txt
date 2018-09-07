@@ -1,8 +1,0 @@
-db/journals/scp/scp78.html#RebeloLLCMO13
-db/journals/scp/scp152.html#CastroLATAS18
-db/journals/scp/scp93.html#MongioviGSTB14
-db/journals/scp/scp78.html#FerrariRM13
-db/journals/scp/scp93.html#FerreiraGFM14
-db/journals/scp/scp96.html#GaiaFFM14
-db/journals/spe/spe45.html#TerraVCB15
-db/journals/scp/scp119.html#SantosAFF16
