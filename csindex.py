@@ -75,7 +75,7 @@ def get_citations(doi):
     doi_full = doi
     i = doi_full.find("10.")
     if i == -1:
-       return 0
+       return -1
     doi = doi_full[i:]
     url = "https://api.crossref.org/works/" + doi
     try:
@@ -86,7 +86,7 @@ def get_citations(doi):
       return citations
     except:
       print (doi_full, ',', 'FAILED')
-      return 0
+      return -1
 
 #################################################
 
@@ -211,10 +211,11 @@ def write_paper(f, is_prof_tab, paper):
     f.write(str(paper[6]))
     f.write(',')
     f.write(str(paper[7]))
-    if is_prof_tab:
-       f.write(',')
-       f.write(str(paper[8]))  # arxiv
-       f.write(',')
+    f.write(',')
+    f.write(str(paper[8]))  # arxiv
+    #if is_prof_tab:
+    f.write(',')
+    if paper[9] != -1:
        f.write(str(paper[9]))  # citations
     f.write('\n')
 
@@ -233,7 +234,8 @@ def output_papers():
 def output_prof_papers(prof_name):
     #global out, pid_papers
     prof_name = prof_name.replace(" ", "-")
-    f = open("./profs/" + area_prefix + "-" + prof_name + '-papers.csv','w')
+    f = open("../cache/profs/" + area_prefix + "-" + prof_name + '-papers.csv','w')
+    # f = open("./profs/" + area_prefix + "-" + prof_name + '-papers.csv','w')
     for url in pid_papers:
         paper= out[url]
         write_paper(f, False, paper)
@@ -294,9 +296,12 @@ def output_profs():
       f3.write('\n')
   f3.close()
 
+# ====
+
 def remove_prof_papers_file(area_prefix, prof_name):
     prof_name = prof_name.replace(" ", "-")
-    file_name = "./profs/" + area_prefix + "-" + prof_name + '-papers.csv'
+    file_name = "../cache/profs/" + area_prefix + "-" + prof_name + '-papers.csv'
+    #file_name = "./profs/" + area_prefix + "-" + prof_name + '-papers.csv'
     if os.path.exists(file_name):
        print "Removing "+ file_name
        os.remove(file_name)
@@ -310,24 +315,28 @@ def file_len(fname):
 def flush_prof_papers(area_prefix, prof_name):
     num_lines = 0
     prof_name = prof_name.replace(" ", "-")
-    file_name = "./profs/" + area_prefix + "-" + prof_name + '-papers.csv'
+    file_name = "../cache/profs/" + area_prefix + "-" + prof_name + '-papers.csv'
+    # file_name = "./profs/" + area_prefix + "-" + prof_name + '-papers.csv'
     if os.path.exists(file_name):
        num_lines = file_len(file_name)
        os.remove(file_name)
     return num_lines
 
 def merge_output_prof_papers(profname):
-    os.chdir("./profs")
+    os.chdir("../cache/profs")
+    #os.chdir("./profs")
     filenames = []
     profname = profname.replace(" ", "-")
     for file in glob.glob("*" + profname + "-papers.csv"):
         filenames.append(file)
     filenames.sort()
-    outfile= open("./search/" + profname + ".csv", 'w')
+    outfile= open("../../data/profs/search/" + profname + ".csv", 'w')
+    #outfile= open("./search/" + profname + ".csv", 'w')
     for fname in filenames:
         with open(fname) as infile:
              outfile.write(infile.read())
-    os.chdir("..")
+    os.chdir("../../data")
+    #os.chdir("..")
 
 def generate_search_box_list():
     os.chdir("./profs/search")
