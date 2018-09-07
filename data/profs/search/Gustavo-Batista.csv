@@ -5,3 +5,6 @@
 2013,ICDM,"Time Series Classification Using Compression Distance of Recurrence Plots.",Diego Furtado Silva; Vinícius M. A. de Souza; Gustavo E. A. P. A. Batista,https://doi.org/10.1109/ICDM.2013.128,null,C,no_arxiv,12
 2013,KDD,"DTW-D: time series semi-supervised learning from a single example.",Yanping Chen 0005; Bing Hu 0001; Eamonn J. Keogh; Gustavo E. A. P. A. Batista,http://doi.acm.org/10.1145/2487575.2487633,top,C,no_arxiv,21
 2013,ECML/PKDD,"Influence of Graph Construction on Semi-supervised Learning.",Celso André R. de Sousa; Solange O. Rezende; Gustavo E. A. P. A. Batista,https://doi.org/10.1007/978-3-642-40994-3_11,null,C,no_arxiv,20
+2016,ICPR,"Constrained Local and Global Consistency for semi-supervised learning.",Celso André R. de Sousa; Gustavo E. A. P. A. Batista,https://doi.org/10.1109/ICPR.2016.7899879,null,C,no_arxiv,0
+2014,ICPR,"Extracting Texture Features for Time Series Classification.",Vinícius M. A. de Souza; Diego Furtado Silva; Gustavo E. A. P. A. Batista,https://doi.org/10.1109/ICPR.2014.254,null,C,no_arxiv,7
+2014,ICPR,"Time Series Transductive Classification on Imbalanced Data Sets: An Experimental Study.",Celso André R. de Sousa; Vinícius M. A. de Souza; Gustavo E. A. P. A. Batista,https://doi.org/10.1109/ICPR.2014.649,null,C,no_arxiv,5
