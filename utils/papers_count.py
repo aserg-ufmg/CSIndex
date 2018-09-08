@@ -13,7 +13,7 @@ import time
 
 FIRST_YEAR= 2013
 LAST_YEAR= 2018
-min_paper_size = 4
+min_paper_size = 10
 
 count = 0
 papers = {}
