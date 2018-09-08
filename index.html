@@ -30,7 +30,7 @@
     <script src="libs/jquery-3.3.1.min.js"></script>
 
     <script type="text/javascript">
-       sessionStorage.setItem('corebr_area_prefix', "se");
+       sessionStorage.setItem('corebr_area_prefix', "cs");
     </script>
 
     <script type="text/javascript">
@@ -43,7 +43,7 @@
                   (corebr_area_prefix === "is") || (corebr_area_prefix === "cse") ||
                   (corebr_area_prefix === "vision") ) {
                 document.getElementById('charts-frame').contentWindow.location.replace("charts2.html");
-             } else if (corebr_area_prefix === "or") {
+             } else if ( (corebr_area_prefix === "cs") || (corebr_area_prefix === "or") ){
                 document.getElementById('charts-frame').contentWindow.location.replace("charts3.html");
              }
              else {
@@ -137,7 +137,11 @@ Most cited software engineering papers authored by Brazilian professors</a>.
 <div class="col-sm-3" style="background-color:WhiteSmoke;">
 
 <div class="radio">
-<label><input type="radio" name="research_area_btn" value="se" checked> Software Engineering <small>(J)</small></label>
+<label><input type="radio" name="research_area_btn" value="cs" checked> Computer Science (General) <small>(J)</small></label>
+</div>
+
+<div class="radio">
+<label><input type="radio" name="research_area_btn" value="se"> Software Engineering <small>(J)</small></label>
 </div>
 
 <div class="radio">
@@ -193,7 +197,7 @@ Most cited software engineering papers authored by Brazilian professors</a>.
 </div>
 
 <div class="radio">
-<label><input type="radio" name="research_area_btn" value="or"> Operational Research <small>(J) <b>[NEW]</b></small></label>
+<label><input type="radio" name="research_area_btn" value="or"> Operational Research <small>(J)</small></label>
 </div>
 
 <div class="radio">
@@ -217,7 +221,7 @@ Most cited software engineering papers authored by Brazilian professors</a>.
 </div>
 
 <div class="col-sm-9">
-<iframe name="frame-results" id="charts-frame" height=600 width=820 src="charts2.html">
+<iframe name="frame-results" id="charts-frame" height=600 width=820 src="charts3.html">
 </iframe>
 </div>
 
