@@ -2,3 +2,4 @@ cache/*
 utils/*.csv
 utils/*.txt
 utils/*.gz
+utils/data/*.*
