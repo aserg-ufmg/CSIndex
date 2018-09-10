@@ -3,6 +3,7 @@ import sys
 import requests
 import time
 
+start_time = time.time()
 reader = csv.reader(open("all-researchers.csv", 'r'))
 count = 1;
 for researcher in reader:
@@ -13,12 +14,14 @@ for researcher in reader:
     prof = prof.replace(" ", "-")
     file = '../cache/dblp/' + prof + '.xml'
     try:
-      url = "http://dblp.org/pid/" + pid + ".xml"
-      bibfile = requests.get(url).text
-      with open(file, 'w') as f:
-           f.write(bibfile)
+       url = "http://dblp.org/pid/" + pid + ".xml"
+       bibfile = requests.get(url).text
+       with open(file, 'w') as f:
+            f.write(bibfile)
     except requests.exceptions.RequestException as e:
-      print e
-      sys.exit(1)
-    time.sleep(3)
+       print e
+       sys.exit(1)
+    time.sleep(4)
     count = count + 1;
+elapsed_time = (time.time() - start_time) / 60
+print "Elapsed time (min): " + elapsed_time
