@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
 
-
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -42,33 +41,32 @@
 		google.charts.setOnLoadCallback(drawChartConfs);
 		google.charts.setOnLoadCallback(drawChartDepts);
 		google.charts.setOnLoadCallback(drawChartProfs);
-        google.charts.setOnLoadCallback(drawTablePapers);
-        google.charts.setOnLoadCallback(drawTableStats);
+    google.charts.setOnLoadCallback(drawTablePapers);
+    google.charts.setOnLoadCallback(drawTableStats);
 
 		corebr_area_prefix= sessionStorage.getItem('corebr_area_prefix');
 		ga('send', 'event', 'Research Area Click', corebr_area_prefix);
 		var corebr_confs_file  = "data/" + corebr_area_prefix + "-out-confs.csv";
 		var corebr_depts_file  = "data/" + corebr_area_prefix + "-out-scores.csv";
 		var corebr_profs_file  = "data/" + corebr_area_prefix + "-out-profs.csv";
-	    var corebr_papers_file = "data/" + corebr_area_prefix + "-out-papers.csv";
-	    var corebr_stats_file  = "data/" + corebr_area_prefix + "-out-stats.csv";
+	  var corebr_papers_file = "data/" + corebr_area_prefix + "-out-papers.csv";
+	  var corebr_stats_file  = "data/" + corebr_area_prefix + "-out-stats.csv";
 
 		function drawChartConfs() {
 		  $.get(corebr_confs_file, function(csvString) {
-		  var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
-		  var data= new google.visualization.DataTable();
-		  data.addColumn('string', 'Conferences');
-		  data.addColumn('number', 'Papers');
-		  data.addRows(arrayData);
-
-		  var view = new google.visualization.DataView(data);
-		  view.setColumns([0, 1,
+		       var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
+		       var data= new google.visualization.DataTable();
+		       data.addColumn('string', 'Conferences');
+		       data.addColumn('number', 'Papers');
+		       data.addRows(arrayData);
+		       var view = new google.visualization.DataView(data);
+		       view.setColumns([0, 1,
 						   { calc: "stringify",
 							 sourceColumn: 1,
 							 type: "string",
 							 role: "annotation" },
 						  ]);
-		  var options = { 'width': 800,
+		       var options = { 'width': 800,
 						  'height': 500,
 						  'fontSize': 12,
 						  'legend': { position: "none" },
@@ -79,29 +77,26 @@
 						  'titleTextStyle': { bold: false },
 						  'title': 'Number of full papers by Brazilian professors in tracked conferences (2013-2018)'
 						};
-
-		  var chart = new google.visualization.ColumnChart(document.getElementById('chart_confs'));
-		  chart.draw(view, options);
+		        var chart = new google.visualization.ColumnChart(document.getElementById('chart_confs'));
+		        chart.draw(view, options);
 		  });
 		}
 
 		function drawChartDepts() {
 		  $.get(corebr_depts_file, function(csvString) {
-		  var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
-		  var data= new google.visualization.DataTable();
-		  data.addColumn('string', 'Departments');
-		  data.addColumn('number', 'Score');
-		  data.addRows(arrayData);
-
-		  var view = new google.visualization.DataView(data);
-		  view.setColumns([0, 1,
+		       var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
+		       var data= new google.visualization.DataTable();
+		       data.addColumn('string', 'Departments');
+		       data.addColumn('number', 'Score');
+		       data.addRows(arrayData);
+		       var view = new google.visualization.DataView(data);
+		       view.setColumns([0, 1,
 						   { calc: "stringify",
 							 sourceColumn: 1,
 							 type: "string",
 							 role: "annotation" },
 						  ]);
-
-		  var options = { 'width': 800,
+		       var options = { 'width': 800,
 						  'height': 500,
 						  'fontSize': 12,
 						  'legend': { position: "none" },
@@ -111,28 +106,26 @@
 						  'titleTextStyle': { bold: false },
 						  'title': 'Score= A + (0.66 * B) + (0.33 * C), where A= papers in top confs; B= papers in "near-the-top" confs; C= papers in other confs'
 					     };
-
-		  var chart = new google.visualization.ColumnChart(document.getElementById('chart_depts'));
-		  chart.draw(view, options);
+		       var chart = new google.visualization.ColumnChart(document.getElementById('chart_depts'));
+		       chart.draw(view, options);
 		  });
 		}
 
 		function drawChartProfs() {
 		  $.get(corebr_profs_file, function(csvString) {
-		  var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
-		  var data= new google.visualization.DataTable();
-		  data.addColumn('string', 'Departments');
-		  data.addColumn('number', 'Profs');
-		  data.addRows(arrayData);
-
-		  var view = new google.visualization.DataView(data);
-		  view.setColumns([0, 1,
+		       var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
+		       var data= new google.visualization.DataTable();
+		       data.addColumn('string', 'Departments');
+		       data.addColumn('number', 'Profs');
+		       data.addRows(arrayData);
+		       var view = new google.visualization.DataView(data);
+		       view.setColumns([0, 1,
 						   { calc: "stringify",
 							 sourceColumn: 1,
 							 type: "string",
 							 role: "annotation" },
 						  ]);
-		  var options = { 'width': 800,
+		       var options = { 'width': 800,
 						  'height': 500,
 						  'fontSize': 12,
 						  'legend': { position: "none" },
@@ -142,99 +135,97 @@
 						  'titleTextStyle': { bold: false },
 						  'title': 'Number of faculty members with full papers in tracked conferences (2013-2018)'
 						};
-
-		  var chart = new google.visualization.ColumnChart(document.getElementById('chart_profs'));
-		  chart.draw(view, options);
+		        var chart = new google.visualization.ColumnChart(document.getElementById('chart_profs'));
+		        chart.draw(view, options);
 		  });
 		}
 
 		function drawTablePapers() {
 		  $.get(corebr_papers_file, function(csvString) {
-		  var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
-		  arrayData2 = [];
-		  for (var i = 0; i < arrayData.length; i++) {
-		      if (arrayData[i][8] == "no_arxiv") {
-		          arrayData[i][8] = "";
-		      } else {
-		          arrayData[i][8] = "<a href=\"" + arrayData[i][8] + "\" target=\"_blank\" onclick=\"trackOutboundLink(this.href); return false;\">[arxiv]</a>";
+		       var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
+		       arrayData2 = [];
+		       for (var i = 0; i < arrayData.length; i++) {
+		           if (arrayData[i][8] == "no_arxiv") {
+		              arrayData[i][8] = "";
+		           } else {
+		              arrayData[i][8] = "<a href=\"" + arrayData[i][8] + "\" target=\"_blank\" onclick=\"trackOutboundLink(this.href); return false;\">[arxiv]</a>";
 		          // "<a href=\"" + arrayData[i][8] + "\" target=\"_blank\">[arxiv]</a>";
-		      }
-		      arrayData2.push(arrayData[i]);
-		  }
-		  var data= new google.visualization.DataTable();
-		  data.addColumn('number', 'Year');  // 0
-		  data.addColumn('string', 'Venue');  // 1
-		  data.addColumn('string', 'Title');  // 2
-		  data.addColumn('string', 'Depts'); // 3
-		  data.addColumn('string', 'Authors');  // 4
-		  data.addColumn('string', 'DOI'); // 5
-		  data.addColumn('string', 'top'); // 6
-		  data.addColumn('string', 'Type'); // 7
-		  data.addColumn('string', 'arxiv'); // 8 - type={no_arxiv,arxiv_url}
-      data.addColumn('number', 'Citations'); // 9 - citations
+		           }
+		           arrayData2.push(arrayData[i]);
+		       }
+		       var data= new google.visualization.DataTable();
+		       data.addColumn('number', 'Year');  // 0
+		       data.addColumn('string', 'Venue');  // 1
+		       data.addColumn('string', 'Title');  // 2
+		       data.addColumn('string', 'Depts'); // 3
+		       data.addColumn('string', 'Authors');  // 4
+		       data.addColumn('string', 'DOI'); // 5
+		       data.addColumn('string', 'top'); // 6
+		       data.addColumn('string', 'Type'); // 7
+		       data.addColumn('string', 'arxiv'); // 8 - type={no_arxiv,arxiv_url}
+           data.addColumn('number', 'Citations'); // 9 - citations
 
-		  data.addRows(arrayData2);
+		       data.addRows(arrayData2);
 
-		  var table = new google.visualization.Table(document.getElementById('chart_papers'));
+		       var table = new google.visualization.Table(document.getElementById('chart_papers'));
 
-		  var formatter = new google.visualization.NumberFormat( {pattern: '####'} );
-          formatter.format(data, 0); // format year
+		       var formatter = new google.visualization.NumberFormat( {pattern: '####'} );
+           formatter.format(data, 0); // format year
 
-          var formatter = new google.visualization.PatternFormat(
+           var formatter = new google.visualization.PatternFormat(
                '{0} <a href="{1}" onclick="trackOutboundLink(this.href); return false;">[doi]</a> {2}');
-          formatter.format(data, [2, 5, 8]);
+           formatter.format(data, [2, 5, 8]);
 
-          var formatter2 = new google.visualization.PatternFormat('<img src="figs/{1}.gif">{0}');
-          formatter2.format(data, [2, 6]);
+           var formatter2 = new google.visualization.PatternFormat('<img src="figs/{1}.gif">{0}');
+           formatter2.format(data, [2, 6]);
 
-          var view = new google.visualization.DataView(data);
-          view.setColumns([0,1,2,3,4,9]);
+           var view = new google.visualization.DataView(data);
+           view.setColumns([0,1,2,3,4,9]);
 
-          var table2= view.toDataTable();
-          table2.sort({column: 5, desc: true});
-
-		  table.draw(table2, {allowHtml: true, showRowNumber: true, width: '100%', height: '550'});
+           var table2 = view.toDataTable();
+           table2.sort({column: 5, desc: true});
+		       table.draw(table2, {allowHtml: true, showRowNumber: true, width: '100%', height: '550'});
 		  });
 		}
 
 		function drawTableStats() {
 		  $.get(corebr_stats_file, function(csvString) {
-		  var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
-		  var data= new google.visualization.DataTable();
-		  data.addColumn('string', 'Conference'); // 0
-		  data.addColumn('string', 'Sponsor');  // 1
-		  data.addColumn('number', 'Submitted'); // 2
-		  data.addColumn('number', 'Accepted'); // 3
-		  data.addColumn('number', 'Rate'); // 4
-		  data.addColumn('number', 'h5-index'); // 5
-		  data.addColumn('string', 'Rank'); // 6
-		  data.addColumn('number', 'Pages'); //7
-		  data.addRows(arrayData);
+		       var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
+		       var data= new google.visualization.DataTable();
+		       data.addColumn('string', 'Conference'); // 0
+		       data.addColumn('string', 'Sponsor');  // 1
+		       data.addColumn('number', 'Submitted'); // 2
+		       data.addColumn('number', 'Accepted'); // 3
+		       data.addColumn('number', 'Rate'); // 4
+		       data.addColumn('number', 'h5-index'); // 5
+		       data.addColumn('string', 'Rank'); // 6
+		       data.addColumn('number', 'Pages'); //7
+		       data.addRows(arrayData);
 
-		  var table = new google.visualization.Table(document.getElementById('chart_stats'));
+		       var table = new google.visualization.Table(document.getElementById('chart_stats'));
 
-		  var formatter1 = new google.visualization.ColorFormat();
-          formatter1.addRange(50, 90, 'black', 'LemonChiffon');
-          formatter1.addRange(0, 50, 'black', 'Khaki');
-          formatter1.format(data, 2); // Apply formatter to submitted papers
+		       var formatter1 = new google.visualization.ColorFormat();
+           formatter1.addRange(50, 90, 'black', 'LemonChiffon');
+           formatter1.addRange(0, 50, 'black', 'Khaki');
+           formatter1.format(data, 2); // Apply formatter to submitted papers
 
 
-          var formatter2 = new google.visualization.ColorFormat();
-          formatter2.addRange(31, 40, 'black', 'LemonChiffon');
-          formatter2.addRange(40, 100, 'black', 'Khaki');
-          formatter2.format(data, 4);
+           var formatter2 = new google.visualization.ColorFormat();
+           formatter2.addRange(31, 40, 'black', 'LemonChiffon');
+           formatter2.addRange(40, 100, 'black', 'Khaki');
+           formatter2.format(data, 4);
 
-		  var formatter3 = new google.visualization.ColorFormat();
-          formatter3.addRange(15, 19, 'black', 'LemonChiffon');
-          formatter3.addRange(0, 15, 'black', 'Khaki');
-          formatter3.format(data, 5);
+		       var formatter3 = new google.visualization.ColorFormat();
+           formatter3.addRange(15, 19, 'black', 'LemonChiffon');
+           formatter3.addRange(0, 15, 'black', 'Khaki');
+           formatter3.format(data, 5);
 
-		  var formatter4 = new google.visualization.ColorFormat();
-          formatter4.addRange(0, 9, 'black', 'LemonChiffon');
-          formatter4.format(data, 7);
+		       var formatter4 = new google.visualization.ColorFormat();
+           formatter4.addRange(0, 9, 'black', 'LemonChiffon');
+           formatter4.format(data, 7);
 
-		  var view = new google.visualization.DataView(data);
-          view.setColumns([
+		       var view = new google.visualization.DataView(data);
+           view.setColumns([
                0,1,2,3,4,5,
                { type: 'number',
                  label: 'Norm h5',
@@ -244,14 +235,13 @@
                        }
                },6,7]);
 
-          var table2= view.toDataTable();
+           var table2 = view.toDataTable();
 
-          var formatter5 = new google.visualization.ColorFormat();
-          formatter5.addRange(0, 0.25, 'black', 'LemonChiffon');
-          formatter5.format(table2, 6);
+           var formatter5 = new google.visualization.ColorFormat();
+           formatter5.addRange(0, 0.25, 'black', 'LemonChiffon');
+           formatter5.format(table2, 6);
 
-		  table.draw(table2, {allowHtml: true, showRowNumber: true, width: '100%', height: '100%'});
-
+		       table.draw(table2, {allowHtml: true, showRowNumber: true, width: '100%', height: '100%'});
 		  });
 		}
     </script>
@@ -307,7 +297,6 @@
 </div>
 
 </div>
-
 
 <script src="libs/popper.min.js"> </script>
 <script src="libs/bootstrap.min.js"> </script>

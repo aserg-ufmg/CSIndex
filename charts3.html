@@ -56,20 +56,20 @@
 
 		function drawChartJournals() {
 		  $.get(corebr_journals_file, function(csvString) {
-		  var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
-		  var data= new google.visualization.DataTable();
-		  data.addColumn('string', 'Journals');
-		  data.addColumn('number', 'Papers');
-		  data.addRows(arrayData);
+		       var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
+		       var data= new google.visualization.DataTable();
+		       data.addColumn('string', 'Journals');
+		       data.addColumn('number', 'Papers');
+		       data.addRows(arrayData);
 
-		  var view = new google.visualization.DataView(data);
-		  view.setColumns([0, 1,
+		       var view = new google.visualization.DataView(data);
+		       view.setColumns([0, 1,
 						   { calc: "stringify",
 							 sourceColumn: 1,
 							 type: "string",
 							 role: "annotation" },
 						  ]);
-		  var options = { 'width': 800,
+		       var options = { 'width': 800,
 						  'height': 500,
 						  'fontSize': 12,
 						  'legend': { position: "none" },
@@ -80,9 +80,8 @@
 						  'titleTextStyle': { bold: false },
 						  'title': 'Number of papers by Brazilian professors in tracked journals (2013-2018)'
 						};
-
-		  var chart = new google.visualization.ColumnChart(document.getElementById('chart_journals'));
-		  chart.draw(view, options);
+		        var chart = new google.visualization.ColumnChart(document.getElementById('chart_journals'));
+		        chart.draw(view, options);
 		  });
 		}
 
@@ -120,20 +119,19 @@
 
 		function drawChartProfs() {
 		  $.get(corebr_profs_file, function(csvString) {
-		  var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
-		  var data= new google.visualization.DataTable();
-		  data.addColumn('string', 'Departments');
-		  data.addColumn('number', 'Profs');
-		  data.addRows(arrayData);
-
-		  var view = new google.visualization.DataView(data);
-		  view.setColumns([0, 1,
+		       var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
+		       var data= new google.visualization.DataTable();
+		       data.addColumn('string', 'Departments');
+		       data.addColumn('number', 'Profs');
+		       data.addRows(arrayData);
+		       var view = new google.visualization.DataView(data);
+		       view.setColumns([0, 1,
 						   { calc: "stringify",
 							 sourceColumn: 1,
 							 type: "string",
 							 role: "annotation" },
 						  ]);
-		  var options = { 'width': 800,
+		       var options = { 'width': 800,
 						  'height': 500,
 						  'fontSize': 12,
 						  'legend': { position: "none" },
@@ -142,65 +140,64 @@
 						  'annotations': { alwaysOutside:true },
 						  'titleTextStyle': { bold: false },
 						  'title': 'Number of faculty members with full papers in tracked conferences (2013-2018)'
-						};
-
-		  var chart = new google.visualization.ColumnChart(document.getElementById('chart_profs'));
-		  chart.draw(view, options);
+					 };
+		       var chart = new google.visualization.ColumnChart(document.getElementById('chart_profs'));
+		       chart.draw(view, options);
 		  });
 		}
 
 		function drawTablePapers(type) {
 		  $.get(corebr_papers_file, function(csvString) {
-		  var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
-		  arrayData2 = [];
-		  for (var i = 0; i < arrayData.length; i++) {
-		      if (arrayData[i][7] == type) {
-		         if (arrayData[i][8] == "no_arxiv") {
-		             arrayData[i][8] = "";
-		         } else {
-		             arrayData[i][8] = "<a href=\"" + arrayData[i][8] + "\" target=\"_blank\" onclick=\"trackOutboundLink(this.href); return false;\">[arxiv]</a>";
-		         }
-		         arrayData2.push(arrayData[i]);
-		      }
-		  }
-		  var data= new google.visualization.DataTable();
-		  data.addColumn('number', 'Year');  // 0
-		  data.addColumn('string', 'Venue');  // 1
-		  data.addColumn('string', 'Title');  // 2
-		  data.addColumn('string', 'Depts'); // 3
-		  data.addColumn('string', 'Authors');  // 4
-		  data.addColumn('string', 'DOI'); // 5
-		  data.addColumn('string', 'top'); // 6
-		  data.addColumn('string', ''); // 7 - type={C,J}
-		  data.addColumn('string', ''); // 8 - type={no_arxiv,arxiv_url}
-      data.addColumn('number', 'Citations'); // 9 - citations
+		       var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
+		       arrayData2 = [];
+    		   for (var i = 0; i < arrayData.length; i++) {
+    		       if (arrayData[i][7] == type) {
+    		          if (arrayData[i][8] == "no_arxiv") {
+    		              arrayData[i][8] = "";
+    		          } else {
+    		              arrayData[i][8] = "<a href=\"" + arrayData[i][8] + "\" target=\"_blank\" onclick=\"trackOutboundLink(this.href); return false;\">[arxiv]</a>";
+    		          }
+    		          arrayData2.push(arrayData[i]);
+    		       }
+    		   }
+    		   var data= new google.visualization.DataTable();
+    		   data.addColumn('number', 'Year');  // 0
+    		   data.addColumn('string', 'Venue');  // 1
+    		   data.addColumn('string', 'Title');  // 2
+    		   data.addColumn('string', 'Depts'); // 3
+    		   data.addColumn('string', 'Authors');  // 4
+    		   data.addColumn('string', 'DOI'); // 5
+    		   data.addColumn('string', 'top'); // 6
+    		   data.addColumn('string', ''); // 7 - type={C,J}
+    		   data.addColumn('string', ''); // 8 - type={no_arxiv,arxiv_url}
+           data.addColumn('number', 'Citations'); // 9 - citations
 
-		  data.addRows(arrayData2);
+    		   data.addRows(arrayData2);
 
-		  if (type == "C") {
-		     var table = new google.visualization.Table(document.getElementById('chart_papers_conf'));
-		  } else {
-		    var table = new google.visualization.Table(document.getElementById('chart_papers_journal'));
-      }
+    		   if (type == "C") {
+    		      var table = new google.visualization.Table(document.getElementById('chart_papers_conf'));
+    		   } else {
+    		      var table = new google.visualization.Table(document.getElementById('chart_papers_journal'));
+           }
 
-		  var formatter = new google.visualization.NumberFormat( {pattern: '####'} );
-      formatter.format(data, 0); // format year
+    		   var formatter = new google.visualization.NumberFormat( {pattern: '####'} );
+           formatter.format(data, 0); // format year
 
-      var formatter = new google.visualization.PatternFormat(
-               '{0} <a href="{1}" onclick="trackOutboundLink(this.href); return false;">[doi]</a> {2}');
-      formatter.format(data, [2, 5, 8]);
+           var formatter = new google.visualization.PatternFormat(
+                   '{0} <a href="{1}" onclick="trackOutboundLink(this.href); return false;">[doi]</a> {2}');
+           formatter.format(data, [2, 5, 8]);
 
-      var formatter2 = new google.visualization.PatternFormat('<img src="figs/{1}.gif">{0}');
-      formatter2.format(data, [2, 6]);
+           var formatter2 = new google.visualization.PatternFormat('<img src="figs/{1}.gif">{0}');
+           formatter2.format(data, [2, 6]);
 
-      var view = new google.visualization.DataView(data);
-      view.setColumns([0,1,2,3,4,9]);
+           var view = new google.visualization.DataView(data);
+           view.setColumns([0,1,2,3,4,9]);
 
-      var table2= view.toDataTable();
-      table2.sort({column: 5, desc: true});
+           var table2= view.toDataTable();
+           table2.sort({column: 5, desc: true});
 
-		  table.draw(table2, {allowHtml: true, showRowNumber: true, width: '100%', height: '550'});
-		  });
+    		   table.draw(table2, {allowHtml: true, showRowNumber: true, width: '100%', height: '550'});
+    	});
 		}
 
 
@@ -211,38 +208,36 @@
 
 		function drawTableStatsJournals() {
 		  $.get(corebr_stats_journals_file, function(csvString) {
-		  var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
-		  var data= new google.visualization.DataTable();
-		  data.addColumn('string', 'Journal'); // 0
-		  data.addColumn('string', 'Publisher');  // 1
-		  data.addColumn('number', 'Accepted <small>(2017)</small>'); // 2
-		  data.addColumn('number', 'h5-index'); // 3
-		  data.addColumn('string', 'Rank'); // 4
-		  data.addColumn('number', 'Pages'); // 5
-		  data.addRows(arrayData);
+    		   var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
+    		   var data= new google.visualization.DataTable();
+    		   data.addColumn('string', 'Journal'); // 0
+    		   data.addColumn('string', 'Publisher');  // 1
+    		   data.addColumn('number', 'Accepted <small>(2017)</small>'); // 2
+    		   data.addColumn('number', 'h5-index'); // 3
+    		   data.addColumn('string', 'Rank'); // 4
+    		   data.addColumn('number', 'Pages'); // 5
+    		   data.addRows(arrayData);
 
-		  var table = new google.visualization.Table(document.getElementById('chart_stats_journals'));
+    		   var table = new google.visualization.Table(document.getElementById('chart_stats_journals'));
 
-		  var view = new google.visualization.DataView(data);
-          view.setColumns([
-               0,1,2,3,
-               { type: 'number',
-                 label: 'Norm h5',
-                 calc: function(dataTable, rowNum){
-                          r = dataTable.getValue(rowNum, 3) / dataTable.getValue(rowNum, 2);
-                          return Math.round(r * 100) / 100;
-                       }
-               },4,5]);
+    		   var view = new google.visualization.DataView(data);
+           view.setColumns([
+                   0,1,2,3,
+                   { type: 'number',
+                     label: 'Norm h5',
+                     calc: function(dataTable, rowNum){
+                              r = dataTable.getValue(rowNum, 3) / dataTable.getValue(rowNum, 2);
+                              return Math.round(r * 100) / 100;
+                           }
+                   },4,5]);
 
-          var table2= view.toDataTable();
-          table2.sort({column: 4, desc: true});
+           var table2= view.toDataTable();
+           table2.sort({column: 4, desc: true});
 
-          var formatter5 = new google.visualization.ColorFormat();
-          formatter5.addRange(0, 0.3, 'black', 'LemonChiffon');
-          formatter5.format(table2, 4);
-
-		  table.draw(table2, {allowHtml: true, showRowNumber: true, width: '100%', height: '100%'});
-
+           var formatter5 = new google.visualization.ColorFormat();
+           formatter5.addRange(0, 0.3, 'black', 'LemonChiffon');
+           formatter5.format(table2, 4);
+    		  table.draw(table2, {allowHtml: true, showRowNumber: true, width: '100%', height: '100%'});
 		  });
 		}
     </script>

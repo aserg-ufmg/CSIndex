@@ -40,56 +40,54 @@
 
 		google.charts.setOnLoadCallback(drawTablePapers);
 
-        var corebr_author= sessionStorage.getItem('corebr_author');
+    var corebr_author= sessionStorage.getItem('corebr_author');
 		var corebr_papers_file = "data/profs/search/" + corebr_author + ".csv";
 
 		function drawTablePapers() {
 		  $.get(corebr_papers_file, function(csvString) {
-		  var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
-      arrayData2 = [];
-		  for (var i = 0; i < arrayData.length; i++) {
-		      if (arrayData[i][7] == "no_arxiv") {
-		         arrayData[i][7] = "";
-		      } else {
-		         arrayData[i][7] = "<a href=\"" + arrayData[i][7] + "\" target=\"_blank\" onclick=\"trackOutboundLink(this.href); return false;\">[arxiv]</a>";
-		         }
-		      arrayData2.push(arrayData[i]);
-		  }
+		       var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
+           arrayData2 = [];
+		       for (var i = 0; i < arrayData.length; i++) {
+		           if (arrayData[i][7] == "no_arxiv") {
+		              arrayData[i][7] = "";
+		           } else {
+		              arrayData[i][7] = "<a href=\"" + arrayData[i][7] + "\" target=\"_blank\" onclick=\"trackOutboundLink(this.href); return false;\">[arxiv]</a>";
+		           }
+		           arrayData2.push(arrayData[i]);
+		       }
 
-		  var data= new google.visualization.DataTable();
-		  data.addColumn('number', 'Year'); // 0
-		  data.addColumn('string', 'Venue'); // 1
-		  data.addColumn('string', 'Title'); // 2
-		  // data.addColumn('string', 'Depts');
-		  data.addColumn('string', 'Authors'); // 3
-		  data.addColumn('string', 'DOI');  // 4
-		  data.addColumn('string', 'top');  // 5
-		  data.addColumn('string', 'Type'); // 6
-      data.addColumn('string', ''); // 7 - type={no_arxiv,arxiv_url}
-      data.addColumn('number', 'Citations'); // 8 - citations
+		       var data= new google.visualization.DataTable();
+		       data.addColumn('number', 'Year'); // 0
+		       data.addColumn('string', 'Venue'); // 1
+		       data.addColumn('string', 'Title'); // 2
+		       // data.addColumn('string', 'Depts');
+		       data.addColumn('string', 'Authors'); // 3
+		       data.addColumn('string', 'DOI');  // 4
+		       data.addColumn('string', 'top');  // 5
+		       data.addColumn('string', 'Type'); // 6
+           data.addColumn('string', ''); // 7 - type={no_arxiv,arxiv_url}
+           data.addColumn('number', 'Citations'); // 8 - citations
 
-		  data.addRows(arrayData2);
-	  	data.sort({column: 0, desc: true});
+		       data.addRows(arrayData2);
+	  	     data.sort({column: 0, desc: true});
 
-		  var table = new google.visualization.Table(document.getElementById('author_chart_papers'));
+		       var table = new google.visualization.Table(document.getElementById('author_chart_papers'));
 
-		  var formatter = new google.visualization.NumberFormat( {pattern: '####'} );
-      formatter.format(data, 0); // format year
+		       var formatter = new google.visualization.NumberFormat( {pattern: '####'} );
+           formatter.format(data, 0); // format year
 
-      var formatter = new google.visualization.PatternFormat(
-          '{0} <a href="{1}" onclick="trackOutboundLink(this.href); return false;">[doi]</a> {2}');
-      formatter.format(data, [2,4,7]);
+           var formatter = new google.visualization.PatternFormat(
+               '{0} <a href="{1}" onclick="trackOutboundLink(this.href); return false;">[doi]</a> {2}');
+           formatter.format(data, [2,4,7]);
 
-      var formatter2 = new google.visualization.PatternFormat('<img src="figs/{1}.gif">{0}');
-      formatter2.format(data, [2, 5]);
+           var formatter2 = new google.visualization.PatternFormat('<img src="figs/{1}.gif">{0}');
+           formatter2.format(data, [2, 5]);
 
-      var view = new google.visualization.DataView(data);
-      view.setColumns([0,1,2,3,6,8]);
-
-      var table2= view.toDataTable();
-      table2.sort({column: 5, desc: true});
-
-		  table.draw(table2, {allowHtml: true, showRowNumber: true, width: '100%', height: '100%'});
+           var view = new google.visualization.DataView(data);
+           view.setColumns([0,1,2,3,6,8]);
+           var table2= view.toDataTable();
+           table2.sort({column: 5, desc: true});
+		       table.draw(table2, {allowHtml: true, showRowNumber: true, width: '100%', height: '100%'});
 		  });
 		}
 
