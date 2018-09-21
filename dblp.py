@@ -21,7 +21,7 @@ for researcher in reader:
     except requests.exceptions.RequestException as e:
        print e
        sys.exit(1)
-    time.sleep(4)
+    time.sleep(5)
     count = count + 1;
 elapsed_time = (time.time() - start_time) / 60
-print "Elapsed time (min): " + elapsed_time
+print "Elapsed time (min): " + str(elapsed_time)
