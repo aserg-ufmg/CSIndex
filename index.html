@@ -40,7 +40,7 @@
              sessionStorage.setItem('corebr_area_prefix', corebr_area_prefix);
              document.getElementById('charts-frame').contentWindow.location.reload(true);
              if ( (corebr_area_prefix === "se") || (corebr_area_prefix === "pl")  ||
-                  (corebr_area_prefix === "cse") ||
+                  (corebr_area_prefix === "cse") ||(corebr_area_prefix === "chi") ||
                   (corebr_area_prefix === "vision") ) {
                   document.getElementById('charts-frame').contentWindow.location.replace("charts2.html");
              } else if ( (corebr_area_prefix === "cs") || (corebr_area_prefix === "or") ){
@@ -153,7 +153,7 @@ Most cited software engineering papers authored by Brazilian professors</a>.
 </div>
 
 <div class="radio">
-<label><input type="radio" name="research_area_btn" value="chi"> Human-Computer Interaction</label>
+<label><input type="radio" name="research_area_btn" value="chi"> Human-Computer Interaction <small>(J)</small></label>
 </div>
 
 <div class="radio">
