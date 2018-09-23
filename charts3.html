@@ -234,10 +234,15 @@
            var table2= view.toDataTable();
            table2.sort({column: 4, desc: true});
 
-           var formatter5 = new google.visualization.ColorFormat();
-           formatter5.addRange(0, 0.3, 'black', 'LemonChiffon');
-           formatter5.format(table2, 4);
-    		  table.draw(table2, {allowHtml: true, showRowNumber: true, width: '100%', height: '100%'});
+           var formatter1 = new google.visualization.ColorFormat();
+           formatter1.addRange(0, 0.3, 'black', 'LemonChiffon');
+           formatter1.format(table2, 4);
+
+           var formatter2 = new google.visualization.ColorFormat();
+           formatter2.addRange(366, null, 'black', 'Khaki');
+           formatter2.format(table2, 2);
+
+    		   table.draw(table2, {allowHtml: true, showRowNumber: true, width: '100%', height: '100%'});
 		  });
 		}
     </script>
