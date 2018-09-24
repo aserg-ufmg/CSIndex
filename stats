@@ -46,13 +46,6 @@ papers_pl_journals=$(cat temp.csv | awk '/J$/ { print $2 }' | wc -l)
 papers_top_pl=$(cat temp.csv | awk '/^top/ { print $1 }' | wc -l)
 rm temp.csv
 
-python ../utils/get2col.py is-out-papers.csv 6 7 > temp.csv
-papers_is=$(wc -l temp.csv | awk '{print $1}')
-papers_is_confs=$(cat temp.csv | awk '/C$/ { print $2 }' | wc -l)
-papers_is_journals=$(cat temp.csv | awk '/J$/ { print $2 }' | wc -l)
-papers_top_is=$(cat temp.csv | awk '/^top/ { print $1 }' | wc -l)
-rm temp.csv
-
 python ../utils/get2col.py cse-out-papers.csv 6 7 > temp.csv
 papers_cse=$(wc -l temp.csv | awk '{print $1}')
 papers_cse_confs=$(cat temp.csv | awk '/C$/ { print $2 }' | wc -l)
@@ -81,42 +74,45 @@ papers_cs_journals=$(cat temp.csv | awk '/J$/ { print $2 }' | wc -l)
 papers_top_cs=$(cat temp.csv | awk '/^top/ { print $1 }' | wc -l)
 rm temp.csv
 
-papers_is=$(wc -l is-out-papers.csv | awk '{print $1}')
+python ../utils/get2col.py chi-out-papers.csv 6 7 > temp.csv
+papers_chi=$(wc -l temp.csv | awk '{print $1}')
+papers_chi_confs=$(cat temp.csv | awk '/C$/ { print $2 }' | wc -l)
+papers_chi_journals=$(cat temp.csv | awk '/J$/ { print $2 }' | wc -l)
+papers_top_chi=$(cat temp.csv | awk '/^top/ { print $1 }' | wc -l)
+rm temp.csv
+
+python ../utils/get2col.py dbis-out-papers.csv 6 7 > temp.csv
+papers_dbis=$(wc -l temp.csv | awk '{print $1}')
+papers_dbis_confs=$(cat temp.csv | awk '/C$/ { print $2 }' | wc -l)
+papers_dbis_journals=$(cat temp.csv | awk '/J$/ { print $2 }' | wc -l)
+papers_top_dbis=$(cat temp.csv | awk '/^top/ { print $1 }' | wc -l)
+rm temp.csv
+
 papers_pl=$(wc -l pl-out-papers.csv | awk '{print $1}')
-papers_chi=$(wc -l chi-out-papers.csv | awk '{print $1}')
 papers_net=$(wc -l net-out-papers.csv | awk '{print $1}')
 papers_mobile=$(wc -l mobile-out-papers.csv | awk '{print $1}')
 papers_ds=$(wc -l ds-out-papers.csv | awk '{print $1}')
 papers_ir=$(wc -l ir-out-papers.csv | awk '{print $1}')
 papers_data=$(wc -l data-out-papers.csv | awk '{print $1}')
 papers_ai=$(wc -l ai-out-papers.csv | awk '{print $1}')
-papers_db=$(wc -l db-out-papers.csv | awk '{print $1}')
 papers_arch=$(wc -l arch-out-papers.csv | awk '{print $1}')
 papers_theory=$(wc -l theory-out-papers.csv | awk '{print $1}')
 papers_formal=$(wc -l formal-out-papers.csv | awk '{print $1}')
 papers_security=$(wc -l security-out-papers.csv | awk '{print $1}')
-papers_vision=$(wc -l vision-out-papers.csv | awk '{print $1}')
 papers_robotics=$(wc -l robotics-out-papers.csv | awk '{print $1}')
-papers_cse=$(wc -l cse-out-papers.csv | awk '{print $1}')
 
-#papers_top_se=$(python ../utils/getcol.py se-out-papers.csv 6 | awk ' /top$/ {print $1}' | wc -l)
-papers_top_is=$(python ../utils/getcol.py is-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
 papers_top_pl=$(python ../utils/getcol.py pl-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
-papers_top_chi=$(python ../utils/getcol.py chi-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
 papers_top_net=$(python ../utils/getcol.py net-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
 papers_top_mobile=$(python ../utils/getcol.py mobile-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
 papers_top_ds=$(python ../utils/getcol.py ds-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
 papers_top_ir=$(python ../utils/getcol.py ir-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
 papers_top_data=$(python ../utils/getcol.py data-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
 papers_top_ai=$(python ../utils/getcol.py ai-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
-papers_top_db=$(python ../utils/getcol.py db-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
 papers_top_arch=$(python ../utils/getcol.py arch-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
 papers_top_theory=$(python ../utils/getcol.py theory-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
 papers_top_formal=$(python ../utils/getcol.py formal-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
 papers_top_security=$(python ../utils/getcol.py security-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
-papers_top_vision=$(python ../utils/getcol.py vision-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
 papers_top_robotics=$(python ../utils/getcol.py robotics-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
-papers_top_cse=$(python ../utils/getcol.py cse-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
 
 
 rm allpapers.csv
@@ -154,7 +150,8 @@ echo '<ul>'
 echo '<li>Computer Science (general):' $papers_cs '/' $papers_cs_confs '/' $papers_cs_journals '/' $papers_top_cs
 echo '<li>Software Engineering:' $papers_se '/' $papers_se_confs '/' $papers_se_journals '/' $papers_top_se
 echo '<li>Programming Languages:' $papers_pl '/' $papers_pl_confs '/' $papers_pl_journals '/' $papers_top_pl
-echo '<li>Information Systems:' $papers_is '/' $papers_is_confs '/' $papers_is_journals '/' $papers_top_is
+echo '<li>Human-Computer Interaction:' $papers_chi '/' $papers_chi_confs '/' $papers_chi_journals '/' $papers_top_chi
+echo '<li>Databases & Information Systems:' $papers_dbis '/' $papers_dbis_confs '/' $papers_dbis_journals '/' $papers_top_dbis
 echo '<li>Computing Education:' $papers_cse '/' $papers_cse_confs '/' $papers_cse_journals '/' $papers_top_cse
 echo '<li>Computer Vision:' $papers_vision '/' $papers_vision_confs '/' $papers_vision_journals '/' $papers_top_vision
 echo '<li>Operational Research:' $papers_or '/' $papers_or_confs '/' $papers_or_journals '/' $papers_top_or
@@ -162,12 +159,10 @@ echo '</ul>'
 
 echo '<li> Papers per research area (all papers / papers in top-conferences):'
 echo '<ul>'
-echo '<li>Human-Computer Interaction:' $papers_chi '/' $papers_top_chi
 echo '<li>Computer Networks:' $papers_net '/' $papers_top_net
 echo '<li>Mobile Computing:' $papers_mobile '/' $papers_top_mobile
 echo '<li>Distributed Systems:' $papers_ds  '/' $papers_top_ds
 echo '<li>Computer Architecture & HPC:' $papers_arch '/' $papers_top_arch
-echo '<li>Databases:' $papers_db '/' $papers_top_db
 echo '<li>Web & Information Retrieval:' $papers_ir '/' $papers_top_ir
 echo '<li>Data Mining & Machine Learning:' $papers_data '/' $papers_top_data
 echo '<li>Artificial Intelligence:' $papers_ai '/' $papers_top_ai
