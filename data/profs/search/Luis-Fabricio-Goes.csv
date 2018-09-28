@@ -1,1 +1,4 @@
+2015,Concurrency and Computation,"PSkel: A stencil programming framework for CPU-GPU systems.",Alyson D. Pereira; Luiz Eduardo da Silva Ramos; Luís Fabrício Wanderley Góes,https://doi.org/10.1002/cpe.3479,null,J,no_arxiv,10
+2014,Int. J. Parallel Programming,"Automatic Skeleton-Driven Memory Affinity for Transactional Worklist Applications.",Luís Fabrício Wanderley Góes; Christiane Pousa Ribeiro; Márcio Bastos Castro; Jean-François Méhaut; Murray Cole; Marcelo Cintra,https://doi.org/10.1007/s10766-013-0253-x,null,J,no_arxiv,0
+2014,J. Parallel Distrib. Comput.,"Adaptive thread mapping strategies for transactional memory applications.",Márcio Bastos Castro; Luís Fabrício Wanderley Góes; Jean-François Méhaut,https://doi.org/10.1016/j.jpdc.2014.05.008,null,J,no_arxiv,6
 2018,CGO,"Look-ahead SLP: auto-vectorization in the presence of commutative operations.",Vasileios Porpodas; Rodrigo C. O. Rocha; Luís F. W. Góes,http://doi.acm.org/10.1145/3168807,null,C,no_arxiv,0

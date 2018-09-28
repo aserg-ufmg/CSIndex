@@ -41,7 +41,8 @@
              document.getElementById('charts-frame').contentWindow.location.reload(true);
              if ( (corebr_area_prefix === "se") || (corebr_area_prefix === "pl")  ||
                   (corebr_area_prefix === "cse") || (corebr_area_prefix === "chi") ||
-                  (corebr_area_prefix === "vision") || (corebr_area_prefix === "dbis") ) {
+                  (corebr_area_prefix === "vision") || (corebr_area_prefix === "dbis") ||
+                  (corebr_area_prefix === "arch")) {
                   document.getElementById('charts-frame').contentWindow.location.replace("charts2.html");
              } else if ( (corebr_area_prefix === "cs") || (corebr_area_prefix === "or") ){
                   document.getElementById('charts-frame').contentWindow.location.replace("charts3.html");
@@ -165,7 +166,7 @@ Most cited software engineering papers authored by Brazilian professors</a>.
 </div>
 
 <div class="radio">
-<label><input type="radio" name="research_area_btn" value="arch"> Computer Architecture & HPC</label>
+<label><input type="radio" name="research_area_btn" value="arch"> Computer Architecture & HPC<small>(J)</small></label>
 </div>
 
 <div class="radio">
