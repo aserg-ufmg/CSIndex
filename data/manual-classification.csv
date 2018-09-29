@@ -54,7 +54,7 @@ ds,2016,"Journal of Systems and Software","Using traffic filtering rules and Ope
 se,2013,"Journal of Systems and Software","A reference architecture for organizing the internal structure of metadata-based frameworks.",db/journals/jss/jss86.html#GuerraAKF13
 se,2016,"Softw., Pract. Exper.","Efficient image-aware version control systems using GPU.",db/journals/spe/spe46.html#JuniorCM16
 se,2015,"Journal of Systems and Software","A large-scale study on the usage of Java's concurrent programming constructs.",db/journals/jss/jss106.html#PintoTFFB15
-ds,2013,"Sci. Comput. Program.","Preserving the original MPI semantics in a virtualized processor environment.",db/journals/scp/scp78.html#RodriguesNPM13
+arch,2013,"Sci. Comput. Program.","Preserving the original MPI semantics in a virtualized processor environment.",db/journals/scp/scp78.html#RodriguesNPM13
 se,2014,"Sci. Comput. Program.","Making refactoring safer through impact analysis.",db/journals/scp/scp93.html#MongioviGSTB14
 pl,2016,"Sci. Comput. Program.","Ambiguity and constrained polymorphism.",db/journals/scp/scp124.html#CamaraoFR16
 se,2015,"Journal of Systems and Software","Quantifying usability of domain-specific languages: An empirical study on software maintenance.",db/journals/jss/jss101.html#AlbuquerqueCGBA15
@@ -73,7 +73,7 @@ se,2015,"Journal of Systems and Software","Bringing Test-Driven Development to w
 se,2016,"Journal of Systems and Software","Twenty-eight years of component-based software engineering.",db/journals/jss/jss111.html#ValeCANCM16
 se,2018,"Journal of Systems and Software","A Metrics Suite for code annotation assessment.",db/journals/jss/jss137.html#LimaGMKSS18
 se,2013,"Journal of Systems and Software","Safe composition of configuration knowledge-based software product lines.",db/journals/jss/jss86.html#TeixeiraBG13
-se,2017,"Softw., Pract. Exper.","Pattern-based multi-cloud architecture migration.",db/journals/spe/spe47.html#JamshidiPM17
+ds,2017,"Softw., Pract. Exper.","Pattern-based multi-cloud architecture migration.",db/journals/spe/spe47.html#JamshidiPM17
 se,2016,"Journal of Systems and Software","Towards semi-automated assignment of software change requests.",db/journals/jss/jss115.html#CavalcantiMNA16
 se,2013,"Softw., Pract. Exper.","Mastering crosscutting architectural decisions with aspects.",db/journals/spe/spe43.html#SantAnnaGBR13
 se,2016,"Journal of Systems and Software","Automated design of multi-layered web information systems.",db/journals/jss/jss117.html#BassoPORF16
@@ -105,7 +105,7 @@ pl,2018,"Softw., Pract. Exper.","EPE-Mobile - A framework for early performance 
 se,2013,"Journal of Systems and Software","Evaluation studies of software testing research in Brazil and in the world: A survey of two premier software engineering conferences.",db/journals/jss/jss86.html#LemosFEMM13
 se,2013,"Journal of Systems and Software","Relevance and perspectives of AAL in Brazil.",db/journals/jss/jss86.html#NakagawaABMSVR13
 se,2018,"Journal of Systems and Software","A Systematic Literature Review of iStar extensions.",db/journals/jss/jss137.html#GoncalvesCAH18
-se,2017,"Sci. Comput. Program.","An ontology-based approach for integrating tools supporting the software measurement process.",db/journals/scp/scp135.html#FonsecaBF17
+dbis,2017,"Sci. Comput. Program.","An ontology-based approach for integrating tools supporting the software measurement process.",db/journals/scp/scp135.html#FonsecaBF17
 se,2013,"Journal of Systems and Software","Contributions to the emergence and consolidation of Agent-oriented Software Engineering.",db/journals/jss/jss86.html#LucenaN13
 formal,2014,"Sci. Comput. Program.","NAT2TEST: Test case generation from natural language requirements based on SCR specifications.",db/journals/scp/scp95.html#CarvalhoFBSMMB14
 arch,2016,"TACO","Hardware-Assisted Thread and Data Mapping in Hierarchical Multicore Architectures.",db/journals/taco/taco13.html#CruzDPN16
