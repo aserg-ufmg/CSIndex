@@ -1,0 +1,8 @@
+db/journals/concurrency/concurrency30.html#GomesMKKST18
+db/journals/concurrency/concurrency30.html#KraemerMRT18
+db/journals/concurrency/concurrency30.html#OrnelasBDCC18
+db/journals/concurrency/concurrency30.html#PessoaGJMT18
+db/journals/concurrency/concurrency30.html#GomesMKKST18
+db/journals/concurrency/concurrency30.html#SousaMFM18
+db/journals/concurrency/concurrency30.html#PintoSSLTD18
+db/journals/concurrency/concurrency30.html#InacioD18
