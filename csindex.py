@@ -472,7 +472,7 @@ def parse_dblp(_, dblp):
                  mc_failed_file.write(",")
                  mc_failed_file.write('"' + str(dblp_venue) + '"')
                  mc_failed_file.write(",")
-                 mc_failed_file.write('"' + str(title) + '"')
+                 mc_failed_file.write('"' + title.encode('utf-8') + '"')
                  mc_failed_file.write(",")
                  mc_failed_file.write(str(url))
                  mc_failed_file.write("\n")
