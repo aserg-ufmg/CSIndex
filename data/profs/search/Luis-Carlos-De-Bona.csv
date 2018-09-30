@@ -2,4 +2,5 @@
 2015,Concurrency and Computation,"A distributed virtual hypercube algorithm for maintaining scalable and dynamic network overlays.",Luis Carlos Erpen De Bona; Elias Procópio Duarte Jr.; Keiko Verônica Ono Fonseca,https://doi.org/10.1002/cpe.3321,null,J,no_arxiv,0
 2014,PDP,"Supporting Elasticity in OpenMP Applications.",Guilherme Galante; Luis C. E. Bona,https://doi.org/10.1109/PDP.2014.36,null,C,no_arxiv,4
 2016,VLDB,"Cubrick: Indexing Millions of Records per Second for Interactive Analytics.",Pedro Pedreira; Chris Croswhite; Luis Carlos Erpen De Bona,http://www.vldb.org/pvldb/vol9/p1305-pedreira.pdf,top,C,no_arxiv,
+2016,J. Grid Comput.,"An Analysis of Public Clouds Elasticity in the Execution of Scientific Applications: a Survey.",Guilherme Galante; Luis Carlos Erpen De Bona; Antonio Roberto Mury; Bruno Schulze; Rodrigo da Rosa Righi,https://doi.org/10.1007/s10723-016-9361-3,null,J,no_arxiv,19
 2015,JSS,"A programming-level approach for elasticizing parallel scientific applications.",Guilherme Galante; Luis Carlos Erpen De Bona,https://doi.org/10.1016/j.jss.2015.08.051,null,J,no_arxiv,5
