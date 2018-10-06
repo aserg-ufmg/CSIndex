@@ -9,7 +9,7 @@ do
   runtime1=$(($end-$start))
   runtime1=$(echo "scale=2; " $runtime1 "/ 60.0" | bc -l)
   echo 'Runtime: ' $runtime1 'min'
-  sleep 6
+  sleep 4
 done
 echo '####################################'
 end0=`date +%s`
