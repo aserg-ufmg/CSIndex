@@ -104,7 +104,7 @@
 						  'hAxis': { slantedText:true, slantedTextAngle:45 },
 						  'annotations': { alwaysOutside:true },
 						  'titleTextStyle': { bold: false },
-						  'title': 'Score= A + (0.66 * B) + (0.33 * C), where A= papers in top confs; B= papers in "near-the-top" confs; C= papers in other confs'
+						  'title': "Score= A + (0.66 * B) + (0.40 * C) + (0.33 * D), where A= papers in top-venues; B= papers in \"near-the-top\" venues; C= papers in other \njournals; D= papers in other conferences, magazines or mega journals"
 					     };
 		       var chart = new google.visualization.ColumnChart(document.getElementById('chart_depts'));
 		       chart.draw(view, options);
@@ -133,7 +133,7 @@
 						  'hAxis': { slantedText:true, slantedTextAngle:45 },
 						  'annotations': { alwaysOutside:true },
 						  'titleTextStyle': { bold: false },
-						  'title': 'Number of faculty members with full papers in tracked conferences (2013-2018)'
+						  'title': 'Number of faculty members co-authoring papers in tracked conferences (2013-2018)'
 						};
 		        var chart = new google.visualization.ColumnChart(document.getElementById('chart_profs'));
 		        chart.draw(view, options);

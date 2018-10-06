@@ -141,7 +141,7 @@
 						  'hAxis': { slantedText:true, slantedTextAngle:45 },
 						  'annotations': { alwaysOutside:true },
 						  'titleTextStyle': { bold: false },
-						  'title': "Score= A + (0.66 * B) + (0.40 * C) + (0.33 * D), where A= papers in top-venues; B= papers in \"near-the-top\" venues; C= papers in other \n journals; D= papers in other conferences or magazines"
+						  'title': "Score= A + (0.66 * B) + (0.40 * C) + (0.33 * D), where A= papers in top-venues; B= papers in \"near-the-top\" venues; C= papers in other \njournals; D= papers in other conferences, magazines or mega journals"
 					     };
 		       var chart = new google.visualization.ColumnChart(document.getElementById('chart_depts'));
 		       chart.draw(view, options);
@@ -170,7 +170,7 @@
 						  'hAxis': { slantedText:true, slantedTextAngle:45 },
 						  'annotations': { alwaysOutside:true },
 						  'titleTextStyle': { bold: false },
-						  'title': 'Number of faculty members with full papers in tracked conferences (2013-2018)'
+						  'title': 'Number of faculty members co-authoring full papers in tracked conferences (2013-2018)'
 					 };
 		       var chart = new google.visualization.ColumnChart(document.getElementById('chart_profs'));
 		       chart.draw(view, options);
@@ -314,14 +314,14 @@
                        }
                },4,5]);
            var table2= view.toDataTable();
-           table2.sort({column: 4, desc: true});
+           table2.sort({column: 0, desc: false});
 
            var formatter1 = new google.visualization.ColorFormat();
            formatter1.addRange(0, 0.3, 'black', 'LemonChiffon');
            formatter1.format(table2, 4);
 
            var formatter2 = new google.visualization.ColorFormat();
-           formatter2.addRange(366, null, 'black', 'Khaki');
+           formatter2.addRange(501, null, 'black', 'Khaki');
            formatter2.format(table2, 2);
 
 		       table.draw(table2, {allowHtml: true, showRowNumber: true, width: '100%', height: '100%'});
