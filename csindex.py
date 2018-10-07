@@ -46,8 +46,8 @@ def init_black_white_lists():
 
 manual_journals = {}
 manual_classification = {}
-mc_failed_file = open('manual-classification-failed.csv','w')
-log = open('log.txt','w')
+mc_failed_file = open('manual-classification-failed.csv','a')
+log = open('log.txt','a')
 
 def init_manual_files():
     global manual_journals, manual_classification
@@ -284,8 +284,9 @@ def output_profs():
 
   f3 = open(area_prefix + '-out-profs.csv','w')
 
-  if len(sorted_profs) >= 20:
-     sorted_profs = filter(lambda dept: dept[1] >= 2, sorted_profs)
+  if len(sorted_profs) >= 16:
+     # sorted_profs = filter(lambda dept: dept[1] > 2, sorted_profs)
+     sorted_profs = sorted_profs[:16]
 
   for i in range(0, len(sorted_profs)):
       dept = sorted_profs[i][0]
@@ -358,7 +359,7 @@ def inc_score(weight):
     else:
        return 0.0
 
-def getMininumPaperSize(weight):
+def getMinPaperSize(weight):
     if (weight == 6):  # magazine
        minimum_size = 6
     elif (weight == 4) or (weight == 5): # journals
@@ -433,9 +434,21 @@ def log_msg(venue,year,url):
        log.write(msg)
        log.write('\n')
 
+def write_mc_failed(year,dblp_venue,title,url):
+    global mc_failed_file, multi_area_journal
+    mc_failed_file.write(",")
+    mc_failed_file.write(str(year))
+    mc_failed_file.write(",")
+    mc_failed_file.write('"' + str(dblp_venue) + '"')
+    mc_failed_file.write(",")
+    mc_failed_file.write('"' + title.encode('utf-8') + '"')
+    mc_failed_file.write(",")
+    mc_failed_file.write(str(url))
+    mc_failed_file.write("\n")
+    multi_area_journal = True
+
 def parse_dblp(_, dblp):
     global department, found_paper, black_list
-    global multi_area_journal, mc_failed_file
 
     if ('journal' in dblp) or ('booktitle' in dblp):
        dblp_venue = getDBLPVenue(dblp)
@@ -449,10 +462,10 @@ def parse_dblp(_, dblp):
         venue, weight = confdata[dblp_venue]
         url = dblp['url']
 
-        log_msg(venue,year,url)
+        #log_msg(venue,year,url)
 
         size = getPaperSize(url,dblp)
-        minimum_size = getMininumPaperSize(weight)
+        minimum_size = getMinPaperSize(weight)
 
         if size >= minimum_size:
 
@@ -467,16 +480,7 @@ def parse_dblp(_, dblp):
                  if m_area != area_prefix:
                     return True
               else:
-                 mc_failed_file.write(",")
-                 mc_failed_file.write(str(year))
-                 mc_failed_file.write(",")
-                 mc_failed_file.write('"' + str(dblp_venue) + '"')
-                 mc_failed_file.write(",")
-                 mc_failed_file.write('"' + title.encode('utf-8') + '"')
-                 mc_failed_file.write(",")
-                 mc_failed_file.write(str(url))
-                 mc_failed_file.write("\n")
-                 multi_area_journal = True
+                 write_mc_failed(year,dblp_venue,title,url)
                  return True
 
            found_paper = True;
@@ -583,9 +587,10 @@ for researcher in reader2:
     department = researcher[1]
     pid = researcher[2]
 
-    n0 = flush_prof_papers(area_prefix, prof_name)
+#    n0 = flush_prof_papers(area_prefix, prof_name)
 
-    print str(count) + " >> " + prof_name + ", " + department + ", "+ str(n0)
+#    print str(count) + " >> " + prof_name + ", " + department + ", "+ str(n0)
+    # print str(count) + " >> " + prof_name + ", " + department
 
     if not department in score:
        score[department] = 0.0
@@ -599,11 +604,12 @@ for researcher in reader2:
 
     if found_paper:
        profs[department] += 1
+       print str(count) + " >> " + prof_name + ", " + department
        output_prof_papers(prof_name)
        merge_output_prof_papers(prof_name)
-    elif n0 > 0:
-       print "*** has NO papers now **"
-       merge_output_prof_papers(prof_name)
+#    elif n0 > 0:
+#       print "*** has NO papers now **"
+#       merge_output_prof_papers(prof_name)
 
     count = count + 1;
 
