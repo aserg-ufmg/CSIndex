@@ -5,3 +5,4 @@ utils/*.gz
 utils/data/*.*
 data/log.txt
 data/manual-classification-failed.csv
+data/allpapers.csv
