@@ -183,7 +183,6 @@ Particularly, conferences should attend the following thresholds:
 <li> submitted > 100 papers
 <li> acceptance < 30%
 <li> h5-index > 20
-<li> normalized-h5-index > 0.3
 </ul>
 </p>
 
@@ -195,9 +194,20 @@ Which journals are tracked?
 <p> First, journals must be indexed by Journal Citation Reports (JCR).
     Second, we look for journals attending the following thresholds:
 <ul>
-<li> h5-index > 20
-<li> normalized-h5-index > 0.3
-<li> accepted < 500 papers
+<li> h5-index > 25
+</ul>
+</p>
+
+<h6 style="background-color: GainsBoro">
+What is the meaning of "other" in the journals Rank column (Stats tab)?
+</h6>
+
+<p> These journals are scored as conferences (weight 0.33, instead of 0.40).
+  The following journals are classified in this category:
+<ul>
+<li> Magazines and journals that accept short papers (which must have at least 6 pages)
+<li> Mega journals that accept more than 500 papers/year
+<li> Journals with <i>normalized-h5-index</i> <= 0.1
 </ul>
 </p>
 
@@ -239,12 +249,10 @@ Using this formula:
 where:
 
 <ul>
-<li> A = number of papers in top conferences or journals
+<li> A = number of papers in "top" conferences or journals
 <li> B = number of papers in "near-the-top" conferences or journals
-<li> C = number of papers in other journals
-<li> D = number of papers in other conferences or in the following types
-         of journals: magazines, journals that publish short communications
-         (< 10 pages) or mega-journas (> 500 papers/year)
+<li> C = number of papers in journals
+<li> D = number of papers in conferences or in "other" journals
 </ul>
 </p>
 
