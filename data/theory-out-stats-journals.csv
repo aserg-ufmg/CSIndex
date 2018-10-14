@@ -1,5 +1,5 @@
 Theoretical Computer Science,Elsevier,346,35,other,6
-Journal of the ACM (JACM),ACM,42,42,,6
+Journal of the ACM (JACM),ACM,42,42,top,6
 SIAM Journal on Computing,SIAM,61,39,,6
 Discrete Applied Mathematics,Elsevier,358,32,other,6
 ACM Transactions on Algorithms (TALG),ACM,37,26,top,6
@@ -8,3 +8,8 @@ ACM Transactions on Computation Theory (TOCT),ACM,10,,top,6
 Algorithmica,Springer,151,31,,6
 SIAM Journal on Discrete Mathematics,SIAM,130,25,,6
 Combinatorica,Springer,58,20,,6
+Random Structures & Algorithms,Wiley,54,25,,6
+Information and Computation,Elsevier,111,27,,6
+Journal of Combinatorial Theory Series A,Elsevier,92,23,,6
+Journal of Combinatorial Theory Series B,Elsevier,86,23,,6
+Journal of Graph Theory,Wiley,110,20,,6
