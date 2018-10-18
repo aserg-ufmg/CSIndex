@@ -251,3 +251,5 @@ theory,2018,"Theor. Comput. Sci.","Ruling out FPT algorithms for Weighted Colori
 theory,2016,"Theor. Comput. Sci.","The maximum infection time in the geodesic and monophonic convexities.",db/journals/tcs/tcs609.html#BenevidesCDSS16
 theory,2016,"Theor. Comput. Sci.","On the geodetic hull number of P-free graphs.",db/journals/tcs/tcs640.html#DouradoRR16
 theory,2018,"Theor. Comput. Sci.","Locally identifying coloring of graphs with few P4s.",db/journals/tcs/tcs707.html#MartinsS18
+theory,2018,"Theor. Comput. Sci.","Sorting permutations and binary strings by length-weighted rearrangements.",db/journals/tcs/tcs715.html#LintzmayerFD18
+theory,2015,"Theor. Comput. Sci.","Approximation algorithms for sorting by length-weighted prefix and suffix operations.",db/journals/tcs/tcs593.html#LintzmayerFD15
