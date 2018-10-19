@@ -4,5 +4,8 @@
 2013,RecSys,"Topic diversity in tag recommendation.",Fabiano Belém; Rodrygo L. T. Santos; Jussara M. Almeida; Marcos André Gonçalves,http://doi.acm.org/10.1145/2507157.2507184,null,C,no_arxiv,6
 2018,ACM TOIS,"Explicit Diversification of Event Aspects for Temporal Summarization.",Richard McCreadie; Rodrygo L. T. Santos; Craig Macdonald; Iadh Ounis,http://doi.acm.org/10.1145/3158671,top,J,no_arxiv,0
 2017,SIGIR,"Intent-Aware Semantic Query Annotation.",Rafael Glater; Rodrygo L. T. Santos; Nivio Ziviani,http://doi.acm.org/10.1145/3077136.3080825,top,C,no_arxiv,0
+2015,Inf. Retr. Journal.,"Improving daily deals recommendation using explore-then-exploit strategies.",Anísio Lacerda; Rodrygo L. T. Santos; Adriano Veloso; Nivio Ziviani,https://doi.org/10.1007/s10791-014-9249-4,null,J,no_arxiv,4
 2015,WSDM,"On Tag Recommendation for Expertise Profiling: A Case Study in the Scientific Domain.",Isac S. Ribeiro; Rodrygo L. T. Santos; Marcos André Gonçalves; Alberto H. F. Laender,http://doi.acm.org/10.1145/2684822.2685320,near-top,C,no_arxiv,4
+2013,Inf. Retr. Journal.,"Learning to rank query suggestions for adhoc and diversity search.",Rodrygo L. T. Santos; Craig Macdonald; Iadh Ounis,https://doi.org/10.1007/s10791-012-9211-2,null,J,no_arxiv,12
+2013,Inf. Retr. Journal.,"The whens and hows of learning to rank for web search.",Craig Macdonald; Rodrygo L. T. Santos; Iadh Ounis,https://doi.org/10.1007/s10791-012-9209-9,null,J,no_arxiv,33
 2013,JCDL,"Aggregating productivity indices for ranking researchers across multiple areas.",Harlley Lima; Thiago H. P. Silva; Mirella M. Moro; Rodrygo L. T. Santos; Wagner Meira Jr.; Alberto H. F. Laender,http://doi.acm.org/10.1145/2467696.2467715,null,C,no_arxiv,9
