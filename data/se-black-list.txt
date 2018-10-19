@@ -8,3 +8,7 @@ db/journals/scp/scp92.html#BragaSS14
 db/journals/scp/scp80.html#RimsadPB14
 db/journals/scp/scp135.html#FonsecaBF17
 db/journals/jss/jss86.html#KuleszaSCCBLMSFACFPDPSCBLLMBBCSSSVACRPR13
+db/conf/esem/esem2018.html#MendoncaSOBLBKS18
+db/conf/esem/esem2018.html#SantosMCNSS18
+db/conf/esem/esem2018.html#TrinkenreichCBS18
+db/conf/esem/esem2018.html#AlvesSMS18

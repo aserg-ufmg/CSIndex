@@ -3,6 +3,7 @@
 2018,JSS,"JMove: A novel heuristic and tool to detect move method refactoring opportunities.",Ricardo Terra; Marco Tulio Valente; Sergio Miranda; Vitor Sales,https://doi.org/10.1016/j.jss.2017.11.073,null,J,no_arxiv,0
 2018,IEEE Software,"AngularJS Performance: A Survey Study.",Miguel Ramos; Marco Tulio Valente; Ricardo Terra,https://doi.org/10.1109/MS.2017.265100610,null,J,http://arxiv.org/abs/1705.02506v1,0
 2018,SQJ,"How do developers react to API evolution? A large-scale empirical study.",André C. Hora; Romain Robbes; Marco Tulio Valente; Nicolas Anquetil; Anne Etien; Stéphane Ducasse,https://doi.org/10.1007/s11219-016-9344-4,null,J,no_arxiv,1
+2018,ESEM,"Identifying unmaintained projects in github.",Jailton Coelho; Marco Tulio Valente; Luciana Lourdes Silva; Emad Shihab,http://doi.acm.org/10.1145/3239235.3240501,null,C,http://arxiv.org/abs/1809.04041v1,0
 2018,ICSE,"Assessing the threat of untracked changes in software evolution.",André C. Hora; Danilo Silva; Marco Tulio Valente; Romain Robbes,http://doi.acm.org/10.1145/3180155.3180212,top,C,no_arxiv,0
 2018,SANER,"Why and how Java developers break APIs.",Aline Brito; Laerte Xavier; André C. Hora; Marco Tulio Valente,https://doi.org/10.1109/SANER.2018.8330214,null,C,http://arxiv.org/abs/1801.05198v1,1
 2017,JSEP,"Identifying Classes in Legacy JavaScript Code.",Leonardo Humberto Silva; Marco Tulio Valente; Alexandre Bergel; Nicolas Anquetil; Anne Etien,https://doi.org/10.1002/smr.1864,null,J,no_arxiv,1
