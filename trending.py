@@ -1,3 +1,14 @@
+# CSIndexbr: Exploring Brazilian Scientific Production in Computer Science
+
+# By Marco Tulio Valente - ASERG/DCC/UFMG
+# http://aserg.labsoft.dcc.ufmg.br
+
+# How to use:
+# In "data" folder:
+# cat *-out-papers.csv > allpapers.csv
+# python ../trending.py allpapers.csv
+# rm allpapers.csv
+
 import csv
 import sys
 
