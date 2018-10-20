@@ -3,7 +3,6 @@
 # By Marco Tulio Valente - ASERG/DCC/UFMG
 # http://aserg.labsoft.dcc.ufmg.br
 
-import xmltodict
 import csv
 import collections
 import re
@@ -12,6 +11,7 @@ import operator
 import glob
 import os
 import requests
+import xmltodict
 import json
 
 from difflib import SequenceMatcher
@@ -363,7 +363,10 @@ def getMinPaperSize(weight):
     if (weight == 6):  # magazine
        minimum_size = 6
     elif (weight == 4) or (weight == 5): # journals
-       minimum_size = 10
+       if area_prefix == "theory":
+          minimum_size = 6
+       else:
+          minimum_size = 10
     else:
        minimum_size = MIN_PAPER_SIZE   # conferences
     return minimum_size
@@ -393,7 +396,12 @@ def getVenueType(weight):
 
 def getAuthors(authorList):
     authors = []
-    if isinstance(authorList, basestring):  # single author paper
+    if type(authorList) is collections.OrderedDict: # single author paper
+       authorList = authorList["#text"]
+       authors.append(authorList)
+    elif isinstance(authorList, basestring):  # single author paper
+       if type(authorList) is collections.OrderedDict:
+          authorList = authorList["#text"]
        authors.append(authorList)
     else:
        for authorName in authorList:
@@ -426,6 +434,9 @@ def getDBLPVenue(dblp):
            dblp_venue = dblp['journal']
     elif 'booktitle' in dblp:
            dblp_venue = dblp['booktitle']
+    else:
+       print "Failed parsing DBLP: " + prof_name
+       System.exit(1)
     return dblp_venue
 
 def log_msg(venue,year,url):
