@@ -1,3 +1,10 @@
+# CSIndexbr: Exploring Brazilian Scientific Production in Computer Science
+
+# By Marco Tulio Valente - ASERG/DCC/UFMG
+# http://aserg.labsoft.dcc.ufmg.br
+
+# How to use (from data folder): python ../dblp.py
+
 import csv
 import sys
 import requests

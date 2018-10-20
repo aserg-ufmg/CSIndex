@@ -9,11 +9,9 @@ import re
 import gzip
 import time
 
-## constants
-
 FIRST_YEAR= 2013
 LAST_YEAR= 2018
-min_paper_size = 10
+min_paper_size = 6
 
 count = 0
 papers = {}
@@ -45,7 +43,7 @@ def parse_dblp(_, dblp):
     global count, papers, journals
 
     count += 1
-    if count % 10000 == 0:
+    if count % 50000 == 0:
        print str(count)
 
     if 'year' in dblp:
@@ -64,7 +62,8 @@ def parse_dblp(_, dblp):
                        size = paperSize(pages, "null")
                     if (size >= min_paper_size):
                        # print syear + ":" + journal
-                       papers[journal][year - 2013] += 1
+                       #print dblp['title']
+                       papers[journal][year - FIRST_YEAR] += 1
     return True
 
 
