@@ -119,9 +119,15 @@ papers_theory_journals=$(cat temp.csv | awk '/J$/ { print $2 }' | wc -l)
 papers_top_theory=$(cat temp.csv | awk '/^top/ { print $1 }' | wc -l)
 rm temp.csv
 
+python ../utils/get2col.py ir-out-papers.csv 6 7 > temp.csv
+papers_ir=$(wc -l temp.csv | awk '{print $1}')
+papers_ir_confs=$(cat temp.csv | awk '/C$/ { print $2 }' | wc -l)
+papers_ir_journals=$(cat temp.csv | awk '/J$/ { print $2 }' | wc -l)
+papers_top_ir=$(cat temp.csv | awk '/^top/ { print $1 }' | wc -l)
+rm temp.csv
+
 papers_net=$(wc -l net-out-papers.csv | awk '{print $1}')
 papers_mobile=$(wc -l mobile-out-papers.csv | awk '{print $1}')
-papers_ir=$(wc -l ir-out-papers.csv | awk '{print $1}')
 papers_data=$(wc -l data-out-papers.csv | awk '{print $1}')
 papers_ai=$(wc -l ai-out-papers.csv | awk '{print $1}')
 papers_formal=$(wc -l formal-out-papers.csv | awk '{print $1}')
@@ -130,7 +136,6 @@ papers_robotics=$(wc -l robotics-out-papers.csv | awk '{print $1}')
 
 papers_top_net=$(python ../utils/getcol.py net-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
 papers_top_mobile=$(python ../utils/getcol.py mobile-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
-papers_top_ir=$(python ../utils/getcol.py ir-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
 papers_top_data=$(python ../utils/getcol.py data-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
 papers_top_ai=$(python ../utils/getcol.py ai-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
 papers_top_formal=$(python ../utils/getcol.py formal-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
@@ -177,6 +182,7 @@ echo '<li>Human-Computer Interaction:' $papers_chi '/' $papers_chi_confs '/' $pa
 echo '<li>Distributed Systems:' $papers_ds '/' $papers_ds_confs '/' $papers_ds_journals '/' $papers_top_ds
 echo '<li>Computer Architecture & HPC:' $papers_arch '/' $papers_arch_confs '/' $papers_arch_journals '/' $papers_top_arch
 echo '<li>Databases & Information Systems:' $papers_dbis '/' $papers_dbis_confs '/' $papers_dbis_journals '/' $papers_top_dbis
+echo '<li>Web & Information Retrieval:' $papers_ir '/' $papers_ir_confs '/' $papers_ir_journals '/' $papers_top_ir
 echo '<li>Algorithms & Complexity:' $papers_theory '/' $papers_theory_confs '/' $papers_theory_journals '/' $papers_top_theory
 echo '<li>Operational Research:' $papers_or '/' $papers_or_confs '/' $papers_or_journals '/' $papers_top_or
 echo '<li>Computer Vision:' $papers_vision '/' $papers_vision_confs '/' $papers_vision_journals '/' $papers_top_vision
@@ -188,7 +194,6 @@ echo '<li> Papers per research area (all papers / papers in top-conferences):'
 echo '<ul>'
 echo '<li>Computer Networks:' $papers_net '/' $papers_top_net
 echo '<li>Mobile Computing:' $papers_mobile '/' $papers_top_mobile
-echo '<li>Web & Information Retrieval:' $papers_ir '/' $papers_top_ir
 echo '<li>Data Mining & Machine Learning:' $papers_data '/' $papers_top_data
 echo '<li>Artificial Intelligence:' $papers_ai '/' $papers_top_ai
 echo '<li>Security & Cryptography:' $papers_security '/' $papers_top_security
