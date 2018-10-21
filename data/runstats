@@ -1,0 +1,8 @@
+# update stats
+# how use:
+# from "data" folder: ./runstats
+
+rm ../statistics.html
+cat ../statistics1.html > ../statistics.html
+../stats >> ../statistics.html
+cat ../statistics2.html >> ../statistics.html
