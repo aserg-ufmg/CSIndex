@@ -126,14 +126,19 @@ papers_ir_journals=$(cat temp.csv | awk '/J$/ { print $2 }' | wc -l)
 papers_top_ir=$(cat temp.csv | awk '/^top/ { print $1 }' | wc -l)
 rm temp.csv
 
-papers_net=$(wc -l net-out-papers.csv | awk '{print $1}')
+python ../utils/get2col.py net-out-papers.csv 6 7 > temp.csv
+papers_net=$(wc -l temp.csv | awk '{print $1}')
+papers_net_confs=$(cat temp.csv | awk '/C$/ { print $2 }' | wc -l)
+papers_net_journals=$(cat temp.csv | awk '/J$/ { print $2 }' | wc -l)
+papers_top_net=$(cat temp.csv | awk '/^top/ { print $1 }' | wc -l)
+rm temp.csv
+
 papers_data=$(wc -l data-out-papers.csv | awk '{print $1}')
 papers_ai=$(wc -l ai-out-papers.csv | awk '{print $1}')
 papers_formal=$(wc -l formal-out-papers.csv | awk '{print $1}')
 papers_security=$(wc -l security-out-papers.csv | awk '{print $1}')
 papers_robotics=$(wc -l robotics-out-papers.csv | awk '{print $1}')
 
-papers_top_net=$(python ../utils/getcol.py net-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
 papers_top_data=$(python ../utils/getcol.py data-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
 papers_top_ai=$(python ../utils/getcol.py ai-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
 papers_top_formal=$(python ../utils/getcol.py formal-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
@@ -177,6 +182,7 @@ echo '<li>Computer Science (general):' $papers_cs '/' $papers_cs_confs '/' $pape
 echo '<li>Software Engineering:' $papers_se '/' $papers_se_confs '/' $papers_se_journals '/' $papers_top_se
 echo '<li>Programming Languages:' $papers_pl '/' $papers_pl_confs '/' $papers_pl_journals '/' $papers_top_pl
 echo '<li>Human-Computer Interaction:' $papers_chi '/' $papers_chi_confs '/' $papers_chi_journals '/' $papers_top_chi
+echo '<li>Computer Networks:' $papers_net '/' $papers_net_confs '/' $papers_net_journals '/' $papers_top_net
 echo '<li>Distributed Systems:' $papers_ds '/' $papers_ds_confs '/' $papers_ds_journals '/' $papers_top_ds
 echo '<li>Computer Architecture & HPC:' $papers_arch '/' $papers_arch_confs '/' $papers_arch_journals '/' $papers_top_arch
 echo '<li>Databases & Information Systems:' $papers_dbis '/' $papers_dbis_confs '/' $papers_dbis_journals '/' $papers_top_dbis
@@ -190,7 +196,6 @@ echo '</ul>'
 
 echo '<li> Papers per research area (all papers / papers in top-conferences):'
 echo '<ul>'
-echo '<li>Computer Networks:' $papers_net '/' $papers_top_net
 echo '<li>Data Mining & Machine Learning:' $papers_data '/' $papers_top_data
 echo '<li>Artificial Intelligence:' $papers_ai '/' $papers_top_ai
 echo '<li>Security & Cryptography:' $papers_security '/' $papers_top_security
