@@ -24,6 +24,8 @@ f = open('trending.csv','w')
 i = 0
 for paper in allpapers:
     for j in range(0,10):
+        if j == 2:
+           paper[j] = '"' + paper[j] + '"'
         f.write(str(paper[j]))
         if j < 9:
            f.write(',')

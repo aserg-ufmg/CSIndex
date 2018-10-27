@@ -1,8 +1,12 @@
-# update stats
-# how use:
+# update stats & trending
+# how to use:
 # from "data" folder: ./runstats
 
 rm ../statistics.html
 cat ../statistics1.html > ../statistics.html
 ../stats >> ../statistics.html
 cat ../statistics2.html >> ../statistics.html
+
+cat *-out-papers.csv > allpapers.csv
+python ../trending.py allpapers.csv
+rm allpapers.csv
