@@ -46,7 +46,8 @@
                   (corebr_area_prefix === "theory") || (corebr_area_prefix === "formal") ||
                   (corebr_area_prefix === "ir") || (corebr_area_prefix === "net")) {
                   document.getElementById('charts-frame').contentWindow.location.replace("charts2.html");
-             } else if ( (corebr_area_prefix === "cs") || (corebr_area_prefix === "or") ){
+             } else if ( (corebr_area_prefix === "cs") || (corebr_area_prefix === "or") ||
+                         (corebr_area_prefix === "bio") ){
                   document.getElementById('charts-frame').contentWindow.location.replace("charts3.html");
              }
              else {
@@ -209,6 +210,9 @@ Conferences vs Journals: Where do Brazilian CS Professors Usually Publish?</a>
 <label><input type="radio" name="research_area_btn" value="cse"> Computing Education <small>(J)</small></label>
 </div>
 
+<div class="radio">
+<label><input type="radio" name="research_area_btn" value="bio"> Bioinformatics <small>(J)</small></label>
+</div>
 
 </div>
 
