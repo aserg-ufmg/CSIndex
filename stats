@@ -133,6 +133,13 @@ papers_net_journals=$(cat temp.csv | awk '/J$/ { print $2 }' | wc -l)
 papers_top_net=$(cat temp.csv | awk '/^top/ { print $1 }' | wc -l)
 rm temp.csv
 
+python ../utils/get2col.py bio-out-papers.csv 6 7 > temp.csv
+papers_bio=$(wc -l temp.csv | awk '{print $1}')
+papers_bio_confs=$(cat temp.csv | awk '/C$/ { print $2 }' | wc -l)
+papers_bio_journals=$(cat temp.csv | awk '/J$/ { print $2 }' | wc -l)
+papers_top_bio=$(cat temp.csv | awk '/^top/ { print $1 }' | wc -l)
+rm temp.csv
+
 papers_data=$(wc -l data-out-papers.csv | awk '{print $1}')
 papers_ai=$(wc -l ai-out-papers.csv | awk '{print $1}')
 papers_formal=$(wc -l formal-out-papers.csv | awk '{print $1}')
@@ -191,6 +198,7 @@ echo '<li>Algorithms & Complexity:' $papers_theory '/' $papers_theory_confs '/' 
 echo '<li>Operational Research:' $papers_or '/' $papers_or_confs '/' $papers_or_journals '/' $papers_top_or
 echo '<li>Computer Vision:' $papers_vision '/' $papers_vision_confs '/' $papers_vision_journals '/' $papers_top_vision
 echo '<li>Computing Education:' $papers_cse '/' $papers_cse_confs '/' $papers_cse_journals '/' $papers_top_cse
+echo '<li>Bioinformatics:' $papers_bio '/' $papers_bio_confs '/' $papers_bio_journals '/' $papers_top_bio
 
 echo '</ul>'
 
