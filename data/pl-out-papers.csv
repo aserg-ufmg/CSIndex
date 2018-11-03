@@ -1,5 +1,7 @@
 2018,CGO,"Look-ahead SLP: auto-vectorization in the presence of commutative operations.",PUC Minas,Vasileios Porpodas; Rodrigo C. O. Rocha; Luís F. W. Góes,http://doi.acm.org/10.1145/3168807,null,C,no_arxiv,1
 2018,CGO,"Qubit allocation.",UFMG,Marcos Yukio Siraichi; Vinícius Fernandes dos Santos; Sylvain Collange; Fernando Magno Quintão Pereira,http://doi.acm.org/10.1145/3168822,null,C,no_arxiv,0
+2018,GPCE,"Exploring feature interactions without specifications: a controlled experiment.",UFBA,Larissa Rocha Soares; Jens Meinicke; Sarah Nadi; Christian Kästner; Eduardo Santana de Almeida,http://doi.acm.org/10.1145/3278122.3278127,null,C,no_arxiv,0
+2018,GPCE,"Measuring effectiveness of sample-based product-line testing.",UFAL,Sebastian Ruland; Lars Luthmann; Johannes Bürdek; Sascha Lity; Thomas Thüm; Malte Lochau; Márcio Ribeiro,http://doi.acm.org/10.1145/3278122.3278130,null,C,no_arxiv,0
 2018,POPL,"Inference of static semantics for incomplete C programs.",UFMG,Leandro T. C. Melo; Rodrigo G. Ribeiro; Marcus R. de Araújo; Fernando Magno Quintão Pereira,http://doi.acm.org/10.1145/3158117,top,C,no_arxiv,0
 2018,SCP,"Combining range and inequality information for pointer disambiguation.",UFMG,Maroua Maalej; Vitor Paisante; Fernando Magno Quintão Pereira; Laure Gonnord,https://doi.org/10.1016/j.scico.2017.10.014,null,J,no_arxiv,1
 2018,SPE,"EPE-Mobile - A framework for early performance estimation of mobile applications.",UFRGS,Thiago Soares Fernandes; Álvaro Freitas Moreira; Érika F. Cota,https://doi.org/10.1002/spe.2518,null,J,no_arxiv,0
