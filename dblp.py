@@ -3,7 +3,8 @@
 # By Marco Tulio Valente - ASERG/DCC/UFMG
 # http://aserg.labsoft.dcc.ufmg.br
 
-# How to use (from data folder): python ../dblp.py
+# How to use (from data folder):
+# python ../dblp.py
 
 import csv
 import sys
@@ -28,7 +29,7 @@ for researcher in reader:
     except requests.exceptions.RequestException as e:
        print e
        sys.exit(1)
-    time.sleep(6)
+    time.sleep(5)
     count = count + 1;
 elapsed_time = (time.time() - start_time) / 60
 elapsed_time = round(elapsed_time, 2)
