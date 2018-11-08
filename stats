@@ -147,18 +147,22 @@ papers_formal_journals=$(cat temp.csv | awk '/J$/ { print $2 }' | wc -l)
 papers_top_formal=$(cat temp.csv | awk '/^top/ { print $1 }' | wc -l)
 rm temp.csv
 
+python ../utils/get2col.py robotics-out-papers.csv 6 7 > temp.csv
+papers_robotics=$(wc -l temp.csv | awk '{print $1}')
+papers_robotics_confs=$(cat temp.csv | awk '/C$/ { print $2 }' | wc -l)
+papers_robotics_journals=$(cat temp.csv | awk '/J$/ { print $2 }' | wc -l)
+papers_top_robotics=$(cat temp.csv | awk '/^top/ { print $1 }' | wc -l)
+rm temp.csv
+
 papers_data=$(wc -l data-out-papers.csv | awk '{print $1}')
 papers_ai=$(wc -l ai-out-papers.csv | awk '{print $1}')
 papers_formal=$(wc -l formal-out-papers.csv | awk '{print $1}')
 papers_security=$(wc -l security-out-papers.csv | awk '{print $1}')
-papers_robotics=$(wc -l robotics-out-papers.csv | awk '{print $1}')
 
 papers_top_data=$(python ../utils/getcol.py data-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
 papers_top_ai=$(python ../utils/getcol.py ai-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
 papers_top_formal=$(python ../utils/getcol.py formal-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
 papers_top_security=$(python ../utils/getcol.py security-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
-papers_top_robotics=$(python ../utils/getcol.py robotics-out-papers.csv 6 | awk ' /top$/ {print $7}' | wc -l)
-
 
 rm allpapers.csv
 
@@ -205,6 +209,7 @@ echo '<li>Algorithms & Complexity:' $papers_theory '/' $papers_theory_confs '/' 
 echo '<li>Formal Methods & Logic:' $papers_formal '/' $papers_formal_confs '/' $papers_formal_journals '/' $papers_top_formal
 echo '<li>Operational Research:' $papers_or '/' $papers_or_confs '/' $papers_or_journals '/' $papers_top_or
 echo '<li>Computer Vision:' $papers_vision '/' $papers_vision_confs '/' $papers_vision_journals '/' $papers_top_vision
+echo '<li>Robotics:' $papers_robotics '/' $papers_robotics_confs '/' $papers_robotics_journals '/' $papers_top_robotics
 echo '<li>Computing Education:' $papers_cse '/' $papers_cse_confs '/' $papers_cse_journals '/' $papers_top_cse
 echo '<li>Bioinformatics:' $papers_bio '/' $papers_bio_confs '/' $papers_bio_journals '/' $papers_top_bio
 
@@ -215,7 +220,6 @@ echo '<ul>'
 echo '<li>Data Mining & Machine Learning:' $papers_data '/' $papers_top_data
 echo '<li>Artificial Intelligence:' $papers_ai '/' $papers_top_ai
 echo '<li>Security & Cryptography:' $papers_security '/' $papers_top_security
-echo '<li>Robotics:' $papers_robotics '/' $papers_top_robotics
 echo '</ul>'
 
 echo '</ul>'
