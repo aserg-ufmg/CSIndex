@@ -1,5 +1,11 @@
-# update stats & trending
-# how to use:
+# CSIndexbr: Exploring Brazilian Scientific Production in Computer Science
+
+# By Marco Tulio Valente - ASERG/DCC/UFMG
+# http://aserg.labsoft.dcc.ufmg.br
+
+# Shell script to update both statistics and trending pages
+
+# How to use:
 # from "data" folder: ./runstats
 
 rm ../statistics.html

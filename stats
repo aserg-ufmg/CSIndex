@@ -1,3 +1,11 @@
+# CSIndexbr: Exploring Brazilian Scientific Production in Computer Science
+
+# By Marco Tulio Valente - ASERG/DCC/UFMG
+# http://aserg.labsoft.dcc.ufmg.br
+
+# Shell script to update statistics page
+# It is called by another script: data/runstats
+
 areas=$(wc -l research-areas-config.csv | awk '{print $1}')
 
 confs=$(wc -l  *-out-confs.csv | awk '/total$/{print $1}')

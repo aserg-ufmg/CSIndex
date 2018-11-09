@@ -1,0 +1,29 @@
+# CSIndexbr: Exploring Brazilian Scientific Production in Computer Science
+
+# By Marco Tulio Valente - ASERG/DCC/UFMG
+# http://aserg.labsoft.dcc.ufmg.br
+
+# How to use:
+# From data folder: ./runcitations
+
+date=`date +%Y-%m-%d`
+name="citations-$date.zip"
+
+cd ../cache
+zip -qr "$name" citations
+
+rm ./citations/*
+
+cd ../data
+
+./run cs se
+sleep 45
+./run pl chi net
+sleep 45
+./run ds arch dbis ir
+sleep 45
+./run data ai theory formal
+sleep 45
+./run or security vision
+sleep 45
+./run robotics cse bio
