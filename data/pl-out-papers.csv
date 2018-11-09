@@ -36,7 +36,7 @@
 2013,CGO,"Just-in-time value specialization.",UFMG,Igor Rafael de Assis Costa; Péricles Rafael Oliveira Alves; Henrique Nazaré Santos; Fernando Magno Quintão Pereira,https://doi.org/10.1109/CGO.2013.6495006,null,C,no_arxiv,5
 2013,GPCE,"Investigating preprocessor-based syntax errors.",UFAL; UFCG,Flávio Medeiros; Márcio Ribeiro; Rohit Gheyi,http://doi.acm.org/10.1145/2517208.2517221,null,C,no_arxiv,13
 2013,GPCE,"Supporting large scale model transformation reuse.",COPPE/UFRJ,Fabio Paulo Basso; Raquel Mainardi Pillat; Toacy Cavalcante de Oliveira; Leandro Buss Becker,http://doi.acm.org/10.1145/2517208.2517218,null,C,no_arxiv,5
-2013,PLDI,"SPL: statically analyzing software product lines in minutes instead of years.",UFAL; UFPE,Eric Bodden; Társis Tolêdo; Márcio Ribeiro; Claus Brabrand; Paulo Borba; Mira Mezini,http://doi.acm.org/10.1145/2491956.2491976,top,C,no_arxiv,10
+2013,PLDI,"SPL: statically analyzing software product lines in minutes instead of years.",UFAL; UFPE,Eric Bodden; Társis Tolêdo; Márcio Ribeiro; Claus Brabrand; Paulo Borba; Mira Mezini,http://doi.acm.org/10.1145/2491956.2491976,top,C,no_arxiv,11
 2013,SCP,"Automatic parallelization of canonical loops.",UFMG,Leonardo Luiz Padovani da Mata; Fernando Magno Quintão Pereira; Renato Ferreira,https://doi.org/10.1016/j.scico.2012.09.006,null,J,no_arxiv,2
 2013,SPE,"Extending decoupled software pipeline to parallelize Java programs.",UNICAMP,André Loureiro; João Paulo Porto; Guido Araujo,https://doi.org/10.1002/spe.2120,null,J,no_arxiv,0
 2013,TOPLAS,"Divergence analysis.",UFMG,Diogo Sampaio; Rafael Martins de Souza; Sylvain Collange; Fernando Magno Quintão Pereira,http://doi.acm.org/10.1145/2523815,top,J,no_arxiv,3
