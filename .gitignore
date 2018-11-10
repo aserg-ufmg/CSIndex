@@ -6,3 +6,4 @@ utils/data/*.*
 data/log.txt
 data/manual-classification-failed.csv
 data/allpapers.csv
+tests/node_modules/*
