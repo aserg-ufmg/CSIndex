@@ -52,7 +52,9 @@
       $(document).ready(function(){
         var author = sessionStorage.getItem('corebr_author');
         if (author !== "empty") {
-           document.getElementById("app-input").value= author.split("-").join(" ");
+           term2 = author.split("-").join(" ");
+           document.getElementById("app-input").value = term2;
+           document.title = 'CSIndexbr: ' + term2;
         }
 
         var file = 'data/profs/all-authors.csv';
@@ -65,30 +67,25 @@
         $.get(file, function(data) {
           var list = data.split('\n').map(function(c){ return c.trim(); });
           new autoComplete({
-            selector: '#app-input',
-            minChars: 4,
-            source: function(term, suggest){
-              var suggestions = list.filter(function(city) { return (city.toLowerCase().indexOf(term.toLowerCase().trim()) >= 0); });
-              suggest(suggestions);
-            },
-            onSelect: function(event, term, item) {
-              ga('send', 'event', 'Author Search', term);
-              term2 = term.replaceAll(" ", "-");
-              sessionStorage.setItem('corebr_author', term2);
-              window.history.pushState('', '', '?p=' + term2);
-              document.getElementById('author-charts-frame').contentWindow.location.reload(true);
-              document.title = 'CSIndexbr: ' + term;
-            }
+              selector: '#app-input',
+              minChars: 4,
+              source: function(term, suggest) {
+                 var suggestions = list.filter(function(city) {
+                       return (city.toLowerCase().indexOf(term.toLowerCase().trim()) >= 0);
+                     });
+                 suggest(suggestions);
+              },
+              onSelect: function(event, term, item) {
+                 ga('send', 'event', 'Author Search', term);
+                 term2 = term.replaceAll(" ", "-");
+                 sessionStorage.setItem('corebr_author', term2);
+                 window.history.pushState('', '', '?p=' + term2);
+                 document.getElementById('author-charts-frame').contentWindow.location.reload(true);
+                 document.title = 'CSIndexbr: ' + term;
+             }
           });
         });
 
-        //$('#search-btn').click(function() {
-          //var author = $('#app-input').val();
-          //document.getElementById('author-charts-frame').contentWindow.location.reload(true);
-          // author.replace(" ", "-");
-          // sessionStorage.setItem('corebr_author', author);
-          // alert('Search: ' + value);
-        //});
       });
     </script>
 
