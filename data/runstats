@@ -16,3 +16,9 @@ cat ../statistics2.html >> ../statistics.html
 cat *-out-papers.csv > allpapers.csv
 python ../trending.py allpapers.csv
 rm allpapers.csv
+
+
+rm ../profs.html
+cat ../profs1.html > ../profs.html
+./runprofs >> ../profs.html
+cat ../profs2.html >> ../profs.html
