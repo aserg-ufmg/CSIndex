@@ -1,0 +1,6 @@
+echo '<ul>'
+while read name; do
+  url=$(echo $name | sed 's/ /-/g')
+  echo '<li>  <a href="https://csindexbr.org/authors.html?p='$url'">' $name '</a>'
+done < ./profs/all-authors.csv
+echo '</ul>'

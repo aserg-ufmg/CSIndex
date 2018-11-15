@@ -1,0 +1,9 @@
+# How to use:
+# from "data" folder: ./runtest
+
+cd ..
+FILES=`git diff --name-only data/`
+cd data
+for filename in $FILES; do
+    node ../tests/test.js "$filename"
+done

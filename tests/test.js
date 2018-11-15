@@ -29,12 +29,24 @@ function test(file) {
         file.endsWith("-out-profs.csv")) {
       cvstest(file, [ "string", "number"]); }
 
-   if ( file.endsWith("-out-papers.csv") ) {
+   if ( file.endsWith("-out-papers.csv") ||
+        (file === "trending.csv") ) {
       cvstest(file, ["number", "string", "string", "string", "string",
                      "string", "string", "string", "string", "number"]) ;
+   }
+
+   if ( file.endsWith("-out-stats.csv") ) {
+      cvstest(file, ["string", "string", "number", "number", "number",
+                     "number", "string", "number"]) ;
+   }
+
+   if ( file.endsWith("-out-stats-journals.csv") ) {
+      cvstest(file, ["string", "string", "number", "number", "string",
+                     "number"]) ;
    }
 }
 
 process.argv.forEach(function (val, index, array) {
+  val = val.replace("data/", "")
   test(val);
 });

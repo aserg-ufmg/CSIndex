@@ -39,20 +39,20 @@
 
 
     <script type="text/javascript">
-       sessionStorage.setItem('corebr_author', 'empty');
-       var url = new URL(window.location.href);
+        sessionStorage.setItem('corebr_author', 'empty');
+        var url = new URL(window.location.href);
         var author = url.searchParams.get("p");
         if (author != null) {
-          sessionStorage.setItem('corebr_author', author);
+           sessionStorage.setItem('corebr_author', author);
         }
     </script>
 
 
     <script type="text/javascript">
       $(document).ready(function(){
-        var author= sessionStorage.getItem('corebr_author');
+        var author = sessionStorage.getItem('corebr_author');
         if (author !== "empty") {
-            document.getElementById("app-input").value= author.split("-").join(" ");
+           document.getElementById("app-input").value= author.split("-").join(" ");
         }
 
         var file = 'data/profs/all-authors.csv';
@@ -73,10 +73,11 @@
             },
             onSelect: function(event, term, item) {
               ga('send', 'event', 'Author Search', term);
-              term2= term.replaceAll(" ", "-");
+              term2 = term.replaceAll(" ", "-");
               sessionStorage.setItem('corebr_author', term2);
               window.history.pushState('', '', '?p=' + term2);
               document.getElementById('author-charts-frame').contentWindow.location.reload(true);
+              document.title = 'CSIndexbr: ' + term;
             }
           });
         });

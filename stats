@@ -184,7 +184,7 @@ echo '<li> Journals:' $journals
 echo '<li> Journals with papers by Brazilian professors:' $journals2
 
 echo '<li> Brazilian professors:' $allauthors
-echo '<li> Brazilian professors with papers:' $authors
+echo '<li> Brazilian professors with papers:' $authors '(<a href="profs.html">full list</a>)'
 
 echo '<li> Papers:' $papers
 echo '<li> Papers in conferences:' $papersConf
