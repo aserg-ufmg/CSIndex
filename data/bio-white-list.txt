@@ -1,1 +1,9 @@
 db/journals/bmcbi/bmcbi17.html#NascimentoPC16
+db/journals/bmcbi/bmcbi17.html#LopesSC16
+db/journals/bmcbi/bmcbi17.html#CerriBCJ16
+db/journals/bmcbi/bmcbi15.html#LopesSC14
+db/journals/bmcbi/bmcbi14S.html#BorelliCMR13
+db/journals/bmcbi/bmcbi18.html#CastroTDSS17
+db/journals/bmcbi/bmcbi14S.html#PaulaHGLW13
+db/journals/bmcbi/bmcbi14S.html#SouzaLMM13
+db/journals/bmcbi/bmcbi14.html#MartinsCLRR13
