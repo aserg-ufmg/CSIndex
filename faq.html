@@ -132,6 +132,14 @@ We also recommend to mention
 since it is the primary source of the data collected by CSIndexbr.
 </p>
 
+<h6 style="background-color: GainsBoro">
+Do you plan to index papers from other countries?
+</h6>
+
+<p> Yes, but not in the near future. However, our license allows others
+to create versions of the system for other countries, i.e., CSIndexXY.
+Basically, you only need to provide a list of author names (and their
+DBLP PIDs and universities) for the candidate country.</p>
 
 <h6 style="background-color: GainsBoro">
 What is your definition of a full paper?
@@ -215,31 +223,14 @@ however, this area does not have conferences indexed by CSIndexbr).
   to index only the most important venues (journals or conferences) of
   each area. To access the full list of publications of a researcher, please
   check his/her DBLP page.
+<li> <b> Why JCR's impact factor is not used?</b>
+  Because JCR has a restrict license; for example "sharing of JCR data
+  outside a subscriber’s institution is strictly prohibited".
+
 </ul>
 </p>
 
-<h6 style="background-color: GainsBoro">
-What is the meaning of "other" in the journals Rank column (Stats tab)?
-</h6>
 
-<p> These journals are scored as conferences (weight 0.33, instead of 0.40).
-  The following journals are classified in this category:
-<ul>
-<li> Magazines and journals that accept short papers (which must have at least 6 pages)
-<li> Journals that accept more than 500 papers/year
-<li> Journals with <i>normalized-h5-index</i> < 0.2
-</ul>
-</p>
-
-<h6 style="background-color: GainsBoro">
-Why JCR's impact factor is not used for selecting journals?
-</h6>
-
-<p>
-Because JCR has a restrict license;
-for example "sharing of JCR data outside a subscriber’s institution
-is strictly prohibited".
-</p>
 
 <h6 style="background-color: GainsBoro">
 Why conference [Conf] or [Journal] are not covered?
@@ -269,14 +260,15 @@ Using this formula:
 where:
 
 <ul>
-<li> A = number of papers in top conferences or journals
+<li> A = number of papers in top-venues (journals or conferences)
 <li> B = number of papers in journals
-<li> C = number of papers in conferences, magazines or in "other" journals
+<li> C = number of papers in conferences, magazines, journals that accept
+     short papers, or in "other" journals
 </ul>
 </p>
 
 <h6 style="background-color: GainsBoro">
-How do you define top and near-the-top conferences?
+How do you define top-conferences?
 </h6>
 
 <p>
@@ -297,10 +289,24 @@ per research area.
   six top-conferences in Computer Networks, but it
   includes Mobile Computing (which even has a dedicated ACM SIG).
 
-<li> <b>Why not divide areas with more than 3 top-conferences?</b>
-  Because there are journals that publish papers of both of its
-  sub-areas.
+<li> <b>Why not divide an area with more than 3 top-conferences
+  (e.g., in areas X and Y)?</b>
+  Because usually there are journals that publish papers in X and Y.
 </ul>
+
+<h6 style="background-color: GainsBoro">
+What is the meaning of "other" in the journals Rank column (Stats tab)?
+</h6>
+
+<p> These journals are scored as conferences (weight 0.33, instead of 0.40).
+  The following journals are classified in this category:
+<ul>
+<li> Magazines and journals that accept short papers (which must have at least 6 pages)
+<li> Journals that accept more than 500 papers/year
+<li> Journals with <i>normalized-h5-index</i> < 0.2
+</ul>
+</p>
+
 
 <h6 style="background-color: GainsBoro">
 How are citations collected?
@@ -354,11 +360,6 @@ in the Stats tab).</p>
 <p> A research area must have a Special Interest Group (Comissao Especial) at SBC or ACM.</p>
 
 
-<h6>Do you plan to track papers from other countries?</h6>
-
-<p> Yes, we plan to encourage and help other groups to create CoreXX
-projects, covering papers in countries XX. Our code is public on GitHub,
-under MIT and CC licences.</p>
 
 <h6 style="background-color: GainsBoro">
 What happens when an author moves from institution X to Y?
