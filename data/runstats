@@ -13,9 +13,9 @@ cat ../html/statistics1.html > ../statistics.html
 ../stats >> ../statistics.html
 cat ../html/statistics2.html >> ../statistics.html
 
-cat *-out-papers.csv > allpapers.csv
-python ../trending.py allpapers.csv
-rm allpapers.csv
+#cat *-out-papers.csv > allpapers.csv
+#python ../trending.py allpapers.csv
+#rm allpapers.csv
 
 
 rm ../profs.html
