@@ -163,6 +163,10 @@ def paperSize(dblp_pages):
        p1 = page[1]
        p2 = page[3]
        return int(p2) - int(p1) + 1
+    elif len(page) == 3:
+       p1 = page[1]
+       p2 = page[2]
+       return int(p2) - int(p1) + 1
     else:
        return 0
 
@@ -352,7 +356,7 @@ def inc_score(weight):
        return 1.0
     elif weight == 2:
        return 0.66
-    elif (weight == 3) or (weight == 6):
+    elif (weight == 3) or (weight == 6) or (weight == 7):
        return 0.33
     elif weight == 5:
        return 0.4
@@ -360,7 +364,7 @@ def inc_score(weight):
        return 0.0
 
 def getMinPaperSize(weight):
-    if (weight == 6):  # magazine
+    if (weight == 6) or (weight == 7):  # magazine, short papers, other journals
        minimum_size = 6
     elif (weight == 4) or (weight == 5): # journals
        if area_prefix == "theory":
@@ -416,14 +420,17 @@ def getTitle(title):
     title = title.replace("\"", "")  # remove quotes in titles
     return title
 
-def getPaperSize(url,dblp):
+def getPaperSize(url,dblp,doi):
     if url in white_list:
        size = 10
     elif 'pages' in dblp:
        pages = dblp['pages']
        size = paperSize(pages)
+       if (size == 0):
+          log.write('Missing pages: url: ' + url + ' doi: ' + doi + '\n')
     else:
        size = 0
+       log.write('Missing pages: url: ' + url + ' doi: ' + doi + '\n')
     return size
 
 def getDBLPVenue(dblp):
@@ -475,7 +482,8 @@ def parse_dblp(_, dblp):
 
         #log_msg(venue,year,url)
 
-        size = getPaperSize(url,dblp)
+        doi = getDOI(dblp['ee'])
+        size = getPaperSize(url,dblp,doi)
         minimum_size = getMinPaperSize(weight)
 
         if size >= minimum_size:
@@ -509,7 +517,6 @@ def parse_dblp(_, dblp):
                   score[department] += inc_score(weight)
               return True
 
-           doi = getDOI(dblp['ee'])
            tier = getVenueTier(weight)
            venue_type = getVenueType(weight)
            arxiv = get_arxiv_url(doi,title)
@@ -598,11 +605,6 @@ for researcher in reader2:
     department = researcher[1]
     pid = researcher[2]
 
-#    n0 = flush_prof_papers(area_prefix, prof_name)
-
-#    print str(count) + " >> " + prof_name + ", " + department + ", "+ str(n0)
-    # print str(count) + " >> " + prof_name + ", " + department
-
     if not department in score:
        score[department] = 0.0
     if not department in profs:
@@ -618,9 +620,6 @@ for researcher in reader2:
        print str(count) + " >> " + prof_name + ", " + department
        output_prof_papers(prof_name)
        merge_output_prof_papers(prof_name)
-#    elif n0 > 0:
-#       print "*** has NO papers now **"
-#       merge_output_prof_papers(prof_name)
 
     count = count + 1;
 
