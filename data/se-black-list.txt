@@ -12,3 +12,4 @@ db/conf/esem/esem2018.html#MendoncaSOBLBKS18
 db/conf/esem/esem2018.html#SantosMCNSS18
 db/conf/esem/esem2018.html#TrinkenreichCBS18
 db/conf/esem/esem2018.html#AlvesSMS18
+db/conf/icsm/icsme2018.html#AlmeidaKTFL18
