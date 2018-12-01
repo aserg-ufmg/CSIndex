@@ -29,7 +29,7 @@ for researcher in reader:
     except requests.exceptions.RequestException as e:
        print e
        sys.exit(1)
-    time.sleep(5)
+    time.sleep(6)
     count = count + 1;
 elapsed_time = (time.time() - start_time) / 60
 elapsed_time = round(elapsed_time, 2)

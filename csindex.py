@@ -479,9 +479,6 @@ def parse_dblp(_, dblp):
 
         venue, weight = confdata[dblp_venue]
         url = dblp['url']
-
-        #log_msg(venue,year,url)
-
         doi = getDOI(dblp['ee'])
         size = getPaperSize(url,dblp,doi)
         minimum_size = getMinPaperSize(weight)
