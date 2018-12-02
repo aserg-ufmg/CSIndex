@@ -1,8 +1,3 @@
-# CSIndexbr: Exploring Brazilian Scientific Production in Computer Science
-
-# By Marco Tulio Valente - ASERG/DCC/UFMG
-# http://aserg.labsoft.dcc.ufmg.br
-
 import csv
 import collections
 import re
