@@ -583,7 +583,7 @@ journallist = list(set(journallist))  # removing duplicates
 prof_cache_pattern = "../cache/profs/" + area_prefix + "-*.csv"
 for f in glob.glob(prof_cache_pattern):
     print "Removing " + f
-#    os.remove(f)
+    os.remove(f)
 
 out = {}
 score = {}
