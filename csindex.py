@@ -580,6 +580,11 @@ for conf_row in reader1:
 conflist = list(set(conflist))  # removing duplicates
 journallist = list(set(journallist))  # removing duplicates
 
+prof_cache_pattern = "../cache/profs/" + area_prefix + "-*.csv"
+for f in glob.glob(prof_cache_pattern):
+    print "Removing " + f
+#    os.remove(f)
+
 out = {}
 score = {}
 profs = {}
