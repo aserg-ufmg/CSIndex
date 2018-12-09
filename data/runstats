@@ -20,5 +20,6 @@ cat ../html/statistics2.html >> ../statistics.html
 
 rm ../profs.html
 cat ../html/profs1.html > ../profs.html
-./runprofs >> ../profs.html
+#./runprofs >> ../profs.html
+python ../runprofs.py
 cat ../html/profs2.html >> ../profs.html
