@@ -550,6 +550,11 @@ def outuput_everything():
     mc_failed_file.close()
     log.close()
 
+def remove_prof_cache():
+    prof_cache_pattern = "../cache/profs/" + area_prefix + "-*.csv"
+    for f in glob.glob(prof_cache_pattern):
+        os.remove(f)
+
 # main program
 
 area_prefix= sys.argv[1]
@@ -580,11 +585,6 @@ for conf_row in reader1:
 conflist = list(set(conflist))  # removing duplicates
 journallist = list(set(journallist))  # removing duplicates
 
-prof_cache_pattern = "../cache/profs/" + area_prefix + "-*.csv"
-for f in glob.glob(prof_cache_pattern):
-    print "Removing " + f
-    os.remove(f)
-
 out = {}
 score = {}
 profs = {}
@@ -593,6 +593,7 @@ init_black_white_lists()
 init_manual_files()
 open_arxiv_cache(area_prefix)
 open_citations_cache(area_prefix)
+remove_prof_cache()
 
 reader2 = csv.reader(open("all-researchers.csv", 'r'))
 count = 1;
