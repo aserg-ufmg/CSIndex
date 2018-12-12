@@ -23,6 +23,7 @@ for p in reader1:
     inst[prof] = dept
 
 out = open('../profs.html','a')
+out2 = open('profs.csv','w')
 reader2 = csv.reader(open("./profs/all-authors.csv", 'r'))
 for p in reader2:
     prof = p[0]
@@ -34,4 +35,11 @@ for p in reader2:
     out.write(' <small> (' + dept + ', ' + area + ') </small>')
     out.write('\n')
 
+    out2.write(prof)
+    out2.write(',')
+    out2.write(dept)
+    out2.write(',')
+    out2.write(area)
+    out2.write('\n')
 out.close
+out2.close
