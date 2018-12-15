@@ -1,4 +1,2 @@
 2017,ICS,"Revisiting phased transactional memory.",Joao P. L. de Carvalho; Guido Araujo; Alexandro Baldassin,https://doi.org/10.1145/3079079.3079094,null,C,no_arxiv,0
-2013,Int. J. Parallel Programming,"Transaction Scheduling Using Dynamic Conflict Avoidance.",Daniel Nicácio; Alexandro Baldassin; Guido Araujo,https://doi.org/10.1007/s10766-012-0205-x,null,J,no_arxiv,5
-2013,HiPC,"Transaction scheduling using conflict avoidance and Contention Intensity.",Marcio Machado Pereira; Alexandro Baldassin; Guido Araujo; Luiz Eduardo Buzato,https://doi.org/10.1109/HiPC.2013.6799126,null,C,no_arxiv,1
 2015,PPoPP,"Performance implications of dynamic memory allocators on transactional memory systems.",Alexandro Baldassin; Edson Borin; Guido Araujo,https://doi.org/10.1145/2688500.2688504,null,C,no_arxiv,4
