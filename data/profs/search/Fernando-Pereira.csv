@@ -15,7 +15,3 @@
 2015,OOPSLA,"Runtime pointer disambiguation.",Péricles Alves; Fabian Gruber; Johannes Doerfert; Alexandros Lamprineas; Tobias Grosser; Fabrice Rastello; Fernando Magno Quintão Pereira,https://doi.org/10.1145/2814270.2814285,top,C,no_arxiv,7
 2014,SCP,"Efficient static checker for tainted variable attacks.",Andrei Rimsa; Marcelo d'Amorim; Fernando Magno Quintão Pereira; Roberto da Silva Bigonha,https://doi.org/10.1016/j.scico.2013.03.012,null,J,no_arxiv,2
 2014,OOPSLA,"Validation of memory accesses through symbolic analyses.",Henrique Nazaré; Izabela Maffra; Willer Santos; Leonardo Barbosa e Oliveira; Laure Gonnord; Fernando Magno Quintão Pereira,https://doi.org/10.1145/2660193.2660205,top,C,no_arxiv,5
-2013,SCP,"Automatic parallelization of canonical loops.",Leonardo Luiz Padovani da Mata; Fernando Magno Quintão Pereira; Renato Ferreira,https://doi.org/10.1016/j.scico.2012.09.006,null,J,no_arxiv,2
-2013,TOPLAS,"Divergence analysis.",Diogo Sampaio; Rafael Martins de Souza; Sylvain Collange; Fernando Magno Quintão Pereira,https://doi.org/10.1145/2523815,top,J,no_arxiv,3
-2013,CGO,"Just-in-time value specialization.",Igor Rafael de Assis Costa; Péricles Rafael Oliveira Alves; Henrique Nazaré Santos; Fernando Magno Quintão Pereira,https://doi.org/10.1109/CGO.2013.6495006,null,C,no_arxiv,5
-2013,CGO,"A fast and low-overhead technique to secure programs against integer overflows.",Raphael Ernani Rodrigues; Victor Hugo Sperle Campos; Fernando Magno Quintão Pereira,https://doi.org/10.1109/CGO.2013.6494996,null,C,no_arxiv,11
