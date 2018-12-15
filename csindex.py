@@ -11,7 +11,7 @@ import json
 
 from difflib import SequenceMatcher
 
-FIRST_YEAR = 2013
+FIRST_YEAR = 2014
 LAST_YEAR = 2018
 
 ALERT_ON = '\033[94m'
