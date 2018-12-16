@@ -8,8 +8,8 @@
 2017,Math Program,"Bounding the gap between the McCormick relaxation and the convex hull for bilinear functions.",Natashia Boland; Santanu S. Dey; Thomas Kalinowski; Marco Molinaro; Fabian Rigterink,https://doi.org/10.1007/s10107-016-1031-5,null,J,http://arxiv.org/abs/1507.08703v3,4
 2016,Math OR,"Capacitated Vehicle Routing with Nonuniform Speeds.",Inge Li Gørtz; Marco Molinaro; Viswanath Nagarajan; R. Ravi 0001,https://doi.org/10.1287/moor.2015.0729,top,J,no_arxiv,2
 2016,Math OR,"How the Experts Algorithm Can Help Solve LPs Online.",Anupam Gupta; Marco Molinaro,https://doi.org/10.1287/moor.2016.0782,top,J,http://arxiv.org/abs/1407.5298v2,2
-2015,EJOR,"Characterization of the split closure via geometric lifting.",Amitabh Basu; Marco Molinaro,https://doi.org/10.1016/j.ejor.2014.12.018,null,J,http://arxiv.org/abs/1701.06679v1,0
-2015,Math Program,"Approximating polyhedra with sparse inequalities.",Santanu S. Dey; Marco Molinaro; Qianyi Wang,https://doi.org/10.1007/s10107-015-0925-y,null,J,no_arxiv,4
+2015,EJOR,"Characterization of the split closure via geometric lifting.",Amitabh Basu; Marco Molinaro,https://doi.org/10.1016/j.ejor.2014.12.018,null,J,http://arxiv.org/abs/1701.06679v1,1
+2015,Math Program,"Approximating polyhedra with sparse inequalities.",Santanu S. Dey; Marco Molinaro; Qianyi Wang,https://doi.org/10.1007/s10107-015-0925-y,null,J,no_arxiv,5
 2014,Math OR,"The Geometry of Online Packing Linear Programs.",Marco Molinaro; R. Ravi 0001,https://doi.org/10.1287/moor.2013.0612,top,J,no_arxiv,8
 2018,ICALP,"Maximizing Profit with Convex Costs in the Random-order Model.",Anupam Gupta; Ruta Mehta; Marco Molinaro,https://doi.org/10.4230/LIPIcs.ICALP.2018.71,null,C,no_arxiv,
 2017,SODA,"Online and Random-order Load Balancing Simultaneously.",Marco Molinaro,https://doi.org/10.1137/1.9781611974782.108,top,C,no_arxiv,1
