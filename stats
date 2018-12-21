@@ -183,6 +183,13 @@ papers_security_journals=$(cat temp.csv | awk '/J$/ { print $2 }' | wc -l)
 papers_top_security=$(cat temp.csv | awk '/^top/ { print $1 }' | wc -l)
 rm temp.csv
 
+python ../utils/get2col.py hardware-out-papers.csv 6 7 > temp.csv
+papers_hardware=$(wc -l temp.csv | awk '{print $1}')
+papers_hardware_confs=$(cat temp.csv | awk '/C$/ { print $2 }' | wc -l)
+papers_hardware_journals=$(cat temp.csv | awk '/J$/ { print $2 }' | wc -l)
+papers_top_hardware=$(cat temp.csv | awk '/^top/ { print $1 }' | wc -l)
+rm temp.csv
+
 rm allpapers.csv
 
 today=$(date)
@@ -222,6 +229,7 @@ echo '<li>Human-Computer Interaction:' $papers_chi '/' $papers_chi_confs '/' $pa
 echo '<li>Computer Networks:' $papers_net '/' $papers_net_confs '/' $papers_net_journals '/' $papers_top_net
 echo '<li>Distributed Systems:' $papers_ds '/' $papers_ds_confs '/' $papers_ds_journals '/' $papers_top_ds
 echo '<li>Computer Architecture & HPC:' $papers_arch '/' $papers_arch_confs '/' $papers_arch_journals '/' $papers_top_arch
+echo '<li>Hardware Design:' $papers_hardware '/' $papers_hardware_confs '/' $papers_hardware_journals '/' $papers_top_hardware
 echo '<li>Databases & Information Systems:' $papers_dbis '/' $papers_dbis_confs '/' $papers_dbis_journals '/' $papers_top_dbis
 echo '<li>Web & Information Retrieval:' $papers_ir '/' $papers_ir_confs '/' $papers_ir_journals '/' $papers_top_ir
 echo '<li>Data Mining & Machine Learning:' $papers_data '/' $papers_data_confs '/' $papers_data_journals '/' $papers_top_data
@@ -232,7 +240,7 @@ echo '<li>Operational Research:' $papers_or '/' $papers_or_confs '/' $papers_or_
 echo '<li>Security & Cryptography:' $papers_security '/' $papers_security_confs '/' $papers_security_journals '/' $papers_top_security
 echo '<li>Computer Vision:' $papers_vision '/' $papers_vision_confs '/' $papers_vision_journals '/' $papers_top_vision
 echo '<li>Robotics:' $papers_robotics '/' $papers_robotics_confs '/' $papers_robotics_journals '/' $papers_top_robotics
-echo '<li>Computing Education:' $papers_cse '/' $papers_cse_confs '/' $papers_cse_journals '/' $papers_top_cse
+echo '<li>CS Education:' $papers_cse '/' $papers_cse_confs '/' $papers_cse_journals '/' $papers_top_cse
 echo '<li>Bioinformatics:' $papers_bio '/' $papers_bio_confs '/' $papers_bio_journals '/' $papers_top_bio
 
 echo '</ul>'
