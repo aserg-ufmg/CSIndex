@@ -4,6 +4,9 @@
 
 # http://aserg.labsoft.dcc.ufmg.br
 
+# How to run:
+# on "utils" folder: python papers_count.py
+
 import xmltodict
 import re
 import gzip
@@ -11,7 +14,7 @@ import time
 
 FIRST_YEAR= 2013
 LAST_YEAR= 2018
-min_paper_size = 6
+min_paper_size = 10
 
 count = 0
 papers = {}
@@ -61,7 +64,6 @@ def parse_dblp(_, dblp):
                     else:
                        size = paperSize(pages, "null")
                     if (size >= min_paper_size):
-                       # print syear + ":" + journal
                        #print dblp['title']
                        papers[journal][year - FIRST_YEAR] += 1
     return True
