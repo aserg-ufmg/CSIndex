@@ -141,7 +141,7 @@
 
 <h2 id="author_header"> author </h2>
 
-<p> (full papers indexed by CSIndexbr; 2014-2019) </p>
+<p> Full papers indexed by CSIndexbr in conferences (C) and journals (J), 2014-2019 </p>
 
 <div id="author_chart_papers"></div>
 
@@ -162,6 +162,7 @@ window.history.pushState('', '', '?p=' + corebr_author)
 author = corebr_author.split("-").join(" ")
 document.getElementById("author_header").innerHTML = author;
 document.title = 'CSIndexbr: ' + author;
+ga('send', 'event', 'Author Search', author);
 </script>
 
 <script src="libs/popper.min.js"> </script>

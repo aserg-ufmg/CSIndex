@@ -44,7 +44,6 @@
         var author = url.searchParams.get("p");
         if (author != null) {
            sessionStorage.setItem('corebr_author', author);
-           ga('send', 'event', 'Author Search', author);
            window.open("author_charts.html", "_self");
         }
     </script>
@@ -78,7 +77,6 @@
                  suggest(suggestions);
               },
               onSelect: function(event, term, item) {
-                 ga('send', 'event', 'Author Search', term);
                  term2 = term.replaceAll(" ", "-");
                  sessionStorage.setItem('corebr_author', term2);
                  //window.history.pushState('', '', '?p=' + term2);
