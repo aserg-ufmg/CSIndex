@@ -44,7 +44,6 @@
         var author = url.searchParams.get("p");
         if (author != null) {
            sessionStorage.setItem('corebr_author', author);
-            window.open("author_charts.html", "_self");
         }
     </script>
 
@@ -52,11 +51,11 @@
     <script type="text/javascript">
       $(document).ready(function(){
         var author = sessionStorage.getItem('corebr_author');
-      //  if (author !== "empty") {
-      //     term2 = author.split("-").join(" ");
-      //     document.getElementById("app-input").value = term2;
-      //     document.title = 'CSIndexbr: ' + term2;
-      //  }
+        if (author !== "empty") {
+           term2 = author.split("-").join(" ");
+           document.getElementById("app-input").value = term2;
+           document.title = 'CSIndexbr: ' + term2;
+        }
 
         var file = 'data/profs/all-authors.csv';
 
@@ -80,10 +79,9 @@
                  ga('send', 'event', 'Author Search', term);
                  term2 = term.replaceAll(" ", "-");
                  sessionStorage.setItem('corebr_author', term2);
-                 //window.history.pushState('', '', '?p=' + term2);
-                 //document.getElementById('author-charts-frame').contentWindow.location.reload(true);
-                 //document.title = 'CSIndexbr: ' + term;
-                 window.open("author_charts.html", "_self");
+                 window.history.pushState('', '', '?p=' + term2);
+                 document.getElementById('author-charts-frame').contentWindow.location.reload(true);
+                 document.title = 'CSIndexbr: ' + term;
              }
           });
         });
@@ -158,7 +156,29 @@ of Brazilian CS professors with indexed papers.
   placeholder="Enter the name of a Brazilian faculty" aria-label="Author" aria-describedby="basic-addon2">
 </div>
 
+<p></p>
+
 </div>
+</div>
+
+<div class="row">
+<div class="col-sm-12">
+
+
+<iframe name="frame-results" id="author-charts-frame" height=600 width=1080 src="author_charts.html"></iframe>
+
+<p class="text-center">
+<small>CSIndexbr is maintained by <a href="http://aserg.labsoft.dcc.ufmg.br/">ASERG/DCC/UFMG</a>,
+under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0.
+</a>license.
+See <a href="faq.html">FAQ</a> for details.
+</small> </p>
+
+</div>
+</div>
+
+</div>
+
 
 <script src="libs/popper.min.js"> </script>
 <script src="libs/bootstrap.min.js"></script>

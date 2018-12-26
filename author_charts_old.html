@@ -57,13 +57,13 @@
 		       }
 
 		       var data= new google.visualization.DataTable();
-		       data.addColumn('number', ''); // 0 - Year
-		       data.addColumn('string', ''); // 1 - Venue
-		       data.addColumn('string', ''); // 2 - Title
-		       data.addColumn('string', ''); // 3 - Authors
-		       data.addColumn('string', '');  // 4 - DOI
-		       data.addColumn('string', '');  // 5 - top
-		       data.addColumn('string', ''); // 6 - type
+		       data.addColumn('number', 'Year'); // 0
+		       data.addColumn('string', 'Venue'); // 1
+		       data.addColumn('string', 'Title'); // 2
+		       data.addColumn('string', 'Authors'); // 3
+		       data.addColumn('string', 'DOI');  // 4
+		       data.addColumn('string', 'top');  // 5
+		       data.addColumn('string', 'Type'); // 6
            data.addColumn('string', ''); // 7 - type={no_arxiv,arxiv_url}
            data.addColumn('number', 'Citations'); // 8 - citations
 
@@ -76,14 +76,14 @@
            formatter.format(data, 0); // format year
 
            var formatter = new google.visualization.PatternFormat(
-               '<b>{0}</b> <br> {1} <a href="{2}" onclick="trackOutboundLink(this.href); return false;">[doi]</a> {3}');
-           formatter.format(data, [2,3,4,7]);
+               '{0} <a href="{1}" onclick="trackOutboundLink(this.href); return false;">[doi]</a> {2}');
+           formatter.format(data, [2,4,7]);
 
            var formatter2 = new google.visualization.PatternFormat('<img src="figs/{1}.gif">{0}');
            formatter2.format(data, [2, 5]);
 
            var view = new google.visualization.DataView(data);
-           view.setColumns([0,1,6,2,8]);
+           view.setColumns([0,1,2,3,6,8]);
            var table2= view.toDataTable();
            table2.sort({column: 1, desc: false});
            table2.sort({column: 0, desc: true});
@@ -98,71 +98,7 @@
 
 <body>
 
-  <header>
-    <nav class="navbar navbar-expand-md navbar-dark static-top bg-dark">
-
-      <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <a class="navbar-brand" href="index.html">CSIndexbr <font size="1">BETA</font></a>
-
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="authors.html">Author Pages <span class="sr-only">(current)</span></a>
-          </li>
-  <!--
-          <li class="nav-item">
-            <a class="nav-link" href="trending.html">Trending</a>
-          </li>
-  -->
-          <li class="nav-item">
-            <a class="nav-link" href="statistics.html">Statistics</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="faq.html">FAQ</a>
-          </li>
-
-        </ul>
-
-      </div>
-    </nav>
-  </header>
-
-
-<div class="container">
-
-<div class="row">
-<div class="col-sm-12">
-
-<h2 id="author_header"> author </h2>
-
-<p> (full papers indexed by CSIndexbr; 2014-2019) </p>
-
 <div id="author_chart_papers"></div>
-
-<p class="text-center">
-<small>CSIndexbr is maintained by <a href="http://aserg.labsoft.dcc.ufmg.br/">ASERG/DCC/UFMG</a>,
-under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0.
-</a>license.
-See <a href="faq.html">FAQ</a> for details.
-</small> </p>
-
-</div>
-</div>
-
-</div>
-
-<script>
-window.history.pushState('', '', '?p=' + corebr_author)
-author = corebr_author.split("-").join(" ")
-document.getElementById("author_header").innerHTML = author;
-document.title = 'CSIndexbr: ' + author;
-</script>
 
 <script src="libs/popper.min.js"> </script>
 <script src="libs/bootstrap.min.js"> </script>
