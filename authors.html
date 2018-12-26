@@ -44,7 +44,8 @@
         var author = url.searchParams.get("p");
         if (author != null) {
            sessionStorage.setItem('corebr_author', author);
-            window.open("author_charts.html", "_self");
+           ga('send', 'event', 'Author Search', author);
+           window.open("author_charts.html", "_self");
         }
     </script>
 
