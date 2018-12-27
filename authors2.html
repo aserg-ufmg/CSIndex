@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script>
+       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+       })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+       ga('create', 'UA-8249107-7', 'auto');
+       ga('send', 'pageview');
+   </script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>CSIndexbr: Exploring Brazilian Scientific Production in Computer Science</title>
+
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/dashboard.css" rel="stylesheet">
+
+    <style media="screen">
+      body,html { height: 80%; }
+      .icon { margin-right: 5px; }
+      .autocomplete-suggestions {
+          text-align: left; cursor: default; border: 1px solid #ccc; border-top: 0; background: #fff; box-shadow: -1px 1px 3px rgba(0,0,0,.1);
+          position: absolute; display: none; z-index: 9999; max-height: 254px; overflow: hidden; overflow-y: auto; box-sizing: border-box;
+      }
+      .autocomplete-suggestion { position: relative; padding: 0 .6em; line-height: 23px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 1.02em; color: #333; }
+      .autocomplete-suggestion b { font-weight: normal; color: #1f8dd6; }
+      .autocomplete-suggestion.selected { background: #f0f0f0; }
+    </style>
+
+    <script src="libs/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="libs/jquery.csv.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/JavaScript-autoComplete/1.0.4/auto-complete.min.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+
+        var file = 'data/profs/all-authors.csv';
+
+        String.prototype.replaceAll = function(search, replacement) {
+          var target = this;
+          return target.split(search).join(replacement);
+        };
+
+        $.get(file, function(data) {
+          var list = data.split('\n').map(function(c){ return c.trim(); });
+          new autoComplete({
+              selector: '#app-input',
+              minChars: 4,
+              source: function(term, suggest) {
+                 var suggestions = list.filter(function(city) {
+                       return (city.toLowerCase().indexOf(term.toLowerCase().trim()) >= 0);
+                     });
+                 suggest(suggestions);
+              },
+              onSelect: function(event, term, item) {
+                 term2 = term.replaceAll(" ", "-");
+                 window.open("authors.html?p=" + term2, "_self");
+             }
+          });
+        });
+
+      });
+    </script>
+
+
+ </head>
+
+  <body>
+
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <a class="navbar-brand" href="index.html">CSIndexbr <font size="1">BETA</font></a>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="authors2.html">Author Pages <span class="sr-only">(current)</span></a>
+            </li>
+<!--
+            <li class="nav-item">
+              <a class="nav-link" href="trending.html">Trending</a>
+            </li>
+-->
+            <li class="nav-item">
+              <a class="nav-link" href="statistics.html">Statistics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faq.html">FAQ</a>
+            </li>
+
+          </ul>
+
+        </div>
+      </nav>
+    </header>
+
+
+<div class="container">
+
+<div class="row">
+<div class="col-sm">
+
+<p></p>
+
+<p>
+<b>Only Brazilian professors with papers in conferences and journals
+indexed by CSIndexbr have pages.</b> Author pages have a permanent URL; so
+you can link to them (copy the URL in the address bar of the browser).
+See also the <a href="profs.html">full list</a>
+of Brazilian CS professors with indexed papers.
+</p>
+
+</div>
+</div>
+
+<div class="row">
+<div class="col-sm-8">
+
+<div class="input-group h-20 border-primary justify-content-center">
+  <input id="app-input" type="text" class="form-control"
+  placeholder="Enter the name of a Brazilian faculty" aria-label="Author" aria-describedby="basic-addon2">
+</div>
+
+</div>
+
+<script src="libs/popper.min.js"> </script>
+<script src="libs/bootstrap.min.js"></script>
+
+</body>
+</html>

@@ -1,166 +1,181 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <script>
-       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-       })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-       ga('create', 'UA-8249107-7', 'auto');
-       ga('send', 'pageview');
-   </script>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-8249107-7', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+    <script>
+        var trackOutboundLink = function(url) {
+            ga('send', 'event', 'outbound', 'click', url, {
+               'transport': 'beacon',
+               'hitCallback': function(){window.open(url);}
+            });
+        }
+    </script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
 
+<!--
     <title>CSIndexbr: Exploring Brazilian Scientific Production in Computer Science</title>
+-->
 
-    <link href="./css/bootstrap.min.css" rel="stylesheet">
-    <link href="./css/dashboard.css" rel="stylesheet">
-
-    <style media="screen">
-      body,html { height: 80%; }
-      .icon { margin-right: 5px; }
-      .autocomplete-suggestions {
-          text-align: left; cursor: default; border: 1px solid #ccc; border-top: 0; background: #fff; box-shadow: -1px 1px 3px rgba(0,0,0,.1);
-          position: absolute; display: none; z-index: 9999; max-height: 254px; overflow: hidden; overflow-y: auto; box-sizing: border-box;
-      }
-      .autocomplete-suggestion { position: relative; padding: 0 .6em; line-height: 23px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 1.02em; color: #333; }
-      .autocomplete-suggestion b { font-weight: normal; color: #1f8dd6; }
-      .autocomplete-suggestion.selected { background: #f0f0f0; }
-    </style>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <script src="libs/jquery-3.3.1.min.js"></script>
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript" src="libs/jquery.csv.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/JavaScript-autoComplete/1.0.4/auto-complete.min.js"></script>
-
 
     <script type="text/javascript">
-        sessionStorage.setItem('corebr_author', 'empty');
-        var url = new URL(window.location.href);
-        var author = url.searchParams.get("p");
-        if (author != null) {
-           sessionStorage.setItem('corebr_author', author);
-           window.open("author_charts.html", "_self");
-        }
+		google.charts.load('current', {'packages':['table']});
+
+		google.charts.setOnLoadCallback(drawTablePapers);
+
+    //var corebr_author= sessionStorage.getItem('corebr_author');
+
+    var url = new URL(window.location.href);
+    var corebr_author = url.searchParams.get("p");
+
+		var corebr_papers_file = "data/profs/search/" + corebr_author + ".csv";
+
+		function drawTablePapers() {
+		  $.get(corebr_papers_file, function(csvString) {
+		       var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
+           arrayData2 = [];
+		       for (var i = 0; i < arrayData.length; i++) {
+		           if (arrayData[i][7] == "no_arxiv") {
+		              arrayData[i][7] = "";
+		           } else {
+		              arrayData[i][7] = "<a href=\"" + arrayData[i][7] + "\" target=\"_blank\" onclick=\"trackOutboundLink(this.href); return false;\">[arxiv]</a>";
+		           }
+		           arrayData2.push(arrayData[i]);
+		       }
+
+		       var data= new google.visualization.DataTable();
+		       data.addColumn('number', 'Year'); // 0 - Year
+		       data.addColumn('string', 'Venue'); // 1 - Venue
+		       data.addColumn('string', 'Title/Authors'); // 2 - Title
+		       data.addColumn('string', ''); // 3 - Authors
+		       data.addColumn('string', '');  // 4 - DOI
+		       data.addColumn('string', '');  // 5 - top
+		       data.addColumn('string', ''); // 6 - type
+           data.addColumn('string', ''); // 7 - type={no_arxiv,arxiv_url}
+           data.addColumn('number', 'Citations'); // 8 - citations
+
+		       data.addRows(arrayData2);
+	  	     data.sort({column: 0, desc: true});
+
+		       var table = new google.visualization.Table(document.getElementById('author_chart_papers'));
+
+		       var formatter = new google.visualization.NumberFormat( {pattern: '####'} );
+           formatter.format(data, 0); // format year
+
+           var formatter = new google.visualization.PatternFormat(
+               '<b>{0}</b> <br> {1} <a href="{2}" onclick="trackOutboundLink(this.href); return false;">[doi]</a> {3}');
+           formatter.format(data, [2,3,4,7]);
+
+           var formatter2 = new google.visualization.PatternFormat('<img src="figs/{1}.gif">{0}');
+           formatter2.format(data, [2, 5]);
+
+           var view = new google.visualization.DataView(data);
+           view.setColumns([0,1,6,2,8]);
+           var table2= view.toDataTable();
+           table2.sort({column: 1, desc: false});
+           table2.sort({column: 0, desc: true});
+
+		       table.draw(table2, {allowHtml: true, showRowNumber: true, width: '100%', height: '100%'});
+		  });
+		}
+
     </script>
 
+  </head>
 
-    <script type="text/javascript">
-      $(document).ready(function(){
-        var author = sessionStorage.getItem('corebr_author');
-      //  if (author !== "empty") {
-      //     term2 = author.split("-").join(" ");
-      //     document.getElementById("app-input").value = term2;
-      //     document.title = 'CSIndexbr: ' + term2;
-      //  }
+<body>
 
-        var file = 'data/profs/all-authors.csv';
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark static-top bg-dark">
 
-        String.prototype.replaceAll = function(search, replacement) {
-          var target = this;
-          return target.split(search).join(replacement);
-        };
+      <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        $.get(file, function(data) {
-          var list = data.split('\n').map(function(c){ return c.trim(); });
-          new autoComplete({
-              selector: '#app-input',
-              minChars: 4,
-              source: function(term, suggest) {
-                 var suggestions = list.filter(function(city) {
-                       return (city.toLowerCase().indexOf(term.toLowerCase().trim()) >= 0);
-                     });
-                 suggest(suggestions);
-              },
-              onSelect: function(event, term, item) {
-                 term2 = term.replaceAll(" ", "-");
-                 sessionStorage.setItem('corebr_author', term2);
-                 //window.history.pushState('', '', '?p=' + term2);
-                 //document.getElementById('author-charts-frame').contentWindow.location.reload(true);
-                 //document.title = 'CSIndexbr: ' + term;
-                 window.open("author_charts.html", "_self");
-             }
-          });
-        });
+      <a class="navbar-brand" href="index.html">CSIndexbr <font size="1">BETA</font></a>
 
-      });
-    </script>
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="authors2.html">Author Pages <span class="sr-only">(current)</span></a>
+          </li>
+  <!--
+          <li class="nav-item">
+            <a class="nav-link" href="trending.html">Trending</a>
+          </li>
+  -->
+          <li class="nav-item">
+            <a class="nav-link" href="statistics.html">Statistics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="faq.html">FAQ</a>
+          </li>
 
+        </ul>
 
- </head>
-
-  <body>
-
-    <header>
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-
-        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <a class="navbar-brand" href="index.html">CSIndexbr <font size="1">BETA</font></a>
-
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="authors.html">Author Pages <span class="sr-only">(current)</span></a>
-            </li>
-<!--
-            <li class="nav-item">
-              <a class="nav-link" href="trending.html">Trending</a>
-            </li>
--->
-            <li class="nav-item">
-              <a class="nav-link" href="statistics.html">Statistics</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="faq.html">FAQ</a>
-            </li>
-
-          </ul>
-
-        </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
+  </header>
 
 
 <div class="container">
 
 <div class="row">
-<div class="col-sm">
+<div class="col-sm-12">
 
-<p></p>
+<h2 id="author_header"> author </h2>
 
 <p>
-<b>Only Brazilian professors with papers in conferences and journals
-indexed by CSIndexbr have pages.</b> Author pages have a permanent URL; so
-you can link to them (copy the URL in the address bar of the browser).
-See also the <a href="profs.html">full list</a>
-of Brazilian CS professors with indexed papers.
+Papers indexed by CSIndexbr in conferences (C) and journals (J), 2014-2019.
+<font color="red">Tip:</font> click on column headers to sort.
 </p>
 
+<div id="author_chart_papers"></div>
+
+<p class="text-center">
+<small>CSIndexbr is maintained by <a href="http://aserg.labsoft.dcc.ufmg.br/">ASERG/DCC/UFMG</a>,
+under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0.
+</a>license.
+See <a href="faq.html">FAQ</a> for details.
+</small> </p>
+
 </div>
 </div>
 
-<div class="row">
-<div class="col-sm-8">
-
-<div class="input-group h-20 border-primary justify-content-center">
-  <input id="app-input" type="text" class="form-control"
-  placeholder="Enter the name of a Brazilian faculty" aria-label="Author" aria-describedby="basic-addon2">
 </div>
 
-</div>
+<script>
+  author = corebr_author.split("-").join(" ");
+  document.getElementById("author_header").innerHTML = author;
+  document.title = 'CSIndexbr: ' + author;
+  ga('send', 'event', 'Author Search', author);
+</script>
 
 <script src="libs/popper.min.js"> </script>
-<script src="libs/bootstrap.min.js"></script>
+<script src="libs/bootstrap.min.js"> </script>
 
 </body>
+
 </html>
