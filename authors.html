@@ -26,10 +26,6 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-<!--
-    <title>CSIndexbr: Exploring Brazilian Scientific Production in Computer Science</title>
--->
-
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <script src="libs/jquery-3.3.1.min.js"></script>
@@ -62,7 +58,7 @@
 		           arrayData2.push(arrayData[i]);
 		       }
 
-		       var data= new google.visualization.DataTable();
+           var data= new google.visualization.DataTable();
 		       data.addColumn('number', 'Year'); // 0 - Year
 		       data.addColumn('string', 'Venue'); // 1 - Venue
 		       data.addColumn('string', 'Title/Authors'); // 2 - Title
@@ -85,7 +81,7 @@
            //formatter.format(data, 1);
 
            var formatter = new google.visualization.PatternFormat(
-               '<font size="3"> <b>{0}</b> <br> </font> {1} <a href="{2}" onclick="trackOutboundLink(this.href); return false;">[doi]</a> {3}');
+               '<b>{0}</b> <br> {1} <a href="{2}" onclick="trackOutboundLink(this.href); return false;">[doi]</a> {3}');
            formatter.format(data, [2,3,4,7]);
 
            var formatter2 = new google.visualization.PatternFormat('<img src="figs/{0}.gif">');
@@ -124,11 +120,6 @@
           <li class="nav-item active">
             <a class="nav-link" href="authors2.html">Author Pages <span class="sr-only">(current)</span></a>
           </li>
-  <!--
-          <li class="nav-item">
-            <a class="nav-link" href="trending.html">Trending</a>
-          </li>
-  -->
           <li class="nav-item">
             <a class="nav-link" href="statistics.html">Statistics</a>
           </li>
@@ -148,21 +139,25 @@
 <div class="row">
 <div class="col-sm-12">
 
-<h2 id="author_header"> author </h2>
+<h2 id="author_name"> author </h2>
+
 
 <p>
-Papers indexed by CSIndexbr in conferences (C) and journals (J), 2014-2019.
+Papers in conferences (C) and journals (J) indexed by CSIndexbr, 2014-2019.
 <font color="red">Tip:</font> click on column headers to sort.
 </p>
 
 <div id="author_chart_papers"></div>
 
+<!----
 <p class="text-center">
 <small>CSIndexbr is maintained by <a href="http://aserg.labsoft.dcc.ufmg.br/">ASERG/DCC/UFMG</a>,
 under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0.
 </a>license.
 See <a href="faq.html">FAQ</a> for details.
 </small> </p>
+
+---->
 
 </div>
 </div>
@@ -171,7 +166,7 @@ See <a href="faq.html">FAQ</a> for details.
 
 <script>
   author = corebr_author.split("-").join(" ");
-  document.getElementById("author_header").innerHTML = author;
+  document.getElementById("author_name").innerHTML = author;
   document.title = 'CSIndexbr: ' + author;
   ga('send', 'event', 'Author Search', author);
 </script>
