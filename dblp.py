@@ -49,7 +49,6 @@ if download:
    elapsed_time = (time.time() - start_time) / 60
    elapsed_time = round(elapsed_time, 2)
    print "Elapsed time (min): " + str(elapsed_time)
-   reader.close()
 
 print "Testing files ...."
 reader = csv.reader(open("all-researchers.csv", 'r'))
