@@ -57,9 +57,9 @@
 		       }
 
 		       var data= new google.visualization.DataTable();
-		       data.addColumn('number', ''); // 0 - Year
-		       data.addColumn('string', ''); // 1 - Venue
-		       data.addColumn('string', ''); // 2 - Title
+		       data.addColumn('number', 'Year'); // 0 - Year
+		       data.addColumn('string', 'Venue'); // 1 - Venue
+		       data.addColumn('string', 'Title/Authors'); // 2 - Title
 		       data.addColumn('string', ''); // 3 - Authors
 		       data.addColumn('string', '');  // 4 - DOI
 		       data.addColumn('string', '');  // 5 - top
@@ -141,7 +141,10 @@
 
 <h2 id="author_header"> author </h2>
 
-<p> Full papers indexed by CSIndexbr in conferences (C) and journals (J), 2014-2019 </p>
+<p>
+Papers indexed by CSIndexbr in conferences (C) and journals (J), 2014-2019.
+<font color="red">Tip:</font> click on column headers to sort.
+</p>
 
 <div id="author_chart_papers"></div>
 
@@ -158,8 +161,8 @@ See <a href="faq.html">FAQ</a> for details.
 </div>
 
 <script>
-window.history.pushState('', '', '?p=' + corebr_author)
-author = corebr_author.split("-").join(" ")
+window.history.replaceState('', '', 'authors.html?p=' + corebr_author);
+author = corebr_author.split("-").join(" ");
 document.getElementById("author_header").innerHTML = author;
 document.title = 'CSIndexbr: ' + author;
 ga('send', 'event', 'Author Search', author);
