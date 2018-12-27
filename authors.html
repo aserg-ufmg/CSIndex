@@ -81,15 +81,18 @@
 		       var formatter = new google.visualization.NumberFormat( {pattern: '####'} );
            formatter.format(data, 0); // format year
 
+           //var formatter = new google.visualization.NumberFormat('<font size="3"> <b>{0}</b> <br> </font>');
+           //formatter.format(data, 1);
+
            var formatter = new google.visualization.PatternFormat(
-               '<b>{0}</b> <br> {1} <a href="{2}" onclick="trackOutboundLink(this.href); return false;">[doi]</a> {3}');
+               '<font size="3"> <b>{0}</b> <br> </font> {1} <a href="{2}" onclick="trackOutboundLink(this.href); return false;">[doi]</a> {3}');
            formatter.format(data, [2,3,4,7]);
 
-           var formatter2 = new google.visualization.PatternFormat('<img src="figs/{1}.gif">{0}');
-           formatter2.format(data, [2, 5]);
+           var formatter2 = new google.visualization.PatternFormat('<img src="figs/{0}.gif">');
+           formatter2.format(data, [5]);
 
            var view = new google.visualization.DataView(data);
-           view.setColumns([0,1,6,2,8]);
+           view.setColumns([0,1,6,5,2,8]);
            var table2= view.toDataTable();
            table2.sort({column: 1, desc: false});
            table2.sort({column: 0, desc: true});
