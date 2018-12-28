@@ -88,10 +88,10 @@
            formatter2.format(data, [5]);
 
            var view = new google.visualization.DataView(data);
-           view.setColumns([0,1,6,5,2,8]);
+           view.setColumns([6,1,0,5,2,8]);
            var table2= view.toDataTable();
            table2.sort({column: 1, desc: false});
-           table2.sort({column: 0, desc: true});
+           table2.sort({column: 2, desc: true});
 
 		       table.draw(table2, {allowHtml: true, showRowNumber: true, width: '100%', height: '100%'});
 		  });
