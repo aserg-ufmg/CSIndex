@@ -42,10 +42,10 @@
 
         var file = 'data/profs/all-authors.csv';
 
-        String.prototype.replaceAll = function(search, replacement) {
-          var target = this;
-          return target.split(search).join(replacement);
-        };
+        //String.prototype.replaceAll = function(search, replacement) {
+        //  var target = this;
+        //  return target.split(search).join(replacement);
+        //};
 
         $.get(file, function(data) {
           var list = data.split('\n').map(function(c){ return c.trim(); });
@@ -59,7 +59,8 @@
                  suggest(suggestions);
               },
               onSelect: function(event, term, item) {
-                 term2 = term.replaceAll(" ", "-");
+                 //term2 = term.replaceAll(" ", "-");
+                 term2 = term.split(" ").join("-");
                  window.open("authors.html?p=" + term2, "_self");
              }
           });
