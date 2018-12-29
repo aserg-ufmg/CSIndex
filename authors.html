@@ -81,7 +81,7 @@
            //formatter.format(data, 1);
 
            var formatter = new google.visualization.PatternFormat(
-               '{0} <br> {1} <a href="{2}" onclick="trackOutboundLink(this.href); return false;">[doi]</a> {3}');
+               '<b>{0}</b> <br> {1} <a href="{2}" onclick="trackOutboundLink(this.href); return false;">[doi]</a> {3}');
            formatter.format(data, [2,3,4,7]);
 
            var formatter2 = new google.visualization.PatternFormat('<img src="figs/{0}.gif">');
@@ -151,7 +151,7 @@ Full papers indexed by CSIndexbr, 2014-2019.
 
 <p class="text-center">
 <small>
-<font color="blue">Tip:</font> click on column headers to sort.
+<b>Tip:</b> click on column headers to sort.
 </small>
 </p>
 
