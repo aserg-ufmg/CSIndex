@@ -48,6 +48,8 @@
 		function drawTablePapers() {
 		  $.get(corebr_papers_file, function(csvString) {
 		       var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
+           citations = 0;
+           top_papers = 0;
            arrayData2 = [];
 		       for (var i = 0; i < arrayData.length; i++) {
 		           if (arrayData[i][7] == "no_arxiv") {
@@ -55,8 +57,31 @@
 		           } else {
 		              arrayData[i][7] = "<a href=\"" + arrayData[i][7] + "\" target=\"_blank\" onclick=\"trackOutboundLink(this.href); return false;\">[arxiv]</a>";
 		           }
+               cit = parseInt(arrayData[i][8]);
+               if (!isNaN(cit)) {
+                  citations = citations + cit;
+               }
+               if (arrayData[i][5] == "top") {
+                  top_papers++;
+               }
 		           arrayData2.push(arrayData[i]);
 		       }
+
+           papers = arrayData.length
+           if (papers == 1) {
+              msg = " 1 paper; "
+           }
+           else {
+              msg = papers + " papers; "
+           }
+           if (top_papers == 1) {
+              msg = msg + '1 top-paper (<img src="figs/top.gif">); ';
+           }
+           if (top_papers > 1) {
+              msg = msg + top_papers + ' top-papers (<img src="figs/top.gif">); ';
+           }
+           msg = msg + citations + " citations <small>(since 2014)</small>";
+           document.getElementById("author_stats").innerHTML = msg;
 
            var data= new google.visualization.DataTable();
 		       data.addColumn('number', 'Year'); // 0 - Year
@@ -141,11 +166,15 @@
 
 <h2 id="author_name"> author </h2>
 
+<h7 id="author_stats"> stats </h7>
 
+<p></p>
+
+<!----
 <p>
 Full papers indexed by CSIndexbr, 2014-2019.
-
 </p>
+---->
 
 <div id="author_chart_papers"></div>
 
