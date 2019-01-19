@@ -269,4 +269,7 @@ echo '</ul>'
 
 # echo '</ul>'
 
-#echo '<p><small>(last updated on' $today')</small></p>'
+up_papers=$(stat -x ../cache/dblp/Marco-Tulio-Valente.xml | awk '/^Change:/ { print $3 " " $4 ", " $6 }')
+up_citations=$(stat -x ../cache/citations/se-citations.csv | awk '/^Change:/ { print $3 " " $4 ", " $6 }')
+
+echo '<small> <p> Last updated on' $up_papers ' (papers) and ' $up_citations  ' (citations).</p> </small>'
