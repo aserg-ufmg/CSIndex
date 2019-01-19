@@ -160,21 +160,13 @@
 
 
 <div class="container">
-
 <div class="row">
 <div class="col-sm-12">
 
 <h2 id="author_name"> author </h2>
-
 <h7 id="author_stats"> stats </h7>
 
 <p></p>
-
-<!----
-<p>
-Full papers indexed by CSIndexbr, 2014-2019.
-</p>
----->
 
 <div id="author_chart_papers"></div>
 
@@ -184,25 +176,22 @@ Full papers indexed by CSIndexbr, 2014-2019.
 </small>
 </p>
 
-<!----
-<p class="text-center">
-<small>CSIndexbr is maintained by <a href="http://aserg.labsoft.dcc.ufmg.br/">ASERG/DCC/UFMG</a>,
-under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0.
-</a>license.
-See <a href="faq.html">FAQ</a> for details.
-</small> </p>
-
----->
-
 </div>
 </div>
-
 </div>
 
 <script>
-  author = corebr_author.split("-").join(" ");
-  document.getElementById("author_name").innerHTML = author;
+  var author = corebr_author.split("-").join(" ");
   document.title = 'CSIndexbr: ' + author;
+  $.get("data/profs.csv", function(csvString) {
+      var data = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
+      for (var i = 0; i < data.length; i++) {
+          if (data[i][0] === author) {
+             inst = '<font size="4"> (' + data[i][1] + ')</font>';
+             document.getElementById("author_name").innerHTML = author + inst;
+          }
+      }
+  });
   ga('send', 'event', 'Author Search', author);
 </script>
 
