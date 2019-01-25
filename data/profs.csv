@@ -5,7 +5,7 @@ Adenilton da Silva,UFRPE,AI
 Adilson Elias Xavier,COPPE/UFRJ,OR
 Adriane Serapiao,UNESP,AI
 Adriano Oliveira,UFPE,AI
-Adriano Pereira,UFMG,IR
+Adriano Pereira,UFMG,DBIS
 Adriano Veloso,UFMG,IR
 Adriao Duarte Doria Neto,UFRN,AI
 Agma Traina,ICMC/USP,DATA
@@ -142,7 +142,7 @@ Clarisse de Souza,PUC-Rio,CHI
 Claudia Linhares Sales,UFC,THEORY
 Claudia Nalon,UnB,FORMAL
 Claudia Werner,COPPE/UFRJ,SE
-Claudine Badue,UFES,AI
+Claudine Badue,UFES,ROBOTICS
 Claudio Amorim,COPPE/UFRJ,ARCH
 Claudio Campelo,UFCG,AI
 Claudio Geyer,UFRGS,ARCH
@@ -179,7 +179,7 @@ Daniel Schwabe,PUC-Rio,DATA
 Daniel de Oliveira,UFF,ARCH
 Danielo Gomes,UFC,ARCH
 Danilo Sanches,UTFPR,AI
-Dante Augusto Couto Barone,URGS,VISION
+Dante Augusto Couto Barone,UFRGS,VISION
 Dario Aloise,UERN,OR
 David Martins,UFABC,DATA
 David Menotti,UFPR,AI
@@ -218,7 +218,7 @@ Eduardo Feitosa,UFAM,NET
 Eduardo Figueiredo,UFMG,SE
 Eduardo Guerra,ITA,SE
 Eduardo Nakamura,UFAM,AI
-Eduardo Ogasawara,CEFET-RJ,ARCH
+Eduardo Ogasawara,CEFET-RJ,AI
 Eduardo Sany Laber,PUC-Rio,THEORY
 Eduardo Todt,UFPR,IR
 Edward Hermann Haeusler,PUC-Rio,FORMAL
@@ -642,6 +642,7 @@ Ricardo Prudencio,UFPE,AI
 Ricardo Reis,UFRGS,HARDWARE
 Ricardo Rios,UFBA,AI
 Ricardo Rodrigues Ciferri,UFSCar,DS
+Ricardo Silveira,UFSC,AI
 Ricardo Tanscheit,PUC-Rio,AI
 Ricardo Terra,UFLA,SE
 Ricardo Torres,UNICAMP,VISION
@@ -667,7 +668,9 @@ Rodrigo Geraldo,UFOP,PL
 Rodrigo Machado,UFRGS,THEORY
 Rodrigo Mello,ICMC/USP,AI
 Rodrigo Minetto,UFTPR,VISION
+Rodrigo Pereira dos Santos,UNIRIO,SE
 Rodrigo Righi,Unisinos,DS
+Rodrigo Zelir Azzolin,UFRG,ROBOTICS
 Rodrigo de Souza Couto,COPPE/UFRJ,NET
 Rodrygo Santos,UFMG,DATA
 Rohit Gheyi,UFCG,SE
@@ -752,7 +755,7 @@ Vinicius Garcia,UFPE,ARCH
 Vinicius Petrucci,UFBA,ARCH
 Vinicius Santos,UFMG,THEORY
 Virgilio Almeida,UFMG,IR
-Vitor Estevao Silva Souza,UFES,SE
+Vitor Estevao Silva Souza,UFES,DBIS
 Viviane Moreira,UFRGS,IR
 Viviane Silva,UFF,SE
 Vladimir Iorio,UFV,PL

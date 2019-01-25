@@ -1,0 +1,19 @@
+# CSIndexbr: Exploring Brazilian Scientific Production in Computer Science
+
+# By Marco Tulio Valente - ASERG/DCC/UFMG
+# http://aserg.labsoft.dcc.ufmg.br
+
+# How to use:
+# From data folder: ./rundblp
+
+date=`date +%Y-%m-%d`
+name="dblp-$date.zip"
+
+cd ../cache
+zip -qr "$name" dblp
+
+rm ./dblp/*
+
+cd ../data
+
+python ../dblp.py
