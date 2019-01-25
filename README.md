@@ -2,7 +2,9 @@
 
 CSIndexbr provides transparent data about Brazilian scientific production in Computer Science. We index full research papers published in selected conferences and journals. The papers are retrieved from DBLP.
 
-# Scripts (must be called from data folder):
+# Scripts 
+
+**All these script must be called from data folder:**
 
 * ./run se pl chi: update the papers (and other output data) for the listed areas (se, pl, and chi). 
 
