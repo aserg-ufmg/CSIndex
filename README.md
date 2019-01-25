@@ -6,10 +6,10 @@ CSIndexbr provides transparent data about Brazilian scientific production in Com
 
 **All these script must be called from data folder:**
 
-* *./run se pl chi*: update the papers (and other output data) for the listed areas (se, pl, and chi). 
+* *./run se pl chi*: update the papers (and related data) for the listed research areas (se, pl, and chi, in the example). 
 
-* *./runall*: update the papers (and other output data) for **all** tracked research areas
+* *./runall*: update the papers (and related data) for **all** research areas
 
 * *./rundblp*: download dblp files (xml, with papers) for **all** tracked professors
 
-* *./runcitations*: update citations for for **all** tracked areas
+* *./runcitations*: update citations for for **all** research areas
