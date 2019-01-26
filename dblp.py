@@ -7,12 +7,23 @@ import sys
 import requests
 import time
 import xmltodict
+import os
 
 def get_dblp_file(pid,prof):
     prof = prof.replace(" ", "-")
     file = '../cache/dblp/' + prof + '.xml'
-    with open(file) as f:
-       bibfile = f.read()
+    if os.path.exists(file):
+       with open(file) as f:
+          bibfile = f.read()
+    else:
+       try:
+         url = "http://dblp.org/pid/" + pid + ".xml"
+         bibfile = requests.get(url).text
+         with open(file, 'w') as f:
+            f.write(bibfile)
+       except requests.exceptions.RequestException as e:
+         print e
+         sys.exit(1)
     return bibfile
 
 def parse_dblp(_, dblp):

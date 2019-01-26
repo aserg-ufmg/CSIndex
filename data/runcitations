@@ -26,4 +26,4 @@ sleep 45
 sleep 45
 ./run or security vision
 sleep 45
-./run robotics cse bio
+./run robotics cse bio hardware
