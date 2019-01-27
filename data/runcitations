@@ -6,6 +6,8 @@
 # How to use:
 # From data folder: ./runcitations
 
+start=`date +%s`
+
 date=`date +%Y-%m-%d`
 name="citations-$date.zip"
 
@@ -17,13 +19,19 @@ rm ./citations/*
 cd ../data
 
 ./run cs se
-sleep 45
+sleep 60
 ./run pl chi net
-sleep 45
+sleep 60
 ./run ds arch dbis ir
-sleep 45
+sleep 60
 ./run data ai theory formal
-sleep 45
+sleep 60
 ./run or security vision
-sleep 45
+sleep 60
 ./run robotics cse bio hardware
+
+end=`date +%s`
+echo '############# citations update finished #############'
+runtime1=$(($end-$start))
+runtime1=$(echo "scale=2; " $runtime1 "/ 60.0" | bc -l)
+echo 'Runtime: ' $runtime1 'min'
