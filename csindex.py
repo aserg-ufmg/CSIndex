@@ -296,6 +296,21 @@ def output_profs():
       f3.write('\n')
   f3.close()
 
+def output_profs_list():
+    global profs_list
+
+    profs_list = sorted(profs_list, key=lambda x: x[0])
+
+    f3 = open(area_prefix + '-out-profs-list.csv','w')
+
+    for i in range(0, len(profs_list)):
+        f3.write(str(profs_list[i][0]))
+        f3.write(',')
+        f3.write(str(profs_list[i][1]))
+        f3.write('\n')
+    f3.close()
+
+
 def remove_prof_papers_file(area_prefix, prof_name):
     prof_name = prof_name.replace(" ", "-")
     file_name = "../cache/profs/" + area_prefix + "-" + prof_name + '-papers.csv'
@@ -542,6 +557,7 @@ def outuput_everything():
     output_scores()
     output_profs()
     output_venues()
+    output_profs_list()
     output_arxiv_cache(area_prefix)
     output_citations_cache(area_prefix)
     generate_search_box_list()
@@ -588,6 +604,7 @@ journallist = list(set(journallist))  # removing duplicates
 out = {}
 score = {}
 profs = {}
+profs_list = []
 
 init_black_white_lists()
 init_manual_files()
@@ -614,6 +631,7 @@ for researcher in reader2:
     xmltodict.parse(bibfile, item_depth=3, item_callback=parse_dblp)
 
     if found_paper:
+       profs_list.append((prof_name,department))
        profs[department] += 1
        print str(count) + " >> " + prof_name + ", " + department
        output_prof_papers(prof_name)

@@ -42,7 +42,8 @@
 		google.charts.setOnLoadCallback(drawChartConfs);
 		google.charts.setOnLoadCallback(drawChartJournals);
 		google.charts.setOnLoadCallback(drawChartDepts);
-		google.charts.setOnLoadCallback(drawChartProfs);
+	//	google.charts.setOnLoadCallback(drawChartProfs);
+    google.charts.setOnLoadCallback(drawTableProfsList);
     google.charts.setOnLoadCallback(drawTablePapersConf);
     google.charts.setOnLoadCallback(drawTablePapersJournal);
     google.charts.setOnLoadCallback(drawTableStats);
@@ -53,8 +54,9 @@
 		var corebr_confs_file  = "data/" + corebr_area_prefix + "-out-confs.csv";
 		var corebr_journals_file  = "data/" + corebr_area_prefix + "-out-journals.csv";
 		var corebr_depts_file  = "data/" + corebr_area_prefix + "-out-scores.csv";
-		var corebr_profs_file  = "data/" + corebr_area_prefix + "-out-profs.csv";
-	  var corebr_papers_file = "data/" + corebr_area_prefix + "-out-papers.csv";
+//		var corebr_profs_file  = "data/" + corebr_area_prefix + "-out-profs.csv";
+    var corebr_profs_list_file  = "data/" + corebr_area_prefix + "-out-profs-list.csv";
+    var corebr_papers_file = "data/" + corebr_area_prefix + "-out-papers.csv";
 	  var corebr_stats_file  = "data/" + corebr_area_prefix + "-out-stats.csv";
 	  var corebr_stats_journals_file  = "data/" + corebr_area_prefix + "-out-stats-journals.csv";
 
@@ -176,6 +178,29 @@
 		       chart.draw(view, options);
 		  });
 		}
+
+    function drawTableProfsList() {
+      $.get(corebr_profs_list_file, function(csvString) {
+           var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
+           for (var i = 0; i < arrayData.length; i++) {
+               prof = arrayData[i][0];
+               prof2 = prof.split(" ").join("-");
+              // url = '<small> <a href="https://csindexbr.org/authors.html?p=';
+              // url = url + prof2 + '" target="_blank">[papers]</a> </small>';
+              // arrayData[i][0] = prof + url;
+              url = '<a href="https://csindexbr.org/authors.html?p=';
+              url = url + prof2 + '" target="_blank">' +  prof + '</a>';
+              arrayData[i][0] = url;
+           }
+           var data= new google.visualization.DataTable();
+           data.addColumn('string', 'Brazilian Professors (with papers in the area)'); // 0
+           data.addColumn('string', 'Department');  // 1
+           data.addRows(arrayData);
+
+           var table = new google.visualization.Table(document.getElementById('chart_profs2'));
+           table.draw(data, {allowHtml: true, showRowNumber: true, width: '100%', height: '100%'});
+      });
+    }
 
 		function drawTablePapers(type) {
 		  $.get(corebr_papers_file, function(csvString) {
@@ -361,8 +386,14 @@
 <a class="nav-link small"  data-toggle="tab" href="#depts" role="tab">Departments</a>
 </li>
 
+<!---
 <li class="nav-item">
 <a class="nav-link small"  data-toggle="tab" href="#profs" role="tab">Faculty</a>
+</li>
+--->
+
+<li class="nav-item">
+<a class="nav-link small"  data-toggle="tab" href="#profs2" role="tab">Faculty</a>
 </li>
 
 <li class="nav-item">
@@ -397,8 +428,14 @@
 <div id="chart_depts"></div>
 </div>
 
+<!---
 <div class="tab-pane" id="profs" role="tabpanel">
 <div id="chart_profs"></div>
+</div>
+--->
+
+<div class="tab-pane" id="profs2" role="tabpanel">
+<div id="chart_profs2"></div>
 </div>
 
 <div class="tab-pane" id="papers" role="tabpanel">
