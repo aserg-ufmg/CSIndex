@@ -40,8 +40,10 @@
 
     //var corebr_author= sessionStorage.getItem('corebr_author');
 
-    var url = new URL(window.location.href);
-    var corebr_author = url.searchParams.get("p");
+    //var url = new URL(window.location.href);
+    //var corebr_author = url.searchParams.get("p");
+
+    var corebr_author = location.search.split('p=')[1];
 
 		var corebr_papers_file = "data/profs/search/" + corebr_author + ".csv";
 
