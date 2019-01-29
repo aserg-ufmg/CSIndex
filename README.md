@@ -10,9 +10,9 @@ First, there are two "global" configuration files:
 
 * [all-researchers.csv](https://github.com/aserg-ufmg/CSIndex/blob/master/data/all-researchers.csv): list will all Brazilian professors whose papers are tracked by CSIndexber. This csv files has three columns:
 
-  * Professor name (avoid using "-" in names).
-  * University (avoid using distinct names for the same university; e.g. PUC-Rio and PUC-RIO)
-  * DBLP PID
+  * Professor name (do not use "-" in names).
+  * University (do not use distinct names for the same university; e.g. PUC-Rio and PUC-RIO)
+  * DBLP PID (see in this [screenshot](xx)) how to retrieve PIDs from DBLP profiles)
   
 * [research-areas-config.csv](https://github.com/aserg-ufmg/CSIndex/blob/master/data/research-areas-config.csv): list of research areas covered by CSIndexbr. This csv file has two columns: 
   * research area acronym (e.g., se)
