@@ -4,11 +4,13 @@ CSIndexbr (https://csindexbr.org) provides transparent data about Brazilian scie
 
 # Input files
 
+**All these script must be places in the "data" folder:**
+
 * [research-areas-config.csv](https://github.com/aserg-ufmg/CSIndex/blob/master/data/research-areas-config.csv): list of research areas covered by CSIndexbr. This csv file has two columns: research area acronym (e.g., se) and minimum size of the conference papers indexed in this area (e.g., 10).
 
 # Scripts 
 
-**All these script must be called from data folder:**
+**All these script must be called from "data" folder:**
 
 * *./run se pl chi*: update the papers (and related data) for the listed research areas (se, pl, and chi, in the example). 
 
