@@ -4,7 +4,7 @@ CSIndexbr (https://csindexbr.org) provides transparent data about Brazilian scie
 
 # Input files
 
-** These files must be placed in the "data" folder:**
+** These files must be placed in the "data" folder: **
 
 There are two "global" configuration files:
 
