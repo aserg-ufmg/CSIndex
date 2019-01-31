@@ -256,28 +256,6 @@ to inform the metrics about [Conf] or [Journal].
 </p>
 
 <h6 style="background-color: GainsBoro">
-How is the departments' score computed?
-</h6>
-
-<p>
-Using this formula:
-
-
-<ul>
-<li>score = A + (0.4 * B) + (0.33 * C) <br>
-</ul>
-
-where:
-
-<ul>
-<li> A = number of papers in top-venues (journals or conferences)
-<li> B = number of papers in journals
-<li> C = number of papers in conferences, magazines, journals that accept
-     short papers, or in "other" journals
-</ul>
-</p>
-
-<h6 style="background-color: GainsBoro">
 How do you define top-conferences?
 </h6>
 
@@ -334,6 +312,27 @@ What is the meaning of "other" in the journals Rank column (Stats tab)?
 </ul>
 </p>
 
+<h6 style="background-color: GainsBoro">
+How is the departments' score computed?
+</h6>
+
+<p>
+Using this formula:
+
+
+<ul>
+<li>score = A + (0.4 * B) + (0.33 * C) <br>
+</ul>
+
+where:
+
+<ul>
+<li> A = number of papers in top-venues (journals or conferences)
+<li> B = number of papers in journals
+<li> C = number of papers in conferences, magazines, journals that accept
+     short papers, or in "other" journals
+</ul>
+</p>
 
 <h6 style="background-color: GainsBoro">
 How are citations collected?
@@ -361,9 +360,11 @@ Other questions related to citations:
 
 <li> <b>Why the number of Crossref and Google Scholar citations do not
   match?</b>
-  First, because Crossref only considers citations coming from papers with
-  a DOI. The second reason is because some publishers do not provide
-  citations meta-data, when registering a paper at Crossref.
+  First, because Crossref only considers citations coming from documents with
+  DOIs (therefore, citations made in books, theses, preprints,
+  informal or workshop papers, etc are not considered). The second reason is
+  because  some publishers do not provide citations metadata, when registering
+  a paper at Crossref.
 
 <li> <b>Who else uses Crossref citations?</b> Users include the Cited-by service
   of many journals (Wiley, Elsevier etc), scholarly search engines (e.g.
