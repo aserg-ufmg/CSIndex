@@ -42,7 +42,9 @@ Examples assuming "se" research area:
 
 * [se-out-confs.csv](https://github.com/aserg-ufmg/CSIndex/blob/master/data/se-out-confs.csv): number of papers in indexed conferences
 * [se-out-journals.csv](https://github.com/aserg-ufmg/CSIndex/blob/master/data/se-out-journals.csv): number of papers in indexed journals
-* [se-out-papers.csv](https://github.com/aserg-ufmg/CSIndex/blob/master/data/se-out-papers.csv): detailed metadata about indexed papers: year, venue, title, deparments, authors, doi, top or null (otherwise), journal (J) or conference (C), arxiv url or no_arxiv (otherwise), and number of citations
+* [se-out-papers.csv](https://github.com/aserg-ufmg/CSIndex/blob/master/data/se-out-papers.csv): metadata about indexed papers: year, venue, title, deparments, authors, doi, top or null (otherwise), journal (J) or conference (C), arxiv url or no_arxiv (otherwise), and number of citations
+* [se-out-profs-list.csv](https://github.com/aserg-ufmg/CSIndex/blob/master/data/se-out-profs-list.csv): professores with indexed papers in the area (and their departments)
+* [se-out-profs.csv]: number of professores with indexeded papers (in the area) per department
  
 # Scripts 
 
