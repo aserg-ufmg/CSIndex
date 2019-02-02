@@ -2,6 +2,18 @@
 
 CSIndexbr (https://csindexbr.org) provides transparent data about Brazilian scientific production in Computer Science. We index full research papers published in selected conferences and journals. The papers are retrieved from DBLP.
 
+# Scripts 
+
+**All these script must be called from "data" folder:**
+
+* *./run se pl chi*: update the papers (and related data) for the listed research areas (se, pl, and chi, in the example). 
+
+* *./runall*: update the papers (and related data) for **all** research areas
+
+* *./rundblp*: download dblp files (xml, with papers) for **all** tracked professors
+
+* *./runcitations*: update citations for for **all** research areas
+
 # Input files
 
 ** These files must be placed in the "data" folder: **
@@ -44,16 +56,5 @@ Examples assuming "se" research area:
 * [se-out-journals.csv](https://github.com/aserg-ufmg/CSIndex/blob/master/data/se-out-journals.csv): number of papers in indexed journals
 * [se-out-profs-list.csv](https://github.com/aserg-ufmg/CSIndex/blob/master/data/se-out-profs-list.csv): professores with indexed papers in the area (and their departments)
 * [se-out-profs.csv](https://github.com/aserg-ufmg/CSIndex/blob/master/data/se-out-profs.csv): number of professores with indexeded papers (in the area) per department
+* [se-out-scores.csv](https://github.com/aserg-ufmg/CSIndex/blob/master/data/se-out-scores.csv): department scores (see formula in the [FAQ](https://csindexbr.org/faq.html))
 * [se-out-papers.csv](https://github.com/aserg-ufmg/CSIndex/blob/master/data/se-out-papers.csv): metadata about indexed papers: year, venue, title, deparments, authors, doi, top or null (otherwise), journal (J) or conference (C), arxiv url or no_arxiv (otherwise), and number of citations
- 
-# Scripts 
-
-**All these script must be called from "data" folder:**
-
-* *./run se pl chi*: update the papers (and related data) for the listed research areas (se, pl, and chi, in the example). 
-
-* *./runall*: update the papers (and related data) for **all** research areas
-
-* *./rundblp*: download dblp files (xml, with papers) for **all** tracked professors
-
-* *./runcitations*: update citations for for **all** research areas
