@@ -48,7 +48,7 @@ The following files are specific of a given research area (i.e., each area has a
     * 6: magazine or journal that accept short papers (>= 6 pages)
     * 7: journals with low normalized-h5-index (see [FAQ](https://csindexbr.org/faq.html), for details) 
 
-* [se-blacklist.txt](https://github.com/aserg-ufmg/CSIndex/blob/master/data/se-black-list.txt): list of papers that must not be indexed, although they attend the basic indexing criteria. For example, they are papers published in other tracks, that is not the main research track of a conference. Each line contains the "url" XML field of the paper (see [example](https://dblp.uni-trier.de/rec/xml/conf/icse/NetoCLGM13.xml)
+* [se-blacklist.txt](https://github.com/aserg-ufmg/CSIndex/blob/master/data/se-black-list.txt): list of papers that must not be indexed, although they attend the basic indexing criteria. For example, they are papers published in other tracks, that is not the main research track of a conference. Each line contains the "url" XML field of the paper (see [example](https://dblp.uni-trier.de/rec/xml/conf/icse/NetoCLGM13.xml))
 
 # Output files
 
