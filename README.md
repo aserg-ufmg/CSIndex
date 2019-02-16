@@ -66,3 +66,7 @@ Examples assuming "se" research area:
 * [se-out-profs.csv](https://github.com/aserg-ufmg/CSIndex/blob/master/data/se-out-profs.csv): number of professores with indexeded papers (in the area) per department
 * [se-out-scores.csv](https://github.com/aserg-ufmg/CSIndex/blob/master/data/se-out-scores.csv): department scores (see formula in the [FAQ](https://csindexbr.org/faq.html))
 * [se-out-papers.csv](https://github.com/aserg-ufmg/CSIndex/blob/master/data/se-out-papers.csv): metadata about indexed papers: year, venue, title, deparments, authors, doi, top or null (otherwise), journal (J) or conference (C), arxiv url or no_arxiv (otherwise), and number of citations
+
+# License:
+
+MIT (for the source code) and CC BY-NC-SA 4.0 (for the data). 
