@@ -1,6 +1,6 @@
 # CSIndexbr
 
-CSIndexbr (https://csindexbr.org) provides transparent data about Brazilian scientific production in Computer Science. We index full research papers published in selected conferences and journals. The papers are retrieved from DBLP.
+CSIndexbr (https://csindexbr.org) provides transparent data about Brazilian scientific production in Computer Science. We index full research papers published in selected conferences and journals. The papers are retrieved from <a href="https://dblp.org/">DBLP</a>.
 
 # Scripts 
 
