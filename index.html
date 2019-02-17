@@ -51,7 +51,8 @@
                   (corebr_area_prefix === "data") || (corebr_area_prefix === "ai") ||
                   (corebr_area_prefix === "security") || (corebr_area_prefix === "hardware") ) {
                   document.getElementById('charts-frame').contentWindow.location.replace("charts2.html");
-             } else if ( (corebr_area_prefix === "cs") || (corebr_area_prefix === "or") ) {
+             } else if ( (corebr_area_prefix === "cs") || (corebr_area_prefix === "or") ||
+                         (corebr_area_prefix === "graphics") ) {
                   document.getElementById('charts-frame').contentWindow.location.replace("charts3.html");
              }
              else {
@@ -210,6 +211,9 @@ Conferences vs Journals: Where do Brazilian CS Professors Usually Publish?</a>
 <label><input type="radio" name="research_area_btn" value="vision"> Computer Vision</label>
 </div>
 
+<div class="radio">
+<label><input type="radio" name="research_area_btn" value="graphics"> Computer Graphics (<small>under constr.</small>)</label>
+</div>
 
 <div class="radio">
 <label><input type="radio" name="research_area_btn" value="robotics"> Robotics</label>
