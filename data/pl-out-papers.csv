@@ -8,7 +8,7 @@
 2018,SPE,"EPE-Mobile - A framework for early performance estimation of mobile applications.",UFRGS,Thiago Soares Fernandes; Álvaro Freitas Moreira; Érika F. Cota,https://doi.org/10.1002/spe.2518,null,J,no_arxiv,0
 2017,CGO,"Pointer disambiguation via strict inequalities.",UFMG,Maroua Maalej; Vitor Paisante; Pedro Ramos; Laure Gonnord; Fernando Magno Quintão Pereira,http://dl.acm.org/citation.cfm?id=3049848,null,C,no_arxiv,
 2017,GPCE,"Avoiding useless mutants.",UFPE; UFSCAR; ICMC/USP; UFAL; UFCG,Leonardo Fernandes; Márcio Ribeiro; Luiz Carvalho; Rohit Gheyi; Melina Mongiovi; André L. M. Santos; Ana Cavalcanti; Fabiano Cutigi Ferrari; José Carlos Maldonado,https://doi.org/10.1145/3136040.3136053,null,C,no_arxiv,4
-2017,OOPSLA,"Evaluating and improving semistructured merge.",UFPE,Guilherme Cavalcanti; Paulo Borba; Paola R. G. Accioly,https://doi.org/10.1145/3133883,top,C,no_arxiv,1
+2017,OOPSLA,"Evaluating and improving semistructured merge.",UFCA; UFPE,Guilherme Cavalcanti; Paulo Borba; Paola R. G. Accioly,https://doi.org/10.1145/3133883,top,C,no_arxiv,1
 2017,OOPSLA,"Static placement of computation on heterogeneous devices.",UFMG,Gabriel Poesia; Breno Campos Ferreira Guimarães; Fabricio Ferracioli; Fernando Magno Quintão Pereira,https://doi.org/10.1145/3133874,top,C,no_arxiv,0
 2017,PPoPP,"Function Call Re-Vectorization.",UFMG,Rubens E. A. Moreira; Sylvain Collange; Fernando Magno Quintão Pereira,http://dl.acm.org/citation.cfm?id=3018751,null,C,no_arxiv,
 2017,TACO,"DawnCC: Automatic Annotation for Data Parallelism and Offloading.",UFMG; UNICAMP,Gleison Souza Diniz Mendonca; Breno Campos Ferreira Guimarães; Péricles Alves; Marcio Machado Pereira; Guido Araujo; Fernando Magno Quintão Pereira,https://doi.org/10.1145/3084540,top,J,no_arxiv,3
