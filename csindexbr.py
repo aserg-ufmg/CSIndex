@@ -148,12 +148,18 @@ def get_arxiv_url(doi, title):
 
 #################################################
 
+def asInt(i):
+    try:
+      return int(i)
+    except: 
+      return 0
+
 def paperSize(dblp_pages):
     page= re.split(r"-|:", dblp_pages)
     if len(page) == 2:
-       p1 = page[0]
-       p2 = page[1]
-       return int(p2) - int(p1) + 1
+       p1 = asInt(page[0])
+       p2 = asInt(page[1])
+       return p2 - p1 + 1
     elif len(page) == 4:
        p1 = page[1]
        p2 = page[3]
@@ -475,6 +481,14 @@ def write_mc_failed(year,dblp_venue,title,url):
     mc_failed_file.write("\n")
     multi_area_journal = True
 
+def hasDept(dept_str, dept):
+    dept_list = dept_str.split(";")
+    for d in dept_list:
+        d = d.replace(" ", "")
+        if (d == dept):
+           return True
+    return False
+
 def parse_dblp(_, dblp):
     global department, found_paper, black_list
 
@@ -512,17 +526,19 @@ def parse_dblp(_, dblp):
            found_paper = True;
            pid_papers.append(url)
 
-           # this paper has been already processed
+           # this paper was already processed
            if (url in out):
               paper = out[url]
-              if (paper[3].find(department) == -1):
-                  # but this author is from another department
-                  paper2= (paper[0], paper[1], paper[2], paper[3] + "; " + department,
+              if hasDept(paper[3],department):
+                 return True
+              else:
+                 # but this author is from another department
+                 paper2 = (paper[0], paper[1], paper[2], paper[3] + "; " + department,
                            paper[4], paper[5], paper[6], paper[7], paper[8],
                            paper[9])
-                  out[url] = paper2
-                  score[department] += inc_score(weight)
-              return True
+                 out[url] = paper2
+                 score[department] += inc_score(weight)
+                 return True
 
            tier = getVenueTier(weight)
            venue_type = getVenueType(weight)
