@@ -1,5 +1,6 @@
 2019,Discrete Applied Math.,"On the P3-hull number of some products of graphs.",COPPE/UFRJ,Erika M. M. Coelho; Hebert Coelho; Julliano R. Nascimento; Jayme Luiz Szwarcfiter,https://doi.org/10.1016/j.dam.2018.04.024,null,J,no_arxiv,0
 2019,Discrete Applied Math.,"The matching relaxation for a class of generalized set partitioning problems.",UFMG,Phillippe Samer; Evellyn Cavalcante; Sebastián Urrutia; Johan Oppen,https://doi.org/10.1016/j.dam.2018.05.033,null,J,http://arxiv.org/abs/1606.09279v5,0
+2019,J. of Graph Theory,"On the local density problem for graphs of given odd-girth.",UFABC,Wiebke Bedenknecht; Guilherme Oliveira Mota; Christian Reiher; Mathias Schacht,https://doi.org/10.1002/jgt.22372,null,J,no_arxiv,0
 2019,SODA,"Extremal and probabilistic results for order types.",IME/USP,Jie Han 0002; Yoshiharu Kohayakawa; Marcelo Tadeu Sales; Henrique Stagni,https://doi.org/10.1137/1.9781611975482.27,top,C,no_arxiv,0
 2019,SODA,"Stochastic ℓp Load Balancing and Moment Problems via the L-Function Method.",PUC-Rio,Marco Molinaro,https://doi.org/10.1137/1.9781611975482.22,top,C,no_arxiv,0
 2019,SODA,"k-Servers with a Smile: Online Algorithms via Projections.",PUC-Rio,Niv Buchbinder; Anupam Gupta; Marco Molinaro; Joseph (Seffi) Naor,https://doi.org/10.1137/1.9781611975482.7,top,C,no_arxiv,0
@@ -27,7 +28,10 @@
 2018,Discrete Mathematics,"Identifying defective sets using queries of small size.",UFC,Fabrício Benevides; Dániel Gerbner; Cory Palmer; Dominik K. Vu,https://doi.org/10.1016/j.disc.2017.08.023,null,J,no_arxiv,0
 2018,Discrete Mathematics,"Minimum density of identifying codes of king grids.",UFC,Rennan Dantas; Frédéric Havet; Rudini M. Sampaio,https://doi.org/10.1016/j.disc.2018.06.035,null,J,no_arxiv,0
 2018,ICALP,"Maximizing Profit with Convex Costs in the Random-order Model.",PUC-Rio,Anupam Gupta; Ruta Mehta; Marco Molinaro,https://doi.org/10.4230/LIPIcs.ICALP.2018.71,null,C,no_arxiv,
+2018,J. of Graph Theory,"Dominating sets inducing large components in maximal outerplanar graphs.",UFF,José D. Alvarado; Simone Dantas; Dieter Rautenbach,https://doi.org/10.1002/jgt.22217,null,J,http://arxiv.org/abs/1511.08713v1,0
+2018,J. of Graph Theory,"Graphs in which some and every maximum matching is uniquely restricted.",UFF,Lucia Draque Penso; Dieter Rautenbach; Uéverton dos Santos Souza,https://doi.org/10.1002/jgt.22239,null,J,http://arxiv.org/abs/1504.02250v1,0
 2018,J. of Graph Theory,"On an anti-Ramsey threshold for sparse graphs with one triangle.",UFABC; IME/USP,Yoshiharu Kohayakawa; P. B. Konstadinidis; Guilherme Oliveira Mota,https://doi.org/10.1002/jgt.22150,null,J,no_arxiv,0
+2018,J. of Graph Theory,"On minimum bisection and related cut problems in trees and tree-like graphs.",IME/USP,Cristina G. Fernandes; Tina Janne Schmidt; Anusch Taraz,https://doi.org/10.1002/jgt.22248,null,J,no_arxiv,0
 2018,LATIN,"A Tight Lower Bound for an Online Hypercube Packing Problem and Bounds for Prices of Anarchy of a Related Game.",UNICAMP; IME/USP,Yoshiharu Kohayakawa; Flávio Keidi Miyazawa; Yoshiko Wakabayashi,https://doi.org/10.1007/978-3-319-77404-6_51,null,C,http://arxiv.org/abs/1712.06763v1,0
 2018,LATIN,"On the Complexity of Finding Internally Vertex-Disjoint Long Directed Paths.",UFC,Júlio Araújo; Victor A. Campos; Ana Karolinna Maia; Ignasi Sau; Ana Silva,https://doi.org/10.1007/978-3-319-77404-6_6,null,C,no_arxiv,0
 2018,LATIN,"Property Testing for Point Sets on the Plane.",IME/USP,Jie Han 0002; Yoshiharu Kohayakawa; Marcelo Tadeu Sales; Henrique Stagni,https://doi.org/10.1007/978-3-319-77404-6_43,null,C,no_arxiv,0
