@@ -26,7 +26,7 @@ sleep 60
 sleep 60
 ./run data ai theory formal
 sleep 60
-./run or security vision
+./run or security vision graphics
 sleep 60
 ./run robotics cse bio hardware
 

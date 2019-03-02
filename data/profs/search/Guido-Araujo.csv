@@ -1,6 +1,6 @@
 2019,IEEE TPDS,"The Case for Phase-Based Transactional Memory.",Joao P. L. de Carvalho; Guido Araujo; Alexandro Baldassin,https://doi.org/10.1109/TPDS.2018.2861712,top,J,no_arxiv,0
-2018,ACM TACO,"Cluster Programming using the OpenMP Accelerator Model.",Hervé Yviquel; Lauro Cruz; Guido Araujo,https://doi.org/10.1145/3226112,top,J,no_arxiv,0
-2018,IEEE TPDS,"Using Hardware-Transactional-Memory Support to Implement Thread-Level Speculation.",Juan Salamanca 0001; José Nelson Amaral; Guido Araujo,https://doi.org/10.1109/TPDS.2017.2752169,top,J,no_arxiv,0
+2018,ACM TACO,"Cluster Programming using the OpenMP Accelerator Model.",Hervé Yviquel; Lauro Cruz; Guido Araujo,https://doi.org/10.1145/3226112,top,J,no_arxiv,1
+2018,IEEE TPDS,"Using Hardware-Transactional-Memory Support to Implement Thread-Level Speculation.",Juan Salamanca 0001; José Nelson Amaral; Guido Araujo,https://doi.org/10.1109/TPDS.2017.2752169,top,J,no_arxiv,1
 2018,PACT,"Automatic annotation of tasks in structured code.",Pedro Ramos; Gleison Souza Diniz Mendonca; Divino Soares; Guido Araújo; Fernando Magno Quintão Pereira,https://doi.org/10.1145/3243176.3243200,null,C,no_arxiv,0
 2017,Euro-Par,"Performance Evaluation of Thread-Level Speculation in Off-the-Shelf Hardware Transactional Memories.",Juan Salamanca 0001; José Nelson Amaral; Guido Araujo,https://doi.org/10.1007/978-3-319-64203-1_44,null,C,no_arxiv,0
 2017,ICPP,"The Cloud as an OpenMP Offloading Device.",Hervé Yviquel; Guido Araujo,https://doi.org/10.1109/ICPP.2017.44,null,C,no_arxiv,0
