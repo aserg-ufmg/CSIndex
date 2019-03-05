@@ -197,8 +197,8 @@
              inst = '<font size="4"> (' + data[i][1] + ')</font>';
              document.getElementById("author_name").innerHTML = author + inst;
              dblp_pid = data[i][2];
-             dblp = '<b>See also</b> the full list of papers at ';
-             dblp = dblp +  '<a href="https://dblp.org/pid/' + dblp_pid + '">DBLP</a>';
+             dblp = '<small><b>See also</b> the full list of papers at ';
+             dblp = dblp +  '<a href="https://dblp.org/pid/' + dblp_pid + '">DBLP</a></small>';
              document.getElementById("dblp_link").innerHTML = dblp;
              break;
           }
