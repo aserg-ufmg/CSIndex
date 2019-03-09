@@ -90,6 +90,9 @@
 		function drawChartDepts() {
 		  $.get(corebr_depts_file, function(csvString) {
 		  var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
+      if (arrayData.length > 16) {
+         arrayData = arrayData.slice(0,16);
+      }    
 		  var data= new google.visualization.DataTable();
 		  data.addColumn('string', 'Departments');
 		  data.addColumn('number', 'Score');
