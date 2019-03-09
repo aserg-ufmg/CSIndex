@@ -20,7 +20,7 @@ def get_dblp_file(pid,prof):
          url = "http://dblp.org/pid/" + pid + ".xml"
          bibfile = requests.get(url).text
          with open(file, 'w') as f:
-            f.write(bibfile)
+            f.write(bibfile.encode("UTF-8"))
        except requests.exceptions.RequestException as e:
          print e
          sys.exit(1)
