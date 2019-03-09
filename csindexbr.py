@@ -151,7 +151,7 @@ def get_arxiv_url(doi, title):
 def asInt(i):
     try:
       return int(i)
-    except: 
+    except:
       return 0
 
 def paperSize(dblp_pages):
@@ -549,6 +549,7 @@ def parse_dblp(_, dblp):
            out[url] = (year, venue, '"' + title + '"', department, authors, doi,
                         tier, venue_type, arxiv, citations)
            score[department] += inc_score(weight)
+
     return True
 
 def get_dblp_file(pid,prof):
@@ -562,7 +563,7 @@ def get_dblp_file(pid,prof):
          url = "http://dblp.org/pid/" + pid + ".xml"
          bibfile = requests.get(url).text
          with open(file, 'w') as f:
-            f.write(bibfile)
+            f.write(bibfile.encode("UTF-8"))
        except requests.exceptions.RequestException as e:
          print e
          sys.exit(1)
