@@ -198,7 +198,9 @@
              document.getElementById("author_name").innerHTML = author + inst;
              dblp_pid = data[i][2];
              dblp = '<small><b>See also</b> the full list of papers at ';
-             dblp = dblp +  '<a href="https://dblp.org/pid/' + dblp_pid + '">DBLP</a></small>';
+             event = '" onclick="trackOutboundLink(this.href); return false;"';
+             dblp = dblp +  '<a href="https://dblp.org/pid/' + dblp_pid;
+             dblp = dblp + event + '>DBLP</a></small>';
              document.getElementById("dblp_link").innerHTML = dblp;
              break;
           }
