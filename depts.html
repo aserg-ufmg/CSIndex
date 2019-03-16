@@ -37,11 +37,14 @@
 
     <script type="text/javascript">
 		google.charts.load('current', {'packages':['table']});
+    google.charts.load('45.2', {'packages':['corechart']});
 
 		google.charts.setOnLoadCallback(drawChartScores);
 
     var dept = location.search.split('d=')[1];
 
+    //var dept = "ufmg";
+    dept = dept.toUpperCase();
 		var dept_scores_file = "data/depts/scores-" + dept + ".csv";
 
     function drawChartScores() {
@@ -118,11 +121,23 @@
 
 <p></p>
 
+<ul class="nav nav-tabs" role="tablist">
+<li class="nav-item">
+<a class="nav-link small active" data-toggle="tab" href="#scores" role="tab">Scores</a>
+</li>
+<li class="nav-item">
+<a class="nav-link small disabled"  data-toggle="tab" href="#profs" role="tab">Faculty (soon)</a>
+</li>
+</ul>
+
+<div class="tab-content">
+<div class="tab-pane active" id="scores" role="tabpanel">
 <div id="chart_scores"></div>
-
-<p class="text-center">
-
-</p>
+</div>
+<div class="tab-pane" id="depts" role="tabpanel">
+<div id="chart_depts"></div>
+</div>
+</div>
 
 </div>
 </div>
