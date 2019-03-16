@@ -44,8 +44,6 @@
 
 		var dept_scores_file = "data/depts/scores-" + dept + ".csv";
 
-    window.alert(dept_scores_file);
-
     function drawChartScores() {
 		  $.get(dept_scores_file, function(csvString) {
 		       var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
@@ -53,7 +51,7 @@
            var data= new google.visualization.DataTable();
 		       data.addColumn('string', 'Area');
 		       data.addColumn('number', 'Score');
-		       data.addRows(arrayData);
+		       data.addRows(data);
 		       var view = new google.visualization.DataView(data);
 		       view.setColumns([0, 1,
 						   { calc: "stringify",
