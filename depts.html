@@ -46,14 +46,13 @@
 
     function drawChartScores() {
 		  $.get(dept_scores_file, function(csvString) {
-		       var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
-
-           var data= new google.visualization.DataTable();
-		       data.addColumn('string', 'Area');
-		       data.addColumn('number', 'Score');
-		       data.addRows(data);
-		       var view = new google.visualization.DataView(data);
-		       view.setColumns([0, 1,
+           var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
+           var data = new google.visualization.DataTable();
+           data.addColumn('string', 'Conferences');
+           data.addColumn('number', 'Score');
+           data.addRows(arrayData);
+           var view = new google.visualization.DataView(data);
+           view.setColumns([0, 1,
 						   { calc: "stringify",
 							 sourceColumn: 1,
 							 type: "string",
