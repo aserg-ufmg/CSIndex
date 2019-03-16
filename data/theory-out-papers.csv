@@ -53,6 +53,7 @@
 2017,Algorithmica,"Efficient Algorithms for Clique-Colouring and Biclique-Colouring Unichord-Free Graphs.",COPPE/UFRJ; INMETRO,Hélio B. Macêdo Filho; Raphael C. S. Machado; Celina M. H. de Figueiredo,https://doi.org/10.1007/s00453-015-0106-7,null,J,no_arxiv,0
 2017,Algorithmica,"Exact Algorithms for Minimum Weighted Dominating Induced Matching.",COPPE/UFRJ,Min Chih Lin; Michel J. Mizrahi; Jayme Luiz Szwarcfiter,https://doi.org/10.1007/s00453-015-0095-6,null,J,no_arxiv,2
 2017,Combinatorica,"Powers of Hamilton cycles in pseudorandom graphs.",IME/USP,Peter Allen; Julia Böttcher; Hiêp Hàn; Yoshiharu Kohayakawa; Yury Person,https://doi.org/10.1007/s00493-015-3228-2,null,J,http://arxiv.org/abs/1402.0984v2,2
+2017,Discrete Applied Math.,"AVD-total-chromatic number of some families of graphs with Δ(G)=3.",UNICAMP,Atílio G. Luiz; C. N. Campos; Célia Picinin de Mello,https://doi.org/10.1016/j.dam.2016.09.041,null,J,no_arxiv,1
 2017,Discrete Applied Math.,"Branch-and-cut approaches for p-Cluster Editing.",UFPB,Teobaldo L. Bulhões Júnior; Gilberto Farias de Sousa Filho; Anand Subramanian; Lucídio dos Anjos F. Cabral,https://doi.org/10.1016/j.dam.2016.10.026,null,J,no_arxiv,1
 2017,Discrete Applied Math.,"Geodetic convexity parameters for (q, q-4)-graphs.",DCC/UFRJ,Mitre Costa Dourado; Lucia Draque Penso; Dieter Rautenbach,https://doi.org/10.1016/j.dam.2017.01.023,null,J,no_arxiv,0
 2017,Discrete Applied Math.,"Inapproximability results and bounds for the Helly and Radon numbers of a graph.",DCC/UFRJ,Mitre Costa Dourado; Aline R. da Silva,https://doi.org/10.1016/j.dam.2017.07.032,null,J,no_arxiv,0
@@ -116,6 +117,7 @@
 2016,WG,"Geodetic Convexity Parameters for Graphs with Few Short Induced Paths.",DCC/UFRJ,Mitre Costa Dourado; Lucia Draque Penso; Dieter Rautenbach,https://doi.org/10.1007/978-3-662-53536-3_3,null,C,no_arxiv,0
 2015,Discrete Applied Math.,"A faster algorithm for packing branchings in digraphs.",UNICAMP,Orlando Lee; Mario Leston Rey,https://doi.org/10.1016/j.dam.2015.05.016,null,J,http://arxiv.org/abs/1306.3480v2,1
 2015,Discrete Applied Math.,"A variant of k-nearest neighbors search with cyclically permuted query points for rotation-invariant image processing.",UFG,Leslie R. Foulds; Jorge P. de Morais Neto; Humberto J. Longo; Hugo A. D. do Nascimento; Wellington Santos Martins,https://doi.org/10.1016/j.dam.2015.02.011,null,J,no_arxiv,2
+2015,Discrete Applied Math.,"AVD-total-colouring of complete equipartite graphs.",UNICAMP,Atílio G. Luiz; C. N. Campos; Célia Picinin de Mello,https://doi.org/10.1016/j.dam.2014.11.006,null,J,no_arxiv,2
 2015,Discrete Applied Math.,"Asymptotic surviving rate of trees with multiple fire sources.",UFF,Vítor Costa 0002; Simone Dantas; Dieter Rautenbach,https://doi.org/10.1016/j.dam.2014.10.031,null,J,no_arxiv,0
 2015,Discrete Applied Math.,"Biclique-colouring verification complexity and biclique-colouring power graphs.",COPPE/UFRJ; INMETRO; UFF,Hélio B. Macêdo Filho; Simone Dantas; Raphael C. S. Machado; Celina M. H. de Figueiredo,https://doi.org/10.1016/j.dam.2014.05.001,null,J,no_arxiv,1
 2015,Discrete Applied Math.,"Cycles in complementary prisms.",UFF,Dirk Meierling; Fábio Protti; Dieter Rautenbach; Aline Ribeiro de Almeida,https://doi.org/10.1016/j.dam.2015.04.016,null,J,no_arxiv,2
@@ -172,6 +174,7 @@
 2014,Discrete Applied Math.,"The min-degree constrained minimum spanning tree problem: Formulations and Branch-and-cut algorithm.",UFMG,Leonardo Conegundes Martinez; Alexandre Salles da Cunha,https://doi.org/10.1016/j.dam.2011.08.008,null,J,no_arxiv,8
 2014,Discrete Applied Math.,"Two-dimensional strip packing with unloading constraints.",UNICAMP,Jefferson L. M. da Silveira; Eduardo C. Xavier; Flávio Keidi Miyazawa,https://doi.org/10.1016/j.dam.2013.08.019,null,J,no_arxiv,3
 2014,Discrete Mathematics,"Decomposition by maxclique separators.",DCC/UFRJ; UFF,Márcia R. Cerioli; Hugo Nobrega; Petrucio Viana,https://doi.org/10.1016/j.disc.2014.07.020,null,J,no_arxiv,0
+2014,Discrete Mathematics,"Fulkerson's Conjecture and Loupekine snarks.",UNICAMP,Kaio Karam; C. N. Campos,https://doi.org/10.1016/j.disc.2014.02.016,null,J,no_arxiv,1
 2014,Discrete Mathematics,"Solitaire clobber on circulant graphs.",UFF,Telma Pará; Simone Dantas; Sylvain Gravier,https://doi.org/10.1016/j.disc.2014.04.006,null,J,no_arxiv,1
 2014,ESA,"How Experts Can Solve LPs Online.",PUC-Rio,Anupam Gupta; Marco Molinaro,https://doi.org/10.1007/978-3-662-44777-2_43,null,C,no_arxiv,2
 2014,ESA,"Polynomial-Time Approximation Schemes for Circle Packing Problems.",UNICAMP; IME/USP,Flávio Keidi Miyazawa; Lehilton L. C. Pedrosa; Rafael Crivellari Saliba Schouery; Maxim Sviridenko; Yoshiko Wakabayashi,https://doi.org/10.1007/978-3-662-44777-2_59,null,C,no_arxiv,3
