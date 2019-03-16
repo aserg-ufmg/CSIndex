@@ -61,13 +61,21 @@
 							 type: "string",
 							 role: "annotation" },
 						  ]);
-		       var options = { 'width': 800,
-						  'height': 500,
+		       var options = {
+              'width': 900,
+						  'height': 600,
 						  'fontSize': 12,
 						  'legend': { position: "none" },
-						  'chartArea': {left:40, top:40, right:30,  width:'80%',height:'65%'},
+						  'chartArea': {
+                 left:40,
+                 top:40,
+                 right:30,
+                 width:'80%',
+                 height:'65%',
+                 backgroundColor: { stroke: '#808080', strokeWidth: 1 }
+               },
 						  'hAxis': { slantedText:true, slantedTextAngle:45 },
-						  'annotations': { alwaysOutside:true },
+    				  'annotations': { alwaysOutside:true },
 						  'titleTextStyle': { bold: false },
               'title': "Score= A + (0.40 * B) + (0.33 * C), where A= papers in top-venues; B= papers in journals; C= papers in conferences or in \"other\" journals"
 					 };
@@ -144,8 +152,20 @@
 </div>
 
 <script>
-  document.title = 'CSIndexbr: ' + dept.toUpperCase();
-  document.getElementById("dept_name").innerHTML = dept.toUpperCase();
+  if (dept === 'coppeufrj')
+     { dept_msg = 'coppe/ufrj'; }
+  else if (dept === 'dccufrj')
+     { dept_msg = 'dcc/ufrj'; }
+  else if (dept === 'icmcusp')
+     { dept = 'icmc/usp'; }
+  else if (dept === 'imeusp')
+     { dept = 'ime/usp'; }
+  else dept_msg = dept;
+
+  dept_msg = dept.toUpperCase();
+
+  document.title = 'CSIndexbr: ' + dept_msg;
+  document.getElementById("dept_name").innerHTML = dept_msg;
   ga('send', 'event', 'Dept Page', dept);
 </script>
 
