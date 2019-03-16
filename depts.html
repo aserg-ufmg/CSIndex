@@ -44,7 +44,7 @@
     var dept = location.search.split('d=')[1];
 
     //var dept = "ufmg";
-    dept = dept.toUpperCase();
+
 		var dept_scores_file = "data/depts/scores-" + dept + ".csv";
 
     function drawChartScores() {
@@ -144,8 +144,8 @@
 </div>
 
 <script>
-  document.title = 'CSIndexbr: ' + dept;
-  document.getElementById("dept_name").innerHTML = dept;
+  document.title = 'CSIndexbr: ' + dept.toUpperCase();
+  document.getElementById("dept_name").innerHTML = dept.toUpperCase();
   ga('send', 'event', 'Dept Page', dept);
 </script>
 
