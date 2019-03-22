@@ -40,6 +40,7 @@
     google.charts.load('45.2', {'packages':['corechart']});
 
 		google.charts.setOnLoadCallback(drawChartScores);
+    google.charts.setOnLoadCallback(drawTableProfsList);
 
     var dept = location.search.split('d=')[1];
 
@@ -83,6 +84,110 @@
 		       chart.draw(view, options);
 		  });
 		}
+
+    function getFullArea(area) {
+      if (area === "SE") {
+         return "Software Engineering";
+      }
+      else if (area === "PL") {
+           return "Programming Languages";
+      }
+      else if (area === "CHI") {
+           return "Human-Computer Interaction";
+      }
+      else if (area === "NET") {
+           return "Computer Networks";
+      }
+      else if (area === "DS") {
+           return "Distributed Systems";
+      }
+      else if (area === "ARCH") {
+            return "Computer Architecture & High-Performance Computing";
+      }
+      else if (area === "HARDW") {
+           return "Hardware Design";
+      }
+      else if (area === "DBIS") {
+           return "Databases & Information Systems";
+      }
+      else if (area === "IR") {
+           return "Web & Information Retrieval";
+      }
+      else if (area === "DATA") {
+           return "Data Mining & Mach. Learning";
+      }
+      else if (area === "AI") {
+           return "Artificial Intelligence";
+      }
+      else if (area === "THEORY") {
+           return "Algorithms & Complexity";
+      }
+      else if (area === "FORMAL") {
+           return "Formal Methods & Logic";
+      }
+      else if (area === "OR") {
+           return "Operational Research";
+      }
+      else if (area === "SECURITY") {
+           return "Security & Cryptography";
+      }
+      else if (area === "VISION") {
+           return "Computer Vision";
+      }
+      else if (area === "GRAPHICS") {
+           return "Computer Graphics";
+      }
+      else if (area === "ROBOTICS") {
+           return "Robotics";
+      }
+      else if (area === "CSE") {
+           return "CS Education";
+      }
+      else if (area === "BIO") {
+           return "Bioinformatics";
+      }
+      else if (area === "CS") {
+           return "Computer Science (General)";
+      }
+    }
+    function drawTableProfsList() {
+      $.get("data/profs.csv", function(csvString) {
+           var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
+           if (dept === 'coppeufrj')
+              { dept_search = 'COPPE/UFRJ'; }
+           else if (dept === 'dccufrj')
+              { dept_search = 'DCC/UFRJ'; }
+           else if (dept === 'icmcusp')
+              { dept_search = 'ICMC/USP`'; }
+           else if (dept === 'imeusp')
+              { dept_search = 'IME/USP'; }
+           else if (dept === 'unb')
+              { dept_search = 'UnB'; }
+           else dept_search = dept.toUpperCase();
+
+           arrayData2 = []
+           for (var i = 0; i < arrayData.length; i++) {
+               dept_full = arrayData[i][1];
+               if (dept_full === dept_search) {
+                  prof = arrayData[i][0];
+                  prof2 = prof.split(" ").join("-");
+                  url = '<a href="https://csindexbr.org/authors.html?p=';
+                  url = url + prof2 + '" target="_blank">' +  prof + '</a>';
+                  area = getFullArea(arrayData[i][2]);
+                  url_array = [];
+                  url_array.push(url,area);
+                  arrayData2.push(url_array);
+               }
+           }
+           var data = new google.visualization.DataTable();
+           data.addColumn('string', 'Faculty (with at least one indexed paper)');
+           data.addColumn('string', 'Main Research Area');
+           data.addRows(arrayData2);
+
+           var table = new google.visualization.Table(document.getElementById('chart_profs'));
+           table.draw(data, {allowHtml: true, showRowNumber: true, width: '100%', height: '100%'});
+      });
+    }
 
     </script>
 
@@ -136,7 +241,7 @@
 <a class="nav-link small active" data-toggle="tab" href="#scores" role="tab">Scores</a>
 </li>
 <li class="nav-item">
-<a class="nav-link small disabled"  data-toggle="tab" href="#profs" role="tab">Faculty (soon)</a>
+<a class="nav-link small"  data-toggle="tab" href="#profs" role="tab">Faculty</a>
 </li>
 </ul>
 
@@ -144,10 +249,12 @@
 <div class="tab-pane active" id="scores" role="tabpanel">
 <div id="chart_scores"></div>
 </div>
-<div class="tab-pane" id="depts" role="tabpanel">
-<div id="chart_depts"></div>
+<div class="tab-pane" id="profs" role="tabpanel">
+<div id="chart_profs"></div>
 </div>
 </div>
+
+<p></p>
 
 </div>
 </div>
