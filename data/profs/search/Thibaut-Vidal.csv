@@ -1,5 +1,4 @@
 2018,Applied Soft Comput.,"An efficient matheuristic for the minimum-weight dominating set problem.",Mayra Albuquerque; Thibaut Vidal,https://doi.org/10.1016/j.asoc.2018.06.052,null,J,no_arxiv,0
-2015,Networks,"Timing problems and algorithms: Time decisions for sequences of activities.",Thibaut Vidal; Teodor Gabriel Crainic; Michel Gendreau; Christian Prins,https://doi.org/10.1002/net.21587,null,J,no_arxiv,17
 2019,Annals OR,"A hybrid heuristic for a broad class of vehicle routing problems with heterogeneous fleet.",Puca Huachi Vaz Penna; Anand Subramanian; Luiz Satoru Ochi; Thibaut Vidal; Christian Prins,https://doi.org/10.1007/s10479-017-2642-9,null,J,http://arxiv.org/abs/1803.01930v1,0
 2019,Computers & OR,"The electric two-echelon vehicle routing problem.",Ulrich Breunig; Roberto Baldacci; Richard F. Hartl; Thibaut Vidal,https://doi.org/10.1016/j.cor.2018.11.005,null,J,no_arxiv,0
 2019,EJOR,"Routing a mix of conventional, plug-in hybrid, and electric vehicles.",Gerhard Hiermann; Richard F. Hartl; Jakob Puchinger; Thibaut Vidal,https://doi.org/10.1016/j.ejor.2018.06.025,null,J,no_arxiv,5
@@ -17,6 +16,7 @@
 2015,EJOR,"A matheuristic approach for the Pollution-Routing Problem.",Raphael Kramer; Anand Subramanian; Thibaut Vidal; Lucídio dos Anjos F. Cabral,https://doi.org/10.1016/j.ejor.2014.12.009,null,J,no_arxiv,45
 2015,EJOR,"An integrative cooperative search framework for multi-decision-attribute combinatorial optimization: Application to the MDPVRP.",Nadia Lahrichi; Teodor Gabriel Crainic; Michel Gendreau; Walter Rei; Gloria Cerasela Crisan; Thibaut Vidal,https://doi.org/10.1016/j.ejor.2015.05.007,null,J,no_arxiv,7
 2015,EJOR,"A speed and departure time optimization algorithm for the pollution-routing problem.",Raphael Kramer; Nelson Maculan; Anand Subramanian; Thibaut Vidal,https://doi.org/10.1016/j.ejor.2015.06.037,null,J,no_arxiv,22
+2015,Networks,"Timing problems and algorithms: Time decisions for sequences of activities.",Thibaut Vidal; Teodor Gabriel Crainic; Michel Gendreau; Christian Prins,https://doi.org/10.1002/net.21587,null,J,no_arxiv,17
 2014,EJOR,"A unified solution framework for multi-attribute vehicle routing problems.",Thibaut Vidal; Teodor Gabriel Crainic; Michel Gendreau; Christian Prins,https://doi.org/10.1016/j.ejor.2013.09.045,null,J,no_arxiv,117
 2014,EJOR,"A memetic algorithm for the Multi Trip Vehicle Routing Problem.",Diego Cattaruzza; Nabil Absi; Dominique Feillet; Thibaut Vidal,https://doi.org/10.1016/j.ejor.2013.06.012,null,J,no_arxiv,57
 2014,EJOR,"Implicit depot assignments and rotations in vehicle routing heuristics.",Thibaut Vidal; Teodor Gabriel Crainic; Michel Gendreau; Christian Prins,https://doi.org/10.1016/j.ejor.2013.12.044,null,J,no_arxiv,22
