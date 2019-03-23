@@ -94,7 +94,7 @@ Artur Ziviani,LNCC,NET
 Asla Medeiros,FGV,GRAPHICS
 Augusto Jose Venancio Neto,UFRN,NET
 Augusto Sampaio,UFPE,FORMAL
-Auri Vincenzi,UFSCAR,SE
+Auri Vincenzi,UFSCar,SE
 Aurora Pozo,UFPR,AI
 Avelino Zorzo,PUC-RS,SE
 Ayla Dantas,UFPB,CSE
@@ -188,7 +188,7 @@ Daniel Guidoni,UFSJ,NET
 Daniel Kaster,UEL,DBIS
 Daniel Menasche,DCC/UFRJ,NET
 Daniel Morgato Martin,UFABC,THEORY
-Daniel Osaku,UFSCAR,DATA
+Daniel Osaku,UFSCar,DATA
 Daniel Schwabe,PUC-Rio,DATA
 Daniel de Oliveira,UFF,ARCH
 Danielo Gomes,UFC,ARCH
@@ -207,14 +207,14 @@ Diego Amancio,ICMC/USP,DATA
 Diego Aranha,UNICAMP,SECURITY
 Diego Dermeval,UFAL,AI
 Diego Gimenez Passos,UFF,NET
-Dilson Lucas Pereira,UFLA,NET
+Dilson Lucas Pereira,UFLA,OR
 Dinani Amorim,UEBA,DATA
 Divanilson Campelo,UFPE,NET
 Djamel Sadok,UFPE,NET
 Dorgival Guedes,UFMG,ARCH
 Douglas Guimaraes Macharet,UFMG,ROBOTICS
 Douglas Macedo,UFSC,NET
-Douglas Rodrigues,UFSCAR,AI
+Douglas Rodrigues,UFSCar,AI
 Duncan Ruiz,PUC-RS,AI
 Edison Pignaton de Freitas,UFRGS,NET
 Edleno de Moura,UFAM,IR
@@ -255,10 +255,10 @@ Erickson Rangel do Nascimento,UFMG,VISION
 Ernesto Birgin,IME/USP,OR
 Esdras Medeiros,UFC,GRAPHICS
 Esteban Clua,UFF,SE
-Estevam Hruschka,UFSCAR,AI
+Estevam Hruschka,UFSCar,AI
 Eunice Nunes,UFMT,GRAPHICS
 Evandro Costa,UFAL,SE
-Fabiano Ferrari,UFSCAR,SE
+Fabiano Ferrari,UFSCar,SE
 Fabiano Passuelo Hessel,PUC-RS,NET
 Fabiano Silva,UFPR,BIO
 Fabio Augusto Faria,UNIFESP,VISION
@@ -345,7 +345,7 @@ Heitor Ramos,UFMG,NET
 Heitor Silverio Lopes,UFTPR,VISION
 Helio Lopes,PUC-Rio,GRAPHICS
 Helio Pedrini,UNICAMP,AI
-Heloisa Camargo,UFSCAR,AI
+Heloisa Camargo,UFSCar,AI
 Hermano Moura,UFPE,DBIS
 Hermes Senger,UFSCar,ARCH
 Horacio Hideki Yanasse,UNIFESP,OR
@@ -417,7 +417,7 @@ Julio Cesar Silva Araujo,UFC,THEORY
 Julio Dos Reis,UNICAMP,AI
 Julio Leite,PUC-Rio,SE
 Julio Lopez Hernandez,UNICAMP,AI
-Junia Coutinho Anacleto Silva,UFSCAR,CHI
+Junia Coutinho Anacleto Silva,UFSCar,CHI
 Junior Barrera,IME/USP,DATA
 Jurandy Almeida,UNIFESP,VISION
 Jussara Almeida,UFMG,IR
@@ -462,12 +462,12 @@ Lucelene Lopes,PUC-RS,AI
 Luci Pirmez,NCE/UFRJ,ARCH
 Lucia Catabriga,UFES,ARCH
 Lucia Drummond,UFF,ARCH
-Luciana Buriol,UFRGS,NET
+Luciana Buriol,UFRGS,OR
 Luciana Foss,UFPEL,THEORY
 Luciana Lourdes Silva,IFMG,SE
 Luciana Porcher Nedel,UFRGS,GRAPHICS
 Luciana Salgado,UFF,CSE
-Luciana Zaina,UFSCAR,SE
+Luciana Zaina,UFSCar,SE
 Luciano Barbosa,UFPE,DBIS
 Luciano Gaspary,UFRGS,NET
 Luciano Silva,UFPR,VISION
@@ -552,7 +552,7 @@ Maria Cristina Ferreira Oliveira,ICMC/USP,GRAPHICS
 Maria Emilia Telles Walter,UnB,BIO
 Maria Graca Campos Pimentel,ICMC/USP,IR
 Maria Nascimento,UNIFESP,AI
-Maria do Carmo Nicoletti,UFSCAR,AI
+Maria do Carmo Nicoletti,UFSCar,AI
 Mariana Kolberg,UFRGS,ROBOTICS
 Mariana Recamonde Mendoza,UFRGS,DATA
 Mariano Pimentel,UNIRIO,SE
@@ -587,7 +587,7 @@ Moacir Ponti,ICMC/USP,GRAPHICS
 Moises Ribeiro,UFES,NET
 Monalessa Barcellos,UFES,SE
 Murillo Carneiro,UFU,AI
-Murilo Naldi,UFSCAR,AI
+Murilo Naldi,UFSCar,AI
 Myriam Delgado,UTFPR,AI
 Nabor Mendonca,UNIFOR,DS
 Nadia Nedjah,UERJ,AI
@@ -677,7 +677,7 @@ Renato Perez Ribas,UFRGS,HARDWARE
 Renato Portugal,LNCC,THEORY
 Renato Tinos,FFCLRP/USP,AI
 Renato Vimieiro,UFMG,DATA
-Ricardo Cerri,UFSCAR,AI
+Ricardo Cerri,UFSCar,AI
 Ricardo Dahab,UNICAMP,DS
 Ricardo Fabbri,UERJ,VISION
 Ricardo Falbo,UFES,DBIS
@@ -779,7 +779,7 @@ Thiago Oliveira Santos,UFES,AI
 Thiago Pardo,ICMC/USP,IR
 Thiago Silva,UTFPR,NET
 Thibaut Vidal,PUC-Rio,OR
-Tiago Almeida,UFSCAR,AI
+Tiago Almeida,UFSCar,AI
 Tiago Espinola Ferreira,UFRPE,AI
 Tiago Ferreto,PUC-RS,DS
 Tiago Massoni,UFCG,SE
@@ -821,7 +821,7 @@ Willian Amorim,UFGD,DATA
 Wilson de Oliveira,UFRPE,AI
 Yoshiharu Kohayakawa,IME/USP,THEORY
 Yoshiko Wakabayashi,IME/USP,THEORY
-Yuri Frota,UFF,ARCH
+Yuri Frota,UFF,OR
 Yuri Nogueira,UFC,AI
 Zanoni Dias,UNICAMP,THEORY
 Zhao Liang,FFCLRP/USP,AI

@@ -165,6 +165,8 @@
               { dept_search = 'UnB'; }
            else if (dept === 'puc-rio')
               { dept_search = 'PUC-Rio'; }
+           else if (dept === 'ufscar')
+              { dept_search = 'UFSCar'; }
            else dept_search = dept.toUpperCase();
 
            arrayData2 = []
@@ -217,7 +219,7 @@
           <li class="nav-item active">
             <a class="nav-link" href="depts2.html">Departments <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="statistics.html">Statistics</a>
           </li>
           <li class="nav-item">
@@ -267,16 +269,20 @@
 
 <script>
   if (dept === 'coppeufrj')
-     { dept_msg = 'coppe/ufrj'; }
+     { dept_msg = 'COPPE/UFRJ'; }
   else if (dept === 'dccufrj')
-     { dept_msg = 'dcc/ufrj'; }
+     { dept_msg = 'DCC/UFRJ'; }
   else if (dept === 'icmcusp')
-     { dept_msg = 'icmc/usp'; }
+     { dept_msg = 'ICMC/USP'; }
   else if (dept === 'imeusp')
-     { dept_msg = 'ime/usp'; }
-  else dept_msg = dept;
+     { dept_msg = 'IME/USP'; }
+  else if (dept === 'pucrio')
+     { dept_msg = 'PUC-Rio'; }
+  else if (dept === 'ufscar')
+     { dept_msg = 'UFScar'; }
+  else dept_msg = dept.toUpperCase();
 
-  dept_msg = dept_msg.toUpperCase();
+//  dept_msg = dept_msg.toUpperCase();
 
   document.title = 'CSIndexbr: ' + dept_msg;
   document.getElementById("dept_name").innerHTML = dept_msg;
