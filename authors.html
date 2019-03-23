@@ -40,11 +40,6 @@
 
 		google.charts.setOnLoadCallback(drawTablePapers);
 
-    //var corebr_author= sessionStorage.getItem('corebr_author');
-
-    //var url = new URL(window.location.href);
-    //var corebr_author = url.searchParams.get("p");
-
     var corebr_author = location.search.split('p=')[1];
 
 		var corebr_papers_file = "data/profs/search/" + corebr_author + ".csv";
@@ -147,7 +142,10 @@
             <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="authors2.html">Author Pages <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="authors2.html">Faculty <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="depts2.html">Departments</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="statistics.html">Statistics</a>
