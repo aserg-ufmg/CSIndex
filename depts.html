@@ -269,24 +269,31 @@
 
 <script>
   if (dept === 'coppeufrj')
-     { dept_msg = 'COPPE/UFRJ'; }
+     { dept_msg = 'COPPE/UFRJ: Instituto Alberto Luiz Coimbra de Pós-Graduação e Pesquisa de Engenharia'; }
   else if (dept === 'dccufrj')
-     { dept_msg = 'DCC/UFRJ'; }
+     { dept_msg = 'DCC/UFRJ: Departamento de Ciência da Computação'; }
   else if (dept === 'icmcusp')
-     { dept_msg = 'ICMC/USP'; }
+     { dept_msg = 'ICMC/USP: Instituto de Ciências Matemáticas e de Computação'; }
   else if (dept === 'imeusp')
-     { dept_msg = 'IME/USP'; }
+     { dept_msg = 'IME/USP: Instituto de Matemática e Estatística'; }
   else if (dept === 'pucrio')
-     { dept_msg = 'PUC-Rio'; }
+     { dept_msg = 'PUC-Rio: Departamento de Informática'; }
   else if (dept === 'ufscar')
-     { dept_msg = 'UFScar'; }
+     { dept_msg = 'UFScar: Departamento de Computação'; }
   else if (dept === 'unb')
-     { dept_msg = 'UnB'; }
+     { dept_msg = 'UnB: Departamento de Ciência da Computação'; }
+  else if (dept === 'ufmg')
+        { dept_msg = 'UFMG: Departamento de Ciência da Computação'; }
+  else if (dept === 'ufpe')
+        { dept_msg = 'UFPE: Centro de Informática'; }
+  else if (dept === 'ufu')
+        { dept_msg = 'UFU: Faculdade de Computação'; }
+
   else dept_msg = dept.toUpperCase();
 
 //  dept_msg = dept_msg.toUpperCase();
 
-  document.title = 'CSIndexbr: ' + dept_msg;
+  document.title = 'CSIndexbr - ' + dept_msg;
   document.getElementById("dept_name").innerHTML = dept_msg;
   ga('send', 'event', 'Dept Page', dept);
 </script>
