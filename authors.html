@@ -187,11 +187,11 @@
 
 <script>
   var author = corebr_author.split("-").join(" ");
-  document.title = 'CSIndexbr: ' + author;
   $.get("data/all-researchers.csv", function(csvString) {
       var data = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
       for (var i = 0; i < data.length; i++) {
           if (data[i][0] === author) {
+             document.title = 'CSIndexbr - ' + author + ' - ' + data[i][1];
              inst = '<font size="4"> (' + data[i][1] + ')</font>';
              document.getElementById("author_name").innerHTML = author + inst;
              dblp_pid = data[i][2];
