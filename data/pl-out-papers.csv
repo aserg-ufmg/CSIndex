@@ -1,3 +1,5 @@
+2019,CGO,"Generation of In-Bounds Inputs for Arrays in Memory-Unsafe Languages.",UFMG,Marcus Rodrigues; Breno Guimarães; Fernando Magno Quintão Pereira,https://doi.org/10.1109/CGO.2019.8661178,null,C,no_arxiv,0
+2019,CGO,"Super-Node SLP: Optimized Vectorization for Code Sequences Containing Operators and Their Inverse Elements.",PUC Minas,Vasileios Porpodas; Rodrigo C. O. Rocha; Evgueni Brevnov; Luís F. W. Góes; Timothy G. Mattson,https://doi.org/10.1109/CGO.2019.8661192,null,C,no_arxiv,0
 2019,TACO,"Static Prediction of Silent Stores.",UFMG,Fernando Magno Quintão Pereira; Guilherme V. Leobas; Abdoulaye Gamatié,https://dl.acm.org/citation.cfm?id=3280848,top,J,no_arxiv,
 2018,CGO,"Look-ahead SLP: auto-vectorization in the presence of commutative operations.",PUC Minas,Vasileios Porpodas; Rodrigo C. O. Rocha; Luís F. W. Góes,https://doi.org/10.1145/3168807,null,C,no_arxiv,1
 2018,CGO,"Qubit allocation.",UFMG,Marcos Yukio Siraichi; Vinícius Fernandes dos Santos; Sylvain Collange; Fernando Magno Quintão Pereira,https://doi.org/10.1145/3168822,null,C,no_arxiv,0
