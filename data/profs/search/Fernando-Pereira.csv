@@ -6,7 +6,7 @@
 2019,TACO,"Static Prediction of Silent Stores.",Fernando Magno Quintão Pereira; Guilherme V. Leobas; Abdoulaye Gamatié,https://dl.acm.org/citation.cfm?id=3280848,top,J,no_arxiv,
 2019,CGO,"Generation of In-Bounds Inputs for Arrays in Memory-Unsafe Languages.",Marcus Rodrigues; Breno Guimarães; Fernando Magno Quintão Pereira,https://doi.org/10.1109/CGO.2019.8661178,null,C,no_arxiv,0
 2018,POPL,"Inference of static semantics for incomplete C programs.",Leandro T. C. Melo; Rodrigo G. Ribeiro; Marcus R. de Araújo; Fernando Magno Quintão Pereira,https://doi.org/10.1145/3158117,top,C,no_arxiv,0
-2018,SCP,"Combining range and inequality information for pointer disambiguation.",Maroua Maalej; Vitor Paisante; Fernando Magno Quintão Pereira; Laure Gonnord,https://doi.org/10.1016/j.scico.2017.10.014,null,J,no_arxiv,1
+2018,SCP,"Combining range and inequality information for pointer disambiguation.",Maroua Maalej; Vitor Paisante; Fernando Magno Quintão Pereira; Laure Gonnord,https://doi.org/10.1016/j.scico.2017.10.014,null,J,no_arxiv,2
 2018,CGO,"Qubit allocation.",Marcos Yukio Siraichi; Vinícius Fernandes dos Santos; Sylvain Collange; Fernando Magno Quintão Pereira,https://doi.org/10.1145/3168822,null,C,no_arxiv,0
 2017,OOPSLA,"Static placement of computation on heterogeneous devices.",Gabriel Poesia; Breno Campos Ferreira Guimarães; Fabricio Ferracioli; Fernando Magno Quintão Pereira,https://doi.org/10.1145/3133874,top,C,no_arxiv,0
 2017,TACO,"DawnCC: Automatic Annotation for Data Parallelism and Offloading.",Gleison Souza Diniz Mendonca; Breno Campos Ferreira Guimarães; Péricles Alves; Marcio Machado Pereira; Guido Araujo; Fernando Magno Quintão Pereira,https://doi.org/10.1145/3084540,top,J,no_arxiv,3

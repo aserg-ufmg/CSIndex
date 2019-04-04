@@ -19,15 +19,15 @@ rm ./citations/*
 cd ../data
 
 ./run cs se
-sleep 60
+sleep 90
 ./run pl chi net
-sleep 60
+sleep 90
 ./run ds arch dbis ir
-sleep 60
+sleep 90
 ./run data ai theory formal
-sleep 60
+sleep 90
 ./run or security vision graphics
-sleep 60
+sleep 90
 ./run robotics cse bio hardware
 
 end=`date +%s`
