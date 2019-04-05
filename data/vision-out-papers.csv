@@ -77,7 +77,7 @@
 2016,CVIU,"Image segmentation via multi-scale stochastic regional texture appearance models.",UFRGS,R. S. Medeiros; Jacob Scharcanski; Alexander Wong,https://doi.org/10.1016/j.cviu.2015.06.001,null,J,no_arxiv,3
 2016,ECCV,"From Multiview Image Curves to 3D Drawings.",UERJ,Anil Usumezbas; Ricardo Fabbri; Benjamin B. Kimia,https://doi.org/10.1007/978-3-319-46493-0_5,top,C,http://arxiv.org/abs/1609.05561v1,3
 2016,IEEE TIP,"Behavior Knowledge Space-Based Fusion for Copy-Move Forgery Detection.",UNICAMP; UFMG,Anselmo Ferreira; Siovani C. Felipussi; Carlos Alfaro; Pablo Fonseca; John E. Vargas-Munoz; Jefersson A. dos Santos; Anderson Rocha,https://doi.org/10.1109/TIP.2016.2593583,null,J,no_arxiv,13
-2016,IJCV,"Multiview Differential Geometry of Curves.",UERJ,Ricardo Fabbri; Benjamin B. Kimia,https://doi.org/10.1007/s11263-016-0912-7,null,J,http://arxiv.org/abs/1604.08256v1,2
+2016,IJCV,"Multiview Differential Geometry of Curves.",UERJ,Ricardo Fabbri; Benjamin B. Kimia,https://doi.org/10.1007/s11263-016-0912-7,top,J,http://arxiv.org/abs/1604.08256v1,2
 2016,JVCI,"Low false positive learning with support vector machines.",UNICAMP,Daniel Moraes; Jacques Wainer; Anderson Rocha,https://doi.org/10.1016/j.jvcir.2016.03.007,null,J,no_arxiv,2
 2016,MVAP,"Depth-assisted rectification for real-time object detection and pose estimation.",UFRPE; UFPE,João Paulo Silva do Monte Lima; Francisco Paulo Magalhaes Simões; Hideaki Uchiyama; Veronica Teichrieb; Éric Marchand,https://doi.org/10.1007/s00138-015-0740-8,null,J,no_arxiv,4
 2016,PR,"A flexible hierarchical approach for facial age estimation based on multiple features.",PUC/PR,Jhony K. Pontes; Alceu S. Britto Jr.; Clinton Fookes; Alessandro L. Koerich,https://doi.org/10.1016/j.patcog.2015.12.003,null,J,no_arxiv,16
