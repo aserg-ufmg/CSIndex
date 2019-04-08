@@ -92,7 +92,7 @@
 		  var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
       if (arrayData.length > 16) {
          arrayData = arrayData.slice(0,16);
-      }    
+      }
 		  var data= new google.visualization.DataTable();
 		  data.addColumn('string', 'Departments');
 		  data.addColumn('number', 'Score');
@@ -311,7 +311,7 @@
 </li>
 
 <li class="nav-item">
-<a class="nav-link small"  data-toggle="tab" href="#papersjournal" role="tab">Papers (2014-2019)</a>
+<a class="nav-link small"  data-toggle="tab" href="#papersjournal" role="tab">Papers (J)</a>
 </li>
 
 <li class="nav-item">
