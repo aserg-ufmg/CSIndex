@@ -161,12 +161,12 @@ def paperSize(dblp_pages):
        p2 = asInt(page[1])
        return p2 - p1 + 1
     elif len(page) == 4:
-       p1 = page[1]
-       p2 = page[3]
+       p1 = asInt(page[1])
+       p2 = asInt(page[3])
        return int(p2) - int(p1) + 1
     elif len(page) == 3:
-       p1 = page[1]
-       p2 = page[2]
+       p1 = asInt(page[1])
+       p2 = asInt(page[2])
        return int(p2) - int(p1) + 1
     else:
        return 0
@@ -261,9 +261,9 @@ def output_scores():
 
   f2 = open(area_prefix + '-out-scores.csv','w')
 
-  if len(sorted_scores) >= 16:
+  #if len(sorted_scores) >= 16:
      # sorted_scores = filter(lambda dept: dept[1] >= 1.5, sorted_scores)
-     sorted_scores = sorted_scores[:16]
+    # sorted_scores = sorted_scores[:16]
 
   for i in range(0, len(sorted_scores)):
       dept = sorted_scores[i][0]
