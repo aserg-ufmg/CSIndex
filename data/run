@@ -1,18 +1,3 @@
-start0=`date +%s`
-for area in "$@"
-do
-  echo '##################' $area '##################'
-  start=`date +%s`
-  python ../csindexbr.py $area
-  end=`date +%s`
-  echo '##################' $area "finished" '##################'
-  runtime1=$(($end-$start))
-  runtime1=$(echo "scale=2; " $runtime1 "/ 60.0" | bc -l)
-  echo 'Runtime: ' $runtime1 'min'
-  sleep 3
-done
-echo '####################################'
-end0=`date +%s`
-runtime0=$(($end0-$start0))
-runtime0=$(echo "scale=2; " $runtime0 "/ 60.0" | bc -l)
-echo 'Overall runtime: ' $runtime0 'min'
+./run2 $1 
+./runstats
+python ../csdepts.py
