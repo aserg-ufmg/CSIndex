@@ -187,12 +187,97 @@
 
 <script>
   var author = corebr_author.split("-").join(" ");
+
+  function instToLink(inst) {
+     if (inst === 'COPPE/UFRJ') {
+        return '<a href="https://csindexbr.org/depts.html?d=coppeufrj">COPPE/UFRJ';
+     }
+     else if (inst === 'DCC/UFRJ') {
+        return '<a href="https://csindexbr.org/depts.html?d=dccufrj">DCC/UFRJ';
+     }
+     else if (inst === 'ICMC/USP') {
+        return '<a href="https://csindexbr.org/depts.html?d=icmcusp">ICMC/USP';
+     }
+     else if (inst === 'IME/USP') {
+        return '<a href="https://csindexbr.org/depts.html?d=imeusp">IME/USP';
+     }
+     else if (inst === 'PUC-RS') {
+        return '<a href="https://csindexbr.org/depts.html?d=puc-rs">PUC-RS';
+     }
+     else if (inst === 'PUC-Rio') {
+        return '<a href="https://csindexbr.org/depts.html?d=puc-rio">PUC-Rio';
+     }
+     else if (inst === 'UERJ') {
+        return '<a href="https://csindexbr.org/depts.html?d=uerj">UERJ';
+     }
+     else if (inst === 'UFABC') {
+        return '<a href="https://csindexbr.org/depts.html?d=ufabc">UFABC';
+     }
+     else if (inst === 'UFAM') {
+        return '<a href="https://csindexbr.org/depts.html?d=ufam">UFAM';
+     }
+     else if (inst === 'UFBA') {
+        return '<a href="https://csindexbr.org/depts.html?d=ufba">UFBA';
+     }
+     else if (inst === 'UFC') {
+        return '<a href="https://csindexbr.org/depts.html?d=ufc">UFC';
+     }
+     else if (inst === 'UFCG') {
+        return '<a href="https://csindexbr.org/depts.html?d=ufcg">UFCG';
+     }
+     else if (inst === 'UFES') {
+        return '<a href="https://csindexbr.org/depts.html?d=ufes">UFES';
+     }
+     else if (inst === 'UFF') {
+        return '<a href="https://csindexbr.org/depts.html?d=uff">UFF';
+     }
+     else if (inst === 'UFMG') {
+        return '<a href="https://csindexbr.org/depts.html?d=ufmg">UFMG';
+     }
+     else if (inst === 'UFPE') {
+        return '<a href="https://csindexbr.org/depts.html?d=ufpe">UFPE';
+     }
+     else if (inst === 'UFPR') {
+        return '<a href="https://csindexbr.org/depts.html?d=ufpr">UFPR';
+     }
+     else if (inst === 'UFRGS') {
+        return '<a href="https://csindexbr.org/depts.html?d=ufrgs">UFRGS';
+     }
+     else if (inst === 'UFRN') {
+        return '<a href="https://csindexbr.org/depts.html?d=ufrn">UFRN';
+     }
+     else if (inst === 'UFSC') {
+        return '<a href="https://csindexbr.org/depts.html?d=ufsc">UFSC';
+     }
+     else if (inst === 'UFSCar') {
+        return '<a href="https://csindexbr.org/depts.html?d=ufscar">UFSCar';
+     }
+     else if (inst === 'UFU') {
+        return '<a href="https://csindexbr.org/depts.html?d=ufu">UFU';
+     }
+     else if (inst === 'UNICAMP') {
+        return '<a href="https://csindexbr.org/depts.html?d=unicamp">UNICAMP';
+     }
+     else if (inst === 'UNIFESP') {
+        return '<a href="https://csindexbr.org/depts.html?d=unifesp">UNIFESP';
+     }
+     else if (inst === 'UTFPR') {
+        return '<a href="https://csindexbr.org/depts.html?d=utfpr">UTFPR';
+     }
+     else if (inst === 'UnB') {
+       return '<a href="https://csindexbr.org/depts.html?d=unb">UnB';
+     }
+     return inst;
+  }
+
   $.get("data/all-researchers.csv", function(csvString) {
       var data = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
       for (var i = 0; i < data.length; i++) {
           if (data[i][0] === author) {
              document.title = 'CSIndexbr - ' + author + ' - ' + data[i][1];
-             inst = '<font size="4"> (' + data[i][1] + ')</font>';
+             inst2 = data[i][1];
+             inst2 = instToLink(inst2);
+             inst = '<font size="4"> (' + inst2 + ')</font>';
              document.getElementById("author_name").innerHTML = author + inst;
              dblp_pid = data[i][2];
              dblp = '<small><b>See also</b> the full list of papers at ';
