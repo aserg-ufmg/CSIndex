@@ -33,6 +33,7 @@ Alexandre Plastino,UFF,DATA
 Alexandre Salles da Cunha,UFMG,OR
 Alexandre Sztajnberg,UERJ,ARCH
 Alexandre Vasconcelos,UFPE,SE
+Alexandre Zaghetto,UnB,AI
 Alexandro Baldassin,UNESP,ARCH
 Alfredo Goldman,IME/USP,ARCH
 Aline Paes,UFF,DATA
@@ -45,6 +46,7 @@ Ana Bazzan,UFRGS,AI
 Ana Carolina Lorena,UNIFESP,AI
 Ana Carolina Salgado,UFPE,AI
 Ana Cristina Vendramin,UTFPR,AI
+Ana Karolinna Maia,UFC,THEORY
 Ana Paula Couto da Silva,UFMG,IR
 Ana Teresa Martins,UFC,FORMAL
 Ana de Melo,IME/USP,SE
@@ -73,7 +75,7 @@ Andreia Malucelli,PUC-PR,SE
 Andrey Brito,UFCG,DS
 Andrey Pimentel,UFPR,NET
 Anelise Munaretto,UTFPR,AI
-Angelo Brayner,UNIFOR,ARCH
+Angelo Brayner,UFC,ARCH
 Anisio Lacerda,UFMG,AI
 Anjolina Oliveira,UFPE,FORMAL
 Anna Costa,POLI/USP,AI
@@ -131,6 +133,7 @@ Carlos Camarao,UFMG,PL
 Carlos Ferraz,UFPE,AI
 Carlos Ferreira,IME/USP,THEORY
 Carlos Figueiredo,UEA,NET
+Carlos Fisch Brito,UFC,AI
 Carlos Henrique Costa Ribeiro,ITA,NET
 Carlos Kamienski,UFABC,NET
 Carlos Lucena,PUC-Rio,SE
@@ -145,6 +148,7 @@ Celso Massaki Hirata,ITA,NET
 Celso Ribeiro,UFF,OR
 Celso Saibel Santos,UFES,IR
 Cesar Augusto Fonticielha De Rose,PUC-RS,ARCH
+Cesar Lincoln Mattos,UFC,AI
 Cesar Tacla,UTFPR,AI
 Christian Rothenberg,FEEC/UNICAMP,NET
 Christiane Brasil,UFU,AI
@@ -196,7 +200,6 @@ Daniel Morgato Martin,UFABC,THEORY
 Daniel Osaku,UFSCar,DATA
 Daniel Schwabe,PUC-Rio,DATA
 Daniel de Oliveira,UFF,ARCH
-Danielo Gomes,UFC,ARCH
 Danilo Hernane Spatti,ICMC/USP,AI
 Danilo Sanches,UTFPR,AI
 Dante Augusto Couto Barone,UFRGS,VISION
@@ -257,12 +260,12 @@ Elizabeth Furtado,UNIFOR,DATA
 Elizabeth Goldbarg,UFRN,DATA
 Elizabeth Wanner,CEFET-MG,AI
 Ellen Barbosa,ICMC/USP,CSE
+Emanuele Santos,UFC,GRAPHICS
 Emerson Paraiso,PUC-PR,AI
 Emilio Francesquini,UFABC,ARCH
 Erickson Rangel do Nascimento,UFMG,VISION
 Erika Cota,UFRGS,PL
 Ernesto Birgin,IME/USP,OR
-Esdras Medeiros,UFC,GRAPHICS
 Esteban Clua,UFF,SE
 Estevam Hruschka,UFSCar,AI
 Eunice Nunes,UFMT,GRAPHICS
@@ -286,7 +289,6 @@ Fabricio Breve,UNESP,AI
 Fabricio Enembreck,PUC-PR,CS
 Fabricio Martins Lopes,UTFPR,DATA
 Fabricio Olivetti de Franca,UFABC,AI
-Fabricio Siqueira Benevides,UFC,THEORY
 Fatima Nunes,EACH/USP,CS
 Felipe Franca,COPPE/UFRJ,AI
 Felipe Meneguzzi,PUC-RS,AI
@@ -337,7 +339,6 @@ Gleison Santos,UNIRIO,SE
 Gracaliz Dimuro,FURG,AI
 Guido Araujo,UNICAMP,ARCH
 Guilherme Avelino,UFPI,SE
-Guilherme Barreto,UFC,AI
 Guilherme Maia,UFMG,NET
 Guilherme Oliveira Mota,UFABC,THEORY
 Guilherme Pimentel Telles,UNICAMP,BIO
@@ -391,6 +392,7 @@ Jesus Mena Chalco,UFABC,GRAPHICS
 Jo Ueyama,ICMC/USP,NET
 Joao Alcantara,UFC,AI
 Joao Bertini,FT/UNICAMP,AI
+Joao Bosco Ferreira Filho,UFC,SE
 Joao Comba,UFRGS,GRAPHICS
 Joao Eduardo Ferreira,IME/USP,DATA
 Joao Fabro,UTFPR,AI
@@ -421,6 +423,7 @@ Jose Gustavo Paiva,UFU,GRAPHICS
 Jose Luis Guntzel,UFSC,HARDWARE
 Jose Marcos Nogueira,UFMG,NET
 Jose Maria David,UFJF,DS
+Jose Maria Monteiro,UFC,SE
 Jose Neuman de Souza,UFC,NET
 Jose Palazzo de Oliveira,UFRGS,DBIS
 Jose Viterbo,UFF,VISION
@@ -642,6 +645,7 @@ Patricia Machado,UFCG,SE
 Patricia Tedesco,UFPE,AI
 Paulo Adeodato,UFPE,AI
 Paulo Aguiar,DCC/UFRJ,AI
+Paulo Antonio Leal Rego,UFC,NET
 Paulo Augusto Veloso,COPPE/UFRJ,THEORY
 Paulo Borba,UFPE,SE
 Paulo Cunha,UFPE,AI
@@ -832,10 +836,12 @@ Vander Alves,UnB,SE
 Vanderlei Bonato,ICMC/USP,AI
 Vanessa Braganholo,UFF,CS
 Vania Bogorny,UFSC,DBIS
+Vania Maria Ponte Vidal,UFC,DBIS
 Vania Neris,UFSCar,AI
 Vaninha Vieira,UFBA,AI
 Vasco Furtado,UNIFOR,DATA
 Veronica Teichrieb,UFPE,GRAPHICS
+Victor Campos,UFC,THEORY
 Victor Sobreira,UFU,SE
 Victor Stroele,UFJF,ARCH
 Vinicius Cassol,Unisinos,GRAPHICS

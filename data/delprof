@@ -1,0 +1,2 @@
+rm -i ../cache/profs/*$1*.csv
+rm -i ./profs/search/*$1*.csv
