@@ -289,3 +289,5 @@ se,2018,"Journal of Systems and Software","A generic approach to model generatio
 theory,2016,"Theor. Comput. Sci.","Minimum vertex cover in generalized random graphs with power law degree distribution.",db/journals/tcs/tcs647.html#VignattiS16
 formal,2019,"Sci. Comput. Program.","Verified simulation for robotics.",db/journals/scp/scp174.html#CavalcantiSMRFD19
 formal,2019,"Sci. Comput. Program.","On interval dynamic logic: Introducing quasi-action lattices.",db/journals/scp/scp175.html#SantiagoBMM19
+ds,2018,"Journal of Systems and Software","Heuristic-based approaches for speeding up incremental record linkage.",db/journals/jss/jss137.html#NascimentoPM18
+ds,2017,"Journal of Systems and Software","An efficient spark-based adaptive windowing for entity matching.",db/journals/jss/jss128.html#MestrePNQSA17
