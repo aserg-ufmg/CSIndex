@@ -32,3 +32,4 @@ db/journals/concurrency/concurrency29.html#SouzaPQPGFCNM17
 db/journals/concurrency/concurrency29.html#BezBSSN17
 db/journals/concurrency/concurrency29.html#PisaniPTB17
 db/journals/concurrency/concurrency29.html#DuenhaMMA17
+db/conf/cluster/cluster2014.html#GutierrezABZ14
