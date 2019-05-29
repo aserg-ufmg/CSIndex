@@ -11,6 +11,9 @@ IPSN,IPSN,3
 SRDS,SRDS,3
 UCC,UCC,3
 ISSRE,ISSRE,3
+RTAS,RTAS,3
+RTTS,RTTS,3
+ECRTS,ECRTS,3
 Journal of Systems and Software,JSS,5
 "Softw., Pract. Exper.",SPE,5
 Concurrency and Computation: Practice and Experience,Concurr. & Computation,7
@@ -19,3 +22,4 @@ IEEE Trans. Cloud Computing,IEEE Trans. Cloud Comp.,4
 IEEE Trans. Services Computing,IEEE Trans. Services Comp.,4
 IEEE Cloud Computing,IEEE Cloud Computing,6
 IEEE Pervasive Computing,IEEE Pervasive Computing,6
+Real-Time Systems,Real-Time Syst.,5
