@@ -302,7 +302,7 @@ Fabio Q. B. da Silva,UFPE,SE
 Fabiola Greve,UFBA,SECURITY
 Fabricio Benevenuto,UFMG,IR
 Fabricio Breve,UNESP,AI
-Fabricio Enembreck,PUC-PR,CS
+Fabricio Enembreck,PUC-PR,AI
 Fabricio Martins Lopes,UTFPR,DATA
 Fabricio Olivetti de Franca,UFABC,AI
 Fatima Nunes,EACH/USP,CS
@@ -339,6 +339,7 @@ Fred Freitas,UFPE,AI
 Frederico Durao,UFBA,ARCH
 Gabriel Luca Nazar,UFRGS,HARDWARE
 Gabriel Silva,DCC/UFRJ,ARCH
+Geber Ramalho,UFPE,CSE
 Genaina Rodrigues,UnB,SE
 George Cavalcanti,UFPE,AI
 George Lima,UFBA,DS
@@ -397,7 +398,7 @@ Islene Garcia,UNICAMP,NET
 Italo Cunha,UFMG,NET
 Ivan Machado,UFBA,SE
 Jacir Bordim,UnB,ARCH
-Jacob Scharcanski,UFRGS,AI
+Jacob Scharcanski,UFRGS,VISION
 Jacques Wainer,UNICAMP,VISION
 Jaelson Castro,UFPE,SE
 Jairo Panetta,ITA,ARCH
@@ -430,6 +431,7 @@ Joaquim Cavalcante,UFC,GRAPHICS
 Joaquim Celestino,UECE,SECURITY
 Joel Luis Carbonera,UFRGS,AI
 Joel Rodrigues,Inatel,NET
+Jomi Hubner,UFSC,AI
 Jonathan de Andrade Silva,UFMS,AI
 Joni da Silva Fraga,DAS/UFSC,SECURITY
 Jonice Oliveira,DCC/UFRJ,ARCH
@@ -571,11 +573,11 @@ Marcia Fampa,COPPE/UFRJ,OR
 Marcia Rosana Cerioli,DCC/UFRJ,THEORY
 Marcia de Borba Campos,PUC-RS,CHI
 Marcio Barros,UNIRIO,SE
-Marcio Basgalupp,UNIFESP,DATA
+Marcio Basgalupp,UNIFESP,AI
 Marcio Castro,UFSC,ARCH
 Marcio Cornelio,UFPE,SE
 Marcio Delamaro,ICMC/USP,SE
-Marcio Dorn,UFRGS,OR
+Marcio Dorn,UFRGS,AI
 Marcio Ribeiro,UFAL,SE
 Marco Antonio Casanova,PUC-Rio,DBIS
 Marco Antonio Zanata Alves,UFPR,ARCH
@@ -642,7 +644,7 @@ Miguel Castro,UFC,NET
 Milene Silveira,PUC-RS,CHI
 Mirella Moro,UFMG,DATA
 Mitre Costa Dourado,DCC/UFRJ,THEORY
-Moacir Ponti,ICMC/USP,GRAPHICS
+Moacir Ponti,ICMC/USP,VISION
 Moises Ribeiro,UFES,NET
 Monalessa Barcellos,UFES,SE
 Murillo Carneiro,UFU,AI
@@ -876,7 +878,7 @@ Valmir Barbosa,COPPE/UFRJ,THEORY
 Valter Camargo,UFSCar,SE
 Valter Roesler,UFRGS,NET
 Vander Alves,UnB,SE
-Vanderlei Bonato,ICMC/USP,AI
+Vanderlei Bonato,ICMC/USP,HARDWARE
 Vanessa Braganholo,UFF,CS
 Vania Bogorny,UFSC,DBIS
 Vania Maria Ponte Vidal,UFC,DBIS
