@@ -291,3 +291,14 @@ formal,2019,"Sci. Comput. Program.","Verified simulation for robotics.",db/journ
 formal,2019,"Sci. Comput. Program.","On interval dynamic logic: Introducing quasi-action lattices.",db/journals/scp/scp175.html#SantiagoBMM19
 ds,2018,"Journal of Systems and Software","Heuristic-based approaches for speeding up incremental record linkage.",db/journals/jss/jss137.html#NascimentoPM18
 ds,2017,"Journal of Systems and Software","An efficient spark-based adaptive windowing for entity matching.",db/journals/jss/jss128.html#MestrePNQSA17
+se,2019,"Sci. Comput. Program.","Measuring and analyzing code authorship in 1 + 118 open source projects.",db/journals/scp/scp176.html#AvelinoPHV19
+ds,2019,"Softw., Pract. Exper.","A middleware solution for integrating and exploring IoT and HPC capabilities.",db/journals/spe/spe49.html#CiminoRSRCMFMSS19
+pl,2019,"Sci. Comput. Program.","A monadic semantics for quantum computing in an object oriented language.",db/journals/scp/scp173.html#FeitosaVPB19
+se,2019,"Journal of Systems and Software","Swarm debugging: The collective intelligence on interactive debugging.",db/journals/jss/jss153.html#PetrilloGPFK19
+pl,2019,"Sci. Comput. Program.","The Dinamica EGO virtual machine.",db/journals/scp/scp173.html#FerreiraSP19
+pl,2019,"Sci. Comput. Program.","JetsonLEAP: A framework to measure power on a heterogeneous system-on-a-chip device.",db/journals/scp/scp173.html#BessaGQFNP19
+pl,2019,"Sci. Comput. Program.","Automatic parallelization of recursive functions with rewriting rules.",db/journals/scp/scp173.html#RochaGP19
+pl,2019,"Sci. Comput. Program.","A Scientific Workflow Management System for orchestration of parallel components in a cloud of large-scale parallel processing services.",db/journals/scp/scp173.html#SilvaDJ19
+se,2019,"Journal of Systems and Software","Co-change patterns: A large scale empirical study.",db/journals/jss/jss152.html#SilvaVM19
+pl,2019,"Sci. Comput. Program.","Comparing the performance of concurrent hash tables implemented in Haskell.",db/journals/scp/scp173.html#DuarteBPCR19
+se,2019,"Journal of Systems and Software","Preference based multi-objective algorithms applied to the variability testing of software product lines.",db/journals/jss/jss151.html#FilhoFV19
