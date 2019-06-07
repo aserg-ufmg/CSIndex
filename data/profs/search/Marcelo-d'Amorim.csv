@@ -1,7 +1,7 @@
-2014,SCP,"Efficient static checker for tainted variable attacks.",Andrei Rimsa; Marcelo d'Amorim; Fernando Magno Quintão Pereira; Roberto da Silva Bigonha,https://doi.org/10.1016/j.scico.2013.03.012,null,J,no_arxiv,2
-2014,PLDI,"Compositional solution space quantification for probabilistic software analysis.",Mateus Borges; Antonio Filieri; Marcelo d'Amorim; Corina S. Pasareanu; Willem Visser,https://doi.org/10.1145/2594291.2594329,top,C,no_arxiv,3
+2014,SCP,"Efficient static checker for tainted variable attacks.",Andrei Rimsa; Marcelo d'Amorim; Fernando Magno Quintão Pereira; Roberto da Silva Bigonha,https://doi.org/10.1016/j.scico.2013.03.012,null,J,no_arxiv,4
+2014,PLDI,"Compositional solution space quantification for probabilistic software analysis.",Mateus Borges; Antonio Filieri; Marcelo d'Amorim; Corina S. Pasareanu; Willem Visser,https://doi.org/10.1145/2594291.2594329,top,C,no_arxiv,7
 2018,JSS,"Time-space efficient regression testing for configurable systems.",Sabrina Souto; Marcelo d'Amorim,https://doi.org/10.1016/j.jss.2017.08.010,null,J,no_arxiv,0
-2018,ICSE,"Enlightened debugging.",Xiangyu Li; Shaowei Zhu; Marcelo d'Amorim; Alessandro Orso,https://doi.org/10.1145/3180155.3180242,top,C,no_arxiv,0
+2018,ICSE,"Enlightened debugging.",Xiangyu Li; Shaowei Zhu; Marcelo d'Amorim; Alessandro Orso,https://doi.org/10.1145/3180155.3180242,top,C,no_arxiv,1
 2018,ISSTA,"Automatically translating bug reports into test cases for mobile apps.",Mattia Fazzini; Martin Prammer; Marcelo d'Amorim; Alessandro Orso,https://doi.org/10.1145/3213846.3213869,null,C,no_arxiv,0
 2017,ICSE,"Balancing soundness and efficiency for practical testing of configurable systems.",Sabrina Souto; Marcelo d'Amorim; Rohit Gheyi,https://doi.org/10.1109/ICSE.2017.64,top,C,no_arxiv,2
 2017,ICST,"Prevalence of Single-Fault Fixes and Its Impact on Fault Localization.",Alexandre Perez; Rui Abreu; Marcelo d'Amorim,https://doi.org/10.1109/ICST.2017.9,null,C,no_arxiv,3
