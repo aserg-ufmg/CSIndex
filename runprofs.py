@@ -24,6 +24,7 @@ for p in reader1:
 
 out = open('../profs.html','a')
 out2 = open('profs.csv','w')
+out3 = open('../html/sitemap_p.txt','w')
 reader2 = csv.reader(open("./profs/all-authors.csv", 'r'))
 for p in reader2:
     prof = p[0]
@@ -41,5 +42,7 @@ for p in reader2:
     out2.write(',')
     out2.write(area)
     out2.write('\n')
+    out3.write('https://csindexbr.org/authors.html?p=' + p2 + '\n')
 out.close
 out2.close
+out3.close
