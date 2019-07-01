@@ -1,0 +1,2 @@
+cd ../data
+python ../dblp.py -test

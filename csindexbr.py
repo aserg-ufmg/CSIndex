@@ -572,7 +572,7 @@ def get_dblp_file(pid,prof):
 def outuput_everything():
     output_papers()
     output_scores()
-    output_profs()
+    # output_profs()
     output_venues()
     output_profs_list()
     output_arxiv_cache(area_prefix)
