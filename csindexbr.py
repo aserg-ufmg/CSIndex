@@ -452,7 +452,10 @@ def getPaperSize(url,dblp,doi):
 def getDBLPVenue(dblp):
     if 'journal' in dblp:
         if (dblp['journal'] == "PACMPL") or (dblp['journal'] == "PACMHCI"):
-           dblp_venue = dblp['number']
+           if 'number' in dblp:
+               dblp_venue = dblp['number']
+           else:
+               dblp_venue = dblp['journal']
         else:
            dblp_venue = dblp['journal']
     elif 'booktitle' in dblp:
