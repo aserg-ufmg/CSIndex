@@ -1,0 +1,2 @@
+cd ../data
+./run2 chi net ds hardware dbis ir data ai formal
