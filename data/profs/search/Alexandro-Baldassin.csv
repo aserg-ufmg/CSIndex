@@ -2,4 +2,4 @@
 2019,IEEE TPDS,"The Case for Phase-Based Transactional Memory.",Joao P. L. de Carvalho; Guido Araujo; Alexandro Baldassin,https://doi.org/10.1109/TPDS.2018.2861712,top,J,no_arxiv,0
 2017,ICS,"Revisiting phased transactional memory.",Joao P. L. de Carvalho; Guido Araujo; Alexandro Baldassin,https://doi.org/10.1145/3079079.3079094,null,C,no_arxiv,1
 2019,Inf. Sciences,"An optimized unsupervised manifold learning algorithm for manycore architectures.",Alexandro Baldassin; Ying Weng; Daniel Carlos Guimarães Pedronette; Jurandy Almeida,https://doi.org/10.1016/j.ins.2018.06.023,null,J,no_arxiv,1
-2015,PPoPP,"Performance implications of dynamic memory allocators on transactional memory systems.",Alexandro Baldassin; Edson Borin; Guido Araujo,https://doi.org/10.1145/2688500.2688504,null,C,no_arxiv,6
+2015,PPoPP,"Performance implications of dynamic memory allocators on transactional memory systems.",Alexandro Baldassin; Edson Borin; Guido Araujo,https://doi.org/10.1145/2688500.2688504,null,C,no_arxiv,

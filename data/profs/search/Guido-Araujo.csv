@@ -11,4 +11,4 @@
 2014,Int. J. Parallel Programming,"Microcode Compression Using Structured-Constrained Clustering.",Edson Borin; Guido Araujo; Mauricio Breternitz Jr.; Youfeng Wu,https://doi.org/10.1007/s10766-012-0206-9,null,J,no_arxiv,0
 2014,ICPP,"Measuring Effective Work to Reward Success in Dynamic Transaction Scheduling.",Marcio Machado Pereira; José Nelson Amaral; Guido Araujo,https://doi.org/10.1109/ICPP.2014.23,null,C,no_arxiv,0
 2017,TACO,"DawnCC: Automatic Annotation for Data Parallelism and Offloading.",Gleison Souza Diniz Mendonca; Breno Campos Ferreira Guimarães; Péricles Alves; Marcio Machado Pereira; Guido Araujo; Fernando Magno Quintão Pereira,https://doi.org/10.1145/3084540,top,J,no_arxiv,3
-2015,PPoPP,"Performance implications of dynamic memory allocators on transactional memory systems.",Alexandro Baldassin; Edson Borin; Guido Araujo,https://doi.org/10.1145/2688500.2688504,null,C,no_arxiv,6
+2015,PPoPP,"Performance implications of dynamic memory allocators on transactional memory systems.",Alexandro Baldassin; Edson Borin; Guido Araujo,https://doi.org/10.1145/2688500.2688504,null,C,no_arxiv,
