@@ -1,0 +1,2 @@
+cd ../data
+./run2 hardware dbis ir data
