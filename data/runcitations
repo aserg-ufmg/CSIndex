@@ -19,16 +19,24 @@ rm ./citations/*
 cd ../data
 
 ./run2 cs se
-sleep 120
-./run2 pl chi net
-sleep 120
-./run2 ds arch dbis ir
-sleep 120
-./run2 data ai theory formal
-sleep 120
-./run2 or security vision graphics
-sleep 120
-./run2 robotics cse bio hardware
+sleep 150
+./run2 pl chi
+sleep 150
+./run2 net ds
+sleep 150
+./run2 arch hardware
+sleep 150
+./run2 dbis ir
+sleep 150
+./run2  ai
+sleep 150
+./run2 theory formal
+sleep 150
+./run2 or security vision
+sleep 150
+./run2 graphics data
+sleep 150
+./run2 robotics cse bio
 
 end=`date +%s`
 echo '############# citations update finished #############'

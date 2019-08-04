@@ -5,7 +5,7 @@
 2019,SANER,"Migrating to GraphQL: A Practical Assessment.",Gleison Brito; Thais Mombach; Marco Tulio Valente,https://doi.org/10.1109/SANER.2019.8667986,null,C,no_arxiv,0
 2018,JSS,"On the use of replacement messages in API deprecation: An empirical study.",Gleison Brito; André C. Hora; Marco Tulio Valente; Romain Robbes,https://doi.org/10.1016/j.jss.2017.12.007,null,J,no_arxiv,4
 2018,JSS,"JMove: A novel heuristic and tool to detect move method refactoring opportunities.",Ricardo Terra; Marco Tulio Valente; Sergio Miranda; Vitor Sales,https://doi.org/10.1016/j.jss.2017.11.073,null,J,no_arxiv,1
-2018,JSS,"What's in a GitHub Star? Understanding Repository Starring Practices in a Social Coding Platform.",Hudson Borges; Marco Tulio Valente,https://doi.org/10.1016/j.jss.2018.09.016,null,J,http://arxiv.org/abs/1811.07643v1,0
+2018,JSS,"What's in a GitHub Star? Understanding Repository Starring Practices in a Social Coding Platform.",Hudson Borges; Marco Tulio Valente,https://doi.org/10.1016/j.jss.2018.09.016,null,J,http://arxiv.org/abs/1811.07643v1,5
 2018,IEEE Software,"AngularJS Performance: A Survey Study.",Miguel Ramos; Marco Tulio Valente; Ricardo Terra,https://doi.org/10.1109/MS.2017.265100610,null,J,http://arxiv.org/abs/1705.02506v1,0
 2018,SQJ,"How do developers react to API evolution? A large-scale empirical study.",André C. Hora; Romain Robbes; Marco Tulio Valente; Nicolas Anquetil; Anne Etien; Stéphane Ducasse,https://doi.org/10.1007/s11219-016-9344-4,null,J,no_arxiv,1
 2018,ESEM,"Identifying unmaintained projects in github.",Jailton Coelho; Marco Tulio Valente; Luciana Lourdes Silva; Emad Shihab,https://doi.org/10.1145/3239235.3240501,null,C,http://arxiv.org/abs/1809.04041v1,1
@@ -18,7 +18,7 @@
 2017,FSE,"Why modern open source projects fail.",Jailton Coelho; Marco Tulio Valente,https://doi.org/10.1145/3106237.3106246,top,C,http://arxiv.org/abs/1707.02327v1,15
 2017,SANER,"Historical and impact analysis of API breaking changes: A large-scale study.",Laerte Xavier; Aline Brito; André C. Hora; Marco Tulio Valente,https://doi.org/10.1109/SANER.2017.7884616,null,C,no_arxiv,12
 2016,EMSE,"Mining architectural violations from version history.",Cristiano Amaral Maffort; Marco Tulio Valente; Ricardo Terra; Mariza Andrade da Silva Bigonha; Nicolas Anquetil; André C. Hora,https://doi.org/10.1007/s10664-014-9348-2,null,J,no_arxiv,5
-2016,ICSME,"Understanding the Factors That Impact the Popularity of GitHub Repositories.",Hudson Borges; André C. Hora; Marco Tulio Valente,https://doi.org/10.1109/ICSME.2016.31,null,C,http://arxiv.org/abs/1606.04984v3,19
+2016,ICSME,"Understanding the Factors That Impact the Popularity of GitHub Repositories.",Hudson Borges; André C. Hora; Marco Tulio Valente,https://doi.org/10.1109/ICSME.2016.31,null,C,http://arxiv.org/abs/1606.04984v3,22
 2016,ICPC,"A novel approach for estimating Truck Factors.",Guilherme Avelino; Leonardo Teixeira Passos; André C. Hora; Marco Tulio Valente,https://doi.org/10.1109/ICPC.2016.7503718,null,C,http://arxiv.org/abs/1604.06766v1,14
 2016,FSE,"When should internal interfaces be promoted to public?",André C. Hora; Marco Tulio Valente; Romain Robbes; Nicolas Anquetil,https://doi.org/10.1145/2950290.2950306,top,C,no_arxiv,5
 2016,FSE,"Why we refactor? confessions of GitHub contributors.",Danilo Silva; Nikolaos Tsantalis; Marco Tulio Valente,https://doi.org/10.1145/2950290.2950305,top,C,http://arxiv.org/abs/1607.02459v1,26
