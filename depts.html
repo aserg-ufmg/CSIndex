@@ -43,9 +43,7 @@
     google.charts.setOnLoadCallback(drawTableProfsList);
 
     var dept = location.search.split('d=')[1];
-
-    //var dept = "ufmg";
-
+    
 		var dept_scores_file = "data/depts/scores-" + dept + ".csv";
 
     function drawChartScores() {
@@ -55,6 +53,7 @@
            data.addColumn('string', 'Conferences');
            data.addColumn('number', 'Score');
            data.addRows(arrayData);
+           data.sort({column: 1, desc: true});
            var view = new google.visualization.DataView(data);
            view.setColumns([0, 1,
 						   { calc: "stringify",
