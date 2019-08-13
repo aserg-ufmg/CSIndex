@@ -1,0 +1,7 @@
+User-agent: *
+
+Disallow: authors.html
+
+Allow: authors.html/?p=*
+
+Sitemap: https://csindexbr.org/sitemap.txt
