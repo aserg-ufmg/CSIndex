@@ -248,7 +248,7 @@ echo '<li>Computer Vision:' $papers_vision '/' $papers_vision_confs '/' $papers_
 echo '<li>Computer Graphics:' $papers_graphics '/' $papers_graphics_confs '/' $papers_graphics_journals '/' $papers_top_graphics
 echo '<li>Robotics:' $papers_robotics '/' $papers_robotics_confs '/' $papers_robotics_journals '/' $papers_top_robotics
 echo '<li>CS Education:' $papers_cse '/' $papers_cse_confs '/' $papers_cse_journals '/' $papers_top_cse
-echo '<li>Bioinformatics:' $papers_bio '/' $papers_bio_confs '/' $papers_bio_journals '/' $papers_top_bio
+echo '<li>Bioinformatics & Comp. Bio.:' $papers_bio '/' $papers_bio_confs '/' $papers_bio_journals '/' $papers_top_bio
 echo '<li>Computer Science (general):' $papers_cs '/' $papers_cs_confs '/' $papers_cs_journals '/' $papers_top_cs
 echo '</ul>'
 
