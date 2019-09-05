@@ -38,7 +38,9 @@ sleep 180
 sleep 180
 ./run2 security vision
 sleep 180
-./run2 graphics data
+./run2 graphics
+sleep 180
+./run2 data
 sleep 180
 ./run2 robotics cse bio
 
