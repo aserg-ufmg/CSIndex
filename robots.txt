@@ -1,8 +1,8 @@
 User-agent: *
 
-Disallow: authors.html
-Allow: authors.html?p=*
+Disallow: /authors.html
+Allow: /authors.html?p=*
 
-Disallow: docs/bibtex.txt
+Disallow: /docs/bibtex.txt
 
 Sitemap: https://csindexbr.org/sitemap.txt
