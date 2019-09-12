@@ -1,0 +1,42 @@
+# CSIndexbr: Exploring Brazilian Scientific Production in Computer Science
+
+# By Marco Tulio Valente - ASERG/DCC/UFMG
+# http://aserg.labsoft.dcc.ufmg.br
+
+# How to use:
+# From data folder: ./runcitations
+# this version does not clear the citations cache
+
+start=`date +%s`
+
+./run2 cs
+sleep 10
+./run2 se
+sleep 10
+./run2 pl chi
+sleep 10
+./run2 net ds
+sleep 10
+./run2 arch hardware
+sleep 10
+./run2 dbis ir
+sleep 10
+./run2  ai
+sleep 10
+./run2 theory formal
+sleep 10
+./run2 or
+sleep 10
+./run2 security vision
+sleep 10
+./run2 graphics
+sleep 10
+./run2 data
+sleep 10
+./run2 robotics cse bio
+
+end=`date +%s`
+echo '############# citations update finished #############'
+runtime1=$(($end-$start))
+runtime1=$(echo "scale=2; " $runtime1 "/ 60.0" | bc -l)
+echo 'Runtime: ' $runtime1 'min'
