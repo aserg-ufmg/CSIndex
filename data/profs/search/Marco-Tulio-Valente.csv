@@ -2,7 +2,7 @@
 2014,EDOC,"Object-Business Process Mapping Frameworks: Abstractions, Architecture, and Implementation.",Rogel Garcia; Marco Tulio Valente,https://doi.org/10.1109/EDOC.2014.30,null,C,no_arxiv,0
 2019,JSS,"Co-change patterns: A large scale empirical study.",Luciana Lourdes Silva; Marco Tulio Valente; Marcelo de Almeida Maia,https://doi.org/10.1016/j.jss.2019.03.014,null,J,no_arxiv,0
 2019,SCP,"Measuring and analyzing code authorship in 1 + 118 open source projects.",Guilherme Avelino; Leonardo Teixeira Passos; André C. Hora; Marco Tulio Valente,https://doi.org/10.1016/j.scico.2019.03.001,null,J,no_arxiv,1
-2019,MSR,"Identifying experts in software libraries and frameworks among GitHub users.",João Eduardo Montandon; Luciana Lourdes Silva; Marco Tulio Valente,https://dl.acm.org/citation.cfm?id=3341934,null,C,http://arxiv.org/abs/1903.08113v1,
+2019,MSR,"Identifying experts in software libraries and frameworks among GitHub users.",João Eduardo Montandon; Luciana Lourdes Silva; Marco Tulio Valente,https://doi.org/10.1109/MSR.2019.00054,null,C,http://arxiv.org/abs/1903.08113v1,1
 2019,SANER,"Migrating to GraphQL: A Practical Assessment.",Gleison Brito; Thais Mombach; Marco Tulio Valente,https://doi.org/10.1109/SANER.2019.8667986,null,C,no_arxiv,0
 2018,JSS,"On the use of replacement messages in API deprecation: An empirical study.",Gleison Brito; André C. Hora; Marco Tulio Valente; Romain Robbes,https://doi.org/10.1016/j.jss.2017.12.007,null,J,no_arxiv,4
 2018,JSS,"JMove: A novel heuristic and tool to detect move method refactoring opportunities.",Ricardo Terra; Marco Tulio Valente; Sergio Miranda; Vitor Sales,https://doi.org/10.1016/j.jss.2017.11.073,null,J,no_arxiv,1
