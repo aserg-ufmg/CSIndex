@@ -4,7 +4,7 @@
 2017,GECCO,"Improving an exact solver for the traveling salesman problem using partition crossover.",Danilo Sanches; Darrell Whitley; Renato Tinós,https://doi.org/10.1145/3071178.3071304,null,C,no_arxiv,2
 2017,GECCO,"Optimizing one million variable NK landscapes by hybridizing deterministic recombination and local search.",Francisco Chicano; Darrell Whitley; Gabriela Ochoa; Renato Tinós,https://doi.org/10.1145/3071178.3071285,null,C,no_arxiv,7
 2016,GECCO,"Efficient Hill Climber for Constrained Pseudo-Boolean Optimization Problems.",Francisco Chicano; Darrell Whitley; Renato Tinós,https://doi.org/10.1145/2908812.2908869,null,C,no_arxiv,0
-2016,GECCO,"A New Evaluation Function for Clustering: The NK Internal Validation Criterion.",Renato Tinós; Zhao Liang; Francisco Chicano; Darrell Whitley,https://doi.org/10.1145/2908812.2908831,null,C,no_arxiv,1
+2016,GECCO,"A New Evaluation Function for Clustering: The NK Internal Validation Criterion.",Renato Tinós; Liang Zhao 0001; Francisco Chicano; Darrell Whitley,https://doi.org/10.1145/2908812.2908831,null,C,no_arxiv,1
 2015,GECCO,"Tunnelling Crossover Networks.",Gabriela Ochoa; Francisco Chicano; Renato Tinós; Darrell Whitley,https://doi.org/10.1145/2739480.2754657,null,C,no_arxiv,13
 2014,GECCO,"Generalized asymmetric partition crossover (GAPX) for the asymmetric TSP.",Renato Tinós; Darrell Whitley; Gabriela Ochoa,https://doi.org/10.1145/2576768.2598245,null,C,no_arxiv,9
 2014,GECCO,"Use of explicit memory in the dynamic traveling salesman problem.",Renato Tinós; Darrell Whitley; Adele E. Howe,https://doi.org/10.1145/2576768.2598247,null,C,no_arxiv,6
