@@ -5,7 +5,7 @@
 
 # How to use:
 # From data folder: ./runcitations
-# this version does not clear the citations cache
+# THIS VERSION DOES NOT CLEAR THE CITATIONS CACHE
 
 start=`date +%s`
 
