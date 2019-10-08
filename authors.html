@@ -25,7 +25,6 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="List of papers published over the last five years, with citation counts and links to preprints (if available)">
     <meta name="author" content="">
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -280,7 +279,7 @@
       for (var i = 0; i < data.length; i++) {
           if (data[i][0] === author) {
              document.title = 'CSIndexbr - ' + author + ' - ' + data[i][1];
-             //document.description = 'List of papers published by ' + author + ' (' + data[i][1] + '), including citation counts and arXiv links (if available)';
+             document.description = 'List of papers published by ' + author;
              inst2 = data[i][1];
              inst2 = instToLink(inst2);
              inst = '<font size="4"> (' + inst2 + ')</font>';
