@@ -3,7 +3,7 @@
 2019,SCP,"CPN simulation-based test case generation from controlled natural-language requirements.",UFPE,Bruno Cesar F. Silva; Gustavo Carvalho; Augusto Sampaio,https://doi.org/10.1016/j.scico.2019.04.001,null,J,no_arxiv,1
 2019,SCP,"On interval dynamic logic: Introducing quasi-action lattices.",UFRN,Regivan H. N. Santiago; Benjamín R. C. Bedregal; Alexandre Madeira; Manuel A. Martins,https://doi.org/10.1016/j.scico.2019.01.007,null,J,no_arxiv,1
 2019,SCP,"Test case generation, selection and coverage from natural language.",UFPE,Sidney Nogueira; Hugo L. S. Araujo; Renata B. S. Araujo; Juliano Iyoda; Augusto Sampaio,https://doi.org/10.1016/j.scico.2019.01.003,null,J,no_arxiv,3
-2019,SCP,"Verified simulation for robotics.",UFPE,Ana Cavalcanti; Augusto Sampaio; Alvaro Miyazawa; Pedro Ribeiro 0002; Madiel Conserva Filho; André Didier; Wei Li; Jon Timmis,https://doi.org/10.1016/j.scico.2019.01.004,null,J,no_arxiv,0
+2019,SCP,"Verified simulation for robotics.",UFPE,Ana Cavalcanti; Augusto Sampaio; Alvaro Miyazawa; Pedro Ribeiro 0002; Madiel Conserva Filho; André Didier; Wei Li; Jon Timmis,https://doi.org/10.1016/j.scico.2019.01.004,null,J,no_arxiv,2
 2019,SEFM,"Multi-objective Search for Effective Testing of Cyber-Physical Systems.",UFPE,Hugo L. S. Araujo; Gustavo Carvalho; Mohammad Reza Mousavi; Augusto Sampaio,https://doi.org/10.1007/978-3-030-30446-1_10,null,C,no_arxiv,0
 2019,TPLP,"On the Equivalence Between Abstract Dialectical Frameworks and Logic Programs.",UFC,João F. L. Alcântara; Samy Sá; Juan Carlos Acosta Guadarrama,https://doi.org/10.1017/S1471068419000280,null,J,http://arxiv.org/abs/1907.09548v1,0
 2019,Theor. Comput. Sci.,"An axiomatization of information flow measures.",UFMG,Mário S. Alvim; Konstantinos Chatzikokolakis 0001; Annabelle McIver; Carroll Morgan; Catuscia Palamidessi; Geoffrey Smith,https://doi.org/10.1016/j.tcs.2018.10.016,null,J,no_arxiv,0
@@ -35,7 +35,7 @@
 2014,SCP,"Compositionality and correctness of fault tolerant patterns in HOL4.",UFPE,Diego Machado Dias; Juliano Iyoda,https://doi.org/10.1016/j.scico.2013.07.009,null,J,no_arxiv,0
 2014,SCP,"Consistency of model transformation contracts.",UFF,Christiano Braga; Cassio Santos; Viviane Torres da Silva,https://doi.org/10.1016/j.scico.2013.08.013,null,J,no_arxiv,1
 2014,SCP,"NAT2TEST: Test case generation from natural language requirements based on SCR specifications.",UFPE,Gustavo Carvalho; Diogo Falcão; Flávia de Almeida Barros; Augusto Sampaio; Alexandre Mota 0001; Leonardo Motta; Mark R. Blackburn,https://doi.org/10.1016/j.scico.2014.06.007,null,J,no_arxiv,11
-2014,SEFM,"Rapid Prototyping of a Semantically Well Founded Circus Model Checker.",UFPE,Alexandre Mota 0001; Adalberto Farias; André Didier; Jim Woodcock,https://doi.org/10.1007/978-3-319-10431-7_17,null,C,no_arxiv,3
+2014,SEFM,"Rapid Prototyping of a Semantically Well Founded Circus Model Checker.",UFPE,Alexandre Mota 0001; Adalberto Farias; André Didier; Jim Woodcock,https://doi.org/10.1007/978-3-319-10431-7_17,null,C,no_arxiv,5
 2014,SEFM,"Test Suite Completeness and Partial Models.",UNICAMP,Adilson Luiz Bonifácio; Arnaldo Vieira Moura,https://doi.org/10.1007/978-3-319-10431-7_8,null,C,no_arxiv,4
 2014,TPLP,"A Proof Theoretic Study of Soft Concurrent Constraint Programming.",UFRN; UFPB,Elaine Pimentel; Carlos Olarte; Vivek Nigam,https://doi.org/10.1017/S147106841400026X,null,J,http://arxiv.org/abs/1405.2329v1,4
 2014,Theor. Comput. Sci.,"A framework for linear authorization logics.",UFPB,Vivek Nigam,https://doi.org/10.1016/j.tcs.2014.02.018,null,J,no_arxiv,3
