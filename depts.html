@@ -25,7 +25,7 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
+    <meta name="description" content="Information about the scientific production of Brazilian Computer Science departments">
     <meta name="author" content="">
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -43,7 +43,7 @@
     google.charts.setOnLoadCallback(drawTableProfsList);
 
     var dept = location.search.split('d=')[1];
-    
+
 		var dept_scores_file = "data/depts/scores-" + dept + ".csv";
 
     function drawChartScores() {
