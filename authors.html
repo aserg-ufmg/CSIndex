@@ -280,6 +280,7 @@
       for (var i = 0; i < data.length; i++) {
           if (data[i][0] === author) {
              document.title = 'CSIndexbr - ' + author + ' - ' + data[i][1];
+             document.description = 'List of papers published by ' + author + ' (' + data[i][1] + '), including citation counts and arXiv links (if available)';
              inst2 = data[i][1];
              inst2 = instToLink(inst2);
              inst = '<font size="4"> (' + inst2 + ')</font>';
