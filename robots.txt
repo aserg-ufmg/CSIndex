@@ -1,6 +1,5 @@
 User-agent: *
 
-Disallow: /authors.html
 Allow: /authors.html?p=*
 
 Disallow: /docs/bibtex.txt
