@@ -26,7 +26,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
-    
+
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <script src="libs/jquery-3.4.1.min.js"></script>
@@ -280,7 +280,7 @@
           if (data[i][0] === author) {
              document.title = 'CSIndexbr - ' + author + ' - ' + data[i][1];
              // document.description = 'List of papers published by ' + author;
-             txt1 = 'List of papers published by ' + author;
+             txt1 = 'List of scientific papers published by ' + author + ', including citation counts and links to arXiv preprints.';
              document.getElementsByTagName('meta')["description"].content = txt1;
              inst2 = data[i][1];
              inst2 = instToLink(inst2);
