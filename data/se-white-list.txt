@@ -4,3 +4,5 @@ db/journals/smr/smr29.html#PerkusichGAP17
 db/journals/smr/smr30.html#WeberFBLLB18
 db/journals/smr/smr30.html#TolfoWFF18
 db/journals/smr/smr31.html#CamposM19
+db/journals/smr/smr31.html#OliveiraBMPPHK19
+db/journals/infsof/infsof116.html#TeixeiraAAOKW19
