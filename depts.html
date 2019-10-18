@@ -322,6 +322,8 @@
 
   document.title = 'CSIndexbr - ' + dept_msg;
   document.getElementById("dept_name").innerHTML = dept_msg;
+  txt1 = dept_msg + ': scientific production and faculty by research area';
+  document.getElementsByTagName('meta')["description"].content = txt1;
   ga('send', 'event', 'Dept Page', dept);
 </script>
 
