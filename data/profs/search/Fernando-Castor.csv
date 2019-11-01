@@ -1,6 +1,7 @@
 2017,Communications ACM,"Energy efficiency: a new concern for application software developers.",Gustavo Pinto 0001; Fernando Castor,https://doi.org/10.1145/3154384,null,J,no_arxiv,11
 2014,OOPSLA,"Understanding energy behaviors of thread management constructs.",Gustavo Pinto 0001; Fernando Castor; Yu David Liu,https://doi.org/10.1145/2660193.2660235,top,C,no_arxiv,26
 2019,JSS,"On Haskell and energy efficiency.",Luis Gabriel Lima; Francisco Soares-Neto; Paulo Lieuthier; Fernando Castor; Gilberto Melfe; João Paulo Fernandes,https://doi.org/10.1016/j.jss.2018.12.014,null,J,no_arxiv,0
+2019,ESEM,"Comprehending Energy Behaviors of Java I/O APIs.",Gilson Rocha; Fernando Castor; Gustavo Pinto 0001,https://doi.org/10.1109/ESEM.2019.8870158,null,C,no_arxiv,0
 2019,MSR,"Recommending energy-efficient Java collections.",Wellington Oliveira; Renato Oliveira; Fernando Castor; Benito Fernandes; Gustavo Pinto 0001,https://doi.org/10.1109/MSR.2019.00033,null,C,no_arxiv,0
 2019,SANER,"Confusion in Code Reviews: Reasons, Impacts, and Coping Strategies.",Felipe Ebert; Fernando Castor; Nicole Novielli; Alexander Serebrenik,https://doi.org/10.1109/SANER.2019.8668024,null,C,no_arxiv,1
 2018,JSS,"Do android developers neglect error handling? a maintenance-Centric study on the relationship between android abstractions and uncaught exceptions.",Juliana Oliveira; Deise Borges; Thaisa Silva; Nélio Cacho; Fernando Castor,https://doi.org/10.1016/j.jss.2017.10.032,null,J,no_arxiv,4
