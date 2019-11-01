@@ -1,3 +1,4 @@
+2019,MICRO,"Adding Tightly-Integrated Task Scheduling Acceleration to a RISC-V Multi-core Processor.",Lucas Morais; Vitor Silva; Alfredo Goldman; Carlos Álvarez 0001; Jaume Bosch; Michael Frank; Guido Araujo,https://doi.org/10.1145/3352460.3358271,top,C,no_arxiv,0
 2017,Concurrency and Computation,"Autotuning CUDA compiler parameters for heterogeneous applications using the OpenTuner framework.",Pedro Bruel; Marcos Amaris; Alfredo Goldman,https://doi.org/10.1002/cpe.3973,null,J,no_arxiv,5
 2017,Concurrency and Computation,"Computer architecture and high performance computing.",Alfredo Goldman; Luciana Arantes; Edward Moreno,https://doi.org/10.1002/cpe.4348,null,J,no_arxiv,2
 2015,HiPC,"A Simple BSP-based Model to Predict Execution Time in GPU Applications.",Marcos Amaris; Daniel Cordeiro; Alfredo Goldman; Raphael Y. de Camargo,https://doi.org/10.1109/HiPC.2015.34,null,C,no_arxiv,5
