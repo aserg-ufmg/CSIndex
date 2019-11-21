@@ -8,6 +8,7 @@ import os
 import requests
 import xmltodict
 import json
+import time
 
 from difflib import SequenceMatcher
 
@@ -94,6 +95,7 @@ def get_citations(doi):
       doi_json = json.loads(r.text)
       citations = doi_json["message"]["is-referenced-by-count"]
       citations_cache[doi_full] = citations
+      time.sleep(4)
       return citations
     except:
       log.write("Crossref failed: " + doi + "\n")
