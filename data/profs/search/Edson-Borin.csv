@@ -4,4 +4,6 @@
 2015,ISCA,"SHRINK: reducing the ISA complexity via instruction recycling.",Bruno Cardoso Lopes; Rafael Auler; Luiz Ramos; Edson Borin; Rodolfo Azevedo,https://doi.org/10.1145/2749469.2750391,top,C,no_arxiv,1
 2014,Int. J. Parallel Programming,"Microcode Compression Using Structured-Constrained Clustering.",Edson Borin; Guido Araujo; Mauricio Breternitz Jr.; Youfeng Wu,https://doi.org/10.1007/s10766-012-0206-9,null,J,no_arxiv,0
 2014,PACT,"Compiler support for selective page migration in NUMA architectures.",Guilherme Piccoli; Henrique Nazaré Santos; Raphael Ernani Rodrigues; Christiane Pousa; Edson Borin; Fernando Magno Quintão Pereira,https://doi.org/10.1145/2628071.2628077,null,C,no_arxiv,20
+2019,UCC,"Exploring the Cost-benefit of AWS EC2 GPU Instances for Deep Learning Applications.",Eva Maia Malta; Sandra Avila; Edson Borin,https://doi.org/10.1145/3344341.3368814,null,C,no_arxiv,0
+2019,UCC,"Selecting Efficient Cloud Resources for HPC Workloads.",Jeferson Rech Brunetta; Edson Borin,https://doi.org/10.1145/3344341.3368798,null,C,no_arxiv,0
 2015,PPoPP,"Performance implications of dynamic memory allocators on transactional memory systems.",Alexandro Baldassin; Edson Borin; Guido Araujo,https://doi.org/10.1145/2688500.2688504,null,C,no_arxiv,7
