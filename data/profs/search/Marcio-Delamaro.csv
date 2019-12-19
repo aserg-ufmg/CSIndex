@@ -2,7 +2,3 @@
 2018,SCP,"An experimental comparison of edge, edge-pair, and prime path criteria.",Vinicius H. S. Durelli; Márcio Eduardo Delamaro; Jeff Offutt,https://doi.org/10.1016/j.scico.2017.10.003,null,J,no_arxiv,1
 2016,JSS,"What to expect of predicates: An empirical analysis of predicates in real world programs.",Vinicius H. S. Durelli; Jeff Offutt; Nan Li 0008; Márcio Eduardo Delamaro; Jin Guo; Zengshu Shi; Xinge Ai,https://doi.org/10.1016/j.jss.2015.12.022,null,J,no_arxiv,6
 2016,FSE,"Analyzing the validity of selective mutation with dominator mutants.",Bob Kurtz; Paul Ammann; Jeff Offutt; Márcio Eduardo Delamaro; Mariet Kurtz; Nida Gökçe,https://doi.org/10.1145/2950290.2950322,top,C,no_arxiv,19
-2014,SCP,"Mitigating the effects of equivalent mutants with mutant classification strategies.",Mike Papadakis; Márcio Eduardo Delamaro; Yves Le Traon,https://doi.org/10.1016/j.scico.2014.05.012,null,J,no_arxiv,15
-2014,ICST,"Designing Deletion Mutation Operators.",Márcio Eduardo Delamaro; Jeff Offutt; Paul Ammann,https://doi.org/10.1109/ICST.2014.12,null,C,no_arxiv,16
-2014,ICST,"Establishing Theoretical Minimal Sets of Mutants.",Paul Ammann; Márcio Eduardo Delamaro; Jeff Offutt,https://doi.org/10.1109/ICST.2014.13,null,C,no_arxiv,59
-2014,ICST,"Experimental Evaluation of SDL and One-Op Mutation for C.",Márcio Eduardo Delamaro; Lin Deng; Vinicius Humberto Serapilha Durelli; Nan Li 0008; Jeff Offutt,https://doi.org/10.1109/ICST.2014.33,null,C,no_arxiv,17
