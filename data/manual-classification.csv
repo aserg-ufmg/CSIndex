@@ -331,3 +331,10 @@ ds,2019,"Softw., Pract. Exper.","DCAV: A software system to evaluate next-genera
 se,2019,"Journal of Systems and Software","A systematic literature review of techniques and metrics to reduce the cost of mutation testing.",db/journals/jss/jss157.html#PizzoletoFOFR19
 se,2019,"Journal of Systems and Software","Adopting DevOps in the real world: A theory, a model, and a case study.",db/journals/jss/jss157.html#LuzPB19
 se,2019,"Journal of Systems and Software","Finding needles in a haystack: Leveraging co-change dependencies to recommend refactorings.",db/journals/jss/jss158.html#OliveiraFBPL19
+theory,2020,"Theor. Comput. Sci.","Synthesis of a DNF formula from a sample of strings using Ehrenfeucht-Fraïssé games.",db/journals/tcs/tcs805.html#RochaMF20
+theory,2020,"Theor. Comput. Sci.","On the use of fitness landscape features in meta-learning based algorithm selection for the quadratic assignment problem.",db/journals/tcs/tcs805.html#DantasP20
+theory,2020,"Theor. Comput. Sci.","The graph tessellation cover number: Chromatic bounds, efficient algorithms and hardness.",db/journals/tcs/tcs801.html#AbreuCFKMPP20
+theory,2020,"Theor. Comput. Sci.","Reasoning in BDI agents using Toulmin's argumentation model.",db/journals/tcs/tcs805.html#GabrielPBAB20
+theory,2020,"Theor. Comput. Sci.","Algebraic graph rewriting with controlled embedding.",db/journals/tcs/tcs802.html#CorradiniDEPR20
+theory,2020,"Theor. Comput. Sci.","On the Carathéodory and exchange numbers of geodetic convexity in graphs.",db/journals/tcs/tcs804.html#AnandCCDNN20
+theory,2020,"Theor. Comput. Sci.","An evolutionary algorithm for automated machine learning focusing on classifier ensembles: An improved algorithm and extended results.",db/journals/tcs/tcs805.html#JuniorFLNB20
