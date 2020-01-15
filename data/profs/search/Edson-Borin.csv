@@ -1,7 +1,7 @@
 2018,IPDPS,"Evaluating the Performance and Cost of Accelerating Seismic Processing with CUDA, OpenCL, OpenACC, and OpenMP.",Tiago Lobato Gimenes; Flavia Pisani; Edson Borin,https://doi.org/10.1109/IPDPS.2018.00050,null,C,no_arxiv,0
 2017,Concurrency and Computation,"Handling IoT platform heterogeneity with COISA, a compact OpenISA virtual platform.",Rafael Auler; Carlos Eduardo Millani; Alexandre Brisighello; Alisson Linhares; Edson Borin,https://doi.org/10.1002/cpe.3932,null,J,no_arxiv,1
 2017,Concurrency and Computation,"Contextual Spaces Re-Ranking: accelerating the Re-sort Ranked Lists step on heterogeneous systems.",Flavia Pisani; Daniel Carlos Guimarães Pedronette; Ricardo da Silva Torres; Edson Borin,https://doi.org/10.1002/cpe.3962,null,J,no_arxiv,1
-2015,ISCA,"SHRINK: reducing the ISA complexity via instruction recycling.",Bruno Cardoso Lopes; Rafael Auler; Luiz Ramos; Edson Borin; Rodolfo Azevedo,https://doi.org/10.1145/2749469.2750391,top,C,no_arxiv,1
+2015,ISCA,"SHRINK: reducing the ISA complexity via instruction recycling.",Bruno Cardoso Lopes; Rafael Auler; Luiz Ramos; Edson Borin; Rodolfo Azevedo,https://doi.org/10.1145/2749469.2750391,top,C,no_arxiv,2
 2019,UCC,"Exploring the Cost-benefit of AWS EC2 GPU Instances for Deep Learning Applications.",Eva Maia Malta; Sandra Avila; Edson Borin,https://doi.org/10.1145/3344341.3368814,null,C,no_arxiv,0
 2019,UCC,"Selecting Efficient Cloud Resources for HPC Workloads.",Jeferson Rech Brunetta; Edson Borin,https://doi.org/10.1145/3344341.3368798,null,C,no_arxiv,0
 2015,PPoPP,"Performance implications of dynamic memory allocators on transactional memory systems.",Alexandro Baldassin; Edson Borin; Guido Araujo,https://doi.org/10.1145/2688500.2688504,null,C,no_arxiv,7
