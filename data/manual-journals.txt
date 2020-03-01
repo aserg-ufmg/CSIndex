@@ -1,5 +1,5 @@
 Softw., Pract. Exper.
-Journal of Systems and Software
+J. Syst. Softw.
 TACO
 Sci. Comput. Program.
 Concurrency and Computation: Practice and Experience

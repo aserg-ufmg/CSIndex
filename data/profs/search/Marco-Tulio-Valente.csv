@@ -8,11 +8,11 @@
 2019,SANER,"Migrating to GraphQL: A Practical Assessment.",Gleison Brito; Thaís Mombach; Marco Tulio Valente,https://doi.org/10.1109/SANER.2019.8667986,null,C,no_arxiv,2
 2018,JSS,"On the use of replacement messages in API deprecation: An empirical study.",Gleison Brito; André C. Hora; Marco Tulio Valente; Romain Robbes,https://doi.org/10.1016/j.jss.2017.12.007,null,J,no_arxiv,8
 2018,JSS,"JMove: A novel heuristic and tool to detect move method refactoring opportunities.",Ricardo Terra; Marco Tulio Valente; Sergio Miranda; Vitor Sales,https://doi.org/10.1016/j.jss.2017.11.073,null,J,no_arxiv,6
-2018,JSS,"What's in a GitHub Star? Understanding Repository Starring Practices in a Social Coding Platform.",Hudson Borges; Marco Tulio Valente,https://doi.org/10.1016/j.jss.2018.09.016,null,J,http://arxiv.org/abs/1811.07643v1,14
+2018,JSS,"What's in a GitHub Star? Understanding Repository Starring Practices in a Social Coding Platform.",Hudson Borges; Marco Tulio Valente,https://doi.org/10.1016/j.jss.2018.09.016,null,J,http://arxiv.org/abs/1811.07643v1,17
 2018,IEEE Software,"AngularJS Performance: A Survey Study.",Miguel Ramos; Marco Tulio Valente; Ricardo Terra,https://doi.org/10.1109/MS.2017.265100610,null,J,http://arxiv.org/abs/1705.02506v1,1
 2018,SQJ,"How do developers react to API evolution? A large-scale empirical study.",André C. Hora; Romain Robbes; Marco Tulio Valente; Nicolas Anquetil; Anne Etien; Stéphane Ducasse,https://doi.org/10.1007/s11219-016-9344-4,null,J,no_arxiv,4
 2018,ESEM,"Identifying unmaintained projects in github.",Jailton Coelho; Marco Tulio Valente; Luciana Lourdes Silva; Emad Shihab,https://doi.org/10.1145/3239235.3240501,null,C,http://arxiv.org/abs/1809.04041v1,3
-2018,ICSE,"Assessing the threat of untracked changes in software evolution.",André C. Hora; Danilo Silva; Marco Tulio Valente; Romain Robbes,https://doi.org/10.1145/3180155.3180212,top,C,no_arxiv,3
+2018,ICSE,"Assessing the threat of untracked changes in software evolution.",André C. Hora; Danilo Silva; Marco Tulio Valente; Romain Robbes,https://doi.org/10.1145/3180155.3180212,top,C,no_arxiv,4
 2018,SANER,"Why and how Java developers break APIs.",Aline Brito; Laerte Xavier; André C. Hora; Marco Tulio Valente,https://doi.org/10.1109/SANER.2018.8330214,null,C,http://arxiv.org/abs/1801.05198v1,5
 2017,JSEP,"Identifying Classes in Legacy JavaScript Code.",Leonardo Humberto Silva; Marco Tulio Valente; Alexandre Bergel; Nicolas Anquetil; Anne Etien,https://doi.org/10.1002/smr.1864,null,J,no_arxiv,1
 2017,SoSyM,"The shape of feature code: an analysis of twenty C-preprocessor-based systems.",Rodrigo Queiroz; Leonardo Teixeira Passos; Marco Tulio Valente; Claus Hunsen; Sven Apel; Krzysztof Czarnecki,https://doi.org/10.1007/s10270-015-0483-z,null,J,no_arxiv,10
@@ -25,7 +25,7 @@
 2016,ICPC,"A novel approach for estimating Truck Factors.",Guilherme Avelino; Leonardo Teixeira Passos; André C. Hora; Marco Tulio Valente,https://doi.org/10.1109/ICPC.2016.7503718,null,C,http://arxiv.org/abs/1604.06766v1,24
 2016,FSE,"When should internal interfaces be promoted to public?",André C. Hora; Marco Tulio Valente; Romain Robbes; Nicolas Anquetil,https://doi.org/10.1145/2950290.2950306,top,C,no_arxiv,9
 2016,FSE,"Why we refactor? confessions of GitHub contributors.",Danilo Silva; Nikolaos Tsantalis; Marco Tulio Valente,https://doi.org/10.1145/2950290.2950305,top,C,http://arxiv.org/abs/1607.02459v1,37
-2016,SANER,"An Empirical Study on Recommendations of Similar Bugs.",Henrique Rocha; Marco Tulio Valente; Humberto Marques-Neto; Gail C. Murphy,https://doi.org/10.1109/SANER.2016.87,null,C,no_arxiv,6
+2016,SANER,"An Empirical Study on Recommendations of Similar Bugs.",Henrique Rocha; Marco Tulio Valente; Humberto Marques-Neto; Gail C. Murphy,https://doi.org/10.1109/SANER.2016.87,null,C,no_arxiv,7
 2016,SANER,"Do Developers Deprecate APIs with Replacement Messages? A Large-Scale Analysis on Java Systems.",Gleison Brito; André C. Hora; Marco Tulio Valente; Romain Robbes,https://doi.org/10.1109/SANER.2016.99,null,C,no_arxiv,10
 2015,JSS,"Automatic detection of system-specific conventions unknown to developers.",André C. Hora; Nicolas Anquetil; Anne Etien; Stéphane Ducasse; Marco Tulio Valente,https://doi.org/10.1016/j.jss.2015.08.007,null,J,no_arxiv,6
 2015,SPE,"A recommendation system for repairing violations detected by static architecture conformance checking.",Ricardo Terra; Marco Tulio Valente; Krzysztof Czarnecki; Roberto da Silva Bigonha,https://doi.org/10.1002/spe.2228,null,J,no_arxiv,9
