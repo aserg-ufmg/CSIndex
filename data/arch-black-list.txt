@@ -12,3 +12,5 @@ db/journals/scp/scp126.html#BragaM16
 db/journals/scp/scp191.html#CavalheiroF20
 db/journals/concurrency/concurrency31.html#RoseC19
 db/journals/jpdc/jpdc120.html#DrummondB18
+db/journals/ijpp/ijpp44.html#WangNMW16
+db/journals/fgcs/fgcs73.html#BatistaFSFP17a
