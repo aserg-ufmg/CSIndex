@@ -355,3 +355,33 @@ ds,2020,"J. Syst. Softw.","LAURA architecture: Towards a simpler way of building
 se,2020,"Sci. Comput. Program.","On the verification of mission-related properties in software-intensive systems-of-systems architectural design.",db/journals/scp/scp192.html#SilvaBO20
 ds,2020,"Softw. Pract. Exp.","Orthogonal persistence in nonvolatile memory architectures: A persistent heap design and its implementation for a Java Virtual Machine.",db/journals/spe/spe50.html#PerezNMMR20
 ds,2020,"Softw. Pract. Exp.","MOAManager: A tool to support data stream experiments.",db/journals/spe/spe50.html#MacielSB20
+arch,2020,"Concurr. Comput. Pract. Exp.","Optimizing parameter sensitivity analysis of large-scale microscopy image analysis workflows with multilevel computation reuse.",db/journals/concurrency/concurrency32.html#BarreirosMKKMST20
+arch,2020,"Concurr. Comput. Pract. Exp.","Using GPU to accelerate the pairwise structural RNA alignment with base pair probabilities.",db/journals/concurrency/concurrency32.html#SundfeldTHGM20
+arch,2019,"Concurr. Comput. Pract. Exp.","MASA-OpenCL: Parallel pruned comparison of long DNA sequences with OpenCL.",db/journals/concurrency/concurrency31.html#FigueiredoSRTM19
+ds,2019,"Concurr. Comput. Pract. Exp.","Statistical analysis of Amazon EC2 cloud pricing models.",db/journals/concurrency/concurrency31.html#PortellaRNM19
+arch,2019,"Concurr. Comput. Pract. Exp.","On the parallelization of Hirschberg's algorithm for multi-core and many-core systems.",db/journals/concurrency/concurrency31.html#JrSR19
+arch,2019,"Concurr. Comput. Pract. Exp.","DTM@GPU: Characterizing and evaluating trace redundancy in GPU.",db/journals/concurrency/concurrency31.html#MarzuloSNBCCOAF19
+arch,2019,"Concurr. Comput. Pract. Exp.","DF-DTM: Dynamic Task Memoization and reuse in dataflow.",db/journals/concurrency/concurrency31.html#RouberteSNMAF19
+ds,2019,"Concurr. Comput. Pract. Exp.","A general-purpose distributed computing Java middleware.",db/journals/concurrency/concurrency31.html#AlmeidaCRSRGPDS19
+arch,2019,"Concurr. Comput. Pract. Exp.","DaC-Join: A join operator for improving database performance on modern hardware.",db/journals/concurrency/concurrency31.html#AlencarBMF19
+arch,2019,"Concurr. Comput. Pract. Exp.","A comprehensive performance evaluation of the BinLPT workload-aware loop scheduler.",db/journals/concurrency/concurrency31.html#PennaGCPFBM19
+arch,2019,"Concurr. Comput. Pract. Exp.","Optimizing multi-tier application performance with interference and affinity-aware placement algorithms.",db/journals/concurrency/concurrency31.html#LudwigXKCR19
+ds,2016,"Concurr. Comput. Pract. Exp.","Parallel and distributed computing for Big Data applications.",db/journals/concurrency/concurrency28.html#SengerG16
+arch,2019,"Concurr. Comput. Pract. Exp.","New advances in high-performance computing systems.",db/journals/concurrency/concurrency31.html#BoeresBM19
+arch,2020,"Concurr. Comput. Pract. Exp.","OLAP parallel query processing in clouds with C-ParGRES.",db/journals/concurrency/concurrency32.html#RibeiroLO20
+arch,2019,"Concurr. Comput. Pract. Exp.","A hybrid CPU-GPU-MIC algorithm for minimal hitting set enumeration.",db/journals/concurrency/concurrency31.html#Carastan-Santos19
+arch,2019,"Concurr. Comput. Pract. Exp.","Optimized implementation of QC-MDPC code-based cryptography.",db/journals/concurrency/concurrency31.html#GuimaraesAB19
+ds,2019,"Concurr. Comput. Pract. Exp.","Measuring the impact of data center failures on a cloud-based emergency medical call system.",db/journals/concurrency/concurrency31.html#GomesSRGMKSE19
+arch,2020,"Concurr. Comput. Pract. Exp.","Accelerating simulations of cardiac electrical dynamics through a multi-GPU platform and an optimized data structure.",db/journals/concurrency/concurrency32.html#VasconcellosCFZ20
+arch,2019,"Concurr. Comput. Pract. Exp.","Maximizing the GPU resource usage by reordering concurrent kernels submission.",db/journals/concurrency/concurrency31.html#CruzBLVCCD19
+arch,2019,"Concurr. Comput. Pract. Exp.","Evaluating optimizations that reduce global memory accesses of stencil computations in GPGPUs.",db/journals/concurrency/concurrency31.html#NasciuttiPL19
+arch,2020,"Concurr. Comput. Pract. Exp.","Fully automatic model-based segmentation and classification approach for MRI brain tumor using artificial neural networks.",db/journals/concurrency/concurrency32.html#NMMIRA20
+arch,2019,"Concurr. Comput. Pract. Exp.","Measuring the impact of data center failures on a cloud-based emergency medical call system.",db/journals/concurrency/concurrency31.html#GomesSRGMKSE19
+arch,2019,"Concurr. Comput. Pract. Exp.","Performance modeling of a geophysics application to accelerate over-decomposition parameter tuning through simulation.",db/journals/concurrency/concurrency31.html#TesserSLHDN19
+ds,2019,"Concurr. Comput. Pract. Exp.","RT-JADE: A preemptive real-time scheduling middleware for mobile agents.",db/journals/concurrency/concurrency31.html#FilgueirasRRSN19
+arch,2018,"Concurr. Comput. Pract. Exp.","On the use of HCM to develop a resource allocation algorithm for heterogeneous clusters.",db/journals/concurrency/concurrency30.html#SoaresSL18
+arch,2017,"Concurr. Comput. Pract. Exp.","Quantum computing simulation through reduction and decomposition optimizations with a case study of Shor's algorithm.",db/journals/concurrency/concurrency29.html#AvilaRP17
+arch,2019,"Concurr. Comput. Pract. Exp.","Toward a monitoring and threat detection system based on stream processing as a virtual network function for big data.",db/journals/concurrency/concurrency31.html#LopezMDP19
+arch,2019,"Concurr. Comput. Pract. Exp.","A comprehensive performance evaluation of the BinLPT workload-aware loop scheduler.",db/journals/concurrency/concurrency31.html#PennaGCPFBM19
+arch,2019,"Concurr. Comput. Pract. Exp.","Energy efficiency and I/O performance of low-power architectures.",db/journals/concurrency/concurrency31.html#PavanLMBPBNM19
+arch,2019,"Concurr. Comput. Pract. Exp.","Parallel rule-based selective sampling and on-demand learning to rank.",db/journals/concurrency/concurrency31.html#FreitasSMRSG19

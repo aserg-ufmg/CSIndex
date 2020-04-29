@@ -9,5 +9,6 @@
 2017,ICS,"Revisiting phased transactional memory.",Joao P. L. de Carvalho; Guido Araujo; Alexandro Baldassin,https://doi.org/10.1145/3079079.3079094,null,C,no_arxiv,1
 2016,Parallel Computing,"Study of hardware transactional memory characteristics and serialization policies on Haswell.",Marcio Machado Pereira; Matthew Gaudet; José Nelson Amaral; Guido Araujo,https://doi.org/10.1016/j.parco.2015.12.002,null,J,no_arxiv,2
 2016,IPDPS,"Evaluating and Improving Thread-Level Speculation in Hardware Transactional Memories.",Juan Salamanca 0001; José Nelson Amaral; Guido Araujo,https://doi.org/10.1109/IPDPS.2016.84,null,C,no_arxiv,5
+2015,Int. J. Parallel Programming,"Guest Editorial: SBAC-PAD 2013.",Guido Araujo; Jean-Luc Gaudiot; Manish Parashar; Derek Chiou; José Nelson Amaral; Chita R. Das,https://doi.org/10.1007/s10766-015-0377-2,null,J,no_arxiv,0
 2017,TACO,"DawnCC: Automatic Annotation for Data Parallelism and Offloading.",Gleison Souza Diniz Mendonca; Breno Campos Ferreira Guimarães; Péricles Alves; Marcio Machado Pereira; Guido Araujo; Fernando Magno Quintão Pereira,https://doi.org/10.1145/3084540,top,J,no_arxiv,5
 2015,PPoPP,"Performance implications of dynamic memory allocators on transactional memory systems.",Alexandro Baldassin; Edson Borin; Guido Araujo,https://doi.org/10.1145/2688500.2688504,null,C,no_arxiv,7

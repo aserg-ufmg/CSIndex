@@ -3,4 +3,5 @@ J. Syst. Softw.
 TACO
 Sci. Comput. Program.
 Concurrency and Computation: Practice and Experience
+Concurr. Comput. Pract. Exp.
 Theor. Comput. Sci.

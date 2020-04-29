@@ -29,3 +29,6 @@ db/journals/scp/scp146.html#Braga17
 db/journals/scp/scp126.html#BragaM16
 db/journals/scp/scp191.html#CavalheiroF20
 db/journals/infsof/infsof57.html#TravassosJ15
+db/journals/infsof/infsof110.html#OliveiraGMSRG19
+db/journals/infsof/infsof97.html#CartaxoPS18
+db/journals/infsof/infsof82.html#GheyiBSR17

@@ -1,0 +1,12 @@
+db/journals/scp/scp132.html#BoisT16
+db/journals/scp/scp173.html#CastorL19
+db/journals/scp/scp119.html#Pereira16
+db/journals/scp/scp107.html#GheyiI15
+db/journals/scp/scp104.html#RibeiroT15
+db/journals/scp/scp181.html#CornelioR19
+db/journals/scp/scp98.html#RicciABM15
+db/journals/scp/scp165.html#GracioliM18
+db/journals/scp/scp107.html#GheyiI15
+db/journals/scp/scp146.html#Braga17
+db/journals/scp/scp126.html#BragaM16
+db/journals/scp/scp191.html#CavalheiroF20
