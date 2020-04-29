@@ -1,5 +1,5 @@
 Abel Guilhermino da Silva Filho,UFPE,AI
-Adenauer Yamin,UFPEL,ARCH
+Adenauer Yamin,UFPEL,SE
 Adenilso Simao,ICMC/USP,SE
 Adenilton da Silva,UFPE,AI
 Adiel Almeida Filho,UFPE,OR
@@ -33,10 +33,11 @@ Alex Sandro Roschildt Pinto,UFSC,ROBOTICS
 Alex Vieira,UFJF,NET
 Alexandre Delbem,ICMC/USP,AI
 Alexandre Falcao,UNICAMP,VISION
-Alexandre Mota,UFPE,
+Alexandre Mota,UFPE,SE
 Alexandre Plastino,UFF,OR
 Alexandre Rossi Paschoal,UTFPR,BIO
 Alexandre Salles da Cunha,UFMG,OR
+Alexandre Sena,UERJ,ARCH
 Alexandre Sztajnberg,UERJ,ARCH
 Alexandre Vasconcelos,UFPE,SE
 Alexandre Zaghetto,UnB,AI
@@ -48,7 +49,7 @@ Alneu de Andrade Lopes,ICMC/USP,AI
 Altair Olivo Santin,PUC-PR,NET
 Altigran Silva,UFAM,IR
 Aluizio Araujo,UFPE,AI
-Alvaro Fazenda,UNIFESP,
+Alvaro Fazenda,UNIFESP,ARCH
 Alvaro Moreira,UFRGS,AI
 Ana Bazzan,UFRGS,AI
 Ana Carolina Lorena,UNIFESP,AI
@@ -73,7 +74,7 @@ Andre Hora,UFMG,SE
 Andre Inacio Reis,UFRGS,HARDWARE
 Andre Kashiwabara,UTFPR,BIO
 Andre Luis Vignatti,UFPR,THEORY
-Andre Luiz Lins de Aquino,UFAL,NET
+Andre Luiz Lins de Aquino,UFAL,ARCH
 Andre Luiz Pires Guedes,UFPR,THEORY
 Andre Maidl,PUC-PR,PL
 Andre Ponce de Leon Carvalho,ICMC/USP,AI
@@ -101,7 +102,7 @@ Antonio Carlos Schneider Beck,UFRGS,HARDWARE
 Antonio Furtado,PUC-Rio,DBIS
 Antonio Miguel Vieira Monteiro,INPE,
 Antonio Sementille,UNESP,GRAPHICS
-Antonio Tadeu Gomes,LNCC,DS
+Antonio Tadeu Gomes,LNCC,ARCH
 Antonio de Oliveira,COPPE/UFRJ,
 Aparecido Marana,UNESP,VISION
 Arilo Dias Neto,UFAM,SE
@@ -156,7 +157,7 @@ Carlos Henrique Costa Ribeiro,ITA,NET
 Carlos Kamienski,UFABC,NET
 Carlos Lucena,PUC-Rio,SE
 Carlos Maziero,UFPR,NET
-Carlos Olarte,UFRN,FORMAL
+Carlos Olarte,UFRN,THEORY
 Carlos Silla,PUC-PR,VISION
 Carmem Hara,UFPR,DS
 Cassio Prazeres,UFBA,IR
@@ -177,7 +178,7 @@ Christiano Braga,UFF,FORMAL
 Christina Chavez,UFBA,SE
 Cid Carvalho de Souza,UNICAMP,OR
 Clarisse de Souza,PUC-Rio,CHI
-Claudia Bauzer Medeiros,UNICAMP,DBIS
+Claudia Bauzer Medeiros,UNICAMP,ARCH
 Claudia Linhares Sales,UFC,THEORY
 Claudia Nalon,UnB,FORMAL
 Claudia Werner,COPPE/UFRJ,SE
@@ -199,7 +200,7 @@ Clodoaldo Lima,EACH/USP,AI
 Clodoveu Davis,UFMG,DBIS
 Creto Vidal,UFC,GRAPHICS
 Cristian Cechinel,UFPEL,CHI
-Cristiana Bentes,UERJ,OR
+Cristiana Bentes,UERJ,ARCH
 Cristiano Arbex Valle,UFMG,OR
 Cristiano Costa,Unisinos,ARCH
 Cristiano Maciel da Silva,UFSJ,NET
@@ -230,7 +231,7 @@ Danilo Hernane Spatti,ICMC/USP,AI
 Danilo Sanches,UTFPR,AI
 Dante Augusto Couto Barone,UFRGS,VISION
 Dario Aloise,UERN,AI
-David Martins,UFABC,DS
+David Martins,UFABC,ARCH
 David Menotti,UFPR,SECURITY
 David Moises Santos,UEFS,CSE
 Debora Muchaluat Saade,UFF,FORMAL
@@ -299,9 +300,9 @@ Emanuele Santos,UFC,GRAPHICS
 Emerson Paraiso,PUC-PR,AI
 Emilio Francesquini,UFABC,ARCH
 Erickson Rangel do Nascimento,UFMG,VISION
-Erika Cota,UFRGS,PL
+Erika Cota,UFRGS,
 Ernesto Birgin,IME/USP,OR
-Esteban Clua,UFF,SE
+Esteban Clua,UFF,ARCH
 Estevam Hruschka,UFSCar,CS
 Eunice Nunes,UFMT,GRAPHICS
 Evandro Costa,UFAL,SE
@@ -410,7 +411,7 @@ Horacio Oliveira,UFAM,NET
 Hudson Borges,UFMS,SE
 Hugo Fuks,PUC-Rio,CHI
 Humberto Marques,PUC Minas,NET
-Hyggo Almeida,UFCG,AI
+Hyggo Almeida,UFCG,SE
 Ig Ibert Bittencourt,UFAL,AI
 Igor Machado Coelho,UERJ,OR
 Igor Moraes,UFF,NET
@@ -473,12 +474,12 @@ Jose Gustavo Paiva,UFU,GRAPHICS
 Jose Luis Guntzel,UFSC,HARDWARE
 Jose Marcos Nogueira,UFMG,NET
 Jose Maria David,UFJF,DS
-Jose Maria Monteiro,UFC,SE
+Jose Maria Monteiro,UFC,ARCH
 Jose Neuman de Souza,UFC,NET
 Jose Palazzo de Oliveira,UFRGS,DBIS
 Jose Suruagy Monteiro,UFPE,
 Jose Viterbo,UFF,VISION
-Judith Kelner,UFPE,DS
+Judith Kelner,UFPE,ARCH
 Juliana Kaizer Vizzotto,UFSM,FORMAL
 Juliano Iyoda,UFPE,FORMAL
 Juliano Wickboldt,UFRGS,NET
@@ -498,6 +499,7 @@ Katia Guimaraes,UFPE,BIO
 Kecia Ferreira,CEFET-MG,SE
 Kelvin Lopes Dias,UFPE,NET
 Kiev Gama,UFPE,CSE
+Kleinner Farias,Unisinos,SE
 Laercio Pilla,UFSC,ARCH
 Lasaro Camargos,UFU,NET
 Laura Bahiense,COPPE/UFRJ,OR
@@ -505,13 +507,14 @@ Laurence Amaral,UFU,
 Leandro Balby Marinho,UFCG,DATA
 Leandro Fernandes,UFF,VISION
 Leandro Krug Wives,UFRGS,AI
-Leandro Marzulo,UERJ,
+Leandro Marzulo,UERJ,ARCH
 Leandro Villas,UNICAMP,NET
 Lehilton Pedrosa,UNICAMP,OR
 Leila Ribeiro,UFRGS,THEORY
 Leliane Nunes de Barros,IME/USP,AI
 Leobino Sampaio,UFBA,IR
 Leonardo Barbosa Oliveira,UFMG,DS
+Leonardo Fernandes,IFAL,SE
 Leonardo Montecchi,UNICAMP,DS
 Leonardo Murta,UFF,SE
 Leonardo Torok,UFF,VISION
@@ -625,7 +628,7 @@ Marco Tulio Valente,UFMG,SE
 Marcone Souza,UFOP,OR
 Marcos Andre Goncalves,UFMG,IR
 Marcos Augusto dos Santos,UFMG,BIO
-Marcos Barreto,UFBA,ARCH
+Marcos Barreto,UFBA,SE
 Marcos Bueno,UFU,AI
 Marcos Didonet Del Fabro,UFPR,SE
 Marcos Kalinowski,PUC-Rio,SE
@@ -642,6 +645,7 @@ Maria Augusta Netto Nunes,UFS,CS
 Maria Camila Barioni,UFU,DATA
 Maria Cecilia Baranauskas,UNICAMP,CHI
 Maria Claudia Emer,UTFPR,SE
+Maria Clicia Castro,UERJ,ARCH
 Maria Cristina Ferreira Oliveira,ICMC/USP,AI
 Maria Emilia Telles Walter,UnB,BIO
 Maria Graca Campos Pimentel,ICMC/USP,IR
@@ -668,7 +672,7 @@ Martin Musicante,UFRN,IR
 Matheus Gaudencio,UFCG,
 Mauricio Ayala Rincon,UnB,THEORY
 Mauricio Pamplona Segundo,UFBA,AI
-Mauricio Pilla,UFPEL,PL
+Mauricio Pilla,UFPEL,ARCH
 Mauro Fonseca,UTFPR,AI
 Mauro Roisenberg,UFSC,AI
 Maxwell Guimaraes Oliveira,UFCA,
@@ -679,7 +683,7 @@ Michele Nogueira,UFPR,NET
 Michelle Wangham,UNIVALI,NET
 Miguel Campista,COPPE/UFRJ,NET
 Miguel Castro,UFC,NET
-Milene Silveira,PUC-RS,CHI
+Milene Silveira,PUC-RS,SE
 Mirella Moro,UFMG,DATA
 Mitre Costa Dourado,DCC/UFRJ,THEORY
 Moacir Ponti,ICMC/USP,VISION
@@ -713,6 +717,7 @@ Otavio Lemos,UNIFESP,SE
 Otto Carlos Duarte,COPPE/UFRJ,NET
 Paola Accioly,UFCA,SE
 Paolo Rech,UFRGS,ARCH
+Patricia Della Mea Plentz,UFSC,ARCH
 Patricia Jaques,Unisinos,AI
 Patricia Machado,UFCG,SE
 Patricia Tedesco,UFPE,
@@ -777,7 +782,7 @@ Renan Maffei,UFRGS,ROBOTICS
 Renata Fortes,ICMC/USP,IR
 Renata Galante,UFRGS,IR
 Renata Maria de Souza,UFPE,AI
-Renata Reiser,UFPEL,AI
+Renata Reiser,UFPEL,ARCH
 Renata Teles Moreira,UFLA,SE
 Renata Vieira,PUC-RS,AI
 Renata Wassermann,IME/USP,AI
@@ -820,7 +825,7 @@ Roberto Celio Limao de Oliveira,FCT/UFPA,ROBOTICS
 Roberto Cesar Junior,IME/USP,VISION
 Roberto Freitas Parente,UFBA,THEORY
 Roberto Hirata,IME/USP,VISION
-Roberto Ierusalimschy,PUC-Rio,NET
+Roberto Ierusalimschy,PUC-Rio,PL
 Roberto Imbuzeiro Oliveira,IMPA,OR
 Roberto Lotufo,FEEC/UNICAMP,
 Roberto Pereira,UFPR,CHI
