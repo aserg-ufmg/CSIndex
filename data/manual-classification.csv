@@ -338,3 +338,20 @@ theory,2020,"Theor. Comput. Sci.","Reasoning in BDI agents using Toulmin's argum
 theory,2020,"Theor. Comput. Sci.","Algebraic graph rewriting with controlled embedding.",db/journals/tcs/tcs802.html#CorradiniDEPR20
 theory,2020,"Theor. Comput. Sci.","On the Carathéodory and exchange numbers of geodetic convexity in graphs.",db/journals/tcs/tcs804.html#AnandCCDNN20
 theory,2020,"Theor. Comput. Sci.","An evolutionary algorithm for automated machine learning focusing on classifier ensembles: An improved algorithm and extended results.",db/journals/tcs/tcs805.html#JuniorFLNB20
+se,2020,"J. Syst. Softw.","-inference: A heuristic approach to retrieve models through black box testing.",db/journals/jss/jss159.html#GrozBSO20
+se,2020,"J. Syst. Softw.","HSP: A hybrid selection and prioritisation of regression test cases based on information retrieval and code coverage applied on an industrial case study.",db/journals/jss/jss159.html#MagalhaesAPMBM20
+se,2020,"Sci. Comput. Program.","Automation and consistency analysis of test cases written in natural language: An industrial context.",db/journals/scp/scp189.html#ArrudaBS20
+se,2020,"Sci. Comput. Program.","Mutating code annotations: An empirical evaluation on Java and C# programs.",db/journals/scp/scp191.html#PinheiroVRFFGF20
+se,2018,"J. Syst. Softw.","Sustainability and longevity of systems and architectures.",db/journals/jss/jss140.html#NakagawaCWK18
+pl,2020,"Sci. Comput. Program.","Automatic syntax error reporting and recovery in parsing expression grammars.",db/journals/scp/scp187.html#MedeirosJM20
+pl,2020,"Sci. Comput. Program.","Guided just-in-time specialization.",db/journals/scp/scp185.html#LimaSLRP20
+se,2020,"Sci. Comput. Program.","A component-based framework for certification of components in a cloud of HPC services.",db/journals/scp/scp191.html#DantasJB20
+se,2019,"J. Syst. Softw.","Characterization of implied scenarios as families of common behavior.",db/journals/jss/jss158.html#MeloCR19
+se,2020,"J. Syst. Softw.","Google summer of code: Student motivations and contributions.",db/journals/jss/jss162.html#SilvaWGTGS20
+se,2020,"J. Syst. Softw.","Effects of contextual information on maintenance effort: A controlled experiment.",db/journals/jss/jss159.html#DAvilaFB20
+se,2020,"Sci. Comput. Program.","Prioritizing versions for performance regression testing: The Pharo case.",db/journals/scp/scp191.html#AlcocerBV20
+pl,2020,"Sci. Comput. Program.","Pallene: A companion language for Lua.",db/journals/scp/scp189.html#GualandiI20
+ds,2020,"J. Syst. Softw.","LAURA architecture: Towards a simpler way of building situation-aware and business-aware IoT applications.",db/journals/jss/jss161.html#TeixeiraAFRPCBM20
+se,2020,"Sci. Comput. Program.","On the verification of mission-related properties in software-intensive systems-of-systems architectural design.",db/journals/scp/scp192.html#SilvaBO20
+ds,2020,"Softw. Pract. Exp.","Orthogonal persistence in nonvolatile memory architectures: A persistent heap design and its implementation for a Java Virtual Machine.",db/journals/spe/spe50.html#PerezNMMR20
+ds,2020,"Softw. Pract. Exp.","MOAManager: A tool to support data stream experiments.",db/journals/spe/spe50.html#MacielSB20

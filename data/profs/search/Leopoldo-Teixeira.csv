@@ -1,5 +1,6 @@
 2016,GPCE,"A change-centric approach to compile configurable systems with #ifdefs.",Larissa Braz; Rohit Gheyi; Melina Mongiovi; Márcio Ribeiro; Flávio Medeiros; Leopoldo Teixeira,https://doi.org/10.1145/2993236.2993250,null,C,no_arxiv,4
 2015,GPCE,"An empirical study on configuration-related issues: investigating undeclared and unused identifiers.",Flávio Medeiros; Iran Rodrigues; Márcio Ribeiro; Leopoldo Teixeira; Rohit Gheyi,https://doi.org/10.1145/2814204.2814206,null,C,no_arxiv,12
+2020,SANER,"On the Adoption of Kotlin on Android Development: A Triangulation Study.",Victor Oliveira; Leopoldo Teixeira; Felipe Ebert,https://doi.org/10.1109/SANER48275.2020.9054859,null,C,no_arxiv,0
 2019,JSS,"Partially safe evolution of software product lines.",Gabriela Sampaio; Paulo Borba; Leopoldo Teixeira,https://doi.org/10.1016/j.jss.2019.04.051,null,J,no_arxiv,0
 2018,SCP,"All roads lead to Rome: Commuting strategies for product-line reliability analysis.",Thiago M. Castro; André Lanna; Vander Alves; Leopoldo Teixeira; Sven Apel; Pierre-Yves Schobbens,https://doi.org/10.1016/j.scico.2017.10.013,null,J,no_arxiv,1
 2018,TSE,"Detecting Overly Strong Preconditions in Refactoring Engines.",Melina Mongiovi; Rohit Gheyi; Gustavo Soares; Márcio Ribeiro; Paulo Borba; Leopoldo Teixeira,https://doi.org/10.1109/TSE.2017.2693982,top,J,no_arxiv,2
