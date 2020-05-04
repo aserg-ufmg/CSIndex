@@ -1,0 +1,4 @@
+db/journals/cg/cg70.html#SchetingerOSC18
+db/journals/cg/cg60.html#AliagaF16
+db/journals/cg/cg68.html#TorchelsenP17
+db/journals/cg/cg57.html#MarroquimS16
