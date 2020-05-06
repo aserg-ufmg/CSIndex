@@ -63,8 +63,8 @@ Anand Subramanian,UFPB,OR
 Anarosa Brandao,POLI/USP,NET
 Anderson Almeida Ferreira,UFOP,IR
 Anderson Maciel,UFRGS,GRAPHICS
-Anderson Rocha,UNICAMP,SECURITY
-Andre Backes,UFU,AI
+Anderson Rocha,UNICAMP,VISION
+Andre Backes,UFU,VISION
 Andre Coelho,UNIFOR,AI
 Andre Drummond,UnB,NET
 Andre Fujita,IME/USP,BIO
@@ -106,7 +106,7 @@ Antonio Tadeu Gomes,LNCC,ARCH
 Antonio de Oliveira,COPPE/UFRJ,
 Aparecido Marana,UNESP,VISION
 Arilo Dias Neto,UFAM,SE
-Arnaldo Araujo,UFMG,GRAPHICS
+Arnaldo Araujo,UFMG,VISION
 Arnaldo Moura,UNICAMP,THEORY
 Artur Ziviani,LNCC,THEORY
 Asla Medeiros,FGV,GRAPHICS
@@ -403,7 +403,7 @@ Heitor Costa,UFLA,SE
 Heitor Ramos,UFMG,NET
 Heitor Silverio Lopes,UTFPR,VISION
 Helio Lopes,PUC-Rio,GRAPHICS
-Helio Pedrini,UNICAMP,GRAPHICS
+Helio Pedrini,UNICAMP,VISION
 Heloisa Camargo,UFSCar,AI
 Hermano Moura,UFPE,DBIS
 Hermes Senger,UFSCar,ARCH
@@ -836,7 +836,7 @@ Roberto Souto Barros,UFPE,DATA
 Robson Cordeiro,ICMC/USP,DATA
 Rodolfo Azevedo,UNICAMP,ARCH
 Rodolfo Villaca,UFES,NET
-Rodrigo Barros,PUC-RS,AI
+Rodrigo Barros,PUC-RS,VISION
 Rodrigo Bonifacio,UnB,SE
 Rodrigo Geraldo,UFOP,
 Rodrigo Machado,UFRGS,THEORY
@@ -867,7 +867,7 @@ Rudinei Goularte,ICMC/USP,GRAPHICS
 Rudini Menezes Sampaio,UFC,THEORY
 Ruy Queiroz,UFPE,CSE
 Sabrina Marczak,PUC-RS,SE
-Sandra Avila,UNICAMP,AI
+Sandra Avila,UNICAMP,VISION
 Sandra Fabbri,UFSCar,SE
 Sandra Sandri,INPE,AI
 Sandra Venske,UNICENTRO,AI
@@ -887,7 +887,7 @@ Silvana Rossetto,DCC/UFRJ,NET
 Silvia Amelia Bim,UTFPR,CHI
 Silvia Costa Botelho,FURG,ROBOTICS
 Silvia Vergilio,UFPR,SE
-Silvio Guimaraes,PUC Minas,GRAPHICS
+Silvio Guimaraes,PUC Minas,VISION
 Silvio Meira,UFPE,AI
 Simone Barbosa,PUC-Rio,GRAPHICS
 Simone Cavalheiro,UFPEL,THEORY
@@ -904,11 +904,11 @@ Taciana Pontual Falcao,UFRPE,CHI
 Tatiana Tavares,UFPEL,
 Tayana Conte,UFAM,SE
 Teobaldo Bulhoes,UFPB,OR
-Teofilo de Campos,UnB,GRAPHICS
+Teofilo de Campos,UnB,VISION
 Teresa Ludermir,UFPE,AI
 Thais Batista,UFRN,SE
 Thais Webber,UNISC,SE
-Thales Vieira,UFAL,GRAPHICS
+Thales Vieira,UFAL,VISION
 Thelma Colanzi,UEM,SE
 Thiago Braga Marcilon,UFCA,THEORY
 Thiago Noronha,UFMG,OR
@@ -924,7 +924,7 @@ Tiago Massoni,UFCG,SE
 Tiago Pereira do Nascimento,UFPB,ROBOTICS
 Tiago da Silva,UNIFESP,CHI
 Toacy Oliveira,COPPE/UFRJ,SE
-Tsang Ing Ren,UFPE,AI
+Tsang Ing Ren,UFPE,VISION
 Ueverton Souza,UFF,THEORY
 Uira Kulesza,UFRN,SE
 Umberto Rivieccio,UFRN,AI
