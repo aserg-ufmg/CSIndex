@@ -1,1 +1,5 @@
 db/journals/jss/jss86.html#KuleszaSCCBLMSFACFPDPSCBLLMBBCSSSVACRPR13
+db/journals/jss/jss152.html#WernerB19
+db/journals/jss/jss137.html#AlmeidaK18
+db/journals/jss/jss136.html#CapiluppiS18
+db/journals/concurrency/concurrency31.html#RoseC19
