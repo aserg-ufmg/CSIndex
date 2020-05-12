@@ -1,0 +1,3 @@
+db/journals/jirs/jirs98.html#TorresenKP20
+db/journals/jirs/jirs80.html#BatistaDB15
+db/journals/jirs/jirs91.html#GoncalvesT18
