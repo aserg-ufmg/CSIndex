@@ -1,0 +1,11 @@
+db/journals/eor/eor257.html#BrailsfordAMSF17
+db/journals/cor/cor85.html#VidalBSE17
+db/journals/itor/itor25.html#TalbiR18
+db/journals/itor/itor22.html#RibeiroM15
+db/journals/itor/itor22.html#Ribeiro15
+db/journals/cor/cor106.html#MessinaFVG19
+db/journals/networks/networks74.html#CerulliSV19
+db/journals/eor/eor270.html#VigoJ18
+db/journals/itor/itor25.html#SantosDU18
+db/journals/jgo/jgo68.html#CocoJNS17
+db/journals/ior/ior64.html#HoogeboomBEV16
