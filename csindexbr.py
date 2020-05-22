@@ -145,6 +145,7 @@ def get_arxiv_url(doi, title):
             arxiv_url = arxiv["id"]
     except:
        log.write("arXiv failed: " + doi + "\n")
+       arxiv_url = "no_arxiv"
     arxiv_cache[doi] = arxiv_url
     return arxiv_url
 
@@ -382,13 +383,16 @@ def inc_score(weight):
        return 0.0
 
 def getMinPaperSize(weight):
-    if (weight == 6) or (weight == 7):  # magazine, short papers, other journals
+#    if (weight == 6) or (weight == 7):  # magazine, short papers, other journals
+    if (weight == 6):  # magazine
        minimum_size = 6
-    elif (weight == 4) or (weight == 5): # journals
-       if area_prefix == "theory":
-          minimum_size = 6
-       else:
-          minimum_size = 10
+    elif (weight == 4) or (weight == 5) or (weight == 7): # journals
+        minimum_size = 0    # now, any papers in journals are considered
+                            # due to missing page numbers in Elsevier journals
+#       if area_prefix == "theory":
+#          minimum_size = 6
+#       else:
+#          minimum_size = 10
     else:
        minimum_size = MIN_PAPER_SIZE   # conferences
     return minimum_size
@@ -444,16 +448,16 @@ def getPaperSize(url,dblp,doi):
     elif 'pages' in dblp:
        pages = dblp['pages']
        size = paperSize(pages)
-       if (size == 0):
-          log.write('Missing pages: url: ' + url + ' doi: ' + doi + '\n')
+#       if (size == 0):
+#          log.write('Missing pages: url: ' + url + ' doi: ' + doi + '\n')
     else:
        size = 0
-       log.write('Missing pages: url: ' + url + ' doi: ' + doi + '\n')
+#       log.write('Missing pages: url: ' + url + ' doi: ' + doi + '\n')
     return size
 
 def getDBLPVenue(dblp):
     if 'journal' in dblp:
-        if (dblp['journal'] == "PACMPL") or (dblp['journal'] == "PACMHCI"):
+        if (dblp['journal'] == "PACMPL") or (dblp['journal'] == "PACMHCI") or (dblp['journal'] == "Proc. ACM Program. Lang."):
            if 'number' in dblp:
                dblp_venue = dblp['number']
            else:
