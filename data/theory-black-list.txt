@@ -1,1 +1,12 @@
 db/journals/algorithmica/algorithmica79.html#SaettlerLC17
+db/journals/tcs/tcs606.html#FingerK15
+db/journals/tcs/tcs704.html#PensoPRS17
+db/journals/tcs/tcs603.html#OngQ15
+db/journals/tcs/tcs744.html#SampaioW18
+db/journals/tcs/tcs685.html#Ayala-RinconMM17
+db/journals/tcs/tcs781.html#NigamT19
+db/journals/dam/dam245.html#CampeloLS18
+db/journals/dam/dam210.html#CorreaDFPS16
+db/journals/dam/dam197.html#MucherinoRL15
+db/journals/iandc/iandc255.html#KohlenbachBQ17
+db/journals/dam/dam185.html#UrrutiaL15
