@@ -41,11 +41,11 @@ Alexandre Sena,UERJ,ARCH
 Alexandre Sztajnberg,UERJ,ARCH
 Alexandre Vasconcelos,UFPE,SE
 Alexandre Zaghetto,UnB,AI
-Alexandro Baldassin,UNESP,ARCH
+Alexandro Baldassin,UNESP,AI
 Alfredo Goldman,IME/USP,ARCH
 Aline Andrade,UFBA,SE
 Aline Paes,UFF,DATA
-Alisson Vasconcelos de Brito,UFPB,
+Alisson Vasconcelos de Brito,UFPB,ROBOTICS
 Alneu de Andrade Lopes,ICMC/USP,AI
 Altair Olivo Santin,PUC-PR,NET
 Altigran Silva,UFAM,IR
@@ -105,9 +105,9 @@ Antonio Miguel Vieira Monteiro,INPE,
 Antonio Sementille,UNESP,GRAPHICS
 Antonio Tadeu Gomes,LNCC,ARCH
 Antonio de Oliveira,COPPE/UFRJ,
-Aparecido Marana,UNESP,HARDWARE
+Aparecido Marana,UNESP,VISION
 Arilo Dias Neto,UFAM,SE
-Arnaldo Araujo,UFMG,VISION
+Arnaldo Araujo,UFMG,GRAPHICS
 Arnaldo Moura,UNICAMP,THEORY
 Artur Ziviani,LNCC,NET
 Asla Medeiros,FGV,GRAPHICS
@@ -145,6 +145,7 @@ Carla Freitas,UFRGS,GRAPHICS
 Carla Leitao,PUC-Rio,
 Carla Taciana,UFPE,SE
 Carla Westphall,UFSC,NET
+Carlos Alberto Vieira Campos,UNIRIO,NET
 Carlos Alberto de Jesus Martinhon,UFF,OR
 Carlos Alexandre Barros de Mello,UFPE,AI
 Carlos Becker Westphall,UFSC,NET
@@ -408,6 +409,7 @@ Heitor Silverio Lopes,UTFPR,VISION
 Helio Lopes,PUC-Rio,GRAPHICS
 Helio Pedrini,UNICAMP,VISION
 Heloisa Camargo,UFSCar,AI
+Henrique Cota de Freitas,PUC Minas,ARCH
 Hermano Moura,UFPE,DBIS
 Hermes Senger,UFSCar,ARCH
 Horacio Hideki Yanasse,UNIFESP,OR
@@ -415,7 +417,7 @@ Horacio Oliveira,UFAM,NET
 Hudson Borges,UFMS,SE
 Hugo Fuks,PUC-Rio,CHI
 Humberto Marques,PUC Minas,NET
-Hyggo Almeida,UFCG,SE
+Hyggo Almeida,UFCG,DATA
 Ig Ibert Bittencourt,UFAL,AI
 Igor Machado Coelho,UERJ,OR
 Igor Moraes,UFF,NET
@@ -789,7 +791,7 @@ Renan Maffei,UFRGS,ROBOTICS
 Renata Fortes,ICMC/USP,IR
 Renata Galante,UFRGS,IR
 Renata Maria de Souza,UFPE,AI
-Renata Reiser,UFPEL,ARCH
+Renata Reiser,UFPEL,AI
 Renata Teles Moreira,UFLA,SE
 Renata Vieira,PUC-RS,AI
 Renata Wassermann,IME/USP,AI
@@ -866,7 +868,7 @@ Rosa Leao,COPPE/UFRJ,NET
 Rosa Viccari,UFRGS,AI
 Rosana Braga,ICMC/USP,SE
 Rosane Minghim,ICMC/USP,GRAPHICS
-Roseli Francelin Romero,ICMC/USP,AI
+Roseli Francelin Romero,ICMC/USP,ROBOTICS
 Rosiane de Freitas,UFAM,
 Rossana Andrade,UFC,SE
 Rudinei Goularte,ICMC/USP,GRAPHICS
