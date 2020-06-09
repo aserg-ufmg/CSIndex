@@ -386,3 +386,9 @@ arch,2019,"Concurr. Comput. Pract. Exp.","A comprehensive performance evaluation
 arch,2019,"Concurr. Comput. Pract. Exp.","Energy efficiency and I/O performance of low-power architectures.",db/journals/concurrency/concurrency31.html#PavanLMBPBNM19
 arch,2019,"Concurr. Comput. Pract. Exp.","Parallel rule-based selective sampling and on-demand learning to rank.",db/journals/concurrency/concurrency31.html#FreitasSMRSG19
 theory,2020,"Theor. Comput. Sci.","Practical regular expression constrained sequence alignment.",db/journals/tcs/tcs815.html#NavarreteT20
+ds,2020,"Softw. Pract. Exp.","Optimizing computational resource management for the scientific gateways ecosystems based on the service-oriented paradigm.",db/journals/spe/spe50.html#OliveiraEDPCDR20
+ds,2020,"J. Syst. Softw.","Scalability Assessment of Microservice Architecture Deployment Configurations: A Domain-based Approach Leveraging Operational Profiles and Load Tests.",db/journals/jss/jss165.html#AvritzerFJRHSMR20
+ds,2020,"Softw. Pract. Exp.","Availability analysis of design configurations to compose virtual performance-optimized data center systems in next-generation cloud data centers.",db/journals/spe/spe50.html#RosendoGSSMKSGM20
+se,2020,"J. Syst. Softw.","Leading successful government-academia collaborations using FLOSS and agile values.",db/journals/jss/jss164.html#WenSLCTKM20
+ds,2020,"Concurr. Comput. Pract. Exp.","ControlChain: A new stage on the IoT access control authorization.",db/journals/concurrency/concurrency32.html#PinnoGB20
+ds,2020,"Concurr. Comput. Pract. Exp.","An adaptive replica placement approach for distributed key-value stores.",db/journals/concurrency/concurrency32.html#FilhoCMM20
