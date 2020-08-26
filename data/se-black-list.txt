@@ -33,3 +33,4 @@ db/journals/infsof/infsof110.html#OliveiraGMSRG19
 db/journals/infsof/infsof97.html#CartaxoPS18
 db/journals/infsof/infsof82.html#GheyiBSR17
 db/journals/infsof/infsof109.html#NepomucenoS19
+db/journals/sqj/sqj28.html#BayleyCM20
