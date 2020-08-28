@@ -1,6 +1,7 @@
 Softw. Pract. Exp.
 J. Syst. Softw.
 TACO
+ACM Trans. Archit. Code Optim.
 Sci. Comput. Program.
 Concurrency and Computation: Practice and Experience
 Concurr. Comput. Pract. Exp.
