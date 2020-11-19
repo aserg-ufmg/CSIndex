@@ -400,3 +400,13 @@ se,2020,"J. Syst. Softw.","Code smells and refactoring: A tertiary systematic re
 ds,2020,"Concurr. Comput. Pract. Exp.","A unified model for accelerating unsupervised iterative re-ranking algorithms.",db/journals/concurrency/concurrency32.html#PisaniVPTBB20
 ds,2020,"Concurr. Comput. Pract. Exp.","Machine learning algorithms to detect DDoS attacks in SDN.",db/journals/concurrency/concurrency32.html#SantosSSRM20
 theory,2020,"Theor. Comput. Sci.","PSPACE-completeness of two graph coloring games.",db/journals/tcs/tcs824.html#CostaPSS20
+pl,2020,"Sci. Comput. Program.","A type-directed algorithm to generate random well-typed Java 8 programs.",db/journals/scp/scp196.html#FeitosaRB20
+formal,2020,"Sci. Comput. Program.","Use case evolution analysis based on graph transformation with negative application conditions.",db/journals/scp/scp198.html#0001DMCCB20
+ds,2020,"J. Syst. Softw.","Towards the adoption of OMG standards in the development of SOA-based IoT systems.",db/journals/jss/jss169.html#CostaPD20
+se,2020,"J. Syst. Softw.","SpongeBugs: Automatically generating fix suggestions in response to static code analysis warnings.",db/journals/jss/jss168.html#MarcilioFBP20
+se,2020,"J. Syst. Softw.","PRISE: A process to support iStar extensions.",db/journals/jss/jss168.html#GoncalvesAC20
+formal,2020,"Sci. Comput. Program.","The CLEARSY safety platform: 5 years of research, development and deployment.",db/journals/scp/scp199.html#LecomteDFO20
+formal,2020,"Sci. Comput. Program.","Formalizing the dependency pair criterion for innermost termination.",db/journals/scp/scp195.html#AlmeidaA20
+pl,2020,"Sci. Comput. Program.","Revisiting monitors.",db/journals/scp/scp196.html#SantosRI20
+se,2020,"Softw. Pract. Exp.","Privacy and security constraints for code contributions.",db/journals/spe/spe50.html#AndradeB20
+se,2020,"Sci. Comput. Program.","A domain-specific language for verifying software requirement constraints.",db/journals/scp/scp197.html#VidalMR20
