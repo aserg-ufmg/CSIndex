@@ -17,3 +17,4 @@ db/journals/tcs/tcs744.html#SampaioW18
 db/journals/tcs/tcs685.html#Ayala-RinconMM17
 db/journals/tcs/tcs781.html#NigamT19
 db/journals/mscs/mscs29.html#PaivaQ19
+db/journals/mscs/mscs30.html#Ayala-RinconB20
