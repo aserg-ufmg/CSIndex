@@ -10,6 +10,7 @@
 2016,Math OR,"How the Experts Algorithm Can Help Solve LPs Online.",Anupam Gupta; Marco Molinaro,https://doi.org/10.1287/moor.2016.0782,top,J,http://arxiv.org/abs/1407.5298v2,2
 2015,EJOR,"Characterization of the split closure via geometric lifting.",Amitabh Basu; Marco Molinaro,https://doi.org/10.1016/j.ejor.2014.12.018,null,J,http://arxiv.org/abs/1701.06679v1,1
 2015,Math Program,"Approximating polyhedra with sparse inequalities.",Santanu S. Dey; Marco Molinaro; Qianyi Wang,https://doi.org/10.1007/s10107-015-0925-y,null,J,no_arxiv,8
+2020,ICALP,"Knapsack Secretary with Bursty Adversary.",Thomas Kesselheim; Marco Molinaro,https://doi.org/10.4230/LIPIcs.ICALP.2020.72,null,C,http://arxiv.org/abs/2006.11607v1,
 2019,SODA,"k-Servers with a Smile: Online Algorithms via Projections.",Niv Buchbinder; Anupam Gupta; Marco Molinaro; Joseph (Seffi) Naor,https://doi.org/10.1137/1.9781611975482.7,top,C,no_arxiv,1
 2019,SODA,"Stochastic ℓp Load Balancing and Moment Problems via the L-Function Method.",Marco Molinaro,https://doi.org/10.1137/1.9781611975482.22,top,C,no_arxiv,1
 2018,ICALP,"Maximizing Profit with Convex Costs in the Random-order Model.",Anupam Gupta; Ruta Mehta; Marco Molinaro,https://doi.org/10.4230/LIPIcs.ICALP.2018.71,null,C,no_arxiv,
