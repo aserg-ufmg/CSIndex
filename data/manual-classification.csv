@@ -414,3 +414,6 @@ arch,2020,"Concurr. Comput. Pract. Exp.","Static job scheduling for environments
 arch,2020,"Concurr. Comput. Pract. Exp.","High-performance computing for computational science.",db/journals/concurrency/concurrency32.html#CostaS20
 arch,2020,"Concurr. Comput. Pract. Exp.","Performance evaluation of single vs. batch of queries on GPUs.",db/journals/concurrency/concurrency32.html#GaiosoCGS20
 arch,2020,"Concurr. Comput. Pract. Exp.","Task-based parallel strategies for computational fluid dynamic application in heterogeneous CPU/GPU resources.",db/journals/concurrency/concurrency32.html#NesiSSN20
+theory,2020,"Theor. Comput. Sci.","Synthesis of quantifier-free DNF sentences from inconsistent samples of strings with EF games and SAT.",db/journals/tcs/tcs843.html#RochaMF20a
+theory,2020,"Theor. Comput. Sci.","Randomized approximation scheme for Steiner Multi Cycle in the Euclidean plane.",db/journals/tcs/tcs835.html#LintzmayerMMX20
+theory,2020,"Theor. Comput. Sci.","Computing the hull number in Δ-convexity.",db/journals/tcs/tcs844.html#AnandACDR20
