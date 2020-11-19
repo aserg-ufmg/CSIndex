@@ -457,11 +457,13 @@ def getPaperSize(url,dblp,doi):
 
 def getDBLPVenue(dblp):
     if 'journal' in dblp:
-        if (dblp['journal'] == "PACMPL") or (dblp['journal'] == "PACMHCI") or (dblp['journal'] == "Proc. ACM Program. Lang."):
-           if 'number' in dblp:
-               dblp_venue = dblp['number']
-           else:
-               dblp_venue = dblp['journal']
+        if (dblp['journal'] == "PACMPL") or (dblp['journal'] == "PACMHCI") or \
+           (dblp['journal'] == "Proc. ACM Program. Lang.") or \
+           (dblp['journal'] == "Proc. ACM Hum. Comput. Interact."):
+              if 'number' in dblp:
+                 dblp_venue = dblp['number']
+              else:
+                 dblp_venue = dblp['journal']
         else:
            dblp_venue = dblp['journal']
     elif 'booktitle' in dblp:
