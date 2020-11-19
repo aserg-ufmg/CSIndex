@@ -1,6 +1,8 @@
+2020,SCP,"A type-directed algorithm to generate random well-typed Java 8 programs.",UFPEL,Samuel da Silva Feitosa; Rodrigo Geraldo Ribeiro; André Rauber Du Bois,https://doi.org/10.1016/j.scico.2020.102494,null,J,no_arxiv,0
 2020,SCP,"Automatic syntax error reporting and recovery in parsing expression grammars.",DCC/UFRJ,Sérgio Queiroz de Medeiros; Gilney de Azevedo Alvez Junior; Fabio Mascarenhas,https://doi.org/10.1016/j.scico.2019.102373,null,J,http://arxiv.org/abs/1905.02145v2,0
 2020,SCP,"Guided just-in-time specialization.",UFMG,Caio Lima; Junio Cezar R. da Silva; Guilherme V. Leobas; Erven Rohou; Fernando Magno Quintão Pereira,https://doi.org/10.1016/j.scico.2019.102318,null,J,no_arxiv,0
 2020,SCP,"Pallene: A companion language for Lua.",PUC-Rio,Hugo Musso Gualandi; Roberto Ierusalimschy,https://doi.org/10.1016/j.scico.2020.102393,null,J,no_arxiv,0
+2020,SCP,"Revisiting monitors.",PUC-Rio,Renan Santos; Noemi de La Rocque Rodriguez; Roberto Ierusalimschy,https://doi.org/10.1016/j.scico.2020.102491,null,J,no_arxiv,0
 2019,CGO,"Generation of In-Bounds Inputs for Arrays in Memory-Unsafe Languages.",UFMG,Marcus Rodrigues; Breno Guimarães; Fernando Magno Quintão Pereira,https://doi.org/10.1109/CGO.2019.8661178,null,C,no_arxiv,0
 2019,CGO,"Super-Node SLP: Optimized Vectorization for Code Sequences Containing Operators and Their Inverse Elements.",PUC Minas,Vasileios Porpodas; Rodrigo C. O. Rocha; Evgueni Brevnov; Luís F. W. Góes; Timothy G. Mattson,https://doi.org/10.1109/CGO.2019.8661192,null,C,no_arxiv,0
 2019,OOPSLA,"Qubit allocation as a combination of subgraph isomorphism and token swapping.",UFMG,Marcos Yukio Siraichi; Vinícius Fernandes dos Santos; Caroline Collange; Fernando Magno Quintão Pereira,https://doi.org/10.1145/3360546,top,C,no_arxiv,0
