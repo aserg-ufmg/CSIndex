@@ -410,3 +410,7 @@ formal,2020,"Sci. Comput. Program.","Formalizing the dependency pair criterion f
 pl,2020,"Sci. Comput. Program.","Revisiting monitors.",db/journals/scp/scp196.html#SantosRI20
 se,2020,"Softw. Pract. Exp.","Privacy and security constraints for code contributions.",db/journals/spe/spe50.html#AndradeB20
 se,2020,"Sci. Comput. Program.","A domain-specific language for verifying software requirement constraints.",db/journals/scp/scp197.html#VidalMR20
+arch,2020,"Concurr. Comput. Pract. Exp.","Static job scheduling for environments with vertical elasticity.",db/journals/concurrency/concurrency32.html#KlohRBSF20
+arch,2020,"Concurr. Comput. Pract. Exp.","High-performance computing for computational science.",db/journals/concurrency/concurrency32.html#CostaS20
+arch,2020,"Concurr. Comput. Pract. Exp.","Performance evaluation of single vs. batch of queries on GPUs.",db/journals/concurrency/concurrency32.html#GaiosoCGS20
+arch,2020,"Concurr. Comput. Pract. Exp.","Task-based parallel strategies for computational fluid dynamic application in heterogeneous CPU/GPU resources.",db/journals/concurrency/concurrency32.html#NesiSSN20
