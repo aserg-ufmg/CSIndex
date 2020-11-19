@@ -1,0 +1,269 @@
+
+
+  var corebr_papers_file = "data/profs/search/" + corebr_author + ".csv";
+
+  function drawTablePapers() {
+  $.get(corebr_papers_file, function(csvString) {
+       var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
+       citations = 0;
+       top_papers = 0;
+       arrayData2 = [];
+       for (var i = 0; i < arrayData.length; i++) {
+           if (arrayData[i][7] == "no_arxiv") {
+              arrayData[i][7] = "";
+           } else {
+              arrayData[i][7] = "<a href=\"" + arrayData[i][7] + "\" target=\"_blank\" onclick=\"trackOutboundLink(this.href); return false;\">[arxiv]</a>";
+           }
+           cit = parseInt(arrayData[i][8]);
+           if (!isNaN(cit)) {
+              citations = citations + cit;
+           }
+           if (arrayData[i][5] == "top") {
+              top_papers++;
+           }
+           arrayData2.push(arrayData[i]);
+       }
+
+       papers = arrayData.length
+       if (papers == 1) {
+          msg = " 1 paper; "
+       }
+       else {
+          msg = papers + " papers; "
+       }
+       if (top_papers == 1) {
+          msg = msg + '1 top-paper (<img src="figs/top.gif">); ';
+       }
+       if (top_papers > 1) {
+          msg = msg + top_papers + ' top-papers (<img src="figs/top.gif">); ';
+       }
+       msg = msg + citations + " citations (since 2015)";
+
+       if (citations > 0) {
+          avg = ((1.0 * citations) / papers).toFixed(1);
+          msg = msg + "; " + avg + " citations/paper";
+       }
+       document.getElementById("author_stats").innerHTML = msg;
+
+       var data= new google.visualization.DataTable();
+       data.addColumn('number', 'Year'); // 0 - Year
+       data.addColumn('string', 'Venue'); // 1 - Venue
+       data.addColumn('string', 'Title/Authors'); // 2 - Title
+       data.addColumn('string', ''); // 3 - Authors
+       data.addColumn('string', '');  // 4 - DOI
+       data.addColumn('string', '');  // 5 - top
+       data.addColumn('string', ''); // 6 - type
+       data.addColumn('string', ''); // 7 - type={no_arxiv,arxiv_url}
+       data.addColumn('number', 'Citations'); // 8 - citations
+
+       data.addRows(arrayData2);
+       data.sort({column: 0, desc: true});
+
+       var table = new google.visualization.Table(document.getElementById('author_chart_papers'));
+
+       var formatter = new google.visualization.NumberFormat( {pattern: '####'} );
+       formatter.format(data, 0); // format year
+
+       //var formatter = new google.visualization.NumberFormat('<font size="3"> <b>{0}</b> <br> </font>');
+       //formatter.format(data, 1);
+
+       var formatter = new google.visualization.PatternFormat(
+           '<b>{0}</b> <br> {1} <a href="{2}" onclick="trackOutboundLink(this.href); return false;">[doi]</a> {3}');
+       formatter.format(data, [2,3,4,7]);
+
+       var formatter2 = new google.visualization.PatternFormat('<img src="figs/{0}.gif">');
+       formatter2.format(data, [5]);
+
+       var view = new google.visualization.DataView(data);
+       view.setColumns([6,1,0,5,2,8]);
+       var table2= view.toDataTable();
+       table2.sort({column: 1, desc: false});
+       table2.sort({column: 2, desc: true});
+
+       table.draw(table2, {allowHtml: true, showRowNumber: true, width: '100%', height: '100%'});
+  });
+}
+
+</script>
+
+</head>
+
+<body>
+
+<header>
+<nav class="navbar navbar-expand-md navbar-dark static-top bg-dark">
+
+  <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <a class="navbar-brand" href="index.html">CSIndexbr <font size="1">BETA</font></a>
+
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="authors2.html">Faculty <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="depts2.html">Departments</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="statistics.html">Statistics</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="faq.html">FAQ</a>
+      </li>
+
+    </ul>
+
+  </div>
+</nav>
+</header>
+
+
+<div class="container">
+<div class="row">
+<div class="col-sm-12">
+
+<h2 id="author_name"> author </h2>
+<h7 id="author_stats"> stats </h7>
+
+<p></p>
+
+<div id="author_chart_papers"></div>
+
+<p class="text-center">
+<!-----
+<small>
+<b>Tip:</b> click on column headers to sort.
+</small>
+----->
+<h7 id="dblp_link"></h7>
+</p>
+
+</div>
+</div>
+</div>
+
+<script>
+var author = corebr_author.split("-").join(" ");
+
+function instToLink(inst) {
+ if (inst === 'COPPE/UFRJ') {
+    return '<a href="https://csindexbr.org/depts.html?d=coppeufrj">COPPE/UFRJ';
+ }
+ else if (inst === 'DCC/UFRJ') {
+    return '<a href="https://csindexbr.org/depts.html?d=dccufrj">DCC/UFRJ';
+ }
+ else if (inst === 'ICMC/USP') {
+    return '<a href="https://csindexbr.org/depts.html?d=icmcusp">ICMC/USP';
+ }
+ else if (inst === 'IME/USP') {
+    return '<a href="https://csindexbr.org/depts.html?d=imeusp">IME/USP';
+ }
+ else if (inst === 'PUC-RS') {
+    return '<a href="https://csindexbr.org/depts.html?d=puc-rs">PUC-RS';
+ }
+ else if (inst === 'PUC-Rio') {
+    return '<a href="https://csindexbr.org/depts.html?d=puc-rio">PUC-Rio';
+ }
+ else if (inst === 'UERJ') {
+    return '<a href="https://csindexbr.org/depts.html?d=uerj">UERJ';
+ }
+ else if (inst === 'UFABC') {
+    return '<a href="https://csindexbr.org/depts.html?d=ufabc">UFABC';
+ }
+ else if (inst === 'UFAM') {
+    return '<a href="https://csindexbr.org/depts.html?d=ufam">UFAM';
+ }
+ else if (inst === 'UFBA') {
+    return '<a href="https://csindexbr.org/depts.html?d=ufba">UFBA';
+ }
+ else if (inst === 'UFC') {
+    return '<a href="https://csindexbr.org/depts.html?d=ufc">UFC';
+ }
+ else if (inst === 'UFCG') {
+    return '<a href="https://csindexbr.org/depts.html?d=ufcg">UFCG';
+ }
+ else if (inst === 'UFES') {
+    return '<a href="https://csindexbr.org/depts.html?d=ufes">UFES';
+ }
+ else if (inst === 'UFF') {
+    return '<a href="https://csindexbr.org/depts.html?d=uff">UFF';
+ }
+ else if (inst === 'UFMG') {
+    return '<a href="https://csindexbr.org/depts.html?d=ufmg">UFMG';
+ }
+ else if (inst === 'UFPE') {
+    return '<a href="https://csindexbr.org/depts.html?d=ufpe">UFPE';
+ }
+ else if (inst === 'UFPR') {
+    return '<a href="https://csindexbr.org/depts.html?d=ufpr">UFPR';
+ }
+ else if (inst === 'UFRGS') {
+    return '<a href="https://csindexbr.org/depts.html?d=ufrgs">UFRGS';
+ }
+ else if (inst === 'UFRN') {
+    return '<a href="https://csindexbr.org/depts.html?d=ufrn">UFRN';
+ }
+ else if (inst === 'UFSC') {
+    return '<a href="https://csindexbr.org/depts.html?d=ufsc">UFSC';
+ }
+ else if (inst === 'UFSCar') {
+    return '<a href="https://csindexbr.org/depts.html?d=ufscar">UFSCar';
+ }
+ else if (inst === 'UFU') {
+    return '<a href="https://csindexbr.org/depts.html?d=ufu">UFU';
+ }
+ else if (inst === 'UNICAMP') {
+    return '<a href="https://csindexbr.org/depts.html?d=unicamp">UNICAMP';
+ }
+ else if (inst === 'UNIFESP') {
+    return '<a href="https://csindexbr.org/depts.html?d=unifesp">UNIFESP';
+ }
+ else if (inst === 'UTFPR') {
+    return '<a href="https://csindexbr.org/depts.html?d=utfpr">UTFPR';
+ }
+ else if (inst === 'UnB') {
+   return '<a href="https://csindexbr.org/depts.html?d=unb">UnB';
+ }
+ else if (inst === 'UFPA') {
+   return '<a href="https://csindexbr.org/depts.html?d=ufpa">UFPA';
+ }
+ return inst;
+}
+
+$.get("data/all-researchers.csv", function(csvString) {
+  var data = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
+  for (var i = 0; i < data.length; i++) {
+      if (data[i][0] === author) {
+         document.title = 'CSIndexbr - ' + author + ' - ' + data[i][1];
+         // document.description = 'List of papers published by ' + author;
+         txt1 = 'List of scientific papers published by ' + author + ', including citation counts and links to arXiv preprints.';
+         document.getElementsByTagName('meta')["description"].content = txt1;
+         inst2 = data[i][1];
+         inst2 = instToLink(inst2);
+         inst = '<font size="4"> (' + inst2 + ')</font>';
+         document.getElementById("author_name").innerHTML = author + inst;
+         dblp_pid = data[i][2];
+         dblp = '<small><b>See also</b> the full list of papers at ';
+         event = '" onclick="trackOutboundLink(this.href); return false;"';
+         dblp = dblp +  '<a href="https://dblp.org/pid/' + dblp_pid;
+         dblp = dblp + event + '>DBLP</a></small>';
+         document.getElementById("dblp_link").innerHTML = dblp;
+         break;
+      }
+  }
+});
+ga('send', 'event', 'Author Search', author);
+</script>
+
+<script src="libs/popper.min.js"> </script>
+<script src="libs/bootstrap.min.js"> </script>
+
+</body>
+
+</html>
