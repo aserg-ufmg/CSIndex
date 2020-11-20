@@ -216,7 +216,7 @@
 		              } else {
 		                 arrayData[i][8] = "<a href=\"" + arrayData[i][8] + "\" target=\"_blank\" onclick=\"trackOutboundLink(this.href); return false;\">[arxiv]</a>";
 		              }
-		              arrayData2.push(arrayData[i]);
+                  arrayData2.push(arrayData[i]);
 		           }
 		       }
 		       var data= new google.visualization.DataTable();
@@ -230,8 +230,10 @@
 		       data.addColumn('string', ''); // 7 - type={C,J}
 		       data.addColumn('string', ''); // 8 - type={no_arxiv,arxiv_url}
            data.addColumn('number', 'Citations'); // 9 - citations
+
 		       data.addRows(arrayData2);
-		       if (type == "C") {
+
+           if (type == "C") {
 		          var table = new google.visualization.Table(document.getElementById('chart_papers_conf'));
 		       } else {
 		          var table = new google.visualization.Table(document.getElementById('chart_papers_journal'));
@@ -248,7 +250,9 @@
            formatter2.format(data, [2, 6]);
 
            var view = new google.visualization.DataView(data);
-           view.setColumns([0,1,2,3,4,9]);
+
+           // view.setColumns([0,1,2,3,4,9]);
+           view.setColumns([0,1,2,3,4]); // citações foram removidas (i=9)
 
            var table2= view.toDataTable();
            table2.sort({column: 1, desc: false});

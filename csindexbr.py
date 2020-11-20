@@ -81,6 +81,9 @@ def output_citations_cache(area):
        f.close()
 
 def get_citations(doi):
+
+    return 0  // citações estão desativadas!
+    
     if doi in citations_cache:
        return citations_cache[doi]
     doi_full = doi

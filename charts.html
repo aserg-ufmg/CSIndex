@@ -208,7 +208,9 @@
            formatter2.format(data, [2, 6]);
 
            var view = new google.visualization.DataView(data);
-           view.setColumns([0,1,2,3,4,9]);
+
+           // view.setColumns([0,1,2,3,4,9]);
+           view.setColumns([0,1,2,3,4]); // citações foram removidas (i=9)
 
            var table2 = view.toDataTable();
            table2.sort({column: 1, desc: false});
