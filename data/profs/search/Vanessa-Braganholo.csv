@@ -6,4 +6,4 @@
 2017,Proc. VLDB,"noWorkflow: a Tool for Collecting, Analyzing, and Managing Provenance from Python Scripts.",João Felipe Pimentel; Leonardo Murta; Vanessa Braganholo; Juliana Freire,http://www.vldb.org/pvldb/vol10/p1841-pimentel.pdf,top,J,no_arxiv,
 2019,Inf. Process. Mgmt.,"Querying XML documents using Prolog engines: When is this a good idea?",Fábio G. Santos; Leonardo Machado; Rafael de Araújo M. Pinheiro; Aline Paes; Vanessa Braganholo,https://doi.org/10.1016/j.ipm.2019.05.011,null,J,no_arxiv,0
 2017,ACM TOIT,"Managing Provenance of Implicit Data Flows in Scientific Experiments.",Vitor C. Neves; Daniel de Oliveira 0001; Kary A. C. S. Ocaña; Vanessa Braganholo; Leonardo Murta,https://doi.org/10.1145/3053372,top,J,no_arxiv,1
-2019,MSR,"A large-scale study about quality and reproducibility of jupyter notebooks.",João Felipe Pimentel; Leonardo Murta; Vanessa Braganholo; Juliana Freire,https://doi.org/10.1109/MSR.2019.00077,null,C,no_arxiv,1
+2019,MSR,"A large-scale study about quality and reproducibility of jupyter notebooks.",João Felipe Pimentel; Leonardo Murta; Vanessa Braganholo; Juliana Freire,https://doi.org/10.1109/MSR.2019.00077,null,C,no_arxiv,0
