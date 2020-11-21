@@ -32,6 +32,7 @@ papers17=$(cat allpapers.csv | awk -F, '/^2017/ {print $1}' | wc -l)
 papers18=$(cat allpapers.csv | awk -F, '/^2018/ {print $1}' | wc -l)
 papers19=$(cat allpapers.csv | awk -F, '/^2019/ {print $1}' | wc -l)
 papers20=$(cat allpapers.csv | awk -F, '/^2020/ {print $1}' | wc -l)
+papers21=$(cat allpapers.csv | awk -F, '/^2021/ {print $1}' | wc -l)
 
 top15=$(python ../utils/get2col.py allpapers.csv 0 6 | awk '/^2015/ && /top$/ {print $2}' | wc -l)
 top16=$(python ../utils/get2col.py allpapers.csv 0 6 | awk '/^2016/ && /top$/ {print $2}' | wc -l)
@@ -39,6 +40,7 @@ top17=$(python ../utils/get2col.py allpapers.csv 0 6 | awk '/^2017/ && /top$/ {p
 top18=$(python ../utils/get2col.py allpapers.csv 0 6 | awk '/^2018/ && /top$/ {print $2}' | wc -l)
 top19=$(python ../utils/get2col.py allpapers.csv 0 6 | awk '/^2019/ && /top$/ {print $2}' | wc -l)
 top20=$(python ../utils/get2col.py allpapers.csv 0 6 | awk '/^2020/ && /top$/ {print $2}' | wc -l)
+top21=$(python ../utils/get2col.py allpapers.csv 0 6 | awk '/^2021/ && /top$/ {print $2}' | wc -l)
 
 #for area in {"se", "pl", "cse", "vision", "or", "cs", "chi", "dbis"}
 #do
@@ -225,6 +227,7 @@ echo '<li>2017:' $papers17 '/' $top17
 echo '<li>2018:' $papers18 '/' $top18
 echo '<li>2019:' $papers19 '/' $top19
 echo '<li>2020:' $papers20 '/' $top20
+echo '<li>2021:' $papers21 '/' $top21
 echo '</ul>'
 
 echo '<li> Papers per research area (all papers / papers in confs / papers in journals / papers in top-venues):'
