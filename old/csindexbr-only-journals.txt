@@ -1,0 +1,191 @@
+Expert Systems with Applications
+IEEE Trans. Cybernetics
+IEEE Trans. Neural Networks Learning Syst.
+IEEE Trans. Fuzzy Systems
+Neurocomputing
+Neural Networks
+Engineering Applications of AI
+Neural Computing and Applications
+Artificial Intelligence
+Journal of AI Research
+Applied Soft Computing
+Knowledge-Based Systems
+Fuzzy Sets and Systems
+Soft Computing
+Int. J. of Approximate Reasoning
+IEEE Trans. on Parallel and Distributed Systems
+ACM Trans. on Arch. and Code Optimization (TACO)
+Future Generation Computer Systems
+The Journal of Supercomputing
+Journal of Parallel and Distributed Computing
+Concurrency and Computation: Practice and Experience
+Parallel Computing
+International Journal of Parallel Programming
+Science of Computer Programming (SCP)
+ACM Transactions on Parallel Computing (TOPC)
+Bioinformatics
+BMC Bioinformatics
+Briefings in Bioinformatics
+IEEE/ACM Trans. Comput. Biology Bioinform.
+"Genomics
+Journal of Computational Biology
+IEEE Trans. on Affective Computing (IEEE TAC)
+Int. Journal of Human-Computer Studies (Int. J. HC Studies)
+ACM Trans. on Computer-Human Interaction (ACM TOCHI)
+Behaviour & Information Technology (Behaviour & IT)
+IEEE Trans. on Human-Machine Systems (IEEE THMS)
+Int. Journal of Human-Computer Interaction (Int. J. HCI)
+IEEE Trans. on Haptics (IEEE Trans. Haptics)
+Computer Supported Cooperative Work
+ACM Computing Surveys
+Communications of the ACM
+IEEE Computer
+ACM Trans. on Computing Education (ACM TOCE)
+"IEEE Trans. Education (IEEE ToE)"
+Computer Science Education
+Journal of Machine Learning Research
+Machine Learning
+Data Mining and Knowledge Discovery
+ACM Trans. on Knowledge Discovery from Data (TKDD)
+IEEE Trans. on Knowledge and Data Engineering (TKDE)
+Int. J. Machine Learning & Cybernetics
+Information Sciences
+Information Fusion
+ACM Trans. on Database Systems (TODS)
+Information Systems
+Data & Knowledge Engineering
+GeoInformatica
+Transactions in GIS
+Science of Computer Programming (SCP)
+ACM Trans. on Information Systems (TOIS)
+ACM Trans. on Mgmt. Information Systems (TMIS)
+Software Practice and Experience (SPE)
+Journal of Systems and Software (JSS)
+Concurrency and Computation: Practice and Experience
+Journal of Grid Computing
+IEEE Trans. on Cloud Computing
+IEEE Trans. on Services Computing
+IEEE Cloud Computing
+IEEE Pervasive Computing
+Real-Time Systems
+Theoretical Computer Science
+Science of Computer Programming (SCP)
+Theory and Practice of Logic Programming
+Logical Methods in Computer Science
+Journal of Logic and Computation
+Mathematical Structures in Computer Science
+Annals of Pure and Applied Logic
+ACM Transactions on Computational Logic
+ACM Trans. on Graphics (TOG)
+IEEE Trans. on Visualization and Comp. Graphics (TVCG)
+Computers & Graphics
+Computer Graphics Forum
+The Visual Computer
+IEEE Computer Graphics and Applications
+IEEE Trans. on Multimedia
+IEEE MultiMedia
+Multimedia Systems
+Multimedia Tools and Applications
+ACM Trans. on Multimedia Computing (TOMM)
+IEEE Journal of Solid-State Circuits
+IEEE Trans. on Computers
+IEEE Trans. on Circuits and Systems (TCAS)
+IEEE Trans. on VLSI Systems
+IEEE Trans. on CAD of Integr. Circuits (IEEE TCAD)
+IEEE J. Emerg. Sel. Topics Circuits Syst. (JETCAS)
+ACM Trans. Design Autom. Electr. Syst. (TODES)
+ACM Transactions on the Web (TWEB)
+ACM Transactions on Internet Technology (TOIT)
+Information Retrieval Journal
+IEEE Internet Computing
+Information Processing & Management
+IEEE Communications Magazine
+IEEE Trans. on Wireless Communications
+Journal on Selected Areas in Communications
+IEEE Trans. on Communications
+IEEE Wireless Communications
+IEEE Trans. on Mobile Computing
+IEEE/ACM Trans. on Networking 
+Journal of Network and Computer Applications
+Computer networks
+Ad Hoc Networks
+Computer Communications
+IEEE Trans. Network and Service Mgmt.
+ACM Trans. on Sensor Networks
+European Journal of Operational Research (EJOR)
+Computers & Operations Research (Computers & OR)
+Mathematical Programming (Math Program)
+SIAM Journal on Optimization (SIAM J Opt)
+SIAM Journal on Num. Analysis (SIAM J Num Analysis)
+Annals of Operations Research (Annals OR)
+SIAM J. on Control And Optimization (SIAM J Contr Opt)
+Journal of Global Optimization (J Global Opt)
+J. of Optimization Theory and Applications (J Opt Th Appl) 
+Comput. Optimization and Applications (Comp Opt Appl)
+Journal of The Operational Research Society (JORS)
+Mathematics of Operations Research (Math OR)
+INFORMS Journal on Computing (INFORMS J Comp)
+Optimization Letters (Opt Letters)
+Journal of Combinatorial Optimization (J Comb Opt)
+Optimization Methods & Software (Opt Methods & Sw)
+Num. Linear Algebra With Applications (Num Linear Alg)
+Int. Transactions in Operational Research (ITOR)
+Operations Research
+Transportation Science
+Networks
+ACM Trans. on Progr. Lang. and Systems (ACM TOPLAS)
+Software Practice and Experience (SPE)
+ACM Trans. on Arch. and Code Optimization (ACM TACO)
+Science of Computer Programming (SCP)
+Intern. Journal of Robotics Research
+IEEE Trans. on Robotics
+Robotics & Autonomous Systems
+J. Intelligent & Robotic Systems
+J. Field Robotics
+Autonomous Robots
+IEEE Robotics & Automation Magazine
+Robotica
+IEEE Trans. Soft. Engineering (IEEE TSE)
+ACM Trans. Soft. Eng. and Methodology (ACM TOSEM)
+Empirical Software Engineering (EMSE)
+Information and Software Technology (IST)
+Software Quality Journal (SQJ)
+Journal of Software Evolution and Process (JSEP)
+Software and Systems Modeling (SoSyM)
+Software Practice and Experience (SPE)
+Journal of Systems and Software (JSS)
+Requirements Engineering Journal (REJ)
+IEEE Software
+Science of Computer Programming (SCP)
+IEEE Trans. Information Forensics and Security
+Computers & Security
+IEEE Trans. Dependable and Secure Computing
+IEEE Security & Privacy
+Journal of Cryptology
+ACM Trans. on Privacy and Security
+Theoretical Computer Science
+Journal of the ACM (JACM)
+SIAM Journal on Computing
+Discrete Applied Mathematics
+ACM Transactions on Algorithms (TALG)
+Discrete Mathematics
+ACM Transactions on Computation Theory (TOCT)
+Algorithmica
+SIAM Journal on Discrete Mathematics
+Combinatorica
+Random Structures & Algorithms
+Information and Computation
+Journal of Combinatorial Theory Series A
+Journal of Combinatorial Theory Series B
+Journal of Graph Theory
+ACM Transactions Mathematical Software (TOMS)
+IEEE Trans. Pattern Analysis Mach. Intelligence (IEEE TPAMI)
+International Journal of Computer Vision (IJCV)
+IEEE Trans. Image Processing (IEEE TIP)
+Image and Vision Computing (IMAVIS)
+Computer Vision and Image Understanding (CVIU)
+J. Visual Communication and Image Representation (JVCI)
+IEEE Trans. Circuits Systems Video Technology (IEEE TCSVT)
+Pattern Recognition (PR)
+Pattern Recognition Letters (PRL)
+Machine Vision and Applications (MVAP)

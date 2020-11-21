@@ -11,7 +11,3 @@
 2017,MSR,"A study on the energy consumption of Android app development approaches.",Wellington Oliveira; Renato Oliveira; Fernando Castor,https://doi.org/10.1109/MSR.2017.66,null,C,no_arxiv,0
 2016,ICSME,"A Comprehensive Study on the Energy Efficiency of Java's Thread-Safe Collections.",Gustavo Pinto 0001; Kenan Liu; Fernando Castor; Yu David Liu,https://doi.org/10.1109/ICSME.2016.34,null,C,no_arxiv,0
 2016,SANER,"Haskell in Green Land: Analyzing the Energy Behavior of a Purely Functional Language.",Luis Gabriel Lima; Francisco Soares-Neto; Paulo Lieuthier; Fernando Castor; Gilberto Melfe; João Paulo Fernandes,https://doi.org/10.1109/SANER.2016.85,null,C,no_arxiv,0
-2015,JSS,"Classifying metrics for assessing Object-Oriented Software Maintainability: A family of metrics' catalogs.",Juliana de A. G. Saraiva; Micael S. de França; Sérgio C. B. Soares; Fernando Castor Filho; Renata M. C. R. de Souza,https://doi.org/10.1016/j.jss.2015.01.014,null,J,no_arxiv,0
-2015,JSS,"A large-scale study on the usage of Java's concurrent programming constructs.",Gustavo Pinto 0001; Weslley Torres; Benito Fernandes; Fernando Castor Filho; Roberto Souto Maior de Barros,https://doi.org/10.1016/j.jss.2015.04.064,null,J,no_arxiv,0
-2015,JSS,"An exploratory study on exception handling bugs in Java programs.",Felipe Ebert; Fernando Castor; Alexander Serebrenik,https://doi.org/10.1016/j.jss.2015.04.066,null,J,no_arxiv,0
-2015,MSR,"Mining Energy-Aware Commits.",Irineu Moura; Gustavo Pinto 0001; Felipe Ebert; Fernando Castor,https://doi.org/10.1109/MSR.2015.13,null,C,no_arxiv,0

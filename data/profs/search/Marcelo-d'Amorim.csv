@@ -11,6 +11,3 @@
 2017,ICSE,"Balancing soundness and efficiency for practical testing of configurable systems.",Sabrina Souto; Marcelo d'Amorim; Rohit Gheyi,https://doi.org/10.1109/ICSE.2017.64,top,C,no_arxiv,0
 2017,ICST,"Prevalence of Single-Fault Fixes and Its Impact on Fault Localization.",Alexandre Perez; Rui Abreu; Marcelo d'Amorim,https://doi.org/10.1109/ICST.2017.9,null,C,no_arxiv,0
 2017,ASE,"Test suite parallelization in open-source projects: a study on its usage and impact.",Jeanderson Cândido; Luis Melo; Marcelo d'Amorim,https://doi.org/10.1109/ASE.2017.8115695,top,C,no_arxiv,0
-2015,ASE,"Static Analysis of Implicit Control Flow: Resolving Java Reflection and Android Intents (T).",Paulo Barros; René Just; Suzanne Millstein; Paul Vines; Werner Dietl; Marcelo d'Amorim; Michael D. Ernst,https://doi.org/10.1109/ASE.2015.69,top,C,no_arxiv,0
-2015,FSE,"Iterative distribution-aware sampling for probabilistic symbolic execution.",Mateus Borges; Antonio Filieri; Marcelo d'Amorim; Corina S. Pasareanu,https://doi.org/10.1145/2786805.2786832,top,C,no_arxiv,0
-2015,SPLC,"Faster bug detection for software product lines with incomplete feature models.",Sabrina Souto; Divya Gopinath; Marcelo d'Amorim; Darko Marinov; Sarfraz Khurshid; Don S. Batory,https://doi.org/10.1145/2791060.2791093,null,C,no_arxiv,0

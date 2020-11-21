@@ -3,7 +3,6 @@
 2019,J. Parallel Distrib. Comput.,"Data-flow analysis and optimization for data coherence in heterogeneous architectures.",Rafael C. F. Sousa; Marcio Machado Pereira; Fernando Magno Quintão Pereira; Guido Araujo,https://doi.org/10.1016/j.jpdc.2019.04.004,null,J,no_arxiv,0
 2018,PACT,"Automatic annotation of tasks in structured code.",Pedro Ramos; Gleison Souza Diniz Mendonca; Divino Soares; Guido Araújo; Fernando Magno Quintão Pereira,https://doi.org/10.1145/3243176.3243200,null,C,no_arxiv,0
 2019,DSN,"Multilayer ROP Protection Via Microarchitectural Units Available in Commodity Hardware.",Mateus Tymburibá; Hugo Sousa; Fernando Magno Quintão Pereira,https://doi.org/10.1109/DSN.2019.00042,null,C,no_arxiv,0
-2015,IPSN,"SIoT: securing the internet of things through distributed system analysis.",Fernando Augusto Teixeira; Gustavo V. Machado; Fernando Magno Quintão Pereira; Hao Chi Wong; José Marcos S. Nogueira; Leonardo B. Oliveira,https://doi.org/10.1145/2737095.2737097,null,C,no_arxiv,0
 2020,SCP,"Guided just-in-time specialization.",Caio Lima; Junio Cezar R. da Silva; Guilherme V. Leobas; Erven Rohou; Fernando Magno Quintão Pereira,https://doi.org/10.1016/j.scico.2019.102318,null,J,no_arxiv,0
 2019,OOPSLA,"Qubit allocation as a combination of subgraph isomorphism and token swapping.",Marcos Yukio Siraichi; Vinícius Fernandes dos Santos; Caroline Collange; Fernando Magno Quintão Pereira,https://doi.org/10.1145/3360546,top,C,no_arxiv,0
 2019,SCP,"The Dinamica EGO virtual machine.",Bruno Morais Ferreira; Britaldo Silveira Soares-Filho; Fernando Magno Quintão Pereira,https://doi.org/10.1016/j.scico.2018.02.002,null,J,no_arxiv,0
@@ -20,4 +19,3 @@
 2017,PPoPP,"Function Call Re-Vectorization.",Rubens E. A. Moreira; Sylvain Collange; Fernando Magno Quintão Pereira,http://dl.acm.org/citation.cfm?id=3018751,null,C,no_arxiv,0
 2016,CGO,"Inference of peak density of indirect branches to detect ROP attacks.",Mateus Tymburibá; Rubens E. A. Moreira; Fernando Magno Quintão Pereira,https://doi.org/10.1145/2854038.2854049,null,C,no_arxiv,0
 2016,CGO,"Symbolic range analysis of pointers.",Vitor Paisante; Maroua Maalej; Leonardo Barbosa e Oliveira; Laure Gonnord; Fernando Magno Quintão Pereira,https://doi.org/10.1145/2854038.2854050,null,C,no_arxiv,0
-2015,OOPSLA,"Runtime pointer disambiguation.",Péricles Alves; Fabian Gruber; Johannes Doerfert; Alexandros Lamprineas; Tobias Grosser; Fabrice Rastello; Fernando Magno Quintão Pereira,https://doi.org/10.1145/2814270.2814285,top,C,no_arxiv,0

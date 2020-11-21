@@ -14,5 +14,3 @@
 2016,ICPC,"A novel approach for estimating Truck Factors.",Guilherme Avelino; Leonardo Teixeira Passos; André C. Hora; Marco Tulio Valente,https://doi.org/10.1109/ICPC.2016.7503718,null,C,http://arxiv.org/abs/1604.06766v1,0
 2016,FSE,"When should internal interfaces be promoted to public?",André C. Hora; Marco Tulio Valente; Romain Robbes; Nicolas Anquetil,https://doi.org/10.1145/2950290.2950306,top,C,no_arxiv,0
 2016,SANER,"Do Developers Deprecate APIs with Replacement Messages? A Large-Scale Analysis on Java Systems.",Gleison Brito; André C. Hora; Marco Tulio Valente; Romain Robbes,https://doi.org/10.1109/SANER.2016.99,null,C,no_arxiv,0
-2015,JSS,"Automatic detection of system-specific conventions unknown to developers.",André C. Hora; Nicolas Anquetil; Anne Etien; Stéphane Ducasse; Marco Tulio Valente,https://doi.org/10.1016/j.jss.2015.08.007,null,J,no_arxiv,0
-2015,ICSME,"How do developers react to API evolution? The Pharo ecosystem case.",André C. Hora; Romain Robbes; Nicolas Anquetil; Anne Etien; Stéphane Ducasse; Marco Tulio Valente,https://doi.org/10.1109/ICSM.2015.7332471,null,C,no_arxiv,0
