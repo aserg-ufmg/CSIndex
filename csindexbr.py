@@ -591,7 +591,10 @@ def outuput_everything():
     output_venues()
     output_profs_list()
     output_arxiv_cache(area_prefix)
-    output_citations_cache(area_prefix)
+
+    # disabled
+    # output_citations_cache(area_prefix)
+
     generate_search_box_list()
     if multi_area_journal:
        print  ALERT_ON + "Found papers in MULTI-AREA journals" + ALERT_OFF
@@ -641,7 +644,10 @@ profs_list = []
 init_black_white_lists()
 init_manual_files()
 open_arxiv_cache(area_prefix)
-open_citations_cache(area_prefix)
+
+# disabled
+# open_citations_cache(area_prefix)
+
 remove_prof_cache()
 
 reader2 = csv.reader(open("all-researchers.csv", 'r'))

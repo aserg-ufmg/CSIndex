@@ -1,0 +1,1 @@
+grep -i -w "preface|foreword" *-out-papers.csv

@@ -1,62 +1,127 @@
+pl,2013,"Softw., Pract. Exper.","Extending decoupled software pipeline to parallelize Java programs.",db/journals/spe/spe43.html#LoureiroPA13
 se,2016,"Journal of Systems and Software","Exploring context-sensitive data flow analysis for early vulnerability detection.",db/journals/jss/jss113.html#SampaioG16
 ds,2017,"Journal of Systems and Software","Modeling and automatic code generation for wireless sensor network applications using model-driven or business process approaches: A systematic mapping study.",db/journals/jss/jss132.html#TeixeiraAFRB17
 se,2017,"Journal of Systems and Software","Test coverage of impacted code elements for detecting refactoring faults: An exploratory study.",db/journals/jss/jss123.html#AlvesMM17
 se,2017,"Journal of Systems and Software","Experimentally assessing the combination of multiple visualization strategies for software evolution analysis.",db/journals/jss/jss128.html#NovaisSN17
+se,2013,"Journal of Systems and Software","25 years of software engineering in Brazil: Beyond an insider's view.",db/journals/jss/jss86.html#NetoGALBL13
+se,2013,"Journal of Systems and Software","Evidence of software inspection on feature specification for software product lines.",db/journals/jss/jss86.html#SouzaGNMAM13
+se,2015,"Journal of Systems and Software","Safe evolution templates for software product lines.",db/journals/jss/jss106.html#NevesBATTSK15
+se,2013,"Journal of Systems and Software","On the impact of trace-based feature location in the performance of software maintainers.",db/journals/jss/jss86.html#MaiaL13
+pl,2013,"Sci. Comput. Program.","Automatic parallelization of canonical loops.",db/journals/scp/scp78.html#MataPF13
 se,2017,"Journal of Systems and Software","CollabRDL: A language to coordinate collaborative reuse.",db/journals/jss/jss131.html#LucasOFA17
+se,2013,"Journal of Systems and Software","A design rule language for aspect-oriented programming.",db/journals/jss/jss86.html#NetoBRPBC13
+se,2014,"Sci. Comput. Program.","A quantitative and qualitative assessment of aspectual feature modules for evolving software product lines.",db/journals/scp/scp96.html#GaiaFFM14
+se,2014,"Journal of Systems and Software","Predicting software defects with causality tests.",db/journals/jss/jss93.html#CoutoPVBA14
+formal,2014,"Sci. Comput. Program.","Consistency of model transformation contracts.",db/journals/scp/scp92.html#BragaSS14
+se,2013,"Journal of Systems and Software","A scoping study on the 25 years of research into software testing in Brazil and an outlook on the future of the area.",db/journals/jss/jss86.html#DurelliASOMD13
+ai,2013,"Sci. Comput. Program.","Multi-agent oriented programming with JaCaMo.",db/journals/scp/scp78.html#BoissierBHRS13
 pl,2016,"Sci. Comput. Program.","Contextual abstraction in a type system for component-based high performance computing platforms.",db/journals/scp/scp132.html#JuniorRSAA16
+pl,2014,"Sci. Comput. Program.","The formalization and implementation of Adaptable Parsing Expression Grammars.",db/journals/scp/scp96.html#ReisBIA14
+ds,2013,"Softw., Pract. Exper.","Fault-tolerant timestamp-based two-phase commit protocol for RESTful services.",db/journals/spe/spe43.html#MacielH13
+se,2015,"Softw., Pract. Exper.","A recommendation system for repairing violations detected by static architecture conformance checking.",db/journals/spe/spe45.html#TerraVCB15
+se,2013,"Sci. Comput. Program.","Optimizing generated aspect-oriented assertion checking code for JML using program transformations: An empirical study.",db/journals/scp/scp78.html#RebeloLLCMO13
 se,2018,"Journal of Systems and Software","On the use of replacement messages in API deprecation: An empirical study.",db/journals/jss/jss137.html#BritoHVR18
+pl,2014,"Sci. Comput. Program.","An object-oriented parallel programming language for distributed-memory parallel computing platforms.",db/journals/scp/scp80.html#PinhoJ14
+se,2015,"Journal of Systems and Software","A design methodology for user-centered innovation in the software development area.",db/journals/jss/jss110.html#ZainaA15
+se,2013,"Sci. Comput. Program.","Inference rules for generic code migration of aspect-oriented programs.",db/journals/scp/scp78.html#RubboPN13
 se,2017,"Journal of Systems and Software","Integration between requirements engineering and safety analysis: A systematic literature review.",db/journals/jss/jss125.html#VilelaCMG17
+se,2014,"Sci. Comput. Program.","A practical approach for testing timed deterministic finite state machines with single clock.",db/journals/scp/scp80.html#El-FakihYS14
+se,2013,"Journal of Systems and Software","Search Based Software Engineering: Review and analysis of the field in Brazil.",db/journals/jss/jss86.html#ColanziVAP13
+ds,2014,"Journal of Systems and Software","DYSCS: A platform to build geographically and semantically enhanced social content sites.",db/journals/jss/jss94.html#MenezesBFOM14
 se,2016,"Journal of Systems and Software","Theoretical conceptualization of TD: A practical perspective.",db/journals/jss/jss120.html#SiebraOSSS16
 se,2016,"Journal of Systems and Software","What to expect of predicates: An empirical analysis of predicates in real world programs.",db/journals/jss/jss113.html#DurelliOLDGSA16
 se,2014,"Sci. Comput. Program.","On the use of feature-oriented programming for evolving software product lines - A comparative study.",db/journals/scp/scp93.html#FerreiraGFM14
+formal,2014,"Sci. Comput. Program.","Compositionality and correctness of fault tolerant patterns in HOL4.",db/journals/scp/scp92.html#DiasI14
 se,2018,"Journal of Systems and Software","Time-space efficient regression testing for configurable systems.",db/journals/jss/jss137.html#Soutod18
+se,2014,"Softw., Pract. Exper.","A holistic approach to model-based testing of Web service compositions.",db/journals/spe/spe44.html#BelliELS14
 se,2016,"Sci. Comput. Program.","A family of test selection criteria for Timed Input-Output Symbolic Transition System models.",db/journals/scp/scp126.html#MoraesAM16
 se,2017,"Journal of Systems and Software","Exploring quality measures for the evaluation of feature models: a case study.",db/journals/jss/jss131.html#BezerraAM17
 se,2016,"Journal of Systems and Software","A feature-driven crossover operator for multi-objective and evolutionary optimization of product line architectures.",db/journals/jss/jss121.html#ColanziV16
+se,2015,"Journal of Systems and Software","An exploratory study on exception handling bugs in Java programs.",db/journals/jss/jss106.html#EbertCS15
+dbis,2014,"Sci. Comput. Program.","Using a trope-based foundational ontology for bridging different areas of concern in ontology-driven conceptual modeling.",db/journals/scp/scp96.html#GuizzardiZ14
+se,2015,"Journal of Systems and Software","Classifying metrics for assessing Object-Oriented Software Maintainability: A family of metrics' catalogs.",db/journals/jss/jss103.html#SaraivaFSFS15
+se,2015,"Journal of Systems and Software","MAS-ML 2.0: Supporting the modelling of multi-agent systems with different agent architectures.",db/journals/jss/jss108.html#GoncalvesCCLFSO15
+ds,2013,"Softw., Pract. Exper.","EMUSIM: an integrated emulation and simulation environment for modeling, evaluation, and validation of performance of Cloud computing applications.",db/journals/spe/spe43.html#CalheirosNRB13
+se,2015,"Journal of Systems and Software","Automatic detection of system-specific conventions unknown to developers.",db/journals/jss/jss109.html#HoraAEDV15
+pl,2014,"Sci. Comput. Program.","Left recursion in Parsing Expression Grammars.",db/journals/scp/scp96.html#MedeirosMI14a
+se,2014,"Journal of Systems and Software","Software product line scoping and requirements engineering in a small and medium-sized enterprise: An industrial case study.",db/journals/jss/jss88.html#SilvaNOAM14
 formal,2018,"Sci. Comput. Program.","Sound conformance testing for cyber-physical systems: Theory and implementation.",db/journals/scp/scp162.html#AraujoCMMS18
 pl,2016,"Sci. Comput. Program.","Error reporting in Parsing Expression Grammars.",db/journals/scp/scp132.html#MaidlMMI16
+se,2015,"Journal of Systems and Software","Software rejuvenation via a multi-agent approach.",db/journals/jss/jss104.html#SantosPSM15
 se,2018,"Journal of Systems and Software","Do android developers neglect error handling? a maintenance-Centric study on the relationship between android abstractions and uncaught exceptions.",db/journals/jss/jss136.html#OliveiraBSCC18
 se,2018,"Journal of Systems and Software","JMove: A novel heuristic and tool to detect move method refactoring opportunities.",db/journals/jss/jss138.html#TerraVMS18
 ds,2016,"Journal of Systems and Software","Using traffic filtering rules and OpenFlow devices for transparent flow switching and automatic dynamic-circuit creation in hybrid networks.",db/journals/jss/jss117.html#CardosoCRSMC16
+se,2013,"Journal of Systems and Software","A reference architecture for organizing the internal structure of metadata-based frameworks.",db/journals/jss/jss86.html#GuerraAKF13
 se,2016,"Softw., Pract. Exper.","Efficient image-aware version control systems using GPU.",db/journals/spe/spe46.html#JuniorCM16
+se,2015,"Journal of Systems and Software","A large-scale study on the usage of Java's concurrent programming constructs.",db/journals/jss/jss106.html#PintoTFFB15
+arch,2013,"Sci. Comput. Program.","Preserving the original MPI semantics in a virtualized processor environment.",db/journals/scp/scp78.html#RodriguesNPM13
+se,2014,"Sci. Comput. Program.","Making refactoring safer through impact analysis.",db/journals/scp/scp93.html#MongioviGSTB14
 pl,2016,"Sci. Comput. Program.","Ambiguity and constrained polymorphism.",db/journals/scp/scp124.html#CamaraoFR16
+se,2015,"Journal of Systems and Software","Quantifying usability of domain-specific languages: An empirical study on software maintenance.",db/journals/jss/jss101.html#AlbuquerqueCGBA15
 ds,2018,"Softw., Pract. Exper.","An asynchronous collaborative reconciliation model based on data provenance.",db/journals/spe/spe48.html#AlmeidaHCC18
 se,2017,"Journal of Systems and Software","Characterizing testing methods for context-aware software systems: Results from a quasi-systematic literature review.",db/journals/jss/jss131.html#MatalongaRT17
 se,2018,"Journal of Systems and Software","AQUArIUM - A suite of software measures for HCI quality evaluation of ubiquitous mobile applications.",db/journals/jss/jss136.html#CarvalhoAO18
 ds,2017,"Journal of Systems and Software","A multivariate and quantitative model for predicting cross-application interference in virtual environments.",db/journals/jss/jss128.html#AlvesD17
 se,2018,"Journal of Systems and Software","On the implementation of dynamic software product lines: An exploratory study.",db/journals/jss/jss136.html#CarvalhoSGSMSA18
+se,2013,"Journal of Systems and Software","FORTUNA - A framework for the design and development of hardware-based secure systems.",db/journals/jss/jss86.html#GalloKD13
 se,2016,"Sci. Comput. Program.","Avoiding code pitfalls in Aspect-Oriented Programming.",db/journals/scp/scp119.html#SantosAFF16
 se,2017,"Journal of Systems and Software","A Formal Approach to implement java exceptions in cooperative systems.",db/journals/jss/jss131.html#HanazumiM17
+ds,2013,"Journal of Systems and Software","Group and link analysis of multi-relational scientific social networks.",db/journals/jss/jss86.html#MenezesZS13
 se,2017,"Journal of Systems and Software","Approaches to strategic alignment of software process improvement: A systematic literature review.",db/journals/jss/jss123.html#VasconcellosLCO17
 pl,2018,"Sci. Comput. Program.","Combining range and inequality information for pointer disambiguation.",db/journals/scp/scp152.html#MaalejPPG18
+se,2015,"Journal of Systems and Software","Bringing Test-Driven Development to web service choreographies.",db/journals/jss/jss99.html#BessonMKM15
 se,2016,"Journal of Systems and Software","Twenty-eight years of component-based software engineering.",db/journals/jss/jss111.html#ValeCANCM16
 se,2018,"Journal of Systems and Software","A Metrics Suite for code annotation assessment.",db/journals/jss/jss137.html#LimaGMKSS18
+se,2013,"Journal of Systems and Software","Safe composition of configuration knowledge-based software product lines.",db/journals/jss/jss86.html#TeixeiraBG13
 ds,2017,"Softw., Pract. Exper.","Pattern-based multi-cloud architecture migration.",db/journals/spe/spe47.html#JamshidiPM17
 se,2016,"Journal of Systems and Software","Towards semi-automated assignment of software change requests.",db/journals/jss/jss115.html#CavalcantiMNA16
+se,2013,"Softw., Pract. Exper.","Mastering crosscutting architectural decisions with aspects.",db/journals/spe/spe43.html#SantAnnaGBR13
 se,2016,"Journal of Systems and Software","Automated design of multi-layered web information systems.",db/journals/jss/jss117.html#BassoPORF16
+se,2014,"Journal of Systems and Software","Blending design patterns with aspects: A quantitative study.",db/journals/jss/jss98.html#CachoSFDGB14
+se,2013,"Sci. Comput. Program.","MobiLine: A Nested Software Product Line for the domain of mobile and context-aware applications.",db/journals/scp/scp78.html#MarinhoAWVMRTFDLA13
 se,2018,"Sci. Comput. Program.","All roads lead to Rome: Commuting strategies for product-line reliability analysis.",db/journals/scp/scp152.html#CastroLATAS18
 se,2018,"Softw., Pract. Exper.","Exploring architecture blueprints for prioritizing critical code anomalies: Experiences and tool support.",db/journals/spe/spe48.html#GuimaraesVGPM18
+ds,2015,"Softw., Pract. Exper.","On the replacement of objects from round-based applications over heterogeneous environments.",db/journals/spe/spe45.html#RighiGC15
 ds,2017,"Softw., Pract. Exper.","Multi-criteria IoT resource discovery: a comparative analysis.",db/journals/spe/spe47.html#NunesEPRD17
+pl,2014,"Sci. Comput. Program.","From regexes to parsing expression grammars.",db/journals/scp/scp93.html#MedeirosMI14
 se,2018,"Journal of Systems and Software","The impact of Software Testing education on code reliability: An empirical assessment.",db/journals/jss/jss137.html#LemosSFG18
+se,2013,"Journal of Systems and Software","SCRUMIA - An educational game for teaching SCRUM in computing courses.",db/journals/jss/jss86.html#WangenheimSB13
+se,2013,"Journal of Systems and Software","Comparing approaches to analyze refactoring activity on software repositories.",db/journals/jss/jss86.html#SoaresGMJ13
+se,2015,"Journal of Systems and Software","Collaboration optimization in software process composition.",db/journals/jss/jss103.html#MagdalenoBWAB15
+pl,2014,"Sci. Comput. Program.","On the relation between context-free grammars and parsing expression grammars.",db/journals/scp/scp89.html#MascarenhasMI14
 se,2017,"Journal of Systems and Software","An assessment of extended finite state machine test selection criteria.",db/journals/jss/jss123.html#El-FakihSJM17
+se,2013,"Softw., Pract. Exper.","RDB2RDF: A relational to RDF plug-in for Eclipse.",db/journals/spe/spe43.html#MarxSBFC13
 se,2017,"Journal of Systems and Software","A survey on feature drift adaptation: Definition, benchmark, challenges and future directions.",db/journals/jss/jss127.html#BarddalGEP17
 se,2017,"Journal of Systems and Software","Evaluating Lehman's Laws of software evolution within software product lines industrial projects.",db/journals/jss/jss131.html#OliveiraSAG17
 se,2018,"Journal of Systems and Software","Software sustainability: Research and practice from a software architecture viewpoint.",db/journals/jss/jss138.html#VentersCBPCCNBC18
+ds,2014,"Journal of Systems and Software","Synthesizing interpreted domain-specific models to manage smart microgrids.",db/journals/jss/jss96.html#AllisonMCC14
+se,2013,"Sci. Comput. Program.","Towards the practical mutation testing of AspectJ programs.",db/journals/scp/scp78.html#FerrariRM13
+se,2014,"Softw., Pract. Exper.","Heuristic expansion of feature mappings in evolving program families.",db/journals/spe/spe44.html#NunesGLL14
+pl,2014,"Sci. Comput. Program.","Efficient static checker for tainted variable attacks.",db/journals/scp/scp80.html#RimsadPB14
+ds,2015,"Journal of Systems and Software","A programming-level approach for elasticizing parallel scientific applications.",db/journals/jss/jss110.html#GalanteB15
 arch,2016,"TACO","Evaluation of Histogram of Oriented Gradients Soft Errors Criticality for Automotive Applications.",db/journals/taco/taco13.html#FernandesWJNCR16
 pl,2016,"TACO","Clustering-Based Selection for the Exploration of Compiler Optimization Sequences.",db/journals/taco/taco13.html#MartinsNCDM16
 pl,2018,"Softw., Pract. Exper.","EPE-Mobile - A framework for early performance estimation of mobile applications.",db/journals/spe/spe48.html#FernandesMC18
+se,2013,"Journal of Systems and Software","Evaluation studies of software testing research in Brazil and in the world: A survey of two premier software engineering conferences.",db/journals/jss/jss86.html#LemosFEMM13
+se,2013,"Journal of Systems and Software","Relevance and perspectives of AAL in Brazil.",db/journals/jss/jss86.html#NakagawaABMSVR13
 se,2018,"Journal of Systems and Software","A Systematic Literature Review of iStar extensions.",db/journals/jss/jss137.html#GoncalvesCAH18
 dbis,2017,"Sci. Comput. Program.","An ontology-based approach for integrating tools supporting the software measurement process.",db/journals/scp/scp135.html#FonsecaBF17
+se,2013,"Journal of Systems and Software","Contributions to the emergence and consolidation of Agent-oriented Software Engineering.",db/journals/jss/jss86.html#LucenaN13
+formal,2014,"Sci. Comput. Program.","NAT2TEST: Test case generation from natural language requirements based on SCR specifications.",db/journals/scp/scp95.html#CarvalhoFBSMMB14
 arch,2016,"TACO","Hardware-Assisted Thread and Data Mapping in Hierarchical Multicore Architectures.",db/journals/taco/taco13.html#CruzDPN16
 se,2017,"Journal of Systems and Software","Using contextual information to predict co-changes.",db/journals/jss/jss128.html#WieseRSKOTG17
 se,2018,"Journal of Systems and Software","Towards cognitive support for unit testing: A qualitative study with practitioners.",db/journals/jss/jss141.html#PradoV18
 se,2016,"Journal of Systems and Software","Costs and obstacles encountered in technical debt management - A case study.",db/journals/jss/jss120.html#GuoSS16
+se,2014,"Sci. Comput. Program.","Mitigating the effects of equivalent mutants with mutant classification strategies.",db/journals/scp/scp95.html#PapadakisDT14
+se,2013,"Journal of Systems and Software","On the reliability of mapping studies in software engineering.",db/journals/jss/jss86.html#WohlinRNEMA13
 se,2016,"Journal of Systems and Software","Preserving architectural styles in the search based design of software product line architectures.",db/journals/jss/jss115.html#MarianiCV16
 pl,2017,"TACO","DawnCC: Automatic Annotation for Data Parallelism and Offloading.",db/journals/taco/taco14.html#MendoncaGAPAP17
 se,2017,"Sci. Comput. Program.","A semi-automatic system to evaluate the performance and scalability of ontology persistent APIs.",db/journals/scp/scp136.html#EliasSBIHB17
+formal,2015,"Sci. Comput. Program.","A rewriting logic semantics for NCL.",db/journals/scp/scp107.html#SantosBM15
 pl,2016,"Sci. Comput. Program.","Performance evaluation of virtual execution environments for intensive computing on usual representations of multidimensional arrays.",db/journals/scp/scp132.html#JuniorR16
 se,2018,"Sci. Comput. Program.","An experimental comparison of edge, edge-pair, and prime path criteria.",db/journals/scp/scp152.html#DurelliDO18
 ds,2016,"Journal of Systems and Software","Evaluating REST architectures - Approach, tooling and guidelines.",db/journals/jss/jss112.html#CostaPDM16
+se,2015,"Journal of Systems and Software","Software requirements selection and prioritization using SBSE approaches: A systematic review and mapping of the literature.",db/journals/jss/jss103.html#PitangueiraMB15
 se,2017,"Journal of Systems and Software","Software product lines adoption in small organizations.",db/journals/jss/jss131.html#BastosNOAM17
 se,2018,"Softw., Pract. Exper.","Automation of application-level caching in a seamless way.",db/journals/spe/spe48.html#MertzN18
 se,2018,"Journal of Systems and Software","Automatic assignment of integrators to pull requests: The importance of selecting appropriate attributes.",db/journals/jss/jss144.html#JuniorSPM18
@@ -64,21 +129,35 @@ se,2018,"Journal of Systems and Software","A systematic review on the code smell
 arch,2018,"Sci. Comput. Program.","Towards optimal solutions for the low power hard real-time task allocation on multiple heterogeneous processors.",db/journals/scp/scp165.html#ValentinFB18
 arch,2018,"Concurrency and Computation: Practice and Experience","Cooperative and out-of-core execution of the irregular wavefront propagation pattern on hybrid machines with Intel® Xeon Phi™.",db/journals/concurrency/concurrency30.html#GomesMKKST18
 arch,2016,"Concurrency and Computation: Practice and Experience","Power-aware server consolidation for federated clouds.",db/journals/concurrency/concurrency28.html#LeiteBMETR16
+arch,2013,"Concurrency and Computation: Practice and Experience","Enhanced Van der Waals calculations in genetic algorithms for protein structure prediction.",db/journals/concurrency/concurrency25.html#BonettiDTS13
 arch,2017,"Concurrency and Computation: Practice and Experience","Autotuning CUDA compiler parameters for heterogeneous applications using the OpenTuner framework.",db/journals/concurrency/concurrency29.html#BruelAG17
 arch,2017,"Concurrency and Computation: Practice and Experience","Computer architecture and high performance computing.",db/journals/concurrency/concurrency29.html#GoldmanAM17
 arch,2017,"Concurrency and Computation: Practice and Experience","DaC scan: a novel scan operator for exploiting SSD internal parallelism.",db/journals/concurrency/concurrency29.html#AlencarBFL17
 ds,2017,"Concurrency and Computation: Practice and Experience","WISP: A pattern-based approach to the interchange of scientific workflow specifications.",db/journals/concurrency/concurrency29.html#BastosBG17
+arch,2015,"Concurrency and Computation: Practice and Experience","Experiences of the Brazilian national high-performance computing network on the rapid prototyping of science gateways.",db/journals/concurrency/concurrency27.html#GomesBMM15
+arch,2013,"Concurrency and Computation: Practice and Experience","Evaluation of asynchronous multi-swarm particle optimization on several topologies.",db/journals/concurrency/concurrency25.html#CamposPD13
+arch,2015,"Concurrency and Computation: Practice and Experience","An analysis of definition and placement of virtual machines for high performance applications on Clouds.",db/journals/concurrency/concurrency27.html#McEvoyMS15
 arch,2018,"Concurrency and Computation: Practice and Experience","Reducing the number of response time service level objective violations by a cloud-HPC convergence scheduler.",db/journals/concurrency/concurrency30.html#KraemerMRT18
 arch,2017,"Concurrency and Computation: Practice and Experience","Modeling and simulation of global and sleep states in ACPI-compliant energy-efficient cloud environments.",db/journals/concurrency/concurrency29.html#XavierRRCG17
+arch,2013,"Concurrency and Computation: Practice and Experience","An architecture for retrieval of animal sound recordings based on context variables.",db/journals/concurrency/concurrency25.html#CuglerMT13
 arch,2017,"Concurrency and Computation: Practice and Experience","An efficient virtual system clock for the wireless raspberry pi computer platform.",db/journals/concurrency/concurrency29.html#DutraCA17
+arch,2015,"Concurrency and Computation: Practice and Experience","An effective single-hop distributed hash table with high lookup performance and low traffic overhead.",db/journals/concurrency/concurrency27.html#MonneratA15
 arch,2016,"Concurrency and Computation: Practice and Experience","BIGhybrid: a simulator for MapReduce applications in hybrid distributed infrastructures validated with the Grid5000 experimental platform.",db/journals/concurrency/concurrency28.html#AnjosFG16
 arch,2016,"Concurrency and Computation: Practice and Experience","Joint-analysis of performance and energy consumption when enabling cloud elasticity for synchronous HPC applications.",db/journals/concurrency/concurrency28.html#RighiCRR16
+arch,2015,"Concurrency and Computation: Practice and Experience","Memory aware load balance strategy on a parallel branch-and-bound application.",db/journals/concurrency/concurrency27.html#SilvaBDP15
+arch,2015,"Concurrency and Computation: Practice and Experience","Coordination mechanisms for decentralized parallel systems.",db/journals/concurrency/concurrency27.html#CohenCT15
+ds,2014,"Concurrency and Computation: Practice and Experience","Assessing survivability of smart grid distribution network designs accounting for multiple failures.",db/journals/concurrency/concurrency26.html#MenascheASLSDTHK14
 arch,2016,"Concurrency and Computation: Practice and Experience","Analyzing related raw data files through dataflows.",db/journals/concurrency/concurrency28.html#SilvaOVM16
+arch,2013,"Concurrency and Computation: Practice and Experience","Chiron: a parallel engine for algebraic scientific workflows.",db/journals/concurrency/concurrency25.html#OgasawaraDSCOPVM13
 arch,2017,"Concurrency and Computation: Practice and Experience","Modeling and simulation of global and sleep states in ACPI-compliant energy-efficient cloud environments.",db/journals/concurrency/concurrency29.html#XavierRRCG17
 arch,2016,"Concurrency and Computation: Practice and Experience","Watershed-ng: an extensible distributed stream processing framework.",db/journals/concurrency/concurrency28.html#RochaHDFMG16
 arch,2017,"Concurrency and Computation: Practice and Experience","Handling IoT platform heterogeneity with COISA, a compact OpenISA virtual platform.",db/journals/concurrency/concurrency29.html#AulerMBLB17
 arch,2017,"Concurrency and Computation: Practice and Experience","Contextual Spaces Re-Ranking: accelerating the Re-sort Ranked Lists step on heterogeneous systems.",db/journals/concurrency/concurrency29.html#PisaniPTB17
+ds,2013,"Concurrency and Computation: Practice and Experience","Chiron: a parallel engine for algebraic scientific workflows.",db/journals/concurrency/concurrency25.html#OgasawaraDSCOPVM13
+arch,2015,"Concurrency and Computation: Practice and Experience","A distributed virtual hypercube algorithm for maintaining scalable and dynamic network overlays.",db/journals/concurrency/concurrency27.html#BonaDF15
 ds,2018,"Concurrency and Computation: Practice and Experience","Provenance data discovery through Semantic Web resources.",db/journals/concurrency/concurrency30.html#OrnelasBDCC18
+arch,2013,"Concurrency and Computation: Practice and Experience","Profiling divergences in GPU applications.",db/journals/concurrency/concurrency25.html#CoutinhoSPM13
+arch,2014,"Concurrency and Computation: Practice and Experience","Energy-efficient task allocation with quality of service provisioning for concurrent applications in multi-functional wireless sensor network systems.",db/journals/concurrency/concurrency26.html#LiDPZ14
 arch,2018,"Concurrency and Computation: Practice and Experience","GPU-accelerated backtracking using CUDA Dynamic Parallelism.",db/journals/concurrency/concurrency30.html#PessoaGJMT18
 arch,2018,"Concurrency and Computation: Practice and Experience","Cooperative and out-of-core execution of the irregular wavefront propagation pattern on hybrid machines with Intel® Xeon Phi™.",db/journals/concurrency/concurrency30.html#GomesMKKST18
 arch,2016,"Concurrency and Computation: Practice and Experience","BSP cost and scalability analysis for MapReduce operations.",db/journals/concurrency/concurrency28.html#SengerCAMMSS16
@@ -86,7 +165,9 @@ arch,2017,"Concurrency and Computation: Practice and Experience","Accelerating d
 arch,2017,"Concurrency and Computation: Practice and Experience","C2CU: a CUDA C program generator for bulk execution of a sequential algorithm.",db/journals/concurrency/concurrency29.html#TakafujiNIB17
 arch,2017,"Concurrency and Computation: Practice and Experience","Portability with efficiency of the advection of BRAMS between multi-core and many-core architectures.",db/journals/concurrency/concurrency29.html#JuniorPS17
 arch,2018,"Concurrency and Computation: Practice and Experience","Predictive elastic replication for multi-tenant databases in the cloud.",db/journals/concurrency/concurrency30.html#SousaMFM18
+ds,2013,"Concurrency and Computation: Practice and Experience","Using latency as a QoS indicator for global cloud computing services.",db/journals/concurrency/concurrency25.html#PedersenRDLJP13
 ds,2017,"Concurrency and Computation: Practice and Experience","Characteristics analysis and optimization design of entities collaboration for cloud manufacturing.",db/journals/concurrency/concurrency29.html#LiZWRW17
+arch,2013,"Concurrency and Computation: Practice and Experience","Denial of service mitigation approach for IPv6-enabled smart object networks.",db/journals/concurrency/concurrency25.html#OliveiraRSL13
 arch,2018,"Concurrency and Computation: Practice and Experience","A visual performance analysis framework for task-based parallel applications running on hybrid clusters.",db/journals/concurrency/concurrency30.html#PintoSSLTD18
 arch,2017,"Concurrency and Computation: Practice and Experience","Performance and energy efficiency analysis of HPC physics simulation applications in a cluster of ARM processors.",db/journals/concurrency/concurrency29.html#BezBSSN17
 arch,2017,"Concurrency and Computation: Practice and Experience","Accelerating Pre-stack Kirchhoff Time Migration by Manual Vectorization.",db/journals/concurrency/concurrency29.html#AlvesPSD17
@@ -94,6 +175,7 @@ arch,2015,"Concurrency and Computation: Practice and Experience","Memory aware l
 arch,2015,"Concurrency and Computation: Practice and Experience","A distributed virtual hypercube algorithm for maintaining scalable and dynamic network overlays.",db/journals/concurrency/concurrency27.html#BonaDF15
 arch,2017,"Concurrency and Computation: Practice and Experience","CAP Bench: a benchmark suite for performance and energy evaluation of low-power many-core processors.",db/journals/concurrency/concurrency29.html#SouzaPQPGFCNM17
 arch,2017,"Concurrency and Computation: Practice and Experience","TOAST: Automatic tiling for iterative stencil computations on GPUs.",db/journals/concurrency/concurrency29.html#RochaPRG17
+arch,2015,"Concurrency and Computation: Practice and Experience","PSkel: A stencil programming framework for CPU-GPU systems.",db/journals/concurrency/concurrency27.html#PereiraRG15
 arch,2017,"Concurrency and Computation: Practice and Experience","CAP Bench: a benchmark suite for performance and energy evaluation of low-power many-core processors.",db/journals/concurrency/concurrency29.html#SouzaPQPGFCNM17
 arch,2017,"Concurrency and Computation: Practice and Experience","Design methodology for workload-aware loop scheduling strategies based on genetic algorithm and simulation.",db/journals/concurrency/concurrency29.html#PennaCFBM17
 arch,2018,"Concurrency and Computation: Practice and Experience","A coarse-grained page cache aware multivariate analytical model for the storage performance of a parallel file system.",db/journals/concurrency/concurrency30.html#InacioD18
@@ -101,62 +183,98 @@ arch,2017,"Concurrency and Computation: Practice and Experience","A QoC-based mo
 ds,2017,"Concurrency and Computation: Practice and Experience","A comprehensive and scalable middleware for Ambient Assisted Living based on cloud computing and Internet of Things.",db/journals/concurrency/concurrency29.html#GomesMSRE17
 arch,2016,"Concurrency and Computation: Practice and Experience","Analyzing related raw data files through dataflows.",db/journals/concurrency/concurrency28.html#SilvaOVM16
 ds,2017,"Concurrency and Computation: Practice and Experience",": a declarative performance evaluation environment for infrastructure-as-a-service clouds.",db/journals/concurrency/concurrency29.html#CunhaMS17
+arch,2014,"Concurrency and Computation: Practice and Experience","Energy-efficient task allocation with quality of service provisioning for concurrent applications in multi-functional wireless sensor network systems.",db/journals/concurrency/concurrency26.html#LiDPZ14
 arch,2017,"Concurrency and Computation: Practice and Experience","Performance and energy efficiency analysis of HPC physics simulation applications in a cluster of ARM processors.",db/journals/concurrency/concurrency29.html#BezBSSN17
 arch,2016,"Concurrency and Computation: Practice and Experience","Automatic I/O scheduling algorithm selection for parallel file systems.",db/journals/concurrency/concurrency28.html#BoitoKND16
+arch,2015,"Concurrency and Computation: Practice and Experience","Communication-aware thread mapping using the translation lookaside buffer.",db/journals/concurrency/concurrency27.html#CruzDN15
 ds,2018,"Concurrency and Computation: Practice and Experience","Provenance data discovery through Semantic Web resources.",db/journals/concurrency/concurrency30.html#OrnelasBDCC18
 arch,2017,"Concurrency and Computation: Practice and Experience","Contextual Spaces Re-Ranking: accelerating the Re-sort Ranked Lists step on heterogeneous systems.",db/journals/concurrency/concurrency29.html#PisaniPTB17
 arch,2017,"Concurrency and Computation: Practice and Experience","Exploiting performance, dynamic power and energy scaling in full-system simulators.",db/journals/concurrency/concurrency29.html#DuenhaMMA17
 arch,2016,"Concurrency and Computation: Practice and Experience","Joint-analysis of performance and energy consumption when enabling cloud elasticity for synchronous HPC applications.",db/journals/concurrency/concurrency28.html#RighiCRR16
+arch,2014,"Concurrency and Computation: Practice and Experience","Structural testing for message-passing concurrent programs: an extended test model.",db/journals/concurrency/concurrency26.html#SouzaSZ14
+arch,2013,"Concurrency and Computation: Practice and Experience","Profiling divergences in GPU applications.",db/journals/concurrency/concurrency25.html#CoutinhoSPM13
 theory,2015,"Theor. Comput. Sci.","Generating invariants for non-linear hybrid systems.",db/journals/tcs/tcs594.html#RebihaMM15
 theory,2016,"Theor. Comput. Sci.","On MultiAspect graphs.",db/journals/tcs/tcs651.html#WehmuthFZ16
 formal,2017,"Theor. Comput. Sci.","On concurrent behaviors and focusing in linear logic.",db/journals/tcs/tcs685.html#OlarteP17
 theory,2017,"Theor. Comput. Sci.","On subexponentials, focusing and modalities in concurrent systems.",db/journals/tcs/tcs693.html#NigamOP17
 theory,2016,"Theor. Comput. Sci.","A proof theoretic view of spatial and temporal dependencies in biochemical systems.",db/journals/tcs/tcs641.html#OlarteCFH16
+theory,2015,"Theor. Comput. Sci.","Subexponential concurrent constraint programming.",db/journals/tcs/tcs606.html#OlartePN15
 theory,2016,"Theor. Comput. Sci.","Hierarchical complexity of 2-clique-colouring weakly chordal graphs and perfect graphs having cliques of size at least 3.",db/journals/tcs/tcs618.html#FilhoMF16
+theory,2014,"Theor. Comput. Sci.","Efficient sub-5 approximations for minimum dominating sets in unit disk graphs.",db/journals/tcs/tcs540.html#FonsecaFSM14
+theory,2013,"Theor. Comput. Sci.","Split clique graph complexity.",db/journals/tcs/tcs506.html#AlconFFG13
+theory,2015,"Theor. Comput. Sci.","On the complexity of the traveling umpire problem.",db/journals/tcs/tcs562.html#OliveiraSY15
 theory,2016,"Theor. Comput. Sci.","Proper orientation of cacti.",db/journals/tcs/tcs639.html#AraujoHSS16
 theory,2016,"Theor. Comput. Sci.","Kinetic clustering of points on the line.",db/journals/tcs/tcs639.html#FernandesO16
+theory,2014,"Theor. Comput. Sci.","Second-Price Ad Auctions with Binary Bids and markets with good competition.",db/journals/tcs/tcs540.html#FernandesS14
+theory,2015,"Theor. Comput. Sci.","Locality-preserving allocations problems and coloured bin packing.",db/journals/tcs/tcs596.html#TwiggX15
 formal,2018,"Theor. Comput. Sci.","Towards reasoning about Petri nets: A Propositional Dynamic Logic based approach.",db/journals/tcs/tcs744.html#BenevidesLH18
 formal,2017,"Theor. Comput. Sci.","On concurrent behaviors and focusing in linear logic.",db/journals/tcs/tcs685.html#OlarteP17
 theory,2017,"Theor. Comput. Sci.","On subexponentials, focusing and modalities in concurrent systems.",db/journals/tcs/tcs693.html#NigamOP17
+theory,2015,"Theor. Comput. Sci.","Subexponential concurrent constraint programming.",db/journals/tcs/tcs606.html#OlartePN15
+theory,2013,"Theor. Comput. Sci.","A formal framework for specifying sequent calculus proof systems.",db/journals/tcs/tcs474.html#MillerP13
 theory,2018,"Theor. Comput. Sci.","Cograph generation with linear delay.",db/journals/tcs/tcs713.html#JonesPD18
+theory,2015,"Theor. Comput. Sci.","The predecessor-existence problem for k-reversible processes.",db/journals/tcs/tcs562.html#OliveiraBP15
+theory,2015,"Theor. Comput. Sci.","Tractability and hardness of flood-filling games on trees.",db/journals/tcs/tcs576.html#FellowsSPS15
+theory,2015,"Theor. Comput. Sci.","Complexity analysis of P-convexity problems on bounded-degree and planar graphs.",db/journals/tcs/tcs607.html#PensoPRS15
+formal,2015,"Theor. Comput. Sci.","Bivalent semantics, generalized compositionality and analytic classic-like tableaux for finite-valued logics.",db/journals/tcs/tcs603.html#Caleiro0V15
 theory,2016,"Theor. Comput. Sci.","Proper orientation of cacti.",db/journals/tcs/tcs639.html#AraujoHSS16
+theory,2015,"Theor. Comput. Sci.","On the proper orientation number of bipartite graphs.",db/journals/tcs/tcs566.html#AraujoCRHM15
+theory,2013,"Theor. Comput. Sci.","On the hull number of some graph classes.",db/journals/tcs/tcs475.html#AraujoCGNSS13
 theory,2017,"Theor. Comput. Sci.","Theorem proving graph grammars with attributes and negative application conditions.",db/journals/tcs/tcs686.html#CavalheiroFR17
+theory,2015,"Theor. Comput. Sci.","Rule-based transformation of graph rewriting rules: Towards higher-order graph grammars.",db/journals/tcs/tcs594.html#MachadoRH15
 theory,2016,"Theor. Comput. Sci.","Pull and PushPull are PSPACE-complete.",db/journals/tcs/tcs628.html#PereiraRB16
 theory,2017,"Theor. Comput. Sci.","Theorem proving graph grammars with attributes and negative application conditions.",db/journals/tcs/tcs686.html#CavalheiroFR17
+theory,2014,"Theor. Comput. Sci.","Hardness and inapproximability of convex recoloring problems.",db/journals/tcs/tcs533.html#CampeloHSW14
+formal,2013,"Theor. Comput. Sci.","Semantics and proof-theory of depth bounded Boolean logics.",db/journals/tcs/tcs480.html#DAgostinoFG13
 formal,2018,"Theor. Comput. Sci.","Towards reasoning about Petri nets: A Propositional Dynamic Logic based approach.",db/journals/tcs/tcs744.html#BenevidesLH18
 theory,2017,"Theor. Comput. Sci.","Bisimilar and logically equivalent programs in PDL with parallel operator.",db/journals/tcs/tcs685.html#Benevides17
 theory,2017,"Theor. Comput. Sci.","On a graph calculus for modalities.",db/journals/tcs/tcs685.html#VelosoVB17
 theory,2018,"Theor. Comput. Sci.","Nominal essential intersection types.",db/journals/tcs/tcs737.html#Ayala-RinconFOV18
 theory,2017,"Theor. Comput. Sci.","Intruder deduction problem for locally stable theories with normal forms and inverses.",db/journals/tcs/tcs672.html#Ayala-RinconFN17
 theory,2016,"Theor. Comput. Sci.","Computing role assignments of split graphs.",db/journals/tcs/tcs635.html#Dourado16
+theory,2015,"Theor. Comput. Sci.","Inapproximability results for graph convexity parameters.",db/journals/tcs/tcs600.html#CoelhoDS15
+theory,2015,"Theor. Comput. Sci.","Rule-based transformation of graph rewriting rules: Towards higher-order graph grammars.",db/journals/tcs/tcs594.html#MachadoRH15
 theory,2018,"Theor. Comput. Sci.","The maximum time of 2-neighbor bootstrap percolation: Complexity results.",db/journals/tcs/tcs708.html#MarcilonS18
 theory,2018,"Theor. Comput. Sci.","Spy-game on graphs: Complexity and simple topologies.",db/journals/tcs/tcs725.html#CohenMINPS18
+theory,2015,"Theor. Comput. Sci.","Inapproximability results for graph convexity parameters.",db/journals/tcs/tcs600.html#CoelhoDS15
+theory,2014,"Theor. Comput. Sci.","Hardness and inapproximability of convex recoloring problems.",db/journals/tcs/tcs533.html#CampeloHSW14
+theory,2013,"Theor. Comput. Sci.","Backbone colouring: Tree backbones with small diameter in planar graphs.",db/journals/tcs/tcs487.html#CamposHSS13
 theory,2017,"Theor. Comput. Sci.","Theorem proving graph grammars with attributes and negative application conditions.",db/journals/tcs/tcs686.html#CavalheiroFR17
 theory,2018,"Theor. Comput. Sci.","On the (parameterized) complexity of recognizing well-covered (, )-graph.",db/journals/tcs/tcs746.html#AlvesDFKSS18
+theory,2014,"Theor. Comput. Sci.","Hardness and inapproximability of convex recoloring problems.",db/journals/tcs/tcs533.html#CampeloHSW14
+theory,2014,"Theor. Comput. Sci.","Approximating the maximum consecutive subsums of a sequence.",db/journals/tcs/tcs525.html#CicaleseLWY14
+theory,2013,"Theor. Comput. Sci.","Cycle transversals in perfect graphs and cographs.",db/journals/tcs/tcs469.html#BrandstadtBKNP13
 theory,2017,"Theor. Comput. Sci.","Clustering through Continuous Facility Location Problems.",db/journals/tcs/tcs657.html#MeiraMP17
 theory,2017,"Theor. Comput. Sci.","Generalized threshold processes on graphs.",db/journals/tcs/tcs689.html#LimaRSS17
+theory,2013,"Theor. Comput. Sci.","On the Carathéodory number of interval and graph convexities.",db/journals/tcs/tcs510.html#DouradoRSSS13
 theory,2018,"Theor. Comput. Sci.","Ruling out FPT algorithms for Weighted Coloring on forests.",db/journals/tcs/tcs729.html#AraujoBS18
 theory,2016,"Theor. Comput. Sci.","The maximum infection time in the geodesic and monophonic convexities.",db/journals/tcs/tcs609.html#BenevidesCDSS16
 theory,2016,"Theor. Comput. Sci.","On the geodetic hull number of P-free graphs.",db/journals/tcs/tcs640.html#DouradoRR16
 theory,2018,"Theor. Comput. Sci.","Locally identifying coloring of graphs with few P4s.",db/journals/tcs/tcs707.html#MartinsS18
 theory,2018,"Theor. Comput. Sci.","Sorting permutations and binary strings by length-weighted rearrangements.",db/journals/tcs/tcs715.html#LintzmayerFD18
+theory,2015,"Theor. Comput. Sci.","Approximation algorithms for sorting by length-weighted prefix and suffix operations.",db/journals/tcs/tcs593.html#LintzmayerFD15
 arch,2018,"TACO","Cluster Programming using the OpenMP Accelerator Model.",db/journals/taco/taco15.html#YviquelCA18
 se,2018,"Journal of Systems and Software","Quality of software requirements specification in agile projects: A cross-case analysis of six companies.",db/journals/jss/jss142.html#MedeirosVSG18
 theory,2017,"Theor. Comput. Sci.","Inducing enhanced suffix arrays for string collections.",db/journals/tcs/tcs678.html#LouzaGT17
 ds,2018,"Journal of Systems and Software","Failure patterns in operating systems: An exploratory and observational study.",db/journals/jss/jss137.html#SantosM18
+theory,2015,"Theor. Comput. Sci.","The edge-recoloring cost of monochromatic and properly edge-colored paths and cycles.",db/journals/tcs/tcs602.html#FariaGMM15
 se,2018,"Softw., Pract. Exper.","Work practices and challenges in continuous integration: A survey with Travis CI users.",db/journals/spe/spe48.html#PintoCBR18
 se,2018,"Journal of Systems and Software","What's in a GitHub Star? Understanding Repository Starring Practices in a Social Coding Platform.",db/journals/jss/jss146.html#BorgesV18
 ds,2018,"Softw., Pract. Exper.","Cloud application architecture appraiser (CA3): A multicriteria approach and tool for assessing cloud deployment options based on nonfunctional requirements.",db/journals/spe/spe48.html#JuniorSRM18
 se,2018,"Journal of Systems and Software","An anatomy of requirements engineering in software startups using multi-vocal literature and case survey.",db/journals/jss/jss146.html#TripathiKPOPKUL18
 se,2018,"Journal of Systems and Software","Requirements engineering: A systematic mapping study in agile software development.",db/journals/jss/jss139.html#CurcioNMR18
+se,2015,"Journal of Systems and Software","Progressive Outcomes: A framework for maturing in agile software development.",db/journals/jss/jss102.html#FontanaMRM15
+se,2014,"Journal of Systems and Software","Processes versus people: How should agile software development maturity be defined?",db/journals/jss/jss97.html#FontanaFGRM14
 arch,2018,"Sci. Comput. Program.","Design and implementation of a cross-layer IoT protocol.",db/journals/scp/scp165.html#ResnerAF18
 ds,2017,"Journal of Systems and Software","Stochastic modeling for performance and availability evaluation of hybrid storage systems.",db/journals/jss/jss134.html#BorbaT17
 se,2015,"Journal of Systems and Software","Using SAN formalism to evaluate Follow-The-Sun project scenarios.",db/journals/jss/jss100.html#SantosSF15
+theory,2015,"Theor. Comput. Sci.","Maximum induced matchings close to maximum matchings.",db/journals/tcs/tcs588.html#DuarteJPRS15
 ds,2016,"Concurrency and Computation: Practice and Experience","Intelligent trading architecture.",db/journals/concurrency/concurrency28.html#FreitasFS16
 se,2018,"Journal of Systems and Software","Strategies for managing power relationships in software ecosystems.",db/journals/jss/jss144.html#ValencaAJ18
 se,2017,"Journal of Systems and Software","A theory of power in emerging software ecosystems formed by small-to-medium enterprises.",db/journals/jss/jss134.html#ValencaA17
 se,2016,"Journal of Systems and Software","Can we ask you to collaborate? Analyzing app developer relationships in commercial platform ecosystems.",db/journals/jss/jss113.html#AngerenAJ16
 arch,2018,"Sci. Comput. Program.","Accelerating error-tolerant applications with approximate function reuse.",db/journals/scp/scp165.html#BrandaleroSSB18
+se,2015,"Softw., Pract. Exper.","Designing an adaptive computer-aided ambulance dispatch system with Zanshin: an experience report.",db/journals/spe/spe45.html#SouzaM15
 se,2019,"Sci. Comput. Program.","Hierarchical featured state machines.",db/journals/scp/scp171.html#FragalSM19
 se,2019,"Journal of Systems and Software","Software project management in high maturity: A systematic literature mapping.",db/journals/jss/jss148.html#CerdeiralS19
 pl,2019,"TACO","Static Prediction of Silent Stores.",db/journals/taco/taco15.html#PereiraLG19
@@ -166,6 +284,7 @@ se,2019,"Journal of Systems and Software","On Haskell and energy efficiency.",db
 se,2019,"Journal of Systems and Software","Evaluating the extension mechanisms of the knowledge discovery metamodel for aspect-oriented modernizations.",db/journals/jss/jss149.html#SantosLSDC19
 ds,2018,"Softw., Pract. Exper.","PrivAPP: An integrated approach for the design of privacy-aware applications.",db/journals/spe/spe48.html#BassoMMJB18
 se,2017,"Journal of Systems and Software","Automated extraction of product comparison matrices from informal product descriptions.",db/journals/jss/jss124.html#NasrBAFSBD17
+theory,2015,"Theor. Comput. Sci.","Finding a subdivision of a digraph.",db/journals/tcs/tcs562.html#Bang-JensenHM15
 se,2018,"Journal of Systems and Software","A generic approach to model generation operations.",db/journals/jss/jss142.html#KleinerF18
 theory,2016,"Theor. Comput. Sci.","Minimum vertex cover in generalized random graphs with power law degree distribution.",db/journals/tcs/tcs647.html#VignattiS16
 formal,2019,"Sci. Comput. Program.","Verified simulation for robotics.",db/journals/scp/scp174.html#CavalcantiSMRFD19
@@ -198,6 +317,7 @@ theory,2019,"Theor. Comput. Sci.","A formalisation of nominal -equivalence with 
 theory,2019,"Theor. Comput. Sci.","Typed path polymorphism.",db/journals/tcs/tcs781.html#Ayala-RinconBEV19
 theory,2019,"Theor. Comput. Sci.","Algorithmic networks: Central time to trigger expected emergent open-endedness.",db/journals/tcs/tcs785.html#AbrahaoWZ19
 formal,2018,"Sci. Comput. Program.","Effect-dependent transformations for concurrent programs.",db/journals/scp/scp155.html#BentonHN18
+formal,2014,"Theor. Comput. Sci.","A framework for linear authorization logics.",db/journals/tcs/tcs536.html#Nigam14
 se,2018,"Journal of Systems and Software","A categorization scheme for software engineering conference papers and its application.",db/journals/jss/jss137.html#BertolinoCLMM18
 se,2017,"Journal of Systems and Software","Scope-aided test prioritization, selection and minimization for software reuse.",db/journals/jss/jss131.html#MirandaB17
 formal,2019,"Sci. Comput. Program.","Test case generation, selection and coverage from natural language.",db/journals/scp/scp181.html#NogueiraAAIS19
@@ -211,7 +331,6 @@ ds,2019,"Softw., Pract. Exper.","DCAV: A software system to evaluate next-genera
 se,2019,"Journal of Systems and Software","A systematic literature review of techniques and metrics to reduce the cost of mutation testing.",db/journals/jss/jss157.html#PizzoletoFOFR19
 se,2019,"Journal of Systems and Software","Adopting DevOps in the real world: A theory, a model, and a case study.",db/journals/jss/jss157.html#LuzPB19
 se,2019,"Journal of Systems and Software","Finding needles in a haystack: Leveraging co-change dependencies to recommend refactorings.",db/journals/jss/jss158.html#OliveiraFBPL19
-arch,2019,"Concurr. Comput. Pract. Exp.","ADD: Accelerator Design and Deploy - A tool for FPGA high-performance dataflow computing.",db/journals/concurrency/concurrency31.html#PenhaSSCBNF19
 theory,2020,"Theor. Comput. Sci.","Synthesis of a DNF formula from a sample of strings using Ehrenfeucht-Fraïssé games.",db/journals/tcs/tcs805.html#RochaMF20
 theory,2020,"Theor. Comput. Sci.","On the use of fitness landscape features in meta-learning based algorithm selection for the quadratic assignment problem.",db/journals/tcs/tcs805.html#DantasP20
 theory,2020,"Theor. Comput. Sci.","The graph tessellation cover number: Chromatic bounds, efficient algorithms and hardness.",db/journals/tcs/tcs801.html#AbreuCFKMPP20
