@@ -2,7 +2,7 @@
 
 CSIndexbr (https://csindexbr.org) provides transparent data about Brazilian scientific production in Computer Science. We index full research papers published in selected conferences and journals. The papers are retrieved from <a href="https://dblp.org/">DBLP</a>.
 
-# Programming Language and Dependencies
+# Dependencies
 
 CSIndexbr is implemented in Python 3.9 (backend scripts). The front-end uses HTML and pure Javascript.
 
