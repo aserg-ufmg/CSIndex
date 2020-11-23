@@ -4,7 +4,7 @@ CSIndexbr (https://csindexbr.org) provides transparent data about Brazilian scie
 
 # Programming Language and Dependencies
 
-CSIndexbr is implemented in Python 3.9 (backend scripts) and the front-end is HTML and pure Javascript.
+CSIndexbr is implemented in Python 3.9 (backend scripts). The front-end uses HTML and pure Javascript.
 
 We also use:
 
