@@ -2,7 +2,14 @@
 
 CSIndexbr (https://csindexbr.org) provides transparent data about Brazilian scientific production in Computer Science. We index full research papers published in selected conferences and journals. The papers are retrieved from <a href="https://dblp.org/">DBLP</a>.
 
-CSIndexbr is implemented in Python 2.7 (backend scripts) and the interfaces is HTML/Javascript.
+# Dependencies
+
+CSIndexbr is implemented in Python 3.9 (backend scripts). The front-end uses HTML and pure Javascript.
+
+We also use:
+
+* [requests](https://pypi.org/project/requests/): "a simple, yet elegant HTTP library", which is used to retrieve data from DBLP.
+* [xmltodict](https://pypi.org/project/xmltodict/): "a Python module that makes working with XML feel like you are working with JSON", which is used to parse the XML files returned by DBLP.
 
 # Scripts 
 
