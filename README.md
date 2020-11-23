@@ -9,7 +9,7 @@ CSIndexbr is implemented in Python 3.9 (backend scripts). The front-end uses HTM
 We also use:
 
 * [requests](https://pypi.org/project/requests/): "a simple, yet elegant HTTP library", which is used to retrieve data from DBLP.
-* [xmltodict](https://pypi.org/project/xmltodict/): "a Python module that makes working with XML feel like you are working with JSON", which is used the XML files returned by DBLP.
+* [xmltodict](https://pypi.org/project/xmltodict/): "a Python module that makes working with XML feel like you are working with JSON", which is used to parse the XML files returned by DBLP.
 
 # Scripts 
 
