@@ -298,3 +298,5 @@ arch,2020,"Concurr. Comput. Pract. Exp.","Task-based parallel strategies for com
 theory,2020,"Theor. Comput. Sci.","Synthesis of quantifier-free DNF sentences from inconsistent samples of strings with EF games and SAT.",db/journals/tcs/tcs843.html#RochaMF20a
 theory,2020,"Theor. Comput. Sci.","Randomized approximation scheme for Steiner Multi Cycle in the Euclidean plane.",db/journals/tcs/tcs835.html#LintzmayerMMX20
 theory,2020,"Theor. Comput. Sci.","Computing the hull number in Δ-convexity.",db/journals/tcs/tcs844.html#AnandACDR20
+formal,2021,"Sci. Comput. Program.","A family of multi-concept program synthesisers in Alloy.",db/journals/scp/scp201.html#CorreiaIM21
+formal,2021,"Sci. Comput. Program.","Validating, verifying and testing timed data-flow reactive systems in Coq from controlled natural-language requirements.",db/journals/scp/scp201.html#CarvalhoM21
