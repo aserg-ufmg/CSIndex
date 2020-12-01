@@ -20,9 +20,9 @@ def get_dblp_file(pid,prof):
          url = "http://dblp.org/pid/" + pid + ".xml"
          bibfile = requests.get(url).text
          with open(file, 'w') as f:
-            f.write(bibfile.encode("UTF-8"))
+            f.write(str(bibfile))
        except requests.exceptions.RequestException as e:
-         print e
+         print (e)
          sys.exit(1)
     return bibfile
 
@@ -44,7 +44,7 @@ if download:
        prof = researcher[0]
        department = researcher[1]
        pid = researcher[2]
-       print str(count) + " >> " + prof + "," + department
+       print (str(count) + " >> " + prof + "," + department)
        prof = prof.replace(" ", "-")
        file = '../cache/dblp/' + prof + '.xml'
        try:
@@ -53,22 +53,22 @@ if download:
          with open(file, 'w') as f:
            f.write(bibfile)
        except requests.exceptions.RequestException as e:
-         print e
+         print (e)
          sys.exit(1)
        time.sleep(5)
        count = count + 1
    elapsed_time = (time.time() - start_time) / 60
    elapsed_time = round(elapsed_time, 2)
-   print "Elapsed time (min): " + str(elapsed_time)
+   print ("Elapsed time (min): " + str(elapsed_time))
 
-print "Testing files ...."
+print ("Testing files ....")
 reader = csv.reader(open("all-researchers.csv", 'r'))
 count = 1;
 for researcher in reader:
     prof = researcher[0]
     department = researcher[1]
     pid = researcher[2]
-    print str(count) + " >> " + prof + "," + department
+    print (str(count) + " >> " + prof + "," + department)
     bibfile = get_dblp_file(pid,prof)
     xmltodict.parse(bibfile, item_depth=3, item_callback=parse_dblp)
     count = count + 1

@@ -18,7 +18,7 @@ rm ./dblp/*
 
 cd ../data
 
-python ../dblp.py
+python3 ../dblp.py
 
 end=`date +%s`
 echo '############# dblp update finished #############'

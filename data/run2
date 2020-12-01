@@ -3,7 +3,7 @@ for area in "$@"
 do
   echo '##################' $area '##################'
   start=`date +%s`
-  python ../csindexbr.py $area
+  python3 ../csindexbr.py $area
   end=`date +%s`
   echo '##################' $area "finished" '##################'
   runtime1=$(($end-$start))

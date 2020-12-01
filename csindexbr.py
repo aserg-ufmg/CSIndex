@@ -190,8 +190,15 @@ def output_venues():
            confs.append(p[1][1])
         else:
            journals.append(p[1][1])
-    result1 = sorted([(c, confs.count(c)) for c in conflist], key=lambda x: x[1], reverse=True)
-    result2 = sorted([(c, journals.count(c)) for c in journallist], key=lambda x: x[1], reverse=True)
+
+    # result1 = sorted([(c, confs.count(c)) for c in conflist], key=lambda x: x[1], reverse=True)
+    result1_temp = sorted([(c, confs.count(c)) for c in conflist], key=lambda x: x[0])
+    result1 = sorted(result1_temp, key=lambda x: x[1], reverse=True)
+
+    # result2 = sorted([(c, journals.count(c)) for c in journallist], key=lambda x: x[1], reverse=True)
+    result2_temp = sorted([(c, journals.count(c)) for c in journallist], key=lambda x: x[0])
+    result2 = sorted(result2_temp, key=lambda x: x[1], reverse=True)
+
     if len(result1) > 0:
        f1 = open(area_prefix + '-out-confs.csv','w')
        for c in result1:
@@ -214,16 +221,16 @@ def write_paper(f, is_prof_tab, paper):
     f.write(',')
     f.write(str(paper[1]))
     f.write(',')
-    f.write(str(paper[2].encode('utf-8')))
+    f.write(str(paper[2]))
     f.write(',')
     if is_prof_tab:
        f.write(str(paper[3]))  # department
        f.write(',')
     authors= paper[4]
     for author in authors[:-1]:
-        f.write(str(author.encode('utf-8')))
+        f.write(str(author))
         f.write('; ')
-    f.write(str(authors[-1].encode('utf-8')))
+    f.write(str(authors[-1]))
     f.write(',')
     f.write(str(paper[5]))
     f.write(',')
@@ -276,7 +283,7 @@ def output_scores():
       dept = sorted_scores[i][0]
       f2.write(str(dept))
       f2.write(',')
-      s = sorted_scores[i][1]
+      s = round(sorted_scores[i][1],2)
       f2.write(str(s))
       f2.write('\n')
   f2.close()
@@ -328,7 +335,7 @@ def remove_prof_papers_file(area_prefix, prof_name):
     prof_name = prof_name.replace(" ", "-")
     file_name = "../cache/profs/" + area_prefix + "-" + prof_name + '-papers.csv'
     if os.path.exists(file_name):
-       print "Removing "+ file_name
+       print ("Removing "+ file_name)
        os.remove(file_name)
 
 def file_len(fname):
@@ -429,7 +436,7 @@ def getAuthors(authorList):
     if type(authorList) is collections.OrderedDict: # single author paper
        authorList = authorList["#text"]
        authors.append(authorList)
-    elif isinstance(authorList, basestring):  # single author paper
+    elif isinstance(authorList, str):  # single author paper
        if type(authorList) is collections.OrderedDict:
           authorList = authorList["#text"]
        authors.append(authorList)
@@ -473,7 +480,7 @@ def getDBLPVenue(dblp):
     elif 'booktitle' in dblp:
            dblp_venue = dblp['booktitle']
     else:
-       print "Failed parsing DBLP: " + prof_name
+       print ("Failed parsing DBLP: " + prof_name)
        System.exit(1)
     return dblp_venue
 
@@ -490,7 +497,7 @@ def write_mc_failed(year,dblp_venue,title,url):
     mc_failed_file.write(",")
     mc_failed_file.write('"' + str(dblp_venue) + '"')
     mc_failed_file.write(",")
-    mc_failed_file.write('"' + title.encode('utf-8') + '"')
+    mc_failed_file.write('"' + title + '"')
     mc_failed_file.write(",")
     mc_failed_file.write(str(url))
     mc_failed_file.write("\n")
@@ -578,9 +585,9 @@ def get_dblp_file(pid,prof):
          url = "http://dblp.org/pid/" + pid + ".xml"
          bibfile = requests.get(url).text
          with open(file, 'w') as f:
-            f.write(bibfile.encode("UTF-8"))
+            f.write(str(bibfile))
        except requests.exceptions.RequestException as e:
-         print e
+         print (e)
          sys.exit(1)
     return bibfile
 
@@ -597,7 +604,7 @@ def outuput_everything():
 
     generate_search_box_list()
     if multi_area_journal:
-       print  ALERT_ON + "Found papers in MULTI-AREA journals" + ALERT_OFF
+       print  (ALERT_ON + "Found papers in MULTI-AREA journals" + ALERT_OFF)
     mc_failed_file.close()
     log.close()
 
@@ -619,8 +626,8 @@ for area_tuple in reader3:
      MIN_PAPER_SIZE = int(area_tuple[1])
      break
 
-print "Research Area: " + area_prefix
-print "Minimun paper size: " + str(MIN_PAPER_SIZE)
+print ("Research Area: " + area_prefix)
+print ("Minimun paper size: " + str(MIN_PAPER_SIZE))
 
 reader1 = csv.reader(open(confs_file_name, 'r'))
 confdata = {}
@@ -671,7 +678,7 @@ for researcher in reader2:
     if found_paper:
        profs_list.append((prof_name,department))
        profs[department] += 1
-       print str(count) + " >> " + prof_name + ", " + department
+       print (str(count) + " >> " + prof_name + ", " + department)
        output_prof_papers(prof_name)
        merge_output_prof_papers(prof_name)
 
