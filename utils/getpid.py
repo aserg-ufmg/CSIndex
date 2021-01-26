@@ -1,8 +1,12 @@
 import xmltodict
 import csv
-import urllib2
 import sys
 
+try:
+    import urllib.request as urllib2
+except ImportError:
+    import urllib2
+    
 def handle_author(_, author):
     
     global pid
@@ -17,7 +21,7 @@ def handle_author(_, author):
           x3 = x2['info']
           x4 = x3['url']
        pid = x4.replace("http://dblp.org/pid/","")
-       print pid
+       print (pid)
        return True
     pid= "null"   
     return False
@@ -29,7 +33,7 @@ reader2 = csv.reader(open(sys.argv[1], 'r'))
 count = 1;
 pid = "null"
 for researcher in reader2:
-  print str(count) + " >> " + researcher[0]
+  print (str(count) + " >> " + researcher[0])
   
   query = urllib2.quote(researcher[0])
   url_dblp = 'http://dblp.org/search/author/api?q=%s' % (query)
@@ -45,7 +49,7 @@ for researcher in reader2:
   f2.write('\n')
    
   count= count + 1;
-  print "####################################" 
+  print ("####################################")
   
 f2.close  
     
