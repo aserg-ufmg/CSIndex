@@ -4,7 +4,7 @@
 2019,IJCAI,"Iterative Budgeted Exponential Search.",Malte Helmert; Tor Lattimore; Levi H. S. Lelis; Laurent Orseau; Nathan R. Sturtevant,https://doi.org/10.24963/ijcai.2019/174,top,C,http://arxiv.org/abs/1907.13062v1,0
 2019,IJCAI,"Procedural Generation of Initial States of Sokoban.",Dâmaris S. Bento; André Grahl Pereira; Levi H. S. Lelis,https://doi.org/10.24963/ijcai.2019/646,top,C,http://arxiv.org/abs/1907.02548v1,0
 2018,AAAI,"Asymmetric Action Abstractions for Multi-Unit Control in Adversarial Real-Time Games.",Rubens O. Moraes; Levi H. S. Lelis,https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17346,top,C,no_arxiv,0
-2018,NIPS/NeurIPS,"Single-Agent Policy Tree Search With Guarantees.",Laurent Orseau; Levi Lelis; Tor Lattimore; Theophane Weber,http://papers.nips.cc/paper/7582-single-agent-policy-tree-search-with-guarantees,top,C,no_arxiv,0
+2018,NIPS/NeurIPS,"Single-Agent Policy Tree Search With Guarantees.",Laurent Orseau; Levi Lelis; Tor Lattimore; Theophane Weber,https://proceedings.neurips.cc/paper/2018/hash/52c5189391854c93e8a0e1326e56c14f-Abstract.html,top,C,no_arxiv,0
 2017,IJCAI,"Stratified Strategy Selection for Unit Control in Real-Time Strategy Games.",Levi H. S. Lelis,https://doi.org/10.24963/ijcai.2017/522,top,C,no_arxiv,0
 2017,IJCAI,"On Creating Complementary Pattern Databases.",Santiago Franco; Álvaro Torralba; Levi H. S. Lelis; Mike Barley,https://doi.org/10.24963/ijcai.2017/601,top,C,no_arxiv,0
 2016,Artificial Intelligence,"Predicting optimal solution costs with bidirectional stratified sampling in regular search spaces.",Levi H. S. Lelis; Roni Stern; Shahab Jabbari Arfaee; Sandra Zilles; Ariel Felner; Robert C. Holte,https://doi.org/10.1016/j.artint.2015.09.012,null,J,no_arxiv,0
