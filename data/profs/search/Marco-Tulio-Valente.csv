@@ -1,5 +1,6 @@
 2016,ICPE,"Learning from Source Code History to Identify Performance Failures.",Juan Pablo Sandoval Alcocer; Alexandre Bergel; Marco Tulio Valente,https://doi.org/10.1145/2851553.2851571,null,C,no_arxiv,0
 2019,IEEE Computer,"How Do Developers Promote Open Source Projects?",Hudson S. Borges; Marco Tulio Valente,https://doi.org/10.1109/MC.2018.2888770,null,J,http://arxiv.org/abs/1908.04219v1,0
+2021,IST,"Mining the Technical Roles of GitHub Users.",João Eduardo Montandon; Marco Tulio Valente; Luciana Lourdes Silva,https://doi.org/10.1016/j.infsof.2020.106485,null,J,no_arxiv,0
 2021,JSS,"Are game engines software frameworks? A three-perspective study.",Cristiano Politowski; Fábio Petrillo; João Eduardo Montandon; Marco Tulio Valente; Yann-Gaël Guéhéneuc,https://doi.org/10.1016/j.jss.2020.110846,null,J,no_arxiv,0
 2020,EMSE,"You broke my code: understanding the motivations for breaking changes in APIs.",Aline Brito; Marco Tulio Valente; Laerte Xavier; André C. Hora,https://doi.org/10.1007/s10664-019-09756-z,null,J,no_arxiv,0
 2020,IST,"Is this GitHub project maintained? Measuring the level of maintenance activity of open-source projects.",Jailton Coelho; Marco Tulio Valente; Luciano Milen; Luciana Lourdes Silva,https://doi.org/10.1016/j.infsof.2020.106274,null,J,no_arxiv,0
@@ -17,7 +18,7 @@
 2018,JSS,"On the use of replacement messages in API deprecation: An empirical study.",Gleison Brito; André C. Hora; Marco Tulio Valente; Romain Robbes,https://doi.org/10.1016/j.jss.2017.12.007,null,J,no_arxiv,0
 2018,JSS,"JMove: A novel heuristic and tool to detect move method refactoring opportunities.",Ricardo Terra; Marco Tulio Valente; Sergio Miranda; Vitor Sales,https://doi.org/10.1016/j.jss.2017.11.073,null,J,no_arxiv,0
 2018,JSS,"What's in a GitHub Star? Understanding Repository Starring Practices in a Social Coding Platform.",Hudson Borges; Marco Tulio Valente,https://doi.org/10.1016/j.jss.2018.09.016,null,J,http://arxiv.org/abs/1811.07643v1,0
-2018,IEEE Software,"AngularJS Performance: A Survey Study.",Miguel Ramos; Marco Tulio Valente; Ricardo Terra,https://doi.org/10.1109/MS.2017.265100610,null,J,http://arxiv.org/abs/1705.02506v1,0
+2018,IEEE Software,"AngularJS Performance: A Survey Study.",Miguel Ramos 0001; Marco Tulio Valente; Ricardo Terra,https://doi.org/10.1109/MS.2017.265100610,null,J,http://arxiv.org/abs/1705.02506v1,0
 2018,SQJ,"How do developers react to API evolution? A large-scale empirical study.",André C. Hora; Romain Robbes; Marco Tulio Valente; Nicolas Anquetil; Anne Etien; Stéphane Ducasse,https://doi.org/10.1007/s11219-016-9344-4,null,J,no_arxiv,0
 2018,ESEM,"Identifying unmaintained projects in github.",Jailton Coelho; Marco Tulio Valente; Luciana Lourdes Silva; Emad Shihab,https://doi.org/10.1145/3239235.3240501,null,C,http://arxiv.org/abs/1809.04041v1,0
 2018,ICSE,"Assessing the threat of untracked changes in software evolution.",André C. Hora; Danilo Silva; Marco Tulio Valente; Romain Robbes,https://doi.org/10.1145/3180155.3180212,top,C,no_arxiv,0
