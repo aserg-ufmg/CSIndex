@@ -311,3 +311,4 @@ pl,2021,"Softw. Pract. Exp.","Practical dynamic reconstruction of control flow g
 arch,2021,"Concurr. Comput. Pract. Exp.","A CPU-FPGA heterogeneous approach for biological sequence comparison using high-level synthesis.",db/journals/concurrency/concurrency33.html#JorgeNMG21
 ds,2021,"Concurr. Comput. Pract. Exp.","Towards optimizing the execution of spark scientific workflows using machine learning-based parameter tuning.",db/journals/concurrency/concurrency33.html#OliveiraPBO21
 ds,2021,"Concurr. Comput. Pract. Exp.","Highly collaborative distributed systems: Synthesis and enactment at work.",db/journals/concurrency/concurrency33.html#AutiliPLTKS21
+theory,2021,"Theor. Comput. Sci.","A computational complexity comparative study of graph tessellation problems.",db/journals/tcs/tcs858.html#AbreuCFKMPP21
