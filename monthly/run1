@@ -1,2 +1,2 @@
 cd ../data
-python ../dblp.py -test
+./run2 se
