@@ -1,3 +1,5 @@
+2021,CGO,"ANGHABENCH: A Suite with One Million Compilable C Benchmarks for Code-Size Reduction.",UFMG,Anderson Faustino da Silva; Bruno Conde Kind; José Wesley de Souza Magalhães; Jerônimo Nunes Rocha; Breno Campos Ferreira Guimarães; Fernando Magno Quintão Pereira,https://doi.org/10.1109/CGO51591.2021.9370322,null,C,no_arxiv,0
+2021,CGO,"Memory-Safe Elimination of Side Channels.",UFMG,Luigi Soares; Fernando Magno Quintão Pereira,https://doi.org/10.1109/CGO51591.2021.9370305,null,C,no_arxiv,0
 2020,OOPSLA,"Dynamic dispatch of context-sensitive optimizations.",UFMG,Gabriel Poesia; Fernando Magno Quintão Pereira,https://doi.org/10.1145/3428235,top,C,no_arxiv,0
 2020,OOPSLA,"Semiring optimizations: dynamic elision of expressions with identity and absorbing elements.",UFMG,Guilherme V. Leobas; Fernando Magno Quintão Pereira,https://doi.org/10.1145/3428199,top,C,no_arxiv,0
 2020,SCP,"A type-directed algorithm to generate random well-typed Java 8 programs.",UFPEL,Samuel da Silva Feitosa; Rodrigo Geraldo Ribeiro; André Rauber Du Bois,https://doi.org/10.1016/j.scico.2020.102494,null,J,no_arxiv,0
