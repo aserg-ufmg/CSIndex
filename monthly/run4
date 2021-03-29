@@ -1,2 +1,2 @@
 cd ../data
-./run2 theory
+./run2 formal chi net ds 
