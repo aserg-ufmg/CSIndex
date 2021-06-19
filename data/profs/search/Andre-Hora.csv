@@ -5,7 +5,7 @@
 2020,ICSME,"Assessing Mock Classes: An Empirical Study.",Gustavo Pereira; André C. Hora,https://doi.org/10.1109/ICSME46990.2020.00050,null,C,no_arxiv,0
 2020,SANER,"Refactoring Graphs: Assessing Refactoring over Time.",Aline Brito; André C. Hora; Marco Tulio Valente,https://doi.org/10.1109/SANER48275.2020.9054864,null,C,http://arxiv.org/abs/2003.04666v1,0
 2019,SCP,"Measuring and analyzing code authorship in 1 + 118 open source projects.",Guilherme Avelino; Leonardo Teixeira Passos; André C. Hora; Marco Tulio Valente,https://doi.org/10.1016/j.scico.2019.03.001,null,J,no_arxiv,0
-2019,ESEM,"Framework Code Samples: How Are They Maintained and Used by Developers?",Gabriel Menezes; Bruno Cafeo; André C. Hora,https://doi.org/10.1109/ESEM.2019.8870139,null,C,http://arxiv.org/abs/1907.05564v1,0
+2019,ESEM,"Framework Code Samples: How Are They Maintained and Used by Developers?",Gabriel Menezes; Bruno B. P. Cafeo; André C. Hora,https://doi.org/10.1109/ESEM.2019.8870139,null,C,http://arxiv.org/abs/1907.05564v1,0
 2018,JSS,"On the use of replacement messages in API deprecation: An empirical study.",Gleison Brito; André C. Hora; Marco Tulio Valente; Romain Robbes,https://doi.org/10.1016/j.jss.2017.12.007,null,J,no_arxiv,0
 2018,SQJ,"How do developers react to API evolution? A large-scale empirical study.",André C. Hora; Romain Robbes; Marco Tulio Valente; Nicolas Anquetil; Anne Etien; Stéphane Ducasse,https://doi.org/10.1007/s11219-016-9344-4,null,J,no_arxiv,0
 2018,ICSE,"Assessing the threat of untracked changes in software evolution.",André C. Hora; Danilo Silva; Marco Tulio Valente; Romain Robbes,https://doi.org/10.1145/3180155.3180212,top,C,no_arxiv,0

@@ -36,3 +36,4 @@ db/journals/infsof/infsof109.html#NepomucenoS19
 db/journals/sqj/sqj28.html#BayleyCM20
 db/journals/infsof/infsof129.html#MontandonPSVPG21
 db/journals/infsof/infsof132.html#AmalfitanoMT21
+db/journals/scp/scp205.html#MassoniM21
