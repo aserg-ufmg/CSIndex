@@ -334,3 +334,4 @@ theory,2021,"Theor. Comput. Sci.","Recoloring subgraphs of  for sports schedulin
 se,2021,"J. Syst. Softw.","Characterizing top ranked code examples in Google.",db/journals/jss/jss178.html#Hora21
 se,2021,"J. Syst. Softw.","Evaluating T-wise testing strategies in a community-wide dataset of configurable software systems.",db/journals/jss/jss179.html#FerreiraVDF21
 se,2021,"J. Syst. Softw.","Three decades of software reference architectures: A systematic mapping study.",db/journals/jss/jss179.html#GarcesMOVAFN21
+arch,2021,"ACM Trans. Archit. Code Optim.","KernelFaRer: Replacing Native-Code Idioms with High-Performance Library Calls.",db/journals/taco/taco18.html#CarvalhoKKABMA21

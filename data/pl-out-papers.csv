@@ -1,5 +1,6 @@
 2021,CGO,"ANGHABENCH: A Suite with One Million Compilable C Benchmarks for Code-Size Reduction.",UFMG,Anderson Faustino da Silva; Bruno Conde Kind; José Wesley de Souza Magalhães; Jerônimo Nunes Rocha; Breno Campos Ferreira Guimarães; Fernando Magno Quintão Pereira,https://doi.org/10.1109/CGO51591.2021.9370322,null,C,no_arxiv,0
 2021,CGO,"Memory-Safe Elimination of Side Channels.",UFMG,Luigi Soares; Fernando Magno Quintão Pereira,https://doi.org/10.1109/CGO51591.2021.9370305,null,C,no_arxiv,0
+2021,ECOOP,"Dealing with Variability in API Misuse Specification.",UnB,Rodrigo Bonifácio; Stefan Krüger; Krishna Narasimhan; Eric Bodden; Mira Mezini,https://doi.org/10.4230/LIPIcs.ECOOP.2021.19,null,C,http://arxiv.org/abs/2105.04950v2,0
 2021,SPE,"Practical dynamic reconstruction of control flow graphs.",UFMG,Andrei Rimsa; José Nelson Amaral; Fernando M. Q. Pereira,https://doi.org/10.1002/spe.2907,null,J,no_arxiv,0
 2020,OOPSLA,"Dynamic dispatch of context-sensitive optimizations.",UFMG,Gabriel Poesia; Fernando Magno Quintão Pereira,https://doi.org/10.1145/3428235,top,C,no_arxiv,0
 2020,OOPSLA,"Semiring optimizations: dynamic elision of expressions with identity and absorbing elements.",UFMG,Guilherme V. Leobas; Fernando Magno Quintão Pereira,https://doi.org/10.1145/3428199,top,C,no_arxiv,0
@@ -30,7 +31,7 @@
 2017,GPCE,"Avoiding useless mutants.",UFPE; UFSCar; ICMC/USP; UFAL; UFCG; IFAL,Leonardo Fernandes; Márcio Ribeiro 0001; Luiz Carvalho; Rohit Gheyi; Melina Mongiovi; André L. M. Santos; Ana Cavalcanti; Fabiano Cutigi Ferrari; José Carlos Maldonado,https://doi.org/10.1145/3136040.3136053,null,C,no_arxiv,0
 2017,OOPSLA,"Evaluating and improving semistructured merge.",IFAL; UFCA; UFPE,Guilherme Cavalcanti; Paulo Borba; Paola R. G. Accioly,https://doi.org/10.1145/3133883,top,C,no_arxiv,0
 2017,OOPSLA,"Static placement of computation on heterogeneous devices.",UFMG,Gabriel Poesia; Breno Campos Ferreira Guimarães; Fabricio Ferracioli; Fernando Magno Quintão Pereira,https://doi.org/10.1145/3133874,top,C,no_arxiv,0
-2017,PPoPP,"Function Call Re-Vectorization.",UFMG,Rubens E. A. Moreira; Sylvain Collange; Fernando Magno Quintão Pereira,http://dl.acm.org/citation.cfm?id=3018751,null,C,no_arxiv,0
+2017,PPoPP,"Function Call Re-Vectorization.",UFMG,Rubens E. A. Moreira; Sylvain Collange; Fernando Magno Quintão Pereira,https://doi.org/10.1145/3018743.3018751,null,C,no_arxiv,0
 2017,TACO,"DawnCC: Automatic Annotation for Data Parallelism and Offloading.",UFMG; UNICAMP,Gleison Souza Diniz Mendonca; Breno Campos Ferreira Guimarães; Péricles Alves; Marcio Machado Pereira; Guido Araujo; Fernando Magno Quintão Pereira,https://doi.org/10.1145/3084540,top,J,no_arxiv,0
 2016,CGO,"Inference of peak density of indirect branches to detect ROP attacks.",UFMG,Mateus Tymburibá; Rubens E. A. Moreira; Fernando Magno Quintão Pereira,https://doi.org/10.1145/2854038.2854049,null,C,no_arxiv,0
 2016,CGO,"Symbolic range analysis of pointers.",UFMG,Vitor Paisante; Maroua Maalej; Leonardo Barbosa e Oliveira; Laure Gonnord; Fernando Magno Quintão Pereira,https://doi.org/10.1145/2854038.2854050,null,C,no_arxiv,0
