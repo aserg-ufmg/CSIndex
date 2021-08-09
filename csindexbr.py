@@ -511,8 +511,38 @@ def hasDept(dept_str, dept):
            return True
     return False
 
+
+def init_sbes():
+    global sbes_file, sbes
+    sbes = 0
+    sbes_file = open('sbes-papers.csv','w')
+
+
+def output_prof_sbes(prof):
+    global sbes
+    if sbes > 0:
+       sbes_file.write(prof)
+       sbes_file.write(",")
+       sbes_file.write(str(sbes))
+       sbes_file.write("\n")
+       sbes = 0
+
+
+def parse_sbes(dblp):
+    global sbes
+    if ('booktitle' in dblp):
+       if (dblp['booktitle'] == "SEKE"):
+          sbes = sbes +1
+
+
+def close_sbes():
+    sbes_file.close()
+
+
 def parse_dblp(_, dblp):
     global department, found_paper, black_list
+
+    # parse_sbes(dblp)
 
     if ('journal' in dblp) or ('booktitle' in dblp):
        dblp_venue = getDBLPVenue(dblp)
@@ -599,6 +629,7 @@ def outuput_everything():
     output_profs_list()
     output_arxiv_cache(area_prefix)
 
+    close_sbes()
     # disabled
     # output_citations_cache(area_prefix)
 
@@ -657,6 +688,8 @@ open_arxiv_cache(area_prefix)
 
 remove_prof_cache()
 
+init_sbes()
+
 reader2 = csv.reader(open("all-researchers.csv", 'r'))
 count = 1;
 for researcher in reader2:
@@ -673,7 +706,10 @@ for researcher in reader2:
     found_paper = False
     bibfile = get_dblp_file(pid,prof_name)
     pid_papers = []
+
     xmltodict.parse(bibfile, item_depth=3, item_callback=parse_dblp)
+
+    output_prof_sbes(prof_name)
 
     if found_paper:
        profs_list.append((prof_name,department))
