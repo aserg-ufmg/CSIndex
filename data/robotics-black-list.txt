@@ -2,3 +2,4 @@ db/journals/jirs/jirs98.html#TorresenKP20
 db/journals/jirs/jirs80.html#BatistaDB15
 db/journals/jirs/jirs91.html#GoncalvesT18
 db/journals/jirs/jirs99.html#NascimentoBCG20
+db/journals/jirs/jirs102.html#PereiraDWM21
