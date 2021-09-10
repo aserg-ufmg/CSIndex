@@ -16,3 +16,4 @@ db/journals/ijpp/ijpp44.html#WangNMW16
 db/journals/fgcs/fgcs73.html#BatistaFSFP17a
 db/journals/fgcs/fgcs110.html#AridhiMNZ20
 db/journals/scp/scp205.html#MassoniM21
+db/journals/concurrency/concurrency33.html#CamargoMM21

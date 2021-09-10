@@ -335,4 +335,12 @@ se,2021,"J. Syst. Softw.","Characterizing top ranked code examples in Google.",d
 se,2021,"J. Syst. Softw.","Evaluating T-wise testing strategies in a community-wide dataset of configurable software systems.",db/journals/jss/jss179.html#FerreiraVDF21
 se,2021,"J. Syst. Softw.","Three decades of software reference architectures: A systematic mapping study.",db/journals/jss/jss179.html#GarcesMOVAFN21
 arch,2021,"ACM Trans. Archit. Code Optim.","KernelFaRer: Replacing Native-Code Idioms with High-Performance Library Calls.",db/journals/taco/taco18.html#CarvalhoKKABMA21
-ds,2021,"Softw. Pract. Exp.","A lightweight virtualization model to enable edge computing in deeply embedded systems.",db/journals/spe/spe51.html#TiburskiMFMH21
+arch,2021,"Softw. Pract. Exp.","A lightweight virtualization model to enable edge computing in deeply embedded systems.",db/journals/spe/spe51.html#TiburskiMFMH21
+arch,2021,"Concurr. Comput. Pract. Exp.","Memory allocation anomalies in high-performance computing applications: A study with numerical simulations.",db/journals/concurrency/concurrency33.html#GomesMSM21
+arch,2021,"Concurr. Comput. Pract. Exp.","High-performance IO for seismic processing on the cloud.",db/journals/concurrency/concurrency33.html#GuimaraesLRB21
+arch,2021,"Concurr. Comput. Pract. Exp.","Smart selection of optimizations in dynamic compilers.",db/journals/concurrency/concurrency33.html#RosarioSCNBB21
+arch,2021,"Concurr. Comput. Pract. Exp.","Contextual contracts for component-oriented resource abstraction in a cloud of high performance computing services.",db/journals/concurrency/concurrency33.html#JuniorAD21
+arch,2021,"Concurr. Comput. Pract. Exp.","An open computing language-based parallel Brute Force algorithm for formal concept analysis on heterogeneous architectures.",db/journals/concurrency/concurrency33.html#NovaisMSSF21
+arch,2021,"Concurr. Comput. Pract. Exp.","Energy efficiency and portability of oil and gas simulations on multicore and graphics processing unit architectures.",db/journals/concurrency/concurrency33.html#SerpaPCMPACN21
+arch,2021,"Concurr. Comput. Pract. Exp.","Structural testing for communication events into loops of message-passing parallel programs.",db/journals/concurrency/concurrency33.html#DiazSS21
+arch,2021,"Concurr. Comput. Pract. Exp.","Investigating memory prefetcher performance over parallel applications: From real to simulated.",db/journals/concurrency/concurrency33.html#GirelliMSCN21
