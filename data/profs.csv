@@ -15,7 +15,7 @@ Agma Traina,ICMC/USP,DATA
 Alan Moraes,UFPB,SE
 Alana Da Gama,UFPE,AI
 Alba Melo,UnB,ARCH
-Alberto Ferreira De Souza,UFES,AI
+Alberto Ferreira De Souza,UFES,VISION
 Alberto Laender,UFMG,DATA
 Alberto Raposo,PUC-Rio,GRAPHICS
 Alberto Schaeffer Filho,UFRGS,NET
@@ -27,7 +27,7 @@ Aldri dos Santos,UFMG,NET
 Alejandro Frery,UFAL,AI
 Alessandra Alaniz Macedo,FFCLRP/USP,AI
 Alessandro Garcia,PUC-Rio,SE
-Aleteia de Araujo,UnB,BIO
+Aleteia de Araujo,UnB,ARCH
 Alex Sandro Gomes,UFPE,AI
 Alex Sandro Roschildt Pinto,UFSC,DS
 Alex Vieira,UFJF,NET
@@ -92,7 +92,7 @@ Andreia Malucelli,PUC-PR,CHI
 Andrey Brito,UFCG,DS
 Anelise Munaretto,UTFPR,AI
 Angelo Brayner,UFC,ARCH
-Anisio Lacerda,UFMG,AI
+Anisio Lacerda,UFMG,DATA
 Anna Costa,POLI/USP,AI
 Anne Canuto,UFRN,AI
 Anselmo Cardoso de Paiva,UFMA,GRAPHICS
@@ -181,7 +181,7 @@ Claudia Bauzer Medeiros,UNICAMP,ARCH
 Claudia Linhares Sales,UFC,THEORY
 Claudia Nalon,UnB,FORMAL
 Claudia Werner,COPPE/UFRJ,SE
-Claudine Badue,UFES,AI
+Claudine Badue,UFES,VISION
 Claudio Amorim,COPPE/UFRJ,ARCH
 Claudio Campelo,UFCG,AI
 Claudio Esperanca,COPPE/UFRJ,GRAPHICS
@@ -274,7 +274,7 @@ Eduardo Ogasawara,CEFET-RJ,AI
 Eduardo Sany Laber,PUC-Rio,DATA
 Eduardo Souto,UFAM,NET
 Eduardo Todt,UFPR,IR
-Edward Hermann Haeusler,PUC-Rio,BIO
+Edward Hermann Haeusler,PUC-Rio,FORMAL
 Edward Moreno,UFS,ARCH
 Eiji Adachi Barbosa,IMD/UFRN,SE
 Elaine Oliveira,UFAM,CSE
@@ -499,7 +499,7 @@ Kiev Gama,UFPE,CSE
 Kleinner Farias,Unisinos,SE
 Laercio Pilla,UFSC,ARCH
 Lasaro Camargos,UFU,NET
-Laura Bahiense,COPPE/UFRJ,AI
+Laura Bahiense,COPPE/UFRJ,OR
 Leandro Balby Marinho,UFCG,IR
 Leandro Fernandes,UFF,VISION
 Leandro Krug Wives,UFRGS,AI
@@ -542,7 +542,7 @@ Luciana Lourdes Silva,IFMG,SE
 Luciana Porcher Nedel,UFRGS,GRAPHICS
 Luciana Rech,UFSC,DS
 Luciana Zaina,UFSCar,CHI
-Luciano Barbosa,UFPE,DBIS
+Luciano Barbosa,UFPE,AI
 Luciano Digiampietri,EACH/USP,BIO
 Luciano Gaspary,UFRGS,NET
 Luciano Oliveira,UFBA,AI
@@ -789,6 +789,7 @@ Renato Perez Ribas,UFRGS,HARDWARE
 Renato Portugal,LNCC,THEORY
 Renato Tinos,FFCLRP/USP,AI
 Renato Vimieiro,UFMG,AI
+Rian Gabriel Santos Pinheiro,UFAL,OR
 Ricardo Cerri,UFSCar,AI
 Ricardo Dahab,UNICAMP,DS
 Ricardo Fabbri,UERJ,VISION
@@ -900,7 +901,7 @@ Thales Vieira,UFAL,GRAPHICS
 Thelma Colanzi,UEM,SE
 Thiago Braga Marcilon,UFCA,THEORY
 Thiago Noronha,UFMG,OR
-Thiago Oliveira Santos,UFES,AI
+Thiago Oliveira Santos,UFES,VISION
 Thiago Pardo,ICMC/USP,AI
 Thiago Silva,UTFPR,NET
 Thibaut Vidal,PUC-Rio,OR
