@@ -512,31 +512,31 @@ def hasDept(dept_str, dept):
     return False
 
 
-def init_sbes():
-    global sbes_file, sbes
-    sbes = 0
-    sbes_file = open('sbes-papers.csv','w')
+# def init_sbes():
+#    global sbes_file, sbes
+#    sbes = 0
+#    sbes_file = open('sbes-papers.csv','w')
 
 
-def output_prof_sbes(prof):
-    global sbes
-    if sbes > 0:
-       sbes_file.write(prof)
-       sbes_file.write(",")
-       sbes_file.write(str(sbes))
-       sbes_file.write("\n")
-       sbes = 0
+#def output_prof_sbes(prof):
+#    global sbes
+#    if sbes > 0:
+#       sbes_file.write(prof)
+#       sbes_file.write(",")
+#       sbes_file.write(str(sbes))
+#       sbes_file.write("\n")
+#       sbes = 0
 
 
-def parse_sbes(dblp):
-    global sbes
-    if ('booktitle' in dblp):
-       if (dblp['booktitle'] == "SEKE"):
-          sbes = sbes +1
+#def parse_sbes(dblp):
+#    global sbes
+#    if ('booktitle' in dblp):
+#       if (dblp['booktitle'] == "SEKE"):
+#          sbes = sbes +1
 
 
-def close_sbes():
-    sbes_file.close()
+#def close_sbes():
+#    sbes_file.close()
 
 
 def parse_dblp(_, dblp):
@@ -629,7 +629,7 @@ def outuput_everything():
     output_profs_list()
     output_arxiv_cache(area_prefix)
 
-    close_sbes()
+    # close_sbes()
     # disabled
     # output_citations_cache(area_prefix)
 
@@ -643,6 +643,8 @@ def remove_prof_cache():
     prof_cache_pattern = "../cache/profs/" + area_prefix + "-*.csv"
     for f in glob.glob(prof_cache_pattern):
         os.remove(f)
+
+
 
 # main program
 
@@ -688,7 +690,7 @@ open_arxiv_cache(area_prefix)
 
 remove_prof_cache()
 
-init_sbes()
+# init_sbes()
 
 reader2 = csv.reader(open("all-researchers.csv", 'r'))
 count = 1;
@@ -709,7 +711,7 @@ for researcher in reader2:
 
     xmltodict.parse(bibfile, item_depth=3, item_callback=parse_dblp)
 
-    output_prof_sbes(prof_name)
+    # output_prof_sbes(prof_name)
 
     if found_paper:
        profs_list.append((prof_name,department))
