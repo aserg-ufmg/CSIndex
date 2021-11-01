@@ -9,3 +9,4 @@ db/journals/infsof/infsof116.html#TeixeiraAAOKW19
 db/journals/jss/jss157.html#PizzoletoFOFR19
 db/journals/jss/jss158.html#OliveiraFBPL19
 db/journals/jss/jss157.html#LuzPB19
+db/conf/msr/msr2021.html#SantosWTSSG21
