@@ -87,7 +87,7 @@ Andre Renato Villela da Silva,UFF,AI
 Andre Rossi,UNESP,OR
 Andre Santos,UFPE,SE
 Andre Schneider de Oliveira,UTFPR,ROBOTICS
-Andrea Bianchi,UFOP,VISION
+Andrea Bianchi,UFOP,AI
 Andreia Malucelli,PUC-PR,CHI
 Andrey Brito,UFCG,DS
 Anelise Munaretto,UTFPR,AI
@@ -126,6 +126,7 @@ Bruno Cartaxo,IFPE,SE
 Bruno Castro da Silva,UFRGS,AI
 Bruno Costa e Silva Nogueira,UFAL,OR
 Bruno Feijo,PUC-Rio,GRAPHICS
+Bruno Gadelha,UFAM,SE
 Bruno Guazzelli Batista,UNIFEI,ARCH
 Bruno Jefferson Pessoa,UFPB,OR
 Bruno Kimura,UNIFESP,NET
@@ -219,6 +220,7 @@ Daniel Figueiredo,COPPE/UFRJ,DATA
 Daniel Guidoni,UFSJ,NET
 Daniel Kaster,UEL,DBIS
 Daniel Menasche,DCC/UFRJ,NET
+Daniel Osaku,UFSCar,VISION
 Daniel Schwabe,PUC-Rio,DBIS
 Daniel Weingaertner,UFPR,AI
 Daniel de Oliveira,UFF,ARCH
@@ -249,7 +251,7 @@ Douglas Guimaraes Macharet,UFMG,ROBOTICS
 Douglas Rodrigues,UFSCar,AI
 Duncan Ruiz,PUC-RS,BIO
 Eanes Torres Pereira,UFCG,BIO
-Edison Pignaton de Freitas,UFRGS,AI
+Edison Pignaton de Freitas,UFRGS,NET
 Edleno de Moura,UFAM,IR
 Edmundo Madeira,UNICAMP,NET
 Edmundo de Souza e Silva,COPPE/UFRJ,NET
@@ -366,7 +368,7 @@ George Cavalcanti,UFPE,AI
 George Lima,UFBA,DS
 George Teodoro,UFMG,ARCH
 Geraldo Robson Mateus,UFMG,OR
-Gerberth Adin Ramirez Rivera,UNICAMP,VISION
+Gerberth Adin Ramirez Rivera,UNICAMP,AI
 Germano Vasconcelos,UFPE,AI
 Gerson Geraldo Cavalheiro,UFPEL,PL
 Gerson Zaverucha,COPPE/UFRJ,DATA
@@ -386,6 +388,7 @@ Guilherme Cavalcanti,IFAL,SE
 Guilherme Maia,UFMG,NET
 Guilherme Oliveira Mota,UFABC,THEORY
 Guilherme Pimentel Telles,UNICAMP,THEORY
+Guilherme Sousa Bastos,UNIFEI,ROBOTICS
 Guilherme Travassos,COPPE/UFRJ,SE
 Gustavo Batista,ICMC/USP,DATA
 Gustavo Carvalho,UFPE,FORMAL
@@ -470,7 +473,7 @@ Jose Antonio Fernandes de Macedo,UFC,AI
 Jose Augusto Baranauskas,FFCLRP/USP,AI
 Jose Carlos Maldonado,ICMC/USP,PL
 Jose Fernando Rodrigues Junior,ICMC/USP,DATA
-Jose Ferreira de Rezende,COPPE/UFRJ,DATA
+Jose Ferreira de Rezende,COPPE/UFRJ,NET
 Jose Gustavo Paiva,UFU,GRAPHICS
 Jose Luis Guntzel,UFSC,HARDWARE
 Jose Marcos Nogueira,UFMG,NET
@@ -520,6 +523,7 @@ Leonardo Torok,UFF,VISION
 Leonardo da Rocha,UFSJ,DBIS
 Leopoldo Teixeira,UFPE,SE
 Leticia Peres,UFPR,DBIS
+Leticia Rittner,FEEC/UNICAMP,GRAPHICS
 Levi Lelis,UFV,AI
 Li Weigang,UnB,ARCH
 Liane Tarouco,UFRGS,NET
@@ -567,7 +571,7 @@ Luis Valente,UFF,SE
 Luis Zarate,PUC Minas,BIO
 Luiz Andre Paes Leme,UFF,DBIS
 Luiz Carlos Albini,UFPR,NET
-Luiz Chaimowicz,UFMG,AI
+Luiz Chaimowicz,UFMG,ROBOTICS
 Luiz Claudio Villar dos Santos,UFSC,HARDWARE
 Luiz Eduardo Soares Oliveira,UFPR,AI
 Luiz Fernando Bittencourt,UNICAMP,NET
