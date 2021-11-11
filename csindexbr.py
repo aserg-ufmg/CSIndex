@@ -453,7 +453,7 @@ def getTitle(title):
     title = title.replace("\"", "")  # remove quotes in titles
     return title
 
-def getPaperSize(url,dblp,doi):
+def getPaperSize(url,dblp,doi,dblp_venue):
     if url in white_list:
        size = 10
     elif 'pages' in dblp:
@@ -462,7 +462,10 @@ def getPaperSize(url,dblp,doi):
 #       if (size == 0):
 #          log.write('Missing pages: url: ' + url + ' doi: ' + doi + '\n')
     else:
-       size = 0
+       if dblp_venue == "Briefings Bioinform.": 
+          size = 10    # we had to add this exception due to missing page fields in this journal
+       else:
+          size = 0   
 #       log.write('Missing pages: url: ' + url + ' doi: ' + doi + '\n')
     return size
 
@@ -556,7 +559,7 @@ def parse_dblp(_, dblp):
         venue, weight = confdata[dblp_venue]
         url = dblp['url']
         doi = getDOI(dblp['ee'])
-        size = getPaperSize(url,dblp,doi)
+        size = getPaperSize(url,dblp,doi,dblp_venue)
         minimum_size = getMinPaperSize(weight)
 
         if size >= minimum_size:
