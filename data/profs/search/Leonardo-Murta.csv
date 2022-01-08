@@ -15,5 +15,3 @@
 2019,MSR,"A large-scale study about quality and reproducibility of jupyter notebooks.",João Felipe Pimentel; Leonardo Murta 0001; Vanessa Braganholo; Juliana Freire,https://doi.org/10.1109/MSR.2019.00077,null,C,no_arxiv,0
 2018,IST,"What factors influence the reviewer assignment to pull requests?",Daricélio Moreira Soares; Manoel Limeira de Lima Júnior; Alexandre Plastino 0001; Leonardo Murta 0001,https://doi.org/10.1016/j.infsof.2018.01.015,null,J,no_arxiv,0
 2018,JSS,"Automatic assignment of integrators to pull requests: The importance of selecting appropriate attributes.",Manoel Limeira de Lima Júnior; Daricélio Moreira Soares; Alexandre Plastino 0001; Leonardo Murta 0001,https://doi.org/10.1016/j.jss.2018.05.065,null,J,no_arxiv,0
-2016,SPE,"Efficient image-aware version control systems using GPU.",José Ricardo da S. Junior; Esteban Clua; Leonardo Murta 0001,https://doi.org/10.1002/spe.2340,null,J,no_arxiv,0
-2016,FSE,"TIPMerge: recommending experts for integrating changes across branches.",Catarina Costa; Jair Figueiredo; Leonardo Murta 0001; Anita Sarma,https://doi.org/10.1145/2950290.2950339,top,C,no_arxiv,0

@@ -5,4 +5,5 @@
 2020,IPDPS,"Improving Transactional Code Generation via Variable Annotation and Barrier Elision.",João P. L. de Carvalho; Bruno Chinelato Honorio; Alexandro Baldassin; Guido Araujo,https://doi.org/10.1109/IPDPS47924.2020.00107,null,C,no_arxiv,0
 2019,IEEE TPDS,"The Case for Phase-Based Transactional Memory.",Joao P. L. de Carvalho; Guido Araujo; Alexandro Baldassin,https://doi.org/10.1109/TPDS.2018.2861712,top,J,no_arxiv,0
 2017,ICS,"Revisiting phased transactional memory.",Joao P. L. de Carvalho; Guido Araujo; Alexandro Baldassin,https://doi.org/10.1145/3079079.3079094,null,C,no_arxiv,0
+2022,ACM Comput. Surveys,"Persistent Memory: A Survey of Programming Support and Implementations.",Alexandro Baldassin; João Barreto 0001; Daniel Castro 0004; Paolo Romano 0002,https://doi.org/10.1145/3465402,null,J,no_arxiv,0
 2019,Inf. Sciences,"An optimized unsupervised manifold learning algorithm for manycore architectures.",Alexandro Baldassin; Ying Weng; Daniel Carlos Guimarães Pedronette; Jurandy Almeida,https://doi.org/10.1016/j.ins.2018.06.023,null,J,no_arxiv,0

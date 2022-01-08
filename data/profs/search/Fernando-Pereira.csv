@@ -23,5 +23,3 @@
 2017,TACO,"DawnCC: Automatic Annotation for Data Parallelism and Offloading.",Gleison Souza Diniz Mendonca; Breno Campos Ferreira Guimarães; Péricles Alves; Marcio Machado Pereira; Guido Araujo; Fernando Magno Quintão Pereira,https://doi.org/10.1145/3084540,top,J,no_arxiv,0
 2017,CGO,"Pointer disambiguation via strict inequalities.",Maroua Maalej; Vitor Paisante; Pedro Ramos; Laure Gonnord; Fernando Magno Quintão Pereira,http://dl.acm.org/citation.cfm?id=3049848,null,C,no_arxiv,0
 2017,PPoPP,"Function Call Re-Vectorization.",Rubens E. A. Moreira; Sylvain Collange; Fernando Magno Quintão Pereira,https://doi.org/10.1145/3018743.3018751,null,C,no_arxiv,0
-2016,CGO,"Inference of peak density of indirect branches to detect ROP attacks.",Mateus Tymburibá; Rubens E. A. Moreira; Fernando Magno Quintão Pereira,https://doi.org/10.1145/2854038.2854049,null,C,no_arxiv,0
-2016,CGO,"Symbolic range analysis of pointers.",Vitor Paisante; Maroua Maalej; Leonardo Barbosa e Oliveira; Laure Gonnord; Fernando Magno Quintão Pereira,https://doi.org/10.1145/2854038.2854050,null,C,no_arxiv,0

@@ -1,4 +1,3 @@
-2016,ICPE,"Learning from Source Code History to Identify Performance Failures.",Juan Pablo Sandoval Alcocer; Alexandre Bergel; Marco Tulio Valente,https://doi.org/10.1145/2851553.2851571,null,C,no_arxiv,0
 2019,IEEE Computer,"How Do Developers Promote Open Source Projects?",Hudson S. Borges; Marco Tulio Valente,https://doi.org/10.1109/MC.2018.2888770,null,J,http://arxiv.org/abs/1908.04219v1,0
 2021,EMSE,"Characterizing refactoring graphs in Java and JavaScript projects.",Aline Brito; André C. Hora; Marco Tulio Valente,https://doi.org/10.1007/s10664-021-10023-3,null,J,no_arxiv,0
 2021,IST,"Mining the Technical Roles of GitHub Users.",João Eduardo Montandon; Marco Tulio Valente; Luciana Lourdes Silva,https://doi.org/10.1016/j.infsof.2020.106485,null,J,no_arxiv,0
@@ -31,10 +30,3 @@
 2017,MSR,"RefDiff: detecting refactorings in version histories.",Danilo Silva; Marco Tulio Valente,https://doi.org/10.1109/MSR.2017.14,null,C,http://arxiv.org/abs/1704.01544v1,0
 2017,FSE,"Why modern open source projects fail.",Jailton Coelho; Marco Tulio Valente,https://doi.org/10.1145/3106237.3106246,top,C,http://arxiv.org/abs/1707.02327v1,0
 2017,SANER,"Historical and impact analysis of API breaking changes: A large-scale study.",Laerte Xavier; Aline Brito; André C. Hora; Marco Tulio Valente,https://doi.org/10.1109/SANER.2017.7884616,null,C,no_arxiv,0
-2016,EMSE,"Mining architectural violations from version history.",Cristiano Amaral Maffort; Marco Tulio Valente; Ricardo Terra; Mariza Andrade da Silva Bigonha; Nicolas Anquetil; André C. Hora,https://doi.org/10.1007/s10664-014-9348-2,null,J,no_arxiv,0
-2016,ICSME,"Understanding the Factors That Impact the Popularity of GitHub Repositories.",Hudson Borges; André C. Hora; Marco Tulio Valente,https://doi.org/10.1109/ICSME.2016.31,null,C,http://arxiv.org/abs/1606.04984v3,0
-2016,ICPC,"A novel approach for estimating Truck Factors.",Guilherme Avelino; Leonardo Teixeira Passos; André C. Hora; Marco Tulio Valente,https://doi.org/10.1109/ICPC.2016.7503718,null,C,http://arxiv.org/abs/1604.06766v1,0
-2016,FSE,"When should internal interfaces be promoted to public?",André C. Hora; Marco Tulio Valente; Romain Robbes; Nicolas Anquetil,https://doi.org/10.1145/2950290.2950306,top,C,no_arxiv,0
-2016,FSE,"Why we refactor? confessions of GitHub contributors.",Danilo Silva; Nikolaos Tsantalis; Marco Tulio Valente,https://doi.org/10.1145/2950290.2950305,top,C,http://arxiv.org/abs/1607.02459v1,0
-2016,SANER,"An Empirical Study on Recommendations of Similar Bugs.",Henrique Rocha; Marco Tulio Valente; Humberto Marques-Neto; Gail C. Murphy,https://doi.org/10.1109/SANER.2016.87,null,C,no_arxiv,0
-2016,SANER,"Do Developers Deprecate APIs with Replacement Messages? A Large-Scale Analysis on Java Systems.",Gleison Brito; André C. Hora; Marco Tulio Valente; Romain Robbes,https://doi.org/10.1109/SANER.2016.99,null,C,no_arxiv,0

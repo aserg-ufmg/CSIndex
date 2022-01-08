@@ -1,4 +1,3 @@
 2020,SCP,"A type-directed algorithm to generate random well-typed Java 8 programs.",Samuel da Silva Feitosa; Rodrigo Geraldo Ribeiro; André Rauber Du Bois,https://doi.org/10.1016/j.scico.2020.102494,null,J,no_arxiv,0
 2020,TOPLAS,"Type Inference for C: Applications to the Static Analysis of Incomplete Programs.",Leandro T. C. Melo; Rodrigo Geraldo Ribeiro; Breno Campos Ferreira Guimarães; Fernando Magno Quintão Pereira,https://doi.org/10.1145/3421472,top,J,no_arxiv,0
 2018,POPL,"Inference of static semantics for incomplete C programs.",Leandro T. C. Melo; Rodrigo Geraldo Ribeiro; Marcus R. de Araújo; Fernando Magno Quintão Pereira,https://doi.org/10.1145/3158117,top,C,no_arxiv,0
-2016,SCP,"Ambiguity and constrained polymorphism.",Carlos Camarão; Lucília Figueiredo; Rodrigo Geraldo Ribeiro,https://doi.org/10.1016/j.scico.2016.03.007,null,J,no_arxiv,0

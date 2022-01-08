@@ -12,8 +12,8 @@ import time
 
 from difflib import SequenceMatcher
 
-FIRST_YEAR = 2016
-LAST_YEAR = 2021
+FIRST_YEAR = 2017
+LAST_YEAR = 2022
 
 ALERT_ON = '\033[94m'
 ALERT_OFF = '\033[0m'
