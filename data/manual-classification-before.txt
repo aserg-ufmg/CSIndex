@@ -1,0 +1,50 @@
+se,2016,"Journal of Systems and Software","Exploring context-sensitive data flow analysis for early vulnerability detection.",db/journals/jss/jss113.html#SampaioG16
+pl,2016,"Sci. Comput. Program.","Contextual abstraction in a type system for component-based high performance computing platforms.",db/journals/scp/scp132.html#JuniorRSAA16
+se,2016,"Journal of Systems and Software","Theoretical conceptualization of TD: A practical perspective.",db/journals/jss/jss120.html#SiebraOSSS16
+se,2016,"Journal of Systems and Software","What to expect of predicates: An empirical analysis of predicates in real world programs.",db/journals/jss/jss113.html#DurelliOLDGSA16
+se,2014,"Sci. Comput. Program.","On the use of feature-oriented programming for evolving software product lines - A comparative study.",db/journals/scp/scp93.html#FerreiraGFM14
+se,2016,"Sci. Comput. Program.","A family of test selection criteria for Timed Input-Output Symbolic Transition System models.",db/journals/scp/scp126.html#MoraesAM16
+se,2016,"Journal of Systems and Software","A feature-driven crossover operator for multi-objective and evolutionary optimization of product line architectures.",db/journals/jss/jss121.html#ColanziV16
+pl,2016,"Sci. Comput. Program.","Error reporting in Parsing Expression Grammars.",db/journals/scp/scp132.html#MaidlMMI16
+ds,2016,"Journal of Systems and Software","Using traffic filtering rules and OpenFlow devices for transparent flow switching and automatic dynamic-circuit creation in hybrid networks.",db/journals/jss/jss117.html#CardosoCRSMC16
+se,2016,"Softw., Pract. Exper.","Efficient image-aware version control systems using GPU.",db/journals/spe/spe46.html#JuniorCM16
+pl,2016,"Sci. Comput. Program.","Ambiguity and constrained polymorphism.",db/journals/scp/scp124.html#CamaraoFR16
+se,2016,"Sci. Comput. Program.","Avoiding code pitfalls in Aspect-Oriented Programming.",db/journals/scp/scp119.html#SantosAFF16
+se,2016,"Journal of Systems and Software","Twenty-eight years of component-based software engineering.",db/journals/jss/jss111.html#ValeCANCM16
+se,2016,"Journal of Systems and Software","Towards semi-automated assignment of software change requests.",db/journals/jss/jss115.html#CavalcantiMNA16
+se,2016,"Journal of Systems and Software","Automated design of multi-layered web information systems.",db/journals/jss/jss117.html#BassoPORF16
+arch,2016,"TACO","Evaluation of Histogram of Oriented Gradients Soft Errors Criticality for Automotive Applications.",db/journals/taco/taco13.html#FernandesWJNCR16
+pl,2016,"TACO","Clustering-Based Selection for the Exploration of Compiler Optimization Sequences.",db/journals/taco/taco13.html#MartinsNCDM16
+arch,2016,"TACO","Hardware-Assisted Thread and Data Mapping in Hierarchical Multicore Architectures.",db/journals/taco/taco13.html#CruzDPN16
+se,2016,"Journal of Systems and Software","Costs and obstacles encountered in technical debt management - A case study.",db/journals/jss/jss120.html#GuoSS16
+se,2016,"Journal of Systems and Software","Preserving architectural styles in the search based design of software product line architectures.",db/journals/jss/jss115.html#MarianiCV16
+pl,2016,"Sci. Comput. Program.","Performance evaluation of virtual execution environments for intensive computing on usual representations of multidimensional arrays.",db/journals/scp/scp132.html#JuniorR16
+ds,2016,"Journal of Systems and Software","Evaluating REST architectures - Approach, tooling and guidelines.",db/journals/jss/jss112.html#CostaPDM16
+arch,2016,"Concurrency and Computation: Practice and Experience","Power-aware server consolidation for federated clouds.",db/journals/concurrency/concurrency28.html#LeiteBMETR16
+arch,2016,"Concurrency and Computation: Practice and Experience","BIGhybrid: a simulator for MapReduce applications in hybrid distributed infrastructures validated with the Grid5000 experimental platform.",db/journals/concurrency/concurrency28.html#AnjosFG16
+arch,2016,"Concurrency and Computation: Practice and Experience","Joint-analysis of performance and energy consumption when enabling cloud elasticity for synchronous HPC applications.",db/journals/concurrency/concurrency28.html#RighiCRR16
+arch,2016,"Concurrency and Computation: Practice and Experience","Analyzing related raw data files through dataflows.",db/journals/concurrency/concurrency28.html#SilvaOVM16
+arch,2016,"Concurrency and Computation: Practice and Experience","Watershed-ng: an extensible distributed stream procestheory,2016,"Theor. Comput. Sci.","Pull and PushPull are PSPACE-complete.",db/journals/tcs/tcs628.html#PereiraRB16
+sing framework.",db/journals/concurrency/concurrency28.html#RochaHDFMG16
+arch,2016,"Concurrency and Computation: Practice and Experience","BSP cost and scalability analysis for MapReduce operations.",db/journals/concurrency/concurrency28.html#SengerCAMMSS16
+arch,2015,"Concurrency and Computation: Practice and Experience","Memory aware load balance strategy on a parallel branch-and-bound application.",db/journals/concurrency/concurrency27.html#SilvaBDP15
+arch,2015,"Concurrency and Computation: Practice and Experience","A distributed virtual hypercube algorithm for maintaining scalable and dynamic network overlays.",db/journals/concurrency/concurrency27.html#BonaDF15
+arch,2016,"Concurrency and Computation: Practice and Experience","Analyzing related raw data files through dataflows.",db/journals/concurrency/concurrency28.html#SilvaOVM16
+arch,2016,"Concurrency and Computation: Practice and Experience","Automatic I/O scheduling algorithm selection for parallel file systems.",db/journals/concurrency/concurrency28.html#BoitoKND16
+arch,2016,"Concurrency and Computation: Practice and Experience","Joint-analysis of performance and energy consumption when enabling cloud elasticity for synchronous HPC applications.",db/journals/concurrency/concurrency28.html#RighiCRR16
+theory,2015,"Theor. Comput. Sci.","Generating invariants for non-linear hybrid systems.",db/journals/tcs/tcs594.html#RebihaMM15
+theory,2016,"Theor. Comput. Sci.","On MultiAspect graphs.",db/journals/tcs/tcs651.html#WehmuthFZ16
+theory,2016,"Theor. Comput. Sci.","A proof theoretic view of spatial and temporal dependencies in biochemical systems.",db/journals/tcs/tcs641.html#OlarteCFH16
+theory,2016,"Theor. Comput. Sci.","Hierarchical complexity of 2-clique-colouring weakly chordal graphs and perfect graphs having cliques of size at least 3.",db/journals/tcs/tcs618.html#FilhoMF16
+theory,2016,"Theor. Comput. Sci.","Proper orientation of cacti.",db/journals/tcs/tcs639.html#AraujoHSS16
+theory,2016,"Theor. Comput. Sci.","Kinetic clustering of points on the line.",db/journals/tcs/tcs639.html#FernandesO16
+theory,2016,"Theor. Comput. Sci.","Proper orientation of cacti.",db/journals/tcs/tcs639.html#AraujoHSS16
+theory,2016,"Theor. Comput. Sci.","Computing role assignments of split graphs.",db/journals/tcs/tcs635.html#Dourado16
+theory,2016,"Theor. Comput. Sci.","The maximum infection time in the geodesic and monophonic convexities.",db/journals/tcs/tcs609.html#BenevidesCDSS16
+theory,2016,"Theor. Comput. Sci.","On the geodetic hull number of P-free graphs.",db/journals/tcs/tcs640.html#DouradoRR16
+ds,2016,"Concurrency and Computation: Practice and Experience","Intelligent trading architecture.",db/journals/concurrency/concurrency28.html#FreitasFS16
+se,2016,"Journal of Systems and Software","Can we ask you to collaborate? Analyzing app developer relationships in commercial platform ecosystems.",db/journals/jss/jss113.html#AngerenAJ16
+theory,2016,"Theor. Comput. Sci.","Minimum vertex cover in generalized random graphs with power law degree distribution.",db/journals/tcs/tcs647.html#VignattiS16
+se,2016,"Journal of Systems and Software","A comparative study of energy-aware scheduling algorithms for computational grids.",db/journals/jss/jss117.html#TeodoroCAF16
+se,2015,"Journal of Systems and Software","Using SAN formalism to evaluate Follow-The-Sun project scenarios.",db/journals/jss/jss100.html#SantosSF15
+ds,2016,"Concurr. Comput. Pract. Exp.","Parallel and distributed computing for Big Data applications.",db/journals/concurrency/concurrency28.html#SengerG16
