@@ -309,3 +309,4 @@ se,2022,"J. Syst. Softw.","Architectural conformance checking for KDM-represente
 ds,2021,"Concurr. Comput. Pract. Exp.","Wild boar recognition using convolutional neural networks.",db/journals/concurrency/concurrency33.html#JuniorPOAPB21
 ds,2021,"Concurr. Comput. Pract. Exp.","Improved publicly verifiable auditing protocol for cloud storage.",db/journals/concurrency/concurrency33.html#ZhangLONSW21
 ds,2020,"Concurr. Comput. Pract. Exp.","An evaluation of MPI and OpenMP paradigms in finite-difference explicit methods for PDEs on shared-memory multi- and manycore systems.",db/journals/concurrency/concurrency32.html#CabralOOCBK20
+se,2022,"Softw. Pract. Exp.","How the adoption of feature toggles correlates with branch merges and defects in open-source projects?",db/journals/spe/spe52.html#PrutchiJM22
