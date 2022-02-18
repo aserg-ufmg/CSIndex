@@ -197,7 +197,7 @@ Cristiano Arbex Valle,UFMG,OR
 Cristiano Costa,Unisinos,AI
 Cristiano Maciel da Silva,UFSJ,GRAPHICS
 Cristina Boeres,UFF,DS
-Cristina Ciferri,ICMC/USP,DS
+Cristina Ciferri,ICMC/USP,DBIS
 Cristina Fernandes,IME/USP,THEORY
 Cristina Meinhardt,FURG,HARDWARE
 Cristina Nader Vasconcelos,UFF,GRAPHICS
@@ -256,12 +256,12 @@ Edson OliveiraJr,UEM,SE
 Edson Prestes e Silva,UFRGS,ROBOTICS
 Eduardo Alchieri,UnB,DS
 Eduardo Almeida,UFBA,SE
-Eduardo Antonio Guimaraes Tavares,UFPE,OR
+Eduardo Antonio Guimaraes Tavares,UFPE,ARCH
 Eduardo Aranha,UFRN,CSE
 Eduardo Candido Xavier,UNICAMP,OR
 Eduardo Cerqueira,FCT/UFPA,NET
 Eduardo Cunha de Almeida,UFPR,DBIS
-Eduardo Feitosa,UFAM,SECURITY
+Eduardo Feitosa,UFAM,AI
 Eduardo Figueiredo,UFMG,SE
 Eduardo Gastal,UFRGS,GRAPHICS
 Eduardo Nakamura,UFAM,AI
@@ -359,7 +359,7 @@ Genaina Rodrigues,UnB,SE
 George Cavalcanti,UFPE,AI
 George Lima,UFBA,DS
 George Teodoro,UFMG,ARCH
-Geraldo Pereira Rocha Filho,UnB,NET
+Geraldo Pereira Rocha Filho,UnB,AI
 Geraldo Robson Mateus,UFMG,OR
 Gerberth Adin Ramirez Rivera,UNICAMP,AI
 Germano Vasconcelos,UFPE,AI
@@ -424,7 +424,7 @@ Jacob Scharcanski,UFRGS,VISION
 Jacques Wainer,UNICAMP,AI
 Jaelson Castro,UFPE,SE
 Jairo Panetta,ITA,ARCH
-Janio Carlos Nascimento Silva,IFTO,THEORY
+Janio Carlos Nascimento Silva,IFTO,OR
 Javam Machado,UFC,ARCH
 Jayme Szwarcfiter,COPPE/UFRJ,THEORY
 Jean Martina,UFSC,IR
@@ -490,7 +490,7 @@ Karina Valdivia Delgado,IME/USP,AI
 Kate Revoredo,UNIRIO,DBIS
 Katia Guimaraes,UFPE,BIO
 Kecia Ferreira,CEFET-MG,SE
-Kelvin Lopes Dias,UFPE,NET
+Kelvin Lopes Dias,UFPE,ARCH
 Kiev Gama,UFPE,CSE
 Kleinner Farias,Unisinos,SE
 Laercio Pilla,UFSC,ARCH
@@ -520,6 +520,7 @@ Lilian Berton,UNIFESP,AI
 Lina Garces,UNIFEI,SE
 Lincoln Rocha,UFC,SE
 Linnyer Ruiz,UEM,NET
+Liria Sato,POLI/USP,DATA
 Lisandra Fontoura,UFSM,SE
 Lisandro Zambenedetti Granville,UFRGS,NET
 Loic Cerf,UFMG,DATA
@@ -539,7 +540,7 @@ Luciano Gaspary,UFRGS,NET
 Luciano Oliveira,UFBA,AI
 Luciano Silva,UFPR,CHI
 Lucidio Formiga Cabral,UFPB,OR
-Lucineia Heloisa Thom,UFRGS,AI
+Lucineia Heloisa Thom,UFRGS,CS
 Lucio Mauro Duarte,UFRGS,FORMAL
 Luerbio Faria,UERJ,THEORY
 Luidi Simonetti,COPPE/UFRJ,OR
@@ -575,7 +576,7 @@ Mara Abel,UFRGS,DBIS
 Marcel Oliveira,UFRN,FORMAL
 Marcelo Albertini,UFU,GRAPHICS
 Marcelo Chaim,EACH/USP,SE
-Marcelo Fantinato,EACH/USP,DBIS
+Marcelo Fantinato,EACH/USP,CS
 Marcelo Finger,IME/USP,AI
 Marcelo Guimaraes,UNIFESP,GRAPHICS
 Marcelo Henriques Carvalho,UFMS,THEORY
@@ -613,7 +614,7 @@ Marcone Souza,UFOP,OR
 Marcos Andre Goncalves,UFMG,IR
 Marcos Barreto,UFBA,ARCH
 Marcos Bueno,UFU,AI
-Marcos Didonet Del Fabro,UFPR,ARCH
+Marcos Didonet Del Fabro,UFPR,DBIS
 Marcos Kalinowski,PUC-Rio,SE
 Marcos Lage,UFF,GRAPHICS
 Marcos Roberto Silva Borges,DCC/UFRJ,CHI
@@ -635,7 +636,7 @@ Maria Nascimento,UNIFESP,OR
 Maria do Carmo Nicoletti,UFSCar,AI
 Mariana Kolberg,UFRGS,ROBOTICS
 Mariana Recamonde Mendoza,UFRGS,AI
-Marilton Aguiar,UFPEL,HARDWARE
+Marilton Aguiar,UFPEL,BIO
 Marinho Barcellos,UFRGS,NET
 Mario Antonio Ribeiro Dantas,UFJF,ARCH
 Mario Benevides,DCC/UFRJ,THEORY
@@ -652,7 +653,7 @@ Marlo Souza,UFBA,AI
 Marta Mattoso,COPPE/UFRJ,ARCH
 Martin Gomez Ravetti,UFMG,OR
 Martin Musicante,UFRN,DBIS
-Mauricio Ayala Rincon,UnB,THEORY
+Mauricio Ayala Rincon,UnB,FORMAL
 Mauricio Pamplona Segundo,UFBA,AI
 Mauricio Pilla,UFPEL,AI
 Mauro Roisenberg,UFSC,AI
@@ -806,7 +807,7 @@ Roberto Souto Barros,UFPE,DATA
 Robson Cordeiro,ICMC/USP,DATA
 Rodolfo Azevedo,UNICAMP,ARCH
 Rodolfo Villaca,UFES,NET
-Rodrigo Barros,PUC-RS,AI
+Rodrigo Barros,PUC-RS,VISION
 Rodrigo Bonifacio,UnB,SE
 Rodrigo Geraldo Ribeiro,UFOP,PL
 Rodrigo Machado,UFRGS,FORMAL
@@ -826,10 +827,10 @@ Ronaldo Prati,UFABC,DATA
 Ronaldo dos Santos Mello,UFSC,DBIS
 Ronnie Alves,UFPA,BIO
 Rosa Leao,COPPE/UFRJ,NET
-Rosana Braga,ICMC/USP,SE
+Rosana Braga,ICMC/USP,CSE
 Rosane Minghim,ICMC/USP,GRAPHICS
 Roseli Francelin Romero,ICMC/USP,ROBOTICS
-Rosiane de Freitas,UFAM,OR
+Rosiane de Freitas,UFAM,ARCH
 Rossana Andrade,UFC,SE
 Rudinei Goularte,ICMC/USP,GRAPHICS
 Rudini Menezes Sampaio,UFC,THEORY
@@ -842,7 +843,7 @@ Sandro Rigo,UNICAMP,NET
 Sean Siqueira,UNIRIO,IR
 Seiji Isotani,ICMC/USP,CSE
 Sergio Bampi,UFRGS,HARDWARE
-Sergio Campos,UFMG,GRAPHICS
+Sergio Campos,UFMG,BIO
 Sergio Lifschitz,PUC-Rio,BIO
 Sergio Medeiros,UFRN,PL
 Sergio Soares,UFPE,SE
@@ -870,7 +871,7 @@ Sylvio Barbon Junior,UEL,AI
 Taciana Pontual Falcao,UFRPE,AI
 Tayana Conte,UFAM,SE
 Teobaldo Bulhoes,UFPB,OR
-Teofilo de Campos,UnB,GRAPHICS
+Teofilo de Campos,UnB,VISION
 Teresa Ludermir,UFPE,AI
 Thais Batista,UFRN,ARCH
 Thais Rocha,UFAPE,SE
@@ -913,7 +914,7 @@ Victor Campos,UFC,THEORY
 Victor Sobreira,UFU,SE
 Victor Stroele,UFJF,ARCH
 Vinicius Cassol,Unisinos,GRAPHICS
-Vinicius Garcia,UFPE,SECURITY
+Vinicius Garcia,UFPE,AI
 Vinicius Gusmao Pereira de Sa,DCC/UFRJ,THEORY
 Vinicius Petrucci,UFBA,ARCH
 Vinicius Santos,UFMG,THEORY
