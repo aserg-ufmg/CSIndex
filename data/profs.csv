@@ -1,5 +1,5 @@
 Abel Guilhermino da Silva Filho,UFPE,AI
-Adenauer Yamin,UFPEL,SE
+Adenauer Yamin,UFPEL,AI
 Adenilso Simao,ICMC/USP,SE
 Adenilton da Silva,UFPE,AI
 Adiel Almeida Filho,UFPE,AI
@@ -191,7 +191,7 @@ Cleidson Souza,UFPA,SE
 Clodoaldo Lima,EACH/USP,AI
 Clodoveu Davis,UFMG,DBIS
 Creto Vidal,UFC,GRAPHICS
-Cristian Cechinel,UFPEL,ARCH
+Cristian Cechinel,UFPEL,AI
 Cristiana Bentes,UERJ,ARCH
 Cristiano Arbex Valle,UFMG,OR
 Cristiano Costa,Unisinos,AI
@@ -213,12 +213,12 @@ Daniel Guidoni,UFSJ,NET
 Daniel Kaster,UEL,DBIS
 Daniel Menasche,DCC/UFRJ,NET
 Daniel Osaku,UFSCar,VISION
-Daniel Schwabe,PUC-Rio,DBIS
+Daniel Schwabe,PUC-Rio,BIO
 Daniel Weingaertner,UFPR,AI
 Daniel de Oliveira,UFF,ARCH
 Daniela Barreiro Claro,UFBA,AI
 Daniela Trevisan,UFF,GRAPHICS
-Danilo Barbosa Coimbra,UFBA,THEORY
+Danilo Barbosa Coimbra,UFBA,GRAPHICS
 Danilo Sanches,UTFPR,AI
 Dario Aloise,UERN,OR
 Davi Viana,UFMA,AI
@@ -272,7 +272,7 @@ Eduardo Todt,UFPR,IR
 Edward Hermann Haeusler,PUC-Rio,FORMAL
 Edward Moreno,UFS,ARCH
 Eiji Adachi Barbosa,IMD/UFRN,SE
-Elaine Oliveira,UFAM,CSE
+Elaine Oliveira,UFAM,AI
 Elaine Pimentel,UFRN,FORMAL
 Elaine Ribeiro de Faria,UFU,GRAPHICS
 Elder Cirilo,UFSJ,DATA
@@ -318,7 +318,7 @@ Fabricio Enembreck,PUC-PR,AI
 Fabricio Martins Lopes,UTFPR,BIO
 Fabricio Murai,UFMG,DATA
 Fabricio Olivetti de Franca,UFABC,AI
-Fatima Nunes,EACH/USP,CS
+Fatima Nunes,EACH/USP,AI
 Felipe Franca,COPPE/UFRJ,AI
 Felipe Meneguzzi,PUC-RS,AI
 Felipe de Souza Marques,UFPEL,HARDWARE
@@ -446,7 +446,7 @@ Joao Luis Garcia Rosa,ICMC/USP,AI
 Joao Marcos de Almeida,UFRN,AI
 Joao Meidanis,UNICAMP,BIO
 Joao Paulo Almeida,UFES,DBIS
-Joao Paulo Gois,UFABC,GRAPHICS
+Joao Paulo Gois,UFABC,BIO
 Joao Paulo Papa,UNESP,AI
 Joao Paulo Pordeus Gomes,UFC,AI
 Joao Paulo Silva do Monte Lima,UFRPE,AI
@@ -472,11 +472,13 @@ Jose Maria David,UFJF,DS
 Jose Maria Monteiro,UFC,AI
 Jose Neuman de Souza,UFC,NET
 Jose Palazzo de Oliveira,UFRGS,AI
+Jose Rodrigo Azambuja,UFRGS,NET
 Jose Viterbo,UFF,DATA
 Judith Kelner,UFPE,ARCH
 Juliana Kaizer Vizzotto,UFSM,FORMAL
 Juliano Iyoda,UFPE,FORMAL
 Juliano Wickboldt,UFRGS,NET
+Julio Cesar Stacchini de Souza,UFF,ARCH
 Julio Cezar Estrella,ICMC/USP,DS
 Julio Dos Reis,UNICAMP,CHI
 Julio Leite,PUC-Rio,SE
@@ -533,7 +535,7 @@ Luciana Foss,UFPEL,THEORY
 Luciana Lourdes Silva,IFMG,SE
 Luciana Porcher Nedel,UFRGS,GRAPHICS
 Luciana Rech,UFSC,DS
-Luciana Zaina,UFSCar,CHI
+Luciana Zaina,UFSCar,SE
 Luciano Barbosa,UFPE,AI
 Luciano Digiampietri,EACH/USP,BIO
 Luciano Gaspary,UFRGS,NET
@@ -643,7 +645,7 @@ Mario Benevides,DCC/UFRJ,THEORY
 Mario Fernando Montenegro Campos,UFMG,ROBOTICS
 Mario Lemes Proenca,UEL,AI
 Mario Sergio Alvim,UFMG,FORMAL
-Maristela Holanda,UnB,ARCH
+Maristela Holanda,UnB,DBIS
 Maristela Santos,ICMC/USP,OR
 Mariza Bigonha,UFMG,SE
 Marjory Abreu,UFRN,ARCH
@@ -666,9 +668,10 @@ Michelle Wangham,UNIVALI,NET
 Miguel Campista,COPPE/UFRJ,NET
 Miguel Castro,UFC,NET
 Milene Silveira,PUC-RS,CSE
+Milton Brown do Coutto Filho,UFF,ARCH
 Mirella Moro,UFMG,DATA
 Mitre Costa Dourado,DCC/UFRJ,THEORY
-Moacir Ponti,ICMC/USP,VISION
+Moacir Ponti,ICMC/USP,AI
 Moises Ribeiro,UFES,NET
 Monalessa Barcellos,UFES,DBIS
 Monica Magalhaes Pereira,UFRN,ARCH
@@ -777,7 +780,7 @@ Ricardo Cerri,UFSCar,AI
 Ricardo Dahab,UNICAMP,DS
 Ricardo Fabbri,UERJ,VISION
 Ricardo Ferreira,UFV,ARCH
-Ricardo Marcacini,UFMS,VISION
+Ricardo Marcacini,UFMS,DATA
 Ricardo Marroquim,COPPE/UFRJ,GRAPHICS
 Ricardo Martins de Abreu Silva,UFPE,AI
 Ricardo Massa Ferreira Lima,UFPE,SE
@@ -796,7 +799,7 @@ Rivalino Matias,UFU,DS
 Roberta Coelho,UFRN,SE
 Roberto Bigonha,UFMG,SE
 Roberto Bittencourt,UEFS,CSE
-Roberto Celio Limao de Oliveira,FCT/UFPA,ROBOTICS
+Roberto Celio Limao de Oliveira,FCT/UFPA,AI
 Roberto Cesar Junior,IME/USP,VISION
 Roberto Freitas Parente,UFBA,THEORY
 Roberto Hirata,IME/USP,VISION
@@ -897,12 +900,12 @@ Ueverton Souza,UFF,THEORY
 Uira Kulesza,UFRN,SE
 Umberto Rivieccio,UFRN,AI
 Valdinei Freire,EACH/USP,GRAPHICS
-Valeria Times,UFPE,BIO
+Valeria Times,UFPE,SE
 Valmir Barbosa,COPPE/UFRJ,OR
 Valter Camargo,UFSCar,SE
 Valter Roesler,UFRGS,NET
 Vander Alves,UnB,SE
-Vanderlei Bonato,ICMC/USP,HARDWARE
+Vanderlei Bonato,ICMC/USP,AI
 Vanessa Braganholo,UFF,DBIS
 Vania Bogorny,UFSC,DBIS
 Vania Neris,UFSCar,CHI
