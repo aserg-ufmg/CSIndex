@@ -4,3 +4,4 @@ db/journals/jss/jss137.html#AlmeidaK18
 db/journals/jss/jss136.html#CapiluppiS18
 db/journals/concurrency/concurrency31.html#RoseC19
 db/journals/concurrency/concurrency33.html#CamargoMM21
+db/journals/tcc/tcc10.html#CatalaoKARS22
