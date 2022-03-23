@@ -320,3 +320,6 @@ se,2022,"J. Syst. Softw.","How has design thinking being used and integrated int
 se,2022,"J. Syst. Softw.","Software product line scoping: A systematic literature review.",db/journals/jss/jss186.html#MarchezanRABBC22
 arch,2022,"Concurr. Comput. Pract. Exp.","Experience of using graphical processing unit in power flow computation.",db/journals/concurrency/concurrency34.html#DaibesFSCZ22
 arch,2022,"Concurr. Comput. Pract. Exp.","Self-adaptation on parallel stream processing: A systematic review.",db/journals/concurrency/concurrency34.html#VogelGDF22
+theory,2022,"Theor. Comput. Sci.","PSPACE-hardness of variants of the graph coloring game.",db/journals/tcs/tcs909.html#LimaMMS22
+theory,2022,"Theor. Comput. Sci.","On knot-free vertex deletion: Fine-grained parameterized complexity analysis of a deadlock resolution graph problem.",db/journals/tcs/tcs909.html#CarneiroPS22
+theory,2022,"Theor. Comput. Sci.","The hull number in the convexity of induced paths of order 3.",db/journals/tcs/tcs906.html#DouradoPR22
