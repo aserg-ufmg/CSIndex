@@ -1,3 +1,5 @@
+2022,J. Parallel Distrib. Comput.,"Early scheduling on steroids: Boosting parallel state machine replication.",Elia Batista; Eduardo Alchieri; Fernando Luís Dotti; Fernando Pedone,https://doi.org/10.1016/j.jpdc.2022.02.001,null,J,no_arxiv,0
+2022,IEEE TPDS,"Exploiting Concurrency in Sharded Parallel State Machine Replication.",Aldenio Burgos; Eduardo Alchieri; Fernando Luís Dotti; Fernando Pedone,https://doi.org/10.1109/TPDS.2021.3135761,top,J,no_arxiv,0
 2017,IPDPS,"Efficient and Deterministic Scheduling for Parallel State Machine Replication.",Odorico Machado Mendizabal; Ruda S. T. De Moura; Fernando Luís Dotti; Fernando Pedone,https://doi.org/10.1109/IPDPS.2017.29,null,C,no_arxiv,0
 2020,SRDS,"Parallel State Machine Replication from Generalized Consensus.",Tarcisio Ceolin Junior; Fernando Luís Dotti; Fernando Pedone,https://doi.org/10.1109/SRDS51746.2020.00021,null,C,no_arxiv,0
 2019,Middleware,"Boosting concurrency in Parallel State Machine Replication.",Ian Aragon Escobar; Eduardo Alchieri; Fernando Luís Dotti; Fernando Pedone,https://doi.org/10.1145/3361525.3361549,null,C,no_arxiv,0
