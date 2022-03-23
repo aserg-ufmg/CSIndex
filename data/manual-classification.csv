@@ -311,3 +311,10 @@ ds,2021,"Concurr. Comput. Pract. Exp.","Improved publicly verifiable auditing pr
 ds,2020,"Concurr. Comput. Pract. Exp.","An evaluation of MPI and OpenMP paradigms in finite-difference explicit methods for PDEs on shared-memory multi- and manycore systems.",db/journals/concurrency/concurrency32.html#CabralOOCBK20
 se,2022,"Softw. Pract. Exp.","How the adoption of feature toggles correlates with branch merges and defects in open-source projects?",db/journals/spe/spe52.html#PrutchiJM22
 ds,2022,"Concurr. Comput. Pract. Exp.","A fast and accurate threat detection and prevention architecture using stream processing.",db/journals/concurrency/concurrency34.html#LobatoLCDP22
+formal,2022,"Sci. Comput. Program.","A two-level formal model for Big Data processing programs.",db/journals/scp/scp215.html#NetoMVM22
+se,2022,"J. Syst. Softw.","On the evaluation of usability design guidelines for improving network monitoring tools interfaces.",db/journals/jss/jss187.html#SilveiraZSV22
+ds,2022,"Softw. Pract. Exp.","PSSCC: Provably secure communication framework for crowdsourced industrial Internet of Things environments.",db/journals/spe/spe52.html#DharminderMRRS22
+se,2022,"J. Syst. Softw.","Preventing accessibility barriers: Guidelines for using user interface design patterns in mobile applications.",db/journals/jss/jss186.html#ZainaFCNP22
+theory,2022,"Sci. Comput. Program.","Introduction to reversal fuzzy switch graph.",db/journals/scp/scp216.html#CamposSMF22
+se,2022,"J. Syst. Softw.","How has design thinking being used and integrated into software development activities? A systematic mapping.",db/journals/jss/jss187.html#PariziPMC22
+se,2022,"J. Syst. Softw.","Software product line scoping: A systematic literature review.",db/journals/jss/jss186.html#MarchezanRABBC22
