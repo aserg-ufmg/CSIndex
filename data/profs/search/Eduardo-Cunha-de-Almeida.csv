@@ -1,4 +1,5 @@
 2021,PDP,"Performance Analysis of Array Database Systems in Non-Uniform Memory Architecture.",Simone Dominico; Eduardo C. de Almeida; Marco A. Z. Alves; Jorge Augusto Meira,https://doi.org/10.1109/PDP52278.2021.00034,null,C,no_arxiv,0
+2021,Proc. VLDB,"Fast Detection of Denial Constraint Violations.",Eduardo H. M. Pena; Eduardo Cunha de Almeida; Felix Naumann,https://www.vldb.org/pvldb/vol15/p859-pena.pdf,top,J,no_arxiv,0
 2021,ICDE,"Multidimensional Adaptive & Progressive Indexes.",Matheus Agio Nerone; Pedro Holanda; Eduardo C. de Almeida; Stefan Manegold,https://doi.org/10.1109/ICDE51399.2021.00060,top,C,no_arxiv,0
 2019,Proc. VLDB,"Discovery of Approximate (and Exact) Denial Constraints.",Eduardo H. M. Pena; Eduardo C. de Almeida; Felix Naumann,http://www.vldb.org/pvldb/vol13/p266-pena.pdf,top,J,no_arxiv,0
 2019,Proc. VLDB,"Database Processing-in-Memory: An Experimental Study.",Tiago Rodrigo Kepe; Eduardo C. de Almeida; Marco A. Z. Alves,http://www.vldb.org/pvldb/vol13/p334-kepe.pdf,top,J,no_arxiv,0
