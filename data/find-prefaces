@@ -1,2 +1,3 @@
 grep -i -w "preface|foreword" *-out-papers.csv
 grep -i -w "special issue" *-out-papers.csv
+grep -i -w "message from" *-out-papers.csv
