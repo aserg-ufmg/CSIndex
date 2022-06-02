@@ -323,3 +323,6 @@ arch,2022,"Concurr. Comput. Pract. Exp.","Self-adaptation on parallel stream pro
 theory,2022,"Theor. Comput. Sci.","PSPACE-hardness of variants of the graph coloring game.",db/journals/tcs/tcs909.html#LimaMMS22
 theory,2022,"Theor. Comput. Sci.","On knot-free vertex deletion: Fine-grained parameterized complexity analysis of a deadlock resolution graph problem.",db/journals/tcs/tcs909.html#CarneiroPS22
 theory,2022,"Theor. Comput. Sci.","The hull number in the convexity of induced paths of order 3.",db/journals/tcs/tcs906.html#DouradoPR22
+pl,2022,"Softw. Pract. Exp.","The effect of distance metrics in a general purpose synthesizer: An empirical study on integer domain imperative programs.",db/journals/spe/spe52.html#CorreiaIM22
+se,2022,"Softw. Pract. Exp.","On the (un-)adoption of JavaScript front-end frameworks.",db/journals/spe/spe52.html#FerreiraBV22
+formal,2022,"Sci. Comput. Program.","High-level axioms for graphical linear algebra.",db/journals/scp/scp218.html#PaixaoRS22

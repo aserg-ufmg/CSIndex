@@ -1,4 +1,5 @@
 2019,IEEE Computer,"How Do Developers Promote Open Source Projects?",Hudson S. Borges; Marco Tulio Valente,https://doi.org/10.1109/MC.2018.2888770,null,J,http://arxiv.org/abs/1908.04219v1,0
+2022,SPE,"On the (un-)adoption of JavaScript front-end frameworks.",Fabio Ferreira; Hudson Silva Borges; Marco Tulio Valente,https://doi.org/10.1002/spe.3044,null,J,no_arxiv,0
 2021,EMSE,"Characterizing refactoring graphs in Java and JavaScript projects.",Aline Brito; André C. Hora; Marco Tulio Valente,https://doi.org/10.1007/s10664-021-10023-3,null,J,no_arxiv,0
 2021,IST,"Mining the Technical Roles of GitHub Users.",João Eduardo Montandon; Marco Tulio Valente; Luciana Lourdes Silva,https://doi.org/10.1016/j.infsof.2020.106485,null,J,no_arxiv,0
 2021,JSS,"Are game engines software frameworks? A three-perspective study.",Cristiano Politowski; Fábio Petrillo; João Eduardo Montandon; Marco Tulio Valente; Yann-Gaël Guéhéneuc,https://doi.org/10.1016/j.jss.2020.110846,null,J,no_arxiv,0
@@ -8,7 +9,7 @@
 2020,IST,"Is this GitHub project maintained? Measuring the level of maintenance activity of open-source projects.",Jailton Coelho; Marco Tulio Valente; Luciano Milen; Luciana Lourdes Silva,https://doi.org/10.1016/j.infsof.2020.106274,null,J,no_arxiv,0
 2020,SCP,"Prioritizing versions for performance regression testing: The Pharo case.",Juan Pablo Sandoval Alcocer; Alexandre Bergel; Marco Tulio Valente,https://doi.org/10.1016/j.scico.2020.102415,null,J,no_arxiv,0
 2020,ICSA,"REST vs GraphQL: A Controlled Experiment.",Gleison Brito; Marco Tulio Valente,https://doi.org/10.1109/ICSA47634.2020.00016,null,C,http://arxiv.org/abs/2003.04761v1,0
-2020,MSR,"Beyond the Code: Mining Self-Admitted Technical Debt in Issue Tracker Systems.",Laerte Xavier; Fábio F. Ferreira; Rodrigo Brito; Marco Tulio Valente,https://doi.org/10.1145/3379597.3387459,null,C,no_arxiv,0
+2020,MSR,"Beyond the Code: Mining Self-Admitted Technical Debt in Issue Tracker Systems.",Laerte Xavier; Fabio Ferreira; Rodrigo Brito; Marco Tulio Valente,https://doi.org/10.1145/3379597.3387459,null,C,no_arxiv,0
 2020,SANER,"Refactoring Graphs: Assessing Refactoring over Time.",Aline Brito; André C. Hora; Marco Tulio Valente,https://doi.org/10.1109/SANER48275.2020.9054864,null,C,http://arxiv.org/abs/2003.04666v1,0
 2019,JSS,"Co-change patterns: A large scale empirical study.",Luciana Lourdes Silva; Marco Tulio Valente; Marcelo de Almeida Maia,https://doi.org/10.1016/j.jss.2019.03.014,null,J,no_arxiv,0
 2019,SCP,"Measuring and analyzing code authorship in 1 + 118 open source projects.",Guilherme Avelino; Leonardo Teixeira Passos; André C. Hora; Marco Tulio Valente,https://doi.org/10.1016/j.scico.2019.03.001,null,J,no_arxiv,0
