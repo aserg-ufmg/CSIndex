@@ -1,4 +1,5 @@
 2022,SCP,"A two-level formal model for Big Data processing programs.",DCC/UFRJ; UFRN,João Batista de Souza Neto; Anamaria Martins Moreira; Genoveva Vargas-Solar; Martin A. Musicante,https://doi.org/10.1016/j.scico.2021.102764,null,J,no_arxiv,0
+2022,SCP,"High-level axioms for graphical linear algebra.",DCC/UFRJ,João Paixão; Lucas Rufino; Pawel Sobocinski 0001,https://doi.org/10.1016/j.scico.2022.102791,null,J,no_arxiv,0
 2021,ACM TOCL,"Reasoning about Petri Nets: A Calculus Based on Resolution and Dynamic Logic.",UnB; PUC-Rio,Bruno Lopes 0001; Cláudia Nalon; Edward Hermann Haeusler,https://doi.org/10.1145/3441655,top,J,no_arxiv,0
 2021,FoSSaCS,"Nominal Equational Problems.",UnB,Mauricio Ayala-Rincón; Maribel Fernández; Daniele Nantes-Sobrinho; Deivid Vale,https://doi.org/10.1007/978-3-030-71995-1_2,null,C,no_arxiv,0
 2021,J. Log. Comput.,"Access-based intuitionistic knowledge.",UFBA,Steffen Lewitzka,https://doi.org/10.1093/logcom/exaa086,null,J,no_arxiv,0
@@ -6,7 +7,7 @@
 2021,MSCS,"A focused linear logical framework and its application to metatheory of object logics.",UFRN,Amy P. Felty; Carlos Olarte; Bruno Xavier,https://doi.org/10.1017/S0960129521000323,null,J,no_arxiv,0
 2021,MSCS,"Formalising nominal C-unification generalised with protected variables.",UnB,Mauricio Ayala-Rincón; Washington de Carvalho Segundo; Maribel Fernández; Gabriel Ferreira Silva; Daniele Nantes-Sobrinho,https://doi.org/10.1017/S0960129521000050,null,J,no_arxiv,0
 2021,MSCS,"Quasi-Nelson algebras and fragments.",UFRN,Umberto Rivieccio; Ramon Jansana,https://doi.org/10.1017/S0960129521000049,null,J,no_arxiv,0
-2021,SCP,"A family of multi-concept program synthesisers in Alloy.",UFPE,Alexandre Correia; Juliano Iyoda; Alexandre Mota 0001,https://doi.org/10.1016/j.scico.2020.102536,null,J,no_arxiv,0
+2021,SCP,"A family of multi-concept program synthesisers in Alloy.",UFPE,Alexandre R. S. Correia; Juliano Iyoda; Alexandre Mota 0001,https://doi.org/10.1016/j.scico.2020.102536,null,J,no_arxiv,0
 2021,SCP,"Validating, verifying and testing timed data-flow reactive systems in Coq from controlled natural-language requirements.",UFPE,Gustavo Carvalho; Igor Meira,https://doi.org/10.1016/j.scico.2020.102537,null,J,no_arxiv,0
 2021,SEFM,"RoboWorld: Where Can My Robot Work?",UFPE,Ana Cavalcanti 0001; James Baxter 0001; Gustavo Carvalho,https://doi.org/10.1007/978-3-030-92124-8_1,null,C,no_arxiv,0
 2021,Theor. Comput. Sci.,"Dynamic Preference Logic meets iterated belief change: Representation results and postulates characterization.",UFRGS; UFBA; PUC-RS,Marlo Souza; Renata Vieira; Álvaro F. Moreira,https://doi.org/10.1016/j.tcs.2020.12.042,null,J,http://arxiv.org/abs/2101.01676v1,0
