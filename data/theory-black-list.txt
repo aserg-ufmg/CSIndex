@@ -10,3 +10,4 @@ db/journals/dam/dam210.html#CorreaDFPS16
 db/journals/dam/dam197.html#MucherinoRL15
 db/journals/iandc/iandc255.html#KohlenbachBQ17
 db/journals/dam/dam185.html#UrrutiaL15
+db/journals/iandc/iandc287.html#Queiroz22
