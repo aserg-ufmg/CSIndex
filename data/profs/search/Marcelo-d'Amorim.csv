@@ -1,4 +1,5 @@
 2019,IJCAI,"Demystifying the Combination of Dynamic Slicing and Spectrum-based Fault Localization.",Sofia Reis; Rui Abreu 0001; Marcelo d'Amorim,https://doi.org/10.24963/ijcai.2019/661,top,C,no_arxiv,0
+2022,ICSE,"Fuzzing Class Specifications.",Facundo Molina; Marcelo d'Amorim; Nazareno Aguirre,https://doi.org/10.1145/3510003.3510120,top,C,http://arxiv.org/abs/2201.10874v1,0
 2021,IST,"Identifying method-level mutation subsumption relations using Z3.",Rohit Gheyi; Márcio Ribeiro 0001; Beatriz Souza; Marcio Augusto Guimarães; Leo Fernandes; Marcelo d'Amorim; Vander Alves; Leopoldo Teixeira; Baldoino Fonseca,https://doi.org/10.1016/j.infsof.2020.106496,null,J,no_arxiv,0
 2021,SQJ,"Exposing bugs in JavaScript engines through test transplantation and differential testing.",Igor Lima; Jefferson Silva; Breno Miranda; Gustavo Pinto 0001; Marcelo d'Amorim,https://doi.org/10.1007/s11219-020-09537-8,null,J,http://arxiv.org/abs/2012.03759v1,0
 2021,TSE,"Using Docker to Assist Q&A Forum Users.",Luis Melo; Igor Wiese; Marcelo d'Amorim,https://doi.org/10.1109/TSE.2019.2956919,top,J,no_arxiv,0

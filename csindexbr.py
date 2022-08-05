@@ -459,14 +459,11 @@ def getPaperSize(url,dblp,doi,dblp_venue):
     elif 'pages' in dblp:
        pages = dblp['pages']
        size = paperSize(pages)
-#       if (size == 0):
-#          log.write('Missing pages: url: ' + url + ' doi: ' + doi + '\n')
     else:
        if dblp_venue == "Briefings Bioinform.": 
           size = 10    # we had to add this exception due to missing page fields in this journal
        else:
           size = 0   
-#       log.write('Missing pages: url: ' + url + ' doi: ' + doi + '\n')
     return size
 
 def getDBLPVenue(dblp):
@@ -546,6 +543,9 @@ def parse_dblp(_, dblp):
     global department, found_paper, black_list
 
     # parse_sbes(dblp)
+    
+    if not (isinstance(dblp, dict)):
+       return True
 
     if ('journal' in dblp) or ('booktitle' in dblp):
        dblp_venue = getDBLPVenue(dblp)
