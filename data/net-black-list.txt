@@ -6,3 +6,4 @@ db/journals/tnsm/tnsm15.html#KellererBCPSSSS18
 db/journals/tnsm/tnsm14.html#TurckCKBSRP17
 db/journals/cn/cn129.html#RodriguesZKH17
 db/journals/tnsm/tnsm18.html#KellererSHKKMPP21
+db/journals/comcom/comcom192.html#LoureiroG22
