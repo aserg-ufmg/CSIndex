@@ -7,3 +7,4 @@
 2017,ICS,"Revisiting phased transactional memory.",Joao P. L. de Carvalho; Guido Araujo; Alexandro Baldassin,https://doi.org/10.1145/3079079.3079094,null,C,no_arxiv,0
 2022,ACM Comput. Surveys,"Persistent Memory: A Survey of Programming Support and Implementations.",Alexandro Baldassin; João Barreto 0001; Daniel Castro 0004; Paolo Romano 0002,https://doi.org/10.1145/3465402,null,J,no_arxiv,0
 2019,Inf. Sciences,"An optimized unsupervised manifold learning algorithm for manycore architectures.",Alexandro Baldassin; Ying Weng; Daniel Carlos Guimarães Pedronette; Jurandy Almeida,https://doi.org/10.1016/j.ins.2018.06.023,null,J,no_arxiv,0
+2022,TACO,"Using Barrier Elision to Improve Transactional Code Generation.",Bruno Chinelato Honorio; João P. L. de Carvalho; Catalina Munoz Morales; Alexandro Baldassin; Guido Araujo,https://doi.org/10.1145/3533318,top,J,no_arxiv,0
