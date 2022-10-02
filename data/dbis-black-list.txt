@@ -13,3 +13,4 @@ db/journals/scp/scp191.html#CavalheiroF20
 db/journals/is/is59.html#TrainaJ16
 db/journals/is/is56.html#NardiFAGPSGF16
 db/journals/scp/scp205.html#MassoniM21
+db/journals/dke/dke140.html#CherfiPG22
