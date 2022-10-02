@@ -7,3 +7,4 @@ db/journals/ijon/ijon326.html#PolycarpouCPWQC19
 db/journals/ijon/ijon271.html#BringasCAHQC18
 db/journals/ijon/ijon163.html#QuintianCACWSC15
 db/journals/ijar/ijar137.html#MauaC21
+b/journals/fss/fss446.html#DimuroSB22
