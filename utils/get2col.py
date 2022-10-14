@@ -10,4 +10,4 @@ col2 = int(sys.argv[3])
 input = csv.reader(open(input_file, 'r'))
 
 for line in input:
-    print line[col1] + '  '+ line[col2]
+    print(line[col1] + '  '+ line[col2])

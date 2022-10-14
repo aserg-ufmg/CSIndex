@@ -7,4 +7,4 @@ col = int(sys.argv[2])
 input = csv.reader(open(input_file, 'r'))
 
 for line in input:
-    print line[col]
+    print(line[col])
