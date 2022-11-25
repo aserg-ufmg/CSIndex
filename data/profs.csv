@@ -23,8 +23,8 @@ Aldri dos Santos,UFMG,NET
 Alejandro Frery,UFAL,AI
 Alessandra Alaniz Macedo,FFCLRP/USP,BIO
 Alessandro Garcia,PUC-Rio,SE
-Aleteia de Araujo,UnB,BIO
-Alex Sandro Gomes,UFPE,AI
+Aleteia de Araujo,UnB,NET
+Alex Sandro Gomes,UFPE,CSE
 Alex Sandro Roschildt Pinto,UFSC,DS
 Alex Vieira,UFJF,NET
 Alexandre Delbem,ICMC/USP,AI
@@ -74,7 +74,7 @@ Andre Gustavo dos Santos,UFV,OR
 Andre Hora,UFMG,SE
 Andre Inacio Reis,UFRGS,HARDWARE
 Andre Kashiwabara,UTFPR,BIO
-Andre Luis Vignatti,UFPR,DATA
+Andre Luis Vignatti,UFPR,THEORY
 Andre Luiz Lins de Aquino,UFAL,ARCH
 Andre Luiz Pires Guedes,UFPR,THEORY
 Andre Ponce de Leon Carvalho,ICMC/USP,DATA
@@ -149,6 +149,7 @@ Carlos Alberto Vieira Campos,UNIRIO,NET
 Carlos Alexandre Barros de Mello,UFPE,AI
 Carlos Becker Westphall,UFSC,NET
 Carlos Eduardo Santos Pires,UFCG,ARCH
+Carlos Eduardo da Silva,UFRN,SE
 Carlos Ferraz,UFPE,AI
 Carlos Ferreira,IME/USP,THEORY
 Carlos Figueiredo,UEA,NET
@@ -271,7 +272,7 @@ Eduardo Cunha de Almeida,UFPR,DBIS
 Eduardo Feitosa,UFAM,SECURITY
 Eduardo Figueiredo,UFMG,SE
 Eduardo Gastal,UFRGS,GRAPHICS
-Eduardo Nakamura,UFAM,DATA
+Eduardo Nakamura,UFAM,BIO
 Eduardo Nunes Borges,FURG,AI
 Eduardo Ogasawara,CEFET-RJ,AI
 Eduardo Sany Laber,PUC-Rio,DATA
@@ -280,7 +281,7 @@ Eduardo Todt,UFPR,IR
 Edward Hermann Haeusler,PUC-Rio,FORMAL
 Edward Moreno,UFS,ARCH
 Eiji Adachi Barbosa,IMD/UFRN,SE
-Elaine Oliveira,UFAM,SE
+Elaine Oliveira,UFAM,CSE
 Elaine Pimentel,UFRN,FORMAL
 Elaine Ribeiro de Faria,UFU,GRAPHICS
 Elder Cirilo,UFSJ,DATA
@@ -481,7 +482,7 @@ Jorge Stolfi,UNICAMP,OR
 Jose Antonio Fernandes de Macedo,UFC,DBIS
 Jose Carlos Maldonado,ICMC/USP,PL
 Jose Fernando Rodrigues Junior,ICMC/USP,DATA
-Jose Ferreira de Rezende,COPPE/UFRJ,DATA
+Jose Ferreira de Rezende,COPPE/UFRJ,NET
 Jose Gustavo Paiva,UFU,GRAPHICS
 Jose Luis Guntzel,UFSC,HARDWARE
 Jose Marcos Nogueira,UFMG,NET
@@ -558,7 +559,7 @@ Luciano Barbosa,UFPE,AI
 Luciano Digiampietri,EACH/USP,BIO
 Luciano Gaspary,UFRGS,NET
 Luciano Oliveira,UFBA,AI
-Luciano Silva,UFPR,CHI
+Luciano Silva,UFPR,VISION
 Lucidio Formiga Cabral,UFPB,OR
 Lucineia Heloisa Thom,UFRGS,SE
 Lucio Mauro Duarte,UFRGS,FORMAL
@@ -971,6 +972,7 @@ William Schwartz,UFMG,VISION
 Willian Amorim,UFGD,VISION
 Wilson de Oliveira,UFRPE,AI
 Windson Viana,UFC,SE
+Wylliams Santos,UPE,SE
 Yoshiharu Kohayakawa,IME/USP,THEORY
 Yoshiko Wakabayashi,IME/USP,THEORY
 Yuri Frota,UFF,OR
