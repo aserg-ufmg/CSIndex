@@ -11,3 +11,4 @@ db/journals/scp/scp146.html#Braga17
 db/journals/scp/scp126.html#BragaM16
 db/journals/scp/scp191.html#CavalheiroF20
 db/journals/scp/scp205.html#MassoniM21
+db/journals/scp/scp220.html#CarvalhoS22

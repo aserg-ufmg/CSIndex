@@ -334,3 +334,6 @@ se,2018,"J. Syst. Softw.","Developing and using checklists to improve software e
 pl,2022,"ACM Trans. Archit. Code Optim.","Using Barrier Elision to Improve Transactional Code Generation.",db/journals/taco/taco19.html#HonorioCMBA22
 theory,2022,"Theor. Comput. Sci.","On the probe problem for (, )-well-coveredness: Algorithms and complexity.",db/journals/tcs/tcs932.html#FariaS22
 theory,2022,"Theor. Comput. Sci.","Computing the best-case energy complexity of satisfying assignments in monotone circuits.",db/journals/tcs/tcs932.html#SilvaS22
+ds,2022,"J. Syst. Softw.","IADA: A dynamic interference-aware cloud scheduling architecture for latency-sensitive workloads.",db/journals/jss/jss194.html#MeyerSKR22
+pl,2022,"Softw. Pract. Exp.","Automatic inspection of program state in an uncooperative environment.",db/journals/spe/spe52.html#MagalhaesLP22
+se,2022,"J. Syst. Softw.","Identification and measurement of Requirements Technical Debt in software development: A systematic literature review.",db/journals/jss/jss194.html#MeloFLS22

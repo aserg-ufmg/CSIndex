@@ -20,3 +20,4 @@ db/journals/mscs/mscs29.html#PaivaQ19
 db/journals/mscs/mscs30.html#Ayala-RinconB20
 db/journals/scp/scp205.html#MassoniM21
 db/journals/mscs/mscs31.html#AlvesW21
+db/journals/scp/scp220.html#CarvalhoS22
