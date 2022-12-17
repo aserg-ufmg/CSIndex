@@ -1,4 +1,2 @@
 2021,Expert Systems Appl.,"Nested cross-validation when selecting classifiers is overzealous for most practical applications.",Jacques Wainer; Gavin C. Cawley,https://doi.org/10.1016/j.eswa.2021.115222,null,J,no_arxiv,0
 2018,ACM TOCE,"A Controlled Experiment on Python vs C for an Introductory Programming Course: Students' Outcomes.",Jacques Wainer; Eduardo C. Xavier,https://doi.org/10.1145/3152894,top,J,no_arxiv,0
-2017,JMLR,"Empirical Evaluation of Resampling Procedures for Optimising SVM Hyperparameters.",Jacques Wainer; Gavin C. Cawley,http://jmlr.org/papers/v18/16-174.html,top,J,no_arxiv,0
-2017,PRL,"Empirical comparison of cross-validation and internal metrics for tuning SVM hyperparameters.",Edson Duarte; Jacques Wainer,https://doi.org/10.1016/j.patrec.2017.01.007,null,J,no_arxiv,0

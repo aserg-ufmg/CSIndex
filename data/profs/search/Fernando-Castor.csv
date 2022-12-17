@@ -1,4 +1,3 @@
-2017,Communications ACM,"Energy efficiency: a new concern for application software developers.",Gustavo Pinto 0001; Fernando Castor,https://doi.org/10.1145/3154384,null,J,no_arxiv,0
 2022,ICSA,"A Study on the Software Architecture Documentation Practices and Maturity in Open-Source Software Development.",Michel Muszynski; Sven Lugtigheid; Fernando Castor; Sjaak Brinkkemper,https://doi.org/10.1109/ICSA53651.2022.00013,null,C,no_arxiv,0
 2022,MSR,"Mining the Usage of Reactive Programming APIs: A Study on GitHub and Stack Overflow.",Carlos Zimmerle; Kiev Gama; Fernando Castor; José Murilo Mota Filho,https://doi.org/10.1145/3524842.3527966,null,C,no_arxiv,0
 2021,EMSE,"An exploratory study on confusion in code reviews.",Felipe Ebert; Fernando Castor; Nicole Novielli; Alexander Serebrenik,https://doi.org/10.1007/s10664-020-09909-5,null,J,no_arxiv,0
@@ -13,5 +12,3 @@
 2018,JSS,"Do android developers neglect error handling? a maintenance-Centric study on the relationship between android abstractions and uncaught exceptions.",Juliana Oliveira; Deise Borges; Thaisa Silva; Nélio Cacho; Fernando Castor,https://doi.org/10.1016/j.jss.2017.10.032,null,J,no_arxiv,0
 2018,SPE,"Work practices and challenges in continuous integration: A survey with Travis CI users.",Gustavo Pinto 0001; Fernando Castor; Rodrigo Bonifácio; Marcel Rebouças,https://doi.org/10.1002/spe.2637,null,J,no_arxiv,0
 2018,MSR,"How swift developers handle errors.",Nathan Cassee; Gustavo Pinto 0001; Fernando Castor; Alexander Serebrenik,https://doi.org/10.1145/3196398.3196428,null,C,no_arxiv,0
-2017,ASE,"Understanding and overcoming parallelism bottlenecks in ForkJoin applications.",Gustavo Pinto 0001; Anthony Canino; Fernando Castor; Guoqing Xu 0001; Yu David Liu,https://doi.org/10.1109/ASE.2017.8115687,top,C,no_arxiv,0
-2017,MSR,"A study on the energy consumption of Android app development approaches.",Wellington Oliveira; Renato Oliveira; Fernando Castor,https://doi.org/10.1109/MSR.2017.66,null,C,no_arxiv,0

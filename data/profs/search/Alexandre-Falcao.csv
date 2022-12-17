@@ -1,5 +1,4 @@
 2018,Inf. Sciences,"Multi-label semi-supervised classification through optimum-path forest.",Willian Paraguassu Amorim; Alexandre X. Falcão; João P. Papa,https://doi.org/10.1016/j.ins.2018.06.067,null,J,no_arxiv,0
-2017,IEEE TVCG,"Visualizing the Hidden Activity of Artificial Neural Networks.",Paulo E. Rauber; Samuel G. Fadel; Alexandre X. Falcão; Alexandru C. Telea,https://doi.org/10.1109/TVCG.2016.2598838,top,J,no_arxiv,0
 2022,PR,"Rethinking interactive image segmentation: Feature space annotation.",Jordão Bragantini; Alexandre X. Falcão; Laurent Najman,https://doi.org/10.1016/j.patcog.2022.108882,null,J,http://arxiv.org/abs/2101.04378v3,0
 2021,PR,"Semi-automatic data annotation guided by feature space projection.",Barbara Caroline Benato; Jancarlo F. Gomes; Alexandru C. Telea; Alexandre X. Falcão,https://doi.org/10.1016/j.patcog.2020.107612,null,J,no_arxiv,0
 2021,PRL,"Convolutional neural network simplification with progressive retraining.",Daniel Osaku; Jancarlo Ferreira Gomes; Alexandre Xavier Falcão,https://doi.org/10.1016/j.patrec.2021.06.032,null,J,http://arxiv.org/abs/2101.04699v1,0
@@ -8,4 +7,3 @@
 2020,PR,"Image segmentation using dense and sparse hierarchies of superpixels.",Felipe Lemes Galvão; Silvio Jamil Ferzoli Guimarães; Alexandre Xavier Falcão,https://doi.org/10.1016/j.patcog.2020.107532,null,J,no_arxiv,0
 2020,PRL,"Grabber: A tool to improve convergence in interactive image segmentation.",Jordão Bragantini; Bruno Moura; Alexandre X. Falcão; Fábio A. M. Cappabianco,https://doi.org/10.1016/j.patrec.2020.10.012,null,J,no_arxiv,0
 2019,IEEE TIP,"An Iterative Spanning Forest Framework for Superpixel Segmentation.",John E. Vargas-Munoz; Ananda S. Chowdhury; Eduardo Barreto-Alexandre; Felipe L. Galvão; Paulo André Vechiatto Miranda; Alexandre X. Falcão,https://doi.org/10.1109/TIP.2019.2897941,null,J,http://arxiv.org/abs/1801.10041v1,0
-2017,PRL,"Optimum-Path Forest based on k-connectivity: Theory and applications.",João Paulo Papa; Silas Evandro Nachif Fernandes; Alexandre Xavier Falcão,https://doi.org/10.1016/j.patrec.2016.07.026,null,J,no_arxiv,0

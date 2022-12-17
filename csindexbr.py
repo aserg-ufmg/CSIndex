@@ -12,8 +12,8 @@ import time
 
 from difflib import SequenceMatcher
 
-FIRST_YEAR = 2017
-LAST_YEAR = 2022
+FIRST_YEAR = 2018
+LAST_YEAR = 2023
 
 ALERT_ON = '\033[94m'
 ALERT_OFF = '\033[0m'
@@ -127,6 +127,8 @@ def output_arxiv_cache(area):
        f.close()
 
 def get_arxiv_url(doi, title):
+    if not isinstance(doi, str):
+       return
     if doi in arxiv_cache:
        return arxiv_cache[doi]
     try:
@@ -411,7 +413,7 @@ def getMinPaperSize(weight):
 def getDOI(doi):
     if type(doi) is list:
        doi = doi[0]
-    if type(doi) is collections.OrderedDict:
+    if type(doi) is dict:
        doi = doi["#text"]
     return doi
 
@@ -433,22 +435,22 @@ def getVenueType(weight):
 
 def getAuthors(authorList):
     authors = []
-    if type(authorList) is collections.OrderedDict: # single author paper
+    if type(authorList) is dict: # single author paper
        authorList = authorList["#text"]
        authors.append(authorList)
     elif isinstance(authorList, str):  # single author paper
-       if type(authorList) is collections.OrderedDict:
+       if type(authorList) is dict:
           authorList = authorList["#text"]
        authors.append(authorList)
     else:
        for authorName in authorList:
-           if type(authorName) is collections.OrderedDict:
+           if type(authorName) is dict:
               authorName = authorName["#text"]
            authors.append(authorName)
     return authors
 
 def getTitle(title):
-    if type(title) is collections.OrderedDict:
+    if type(title) is dict:
        title = title["#text"]
     title = title.replace("\"", "")  # remove quotes in titles
     return title
