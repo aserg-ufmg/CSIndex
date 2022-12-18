@@ -166,6 +166,8 @@
               { dept_search = 'PUC-Rio'; }
            else if (dept === 'ufscar')
               { dept_search = 'UFSCar'; }
+           else if (dept === 'unisinos')
+              { dept_search = 'Unisinos'; } 
            else dept_search = dept.toUpperCase();
 
            arrayData2 = []
@@ -319,7 +321,8 @@
      { dept_msg = 'UFPA - Faculdade de Computação'; }
   else if (dept === 'ufal')
      { dept_msg = 'UFAL - Instituto de Computação'; }
-   
+  else if (dept === 'unisinos')
+     { dept_msg = 'Unisinos - Programa de Pós-graduação em Computação Aplicada'; } 
   else dept_msg = dept.toUpperCase();
 
   document.title = 'CSIndexbr - ' + dept_msg;
