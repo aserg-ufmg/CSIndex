@@ -52,8 +52,6 @@ ds,2017,"Journal of Systems and Software","Modeling and automatic code generatio
 se,2017,"Journal of Systems and Software","Test coverage of impacted code elements for detecting refactoring faults: An exploratory study.",db/journals/jss/jss123.html#AlvesMM17
 se,2017,"Journal of Systems and Software","Experimentally assessing the combination of multiple visualization strategies for software evolution analysis.",db/journals/jss/jss128.html#NovaisSN17
 se,2017,"Journal of Systems and Software","CollabRDL: A language to coordinate collaborative reuse.",db/journals/jss/jss131.html#LucasOFA17
-se,2017,"Journal of Systems and Software","Integration between requirements engineering and safety analysis: A systematic literature review.",db/journals
-se,2017,"Journal of Systems and Software","Exploring quality measures for the evaluation of feature models: a case study.",db/journals/jss/
 se,2017,"Journal of Systems and Software","Characterizing testing methods for context-aware software systems: Results from a quasi-systematic literature review.",db/journals/jss/jss131.html#MatalongaRT17
 ds,2017,"Journal of Systems and Software","A multivariate and quantitative model for predicting cross-application interference in virtual environments.",db/journals/jss/jss128.html#AlvesD17
 se,2017,"Journal of Systems and Software","A Formal Approach to implement java exceptions in cooperative systems.",db/journals/jss/jss131.html#HanazumiM17
@@ -97,12 +95,9 @@ formal,2017,"Theor. Comput. Sci.","On concurrent behaviors and focusing in linea
 theory,2017,"Theor. Comput. Sci.","On subexponentials, focusing and modalities in concurrent systems.",db/journals/tcs/tcs693.html#NigamOP17
 formal,2017,"Theor. Comput. Sci.","On concurrent behaviors and focusing in linear logic.",db/journals/tcs/tcs685.html#OlarteP17
 theory,2017,"Theor. Comput. Sci.","On subexponentials, focusing and modalities in concurrent systems.",db/journals/tcs/tcs693.html#NigamOP17
-theory,2017,"Theor. Comput. Sci.","Theorem proving graph grammars with attributes and negative application conditions.",db/journals/tcs/tcs686.html#CavalheiroFR17
-theory,2017,"Theor. Comput. Sci.","Theorem proving graph grammars with attributes and negative application conditions.",db/journals/tcs/tcs686.html#CavalheiroFR17
 theory,2017,"Theor. Comput. Sci.","Bisimilar and logically equivalent programs in PDL with parallel operator.",db/journals/tcs/tcs685.html#Benevides17
 theory,2017,"Theor. Comput. Sci.","On a graph calculus for modalities.",db/journals/tcs/tcs685.html#VelosoVB17
 theory,2017,"Theor. Comput. Sci.","Intruder deduction problem for locally stable theories with normal forms and inverses.",db/journals/tcs/tcs672.html#Ayala-RinconFN17
-theory,2017,"Theor. Comput. Sci.","Theorem proving graph grammars with attributes and negative application conditions.",db/journals/tcs/
 theory,2017,"Theor. Comput. Sci.","Clustering through Continuous Facility Location Problems.",db/journals/tcs/tcs657.html#MeiraMP17
 theory,2017,"Theor. Comput. Sci.","Generalized threshold processes on graphs.",db/journals/tcs/tcs689.html#LimaRSS17
 theory,2017,"Theor. Comput. Sci.","Inducing enhanced suffix arrays for string collections.",db/journals/tcs/tcs678.html#LouzaGT17
@@ -112,3 +107,6 @@ se,2017,"Journal of Systems and Software","Automated extraction of product compa
 ds,2017,"Journal of Systems and Software","An efficient spark-based adaptive windowing for entity matching.",db/journals/jss/jss128.html#MestrePNQSA17
 se,2017,"Journal of Systems and Software","Scope-aided test prioritization, selection and minimization for software reuse.",db/journals/jss/jss131.html#MirandaB17
 arch,2017,"Concurr. Comput. Pract. Exp.","Quantum computing simulation through reduction and decomposition optimizations with a case study of Shor's algorithm.",db/journals/concurrency/concurrency29.html#AvilaRP17
+se,2017,"Journal of Systems and Software","Exploring quality measures for the evaluation of feature models: a case study.",db/journals/jss/jss131.html#BezerraAM17
+se,2017,"Journal of Systems and Software","Integration between requirements engineering and safety analysis: A systematic literature review.",db/journals/jss/jss125.html#VilelaCMG17
+theory,2017,"Theor. Comput. Sci.","Theorem proving graph grammars with attributes and negative application conditions.",db/journals/tcs/tcs686.html#CavalheiroFR17
