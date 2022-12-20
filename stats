@@ -281,4 +281,4 @@ echo '</ul>'
 
 # echo '<small> <p> Last updated on' $up_papers ' (papers) and ' $up_citations  ' (citations).</p> </small>'
 
-echo '<small> <p> Last updated on' $up_papers ' (papers).</p> </small>'
+# echo '<small> <p> Last updated on' $up_papers ' (papers).</p> </small>'
