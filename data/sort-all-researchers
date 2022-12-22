@@ -1,0 +1,3 @@
+sort all-researchers.csv > all-researchers2.csv
+rm all-researchers.csv
+mv all-researchers2.csv all-researchers.csv
