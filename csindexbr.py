@@ -31,7 +31,7 @@ class Global:
     multi_area_journal = False
     mc_failed_file = open('manual-classification-failed.csv', 'a')
 
-#### functions for handling journals with manual classification
+# functions for handling journals with manual classification
 
 def init_manual_files():
     with open('manual-journals.txt') as mf:
@@ -59,7 +59,7 @@ def outuput_multi_area_journal():
        print('\033[94m' + "Found papers in MULTI-AREA journals" + '\033[0m')
     Global.mc_failed_file.close()
 
-#### arxiv-related functions
+# arxiv-related functions
 
 def init_arxiv_cache():
     fname = '../cache/arxiv/' + Global.area_prefix + '-arxiv-cache.csv'
@@ -105,7 +105,7 @@ def get_arxiv_url(doi, title):
     Global.arxiv_cache[doi] = arxiv_url
     return arxiv_url
 
-#### output functions
+# output functions
 
 def outuput_everything():
     output_papers()
@@ -258,12 +258,6 @@ def remove_prof_papers_file(area, prof):
        print("Removing "+ file)
        os.remove(file)
 
-def file_len(file):
-    with open(file) as f:
-       for i, l in enumerate(f):
-           pass
-    return i + 1
-
 def merge_output_prof_papers(prof):
     os.chdir("../cache/profs")
     filenames = []
@@ -292,7 +286,7 @@ def output_search_box_list():
         f.write('\n')
     f.close()
 
-#### dblp parsing auxiliary functions
+# dblp parsing auxiliary functions
 
 def get_paper_score(weight):
     if (weight == 1) or (weight == 4):
@@ -420,7 +414,7 @@ def is_manual_journal(year, dblp_venue, title, url):
           return True
     return False
 
-#### main dblp parse function
+# main dblp parse function
 
 def is_paper_size_ok(url, dblp, dblp_venue, weight):
     size = get_paper_size(url, dblp, dblp_venue)
@@ -451,7 +445,7 @@ def is_indexable(dblp):
     return False
 
 def parse_dblp(_, dblp):
-    global department, found_paper
+    global global_department, global_found_paper
 
     if is_indexable(dblp):
        dblp_venue = get_dblp_venue(dblp)
@@ -461,15 +455,15 @@ def parse_dblp(_, dblp):
        doi = get_doi(dblp['ee'])
        title = get_title(dblp['title'])
 
-       found_paper = True
+       global_found_paper = True   # global variable
        Global.pid_papers.append(url)
 
        # paper was already processed
        if url in Global.out:
           paper = Global.out[url]
-          if has_dept(paper[3], department):
+          if has_dept(paper[3], global_department):
              return True
-          save_already_processed_paper(paper, department, url, weight)
+          save_already_processed_paper(paper, global_department, url, weight)
           return True
 
        tier = get_venue_tier(weight)
@@ -478,13 +472,13 @@ def parse_dblp(_, dblp):
        citations = 0
        authors = get_authors(dblp['author'])
 
-       Global.out[url] = (year, venue, '"' + title + '"', department, authors, doi,
+       Global.out[url] = (year, venue, '"' + title + '"', global_department, authors, doi,
                           tier, venue_type, arxiv, citations)
-       Global.score[department] += get_paper_score(weight)
+       Global.score[global_department] += get_paper_score(weight)
 
     return True   # True = continue parsing next paper
 
-### init functions
+# init functions
 
 def init_black_list():
     black_list_file = Global.area_prefix + "-black-list.txt"
@@ -531,9 +525,9 @@ def init_everything():
     init_arxiv_cache()
     init_prof_cache()
 
-### main loop that process each researcher
+# main loop that process each researcher
 
-def read_dblp_file(dblp_pid, prof):
+def read_dblp_file(pid, prof):
     prof = prof.replace(" ", "-")
     file = '../cache/dblp/' + prof + '.xml'
     if os.path.exists(file):
@@ -541,7 +535,7 @@ def read_dblp_file(dblp_pid, prof):
           dblp_xml = f.read()
     else:
        try:
-          url = "http://dblp.org/pid/" + dblp_pid + ".xml"
+          url = "http://dblp.org/pid/" + pid + ".xml"
           dblp_xml = requests.get(url).text
           with open(file, 'w') as f:
              f.write(str(dblp_xml))
@@ -563,22 +557,22 @@ def process_department_data(dept):
        Global.profs[dept] = 0
 
 def process_all_researchers():
-    global department, found_paper
+    global global_department, global_found_paper
     all_researchers = csv.reader(open("all-researchers.csv", 'r'))
     count = 1
     print("Research Area: " + Global.area_prefix)
     for researcher in all_researchers:
         prof = researcher[0]
-        department = researcher[1]   # global
+        global_department = researcher[1]   # global
         pid = researcher[2]
-        process_department_data(department)
+        process_department_data(global_department)
         bibfile = read_dblp_file(pid, prof)
         Global.pid_papers = []
-        found_paper = False    # global
+        global_found_paper = False    # global
         xmltodict.parse(bibfile, item_depth=3, item_callback=parse_dblp)
-        if found_paper:
-           process_prof_with_paper(prof, department)
-           print(str(count) + " >> " + prof + ", " + department)
+        if global_found_paper:
+           process_prof_with_paper(prof, global_department)
+           print(str(count) + " >> " + prof + ", " + global_department)
         count = count + 1
 
 # main program
