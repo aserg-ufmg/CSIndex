@@ -1,5 +1,5 @@
-se,2018,"Journal of Systems and Software","On the use of replacement messages in API deprecation: An empirical study.",db/journals/jss/jss137.html#BritoHVR18
 se,2018,"Journal of Systems and Software","Time-space efficient regression testing for configurable systems.",db/journals/jss/jss137.html#Soutod18
+se,2018,"Journal of Systems and Software","On the use of replacement messages in API deprecation: An empirical study.",db/journals/jss/jss137.html#BritoHVR18
 formal,2018,"Sci. Comput. Program.","Sound conformance testing for cyber-physical systems: Theory and implementation.",db/journals/scp/scp162.html#AraujoCMMS18
 se,2018,"Journal of Systems and Software","Do android developers neglect error handling? a maintenance-Centric study on the relationship between android abstractions and uncaught exceptions.",db/journals/jss/jss136.html#OliveiraBSCC18
 se,2018,"Journal of Systems and Software","JMove: A novel heuristic and tool to detect move method refactoring opportunities.",db/journals/jss/jss138.html#TerraVMS18
@@ -276,3 +276,11 @@ se,2022,"J. Syst. Softw.","Identification and measurement of Requirements Techni
 theory,2023,"Theor. Comput. Sci.","The connected greedy coloring game.",db/journals/tcs/tcs940.html#LimaMMS23
 se,2021,"J. Syst. Softw.","A holistic approach for cross-platform software development.",db/journals/jss/jss179.html#BlancoL21
 theory,2021,"Theor. Comput. Sci.","A new approach to regular & indeterminate strings.",db/journals/tcs/tcs854.html#LouzaMS21
+se,2023,"J. Syst. Softw.","Ensemble Effort Estimation: An updated and extended systematic literature review.",db/journals/jss/jss195.html#CabralOS23
+se,2023,"J. Syst. Softw.","The perspective of Brazilian software developers on data privacy.",db/journals/jss/jss195.html#PeixotoFCSVAG23
+ds,2023,"Softw. Pract. Exp.","NAS Parallel Benchmarks with CUDA and beyond.",db/journals/spe/spe53.html#AraujoGRDF23
+ds,2023,"Softw. Pract. Exp.","SPIDER: An availability-aware framework for the service function chain placement in distributed scenarios.",db/journals/spe/spe53.html#SantosESK23
+se,2023,"J. Syst. Softw.","Automating Feature Model maintainability evaluation using machine learning techniques.",db/journals/jss/jss195.html#SilvaBM23
+se,2023,"J. Syst. Softw.","Software practitioners' point of view on technical debt payment.",db/journals/jss/jss196.html#FreireRPCCRMTLP23
+se,2023,"J. Syst. Softw.","Software engineering research on the Robot Operating System: A systematic mapping study.",db/journals/jss/jss197.html#AlbonicoDHM23
+se,2023,"J. Syst. Softw.","Spectrum-based feature localization for families of systems.",db/journals/jss/jss195.html#MichelonMSAAAE23
