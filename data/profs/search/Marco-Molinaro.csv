@@ -7,6 +7,7 @@
 2018,Math Program,"Aggregation-based cutting-planes for packing and covering integer programs.",Merve Bodur; Alberto Del Pia; Santanu S. Dey; Marco Molinaro 0001; Sebastian Pokutta,https://doi.org/10.1007/s10107-017-1192-x,null,J,no_arxiv,0
 2018,Math Program,"Minimal cut-generating functions are nearly extreme.",Amitabh Basu; Robert Hildebrand; Marco Molinaro 0001,https://doi.org/10.1007/s10107-017-1153-4,null,J,no_arxiv,0
 2018,SIAM J Opt,"Improving the Randomization Step in Feasibility Pump.",Santanu S. Dey; Andres Iroume; Marco Molinaro 0001; Domenico Salvagnin,https://doi.org/10.1137/16M1095962,null,J,http://arxiv.org/abs/1609.08121v1,0
+2023,SODA,"Online and Bandit Algorithms Beyond ℓ Norms.",Thomas Kesselheim; Marco Molinaro 0001; Sahil Singla 0001,https://doi.org/10.1137/1.9781611977554.ch58,top,C,no_arxiv,0
 2022,SODA,"Robust Secretary and Prophet Algorithms for Packing Integer Programs.",C. J. Argue; Anupam Gupta 0001; Marco Molinaro 0001; Sahil Singla 0001,https://doi.org/10.1137/1.9781611977073.53,top,C,http://arxiv.org/abs/2112.12920v1,0
 2021,SODA,"Branch-and-Bound Solves Random Binary IPs in Polytime.",Santanu S. Dey; Yatharth Dubey; Marco Molinaro 0001,https://doi.org/10.1137/1.9781611976465.35,top,C,no_arxiv,0
 2021,SODA,"Robust Algorithms for Online Convex Problems via Primal-Dual.",Marco Molinaro 0001,https://doi.org/10.1137/1.9781611976465.124,top,C,no_arxiv,0
