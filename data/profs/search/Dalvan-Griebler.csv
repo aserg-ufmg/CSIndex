@@ -10,4 +10,5 @@
 2019,Int. J. Parallel Programming,"High-Level and Productive Stream Parallelism for Dedup, Ferret, and Bzip2.",Dalvan Griebler; Renato B. Hoffmann; Marco Danelutto; Luiz Gustavo Fernandes,https://doi.org/10.1007/s10766-018-0558-x,null,J,no_arxiv,0
 2019,Supercomputing,"Stream parallelism with ordered data constraints on multi-core systems.",Dalvan Griebler; Renato B. Hoffmann; Marco Danelutto; Luiz Gustavo Fernandes,https://doi.org/10.1007/s11227-018-2482-7,null,J,no_arxiv,0
 2018,PDP,"Efficient NAS Benchmark Kernels with C++ Parallel Programming.",Dalvan Griebler; Junior Loff; Gabriele Mencagli; Marco Danelutto; Luiz Gustavo Fernandes,https://doi.org/10.1109/PDP2018.2018.00120,null,C,no_arxiv,0
+2023,SPE,"NAS Parallel Benchmarks with CUDA and beyond.",Gabriell Alves de Araujo; Dalvan Griebler; Dinei A. Rockenbach; Marco Danelutto; Luiz Gustavo Fernandes,https://doi.org/10.1002/spe.3056,null,J,no_arxiv,0
 2021,SPE,"Providing high-level self-adaptive abstractions for stream parallelism on multicores.",Adriano Vogel; Dalvan Griebler; Luiz Gustavo Fernandes,https://doi.org/10.1002/spe.2948,null,J,no_arxiv,0
