@@ -42,6 +42,7 @@ Alexandro Baldassin,UNESP,ARCH
 Alfredo Goldman,IME/USP,SE
 Aline Andrade,UFBA,SE
 Aline Paes,UFF,DATA
+Aline Villavicencio,UFRGS,AI
 Alisson Vasconcelos de Brito,UFPB,GRAPHICS
 Alneu de Andrade Lopes,ICMC/USP,DATA
 Altair Olivo Santin,PUC-PR,ARCH
@@ -155,7 +156,7 @@ Carlos Ferraz,UFPE,AI
 Carlos Ferreira,IME/USP,THEORY
 Carlos Figueiredo,UEA,NET
 Carlos Henrique Costa Ribeiro,ITA,NET
-Carlos Kamienski,UFABC,AI
+Carlos Kamienski,UFABC,NET
 Carlos Lima,UFCA,THEORY
 Carlos Lucena,PUC-Rio,SE
 Carlos Maziero,UFPR,CS
@@ -207,7 +208,7 @@ Cristiana Bentes,UERJ,ARCH
 Cristiano Arbex Valle,UFMG,OR
 Cristiano Bonato Both,Unisinos,NET
 Cristiano Costa,Unisinos,AI
-Cristiano Maciel da Silva,UFSJ,GRAPHICS
+Cristiano Maciel da Silva,UFSJ,AI
 Cristina Boeres,UFF,DS
 Cristina Ciferri,ICMC/USP,DBIS
 Cristina Fernandes,IME/USP,THEORY
@@ -237,7 +238,7 @@ Danilo Sanches,UTFPR,BIO
 Dario Aloise,UERN,OR
 Davi Viana,UFMA,GRAPHICS
 David Martins,UFABC,ARCH
-David Menotti,UFPR,AI
+David Menotti,UFPR,SECURITY
 David Moises Santos,UEFS,CSE
 Debora Muchaluat Saade,UFF,GRAPHICS
 Denis Fernando Wolf,ICMC/USP,ROBOTICS
@@ -317,7 +318,7 @@ Ezequiel Roberto Zorzal,UNIFESP,GRAPHICS
 Fabiane Barreto Vavassori Beniti,UFSC,CS
 Fabiano Ferrari,UFSCar,SE
 Fabiano Passuelo Hessel,PUC-RS,NET
-Fabio Augusto Faria,UNIFESP,ARCH
+Fabio Augusto Faria,UNIFESP,VISION
 Fabio Cappabianco,UNIFESP,VISION
 Fabio Costa,UFG,DS
 Fabio Cozman,POLI/USP,AI
@@ -336,7 +337,7 @@ Fabricio Enembreck,PUC-PR,AI
 Fabricio Martins Lopes,UTFPR,BIO
 Fabricio Murai,UFMG,IR
 Fabricio Olivetti de Franca,UFABC,AI
-Fatima Nunes,EACH/USP,AI
+Fatima Nunes,EACH/USP,CS
 Felipe Franca,COPPE/UFRJ,AI
 Felipe Louza,UFU,THEORY
 Felipe Meneguzzi,PUC-RS,AI
@@ -346,7 +347,7 @@ Fernanda Baiao,UNIRIO,DBIS
 Fernanda Campos,UFJF,DS
 Fernando Castor,UFPE,SE
 Fernando Dotti,PUC-RS,DS
-Fernando Gehm Moraes,PUC-RS,ARCH
+Fernando Gehm Moraes,PUC-RS,HARDWARE
 Fernando Maciano de Paula Neto,UFPE,AI
 Fernando Osorio,ICMC/USP,AI
 Fernando Paulovich,ICMC/USP,GRAPHICS
@@ -408,6 +409,7 @@ Gustavo Gimenez Lugo,UTFPR,AI
 Gustavo Pavani,UFABC,NET
 Gustavo Pessin,ITV,ROBOTICS
 Gustavo Pinto,UFPA,SE
+Haniel Barbosa,UFMG,FORMAL
 Hansenclever Bassani,UFPE,AI
 Haroldo Gambini Santos,UFOP,OR
 Heiko Hornung,UNICAMP,CHI
@@ -514,7 +516,7 @@ Karina Valdivia Delgado,IME/USP,AI
 Kate Revoredo,UNIRIO,DBIS
 Kecia Ferreira,CEFET-MG,SE
 Kelen Vivaldini,UFSCar,ROBOTICS
-Kelvin Lopes Dias,UFPE,ARCH
+Kelvin Lopes Dias,UFPE,NET
 Kiev Gama,UFPE,SE
 Kleinner Farias,Unisinos,SE
 Laercio Pilla,UFSC,ARCH
@@ -539,7 +541,7 @@ Leticia Rittner,FEEC/UNICAMP,GRAPHICS
 Levi Lelis,UFV,AI
 Li Weigang,UnB,ARCH
 Lilian Berton,UNIFESP,AI
-Lina Garces,UNIFEI,SE
+Lina Garces,UNIFEI,CS
 Lincoln Rocha,UFC,SE
 Linnyer Ruiz,UEM,NET
 Liria Sato,POLI/USP,DATA
@@ -629,7 +631,7 @@ Marco Aurelio Wehrmeister,UTFPR,ROBOTICS
 Marco Cristo,UFAM,AI
 Marco Goldbarg,UFRN,OR
 Marco Graciotto Silva,UTFPR,SE
-Marco Molinaro,PUC-Rio,OR
+Marco Molinaro,PUC-Rio,THEORY
 Marco Tulio Valente,UFMG,SE
 Marcone Souza,UFOP,OR
 Marcos Andre Goncalves,UFMG,IR
@@ -684,6 +686,7 @@ Michel Albonico,UTFPR,SE
 Michel Melo Silva,UFV,VISION
 Michel dos Santos Soares,UFS,SE
 Michele Nogueira,UFMG,NET
+Michelle Wangham,UNIVALI,NET
 Miguel Campista,COPPE/UFRJ,NET
 Miguel Castro,UFC,NET
 Milene Silveira,PUC-RS,SE
@@ -760,7 +763,7 @@ Rafael Melo,UFBA,OR
 Rafael Pasquini,UFU,NET
 Rafael Prikladnicki,PUC-RS,SE
 Rafael Rossi,UFMS,DATA
-Rafael Schouery,UNICAMP,THEORY
+Rafael Schouery,UNICAMP,OR
 Rafael Torchelsen,UFPEL,GRAPHICS
 Rafael de Sousa Junior,UnB,NET
 Raimundo Barreto,UFAM,NET
@@ -818,7 +821,7 @@ Rivalino Matias,UFU,DS
 Roberta Coelho,UFRN,SE
 Roberto Bigonha,UFMG,SE
 Roberto Bittencourt,UEFS,CSE
-Roberto Celio Limao de Oliveira,FCT/UFPA,AI
+Roberto Celio Limao de Oliveira,FCT/UFPA,NET
 Roberto Cesar Junior,IME/USP,VISION
 Roberto Freitas Parente,UFBA,THEORY
 Roberto Hirata,IME/USP,VISION
