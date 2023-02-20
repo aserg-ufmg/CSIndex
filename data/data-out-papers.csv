@@ -105,6 +105,7 @@
 2019,Data Min. Knowl. Discov.,"Mining skypatterns in fuzzy tensors.",UFMG,Nicolas Nadisic; Aurélien Coussat; Loïc Cerf,https://doi.org/10.1007/s10618-019-00640-4,null,J,no_arxiv,0
 2019,ECML/PKDD,"Cost Sensitive Evaluation of Instance Hardness in Machine Learning.",UFPE,Ricardo B. C. Prudêncio,https://doi.org/10.1007/978-3-030-46147-8_6,null,C,no_arxiv,0
 2019,ICML,"New results on information theoretic clustering.",PUC-Rio,Ferdinando Cicalese; Eduardo Sany Laber; Lucas Murtinho,http://proceedings.mlr.press/v97/cicalese19a.html,top,C,no_arxiv,0
+2019,ICML,"Simplifying Graph Convolutional Networks.",IFCE,Felix Wu; Amauri H. Souza Jr.; Tianyi Zhang 0007; Christopher Fifty; Tao Yu; Kilian Q. Weinberger,http://proceedings.mlr.press/v97/wu19e.html,top,C,http://arxiv.org/abs/1902.07153v2,0
 2019,IEEE TKDE,"Efficient Scheduling of Scientific Workflows Using Hot Metadata in a Multisite Cloud.",COPPE/UFRJ,Ji Liu 0003; Luis Pineda-Morales; Esther Pacitti; Alexandru Costan; Patrick Valduriez; Gabriel Antoniu; Marta Mattoso,https://doi.org/10.1109/TKDE.2018.2867857,top,J,no_arxiv,0
 2019,Inf. Fusion,"An iterative boosting-based ensemble for streaming data classification.",FT/UNICAMP; UFSCar,João Roberto Bertini Junior; Maria do Carmo Nicoletti,https://doi.org/10.1016/j.inffus.2018.01.003,null,J,no_arxiv,0
 2019,Inf. Fusion,"An overview and comprehensive comparison of ensembles for concept drift.",UFPE,Roberto Souto Maior de Barros; Silas Garrido Teixeira de Carvalho Santos,https://doi.org/10.1016/j.inffus.2019.03.006,null,J,no_arxiv,0
