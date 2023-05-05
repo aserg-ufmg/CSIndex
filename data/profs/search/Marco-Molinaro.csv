@@ -1,5 +1,7 @@
 2020,ICML,"Teaching with Limited Information on the Learner's Behaviour.",Ferdinando Cicalese; Sergio Filho; Eduardo Sany Laber; Marco Molinaro 0001,http://proceedings.mlr.press/v119/cicalese20a.html,top,C,no_arxiv,0
 2018,ICML,"Binary Partitions with Approximate Minimum Impurity.",Eduardo Sany Laber; Marco Molinaro 0001; Felipe de A. Mello Pereira,http://proceedings.mlr.press/v80/laber18a.html,top,C,no_arxiv,0
+2023,Math Program,"Lower bounds on the size of general branch-and-bound trees.",Santanu S. Dey; Yatharth Dubey; Marco Molinaro 0001,https://doi.org/10.1007/s10107-022-01781-z,null,J,no_arxiv,0
+2023,Math Program,"Solving sparse principal component analysis with global support.",Santanu S. Dey; Marco Molinaro 0001; Guanyi Wang,https://doi.org/10.1007/s10107-022-01857-w,null,J,http://arxiv.org/abs/2010.11152v3,0
 2022,Math Program,"Sparse PSD approximation of the PSD cone.",Grigoriy Blekherman; Santanu S. Dey; Marco Molinaro 0001; Shengding Sun,https://doi.org/10.1007/s10107-020-01578-y,null,J,http://arxiv.org/abs/2002.02988v1,0
 2019,SIAM J Opt,"Lower Bounds on the Lattice-Free Rank for Packing and Covering Integer Programs.",Merve Bodur; Alberto Del Pia; Santanu S. Dey; Marco S. Molinaro 0001,https://doi.org/10.1137/17M1149985,null,J,no_arxiv,0
 2018,Math OR,"Analysis of Sparse Cutting Planes for Sparse MILPs with Applications to Stochastic MILPs.",Santanu S. Dey; Marco Molinaro 0001; Qianyi Wang,https://doi.org/10.1287/moor.2017.0866,top,J,http://arxiv.org/abs/1601.00198v1,0
