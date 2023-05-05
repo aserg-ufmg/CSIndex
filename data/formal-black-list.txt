@@ -22,3 +22,4 @@ db/journals/scp/scp205.html#MassoniM21
 db/journals/mscs/mscs31.html#AlvesW21
 db/journals/scp/scp220.html#
 db/journals/mscs/mscs32.html#AyalaRinconM22
+db/journals/scp/scp220.html#CarvalhoS22
