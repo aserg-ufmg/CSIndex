@@ -108,14 +108,14 @@ Antonio Furtado,PUC-Rio,DBIS
 Antonio Sementille,UNESP,GRAPHICS
 Antonio Tadeu Gomes,LNCC,ARCH
 Aparecido Marana,UNESP,AI
-Arnaldo Araujo,UFMG,GRAPHICS
+Arnaldo Araujo,UFMG,VISION
 Arthur Francisco Lorenzon,UFRGS,ARCH
 Artur Ziviani,LNCC,CS
 Asla Medeiros,FGV,GRAPHICS
 Augusto Jose Venancio Neto,UFRN,NET
 Augusto Sampaio,UFPE,FORMAL
 Aura Conci,UFF,VISION
-Auri Vincenzi,UFSCar,DS
+Auri Vincenzi,UFSCar,SE
 Aurora Pozo,UFPR,AI
 Avelino Zorzo,PUC-RS,SE
 Baldoino Fonseca,UFAL,SE
@@ -128,7 +128,7 @@ Bruno Cafeo,UFMS,SE
 Bruno Cartaxo,IFPE,SE
 Bruno Castro da Silva,UFRGS,DATA
 Bruno Costa e Silva Nogueira,UFAL,OR
-Bruno Feijo,PUC-Rio,GRAPHICS
+Bruno Feijo,PUC-Rio,SE
 Bruno Gadelha,UFAM,SE
 Bruno Jefferson Pessoa,UFPB,OR
 Bruno Kimura,UNIFESP,NET
@@ -214,7 +214,7 @@ Cristina Boeres,UFF,DS
 Cristina Ciferri,ICMC/USP,DBIS
 Cristina Fernandes,IME/USP,THEORY
 Cristina Meinhardt,FURG,HARDWARE
-Cristina Nader Vasconcelos,UFF,GRAPHICS
+Cristina Nader Vasconcelos,UFF,VISION
 Dalton Guerrero,UFCG,CSE
 Daltro Nunes,UFRGS,SE
 Dalvan Griebler,PUC-RS,ARCH
@@ -226,7 +226,7 @@ Daniel Figueiredo,COPPE/UFRJ,DATA
 Daniel Fireman,IFAL,DS
 Daniel Guidoni,UFSJ,NET
 Daniel Kaster,UEL,DBIS
-Daniel Lucredio,UFSCar,SE
+Daniel Lucredio,UFSCar,DBIS
 Daniel Menasche,DCC/UFRJ,NET
 Daniel Osaku,UFSCar,VISION
 Daniel Schwabe,PUC-Rio,BIO
@@ -432,9 +432,11 @@ Hudson Borges,UFMS,SE
 Humberto Marques,PUC Minas,IR
 Humberto Rezente,UFU,DBIS
 Hyggo Almeida,UFCG,SE
+Ig Ibert Bittencourt,UFAL,AI
 Igor Machado Coelho,UERJ,ARCH
 Igor Moraes,UFF,NET
 Igor Wiese,UTFPR,SE
+Ingrid Monteiro,UFC,SE
 Ingrid Oliveira,UFRGS,SE
 Isabel Harb Manssour,PUC-RS,GRAPHICS
 Isabel Rosseti,UFF,OR
@@ -448,7 +450,7 @@ Jaelson Castro,UFPE,SE
 Jairo Panetta,ITA,ARCH
 Jamilson Dantas,UFPE,ARCH
 Janio Carlos Nascimento Silva,IFTO,THEORY
-Javam Machado,UFC,ARCH
+Javam Machado,UFC,DBIS
 Jayme Szwarcfiter,COPPE/UFRJ,THEORY
 Jean Martina,UFSC,IR
 Jeferson Campos Nobre,UFRGS,NET
@@ -583,7 +585,7 @@ Luiz Andre Paes Leme,UFF,DBIS
 Luiz Chaimowicz,UFMG,ROBOTICS
 Luiz Claudio Villar dos Santos,UFSC,HARDWARE
 Luiz Eduardo Soares Oliveira,UFPR,AI
-Luiz Fernando Bittencourt,UNICAMP,DS
+Luiz Fernando Bittencourt,UNICAMP,NET
 Luiz Fernando Coletta,UNESP,AI
 Luiz Filipe Vieira,UFMG,NET
 Luiz Gonzaga,Unisinos,VISION
@@ -603,6 +605,7 @@ Marcelle Mota,UFPA,GRAPHICS
 Marcelo Albertini,UFU,GRAPHICS
 Marcelo Chaim,EACH/USP,SE
 Marcelo Fantinato,EACH/USP,CS
+Marcelo Finger,IME/USP,FORMAL
 Marcelo Guimaraes,UNIFESP,GRAPHICS
 Marcelo Henriques Carvalho,UFMS,THEORY
 Marcelo Ladeira,UnB,AI
@@ -633,7 +636,7 @@ Marco Aurelio Wehrmeister,UTFPR,ROBOTICS
 Marco Cristo,UFAM,AI
 Marco Goldbarg,UFRN,OR
 Marco Graciotto Silva,UTFPR,SE
-Marco Molinaro,PUC-Rio,THEORY
+Marco Molinaro,PUC-Rio,OR
 Marco Tulio Valente,UFMG,SE
 Marcone Souza,UFOP,OR
 Marcos Andre Goncalves,UFMG,IR
@@ -755,7 +758,7 @@ Priscila Saito,UFSCar,BIO
 Priscila Solis,UnB,SECURITY
 Puca Huachi Penna,UFOP,OR
 Rafael Bordini,PUC-RS,AI
-Rafael Dias Araujo,UFU,SE
+Rafael Dias Araujo,UFU,AI
 Rafael Ferreira Mello,UFRPE,AI
 Rafael Kunst,Unisinos,NET
 Rafael Lins,UFPE,AI
@@ -804,13 +807,14 @@ Ricardo Cerri,UFSCar,AI
 Ricardo Dahab,UNICAMP,THEORY
 Ricardo Fabbri,UERJ,VISION
 Ricardo Ferreira,UFV,ARCH
+Ricardo Jacobi,UnB,GRAPHICS
 Ricardo Jose Ferrari,UFSCar,AI
 Ricardo Marcacini,UFMS,DATA
-Ricardo Marroquim,COPPE/UFRJ,VISION
+Ricardo Marroquim,COPPE/UFRJ,GRAPHICS
 Ricardo Massa Ferreira Lima,UFPE,SE
 Ricardo Prudencio,UFPE,AI
 Ricardo Reis,UFRGS,HARDWARE
-Ricardo Rios,UFBA,GRAPHICS
+Ricardo Rios,UFBA,AI
 Ricardo Rodrigues Ciferri,UFSCar,DBIS
 Ricardo Silveira,UFSC,AI
 Ricardo Tanscheit,PUC-Rio,AI
@@ -823,7 +827,7 @@ Rivalino Matias,UFU,DS
 Roberta Coelho,UFRN,SE
 Roberto Bigonha,UFMG,SE
 Roberto Bittencourt,UEFS,CSE
-Roberto Celio Limao de Oliveira,FCT/UFPA,NET
+Roberto Celio Limao de Oliveira,FCT/UFPA,AI
 Roberto Cesar Junior,IME/USP,VISION
 Roberto Freitas Parente,UFBA,THEORY
 Roberto Hirata,IME/USP,VISION
@@ -887,7 +891,7 @@ Silvia Costa Botelho,FURG,ROBOTICS
 Silvia Vergilio,UFPR,SE
 Silvio Guimaraes,PUC Minas,VISION
 Silvio Meira,UFPE,AI
-Simone Barbosa,PUC-Rio,GRAPHICS
+Simone Barbosa,PUC-Rio,SE
 Simone Cristiane dos Santos,UFPE,CSE
 Simone Dantas de Souza,UFF,THEORY
 Simone Souza,ICMC/USP,SE
@@ -904,7 +908,7 @@ Tayana Conte,UFAM,SE
 Teobaldo Bulhoes,UFPB,OR
 Teofilo de Campos,UnB,VISION
 Teresa Ludermir,UFPE,AI
-Thais Batista,UFRN,ARCH
+Thais Batista,UFRN,IR
 Thais Rocha,UFAPE,SE
 Thales Vieira,UFAL,AI
 Thelma Colanzi,UEM,SE
