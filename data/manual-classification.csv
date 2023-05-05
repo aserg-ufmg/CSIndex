@@ -286,3 +286,7 @@ se,2023,"J. Syst. Softw.","Software engineering research on the Robot Operating 
 se,2023,"J. Syst. Softw.","Spectrum-based feature localization for families of systems.",db/journals/jss/jss195.html#MichelonMSAAAE23
 ds,2023,"Concurr. Comput. Pract. Exp.","Bio-inspired optimization to support the test data generation of concurrent software.",db/journals/concurrency/concurrency35.html#VilelaNPSS23
 theory,2023,"Theor. Comput. Sci.","Complexity and approximability of Minimum Path-Collection Exact Covers.",db/journals/tcs/tcs942.html#RaveloF23
+ds,2023,"Concurr. Comput. Pract. Exp.","Implicit propagation of directly addressed grids in lattice Boltzmann methods.",db/journals/concurrency/concurrency35.html#KummerlanderDFK23
+theory,2023,"Theor. Comput. Sci.","Nearly tight bounds on the price of explainability for the -center and the maximum-spacing clustering problems.",db/journals/tcs/tcs949.html#LaberM23
+theory,2023,"Theor. Comput. Sci.","Improved NP-hardness results for the minimum -spanner problem on bounded-degree graphs.",db/journals/tcs/tcs947.html#GomezMW23
+theory,2023,"Theor. Comput. Sci.","Disconnected matchings.",db/journals/tcs/tcs956.html#GomesMPSS23

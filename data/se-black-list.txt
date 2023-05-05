@@ -39,3 +39,4 @@ db/journals/infsof/infsof132.html#AmalfitanoMT21
 db/journals/scp/scp205.html#MassoniM21
 db/journals/scp/scp220.html#CarvalhoS22
 db/journals/smr/smr34.html#MirandaTG22
+db/journals/infsof/infsof158.html#SchonSHST23
