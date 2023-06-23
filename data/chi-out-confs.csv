@@ -5,6 +5,7 @@ IUI,3
 EICS,2
 DIS,1
 MobileHCI,1
+UMAP,1
 ASSETS,0
 AVI,0
 HIR,0
@@ -12,5 +13,4 @@ ICMI,0
 ISS,0
 TEI,0
 UIST,0
-UMAP,0
 UbiComp,0
