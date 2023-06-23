@@ -7,7 +7,7 @@
 2021,EMSE,"Characterizing refactoring graphs in Java and JavaScript projects.",Aline Brito; André C. Hora; Marco Túlio Valente,https://doi.org/10.1007/s10664-021-10023-3,null,J,no_arxiv,0
 2021,IST,"Mining the Technical Roles of GitHub Users.",João Eduardo Montandon; Marco Túlio Valente; Luciana Lourdes Silva,https://doi.org/10.1016/j.infsof.2020.106485,null,J,no_arxiv,0
 2021,JSS,"Are game engines software frameworks? A three-perspective study.",Cristiano Politowski; Fábio Petrillo; João Eduardo Montandon; Marco Túlio Valente; Yann-Gaël Guéhéneuc,https://doi.org/10.1016/j.jss.2020.110846,null,J,no_arxiv,0
-2021,TSE,"RefDiff 2.0: A Multi-Language Refactoring Detection Tool.",Danilo Silva; João Paulo da Silva; Gustavo Jansen de Souza Santos; Ricardo Terra; Marco Túlio Valente,https://doi.org/10.1109/TSE.2020.2968072,top,J,no_arxiv,0
+2021,TSE,"RefDiff 2.0: A Multi-Language Refactoring Detection Tool.",Danilo Silva 0002; João Paulo da Silva; Gustavo Jansen de Souza Santos; Ricardo Terra; Marco Túlio Valente,https://doi.org/10.1109/TSE.2020.2968072,top,J,no_arxiv,0
 2021,ICPC,"RAID: Tool Support for Refactoring-Aware Code Reviews.",Rodrigo Brito; Marco Túlio Valente,https://doi.org/10.1109/ICPC52881.2021.00033,null,C,no_arxiv,0
 2020,EMSE,"You broke my code: understanding the motivations for breaking changes in APIs.",Aline Brito; Marco Túlio Valente; Laerte Xavier; André C. Hora,https://doi.org/10.1007/s10664-019-09756-z,null,J,no_arxiv,0
 2020,IST,"Is this GitHub project maintained? Measuring the level of maintenance activity of open-source projects.",Jailton Coelho; Marco Túlio Valente; Luciano Milen; Luciana Lourdes Silva,https://doi.org/10.1016/j.infsof.2020.106274,null,J,no_arxiv,0
@@ -28,5 +28,5 @@
 2018,IEEE Software,"AngularJS Performance: A Survey Study.",Miguel Ramos 0001; Marco Túlio Valente; Ricardo Terra,https://doi.org/10.1109/MS.2017.265100610,null,J,http://arxiv.org/abs/1705.02506v1,0
 2018,SQJ,"How do developers react to API evolution? A large-scale empirical study.",André C. Hora; Romain Robbes; Marco Túlio Valente; Nicolas Anquetil; Anne Etien; Stéphane Ducasse,https://doi.org/10.1007/s11219-016-9344-4,null,J,no_arxiv,0
 2018,ESEM,"Identifying unmaintained projects in github.",Jailton Coelho; Marco Túlio Valente; Luciana Lourdes Silva; Emad Shihab,https://doi.org/10.1145/3239235.3240501,null,C,http://arxiv.org/abs/1809.04041v1,0
-2018,ICSE,"Assessing the threat of untracked changes in software evolution.",André C. Hora; Danilo Silva; Marco Túlio Valente; Romain Robbes,https://doi.org/10.1145/3180155.3180212,top,C,no_arxiv,0
+2018,ICSE,"Assessing the threat of untracked changes in software evolution.",André C. Hora; Danilo Silva 0002; Marco Túlio Valente; Romain Robbes,https://doi.org/10.1145/3180155.3180212,top,C,no_arxiv,0
 2018,SANER,"Why and how Java developers break APIs.",Aline Brito; Laerte Xavier; André C. Hora; Marco Túlio Valente,https://doi.org/10.1109/SANER.2018.8330214,null,C,http://arxiv.org/abs/1801.05198v1,0

@@ -290,3 +290,5 @@ ds,2023,"Concurr. Comput. Pract. Exp.","Implicit propagation of directly address
 theory,2023,"Theor. Comput. Sci.","Nearly tight bounds on the price of explainability for the -center and the maximum-spacing clustering problems.",db/journals/tcs/tcs949.html#LaberM23
 theory,2023,"Theor. Comput. Sci.","Improved NP-hardness results for the minimum -spanner problem on bounded-degree graphs.",db/journals/tcs/tcs947.html#GomezMW23
 theory,2023,"Theor. Comput. Sci.","Disconnected matchings.",db/journals/tcs/tcs956.html#GomesMPSS23
+ds,2023,"Softw. Pract. Exp.","Data interplay: A model to optimize data usage in the Internet of Things.",db/journals/spe/spe53.html#AndradeSASP23
+se,2023,"Softw. Pract. Exp.","Dual analysis for helping developers to find collaborators based on co-changed files: An empirical study.",db/journals/spe/spe53.html#ConstantinoBF23
