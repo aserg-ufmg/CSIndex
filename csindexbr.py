@@ -28,7 +28,8 @@ class Global:
     manual_classification = {}
     pid_papers = []
     area_prefix = sys.argv[1]
-    multi_area_journal = False
+    #multi_area_journal = False
+    multi_area_journal_list = []
     mc_failed_file = open('manual-classification-failed.csv', 'a')
 
 # functions for handling journals with manual classification
@@ -42,7 +43,10 @@ def init_manual_files():
         Global.manual_classification[m_url] = m_area
 
 def output_mc_failed(year, dblp_venue, title, url):
-    Global.multi_area_journal = True
+    if url in Global.multi_area_journal_list:
+       return 
+    #Global.multi_area_journal = True
+    Global.multi_area_journal_list.append(url)
     file = Global.mc_failed_file
     file.write(",")
     file.write(str(year))
@@ -55,7 +59,7 @@ def output_mc_failed(year, dblp_venue, title, url):
     file.write("\n")
 
 def outuput_multi_area_journal():
-    if Global.multi_area_journal:
+    if Global.multi_area_journal_list:
        print('\033[94m' + "Found papers in MULTI-AREA journals" + '\033[0m')
     Global.mc_failed_file.close()
 
@@ -251,13 +255,6 @@ def output_profs_list():
         f.write('\n')
     f.close()
 
-def remove_prof_papers_file(area, prof):
-    prof = prof.replace(" ", "-")
-    file = "../cache/profs/" + area + "-" + prof + '-papers.csv'
-    if os.path.exists(file):
-       print("Removing "+ file)
-       os.remove(file)
-
 def merge_output_prof_papers(prof):
     os.chdir("../cache/profs")
     filenames = []
@@ -422,13 +419,23 @@ def is_paper_size_ok(url, dblp, dblp_venue, weight):
     minimum_size = get_min_paper_size(weight)
     return size >= minimum_size
 
-def save_already_processed_paper(paper, dept, url, weight):
+def update_paper(paper, dept, url, weight):
     Global.out[url] = (paper[0], paper[1], paper[2], paper[3] + "; " + dept,
                        paper[4], paper[5], paper[6], paper[7], paper[8],
                        paper[9])
     Global.score[dept] += get_paper_score(weight)
 
-def is_indexable(dblp):
+def add_new_paper(weight, doi, title, dblp, url, year, venue, global_department):
+    tier = get_venue_tier(weight)
+    venue_type = get_venue_type(weight)
+    arxiv = get_arxiv_url(doi, title)
+    citations = 0
+    authors = get_authors(dblp['author'])
+    Global.out[url] = (year, venue, '"' + title + '"', global_department, authors, doi,
+                          tier, venue_type, arxiv, citations)
+    Global.score[global_department] += get_paper_score(weight)
+    
+def is_paper_indexable(dblp):
     if not isinstance(dblp, dict):
        return False
     if ('journal' in dblp) or ('booktitle' in dblp):
@@ -448,7 +455,7 @@ def is_indexable(dblp):
 def parse_dblp(_, dblp):
     global global_department, global_found_paper
 
-    if is_indexable(dblp):
+    if is_paper_indexable(dblp):
        dblp_venue = get_dblp_venue(dblp)
        year = int(dblp['year'])
        venue, weight = Global.confdata[dblp_venue]
@@ -459,24 +466,15 @@ def parse_dblp(_, dblp):
        global_found_paper = True   # global variable
        Global.pid_papers.append(url)
 
-       # paper was already processed
-       if url in Global.out:
+       if url in Global.out:  # already processed paper
           paper = Global.out[url]
           if has_dept(paper[3], global_department):
              return True
-          save_already_processed_paper(paper, global_department, url, weight)
+          update_paper(paper, global_department, url, weight)
           return True
-
-       tier = get_venue_tier(weight)
-       venue_type = get_venue_type(weight)
-       arxiv = get_arxiv_url(doi, title)
-       citations = 0
-       authors = get_authors(dblp['author'])
-
-       Global.out[url] = (year, venue, '"' + title + '"', global_department, authors, doi,
-                          tier, venue_type, arxiv, citations)
-       Global.score[global_department] += get_paper_score(weight)
-
+       
+       add_new_paper(weight, doi, title, dblp, url, year, venue, global_department)
+    
     return True   # True = continue parsing next paper
 
 # init functions

@@ -1,3 +1,3 @@
 cd ../data
 ./run2 theory
-Update "update theory"
+echo "update theory"
