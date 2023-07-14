@@ -10,4 +10,5 @@
 2018,ACM TACO,"Cluster Programming using the OpenMP Accelerator Model.",Hervé Yviquel; Lauro Cruz; Guido Araujo,https://doi.org/10.1145/3226112,top,J,no_arxiv,0
 2018,IEEE TPDS,"Using Hardware-Transactional-Memory Support to Implement Thread-Level Speculation.",Juan Salamanca 0001; José Nelson Amaral; Guido Araujo,https://doi.org/10.1109/TPDS.2017.2752169,top,J,no_arxiv,0
 2018,PACT,"Automatic annotation of tasks in structured code.",Pedro Ramos; Gleison Souza Diniz Mendonca; Divino Soares; Guido Araújo; Fernando Magno Quintão Pereira,https://doi.org/10.1145/3243176.3243200,null,C,no_arxiv,0
+2023,TACO,"Source Matching and Rewriting for MLIR Using String-Based Automata.",Vinicius Espindola; Luciano Zago; Hervé Yviquel; Guido Araujo,https://doi.org/10.1145/3571283,top,J,no_arxiv,0
 2022,TACO,"Using Barrier Elision to Improve Transactional Code Generation.",Bruno Chinelato Honorio; João P. L. de Carvalho; Catalina Munoz Morales; Alexandro Baldassin; Guido Araujo,https://doi.org/10.1145/3533318,top,J,no_arxiv,0
