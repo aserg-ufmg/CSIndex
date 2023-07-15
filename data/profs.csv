@@ -45,7 +45,7 @@ Aline Paes,UFF,DATA
 Aline Villavicencio,UFRGS,AI
 Alisson Vasconcelos de Brito,UFPB,GRAPHICS
 Alneu de Andrade Lopes,ICMC/USP,DATA
-Altair Olivo Santin,PUC-PR,ARCH
+Altair Olivo Santin,PUC-PR,NET
 Altigran Silva,UFAM,IR
 Aluizio Araujo,UFPE,AI
 Alvaro Fazenda,UNIFESP,ARCH
@@ -221,6 +221,7 @@ Cristina Nader Vasconcelos,UFF,VISION
 Dalton Guerrero,UFCG,CSE
 Daltro Nunes,UFRGS,SE
 Dalvan Griebler,PUC-RS,ARCH
+Daniel Batista,IME/USP,NET
 Daniel Carlos Guimaraes Pedronette,UNESP,VISION
 Daniel Carvalho da Cunha,UFPE,NET
 Daniel Cordeiro,EACH/USP,ARCH
@@ -278,7 +279,7 @@ Edson OliveiraJr,UEM,SE
 Edson Prestes e Silva,UFRGS,ROBOTICS
 Eduardo Alchieri,UnB,SECURITY
 Eduardo Almeida,UFBA,SE
-Eduardo Antonio Guimaraes Tavares,UFPE,OR
+Eduardo Antonio Guimaraes Tavares,UFPE,ARCH
 Eduardo Aranha,UFRN,CSE
 Eduardo Candido Xavier,UNICAMP,THEORY
 Eduardo Cerqueira,FCT/UFPA,NET
@@ -377,6 +378,7 @@ Francisco Vilar Brasileiro,UFCG,ARCH
 Frank Siqueira,UFSC,CS
 Fred Freitas,UFPE,AI
 Frederico Durao,UFBA,AI
+Frederico Gadelha Guimaraes,UFMG,AI
 Gabriel Coutinho,UFMG,THEORY
 Gabriel Luca Nazar,UFRGS,HARDWARE
 Gabriel de Oliveira Ramos,Unisinos,AI
@@ -433,7 +435,7 @@ Henrique Cota de Freitas,PUC Minas,ARCH
 Henrique Rebelo,UFPE,SE
 Hermano Moura,UFPE,SE
 Hermes Senger,UFSCar,ARCH
-Herve Yviquel,UNICAMP,ARCH
+Herve Yviquel,UNICAMP,PL
 Horacio Hideki Yanasse,UNIFESP,OR
 Horacio Oliveira,UFAM,NET
 Hudson Borges,UFMS,SE
@@ -565,6 +567,7 @@ Lisandra Fontoura,UFSM,SE
 Lisandro Zambenedetti Granville,UFRGS,NET
 Loana Tito Nogueira,UFF,OR
 Loic Cerf,UFMG,DATA
+Lucas Francisco da Matta Vegi,UFV,SE
 Lucas Schnorr,UFRGS,ARCH
 Lucas Wanner,UNICAMP,ARCH
 Luci Pirmez,NCE/UFRJ,ARCH
@@ -580,7 +583,7 @@ Luciano Gaspary,UFRGS,NET
 Luciano Oliveira,UFBA,AI
 Luciano Silva,UFPR,VISION
 Lucidio Formiga Cabral,UFPB,OR
-Lucineia Heloisa Thom,UFRGS,CS
+Lucineia Heloisa Thom,UFRGS,DBIS
 Lucio Mauro Duarte,UFRGS,FORMAL
 Luerbio Faria,UERJ,THEORY
 Luidi Simonetti,COPPE/UFRJ,OR
@@ -616,7 +619,7 @@ Marcel Oliveira,UFRN,FORMAL
 Marcelle Mota,UFPA,GRAPHICS
 Marcelo Albertini,UFU,GRAPHICS
 Marcelo Chaim,EACH/USP,SE
-Marcelo Fantinato,EACH/USP,CS
+Marcelo Fantinato,EACH/USP,DBIS
 Marcelo Finger,IME/USP,FORMAL
 Marcelo Guimaraes,UNIFESP,GRAPHICS
 Marcelo Henriques Carvalho,UFMS,THEORY
@@ -855,7 +858,7 @@ Roberto Inoue,UFSCar,ROBOTICS
 Roberto Pereira,UFPR,SE
 Roberto Souto Barros,UFPE,DATA
 Robson Cordeiro,ICMC/USP,DBIS
-Robson do Nascimento Fidalgo,UFPE,AI
+Robson do Nascimento Fidalgo,UFPE,DBIS
 Rodolfo Azevedo,UNICAMP,ARCH
 Rodolfo Stoffel Antunes,Unisinos,CS
 Rodolfo Villaca,UFES,NET
@@ -869,7 +872,6 @@ Rodrigo Minetto,UTFPR,DBIS
 Rodrigo Pereira dos Santos,UNIRIO,SE
 Rodrigo Righi,Unisinos,AI
 Rodrigo Sanches Miani,UFU,SECURITY
-Rodrigo Spinola,UNIFACS,SE
 Rodrigo Zelir Azzolin,FURG,ROBOTICS
 Rodrigo de Bem,FURG,VISION
 Rodrigo de Souza Couto,COPPE/UFRJ,NET
