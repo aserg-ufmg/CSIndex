@@ -305,3 +305,19 @@ se,2021,"J. Syst. Softw.","Learning software configuration spaces: A systematic 
 se,2018,"J. Syst. Softw.","A systematic literature review on the semi-automatic configuration of extended product lines.",db/journals/jss/jss144.html#OchoaRPCS18
 se,2021,"J. Syst. Softw.","Synthesizing researches on Knowledge Management and Agile Software Development using the Meta-ethnography method.",db/journals/jss/jss178.html#NapoleaoSRFMV21
 se,2020,"J. Syst. Softw.","Secondary studies in the academic context: A systematic mapping and survey.",db/journals/jss/jss170.html#FelizardoSNVB20
+se,2023,"J. Syst. Softw.","Snapshot testing in practice: Benefits and drawbacks.",db/journals/jss/jss204.html#CruzRV23
+se,2023,"J. Syst. Softw.","How do microservices evolve? An empirical analysis of changes in open-source microservice repositories.",db/journals/jss/jss204.html#AssuncaoKMS23
+ds,2023,"Concurr. Comput. Pract. Exp.","AFMC: An alignment framework for multiple computing services and providers.",db/journals/concurrency/concurrency35.html#CarvalhoMA23
+ds,2023,"Concurr. Comput. Pract. Exp.","Optimizing computational costs of Spark for SARS-CoV-2 sequences comparisons on a commercial cloud.",db/journals/concurrency/concurrency35.html#NunesMTBOD23
+ds,2023,"Concurr. Comput. Pract. Exp.","Mitigating execution unit contention in parallel applications using instruction-aware mapping.",db/journals/concurrency/concurrency35.html#SerpaCDLBN23
+ds,2023,"Concurr. Comput. Pract. Exp.","Smart resource allocation of concurrent execution of parallel applications.",db/journals/concurrency/concurrency35.html#SilvaNLRSLRNBL23
+ds,2023,"Concurr. Comput. Pract. Exp.","Improving the efficiency of graph algorithm executions on high-performance computing.",db/journals/concurrency/concurrency35.html#MooriRSLB23
+ds,2023,"Concurr. Comput. Pract. Exp.","Towards a sustainable artificial intelligence: A case study of energy efficiency in decision tree algorithms.",db/journals/concurrency/concurrency35.html#FerroSPVS23
+ds,2023,"Concurr. Comput. Pract. Exp.","Fast selection of compiler optimizations using performance prediction with graph neural networks.",db/journals/concurrency/concurrency35.html#RosarioSZNB23
+ds,2023,"Concurr. Comput. Pract. Exp.","PBOpt: Profile-based biased Bayesian optimization to select computing clusters on the cloud.",db/journals/concurrency/concurrency35.html#CamachoRNB23
+ds,2023,"Concurr. Comput. Pract. Exp.","DataPlane-ML: An integrated attack detection and mitigation solution for software defined networks.",db/journals/concurrency/concurrency35.html#CarvalhoCBA23
+ds,2023,"Concurr. Comput. Pract. Exp.","LWMPI: An MPI library for NoC-based lightweight manycore processors with on-chip memory constraints.",db/journals/concurrency/concurrency35.html#UllerSPCFM23
+ds,2023,"Concurr. Comput. Pract. Exp.","Predicting consecutive spectrum opportunities with hidden Markov models.",db/journals/concurrency/concurrency35.html#BezerraB23
+ds,2023,"Concurr. Comput. Pract. Exp.","Fast flow cloud: A stream dataflow framework for cloud FPGA accelerator overlays at runtime.",db/journals/concurrency/concurrency35.html#BragancaCPCNF23
+ds,2023,"Concurr. Comput. Pract. Exp.","Heterogeneous reconfigurable architectures for machine learning dataflows.",db/journals/concurrency/concurrency35.html#CarvalhoCRNF23
+ds,2023,"Concurr. Comput. Pract. Exp.","DONUTS: An efficient method for checkpointing in non-volatile memories.",db/journals/concurrency/concurrency35.html#KrugerPA23
