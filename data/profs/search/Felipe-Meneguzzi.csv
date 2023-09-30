@@ -1,8 +1,10 @@
-2022,AAAI,"Goal Recognition as Reinforcement Learning.",Leonardo Amado; Reuth Mirsky; Felipe Meneguzzi,https://ojs.aaai.org/index.php/AAAI/article/view/21198,top,C,http://arxiv.org/abs/2202.06356v1,0
-2021,AAAI,"An LP-Based Approach for Goal Recognition as Planning.",Luísa R. A. Santos; Felipe Meneguzzi; Ramon Fraga Pereira; André Grahl Pereira,https://ojs.aaai.org/index.php/AAAI/article/view/17418,top,C,no_arxiv,0
+2023,AAAI,"Robust Neuro-Symbolic Goal and Plan Recognition.",Leonardo Amado; Ramon Fraga Pereira; Felipe Meneguzzi,https://doi.org/10.1609/aaai.v37i10.26408,top,C,no_arxiv,0
+2023,IJCAI,"Multi-Agent Intention Recognition and Progression.",Michael Dann; Yuan Yao; Natasha Alechina; Brian Logan 0001; Felipe Meneguzzi; John Thangarajah,https://doi.org/10.24963/ijcai.2023/11,top,C,no_arxiv,0
+2022,AAAI,"Goal Recognition as Reinforcement Learning.",Leonardo Amado; Reuth Mirsky; Felipe Meneguzzi,https://doi.org/10.1609/aaai.v36i9.21198,top,C,http://arxiv.org/abs/2202.06356v1,0
+2021,AAAI,"An LP-Based Approach for Goal Recognition as Planning.",Luísa R. A. Santos; Felipe Meneguzzi; Ramon Fraga Pereira; André Grahl Pereira,https://doi.org/10.1609/aaai.v35i13.17418,top,C,no_arxiv,0
 2021,IJCAI,"A Survey on Goal Recognition as Planning.",Felipe Meneguzzi; Ramon Fraga Pereira,https://doi.org/10.24963/ijcai.2021/616,top,C,no_arxiv,0
 2020,Artificial Intelligence,"Landmark-based approaches for goal recognition as planning.",Ramon Fraga Pereira; Nir Oren; Felipe Meneguzzi,https://doi.org/10.1016/j.artint.2019.103217,null,J,no_arxiv,0
-2020,AAAI,"Semantic Attachments for HTN Planning.",Mauricio Cecilio Magnaguagno; Felipe Meneguzzi,https://ojs.aaai.org/index.php/AAAI/article/view/6548,top,C,no_arxiv,0
+2020,AAAI,"Semantic Attachments for HTN Planning.",Mauricio Cecilio Magnaguagno; Felipe Meneguzzi,https://doi.org/10.1609/aaai.v34i06.6548,top,C,no_arxiv,0
 2020,IJCAI,"BDI Agent Architectures: A Survey.",Lavindra de Silva; Felipe Meneguzzi; Brian Logan 0001,https://doi.org/10.24963/ijcai.2020/684,top,C,no_arxiv,0
 2019,IJCAI,"Online Probabilistic Goal Recognition over Nominal Models.",Ramon Fraga Pereira; Mor Vered; Felipe Meneguzzi; Miquel Ramírez,https://doi.org/10.24963/ijcai.2019/770,top,C,no_arxiv,0
 2018,IJCAI,"An Operational Semantics for a Fragment of PRS.",Lavindra de Silva; Felipe Meneguzzi; Brian Logan 0001,https://doi.org/10.24963/ijcai.2018/27,top,C,no_arxiv,0
