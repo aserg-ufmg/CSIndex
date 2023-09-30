@@ -12,3 +12,4 @@ db/journals/iandc/iandc255.html#KohlenbachBQ17
 db/journals/dam/dam185.html#UrrutiaL15
 db/journals/iandc/iandc287.html#Queiroz22
 db/journals/dam/dam323.html#SantosU22
+db/journals/algorithmica/algorithmica85.html#KohayakawaM23
