@@ -313,11 +313,11 @@ ds,2023,"Concurr. Comput. Pract. Exp.","Mitigating execution unit contention in 
 ds,2023,"Concurr. Comput. Pract. Exp.","Smart resource allocation of concurrent execution of parallel applications.",db/journals/concurrency/concurrency35.html#SilvaNLRSLRNBL23
 ds,2023,"Concurr. Comput. Pract. Exp.","Improving the efficiency of graph algorithm executions on high-performance computing.",db/journals/concurrency/concurrency35.html#MooriRSLB23
 ds,2023,"Concurr. Comput. Pract. Exp.","Towards a sustainable artificial intelligence: A case study of energy efficiency in decision tree algorithms.",db/journals/concurrency/concurrency35.html#FerroSPVS23
-ds,2023,"Concurr. Comput. Pract. Exp.","Fast selection of compiler optimizations using performance prediction with graph neural networks.",db/journals/concurrency/concurrency35.html#RosarioSZNB23
+arch,2023,"Concurr. Comput. Pract. Exp.","Fast selection of compiler optimizations using performance prediction with graph neural networks.",db/journals/concurrency/concurrency35.html#RosarioSZNB23
 ds,2023,"Concurr. Comput. Pract. Exp.","PBOpt: Profile-based biased Bayesian optimization to select computing clusters on the cloud.",db/journals/concurrency/concurrency35.html#CamachoRNB23
 ds,2023,"Concurr. Comput. Pract. Exp.","DataPlane-ML: An integrated attack detection and mitigation solution for software defined networks.",db/journals/concurrency/concurrency35.html#CarvalhoCBA23
 ds,2023,"Concurr. Comput. Pract. Exp.","LWMPI: An MPI library for NoC-based lightweight manycore processors with on-chip memory constraints.",db/journals/concurrency/concurrency35.html#UllerSPCFM23
 ds,2023,"Concurr. Comput. Pract. Exp.","Predicting consecutive spectrum opportunities with hidden Markov models.",db/journals/concurrency/concurrency35.html#BezerraB23
 ds,2023,"Concurr. Comput. Pract. Exp.","Fast flow cloud: A stream dataflow framework for cloud FPGA accelerator overlays at runtime.",db/journals/concurrency/concurrency35.html#BragancaCPCNF23
-ds,2023,"Concurr. Comput. Pract. Exp.","Heterogeneous reconfigurable architectures for machine learning dataflows.",db/journals/concurrency/concurrency35.html#CarvalhoCRNF23
-ds,2023,"Concurr. Comput. Pract. Exp.","DONUTS: An efficient method for checkpointing in non-volatile memories.",db/journals/concurrency/concurrency35.html#KrugerPA23
+arch,2023,"Concurr. Comput. Pract. Exp.","Heterogeneous reconfigurable architectures for machine learning dataflows.",db/journals/concurrency/concurrency35.html#CarvalhoCRNF23
+arch,2023,"Concurr. Comput. Pract. Exp.","DONUTS: An efficient method for checkpointing in non-volatile memories.",db/journals/concurrency/concurrency35.html#KrugerPA23
