@@ -1,17 +1,11 @@
 2022,NIPS/NeurIPS,"Decision Trees with Short Explainable Rules.",Victor Feitosa Souza; Ferdinando Cicalese; Eduardo Sany Laber; Marco Molinaro 0001,http://papers.nips.cc/paper_files/paper/2022/hash/500637d931d4feb99d5cce84af1f53ba-Abstract-Conference.html,top,C,no_arxiv,0
 2020,ICML,"Teaching with Limited Information on the Learner's Behaviour.",Ferdinando Cicalese; Sergio Filho; Eduardo Sany Laber; Marco Molinaro 0001,http://proceedings.mlr.press/v119/cicalese20a.html,top,C,no_arxiv,0
-2018,ICML,"Binary Partitions with Approximate Minimum Impurity.",Eduardo Sany Laber; Marco Molinaro 0001; Felipe de A. Mello Pereira,http://proceedings.mlr.press/v80/laber18a.html,top,C,no_arxiv,0
 2023,Math OR,"Strong Convexity of Feasible Sets in Off-line and Online Optimization.",Marco Molinaro 0001,https://doi.org/10.1287/moor.2022.1285,top,J,no_arxiv,0
 2023,Math Program,"Lower bounds on the size of general branch-and-bound trees.",Santanu S. Dey; Yatharth Dubey; Marco Molinaro 0001,https://doi.org/10.1007/s10107-022-01781-z,null,J,no_arxiv,0
 2023,Math Program,"Solving sparse principal component analysis with global support.",Santanu S. Dey; Marco Molinaro 0001; Guanyi Wang,https://doi.org/10.1007/s10107-022-01857-w,null,J,http://arxiv.org/abs/2010.11152v3,0
 2023,Math Program,"Branch-and-bound solves random binary IPs in poly(n)-time.",Santanu S. Dey; Yatharth Dubey; Marco Molinaro 0001,https://doi.org/10.1007/s10107-022-01895-4,null,J,no_arxiv,0
 2022,Math Program,"Sparse PSD approximation of the PSD cone.",Grigoriy Blekherman; Santanu S. Dey; Marco Molinaro 0001; Shengding Sun,https://doi.org/10.1007/s10107-020-01578-y,null,J,http://arxiv.org/abs/2002.02988v1,0
 2019,SIAM J Opt,"Lower Bounds on the Lattice-Free Rank for Packing and Covering Integer Programs.",Merve Bodur; Alberto Del Pia; Santanu S. Dey; Marco S. Molinaro 0001,https://doi.org/10.1137/17M1149985,null,J,no_arxiv,0
-2018,Math OR,"Analysis of Sparse Cutting Planes for Sparse MILPs with Applications to Stochastic MILPs.",Santanu S. Dey; Marco Molinaro 0001; Qianyi Wang,https://doi.org/10.1287/moor.2017.0866,top,J,http://arxiv.org/abs/1601.00198v1,0
-2018,Math Program,"Theoretical challenges towards cutting-plane selection.",Santanu S. Dey; Marco Molinaro 0001,https://doi.org/10.1007/s10107-018-1302-4,null,J,no_arxiv,0
-2018,Math Program,"Aggregation-based cutting-planes for packing and covering integer programs.",Merve Bodur; Alberto Del Pia; Santanu S. Dey; Marco Molinaro 0001; Sebastian Pokutta,https://doi.org/10.1007/s10107-017-1192-x,null,J,no_arxiv,0
-2018,Math Program,"Minimal cut-generating functions are nearly extreme.",Amitabh Basu; Robert Hildebrand; Marco Molinaro 0001,https://doi.org/10.1007/s10107-017-1153-4,null,J,no_arxiv,0
-2018,SIAM J Opt,"Improving the Randomization Step in Feasibility Pump.",Santanu S. Dey; Andres Iroume; Marco Molinaro 0001; Domenico Salvagnin,https://doi.org/10.1137/16M1095962,null,J,http://arxiv.org/abs/1609.08121v1,0
 2023,ICALP,"Online Demand Scheduling with Failovers.",Konstantina Mellou; Marco Molinaro 0001; Rudy Zhou,https://doi.org/10.4230/LIPIcs.ICALP.2023.92,null,C,http://arxiv.org/abs/2209.00710v1,0
 2023,SODA,"Online and Bandit Algorithms Beyond ℓ Norms.",Thomas Kesselheim; Marco Molinaro 0001; Sahil Singla 0001,https://doi.org/10.1137/1.9781611977554.ch58,top,C,no_arxiv,0
 2022,SODA,"Robust Secretary and Prophet Algorithms for Packing Integer Programs.",C. J. Argue; Anupam Gupta 0001; Marco Molinaro 0001; Sahil Singla 0001,https://doi.org/10.1137/1.9781611977073.53,top,C,http://arxiv.org/abs/2112.12920v1,0
@@ -20,5 +14,4 @@
 2020,ICALP,"Knapsack Secretary with Bursty Adversary.",Thomas Kesselheim; Marco Molinaro 0001,https://doi.org/10.4230/LIPIcs.ICALP.2020.72,null,C,http://arxiv.org/abs/2006.11607v1,0
 2019,SODA,"k-Servers with a Smile: Online Algorithms via Projections.",Niv Buchbinder; Anupam Gupta 0001; Marco Molinaro 0001; Joseph (Seffi) Naor,https://doi.org/10.1137/1.9781611975482.7,top,C,no_arxiv,0
 2019,SODA,"Stochastic ℓp Load Balancing and Moment Problems via the L-Function Method.",Marco Molinaro 0001,https://doi.org/10.1137/1.9781611975482.22,top,C,no_arxiv,0
-2018,ICALP,"Maximizing Profit with Convex Costs in the Random-order Model.",Anupam Gupta 0001; Ruta Mehta; Marco Molinaro 0001,https://doi.org/10.4230/LIPIcs.ICALP.2018.71,null,C,no_arxiv,0
 2023,PR,"Time-constrained learning.",Sérgio Freitas; Eduardo Sany Laber; Pedro Lazera; Marco Molinaro 0001,https://doi.org/10.1016/j.patcog.2023.109672,null,J,no_arxiv,0

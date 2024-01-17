@@ -1,14 +1,8 @@
 2022,GECCO,"Improved regression models for algorithm configuration.",Marcelo de Souza; Marcus Ritt,https://doi.org/10.1145/3512290.3528750,null,C,no_arxiv,0
 2021,GECCO,"The tiebreaking space of constructive heuristics for the permutation flowshop minimizing makespan.",Marcus Ritt; Alexander J. Benavides,https://doi.org/10.1145/3449639.3459344,null,C,no_arxiv,0
 2019,GECCO,"A generic approach to districting with diameter or center-based objectives.",Alex Gliesch; Marcus Ritt,https://doi.org/10.1145/3321707.3321874,null,C,no_arxiv,0
-2018,IJCAI,"Analyzing Tie-Breaking Strategies for the A* Algorithm.",Augusto B. Corrêa; André Grahl Pereira; Marcus Ritt,https://doi.org/10.24963/ijcai.2018/655,top,C,no_arxiv,0
 2021,IEEE TPDS,"A Runtime and Non-Intrusive Approach to Optimize EDP by Tuning Threads and CPU Frequency for OpenMP Applications.",Janaina Schwarzrock; Charles Cardoso De Oliveira; Marcus Ritt; Arthur Francisco Lorenzon; Antonio Carlos Schneider Beck,https://doi.org/10.1109/TPDS.2020.3046537,top,J,no_arxiv,0
 2023,EJOR,"Exact and heuristic methods for a workload allocation problem with chain precedence constraints.",Jordi Pereira; Marcus Ritt,https://doi.org/10.1016/j.ejor.2022.12.035,null,J,no_arxiv,0
 2022,Computers & OR,"Capping methods for the automatic configuration of optimization algorithms.",Marcelo de Souza; Marcus Ritt; Manuel López-Ibáñez 0001,https://doi.org/10.1016/j.cor.2021.105615,null,J,no_arxiv,0
 2021,EJOR,"A hybrid heuristic for the maximum dispersion problem.",Alex Gliesch; Marcus Ritt,https://doi.org/10.1016/j.ejor.2020.06.011,null,J,no_arxiv,0
 2020,EJOR,"Heuristic and exact algorithms for minimum-weight non-spanning arborescences.",Marcus Ritt; Jordi Pereira,https://doi.org/10.1016/j.ejor.2020.03.073,null,J,no_arxiv,0
-2018,Computers & OR,"An effective heuristic algorithm for the partial shop scheduling problem.",Tadeu K. Zubaran; Marcus Ritt,https://doi.org/10.1016/j.cor.2018.01.015,null,J,no_arxiv,0
-2018,Computers & OR,"A memetic algorithm for the cost-oriented robotic assembly line balancing problem.",Jordi Pereira; Marcus Ritt; Óscar C. Vásquez,https://doi.org/10.1016/j.cor.2018.07.001,null,J,no_arxiv,0
-2018,Computers & OR,"Fast heuristics for minimizing the makespan in non-permutation flow shops.",Alexander J. Benavides; Marcus Ritt,https://doi.org/10.1016/j.cor.2018.07.017,null,J,no_arxiv,0
-2018,EJOR,"Exact and heuristic methods for solving the Robotic Assembly Line Balancing Problem.",Leonardo Borba; Marcus Ritt; Cristóbal Miralles,https://doi.org/10.1016/j.ejor.2018.03.011,null,J,no_arxiv,0
-2018,ITOR,"Improved integer programming models for simple assembly line balancing and related problems.",Marcus Ritt; Alysson M. Costa,https://doi.org/10.1111/itor.12206,null,J,http://arxiv.org/abs/1111.0934v2,0

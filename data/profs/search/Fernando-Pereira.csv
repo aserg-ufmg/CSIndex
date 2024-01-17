@@ -2,7 +2,6 @@
 2020,ICS,"AutoParBench: a unified test framework for OpenMP-based parallelizers.",Gleison Souza Diniz Mendonca; Chunhua Liao; Fernando Magno Quintão Pereira,https://doi.org/10.1145/3392717.3392744,null,C,no_arxiv,0
 2019,Future Generation CS,"SIoT: Securing Internet of Things through distributed systems analysis.",Fernando Augusto Teixeira; Fernando Magno Quintão Pereira; Hao Chi Wong; José Marcos S. Nogueira; Leonardo B. Oliveira,https://doi.org/10.1016/j.future.2017.08.010,null,J,no_arxiv,0
 2019,J. Parallel Distrib. Comput.,"Data-flow analysis and optimization for data coherence in heterogeneous architectures.",Rafael C. F. Sousa; Marcio Machado Pereira; Fernando Magno Quintão Pereira; Guido Araujo,https://doi.org/10.1016/j.jpdc.2019.04.004,null,J,no_arxiv,0
-2018,PACT,"Automatic annotation of tasks in structured code.",Pedro Ramos; Gleison Souza Diniz Mendonca; Divino Soares; Guido Araújo; Fernando Magno Quintão Pereira,https://doi.org/10.1145/3243176.3243200,null,C,no_arxiv,0
 2019,DSN,"Multilayer ROP Protection Via Microarchitectural Units Available in Commodity Hardware.",Mateus Tymburibá; Hugo Sousa; Fernando Magno Quintão Pereira,https://doi.org/10.1109/DSN.2019.00042,null,C,no_arxiv,0
 2023,TOPLAS,"Side-channel Elimination via Partial Control-flow Linearization.",Luigi Soares; Michael Canesche; Fernando Magno Quintão Pereira,https://doi.org/10.1145/3594736,top,J,no_arxiv,0
 2023,CGO,"A Game-Based Framework to Compare Program Classifiers and Evaders.",Thaís Damásio; Michael Canesche; Vinícius Pacheco; Marcus Botacin; Anderson Faustino da Silva; Fernando Magno Quintão Pereira,https://doi.org/10.1145/3579990.3580012,null,C,no_arxiv,0
@@ -21,6 +20,3 @@
 2019,SCP,"Automatic parallelization of recursive functions with rewriting rules.",Rodrigo C. O. Rocha; Luís F. W. Góes; Fernando Magno Quintão Pereira,https://doi.org/10.1016/j.scico.2018.01.004,null,J,no_arxiv,0
 2019,TACO,"Static Prediction of Silent Stores.",Fernando Magno Quintão Pereira; Guilherme V. Leobas; Abdoulaye Gamatié,https://doi.org/10.1145/3280848,top,J,no_arxiv,0
 2019,CGO,"Generation of In-Bounds Inputs for Arrays in Memory-Unsafe Languages.",Marcus Rodrigues; Breno Guimarães; Fernando Magno Quintão Pereira,https://doi.org/10.1109/CGO.2019.8661178,null,C,no_arxiv,0
-2018,POPL,"Inference of static semantics for incomplete C programs.",Leandro T. C. Melo; Rodrigo Geraldo Ribeiro; Marcus R. de Araújo; Fernando Magno Quintão Pereira,https://doi.org/10.1145/3158117,top,C,no_arxiv,0
-2018,SCP,"Combining range and inequality information for pointer disambiguation.",Maroua Maalej; Vitor Paisante; Fernando Magno Quintão Pereira; Laure Gonnord,https://doi.org/10.1016/j.scico.2017.10.014,null,J,no_arxiv,0
-2018,CGO,"Qubit allocation.",Marcos Yukio Siraichi; Vinícius Fernandes dos Santos; Caroline Collange; Fernando Magno Quintão Pereira,https://doi.org/10.1145/3168822,null,C,no_arxiv,0

@@ -1,4 +1,2 @@
-2018,PACT,"VW-SLP: auto-vectorization with adaptive vector width.",Vasileios Porpodas; Rodrigo C. O. Rocha; Luís F. W. Góes,https://doi.org/10.1145/3243176.3243189,null,C,no_arxiv,0
 2019,SCP,"Automatic parallelization of recursive functions with rewriting rules.",Rodrigo C. O. Rocha; Luís F. W. Góes; Fernando Magno Quintão Pereira,https://doi.org/10.1016/j.scico.2018.01.004,null,J,no_arxiv,0
 2019,CGO,"Super-Node SLP: Optimized Vectorization for Code Sequences Containing Operators and Their Inverse Elements.",Vasileios Porpodas; Rodrigo C. O. Rocha; Evgueni Brevnov; Luís F. W. Góes; Timothy G. Mattson,https://doi.org/10.1109/CGO.2019.8661192,null,C,no_arxiv,0
-2018,CGO,"Look-ahead SLP: auto-vectorization in the presence of commutative operations.",Vasileios Porpodas; Rodrigo C. O. Rocha; Luís F. W. Góes,https://doi.org/10.1145/3168807,null,C,no_arxiv,0

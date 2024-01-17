@@ -1,5 +1,3 @@
 2022,TSE,"Leveraging Structure in Software Merge: An Empirical Study.",Georg Seibt; Florian Heck; Guilherme Cavalcanti; Paulo Borba; Sven Apel,https://doi.org/10.1109/TSE.2021.3123143,top,J,no_arxiv,0
 2019,ASE,"The Impact of Structure on Software Merging: Semistructured Versus Structured Merge.",Guilherme Cavalcanti; Paulo Borba; Georg Seibt; Sven Apel,https://doi.org/10.1109/ASE.2019.00097,top,C,no_arxiv,0
 2019,ASE,"Semistructured Merge in JavaScript Systems.",Alberto Trindade Tavares; Paulo Borba; Guilherme Cavalcanti; Sérgio Soares,https://doi.org/10.1109/ASE.2019.00098,top,C,no_arxiv,0
-2018,EMSE,"Understanding semi-structured merge conflict characteristics in open-source Java projects.",Paola R. G. Accioly; Paulo Borba; Guilherme Cavalcanti,https://doi.org/10.1007/s10664-017-9586-1,null,J,no_arxiv,0
-2018,MSR,"Analyzing conflict predictors in open-source Java projects.",Paola R. G. Accioly; Paulo Borba; Léuson M. P. da Silva; Guilherme Cavalcanti,https://doi.org/10.1145/3196398.3196437,null,C,no_arxiv,0

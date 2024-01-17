@@ -1,0 +1,52 @@
+se,2018,"Journal of Systems and Software","Time-space efficient regression testing for configurable systems.",db/journals/jss/jss137.html#Soutod18
+se,2018,"Journal of Systems and Software","On the use of replacement messages in API deprecation: An empirical study.",db/journals/jss/jss137.html#BritoHVR18
+formal,2018,"Sci. Comput. Program.","Sound conformance testing for cyber-physical systems: Theory and implementation.",db/journals/scp/scp162.html#AraujoCMMS18
+se,2018,"Journal of Systems and Software","Do android developers neglect error handling? a maintenance-Centric study on the relationship between android abstractions and uncaught exceptions.",db/journals/jss/jss136.html#OliveiraBSCC18
+se,2018,"Journal of Systems and Software","JMove: A novel heuristic and tool to detect move method refactoring opportunities.",db/journals/jss/jss138.html#TerraVMS18
+ds,2018,"Softw., Pract. Exper.","An asynchronous collaborative reconciliation model based on data provenance.",db/journals/spe/spe48.html#AlmeidaHCC18
+se,2018,"Journal of Systems and Software","AQUArIUM - A suite of software measures for HCI quality evaluation of ubiquitous mobile applications.",db/journals/jss/jss136.html#CarvalhoAO18
+se,2018,"Journal of Systems and Software","On the implementation of dynamic software product lines: An exploratory study.",db/journals/jss/jss136.html#CarvalhoSGSMSA18
+pl,2018,"Sci. Comput. Program.","Combining range and inequality information for pointer disambiguation.",db/journals/scp/scp152.html#MaalejPPG18
+se,2018,"Journal of Systems and Software","A Metrics Suite for code annotation assessment.",db/journals/jss/jss137.html#LimaGMKSS18
+se,2018,"Sci. Comput. Program.","All roads lead to Rome: Commuting strategies for product-line reliability analysis.",db/journals/scp/scp152.html#CastroLATAS18
+se,2018,"Softw., Pract. Exper.","Exploring architecture blueprints for prioritizing critical code anomalies: Experiences and tool support.",db/journals/spe/spe48.html#GuimaraesVGPM18
+se,2018,"Journal of Systems and Software","The impact of Software Testing education on code reliability: An empirical assessment.",db/journals/jss/jss137.html#LemosSFG18
+se,2018,"Journal of Systems and Software","Software sustainability: Research and practice from a software architecture viewpoint.",db/journals/jss/jss138.html#VentersCBPCCNBC18
+pl,2018,"Softw., Pract. Exper.","EPE-Mobile - A framework for early performance estimation of mobile applications.",db/journals/spe/spe48.html#FernandesMC18
+se,2018,"Journal of Systems and Software","A Systematic Literature Review of iStar extensions.",db/journals/jss/jss137.html#GoncalvesCAH18
+se,2018,"Journal of Systems and Software","Towards cognitive support for unit testing: A qualitative study with practitioners.",db/journals/jss/jss141.html#PradoV18
+se,2018,"Sci. Comput. Program.","An experimental comparison of edge, edge-pair, and prime path criteria.",db/journals/scp/scp152.html#DurelliDO18
+se,2018,"Softw., Pract. Exper.","Automation of application-level caching in a seamless way.",db/journals/spe/spe48.html#MertzN18
+se,2018,"Journal of Systems and Software","Automatic assignment of integrators to pull requests: The importance of selecting appropriate attributes.",db/journals/jss/jss144.html#JuniorSPM18
+se,2018,"Journal of Systems and Software","A systematic review on the code smell effect.",db/journals/jss/jss144.html#SantosRPNFM18
+arch,2018,"Sci. Comput. Program.","Towards optimal solutions for the low power hard real-time task allocation on multiple heterogeneous processors.",db/journals/scp/scp165.html#ValentinFB18
+arch,2018,"Concurrency and Computation: Practice and Experience","Cooperative and out-of-core execution of the irregular wavefront propagation pattern on hybrid machines with Intel® Xeon Phi™.",db/journals/concurrency/concurrency30.html#GomesMKKST18
+arch,2018,"Concurrency and Computation: Practice and Experience","Reducing the number of response time service level objective violations by a cloud-HPC convergence scheduler.",db/journals/concurrency/concurrency30.html#KraemerMRT18
+ds,2018,"Concurrency and Computation: Practice and Experience","Provenance data discovery through Semantic Web resources.",db/journals/concurrency/concurrency30.html#OrnelasBDCC18
+arch,2018,"Concurrency and Computation: Practice and Experience","GPU-accelerated backtracking using CUDA Dynamic Parallelism.",db/journals/concurrency/concurrency30.html#PessoaGJMT18
+arch,2018,"Concurrency and Computation: Practice and Experience","Cooperative and out-of-core execution of the irregular wavefront propagation pattern on hybrid machines with Intel® Xeon Phi™.",db/journals/concurrency/concurrency30.html#GomesMKKST18
+arch,2018,"Concurrency and Computation: Practice and Experience","Predictive elastic replication for multi-tenant databases in the cloud.",db/journals/concurrency/concurrency30.html#SousaMFM18
+arch,2018,"Concurrency and Computation: Practice and Experience","A visual performance analysis framework for task-based parallel applications running on hybrid clusters.",db/journals/concurrency/concurrency30.html#PintoSSLTD18
+arch,2018,"Concurrency and Computation: Practice and Experience","A coarse-grained page cache aware multivariate analytical model for the storage performance of a parallel file system.",db/journals/concurrency/concurrency30.html#InacioD18
+ds,2018,"Concurrency and Computation: Practice and Experience","Provenance data discovery through Semantic Web resources.",db/journals/concurrency/concurrency30.html#OrnelasBDCC18
+formal,2018,"Theor. Comput. Sci.","Towards reasoning about Petri nets: A Propositional Dynamic Logic based approach.",db/journals/tcs/tcs744.html#BenevidesLH18
+theory,2018,"Theor. Comput. Sci.","Cograph generation with linear delay.",db/journals/tcs/tcs713.html#JonesPD18
+formal,2018,"Theor. Comput. Sci.","Towards reasoning about Petri nets: A Propositional Dynamic Logic based approach.",db/journals/tcs/tcs744.html#BenevidesLH18
+theory,2018,"Theor. Comput. Sci.","Nominal essential intersection types.",db/journals/tcs/tcs737.html#Ayala-RinconFOV18
+theory,2018,"Theor. Comput. Sci.","The maximum time of 2-neighbor bootstrap percolation: Complexity results.",db/journals/tcs/tcs708.html#MarcilonS18
+theory,2018,"Theor. Comput. Sci.","Spy-game on graphs: Complexity and simple topologies.",db/journals/tcs/tcs725.html#CohenMINPS18
+theory,2018,"Theor. Comput. Sci.","On the (parameterized) complexity of recognizing well-covered (, )-graph.",db/journals/tcs/tcs746.html#AlvesDFKSS18
+theory,2018,"Theor. Comput. Sci.","Ruling out FPT algorithms for Weighted Coloring on forests.",db/journals/tcs/tcs729.html#AraujoBS18
+theory,2018,"Theor. Comput. Sci.","Locally identifying coloring of graphs with few P4s.",db/journals/tcs/tcs707.html#MartinsS18
+theory,2018,"Theor. Comput. Sci.","Sorting permutations and binary strings by length-weighted rearrangements.",db/journals/tcs/tcs715.html#LintzmayerFD18
+arch,2018,"TACO","Cluster Programming using the OpenMP Accelerator Model.",db/journals/taco/taco15.html#YviquelCA18
+se,2018,"Journal of Systems and Software","Quality of software requirements specification in agile projects: A cross-case analysis of six companies.",db/journals/jss/jss142.html#MedeirosVSG18
+ds,2018,"Journal of Systems and Software","Failure patterns in operating systems: An exploratory and observational study.",db/journals/jss/jss137.html#SantosM18
+se,2018,"Softw., Pract. Exper.","Work practices and challenges in continuous integration: A survey with Travis CI users.",db/journals/spe/spe48.html#PintoCBR18
+se,2018,"Journal of Systems and Software","What's in a GitHub Star? Understanding Repository Starring Practices in a Social Coding Platform.",db/journals/jss/jss146.html#BorgesV18
+ds,2018,"Softw., Pract. Exper.","Cloud application architecture appraiser (CA3): A multicriteria approach and tool for assessing cloud deployment options based on nonfunctional requirements.",db/journals/spe/spe48.html#JuniorSRM18
+se,2018,"Journal of Systems and Software","An anatomy of requirements engineering in software startups using multi-vocal literature and case survey.",db/journals/jss/jss146.html#TripathiKPOPKUL18
+se,2018,"Journal of Systems and Software","Requirements engineering: A systematic mapping study in agile software development.",db/journals/jss/jss139.html#CurcioNMR18
+arch,2018,"Sci. Comput. Program.","Design and implementation of a cross-layer IoT protocol.",db/journals/scp/scp165.html#ResnerAF18
+se,2018,"Journal of Systems and Software","Strategies for managing power relationships in software ecosystems.",db/journals/jss/jss144.html#ValencaAJ18
+arch,2018,"Sci. Comput. Program.","Accelerating error-tolerant applications with approximate function reuse.",db/journals/scp/scp165.html#BrandaleroSSB18

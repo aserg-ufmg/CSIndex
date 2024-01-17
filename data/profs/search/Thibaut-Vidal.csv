@@ -1,5 +1,4 @@
 2023,AAAI,"Optimal Decision Diagrams for Classification.",Alexandre M. Florio; Pedro Martins; Maximilian Schiffer; Thiago Serra; Thibaut Vidal,https://doi.org/10.1609/aaai.v37i6.25920,top,C,http://arxiv.org/abs/2205.14500v1,0
-2018,Applied Soft Comput.,"An efficient matheuristic for the minimum-weight dominating set problem.",Mayra Albuquerque; Thibaut Vidal,https://doi.org/10.1016/j.asoc.2018.06.052,null,J,no_arxiv,0
 2023,ICML,"Explainable Data-Driven Optimization: From Context to Decision and Back Again.",Alexandre Forel; Axel Parmentier; Thibaut Vidal,https://proceedings.mlr.press/v202/forel23a.html,top,C,no_arxiv,0
 2022,Inf. Sciences,"Semi-supervised clustering with inaccurate pairwise annotations.",Daniel Gribel; Michel Gendreau; Thibaut Vidal,https://doi.org/10.1016/j.ins.2022.05.035,null,J,no_arxiv,0
 2021,ICML,"Optimal Counterfactual Explanations in Tree Ensembles.",Axel Parmentier; Thibaut Vidal,http://proceedings.mlr.press/v139/parmentier21a.html,top,C,http://arxiv.org/abs/2106.06631v2,0
@@ -23,9 +22,5 @@
 2019,INFORMS J Compt,"Two-Dimensional Phase Unwrapping via Balanced Spanning Forests.",Ian Herszterg; Marcus Poggi; Thibaut Vidal,https://doi.org/10.1287/ijoc.2018.0832,top,J,no_arxiv,0
 2019,J Global Opt,"On three soft rectangle packing problems with guillotine constraints.",Quoc Trung Bui; Thibaut Vidal; Minh Hoàng Hà,https://doi.org/10.1007/s10898-019-00741-w,null,J,http://arxiv.org/abs/1805.03631v1,0
 2019,Networks,"Leveraging single-objective heuristics to solve bi-objective problems: Heuristic box splitting and its application to vehicle routing.",Piotr Matl; Richard F. Hartl; Thibaut Vidal,https://doi.org/10.1002/net.21876,null,J,no_arxiv,0
-2018,EJOR,"The vehicle routing problem with service level constraints.",Teobaldo Bulhões; Minh Hoàng Hà; Rafael Martinelli; Thibaut Vidal,https://doi.org/10.1016/j.ejor.2017.08.027,null,J,http://arxiv.org/abs/1706.03097v1,0
-2018,EJOR,"Large neighborhood-based metaheuristic and branch-and-price for the pickup and delivery problem with split loads.",Matheus Nohra Haddad; Rafael Martinelli; Thibaut Vidal; Simone L. Martins; Luiz Satoru Ochi; Marcone Jamilson Freitas Souza; Richard F. Hartl,https://doi.org/10.1016/j.ejor.2018.04.017,null,J,no_arxiv,0
-2018,J Global Opt,"The minimum distance superset problem: formulations and algorithms.",Leonardo Fontoura; Rafael Martinelli; Marcus Poggi; Thibaut Vidal,https://doi.org/10.1007/s10898-017-0579-9,null,J,no_arxiv,0
-2018,Transp. Science,"Workload Equity in Vehicle Routing Problems: A Survey and Analysis.",Piotr Matl; Richard F. Hartl; Thibaut Vidal,https://doi.org/10.1287/trsc.2017.0744,null,J,http://arxiv.org/abs/1605.08565v2,0
 2021,PR,"PILS: Exploring high-order neighborhoods by pattern mining and injection.",Florian Arnold; Ítalo Santana; Kenneth Sörensen; Thibaut Vidal,https://doi.org/10.1016/j.patcog.2021.107957,null,J,no_arxiv,0
 2019,PR,"HG-means: A scalable hybrid genetic algorithm for minimum sum-of-squares clustering.",Daniel Gribel; Thibaut Vidal,https://doi.org/10.1016/j.patcog.2018.12.022,null,J,no_arxiv,0
