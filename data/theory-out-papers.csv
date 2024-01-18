@@ -1,3 +1,4 @@
+2023,Algorithmica,"On Finding the Best and Worst Orientations for the Metric Dimension.",UFC,Júlio Araújo 0001; Julien Bensmail; Victor A. Campos; Frédéric Havet; Ana Karolinna Maia; Nicolas Nisse; Ana Silva 0001,https://doi.org/10.1007/s00453-023-01132-0,null,J,no_arxiv,0
 2023,Algorithmica,"Parameterized Complexity of Computing Maximum Minimal Blocking and Hitting Sets.",UFC,Júlio Araújo 0001; Marin Bougeret; Victor A. Campos; Ignasi Sau,https://doi.org/10.1007/s00453-022-01036-5,null,J,http://arxiv.org/abs/2102.03404v1,0
 2023,Algorithmica,"Structural Parameterizations for Equitable Coloring: Complexity, FPT Algorithms, and Kernelization.",UFMG,Guilherme C. M. Gomes; Matheus R. Guedes; Vinícius Fernandes dos Santos,https://doi.org/10.1007/s00453-022-01085-w,null,J,no_arxiv,0
 2023,Discrete Applied Math.,"A combinatorial game over biclique-hypergraphs of powers of paths and of powers of cycles through monochromatic transversals.",UFF,Wilder P. Mendes; Simone Dantas; Sylvain Gravier,https://doi.org/10.1016/j.dam.2023.03.009,null,J,no_arxiv,0
@@ -16,7 +17,9 @@
 2023,Discrete Mathematics,"The anti-Ramsey threshold of complete graphs.",IME/USP,Yoshiharu Kohayakawa; Guilherme Oliveira Mota; Olaf Parczyk; Jakob Schnitzer,https://doi.org/10.1016/j.disc.2023.113343,null,J,no_arxiv,0
 2023,ESA,"New Menger-Like Dualities in Digraphs and Applications to Half-Integral Linkages.",UFC,Victor A. Campos; Jonas Costa; Raul Lopes 0001; Ignasi Sau,https://doi.org/10.4230/LIPIcs.ESA.2023.30,null,C,no_arxiv,0
 2023,ICALP,"Online Demand Scheduling with Failovers.",PUC-Rio,Konstantina Mellou; Marco Molinaro 0001; Rudy Zhou,https://doi.org/10.4230/LIPIcs.ICALP.2023.92,null,C,http://arxiv.org/abs/2209.00710v1,0
+2023,J. of Graph Theory,"MaxCut on permutation graphs is NP-complete.",COPPE/UFRJ,Celina M. H. de Figueiredo; Alexsander Andrade de Melo; Fabiano de S. Oliveira; Ana Silva 0001,https://doi.org/10.1002/jgt.22948,null,J,no_arxiv,0
 2023,J. of Graph Theory,"The mod k $k$ chromatic index of graphs is O ( k ) $O(k)$.",IME/USP,Fábio Botler; Lucas Colucci; Yoshiharu Kohayakawa,https://doi.org/10.1002/jgt.22866,null,J,no_arxiv,0
+2023,J. of Graph Theory,"The mod k $k$ chromatic index of random graphs.",IME/USP,Fábio Botler; Lucas Colucci; Yoshiharu Kohayakawa,https://doi.org/10.1002/jgt.22946,null,J,no_arxiv,0
 2023,SODA,"A tight quasi-polynomial bound for Global Label Min-Cut.",UFF,Lars Jaffke; Paloma T. Lima; Tomás Masarík; Marcin Pilipczuk; Uéverton S. Souza,https://doi.org/10.1137/1.9781611977554.ch12,top,C,no_arxiv,0
 2023,SODA,"Online and Bandit Algorithms Beyond ℓ Norms.",PUC-Rio,Thomas Kesselheim; Marco Molinaro 0001; Sahil Singla 0001,https://doi.org/10.1137/1.9781611977554.ch58,top,C,no_arxiv,0
 2023,Theor. Comput. Sci.,"Complexity and approximability of Minimum Path-Collection Exact Covers.",IME/USP; UFRGS,Santiago Valdés Ravelo; Cristina G. Fernandes,https://doi.org/10.1016/j.tcs.2022.11.022,null,J,no_arxiv,0
