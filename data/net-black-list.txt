@@ -9,3 +9,5 @@ db/journals/tnsm/tnsm18.html#KellererSHKKMPP21
 db/journals/comcom/comcom192.html#LoureiroG22
 db/journals/tnsm/tnsm19.html#SchembraKJKMPPR22
 db/journals/cn/cn234.html#ManzoniPDRM23
+db/journals/jsac/jsac41.html#MumtazCGREMXA23
+db/journals/jsac/jsac41.html#MumtazCGREMXA23a
