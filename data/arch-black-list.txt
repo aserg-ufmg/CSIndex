@@ -20,3 +20,4 @@ db/journals/concurrency/concurrency33.html#CamargoMM21
 db/journals/jpdc/jpdc168.html#BarbosaDL22
 db/journals/scp/scp220.html#CarvalhoS22
 db/journals/jpdc/jpdc171.html#GoscinskiDFKS23
+db/journals/scp/scp230.html#CamposM23
