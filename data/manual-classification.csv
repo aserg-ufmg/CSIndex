@@ -269,3 +269,9 @@ ds,2023,"Concurr. Comput. Pract. Exp.","Predicting consecutive spectrum opportun
 ds,2023,"Concurr. Comput. Pract. Exp.","Fast flow cloud: A stream dataflow framework for cloud FPGA accelerator overlays at runtime.",db/journals/concurrency/concurrency35.html#BragancaCPCNF23
 arch,2023,"Concurr. Comput. Pract. Exp.","Heterogeneous reconfigurable architectures for machine learning dataflows.",db/journals/concurrency/concurrency35.html#CarvalhoCRNF23
 arch,2023,"Concurr. Comput. Pract. Exp.","DONUTS: An efficient method for checkpointing in non-volatile memories.",db/journals/concurrency/concurrency35.html#KrugerPA23
+ds,2023,"J. Syst. Softw.","CharM - Evaluating a model for characterizing service-based architectures.",db/journals/jss/jss206.html#RosaGCG23
+pl,2023,"Softw. Pract. Exp.","Fast matrix multiplication via compiler-only layered data reorganization and intrinsic lowering.",db/journals/spe/spe53.html#KuzmaKCMBAA23
+se,2023,"J. Syst. Softw.","Cognitive Driven Development helps software teams to keep code units under the limit!",db/journals/jss/jss206.html#PintoS23
+se,2023,"J. Syst. Softw.","Factors that affect developers' decision to participate in a Mobile Software Ecosystem.",db/journals/jss/jss205.html#SteglichMSGMSP23
+formal,2024,"Sci. Comput. Program.","Stochastic formal model of PI3K/mTOR pathway in Alzheimer's disease for drug repurposing: An evaluation of rapamycin, LY294002, and NVP-BEZ235.",db/journals/scp/scp232.html#FernandesGOC24
+se,2024,"Sci. Comput. Program.","An empirical evaluation of RAIDE: A semi-automated approach for test smells detection and refactoring.",db/journals/scp/scp231.html#SantanaMVRCM24
