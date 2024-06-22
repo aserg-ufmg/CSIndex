@@ -42,3 +42,4 @@ db/journals/smr/smr34.html#MirandaTG22
 db/journals/infsof/infsof158.html#SchonSHST23
 db/journals/scp/scp230.html#CamposM23
 db/journals/ese/ese29.html#BaldassarreK24
+db/journals/scp/scp233.html#VaraBGG24

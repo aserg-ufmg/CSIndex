@@ -278,3 +278,16 @@ se,2024,"Sci. Comput. Program.","An empirical evaluation of RAIDE: A semi-automa
 arch,2023,"Concurr. Comput. Pract. Exp.","Investigating hardware and software aspects in the energy consumption of machine learning: A green AI-centric analysis.",db/journals/concurrency/concurrency35.html#YokoyamaFPVS23
 arch,2023,"Concurr. Comput. Pract. Exp.","High-performance graphics processing unit-based strategy for tuning a unmanned aerial vehicle controller subject to time-delay constraints.",db/journals/concurrency/concurrency35.html#FagundesJuniorCFB23
 ds,2023,"Concurr. Comput. Pract. Exp.","Gene regulatory accelerators on cloud FPGA.",db/journals/concurrency/concurrency35.html#PenhaBCRNF23
+se,2024,"Softw. Pract. Exp.","Work-from-home impacts on software project: A global study on software development practices and stakeholder perceptions.",db/journals/spe/spe54.html#NguyenDucKLGWZMMGKHESCRKAMGA24
+formal,2024,"Softw. Pract. Exp.","The effect of distance metrics in a general purpose synthesizer of imperative programs: A second empirical study using enlarged search spaces.",db/journals/spe/spe54.html#CorreiaIM24
+formal,2024,"Sci. Comput. Program.","Local deadlock analysis of Simulink models based on timed behavioural patterns and theorem proving.",db/journals/scp/scp236.html#JesusS24
+ds,2024,"J. Syst. Softw.","Performability evaluation of NoSQL-based storage systems.",db/journals/jss/jss208.html#AraujoONMT24
+formal,2024,"Sci. Comput. Program.","Symbolic analysis and parameter synthesis for networks of parametric timed automata with global variables using Maude and SMT solving.",db/journals/scp/scp233.html#AriasBOOPR24
+se,2024,"J. Syst. Softw.","A framework for the design of fault-tolerant systems-of-systems.",db/journals/jss/jss211.html#FerreiraNBLNS24
+se,2024,"J. Syst. Softw.","Harmonizing DevOps taxonomies - A grounded theory study.",db/journals/jss/jss208.html#DiazPAKLMR24
+se,2024,"J. Syst. Softw.","Identifying concerns when specifying machine learning-enabled systems: A perspective-based approach.",db/journals/jss/jss213.html#VillamizarKLM24
+se,2024,"J. Syst. Softw.","Early analysis of requirements using NLP and Petri-nets.",db/journals/jss/jss208.html#SarmientoCalisayaL24
+se,2024,"Softw. Pract. Exp.","Evolution of internal dimensions in object-oriented software-A time series based approach.",db/journals/spe/spe54.html#SousaBFF24
+ds,2024,"Softw. Pract. Exp.","Managing asynchronous workloads in a multi-tenant microservice enterprise environment.",db/journals/spe/spe54.html#BatistaMCBPC24
+se,2024,"J. Syst. Softw.","Variability debt in opportunistic reuse: A multi-project field study.",db/journals/jss/jss210.html#WolfartMACE24
+ds,2024,"J. Syst. Softw.","Design for dependability - State of the art and trends.",db/journals/jss/jss211.html#LiuHSYWWZZNLS24

@@ -6,3 +6,5 @@ utils/data/*.*
 data/log.txt
 data/manual-classification-failed.csv
 data/allpapers.csv
+csindex-env
+
