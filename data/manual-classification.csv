@@ -291,3 +291,12 @@ se,2024,"Softw. Pract. Exp.","Evolution of internal dimensions in object-oriente
 ds,2024,"Softw. Pract. Exp.","Managing asynchronous workloads in a multi-tenant microservice enterprise environment.",db/journals/spe/spe54.html#BatistaMCBPC24
 se,2024,"J. Syst. Softw.","Variability debt in opportunistic reuse: A multi-project field study.",db/journals/jss/jss210.html#WolfartMACE24
 ds,2024,"J. Syst. Softw.","Design for dependability - State of the art and trends.",db/journals/jss/jss211.html#LiuHSYWWZZNLS24
+arch,2023,"ACM Trans. Archit. Code Optim.","ULEEN: A Novel Architecture for Ultra-low-energy Edge Neural Networks.",db/journals/taco/taco20.html#SusskindAMBVKADLFBJ23
+arch,2023,"ACM Trans. Archit. Code Optim.","Advancing Direct Convolution Using Convolution Slicing Optimization and ISA Extensions.",db/journals/taco/taco20.html#FerrariSPCAMA23
+ds,2024,"Concurr. Comput. Pract. Exp.","A lightweight performance proxy for deep-learning model training on Amazon SageMaker.",db/journals/concurrency/concurrency36.html#TesserMB24
+ds,2024,"Concurr. Comput. Pract. Exp.","DDoS attack detection in SDN: Enhancing entropy-based detection with machine learning.",db/journals/concurrency/concurrency36.html#SantosNetoBAI24
+arch,2023,"ACM Trans. Archit. Code Optim.","ULEEN: A Novel Architecture for Ultra-low-energy Edge Neural Networks.",db/journals/taco/taco20.html#SusskindAMBVKADLFBJ23
+arch,2023,"ACM Trans. Archit. Code Optim.","Advancing Direct Convolution Using Convolution Slicing Optimization and ISA Extensions.",db/journals/taco/taco20.html#FerrariSPCAMA23
+ds,2024,"Concurr. Comput. Pract. Exp.","Design and analyses of web scraping on burstable virtual machines.",db/journals/concurrency/concurrency36.html#DrummondAMPST24
+ds,2024,"Concurr. Comput. Pract. Exp.","Enabling the execution of HPC applications on public clouds with  toolkit.",db/journals/concurrency/concurrency36.html#MunhozC24
+ds,2024,"Concurr. Comput. Pract. Exp.","Structural testing for CUDA programming model.",db/journals/concurrency/concurrency36.html#LuzSS24
