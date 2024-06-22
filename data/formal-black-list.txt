@@ -24,3 +24,4 @@ db/journals/scp/scp220.html#
 db/journals/mscs/mscs32.html#AyalaRinconM22
 db/journals/scp/scp220.html#CarvalhoS22
 db/journals/scp/scp230.html#CamposM23
+db/journals/scp/scp233.html#VaraBGG24
