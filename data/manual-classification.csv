@@ -300,3 +300,6 @@ arch,2023,"ACM Trans. Archit. Code Optim.","Advancing Direct Convolution Using C
 ds,2024,"Concurr. Comput. Pract. Exp.","Design and analyses of web scraping on burstable virtual machines.",db/journals/concurrency/concurrency36.html#DrummondAMPST24
 ds,2024,"Concurr. Comput. Pract. Exp.","Enabling the execution of HPC applications on public clouds with  toolkit.",db/journals/concurrency/concurrency36.html#MunhozC24
 ds,2024,"Concurr. Comput. Pract. Exp.","Structural testing for CUDA programming model.",db/journals/concurrency/concurrency36.html#LuzSS24
+theory,2024,"Theor. Comput. Sci.","Computing the hull and interval numbers in the weakly toll convexity.",db/journals/tcs/tcs996.html#DouradoGPT24
+theory,2024,"Theor. Comput. Sci.","Graph convexity impartial games: Complexity and winning strategies.",db/journals/tcs/tcs998.html#AraujoBFFS24
+theory,2024,"Theor. Comput. Sci.","The general position avoidance game and hardness of general position games.",db/journals/tcs/tcs988.html#ChandranKNS24

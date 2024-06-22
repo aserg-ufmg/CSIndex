@@ -6,6 +6,7 @@
 2023,Math Program,"Branch-and-bound solves random binary IPs in poly(n)-time.",Santanu S. Dey; Yatharth Dubey; Marco Molinaro 0001,https://doi.org/10.1007/s10107-022-01895-4,null,J,no_arxiv,0
 2022,Math Program,"Sparse PSD approximation of the PSD cone.",Grigoriy Blekherman; Santanu S. Dey; Marco Molinaro 0001; Shengding Sun,https://doi.org/10.1007/s10107-020-01578-y,null,J,http://arxiv.org/abs/2002.02988v1,0
 2019,SIAM J Opt,"Lower Bounds on the Lattice-Free Rank for Packing and Covering Integer Programs.",Merve Bodur; Alberto Del Pia; Santanu S. Dey; Marco S. Molinaro 0001,https://doi.org/10.1137/17M1149985,null,J,no_arxiv,0
+2024,STOC,"Supermodular Approximation of Norms and Applications.",Thomas Kesselheim; Marco Molinaro 0001; Sahil Singla 0001,https://doi.org/10.1145/3618260.3649734,top,C,no_arxiv,0
 2023,ICALP,"Online Demand Scheduling with Failovers.",Konstantina Mellou; Marco Molinaro 0001; Rudy Zhou,https://doi.org/10.4230/LIPIcs.ICALP.2023.92,null,C,http://arxiv.org/abs/2209.00710v1,0
 2023,SODA,"Online and Bandit Algorithms Beyond ℓ Norms.",Thomas Kesselheim; Marco Molinaro 0001; Sahil Singla 0001,https://doi.org/10.1137/1.9781611977554.ch58,top,C,no_arxiv,0
 2022,SODA,"Robust Secretary and Prophet Algorithms for Packing Integer Programs.",C. J. Argue; Anupam Gupta 0001; Marco Molinaro 0001; Sahil Singla 0001,https://doi.org/10.1137/1.9781611977073.53,top,C,http://arxiv.org/abs/2112.12920v1,0
