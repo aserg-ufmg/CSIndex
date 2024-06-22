@@ -5,3 +5,4 @@ db/journals/cg/cg60.html#AliagaF16
 db/journals/tvcg/tvcg27.html#ElmqvistFLMMMNR21
 db/journals/tvcg/tvcg28.html#SummaN22
 db/journals/tvcg/tvcg28.html#NedelAWSI22
+db/journals/cg/cg118.html#FernandesT24
