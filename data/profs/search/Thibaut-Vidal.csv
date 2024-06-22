@@ -3,7 +3,9 @@
 2022,Inf. Sciences,"Semi-supervised clustering with inaccurate pairwise annotations.",Daniel Gribel; Michel Gendreau; Thibaut Vidal,https://doi.org/10.1016/j.ins.2022.05.035,null,J,no_arxiv,0
 2021,ICML,"Optimal Counterfactual Explanations in Tree Ensembles.",Axel Parmentier; Thibaut Vidal,http://proceedings.mlr.press/v139/parmentier21a.html,top,C,http://arxiv.org/abs/2106.06631v2,0
 2020,ICML,"Born-Again Tree Ensembles.",Thibaut Vidal; Maximilian Schiffer,http://proceedings.mlr.press/v119/vidal20a.html,top,C,no_arxiv,0
+2024,Transp. Science,"Solving a Continent-Scale Inventory Routing Problem at Renault.",Louis Bouvier; Guillaume Dalle; Axel Parmentier; Thibaut Vidal,https://doi.org/10.1287/trsc.2022.0342,null,J,no_arxiv,0
 2023,EJOR,"Recent advances in vehicle routing with stochastic demands: Bayesian learning for correlated demands and elementary branch-price-and-cut.",Alexandre M. Florio; Michel Gendreau; Richard F. Hartl; Stefan Minner; Thibaut Vidal,https://doi.org/10.1016/j.ejor.2022.10.045,null,J,no_arxiv,0
+2023,INFORMS J Compt,"Decomposition Strategies for Vehicle Routing Heuristics.",Alberto Santini; Michael Schneider 0004; Thibaut Vidal; Daniele Vigo,https://doi.org/10.1287/ijoc.2023.1288,top,J,no_arxiv,0
 2023,Transp. Science,"Exponential-Size Neighborhoods for the Pickup-and-Delivery Traveling Salesman Problem.",Toni Pacheco; Rafael Martinelli; Anand Subramanian 0001; Túlio A. M. Toffolo; Thibaut Vidal,https://doi.org/10.1287/trsc.2022.1176,null,J,no_arxiv,0
 2023,Transp. Science,"Electric Vehicle Fleets: Scalable Route and Recharge Scheduling Through Column Generation.",Axel Parmentier; Rafael Martinelli; Thibaut Vidal,https://doi.org/10.1287/trsc.2023.1199,null,J,http://arxiv.org/abs/2104.03823v2,0
 2022,Computers & OR,"Hybrid genetic search for the CVRP: Open-source implementation and SWAP* neighborhood.",Thibaut Vidal,https://doi.org/10.1016/j.cor.2021.105643,null,J,no_arxiv,0
@@ -24,5 +26,7 @@
 2019,INFORMS J Compt,"Two-Dimensional Phase Unwrapping via Balanced Spanning Forests.",Ian Herszterg; Marcus Poggi; Thibaut Vidal,https://doi.org/10.1287/ijoc.2018.0832,top,J,no_arxiv,0
 2019,J Global Opt,"On three soft rectangle packing problems with guillotine constraints.",Quoc Trung Bui; Thibaut Vidal; Minh Hoàng Hà,https://doi.org/10.1007/s10898-019-00741-w,null,J,http://arxiv.org/abs/1805.03631v1,0
 2019,Networks,"Leveraging single-objective heuristics to solve bi-objective problems: Heuristic box splitting and its application to vehicle routing.",Piotr Matl; Richard F. Hartl; Thibaut Vidal,https://doi.org/10.1002/net.21876,null,J,no_arxiv,0
+2024,PR,"Regularization and optimization in model-based clustering.",Raphael Araujo Sampaio; Joaquim Dias Garcia; Marcus Poggi; Thibaut Vidal,https://doi.org/10.1016/j.patcog.2024.110310,null,J,no_arxiv,0
+2024,PR,"Community detection in the stochastic block model by mixed integer programming.",Breno Serrano; Thibaut Vidal,https://doi.org/10.1016/j.patcog.2024.110487,null,J,http://arxiv.org/abs/2101.12336v2,0
 2021,PR,"PILS: Exploring high-order neighborhoods by pattern mining and injection.",Florian Arnold; Ítalo Santana; Kenneth Sörensen; Thibaut Vidal,https://doi.org/10.1016/j.patcog.2021.107957,null,J,no_arxiv,0
 2019,PR,"HG-means: A scalable hybrid genetic algorithm for minimum sum-of-squares clustering.",Daniel Gribel; Thibaut Vidal,https://doi.org/10.1016/j.patcog.2018.12.022,null,J,no_arxiv,0
