@@ -303,3 +303,10 @@ ds,2024,"Concurr. Comput. Pract. Exp.","Structural testing for CUDA programming 
 theory,2024,"Theor. Comput. Sci.","Computing the hull and interval numbers in the weakly toll convexity.",db/journals/tcs/tcs996.html#DouradoGPT24
 theory,2024,"Theor. Comput. Sci.","Graph convexity impartial games: Complexity and winning strategies.",db/journals/tcs/tcs998.html#AraujoBFFS24
 theory,2024,"Theor. Comput. Sci.","The general position avoidance game and hardness of general position games.",db/journals/tcs/tcs988.html#ChandranKNS24
+arch,2024,"ACM Trans. Archit. Code Optim.","The Droplet Search Algorithm for Kernel Scheduling.",db/journals/taco/taco21.html#CanescheRBP24
+arch,2024,"ACM Trans. Archit. Code Optim.","Assessing the Impact of Compiler Optimizations on GPUs Reliability.",db/journals/taco/taco21.html#SantosCVR24
+arch,2024,"Concurr. Comput. Pract. Exp.","GPU parallel processing to enable extensive criticality analysis in state estimation.",db/journals/concurrency/concurrency36.html#JuniorFSC24
+ds,2024,"Concurr. Comput. Pract. Exp.","MCMPI: A library with elasticity for multi-domain and public cloud environments.",db/journals/concurrency/concurrency36.html#AguniSM24
+se,2024,"J. Syst. Softw.","Refactoring react-based Web apps.",db/journals/jss/jss215.html#FerreiraBV24
+se,2024,"J. Syst. Softw.","Detecting semantic conflicts with unit tests.",db/journals/jss/jss214.html#SilvaBMMBMGL24
+se,2024,"J. Syst. Softw.","Feature-oriented test case selection and prioritization during the evolution of highly-configurable systems.",db/journals/jss/jss217.html#MendoncaAV24
