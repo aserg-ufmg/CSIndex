@@ -11,3 +11,4 @@ db/journals/tnsm/tnsm19.html#SchembraKJKMPPR22
 db/journals/cn/cn234.html#ManzoniPDRM23
 db/journals/jsac/jsac41.html#MumtazCGREMXA23
 db/journals/jsac/jsac41.html#MumtazCGREMXA23a
+db/journals/adhoc/adhoc165.html#SouzaRC24a
