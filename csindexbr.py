@@ -377,7 +377,8 @@ def get_paper_size(url, dblp, dblp_venue):
 
 def get_dblp_venue(dblp):
     if 'journal' in dblp:
-        if (dblp['journal'] == "PACMPL") or (dblp['journal'] == "PACMHCI") or \
+        if (dblp['journal'] == "PACMPL") or \
+           (dblp['journal'] == "PACMHCI") or \
            (dblp['journal'] == "Proc. ACM Program. Lang.") or \
            (dblp['journal'] == "Proc. ACM Softw. Eng.") or \
            (dblp['journal'] == "Proc. ACM Hum. Comput. Interact."):
