@@ -18,9 +18,11 @@ def get_dblp_file(pid,prof):
     else:
        try:
          url = "http://dblp.org/pid/" + pid + ".xml"
-         bibfile = requests.get(url).text
+         bibfile = requests.get(url, timeout=180).text
          with open(file, 'w') as f:
             f.write(str(bibfile))
+       except requests.Timeout:
+         print("Request timed out after 180 seconds")     
        except requests.exceptions.RequestException as e:
          print (e)
          sys.exit(1)
@@ -49,13 +51,15 @@ if download:
        file = '../cache/dblp/' + prof + '.xml'
        try:
          url = "http://dblp.org/pid/" + pid + ".xml"
-         bibfile = requests.get(url).text
+         bibfile = requests.get(url, timeout=180).text
          with open(file, 'w') as f:
            f.write(bibfile)
+       except requests.Timeout:
+         print("Request timed out after 180 seconds")      
        except requests.exceptions.RequestException as e:
          print (e)
          sys.exit(1)
-       time.sleep(2)
+       time.sleep(3)
        count = count + 1
    elapsed_time = (time.time() - start_time) / 60
    elapsed_time = round(elapsed_time, 2)
