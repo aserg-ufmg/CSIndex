@@ -1,4 +1,3 @@
-2019,IEEE Computer,"How Do Developers Promote Open Source Projects?",Hudson Silva Borges; Marco Túlio Valente,https://doi.org/10.1109/MC.2018.2888770,null,J,http://arxiv.org/abs/1908.04219v1,0
 2024,IST,"Source code expert identification: Models and application.",Otávio Cury da Costa Castro; Guilherme Avelino 0001; Pedro de A. Santos Neto; Marco Túlio Valente; Ricardo Britto 0001,https://doi.org/10.1016/j.infsof.2024.107445,null,J,no_arxiv,0
 2024,JSS,"Refactoring react-based Web apps.",Fabio Ferreira; Hudson Silva Borges; Marco Túlio Valente,https://doi.org/10.1016/j.jss.2024.112105,null,J,no_arxiv,0
 2024,JSEP,"Towards a catalog of composite refactorings.",Aline Brito; André C. Hora; Marco Túlio Valente,https://doi.org/10.1002/smr.2530,null,J,http://arxiv.org/abs/2201.04599v3,0
@@ -20,10 +19,3 @@
 2020,ICSA,"REST vs GraphQL: A Controlled Experiment.",Gleison Brito; Marco Túlio Valente,https://doi.org/10.1109/ICSA47634.2020.00016,null,C,http://arxiv.org/abs/2003.04761v1,0
 2020,MSR,"Beyond the Code: Mining Self-Admitted Technical Debt in Issue Tracker Systems.",Laerte Xavier; Fabio Ferreira; Rodrigo Brito; Marco Túlio Valente,https://doi.org/10.1145/3379597.3387459,null,C,no_arxiv,0
 2020,SANER,"Refactoring Graphs: Assessing Refactoring over Time.",Aline Brito; André C. Hora; Marco Túlio Valente,https://doi.org/10.1109/SANER48275.2020.9054864,null,C,http://arxiv.org/abs/2003.04666v1,0
-2019,JSS,"Co-change patterns: A large scale empirical study.",Luciana Lourdes Silva; Marco Túlio Valente; Marcelo de Almeida Maia,https://doi.org/10.1016/j.jss.2019.03.014,null,J,no_arxiv,0
-2019,SCP,"Measuring and analyzing code authorship in 1 + 118 open source projects.",Guilherme Avelino 0001; Leonardo Teixeira Passos; André C. Hora; Marco Túlio Valente,https://doi.org/10.1016/j.scico.2019.03.001,null,J,no_arxiv,0
-2019,IEEE Software,"Who Can Maintain This Code?: Assessing the Effectiveness of Repository-Mining Techniques for Identifying Software Maintainers.",Guilherme Avelino 0001; Leonardo Teixeira Passos; Fábio Petrillo; Marco Túlio Valente,https://doi.org/10.1109/MS.2018.185140155,null,J,no_arxiv,0
-2019,SQJ,"Algorithms for estimating truck factors: a comparative study.",Mívian M. Ferreira; Thaís Mombach; Marco Túlio Valente; Kecia A. M. Ferreira,https://doi.org/10.1007/s11219-019-09457-2,null,J,no_arxiv,0
-2019,ESEM,"On the abandonment and survival of open source projects: An empirical investigation.",Guilherme Avelino 0001; Eleni Constantinou; Marco Túlio Valente; Alexander Serebrenik,https://doi.org/10.1109/ESEM.2019.8870181,null,C,http://arxiv.org/abs/1906.08058v1,0
-2019,MSR,"Identifying experts in software libraries and frameworks among GitHub users.",João Eduardo Montandon; Luciana Lourdes Silva; Marco Túlio Valente,https://doi.org/10.1109/MSR.2019.00054,null,C,http://arxiv.org/abs/1903.08113v1,0
-2019,SANER,"Migrating to GraphQL: A Practical Assessment.",Gleison Brito; Thaís Mombach; Marco Túlio Valente,https://doi.org/10.1109/SANER.2019.8667986,null,C,no_arxiv,0

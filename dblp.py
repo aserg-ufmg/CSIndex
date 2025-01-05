@@ -2,77 +2,80 @@
 # python ../dblp.py
 # python ../dblp.py -test (only test the cached files)
 
-import csv
-import sys
-import requests
-import time
-import xmltodict
 import os
+import sys
+import time
+import csv
+import requests
+import xmltodict
 
-def get_dblp_file(pid,prof):
-    prof = prof.replace(" ", "-")
+def is_in_cache(prof):
     file = '../cache/dblp/' + prof + '.xml'
-    if os.path.exists(file):
-       with open(file) as f:
-          bibfile = f.read()
+    return os.path.exists(file)
+   
+def save_cache(prof, bibfile):
+    file = '../cache/dblp/' + prof + '.xml'  
+    with open(file, 'w') as f:
+      f.write(str(bibfile))
+      
+def read_cache(prof):
+    file = '../cache/dblp/' + prof + '.xml'  
+    with open(file) as f:
+      return f.read()
+
+def crawl_dblp(pid):
+    try:
+      url = "http://dblp.org/pid/" + pid + ".xml"
+      return requests.get(url, timeout=180).text
+    except requests.Timeout:
+      print("Request timed out after 180 seconds")     
+    except requests.exceptions.RequestException as e:
+      print (e)
+      sys.exit(1)
+   
+def get_dblp_file(pid, prof):
+    prof = prof.replace(" ", "-")
+    if is_in_cache(prof):
+       return read_cache(prof)
     else:
-       try:
-         url = "http://dblp.org/pid/" + pid + ".xml"
-         bibfile = requests.get(url, timeout=180).text
-         with open(file, 'w') as f:
-            f.write(str(bibfile))
-       except requests.Timeout:
-         print("Request timed out after 180 seconds")     
-       except requests.exceptions.RequestException as e:
-         print (e)
-         sys.exit(1)
-    return bibfile
+       return crawl_dblp(pid)
 
 def parse_dblp(_, dblp):
     if ('journal' in dblp) or ('booktitle' in dblp):
        return True
     return True
 
-download = True
-if len(sys.argv) == 2:
-   if sys.argv[1] == "-test":
-      download = False
+def download_all_prof_data():
+    start_time = time.time()
+    reader = csv.reader(open("all-researchers.csv", 'r'))
+    count = 1;
+    for researcher in reader:
+        prof, department, pid = researcher
+        print(f"{count} > {prof}, {department}")
+        # prof = prof.replace(" ", "-")  <<< remoção dessa linha ainda não foi testado em produção
+       
+        bibfile = get_dblp_file(pid, prof)
+        save_cache(prof, bibfile)
 
-if download:
-   start_time = time.time()
-   reader = csv.reader(open("all-researchers.csv", 'r'))
-   count = 1;
-   for researcher in reader:
-       prof = researcher[0]
-       department = researcher[1]
-       pid = researcher[2]
-       print (str(count) + " >> " + prof + "," + department)
-       prof = prof.replace(" ", "-")
-       file = '../cache/dblp/' + prof + '.xml'
-       try:
-         url = "http://dblp.org/pid/" + pid + ".xml"
-         bibfile = requests.get(url, timeout=180).text
-         with open(file, 'w') as f:
-           f.write(bibfile)
-       except requests.Timeout:
-         print("Request timed out after 180 seconds")      
-       except requests.exceptions.RequestException as e:
-         print (e)
-         sys.exit(1)
-       time.sleep(3)
-       count = count + 1
-   elapsed_time = (time.time() - start_time) / 60
-   elapsed_time = round(elapsed_time, 2)
-   print ("Elapsed time (min): " + str(elapsed_time))
+        time.sleep(3)
+        count = count + 1
+    elapsed_time = round((time.time() - start_time) / 60, 2)
+    print(f"Elapsed time (min): {elapsed_time}")
 
-print ("Testing files ....")
-reader = csv.reader(open("all-researchers.csv", 'r'))
-count = 1;
-for researcher in reader:
-    prof = researcher[0]
-    department = researcher[1]
-    pid = researcher[2]
-    print (str(count) + " >> " + prof + "," + department)
-    bibfile = get_dblp_file(pid,prof)
-    xmltodict.parse(bibfile, item_depth=3, item_callback=parse_dblp)
-    count = count + 1
+def test_all_prof_data():
+    print ("Testing files ....")
+    reader = csv.reader(open("all-researchers.csv", 'r'))
+    count = 1;
+    for researcher in reader:
+        prof, department, pid = researcher
+        print(f"{count} > {prof}, {department}")
+        bibfile = get_dblp_file(pid, prof)
+        xmltodict.parse(bibfile, item_depth=3, item_callback=parse_dblp)
+        count = count + 1
+
+if __name__ == "__main__":
+    download = len(sys.argv) < 2 or sys.argv[1] != "-test"
+    if download:
+       download_all_prof_data()
+    test_all_prof_data()
+    

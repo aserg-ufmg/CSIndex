@@ -9,8 +9,8 @@ from difflib import SequenceMatcher
 import requests
 import xmltodict
 
-FIRST_YEAR = 2019
-LAST_YEAR = 2024
+FIRST_YEAR = 2020
+LAST_YEAR = 2025
 
 class Global:
     default_min_paper_size = 0

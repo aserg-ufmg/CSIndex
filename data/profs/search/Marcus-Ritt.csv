@@ -1,7 +1,6 @@
 2024,Journal of AI Research,"Understanding Sample Generation Strategies for Learning Heuristic Functions in Classical Planning.",Rafael Vales Bettker; Pedro Minini; André G. Pereira; Marcus Ritt,https://doi.org/10.1613/jair.1.15742,top,J,http://arxiv.org/abs/2211.13316v3,0
 2022,GECCO,"Improved regression models for algorithm configuration.",Marcelo de Souza; Marcus Ritt,https://doi.org/10.1145/3512290.3528750,null,C,no_arxiv,0
 2021,GECCO,"The tiebreaking space of constructive heuristics for the permutation flowshop minimizing makespan.",Marcus Ritt; Alexander J. Benavides,https://doi.org/10.1145/3449639.3459344,null,C,no_arxiv,0
-2019,GECCO,"A generic approach to districting with diameter or center-based objectives.",Alex Gliesch; Marcus Ritt,https://doi.org/10.1145/3321707.3321874,null,C,no_arxiv,0
 2021,IEEE TPDS,"A Runtime and Non-Intrusive Approach to Optimize EDP by Tuning Threads and CPU Frequency for OpenMP Applications.",Janaina Schwarzrock; Charles Cardoso De Oliveira; Marcus Ritt; Arthur Francisco Lorenzon; Antonio Carlos Schneider Beck,https://doi.org/10.1109/TPDS.2020.3046537,top,J,no_arxiv,0
 2024,Computers & OR,"Effective heuristics for permutation and non-permutation flow shop scheduling with missing operations.",Marcus Ritt; Daniel Alejandro Rossit,https://doi.org/10.1016/j.cor.2024.106742,null,J,no_arxiv,0
 2023,EJOR,"Exact and heuristic methods for a workload allocation problem with chain precedence constraints.",Jordi Pereira; Marcus Ritt,https://doi.org/10.1016/j.ejor.2022.12.035,null,J,no_arxiv,0
