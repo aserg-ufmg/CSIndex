@@ -26,19 +26,19 @@ papers_arxiv=$(python3 ../utils/getcol.py allpapers.csv 8 | awk '/arxiv.org/ { p
 allauthors=$(cat all-researchers.csv | awk -F, '{print $3}' | sort | uniq | wc -l)
 authors=$(wc -l profs/all-authors.csv | awk '{print $1}')
 
-papers19=$(cat allpapers.csv | awk -F, '/^2019/ {print $1}' | wc -l)
 papers20=$(cat allpapers.csv | awk -F, '/^2020/ {print $1}' | wc -l)
 papers21=$(cat allpapers.csv | awk -F, '/^2021/ {print $1}' | wc -l)
 papers22=$(cat allpapers.csv | awk -F, '/^2022/ {print $1}' | wc -l)
 papers23=$(cat allpapers.csv | awk -F, '/^2023/ {print $1}' | wc -l)
 papers24=$(cat allpapers.csv | awk -F, '/^2024/ {print $1}' | wc -l)
+papers25=$(cat allpapers.csv | awk -F, '/^2025/ {print $1}' | wc -l)
 
-top19=$(python3 ../utils/get2col.py allpapers.csv 0 6 | awk '/^2019/ && /top$/ {print $2}' | wc -l)
 top20=$(python3 ../utils/get2col.py allpapers.csv 0 6 | awk '/^2020/ && /top$/ {print $2}' | wc -l)
 top21=$(python3 ../utils/get2col.py allpapers.csv 0 6 | awk '/^2021/ && /top$/ {print $2}' | wc -l)
 top22=$(python3 ../utils/get2col.py allpapers.csv 0 6 | awk '/^2022/ && /top$/ {print $2}' | wc -l)
 top23=$(python3 ../utils/get2col.py allpapers.csv 0 6 | awk '/^2023/ && /top$/ {print $2}' | wc -l)
 top24=$(python3 ../utils/get2col.py allpapers.csv 0 6 | awk '/^2024/ && /top$/ {print $2}' | wc -l)
+top25=$(python3 ../utils/get2col.py allpapers.csv 0 6 | awk '/^2025/ && /top$/ {print $2}' | wc -l)
 
 #for area in {"se", "pl", "cse", "vision", "or", "cs", "chi", "dbis"}
 #do
@@ -219,12 +219,12 @@ echo '<li> Papers with arXiv preprints:' $papers_arxiv
 
 echo '<li> Papers per year (all papers / papers in top-venues):'
 echo '<ul>'
-echo '<li>2019:' $papers19 '/' $top19
 echo '<li>2020:' $papers20 '/' $top20
 echo '<li>2021:' $papers21 '/' $top21
 echo '<li>2022:' $papers22 '/' $top22
 echo '<li>2023:' $papers23 '/' $top23
 echo '<li>2024:' $papers24 '/' $top24
+echo '<li>2025:' $papers25 '/' $top25
 echo '</ul>'
 
 echo '<li> Papers per research area (all papers / papers in confs / papers in journals / papers in top-venues):'
