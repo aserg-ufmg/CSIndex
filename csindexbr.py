@@ -371,6 +371,7 @@ def get_paper_size(url, dblp, dblp_venue):
     if 'pages' in dblp:
        return parse_paper_size(dblp['pages'])
     if (dblp_venue == "Briefings Bioinform.") or \
+       (dblp_venue == "J. Intell. Robotic Syst.") or \
        (dblp_venue == "NeurIPS"):
        return 10    # due to missing page fields
     return 0

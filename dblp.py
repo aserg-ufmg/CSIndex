@@ -34,7 +34,7 @@ def crawl_dblp(pid):
       sys.exit(1)
    
 def get_dblp_file(pid, prof):
-    prof = prof.replace(" ", "-")
+    # prof = prof.replace(" ", "-")
     if is_in_cache(prof):
        return read_cache(prof)
     else:
@@ -52,12 +52,12 @@ def download_all_prof_data():
     for researcher in reader:
         prof, department, pid = researcher
         print(f"{count} > {prof}, {department}")
-        # prof = prof.replace(" ", "-")  <<< remoção dessa linha ainda não foi testado em produção
+        prof = prof.replace(" ", "-")
        
         bibfile = get_dblp_file(pid, prof)
         save_cache(prof, bibfile)
 
-        time.sleep(3)
+        time.sleep(2)
         count = count + 1
     elapsed_time = round((time.time() - start_time) / 60, 2)
     print(f"Elapsed time (min): {elapsed_time}")
@@ -69,6 +69,7 @@ def test_all_prof_data():
     for researcher in reader:
         prof, department, pid = researcher
         print(f"{count} > {prof}, {department}")
+        prof = prof.replace(" ", "-")
         bibfile = get_dblp_file(pid, prof)
         xmltodict.parse(bibfile, item_depth=3, item_callback=parse_dblp)
         count = count + 1
