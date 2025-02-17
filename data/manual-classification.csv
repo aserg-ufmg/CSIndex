@@ -272,3 +272,5 @@ se,2025,"J. Syst. Softw.","Towards the UX Support to Software Startups: On the r
 se,2025,"J. Syst. Softw.","Model-driven safety and security co-analysis: A systematic literature review.",db/journals/jss/jss220.html#GrechiOB25
 se,2025,"J. Syst. Softw.","Developer perceptions of modern code review processes in practice: Insights from a case study in a mid-sized company.",db/journals/jss/jss222.html#SantosNJ25
 ds,2025,"Softw. Pract. Exp.","A declarative approach and benchmark tool for controlled evaluation of microservice resiliency patterns.",db/journals/spe/spe55.html#AderaldoCVMCG25
+ds,2025,"Concurr. Comput. Pract. Exp.","Dynamic Load Balancing in Kubernetes Environments With Kubernetes Scheduling Extension (KSE).",db/journals/concurrency/concurrency37.html#NetoCS25
+ds,2025,"Concurr. Comput. Pract. Exp.","Optimized Execution of a Numerical Weather Forecast Model in a Cloud Cluster.",db/journals/concurrency/concurrency37.html#MeloSD25
