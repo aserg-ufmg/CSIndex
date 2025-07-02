@@ -44,3 +44,5 @@ db/journals/scp/scp230.html#CamposM23
 db/journals/ese/ese29.html#BaldassarreK24
 db/journals/scp/scp233.html#VaraBGG24
 db/journals/jss/jss216.html#RussoBBACCCCEFHHIKKLLLMMMOPPPPRRSSS24
+db/journals/scp/scp243.html#GiachettiFGG25
+db/journals/software/software42.html#JacksonHPS25

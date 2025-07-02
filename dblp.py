@@ -54,10 +54,11 @@ def download_all_prof_data():
         print(f"{count} > {prof}, {department}")
         prof = prof.replace(" ", "-")
        
-        bibfile = get_dblp_file(pid, prof)
-        save_cache(prof, bibfile)
+        if not is_in_cache(prof):
+           bibfile = get_dblp_file(pid, prof)
+           save_cache(prof, bibfile)
+           time.sleep(5)
 
-        time.sleep(2)
         count = count + 1
     elapsed_time = round((time.time() - start_time) / 60, 2)
     print(f"Elapsed time (min): {elapsed_time}")
