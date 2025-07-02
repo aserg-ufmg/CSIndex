@@ -292,3 +292,5 @@ se,2025,"Sci. Comput. Program.","Software architecture decision-making process: 
 ds,2025,"Concurr. Comput. Pract. Exp.","Optimizing Resource Estimation for Scientific Workflows in HPC Environments: A Layered-Bucket Heuristic Approach.",db/journals/concurrency/concurrency37.html#AlvarengaFOC25
 ds,2025,"Concurr. Comput. Pract. Exp.","Unblocking Placement and Routing in Rearrangeable Multi-Stage Networks.",db/journals/concurrency/concurrency37.html#MoraisPNF25
 ds,2025,"Concurr. Comput. Pract. Exp.","Multi-Objective Dynamic Registry Provisioning in Edge Computing Infrastructures.",db/journals/concurrency/concurrency37.html#RogesF25
+theory,2025,"Theor. Comput. Sci.","Weighted connected matchings.",db/journals/tcs/tcs1036.html#GomesMPSS25
+theory,2025,"Theor. Comput. Sci.","Algorithms and complexity of graph convexity partizan games.",db/journals/tcs/tcs1044.html#AraujoBFFS25

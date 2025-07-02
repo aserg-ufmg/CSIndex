@@ -27,3 +27,4 @@ db/journals/scp/scp230.html#CamposM23
 db/journals/scp/scp233.html#VaraBGG24
 db/conf/csl/csl2025.html#PimentelOLFF25
 db/journals/mscs/mscs34.html#CiabattoniPQ24
+db/journals/scp/scp243.html#GiachettiFGG25
