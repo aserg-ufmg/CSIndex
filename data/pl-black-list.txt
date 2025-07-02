@@ -14,3 +14,4 @@ db/journals/scp/scp205.html#MassoniM21
 db/journals/scp/scp220.html#CarvalhoS22
 db/journals/scp/scp230.html#CamposM23
 db/journals/scp/scp233.html#VaraBGG24
+db/journals/scp/scp243.html#GiachettiFGG25
