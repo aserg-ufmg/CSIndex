@@ -12,3 +12,5 @@ db/journals/cn/cn234.html#ManzoniPDRM23
 db/journals/jsac/jsac41.html#MumtazCGREMXA23
 db/journals/jsac/jsac41.html#MumtazCGREMXA23a
 db/journals/adhoc/adhoc165.html#SouzaRC24a
+db/journals/jsac/jsac43.html#CrowcroftORZBF25
+db/journals/jsac/jsac43.html#AloqailyZANDC25
