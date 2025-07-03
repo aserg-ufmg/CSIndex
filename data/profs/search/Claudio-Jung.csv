@@ -1,5 +1,8 @@
 2023,ACM Comput. Surveys,"3D Scene Geometry Estimation from 360° Imagery: A Survey.",Thiago L. T. da Silveira; Paulo G. L. Pinto; Jeffri Murrugarra-Llerena; Cláudio R. Jung,https://doi.org/10.1145/3519021,null,J,no_arxiv,0
 2023,Computers & Graphics,"Omnidirectional visual computing: Foundations, challenges, and applications.",Thiago L. T. da Silveira; Cláudio R. Jung,https://doi.org/10.1016/j.cag.2023.05.011,null,J,no_arxiv,0
+2025,JVCI,"Cell tracking-by-detection using elliptical bounding boxes.",Lucas N. Kirsten; Cláudio R. Jung,https://doi.org/10.1016/j.jvcir.2025.104425,null,J,no_arxiv,0
+2025,WACV,"Oriented Cell Dataset: A Dataset and Benchmark for Oriented Cell Detection and Applications.",Lucas N. Kirsten; Angelo Angonezi; Jose Marques; Fernanda Oliveira; Juliano Faccioni; Camila Cassel; Débora Santos de Sousa; Samlai Vedovatto; Guido Lenz; Cláudio R. Jung,https://doi.org/10.1109/WACV61041.2025.00393,null,C,no_arxiv,0
+2025,WACV,"Noise-Aware Evaluation of Object Detectors.",Jeffri Murrugarra-Llerena; Cláudio R. Jung,https://doi.org/10.1109/WACV61041.2025.00903,null,C,no_arxiv,0
 2024,IEEE TIP,"Probabilistic Intersection-Over-Union for Training and Evaluation of Oriented Object Detectors.",Jeffri Murrugarra-Llerena; Lucas N. Kirsten; Luis Felipe de Araujo Zeni; Cláudio R. Jung,https://doi.org/10.1109/TIP.2023.3348697,null,J,no_arxiv,0
 2023,JVCI,"Omnidirectional 2.5D representation for COVID-19 diagnosis using chest CTs.",Thiago L. T. da Silveira; Paulo G. L. Pinto; Thiago S. Lermen; Cláudio R. Jung,https://doi.org/10.1016/j.jvcir.2023.103775,null,J,no_arxiv,0
 2022,IEEE TIP,"Deep Multi-Scale Feature Learning for Defocus Blur Estimation.",Ali Karaali; Naomi Harte; Cláudio R. Jung,https://doi.org/10.1109/TIP.2021.3139243,null,J,no_arxiv,0

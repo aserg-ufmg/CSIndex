@@ -8,3 +8,6 @@ db/journals/tvcg/tvcg28.html#NedelAWSI22
 db/journals/cg/cg118.html#FernandesT24
 db/journals/cg/cg124.html#MacielVM24
 db/journals/cg/cg126.html#BorgoC25
+db/journals/tomccap/tomccap21.html#ZhangPRLCP25
+db/journals/cg/cg130.html#TorchelsenL25
+db/journals/tvcg/tvcg31.html#IwaiNPP25
