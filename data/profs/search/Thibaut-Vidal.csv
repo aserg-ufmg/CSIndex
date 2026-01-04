@@ -4,7 +4,6 @@
 2023,ICML,"Explainable Data-Driven Optimization: From Context to Decision and Back Again.",Alexandre Forel; Axel Parmentier; Thibaut Vidal,https://proceedings.mlr.press/v202/forel23a.html,top,C,no_arxiv,0
 2022,Inf. Sciences,"Semi-supervised clustering with inaccurate pairwise annotations.",Daniel Gribel; Michel Gendreau; Thibaut Vidal,https://doi.org/10.1016/j.ins.2022.05.035,null,J,no_arxiv,0
 2021,ICML,"Optimal Counterfactual Explanations in Tree Ensembles.",Axel Parmentier; Thibaut Vidal,http://proceedings.mlr.press/v139/parmentier21a.html,top,C,http://arxiv.org/abs/2106.06631v2,0
-2020,ICML,"Born-Again Tree Ensembles.",Thibaut Vidal; Maximilian Schiffer,http://proceedings.mlr.press/v119/vidal20a.html,top,C,no_arxiv,0
 2025,Computers & OR,"Influence optimization in networks: New formulations and valid inequalities.",Vinicius Ferreira; Artur Alves Pessoa; Thibaut Vidal,https://doi.org/10.1016/j.cor.2024.106857,null,J,http://arxiv.org/abs/2209.13065v1,0
 2025,EJOR,"A survey of contextual optimization methods for decision-making under uncertainty.",Utsav Sadana; Abhilash Reddy Chenreddy; Erick Delage; Alexandre Forel; Emma Frejinger; Thibaut Vidal,https://doi.org/10.1016/j.ejor.2024.03.020,null,J,no_arxiv,0
 2025,J Global Opt,"Support vector machines with the hard-margin loss: optimal training via combinatorial Benders' cuts.",Ítalo Santana; Breno Serrano; Maximilian Schiffer; Thibaut Vidal,https://doi.org/10.1007/s10898-025-01483-8,null,J,no_arxiv,0
@@ -20,11 +19,6 @@
 2022,Transp. Science,"Vehicle Routing with Stochastic Demands and Partial Reoptimization.",Alexandre M. Florio; Dominique Feillet; Marcus Poggi; Thibaut Vidal,https://doi.org/10.1287/trsc.2022.1129,null,J,http://arxiv.org/abs/2201.08866v1,0
 2021,Computers & OR,"A simple and effective hybrid genetic search for the job sequencing and tool switching problem.",Jordana Mecler; Anand Subramanian 0001; Thibaut Vidal,https://doi.org/10.1016/j.cor.2020.105153,null,J,http://arxiv.org/abs/1910.10021v1,0
 2021,Transp. Science,"Arc Routing with Time-Dependent Travel Times and Paths.",Thibaut Vidal; Rafael Martinelli; Tuan Anh Pham; Minh Hoàng Hà,https://doi.org/10.1287/trsc.2020.1035,null,J,no_arxiv,0
-2020,EJOR,"Industrial and tramp ship routing problems: Closing the gap for real-scale instances.",Gabriel Homsi; Rafael Martinelli; Thibaut Vidal; Kjetil Fagerholt,https://doi.org/10.1016/j.ejor.2019.11.068,null,J,no_arxiv,0
-2020,EJOR,"A concise guide to existing and emerging vehicle routing problem variants.",Thibaut Vidal; Gilbert Laporte; Piotr Matl,https://doi.org/10.1016/j.ejor.2019.10.010,null,J,http://arxiv.org/abs/1906.06750v2,0
-2020,EJOR,"The vehicle routing problem with arrival time diversification on a multigraph.",Adria Soriano; Thibaut Vidal; Margaretha Gansterer; Karl Doerner,https://doi.org/10.1016/j.ejor.2020.03.061,null,J,no_arxiv,0
-2020,EJOR,"On the exact solution of vehicle routing problems with backhauls.",Eduardo Queiroga; Yuri Frota; Ruslan Sadykov; Anand Subramanian 0001; Eduardo Uchoa; Thibaut Vidal,https://doi.org/10.1016/j.ejor.2020.04.047,null,J,no_arxiv,0
-2020,INFORMS J Compt,"Mathematical Models and Search Algorithms for the Capacitated -Center Problem.",Raphael Kramer; Manuel Iori; Thibaut Vidal,https://doi.org/10.1287/ijoc.2019.0889,top,J,no_arxiv,0
 2024,PR,"Regularization and optimization in model-based clustering.",Raphael Araujo Sampaio; Joaquim Dias Garcia; Marcus Poggi; Thibaut Vidal,https://doi.org/10.1016/j.patcog.2024.110310,null,J,no_arxiv,0
 2024,PR,"Community detection in the stochastic block model by mixed integer programming.",Breno Serrano; Thibaut Vidal,https://doi.org/10.1016/j.patcog.2024.110487,null,J,http://arxiv.org/abs/2101.12336v2,0
 2021,PR,"PILS: Exploring high-order neighborhoods by pattern mining and injection.",Florian Arnold; Ítalo Santana; Kenneth Sörensen; Thibaut Vidal,https://doi.org/10.1016/j.patcog.2021.107957,null,J,no_arxiv,0

@@ -5,4 +5,3 @@
 2022,GECCO,"Iterated local search with perturbation based on variables interaction for pseudo-boolean optimization.",Renato Tinós; Michal Witold Przewozniczek; Darrell Whitley,https://doi.org/10.1145/3512290.3528716,null,C,no_arxiv,0
 2021,GECCO,"An efficient implementation of iterative partial transcription for the traveling salesman problem.",Anirban Mukhopadhyay 0001; L. Darrell Whitley; Renato Tinós,https://doi.org/10.1145/3449639.3459368,null,C,no_arxiv,0
 2021,GECCO,"Partition crossover for continuous optimization: ePX.",Renato Tinós; Darrell Whitley; Francisco Chicano; Gabriela Ochoa,https://doi.org/10.1145/3449639.3459296,null,C,no_arxiv,0
-2020,Applied Soft Comput.,"Artificial neural network based crossover for evolutionary algorithms.",Renato Tinós,https://doi.org/10.1016/j.asoc.2020.106512,null,J,no_arxiv,0

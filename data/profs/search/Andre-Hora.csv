@@ -11,8 +11,3 @@
 2021,SPE,"APISonar: Mining API usage examples.",André C. Hora,https://doi.org/10.1002/spe.2906,null,J,no_arxiv,0
 2021,MSR,"Googling for Software Development: What Developers Search For and What They Find.",André C. Hora,https://doi.org/10.1109/MSR52588.2021.00044,null,C,no_arxiv,0
 2021,MSR,"What Code Is Deliberately Excluded from Test Coverage and Why?",André C. Hora,https://doi.org/10.1109/MSR52588.2021.00051,null,C,no_arxiv,0
-2020,EMSE,"You broke my code: understanding the motivations for breaking changes in APIs.",Aline Brito; Marco Túlio Valente; Laerte Xavier; André C. Hora,https://doi.org/10.1007/s10664-019-09756-z,null,J,no_arxiv,0
-2020,EMSE,"Characteristics of method extractions in Java: a large scale empirical study.",André C. Hora; Romain Robbes,https://doi.org/10.1007/s10664-020-09809-8,null,J,no_arxiv,0
-2020,SQJ,"What are the characteristics of popular APIs? A large-scale study on Java, Android, and 165 libraries.",Caroline Lima; André C. Hora,https://doi.org/10.1007/s11219-019-09476-z,null,J,no_arxiv,0
-2020,ICSME,"Assessing Mock Classes: An Empirical Study.",Gustavo Pereira; André C. Hora,https://doi.org/10.1109/ICSME46990.2020.00050,null,C,no_arxiv,0
-2020,SANER,"Refactoring Graphs: Assessing Refactoring over Time.",Aline Brito; André C. Hora; Marco Túlio Valente,https://doi.org/10.1109/SANER48275.2020.9054864,null,C,http://arxiv.org/abs/2003.04666v1,0

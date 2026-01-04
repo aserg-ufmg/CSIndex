@@ -1,5 +1,4 @@
 2022,NIPS/NeurIPS,"Decision Trees with Short Explainable Rules.",Victor Feitosa Souza; Ferdinando Cicalese; Eduardo Sany Laber; Marco Molinaro 0001,http://papers.nips.cc/paper_files/paper/2022/hash/500637d931d4feb99d5cce84af1f53ba-Abstract-Conference.html,top,C,no_arxiv,0
-2020,ICML,"Teaching with Limited Information on the Learner's Behaviour.",Ferdinando Cicalese; Sergio Filho; Eduardo Sany Laber; Marco Molinaro 0001,http://proceedings.mlr.press/v119/cicalese20a.html,top,C,no_arxiv,0
 2025,Math Program,"Information complexity of mixed-integer convex optimization.",Amitabh Basu; Hongyi Jiang; Phillip A. Kerger; Marco Molinaro 0001,https://doi.org/10.1007/s10107-024-02099-8,null,J,no_arxiv,0
 2024,Math Program,"A theoretical and computational analysis of full strong-branching.",Santanu S. Dey; Yatharth Dubey; Marco Molinaro 0001; Prachi Shah,https://doi.org/10.1007/s10107-023-01977-x,null,J,no_arxiv,0
 2023,Math OR,"Strong Convexity of Feasible Sets in Off-line and Online Optimization.",Marco Molinaro 0001,https://doi.org/10.1287/moor.2022.1285,top,J,no_arxiv,0
@@ -13,5 +12,4 @@
 2022,SODA,"Robust Secretary and Prophet Algorithms for Packing Integer Programs.",C. J. Argue; Anupam Gupta 0001; Marco Molinaro 0001; Sahil Singla 0001,https://doi.org/10.1137/1.9781611977073.53,top,C,http://arxiv.org/abs/2112.12920v1,0
 2021,SODA,"Branch-and-Bound Solves Random Binary IPs in Polytime.",Santanu S. Dey; Yatharth Dubey; Marco Molinaro 0001,https://doi.org/10.1137/1.9781611976465.35,top,C,no_arxiv,0
 2021,SODA,"Robust Algorithms for Online Convex Problems via Primal-Dual.",Marco Molinaro 0001,https://doi.org/10.1137/1.9781611976465.124,top,C,no_arxiv,0
-2020,ICALP,"Knapsack Secretary with Bursty Adversary.",Thomas Kesselheim; Marco Molinaro 0001,https://doi.org/10.4230/LIPIcs.ICALP.2020.72,null,C,http://arxiv.org/abs/2006.11607v1,0
 2023,PR,"Time-constrained learning.",Sérgio Freitas; Eduardo Sany Laber; Pedro Lazera; Marco Molinaro 0001,https://doi.org/10.1016/j.patcog.2023.109672,null,J,no_arxiv,0

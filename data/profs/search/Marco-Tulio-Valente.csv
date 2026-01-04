@@ -14,9 +14,3 @@
 2021,JSS,"Are game engines software frameworks? A three-perspective study.",Cristiano Politowski; Fábio Petrillo; João Eduardo Montandon; Marco Túlio Valente; Yann-Gaël Guéhéneuc,https://doi.org/10.1016/j.jss.2020.110846,null,J,no_arxiv,0
 2021,TSE,"RefDiff 2.0: A Multi-Language Refactoring Detection Tool.",Danilo Silva 0002; João Paulo da Silva; Gustavo Jansen de Souza Santos; Ricardo Terra; Marco Túlio Valente,https://doi.org/10.1109/TSE.2020.2968072,top,J,no_arxiv,0
 2021,ICPC,"RAID: Tool Support for Refactoring-Aware Code Reviews.",Rodrigo Brito; Marco Túlio Valente,https://doi.org/10.1109/ICPC52881.2021.00033,null,C,no_arxiv,0
-2020,EMSE,"You broke my code: understanding the motivations for breaking changes in APIs.",Aline Brito; Marco Túlio Valente; Laerte Xavier; André C. Hora,https://doi.org/10.1007/s10664-019-09756-z,null,J,no_arxiv,0
-2020,IST,"Is this GitHub project maintained? Measuring the level of maintenance activity of open-source projects.",Jailton Coelho; Marco Túlio Valente; Luciano Milen; Luciana Lourdes Silva,https://doi.org/10.1016/j.infsof.2020.106274,null,J,no_arxiv,0
-2020,SCP,"Prioritizing versions for performance regression testing: The Pharo case.",Juan Pablo Sandoval Alcocer; Alexandre Bergel; Marco Túlio Valente,https://doi.org/10.1016/j.scico.2020.102415,null,J,no_arxiv,0
-2020,ICSA,"REST vs GraphQL: A Controlled Experiment.",Gleison Brito; Marco Túlio Valente,https://doi.org/10.1109/ICSA47634.2020.00016,null,C,http://arxiv.org/abs/2003.04761v1,0
-2020,MSR,"Beyond the Code: Mining Self-Admitted Technical Debt in Issue Tracker Systems.",Laerte Xavier; Fabio Ferreira; Rodrigo Brito; Marco Túlio Valente,https://doi.org/10.1145/3379597.3387459,null,C,no_arxiv,0
-2020,SANER,"Refactoring Graphs: Assessing Refactoring over Time.",Aline Brito; André C. Hora; Marco Túlio Valente,https://doi.org/10.1109/SANER48275.2020.9054864,null,C,http://arxiv.org/abs/2003.04666v1,0

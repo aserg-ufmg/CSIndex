@@ -9,8 +9,8 @@ from difflib import SequenceMatcher
 import requests
 import xmltodict
 
-FIRST_YEAR = 2020
-LAST_YEAR = 2025
+FIRST_YEAR = 2021
+LAST_YEAR = 2026
 
 class Global:
     default_min_paper_size = 0
@@ -39,8 +39,12 @@ def init_manual_files():
          Global.manual_journals = mf.read().splitlines()
     reader = csv.reader(open('manual-classification.csv', 'r'))
     for row in reader:
-        m_area, _, _, _, m_url = row
-        Global.manual_classification[m_url] = m_area
+        try:
+          m_area, _, _, _, m_url = row
+          Global.manual_classification[m_url] = m_area
+        except ValueError as error:
+           print(f"Invalid line in manual-classification.csv ({row}): {error}")
+           break  
 
 def output_mc_failed(year, dblp_venue, title, url):
     if url in Global.multi_area_journal_list:

@@ -15,11 +15,3 @@
 2021,ECOOP,"Dealing with Variability in API Misuse Specification.",UnB,Rodrigo Bonifácio; Stefan Krüger; Krishna Narasimhan; Eric Bodden; Mira Mezini,https://doi.org/10.4230/LIPIcs.ECOOP.2021.19,null,C,http://arxiv.org/abs/2105.04950v2,0
 2021,OOPSLA,"VESPA: static profiling for binary optimization.",UFMG,Angelica Aparecida Moreira; Guilherme Ottoni; Fernando Magno Quintão Pereira,https://doi.org/10.1145/3485521,top,C,no_arxiv,0
 2021,SPE,"Practical dynamic reconstruction of control flow graphs.",UFMG,Andrei Rimsa; José Nelson Amaral; Fernando M. Q. Pereira,https://doi.org/10.1002/spe.2907,null,J,no_arxiv,0
-2020,OOPSLA,"Dynamic dispatch of context-sensitive optimizations.",UFMG,Gabriel Poesia; Fernando Magno Quintão Pereira,https://doi.org/10.1145/3428235,top,C,no_arxiv,0
-2020,OOPSLA,"Semiring optimizations: dynamic elision of expressions with identity and absorbing elements.",UFMG,Guilherme V. Leobas; Fernando Magno Quintão Pereira,https://doi.org/10.1145/3428199,top,C,no_arxiv,0
-2020,SCP,"A type-directed algorithm to generate random well-typed Java 8 programs.",UFPEL; UFOP,Samuel da Silva Feitosa; Rodrigo Geraldo Ribeiro; André Rauber Du Bois,https://doi.org/10.1016/j.scico.2020.102494,null,J,no_arxiv,0
-2020,SCP,"Automatic syntax error reporting and recovery in parsing expression grammars.",DCC/UFRJ; UFRN,Sérgio Queiroz de Medeiros; Gilney de Azevedo Alvez Junior; Fabio Mascarenhas,https://doi.org/10.1016/j.scico.2019.102373,null,J,http://arxiv.org/abs/1905.02145v2,0
-2020,SCP,"Guided just-in-time specialization.",UFMG,Caio Lima; Junio Cezar R. da Silva; Guilherme V. Leobas; Erven Rohou; Fernando Magno Quintão Pereira,https://doi.org/10.1016/j.scico.2019.102318,null,J,no_arxiv,0
-2020,SCP,"Pallene: A companion language for Lua.",PUC-Rio,Hugo Musso Gualandi; Roberto Ierusalimschy,https://doi.org/10.1016/j.scico.2020.102393,null,J,no_arxiv,0
-2020,SCP,"Revisiting monitors.",PUC-Rio,Renan Santos; Noemi de La Rocque Rodriguez; Roberto Ierusalimschy,https://doi.org/10.1016/j.scico.2020.102491,null,J,no_arxiv,0
-2020,TOPLAS,"Type Inference for C: Applications to the Static Analysis of Incomplete Programs.",UFMG; UFOP,Leandro T. C. Melo; Rodrigo Geraldo Ribeiro; Breno Campos Ferreira Guimarães; Fernando Magno Quintão Pereira,https://doi.org/10.1145/3421472,top,J,no_arxiv,0

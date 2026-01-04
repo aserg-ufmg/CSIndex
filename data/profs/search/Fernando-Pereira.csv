@@ -1,6 +1,5 @@
 2024,ACM TACO,"The Droplet Search Algorithm for Kernel Scheduling.",Michael Canesche; Vanderson Martins do Rosário; Edson Borin; Fernando Magno Quintão Pereira,https://doi.org/10.1145/3650109,top,J,no_arxiv,0
 2021,ACM TECS,"Mapping Computations in Heterogeneous Multicore Systems with Statistical Regression on Program Inputs.",Junio Cezar Ribeiro da Silva; Lorena Leão; Vinicius Petrucci; Abdoulaye Gamatié; Fernando Magno Quintão Pereira,https://doi.org/10.1145/3478288,top,J,no_arxiv,0
-2020,ICS,"AutoParBench: a unified test framework for OpenMP-based parallelizers.",Gleison Souza Diniz Mendonca; Chunhua Liao; Fernando Magno Quintão Pereira,https://doi.org/10.1145/3392717.3392744,null,C,no_arxiv,0
 2025,CGO,"Automatic Synthesis of Specialized Hash Functions.",Renato B. Hoffmann; Leonardo G. Faé; Dalvan Griebler; Xinliang David Li; Fernando Magno Quintão Pereira,https://doi.org/10.1145/3696443.3708940,null,C,no_arxiv,0
 2025,CGO,"Honey Potion: An eBPF Backend for Elixir.",Kael Soares Augusto; Vinícius Pacheco; Marcos A. M. Vieira; Rodrigo Geraldo Ribeiro; Fernando Magno Quintão Pereira,https://doi.org/10.1145/3696443.3708923,null,C,no_arxiv,0
 2023,TOPLAS,"Side-channel Elimination via Partial Control-flow Linearization.",Luigi Soares; Michael Canesche; Fernando Magno Quintão Pereira,https://doi.org/10.1145/3594736,top,J,no_arxiv,0
@@ -10,7 +9,3 @@
 2021,SPE,"Practical dynamic reconstruction of control flow graphs.",Andrei Rimsa; José Nelson Amaral; Fernando M. Q. Pereira,https://doi.org/10.1002/spe.2907,null,J,no_arxiv,0
 2021,CGO,"Memory-Safe Elimination of Side Channels.",Luigi Soares; Fernando Magno Quintão Pereira,https://doi.org/10.1109/CGO51591.2021.9370305,null,C,no_arxiv,0
 2021,CGO,"ANGHABENCH: A Suite with One Million Compilable C Benchmarks for Code-Size Reduction.",Anderson Faustino da Silva; Bruno Conde Kind; José Wesley de Souza Magalhães; Jerônimo Nunes Rocha; Breno Campos Ferreira Guimarães; Fernando Magno Quintão Pereira,https://doi.org/10.1109/CGO51591.2021.9370322,null,C,no_arxiv,0
-2020,OOPSLA,"Semiring optimizations: dynamic elision of expressions with identity and absorbing elements.",Guilherme V. Leobas; Fernando Magno Quintão Pereira,https://doi.org/10.1145/3428199,top,C,no_arxiv,0
-2020,OOPSLA,"Dynamic dispatch of context-sensitive optimizations.",Gabriel Poesia; Fernando Magno Quintão Pereira,https://doi.org/10.1145/3428235,top,C,no_arxiv,0
-2020,SCP,"Guided just-in-time specialization.",Caio Lima; Junio Cezar R. da Silva; Guilherme V. Leobas; Erven Rohou; Fernando Magno Quintão Pereira,https://doi.org/10.1016/j.scico.2019.102318,null,J,no_arxiv,0
-2020,TOPLAS,"Type Inference for C: Applications to the Static Analysis of Incomplete Programs.",Leandro T. C. Melo; Rodrigo Geraldo Ribeiro; Breno Campos Ferreira Guimarães; Fernando Magno Quintão Pereira,https://doi.org/10.1145/3421472,top,J,no_arxiv,0

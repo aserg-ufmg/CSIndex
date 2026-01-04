@@ -1,5 +1,29 @@
+theory,2020,"Theor. Comput. Sci.","Synthesis of a DNF formula from a sample of strings using Ehrenfeucht-Fraïssé games.",db/journals/tcs/tcs805.html#RochaMF20
+theory,2020,"Theor. Comput. Sci.","On the use of fitness landscape features in meta-learning based algorithm selection for the quadratic assignment problem.",db/journals/tcs/tcs805.html#DantasP20
+theory,2020,"Theor. Comput. Sci.","The graph tessellation cover number: Chromatic bounds, efficient algorithms and hardness.",db/journals/tcs/tcs801.html#AbreuCFKMPP20
+theory,2020,"Theor. Comput. Sci.","Reasoning in BDI agents using Toulmin's argumentation model.",db/journals/tcs/tcs805.html#GabrielPBAB20
+theory,2020,"Theor. Comput. Sci.","Algebraic graph rewriting with controlled embedding.",db/journals/tcs/tcs802.html#CorradiniDEPR20
+theory,2020,"Theor. Comput. Sci.","On the Carathéodory and exchange numbers of geodetic convexity in graphs.",db/journals/tcs/tcs804.html#AnandCCDNN20
+theory,2020,"Theor. Comput. Sci.","An evolutionary algorithm for automated machine learning focusing on classifier ensembles: An improved algorithm and extended results.",db/journals/tcs/tcs805.html#JuniorFLNB20
+se,2020,"J. Syst. Softw.","-inference: A heuristic approach to retrieve models through black box testing.",db/journals/jss/jss159.html#GrozBSO20
+se,2020,"J. Syst. Softw.","HSP: A hybrid selection and prioritisation of regression test cases based on information retrieval and code coverage applied on an industrial case study.",db/journals/jss/jss159.html#MagalhaesAPMBM20
+se,2020,"Sci. Comput. Program.","Automation and consistency analysis of test cases written in natural language: An industrial context.",db/journals/scp/scp189.html#ArrudaBS20
+se,2020,"Sci. Comput. Program.","Mutating code annotations: An empirical evaluation on Java and C# programs.",db/journals/scp/scp191.html#PinheiroVRFFGF20
 se,2018,"J. Syst. Softw.","Sustainability and longevity of systems and architectures.",db/journals/jss/jss140.html#NakagawaCWK18
+pl,2020,"Sci. Comput. Program.","Automatic syntax error reporting and recovery in parsing expression grammars.",db/journals/scp/scp187.html#MedeirosJM20
+pl,2020,"Sci. Comput. Program.","Guided just-in-time specialization.",db/journals/scp/scp185.html#LimaSLRP20
+se,2020,"Sci. Comput. Program.","A component-based framework for certification of components in a cloud of HPC services.",db/journals/scp/scp191.html#DantasJB20
 se,2019,"J. Syst. Softw.","Characterization of implied scenarios as families of common behavior.",db/journals/jss/jss158.html#MeloCR19
+se,2020,"J. Syst. Softw.","Google summer of code: Student motivations and contributions.",db/journals/jss/jss162.html#SilvaWGTGS20
+se,2020,"J. Syst. Softw.","Effects of contextual information on maintenance effort: A controlled experiment.",db/journals/jss/jss159.html#DAvilaFB20
+se,2020,"Sci. Comput. Program.","Prioritizing versions for performance regression testing: The Pharo case.",db/journals/scp/scp191.html#AlcocerBV20
+pl,2020,"Sci. Comput. Program.","Pallene: A companion language for Lua.",db/journals/scp/scp189.html#GualandiI20
+ds,2020,"J. Syst. Softw.","LAURA architecture: Towards a simpler way of building situation-aware and business-aware IoT applications.",db/journals/jss/jss161.html#TeixeiraAFRPCBM20
+se,2020,"Sci. Comput. Program.","On the verification of mission-related properties in software-intensive systems-of-systems architectural design.",db/journals/scp/scp192.html#SilvaBO20
+ds,2020,"Softw. Pract. Exp.","Orthogonal persistence in nonvolatile memory architectures: A persistent heap design and its implementation for a Java Virtual Machine.",db/journals/spe/spe50.html#PerezNMMR20
+ds,2020,"Softw. Pract. Exp.","MOAManager: A tool to support data stream experiments.",db/journals/spe/spe50.html#MacielSB20
+arch,2020,"Concurr. Comput. Pract. Exp.","Optimizing parameter sensitivity analysis of large-scale microscopy image analysis workflows with multilevel computation reuse.",db/journals/concurrency/concurrency32.html#BarreirosMKKMST20
+arch,2020,"Concurr. Comput. Pract. Exp.","Using GPU to accelerate the pairwise structural RNA alignment with base pair probabilities.",db/journals/concurrency/concurrency32.html#SundfeldTHGM20
 arch,2019,"Concurr. Comput. Pract. Exp.","MASA-OpenCL: Parallel pruned comparison of long DNA sequences with OpenCL.",db/journals/concurrency/concurrency31.html#FigueiredoSRTM19
 ds,2019,"Concurr. Comput. Pract. Exp.","Statistical analysis of Amazon EC2 cloud pricing models.",db/journals/concurrency/concurrency31.html#PortellaRNM19
 arch,2019,"Concurr. Comput. Pract. Exp.","On the parallelization of Hirschberg's algorithm for multi-core and many-core systems.",db/journals/concurrency/concurrency31.html#JrSR19
@@ -10,11 +34,14 @@ arch,2019,"Concurr. Comput. Pract. Exp.","DaC-Join: A join operator for improvin
 arch,2019,"Concurr. Comput. Pract. Exp.","A comprehensive performance evaluation of the BinLPT workload-aware loop scheduler.",db/journals/concurrency/concurrency31.html#PennaGCPFBM19
 arch,2019,"Concurr. Comput. Pract. Exp.","Optimizing multi-tier application performance with interference and affinity-aware placement algorithms.",db/journals/concurrency/concurrency31.html#LudwigXKCR19
 arch,2019,"Concurr. Comput. Pract. Exp.","New advances in high-performance computing systems.",db/journals/concurrency/concurrency31.html#BoeresBM19
+arch,2020,"Concurr. Comput. Pract. Exp.","OLAP parallel query processing in clouds with C-ParGRES.",db/journals/concurrency/concurrency32.html#RibeiroLO20
 arch,2019,"Concurr. Comput. Pract. Exp.","A hybrid CPU-GPU-MIC algorithm for minimal hitting set enumeration.",db/journals/concurrency/concurrency31.html#Carastan-Santos19
 arch,2019,"Concurr. Comput. Pract. Exp.","Optimized implementation of QC-MDPC code-based cryptography.",db/journals/concurrency/concurrency31.html#GuimaraesAB19
 ds,2019,"Concurr. Comput. Pract. Exp.","Measuring the impact of data center failures on a cloud-based emergency medical call system.",db/journals/concurrency/concurrency31.html#GomesSRGMKSE19
+arch,2020,"Concurr. Comput. Pract. Exp.","Accelerating simulations of cardiac electrical dynamics through a multi-GPU platform and an optimized data structure.",db/journals/concurrency/concurrency32.html#VasconcellosCFZ20
 arch,2019,"Concurr. Comput. Pract. Exp.","Maximizing the GPU resource usage by reordering concurrent kernels submission.",db/journals/concurrency/concurrency31.html#CruzBLVCCD19
 arch,2019,"Concurr. Comput. Pract. Exp.","Evaluating optimizations that reduce global memory accesses of stencil computations in GPGPUs.",db/journals/concurrency/concurrency31.html#NasciuttiPL19
+arch,2020,"Concurr. Comput. Pract. Exp.","Fully automatic model-based segmentation and classification approach for MRI brain tumor using artificial neural networks.",db/journals/concurrency/concurrency32.html#NMMIRA20
 arch,2019,"Concurr. Comput. Pract. Exp.","Measuring the impact of data center failures on a cloud-based emergency medical call system.",db/journals/concurrency/concurrency31.html#GomesSRGMKSE19
 arch,2019,"Concurr. Comput. Pract. Exp.","Performance modeling of a geophysics application to accelerate over-decomposition parameter tuning through simulation.",db/journals/concurrency/concurrency31.html#TesserSLHDN19
 ds,2019,"Concurr. Comput. Pract. Exp.","RT-JADE: A preemptive real-time scheduling middleware for mobile agents.",db/journals/concurrency/concurrency31.html#FilgueirasRRSN19
@@ -23,8 +50,41 @@ arch,2019,"Concurr. Comput. Pract. Exp.","Toward a monitoring and threat detecti
 arch,2019,"Concurr. Comput. Pract. Exp.","A comprehensive performance evaluation of the BinLPT workload-aware loop scheduler.",db/journals/concurrency/concurrency31.html#PennaGCPFBM19
 arch,2019,"Concurr. Comput. Pract. Exp.","Energy efficiency and I/O performance of low-power architectures.",db/journals/concurrency/concurrency31.html#PavanLMBPBNM19
 arch,2019,"Concurr. Comput. Pract. Exp.","Parallel rule-based selective sampling and on-demand learning to rank.",db/journals/concurrency/concurrency31.html#FreitasSMRSG19
+theory,2020,"Theor. Comput. Sci.","Practical regular expression constrained sequence alignment.",db/journals/tcs/tcs815.html#NavarreteT20
+ds,2020,"Softw. Pract. Exp.","Optimizing computational resource management for the scientific gateways ecosystems based on the service-oriented paradigm.",db/journals/spe/spe50.html#OliveiraEDPCDR20
+ds,2020,"J. Syst. Softw.","Scalability Assessment of Microservice Architecture Deployment Configurations: A Domain-based Approach Leveraging Operational Profiles and Load Tests.",db/journals/jss/jss165.html#AvritzerFJRHSMR20
+ds,2020,"Softw. Pract. Exp.","Availability analysis of design configurations to compose virtual performance-optimized data center systems in next-generation cloud data centers.",db/journals/spe/spe50.html#RosendoGSSMKSGM20
+se,2020,"J. Syst. Softw.","Leading successful government-academia collaborations using FLOSS and agile values.",db/journals/jss/jss164.html#WenSLCTKM20
+ds,2020,"Concurr. Comput. Pract. Exp.","ControlChain: A new stage on the IoT access control authorization.",db/journals/concurrency/concurrency32.html#PinnoGB20
+ds,2020,"Concurr. Comput. Pract. Exp.","An adaptive replica placement approach for distributed key-value stores.",db/journals/concurrency/concurrency32.html#FilhoCMM20
+ds,2020,"Softw. Pract. Exp.","A real-time attack defense framework for 5G network slicing.",db/journals/spe/spe50.html#BonfimSDF20
+se,2020,"J. Syst. Softw.","A refinement checking based strategy for component-based systems evolution.",db/journals/jss/jss167.html#DihegoSO20
+se,2020,"J. Syst. Softw.","When to update systematic literature reviews in software engineering.",db/journals/jss/jss167.html#MendesWFK20
+se,2020,"J. Syst. Softw.","Model-based testing of software product lines: Mapping study and research roadmap.",db/journals/jss/jss167.html#PetryOZ20
+se,2020,"J. Syst. Softw.","Code smells and refactoring: A tertiary systematic review of challenges and observations.",db/journals/jss/jss167.html#LacerdaPPG20
+ds,2020,"Concurr. Comput. Pract. Exp.","A unified model for accelerating unsupervised iterative re-ranking algorithms.",db/journals/concurrency/concurrency32.html#PisaniVPTBB20
+ds,2020,"Concurr. Comput. Pract. Exp.","Machine learning algorithms to detect DDoS attacks in SDN.",db/journals/concurrency/concurrency32.html#SantosSSRM20
+theory,2020,"Theor. Comput. Sci.","PSPACE-completeness of two graph coloring games.",db/journals/tcs/tcs824.html#CostaPSS20
+pl,2020,"Sci. Comput. Program.","A type-directed algorithm to generate random well-typed Java 8 programs.",db/journals/scp/scp196.html#FeitosaRB20
+formal,2020,"Sci. Comput. Program.","Use case evolution analysis based on graph transformation with negative application conditions.",db/journals/scp/scp198.html#0001DMCCB20
+ds,2020,"J. Syst. Softw.","Towards the adoption of OMG standards in the development of SOA-based IoT systems.",db/journals/jss/jss169.html#CostaPD20
+se,2020,"J. Syst. Softw.","SpongeBugs: Automatically generating fix suggestions in response to static code analysis warnings.",db/journals/jss/jss168.html#MarcilioFBP20
+se,2020,"J. Syst. Softw.","PRISE: A process to support iStar extensions.",db/journals/jss/jss168.html#GoncalvesAC20
+formal,2020,"Sci. Comput. Program.","The CLEARSY safety platform: 5 years of research, development and deployment.",db/journals/scp/scp199.html#LecomteDFO20
+formal,2020,"Sci. Comput. Program.","Formalizing the dependency pair criterion for innermost termination.",db/journals/scp/scp195.html#AlmeidaA20
+pl,2020,"Sci. Comput. Program.","Revisiting monitors.",db/journals/scp/scp196.html#SantosRI20
+se,2020,"Softw. Pract. Exp.","Privacy and security constraints for code contributions.",db/journals/spe/spe50.html#AndradeB20
+se,2020,"Sci. Comput. Program.","A domain-specific language for verifying software requirement constraints.",db/journals/scp/scp197.html#VidalMR20
+arch,2020,"Concurr. Comput. Pract. Exp.","Static job scheduling for environments with vertical elasticity.",db/journals/concurrency/concurrency32.html#KlohRBSF20
+arch,2020,"Concurr. Comput. Pract. Exp.","High-performance computing for computational science.",db/journals/concurrency/concurrency32.html#CostaS20
+arch,2020,"Concurr. Comput. Pract. Exp.","Performance evaluation of single vs. batch of queries on GPUs.",db/journals/concurrency/concurrency32.html#GaiosoCGS20
+arch,2020,"Concurr. Comput. Pract. Exp.","Task-based parallel strategies for computational fluid dynamic application in heterogeneous CPU/GPU resources.",db/journals/concurrency/concurrency32.html#NesiSSN20
+theory,2020,"Theor. Comput. Sci.","Synthesis of quantifier-free DNF sentences from inconsistent samples of strings with EF games and SAT.",db/journals/tcs/tcs843.html#RochaMF20a
+theory,2020,"Theor. Comput. Sci.","Randomized approximation scheme for Steiner Multi Cycle in the Euclidean plane.",db/journals/tcs/tcs835.html#LintzmayerMMX20
+theory,2020,"Theor. Comput. Sci.","Computing the hull number in Δ-convexity.",db/journals/tcs/tcs844.html#AnandACDR20
 formal,2021,"Sci. Comput. Program.","A family of multi-concept program synthesisers in Alloy.",db/journals/scp/scp201.html#CorreiaIM21
 formal,2021,"Sci. Comput. Program.","Validating, verifying and testing timed data-flow reactive systems in Coq from controlled natural-language requirements.",db/journals/scp/scp201.html#CarvalhoM21
+ds,2020,"Softw. Pract. Exp.","Analyzing spatial analytics systems based on Hadoop and Spark: A user perspective.",db/journals/spe/spe50.html#CastroCC20
 se,2021,"J. Syst. Softw.","Accessibility and Software Engineering Processes: A Systematic Literature Review.",db/journals/jss/jss171.html#PaivaFF21
 se,2021,"J. Syst. Softw.","Are game engines software frameworks? A three-perspective study.",db/journals/jss/jss171.html#PolitowskiPMVG21
 theory,2021,"Theor. Comput. Sci.","Local-entity resolution for building location-based social networks by using stay points.",db/journals/tcs/tcs851.html#MinatelFL21
@@ -82,6 +142,7 @@ se,2022,"J. Syst. Softw.","Prevalence, common causes and effects of technical de
 se,2022,"J. Syst. Softw.","Architectural conformance checking for KDM-represented systems.",db/journals/jss/jss183.html#LandiMSCDC22
 ds,2021,"Concurr. Comput. Pract. Exp.","Wild boar recognition using convolutional neural networks.",db/journals/concurrency/concurrency33.html#JuniorPOAPB21
 ds,2021,"Concurr. Comput. Pract. Exp.","Improved publicly verifiable auditing protocol for cloud storage.",db/journals/concurrency/concurrency33.html#ZhangLONSW21
+ds,2020,"Concurr. Comput. Pract. Exp.","An evaluation of MPI and OpenMP paradigms in finite-difference explicit methods for PDEs on shared-memory multi- and manycore systems.",db/journals/concurrency/concurrency32.html#CabralOOCBK20
 se,2022,"Softw. Pract. Exp.","How the adoption of feature toggles correlates with branch merges and defects in open-source projects?",db/journals/spe/spe52.html#PrutchiJM22
 ds,2022,"Concurr. Comput. Pract. Exp.","A fast and accurate threat detection and prevention architecture using stream processing.",db/journals/concurrency/concurrency34.html#LobatoLCDP22
 formal,2022,"Sci. Comput. Program.","A two-level formal model for Big Data processing programs.",db/journals/scp/scp215.html#NetoMVM22
@@ -141,6 +202,7 @@ pl,2023,"ACM Trans. Archit. Code Optim.","Source Matching and Rewriting for MLIR
 se,2021,"J. Syst. Softw.","Learning software configuration spaces: A systematic literature review.",db/journals/jss/jss182.html#PereiraAMJBV21
 se,2018,"J. Syst. Softw.","A systematic literature review on the semi-automatic configuration of extended product lines.",db/journals/jss/jss144.html#OchoaRPCS18
 se,2021,"J. Syst. Softw.","Synthesizing researches on Knowledge Management and Agile Software Development using the Meta-ethnography method.",db/journals/jss/jss178.html#NapoleaoSRFMV21
+se,2020,"J. Syst. Softw.","Secondary studies in the academic context: A systematic mapping and survey.",db/journals/jss/jss170.html#FelizardoSNVB20
 se,2023,"J. Syst. Softw.","Snapshot testing in practice: Benefits and drawbacks.",db/journals/jss/jss204.html#CruzRV23
 se,2023,"J. Syst. Softw.","How do microservices evolve? An empirical analysis of changes in open-source microservice repositories.",db/journals/jss/jss204.html#AssuncaoKMS23
 ds,2023,"Concurr. Comput. Pract. Exp.","AFMC: An alignment framework for multiple computing services and providers.",db/journals/concurrency/concurrency35.html#CarvalhoMA23
@@ -215,6 +277,7 @@ ds,2025,"Concurr. Comput. Pract. Exp.","Optimized Execution of a Numerical Weath
 theory,2025,"Theor. Comput. Sci.","On Conflict-Free Spanning Tree: Mapping tractable and hard instances through the lenses of graph classes.",db/journals/tcs/tcs1031.html#BarrosOPS25
 theory,2025,"Theor. Comput. Sci.","Oracle separations for non-adaptive collapse-free quantum computing.",db/journals/tcs/tcs1030.html#HeppSZ25
 se,2024,"J. Syst. Softw.","The effects of required security on software development effort.",db/journals/jss/jss207.html#VensonCB24
+theory,2020,"Theor. Comput. Sci.","Image quality assessment using BSIF, CLBP, LCP, and LPQ operators.",db/journals/tcs/tcs805.html#FreitasESF20
 ds,2025,"Softw. Pract. Exp.","Cosim-Gres: Towards Similarity Queries Optimization Inside RDBMS.",db/journals/spe/spe55.html#EleuterioOTVSTT25
 se,2025,"J. Syst. Softw.","METFORD - Mutation tEsTing Framework fOR anDroid.",db/journals/jss/jss222.html#VincenziKBVMAP25
 se,2025,"J. Syst. Softw.","UX-work related needs in software startups: Diagnosis and resolution.",db/journals/jss/jss230.html#ChomaSMBSZ25
